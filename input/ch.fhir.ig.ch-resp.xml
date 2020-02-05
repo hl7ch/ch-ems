@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ch.fhir.ig.ch-ig"/>
+  <id value="ch.fhir.ig.ch-resp"/>
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      ImplementationGuide for CH-IG
+      ImplementationGuide for CH-RESP
     </div>
   </text>
-  <url value="http://fhir.ch/ig/ch-ig/ImplementationGuide/ch.fhir.ig.ch-ig"/>
+  <url value="http://fhir.ch/ig/ch-resp/ImplementationGuide/ch.fhir.ig.ch-resp"/>
   <version value="0.0.1"/>
-  <name value="CH_IG"/>
-  <title value="CH-IG"/>
+  <name value="CH_RESP"/>
+  <title value="CH-RESP"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2019-07-02"/>
+  <date value="2020-02-05"/>
   <publisher value="HL7 Switzerland"/>
   <contact>
     <name value="HL7 Switzerland"/>
@@ -30,7 +30,7 @@
     </coding>
   </jurisdiction>
   <copyright value="CC-BY-SA-4.0"/>
-  <packageId value="ch.fhir.ig.ch-ig"/>
+  <packageId value="ch.fhir.ig.ch-resp"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
   <definition>
@@ -41,7 +41,7 @@
       </reference>
       <name value="Zuweisung"/>
       <description value="Example for Composition"/>
-      <exampleCanonical value="StructureDefinition/ch-ig-composition"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-composition"/>
     </resource>
     <resource>
       <reference>
@@ -49,35 +49,19 @@
       </reference>
       <name value="FranzMuster"/>
       <description value="Example for Patient"/>
-      <exampleCanonical value="StructureDefinition/ch-ig-patient"/>
-    </resource>
-
-    <!-- References to code systems -->
-    <resource>
-      <reference>
-        <reference value="CodeSystem/ig-example"/>
-      </reference>
-      <exampleBoolean value="false"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-patient"/>
     </resource>
 
     <!-- References to structure definitions -->
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-ig-composition"/>
+        <reference value="StructureDefinition/ch-resp-composition"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-ig-patient"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-
-    <!-- References to value sets -->
-    <resource>
-      <reference>
-        <reference value="ValueSet/ig-example"/>
+        <reference value="StructureDefinition/ch-resp-patient"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -92,6 +76,21 @@
         <title value="Home"/>
         <generation value="markdown"/>
       </page>
+      <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Profiles"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="extensions.html"/>
+        <title value="Extensions"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="terminology.html"/>
+        <title value="Terminology"/>
+        <generation value="html"/>
+      </page>
     </page>
     <parameter>
       <code value="releaselabel"/>
@@ -103,7 +102,7 @@
     </parameter>
     <parameter>
       <code value="copyrightyear"/>
-      <value value="2019+"/>
+      <value value="2020+"/>
     </parameter>
   </definition>
 </ImplementationGuide>
