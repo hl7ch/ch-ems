@@ -81,6 +81,12 @@
     <!-- References to structure definitions -->
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-resp-bundle"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-resp-composition"/>
       </reference>
       <exampleBoolean value="false"/>
