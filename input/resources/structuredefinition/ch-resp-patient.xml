@@ -7,15 +7,15 @@
     <title value="CH RESP Patient Profile"/>
     <status value="draft"/>
     <date value="2020-02-05T00:00:00+10:00"/>
-    <publisher value="HL7 Switzerland"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
     <contact>
-        <name value="HL7 Switzerland"/>
+        <name value="eCH Fachgruppe eHealth"/>
         <telecom>
             <system value="url"/>
-            <value value="https://www.hl7.ch/"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
         </telecom>
     </contact>
-    <description value="CH RESP patient definition"/>
+    <description value="Definition of the patient for the use of the rescue protection protocol"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -26,7 +26,7 @@
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Patient"/>
-    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Patient">

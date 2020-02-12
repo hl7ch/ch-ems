@@ -1,3 +1,18 @@
 ### Introduction
+CH-RESP is a FHIR implementation guide for the use of the rescue protection protocol.
 
-CH-RESP is a FHIR implementation guide for the rescue protection protocol.
+
+### Scope
+* [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatypes for the use of the rescue protection protocol
+* [Extensions](extensions.html) - are FHIR extensions that are added for the use of the rescue protection protocol
+* [Terminologies](terminology.html) - are defined or referenced code systems and value sets for the use of the rescue protection protocol 
+
+
+### Copyright
+This artefact includes content from SNOMED Clinical Terms&reg; (SNOMED CT&reg;) which is copyright of the 
+International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must 
+have the appropriate SNOMED CT Affiliate license - for more information contact 
+http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.
+
+This artefact includes content from LOINC®. This content LOINC® is copyright © 1995 Regenstrief Institute, 
+Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use.

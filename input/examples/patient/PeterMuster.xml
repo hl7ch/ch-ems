@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="PeterMuster"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+  </meta>
+  <identifier>
+    <!-- cdachresp-dataelement-135 navs13 -->
+    <system value="urn:oid:2.16.756.5.32"/>
+    <value value="7560123123499"/>
+  </identifier>
+  <identifier>
+    <!-- OID SRZ, here dummy -->
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="MR"/>
+      </coding>
+    </type>
+    <system value="urn:oid:2.16.756.5.30.1.9999999999.2"/>
+    <value value="762354"/>
+  </identifier>
+  <name>
+    <family value="Muster"/>
+    <given value="Peter"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1961-10-01"/>
+  <address>
+    <use value="home"/>
+    <line value="Bahnhofstrasse"/>
+    <line value="1"/>
+    <city value="Zürich"/>
+    <postalCode value="8003"/>
+    <country value="CH"/>
+  </address>
+</Patient>

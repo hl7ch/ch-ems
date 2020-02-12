@@ -15,12 +15,12 @@
   <status value="active"/>
   <experimental value="false"/>
   <date value="2020-02-05"/>
-  <publisher value="HL7 Switzerland"/>
+  <publisher value="eCH Fachgruppe eHealth"/>
   <contact>
-    <name value="HL7 Switzerland"/>
+    <name value="eCH Fachgruppe eHealth"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.hl7.ch/"/>
+      <value value="https://www.ech.ch/de/node/36373/"/>
     </telecom>
   </contact>
   <jurisdiction>
@@ -33,21 +33,31 @@
   <packageId value="ch.fhir.ig.ch-resp"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="chcore">
+    <uri value="http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core"/>
+    <packageId value="ch.fhir.ig.ch-core"/>
+    <version value="current"/>
+  </dependsOn>
+  <dependsOn id="cheprterm">
+    <uri value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term"/>
+    <packageId value="ch.fhir.ig.ch-epr-term"/>
+    <version value="current"/>
+  </dependsOn>
   <definition>
     <!-- References to examples -->
     <resource>
       <reference>
-        <reference value="Composition/Zuweisung"/>
+        <reference value="Composition/1-Einsatzprotokoll"/>
       </reference>
-      <name value="Zuweisung"/>
+      <name value="1-Einsatzprotokoll"/>
       <description value="Example for Composition"/>
       <exampleCanonical value="StructureDefinition/ch-resp-composition"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Patient/FranzMuster"/>
+        <reference value="Patient/PeterMuster"/>
       </reference>
-      <name value="FranzMuster"/>
+      <name value="Peter Muster"/>
       <description value="Example for Patient"/>
       <exampleCanonical value="StructureDefinition/ch-resp-patient"/>
     </resource>

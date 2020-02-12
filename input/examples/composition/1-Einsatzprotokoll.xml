@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="1-Einsatzprotokoll"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-composition"/>
+  </meta>
+  <language value="de-CH"/>
+  <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
+    <valueIdentifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:uuid:658ab5ea-1f63-11f6-b6ba-3e1d05defe78"/>
+    </valueIdentifier>
+  </extension>
+  <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient">
+    <valueReference>
+      <reference value="Practitioner/HansSpezialarzt"/>
+    </valueReference>
+  </extension>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:658ab5ea-1f63-11f6-b6ba-3e1d05defe78"/>
+  </identifier>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="67796-3"/>
+      <display value="EMS Patient Care Report"/>
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="371535009"/>
+      <display value="Transfer summary report"/>
+    </coding>
+  </type>
+  <!-- CDA: recordTarget -->
+  <subject>
+    <reference value="Patient/PeterMuster"/>
+  </subject>
+  <date value="2016-12-10T12:05:00+01:00"/>
+  <author>
+    <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time">
+      <valueDateTime value="2016-12-10T12:13:05+01:00"/>
+    </extension>
+    <reference value="Practitioner/PetraMuster"/>
+  </author>
+  <title value="Einsatzprotokoll"/>
+  <confidentiality value="N">
+    <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="17621005"/>
+          <display value="Normal"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </confidentiality>
+  <custodian>
+    <reference value="Organization/SchutzRettungZürich"/>
+  </custodian>
+  <!-- Section Kommentar -->
+  <section>
+    <title value="Kommentar"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48767-8"/>
+        <display value="Annotation comment [Interpretation] Narrative"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span id="co1"> - </span>
+      </div>
+    </text>
+  </section>
+  <!-- Section Einsatz -->
+  <section>
+    <title value="Einsatz"/>
+    <code>
+      <coding>
+        <system value="IVR Codesystem RESP 2.16.756.5.30.1.143.5.1"/>
+        <!-- TBD -->
+        <code value="1100001"/>
+        <display value="Einsatz"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <table>
+          <thead>
+            <tr>
+              <th>Alarm</th>
+              <th>Status DP</th>
+              <th>Status 1</th>
+              <th>Status 2</th>
+              <th>Kontakt Patient</th>
+              <th>Status 3</th>
+              <th>Status 4</th>
+              <th>Status 5</th>
+              <th>Status 6</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="alarm">12.09</td>
+              <td id="disposition">12.11</td>
+              <td id="rollout">12.13</td>
+              <td id="arrivalonscene">12.17</td>
+              <td id="arrivalpatient">12.22</td>
+              <td id="departurefromscene">12.48</td>
+              <td id="arrivalattarget">12.54</td>
+              <td id="departurefromtarget"></td>
+              <td id="operationalreadiness"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </text>
+    <entry>
+      <reference value="TBD/TBD"/>
+    </entry>
+  </section>
+</Composition>
