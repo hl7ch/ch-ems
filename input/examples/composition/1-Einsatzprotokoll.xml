@@ -4,31 +4,38 @@
   <meta>
     <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-composition"/>
   </meta>
+
   <language value="de-CH"/>
+  
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
     <valueIdentifier>
       <system value="urn:ietf:rfc:3986"/>
       <value value="urn:uuid:658ab5ea-1f63-11f6-b6ba-3e1d05defe78"/>
     </valueIdentifier>
   </extension>
+  
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
     <valueInteger value="1"/>
   </extension>
+  
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient">
     <valueReference>
       <reference value="Practitioner/HansSpezialarzt"/>
     </valueReference>
   </extension>
+  
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:uuid:658ab5ea-1f63-11f6-b6ba-3e1d05defe78"/>
   </identifier>
+  
   <status value="final"/>
+  
   <type>
     <coding>
       <system value="http://loinc.org"/>
       <code value="67796-3"/>
-      <display value="EMS Patient Care Report"/>
+      <display value="EMS patient care report - version 3 Document NEMSIS"/>
     </coding>
     <coding>
       <system value="http://snomed.info/sct"/>
@@ -36,18 +43,29 @@
       <display value="Transfer summary report"/>
     </coding>
   </type>
+
   <!-- CDA: recordTarget -->
   <subject>
     <reference value="Patient/PeterMuster"/>
   </subject>
+  
   <date value="2016-12-10T12:05:00+01:00"/>
+  
+  <!-- CDA: author.assignedAuthor-->
   <author>
     <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time">
       <valueDateTime value="2016-12-10T12:13:05+01:00"/>
     </extension>
     <reference value="Practitioner/PetraMuster"/>
   </author>
+  
+  <!--CDA: author.functionCode -->
+  <author>
+    <reference value="PractitionerRole/PetraMusterRole"/>
+  </author>
+
   <title value="Einsatzprotokoll"/>
+  
   <confidentiality value="N">
     <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode">
       <valueCodeableConcept>
@@ -59,9 +77,11 @@
       </valueCodeableConcept>
     </extension>
   </confidentiality>
+
   <custodian>
     <reference value="Organization/SchutzRettungZürich"/>
   </custodian>
+
   <!-- Section Kommentar -->
   <section>
     <title value="Kommentar"/>
@@ -79,6 +99,7 @@
       </div>
     </text>
   </section>
+
   <!-- Section Einsatz -->
   <section>
     <title value="Einsatz"/>

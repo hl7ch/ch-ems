@@ -61,6 +61,22 @@
       <description value="Example for Patient"/>
       <exampleCanonical value="StructureDefinition/ch-resp-patient"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="Practitioner/PetraMuster"/>
+      </reference>
+      <name value="Petra Muster"/>
+      <description value="Example for Practitioner (Paramedic)"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="PractitionerRole/PetraMusterRole"/>
+      </reference>
+      <name value="Petra Muster Role"/>
+      <description value="Example for Practitioner Role (Healthcare Professional)"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-practitionerrole"/>
+    </resource>
 
     <!-- References to structure definitions -->
     <resource>
@@ -72,6 +88,18 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-resp-patient"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-practitioner"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-practitionerrole"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
