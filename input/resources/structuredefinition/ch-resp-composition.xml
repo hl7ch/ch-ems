@@ -33,8 +33,16 @@
             <path value="Composition"/>
             <short value="CH RESP Composition"/>
         </element>
+        <element id="Composition.type">
+            <path value="Composition.status"/>
+        </element>
+        <element id="Composition.type">
+            <path value="Composition.type"/>
+        </element>
         <element id="Composition.subject">
             <path value="Composition.subject"/>
+            <short value="A human patient for whom this document instance was created"/>
+            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
@@ -43,6 +51,15 @@
         <element id="Composition.subject.reference">
             <path value="Composition.subject.reference"/>
             <min value="1"/>
+        </element>
+        <element id="Composition.date">
+            <path value="Composition.date"/>
+        </element>
+        <element id="Composition.author">
+            <path value="Composition.author"/>
+        </element>
+        <element id="Composition.title">
+            <path value="Composition.title"/>
         </element>
     </differential>
 </StructureDefinition>

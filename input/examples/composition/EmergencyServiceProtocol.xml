@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="EmergencyServiceProtocol"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-composition"/>
+  </meta>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="67796-3"/>
+      <display value="EMS patient care report - version 3 Document NEMSIS"/>
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="371535009"/>
+      <display value="Transfer summary report"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/PeterMuster"/>
+  </subject>
+  <date value="2020-02-17T10:00:00+01:00"/>
+  <author>
+    <reference value="Practitioner/PetraMuster"/>
+  </author>
+  <title value="Einsatzprotokoll"/>
+</Composition>

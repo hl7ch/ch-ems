@@ -1,0 +1,42 @@
+@host = http://test.fhir.ch/r4
+
+
+###
+PUT {{host}}/Patient/PeterMuster-1-Einsatzprotokoll HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./patient/PeterMuster-1-Einsatzprotokoll.xml
+
+###
+PUT {{host}}/Patient/PeterMuster HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./patient/PeterMuster.xml
+
+
+###
+PUT {{host}}/Composition/1-Einsatzprotokoll HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/1-Einsatzprotokoll.xml
+
+###
+PUT {{host}}/Composition/EmergencyServiceProtocol HTTP/1.1
+Content-Type: application/fhir+xml
+
+< ./composition/EmergencyServiceProtocol.xml
+
+
+
+###
+GET {{host}}/Patient/PeterMuster HTTP/1.1
+Content-Type: application/fhir+xml
+
+
+###
+GET {{host}}/Composition/1-Einsatzprotokoll/$document HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET {{host}}/Composition/EmergencyServiceProtocol/$document HTTP/1.1
+Content-Type: application/fhir+xml

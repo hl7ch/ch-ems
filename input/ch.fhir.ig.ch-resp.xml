@@ -45,6 +45,14 @@
   </dependsOn>
   <definition>
     <!-- References to examples -->
+    <!--<resource>
+      <reference>
+        <reference value="Bundle/EmergencyServiceProtocol"/>
+      </reference>
+      <name value="Emergency Service Protocol"/>
+      <description value="Example for Composition"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-bundle"/>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Composition/1-Einsatzprotokoll"/>
@@ -52,6 +60,22 @@
       <name value="1-Einsatzprotokoll"/>
       <description value="Example for Composition"/>
       <exampleCanonical value="StructureDefinition/ch-resp-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/EmergencyServiceProtocol"/>
+      </reference>
+      <name value="Emergency Service Protocol"/>
+      <description value="Example for Composition"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Patient/PeterMuster-1-Einsatzprotokoll"/>
+      </reference>
+      <name value="Peter Muster (1-Einsatzprotokoll)"/>
+      <description value="Example for Patient, used in the 1-Einsatzprotokoll"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-patient"/>
     </resource>
     <resource>
       <reference>
