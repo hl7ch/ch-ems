@@ -10,20 +10,32 @@
     <coding>
       <system value="http://loinc.org"/>
       <code value="67796-3"/>
-      <display value="EMS patient care report - version 3 Document NEMSIS"/>
-    </coding>
-    <coding>
-      <system value="http://snomed.info/sct"/>
-      <code value="371535009"/>
-      <display value="Transfer summary report"/>
+      <display value="EMS Patient Care Report"/>
     </coding>
   </type>
   <subject>
     <reference value="Patient/PeterMuster"/>
   </subject>
-  <date value="2020-02-17T10:00:00+01:00"/>
+  <date value="2016-01-02T10:00:00+01:00"/>
   <author>
     <reference value="Practitioner/PetraMuster"/>
   </author>
-  <title value="Einsatzprotokoll"/>
+  <title value="EmergencyServiceProtocol"/>
+  <section>
+    <title value="Einsatz"/>
+    <code>
+      <coding>
+        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <code value="1100001"/>
+        <display value="Einsatz"/>
+      </coding>
+    </code>
+    <text>
+      <status value="additional"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> TBD </div>
+    </text>
+    <entry>
+      <reference value="Encounter/Einsatz"/>
+    </entry>
+  </section>
 </Composition>

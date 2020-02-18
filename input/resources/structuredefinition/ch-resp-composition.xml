@@ -33,11 +33,20 @@
             <path value="Composition"/>
             <short value="CH RESP Composition"/>
         </element>
-        <element id="Composition.type">
+        <element id="Composition.status">
             <path value="Composition.status"/>
+            <short value="preliminary | final | amended | entered-in-error"/>
         </element>
         <element id="Composition.type">
             <path value="Composition.type"/>
+            <short value="Document type"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://loinc.org"/>
+                    <code value="67796-3"/>
+                    <display value="EMS Patient Care Report"/>
+                </coding>
+            </patternCodeableConcept>
         </element>
         <element id="Composition.subject">
             <path value="Composition.subject"/>
@@ -50,16 +59,94 @@
         </element>
         <element id="Composition.subject.reference">
             <path value="Composition.subject.reference"/>
-            <min value="1"/>
         </element>
         <element id="Composition.date">
             <path value="Composition.date"/>
+            <short value="The document's creation date and time"/>
         </element>
         <element id="Composition.author">
             <path value="Composition.author"/>
+            <short value="The author of this document"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitionerrole"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+            </type>
+        </element>
+        <element id="Composition.author.reference">
+            <path value="Composition.author.reference"/>
         </element>
         <element id="Composition.title">
             <path value="Composition.title"/>
+            <fixedString value="EmergencyServiceProtocol"/>
+        </element>
+        
+
+        <element id="Composition.section">
+            <path value="Composition.section"/>
+            <min value="1"/>
+            <slicing>
+                <discriminator>
+                    <type value="pattern"/>
+                    <path value="code"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <!-- Section Mission (Einsatz) -->
+        <element id="Composition.section:mission">
+            <path value="Composition.section"/>
+            <sliceName value="mission"/>
+            <short value="Mission"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.title:mission">
+            <path value="Composition.section.title"/>
+            <short value="'Einsatz' or 'TODO' or 'TODO' or 'TODO'"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.code:mission">
+            <path value="Composition.section.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/> <!-- TBD -->
+                    <code value="1100001" />
+                    <display value="Einsatz"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section.text:mission">
+            <path value="Composition.section.text"/>
+            <short value="Human readable text of this section"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.entry:mission">
+            <path value="Composition.section.entry"/>
+            <short value="Encounter"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-encounter"/>
+            </type>
+        </element>
+        <element id="Composition.section.entry:mission.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section.section:mission">
+            <path value="Composition.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
         </element>
     </differential>
 </StructureDefinition>

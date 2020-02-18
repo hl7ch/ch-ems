@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+    <id value="Einsatz"/>
+    <meta>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-encounter"/>
+    </meta>
+    <extension url="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-dateTime">
+        <valueDateTime value="2016-01-01T23:11:00+01:00"/>
+    </extension>
+    <extension url="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-missionNumber">
+        <valueString value="S12345678"/>
+    </extension>
+    <extension url="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-statusTimes">
+        <extension url="statusRole">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <code value="1000034"/>
+                    <display value="disposition"/>
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+        <extension url="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-dateTime">
+            <valueDateTime value="2017-10-03T13:15:00+01:00"/>
+        </extension>
+    </extension>
+    <status value="finished"/>
+    <class>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+        <code value="AMB"/>
+        <!-- TBD: EMER? -->
+        <display value="ambulatory"/>
+    </class>
+    <subject>
+        <reference value="Patient/PeterMuster"/>
+    </subject>
+    <participant>
+        <type>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="133932002"/>
+                <display value="Caregiver"/>
+            </coding>
+        </type>
+        <individual>
+            <reference value="Practitioner/Betreuer"/>
+        </individual>
+    </participant>
+    <participant>
+        <type>
+            <coding>
+                <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                <code value="1000013"/>
+                <display value="driver"/>
+            </coding>
+        </type>
+        <individual>
+            <reference value="Practitioner/Fahrer"/>
+        </individual>
+    </participant>
+    <location>
+        <location>
+            <reference value="Location/Einsatzort"/>
+        </location>
+    </location>
+    <location>
+        <location>
+            <reference value="Location/Zielort"/>
+        </location>
+    </location>
+    <serviceProvider>
+        <reference value="Organization/Rettungsdienst"/>
+    </serviceProvider>
+</Encounter>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-resp-ext-statusTimes"/>
+    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-statusTimes"/>
+    <version value="0.1.0"/>
+    <name value="CHRespExtStatusTimes"/>
+    <title value="CH RESP Extension Status Times"/>
+    <status value="draft"/>
+    <date value="2020-02-17"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
+    <contact>
+        <name value="eCH Fachgruppe eHealth"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
+        </telecom>
+    </contact>
+    <description value="Extension to define the status times (time and role)"/>
+    <fhirVersion value="4.0.1"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <context>
+        <type value="element"/>
+        <expression value="Encounter"/>
+    </context>
+    <type value="Extension"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Extension">
+            <path value="Extension"/>
+            <short value="Extension"/>
+            <definition value="Extension to define the status times (time and role)"/>
+        </element>
+        
+        <element id="Extension.extension:statusRole">
+            <path value="Extension.extension"/>
+            <sliceName value="statusRole"/>
+            <short value="Role of the status time"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension"/>
+            </type>
+        </element>
+        <element id="Extension.extension:statusRole.extension">
+            <path value="Extension.extension.extension"/>
+            <max value="0"/>
+        </element>
+        <element id="Extension.extension:statusRole.url">
+            <path value="Extension.extension.url"/>
+            <type>
+                <code value="uri"/>
+            </type>
+            <fixedUri value="statusRole"/>
+        </element>
+        <element id="Extension.extension:statusRole.valueCodeableConcept">
+            <path value="Extension.extension.valueCodeableConcept"/>
+            <short value="Value of extension"/>
+            <min value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-role-mission-time"/> 
+            </binding>
+        </element>
+
+        <element id="Extension.extension:statusTime">
+            <path value="Extension.extension"/>
+            <sliceName value="statusTime"/>
+            <short value="Time of the status"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-dateTime"/>
+            </type>
+        </element>
+
+        <element id="Extension.url">
+            <path value="Extension.url"/>
+            <type>
+                <code value="uri"/>
+            </type>
+            <fixedUri value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-statusTimes"/>
+        </element>
+        <element id="Extension.value[x]">
+            <path value="Extension.value[x]"/>
+            <min value="0"/>
+            <max value="0"/>
+        </element>
+    </differential>
+</StructureDefinition>

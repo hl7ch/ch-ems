@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <PractitionerRole xmlns="http://hl7.org/fhir">
-    <id value="PetraMusterRole"/>
+    <id value="PetraMusterRole-1-Einsatzprotokoll"/>
     <meta>
         <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitionerrole"/>
     </meta>
@@ -15,7 +15,7 @@
             <display value="Healthcare professional"/>
         </coding>
         <coding>
-            <system value="2.16.840.1.113883.6.96 IVR Codesystem RESP"/> <!--TBD -->
+            <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/> <!--TBD -->
             <code value="133932002"/>
             <display value="Betreuer"/>
         </coding>

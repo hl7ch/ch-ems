@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-resp-organization"/>
+    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+    <version value="0.1.0"/>
+    <name value="CHRespOrganization"/>
+    <title value="CH RESP Organization Profile"/>
+    <status value="draft"/>
+    <date value="2020-02-17T00:00:00+00:00"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
+    <contact>
+        <name value="eCH Fachgruppe eHealth"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
+        </telecom>
+    </contact>
+    <description value="Definition of the organization for the use of the rescue protection protocol"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CH"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Organization"/>
+    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Organization">
+            <path value="Organization"/>
+            <short value="CH RESP Organization"/>
+        </element>
+        <element id="Organization.identifier">
+            <path value="Organization.identifier"/>
+        </element>
+        <element id="Organization.name">
+            <path value="Organization.name"/>
+        </element>
+    </differential>
+</StructureDefinition>

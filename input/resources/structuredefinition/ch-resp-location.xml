@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-resp-location"/>
+    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-location"/>
+    <version value="0.1.0"/>
+    <name value="CHRespLocation"/>
+    <title value="CH RESP Location Profile"/>
+    <status value="draft"/>
+    <date value="2020-02-17T00:00:00+00:00"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
+    <contact>
+        <name value="eCH Fachgruppe eHealth"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
+        </telecom>
+    </contact>
+    <description value="Definition of the location for the use of the rescue protection protocol"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CH"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Location"/>
+    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-location"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Location">
+            <path value="Location"/>
+            <short value="CH RESP Location"/>
+        </element>
+        <element id="Location.name">
+            <path value="Location.name"/>
+            <short value="Name of the location as used by humans"/>
+        </element>
+        <element id="Location.address">
+            <path value="Location.address"/>
+            <short value="An address expressed using postal conventions (as opposed to GPS or other location definition formats)"/>
+        </element>
+        <element id="Location.position">
+            <path value="Location.position"/>
+            <short value="The absolute geographic location"/>
+        </element>
+        <element id="Location.position.longitude">
+            <path value="Location.position.longitude"/>
+            <short value="Longitude with WGS84 datum"/>
+        </element>
+        <element id="Location.position.latitude">
+            <path value="Location.position.latitude"/>
+            <short value="Latitude with WGS84 datum"/>
+        </element>
+        <element id="Location.managingOrganization">
+            <path value="Location.managingOrganization"/>
+            <short value="Mission destination location"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+            </type>
+        </element>
+        <element id="Location.managingOrganization.reference">
+            <path value="Location.managingOrganization.reference"/>
+            <min value="1"/>
+        </element>
+    </differential>
+</StructureDefinition>

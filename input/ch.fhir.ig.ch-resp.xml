@@ -53,14 +53,14 @@
       <description value="Example for Composition"/>
       <exampleCanonical value="StructureDefinition/ch-resp-bundle"/>
     </resource>-->
-    <resource>
+    <!--<resource>
       <reference>
         <reference value="Composition/1-Einsatzprotokoll"/>
       </reference>
       <name value="1-Einsatzprotokoll"/>
       <description value="Example for Composition"/>
       <exampleCanonical value="StructureDefinition/ch-resp-composition"/>
-    </resource>
+    </resource>-->
     <resource>
       <reference>
         <reference value="Composition/EmergencyServiceProtocol"/>
@@ -68,6 +68,46 @@
       <name value="Emergency Service Protocol"/>
       <description value="Example for Composition"/>
       <exampleCanonical value="StructureDefinition/ch-resp-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Encounter/Einsatz"/>
+      </reference>
+      <name value="Einsatz"/>
+      <description value="Example for Encounter"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-encounter"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Location/Einsatzort"/>
+      </reference>
+      <name value="Einsatzort"/>
+      <description value="Example for Location"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-location"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Location/Zielort"/>
+      </reference>
+      <name value="Zielort"/>
+      <description value="Example for Location"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-location"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Organization/Rettungsdienst"/>
+      </reference>
+      <name value="Rettungsdienst"/>
+      <description value="Example for Organization"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-organization"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Organization/Zielspital"/>
+      </reference>
+      <name value="Zielspital"/>
+      <description value="Example for Organization"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-organization"/>
     </resource>
     <resource>
       <reference>
@@ -87,18 +127,42 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Practitioner/PetraMuster"/>
+        <reference value="Practitioner/PetraMuster-1-Einsatzprotokoll"/>
       </reference>
-      <name value="Petra Muster"/>
-      <description value="Example for Practitioner (Paramedic)"/>
+      <name value="Petra Muster (1-Einsatzprotokoll)"/>
+      <description value="Example for Practitioner (Paramedic), used in the 1-Einsatzprotokoll"/>
       <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
     </resource>
     <resource>
       <reference>
-        <reference value="PractitionerRole/PetraMusterRole"/>
+        <reference value="Practitioner/Betreuer"/>
       </reference>
-      <name value="Petra Muster Role"/>
-      <description value="Example for Practitioner Role (Healthcare Professional)"/>
+      <name value="Betreuer"/>
+      <description value="Example for Practitioner (Caregiver)"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Practitioner/Fahrer"/>
+      </reference>
+      <name value="Fahrer"/>
+      <description value="Example for Practitioner (Driver)"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Practitioner/PetraMuster"/>
+      </reference>
+      <name value="Petra Muster"/>
+      <description value="Example for Practitioner"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="PractitionerRole/PetraMusterRole-1-Einsatzprotokoll"/>
+      </reference>
+      <name value="Petra Muster Role (1-Einsatzprotokoll)"/>
+      <description value="Example for Practitioner Role (Healthcare Professional), used in the 1-Einsatzprotokoll"/>
       <exampleCanonical value="StructureDefinition/ch-resp-practitionerrole"/>
     </resource>
 
@@ -112,6 +176,42 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-resp-composition"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-encounter"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-ext-dateTime"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-ext-missionNumber"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-ext-statusTimes"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-location"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-organization"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
