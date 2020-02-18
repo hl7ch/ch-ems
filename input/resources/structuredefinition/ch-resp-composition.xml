@@ -152,7 +152,56 @@
 
         <!-- Section ... (Administrativ) -->
 
-        <!-- Section ... (Vorbehandlung) -->
+        <!-- Section Pretreatment (Vorbehandlung) -->
+        <element id="Composition.section:pretreatment">
+            <path value="Composition.section"/>
+            <sliceName value="pretreatment"/>
+            <short value="Pretreatment"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.title:pretreatment">
+            <path value="Composition.section.title"/>
+            <short value="'Vorbehandlung' or 'TODO' or 'TODO' or 'TODO'"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.code:pretreatment">
+            <path value="Composition.section.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <code value="1100004" />
+                    <display value="Vorbehandlung"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section.text:pretreatment">
+            <path value="Composition.section.text"/>
+            <short value="Human readable text of this section"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.entry:pretreatment">
+            <path value="Composition.section.entry"/>
+            <short value="Procedure"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-procedure"/>
+            </type>
+        </element>
+        <element id="Composition.section.entry:pretreatment.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section.section:pretreatment">
+            <path value="Composition.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
+        </element>
 
         <!-- Section ... (Anamnese) -->
 

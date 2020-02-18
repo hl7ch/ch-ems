@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-resp-procedure"/>
+    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-procedure"/>
+    <version value="0.1.0"/>
+    <name value="CHRespProcedure"/>
+    <title value="CH RESP Procedure Profile"/>
+    <status value="draft"/>
+    <date value="2020-02-18T00:00:00+00:00"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
+    <contact>
+        <name value="eCH Fachgruppe eHealth"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
+        </telecom>
+    </contact>
+    <description value="Definition of the procedure for the use of the rescue protection protocol"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CH"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Procedure"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Procedure"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Procedure">
+            <path value="Procedure"/>
+            <short value="CH RESP Procedure"/>
+        </element>
+        <element id="Procedure.status">
+            <path value="Procedure.status"/>
+        </element>
+        <element id="Procedure.code">
+            <path value="Procedure.code"/>
+            <short value="Identification of the procedure"/>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-pre-treatment-type"/>
+            </binding>
+        </element>
+        <element id="Procedure.subject">
+            <path value="Procedure.subject"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+            </type>
+        </element>
+        <element id="Procedure.subject.reference">
+            <path value="Procedure.subject.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Procedure.performer">
+            <path value="Procedure.performer"/>
+            <short value="The people who performed the procedure"/>
+            <max value="1"/>
+        </element>
+        <element id="Procedure.performer.function">
+            <path value="Procedure.performer.function"/>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-pre-treatment"/>
+            </binding>
+        </element>
+        <element id="Procedure.performer.actor">
+            <path value="Procedure.performer.actor"/>
+        </element>
+    </differential>
+</StructureDefinition>

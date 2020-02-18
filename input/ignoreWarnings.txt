@@ -6,4 +6,5 @@ The display "Annotation comment" is not a valid display for the code {http://loi
 Code System URI 'http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR' is unknown so the code cannot be validated
 ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-role-mission-time not found by validator
 ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-role-team not found by validator
-
+ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-pre-treatment-type not found by validator
+ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-pre-treatment not found by validator

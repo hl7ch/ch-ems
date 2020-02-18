@@ -165,6 +165,21 @@
       <description value="Example for Practitioner Role (Healthcare Professional), used in the 1-Einsatzprotokoll"/>
       <exampleCanonical value="StructureDefinition/ch-resp-practitionerrole"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="Procedure/Vorbehandlung"/>
+      </reference>
+      <name value="Vorbehandlung"/>
+      <description value="Example for Procedure"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-procedure"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="RelatedPerson/Vorbehandler"/>
+      </reference>
+      <name value="Vorbehandler"/>
+      <description value="Example for Related Person"/>
+    </resource>
 
     <!-- References to structure definitions -->
     <resource>
@@ -230,6 +245,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-resp-practitionerrole"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-procedure"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

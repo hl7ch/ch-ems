@@ -39,6 +39,23 @@
     </entry>
   </section>
   <section>
+    <title value="Vorbehandlung"/>
+    <code>
+      <coding>
+        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <code value="1100004"/>
+        <display value="Vorbehandlung"/>
+      </coding>
+    </code>
+    <text>
+      <status value="additional"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> TBD </div>
+    </text>
+    <entry>
+      <reference value="Procedure/Vorbehandlung"/>
+    </entry>
+  </section>
+  <section>
     <title value="Massnahmen"/>
     <code>
       <coding>
