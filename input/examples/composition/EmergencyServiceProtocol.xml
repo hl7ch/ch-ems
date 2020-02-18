@@ -38,4 +38,18 @@
       <reference value="Encounter/Einsatz"/>
     </entry>
   </section>
+  <section>
+    <title value="Kommentar"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48767-8"/>
+        <display value="Annotation comment"/>
+      </coding>
+    </code>
+    <text>
+      <status value="additional"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> Bemerkungen </div>
+    </text>
+  </section>
 </Composition>

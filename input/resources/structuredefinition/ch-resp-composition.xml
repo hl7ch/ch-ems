@@ -84,7 +84,7 @@
             <path value="Composition.title"/>
             <fixedString value="EmergencyServiceProtocol"/>
         </element>
-        
+
 
         <element id="Composition.section">
             <path value="Composition.section"/>
@@ -117,7 +117,8 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/> <!-- TBD -->
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <!-- TBD -->
                     <code value="1100001" />
                     <display value="Einsatz"/>
                 </coding>
@@ -132,7 +133,7 @@
         <element id="Composition.section.entry:mission">
             <path value="Composition.section.entry"/>
             <short value="Encounter"/>
-            <min value="0"/>
+            <min value="1"/>
             <max value="1"/>
             <type>
                 <code value="Reference"/>
@@ -144,6 +145,43 @@
             <min value="1"/>
         </element>
         <element id="Composition.section.section:mission">
+            <path value="Composition.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
+        </element>
+
+        <!-- Section Annotation (Bemerkungen) -->
+        <element id="Composition.section:annotation">
+            <path value="Composition.section"/>
+            <sliceName value="annotation"/>
+            <short value="Annotation"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.title:annotation">
+            <path value="Composition.section.title"/>
+            <short value="'Kommentar' or 'Commentaire' or 'Osservazione' or 'Comment'"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.code:annotation">
+            <path value="Composition.section.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://loinc.org"/>
+                    <code value="48767-8"/>
+                    <display value="Annotation comment"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section.text:annotation">
+            <path value="Composition.section.text"/>
+            <short value="Human readable text of this section"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.section:annotation">
             <path value="Composition.section.section"/>
             <min value="0"/>
             <max value="0"/>
