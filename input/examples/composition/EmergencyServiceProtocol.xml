@@ -39,6 +39,35 @@
     </entry>
   </section>
   <section>
+    <title value="Administrativ"/>
+    <code>
+      <coding>
+        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <code value="1100003"/>
+        <display value="Administrativ"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <table>
+          <tbody>
+            <tr>
+              <th>Person/Organsiation</th>
+            </tr>
+            <tr>
+              <td>Ehefrau</td>
+              <td>Erika Muster</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </text>
+    <entry>
+      <reference value="RelatedPerson/Ehefrau"/>
+    </entry>
+  </section>
+  <section>
     <title value="Vorbehandlung"/>
     <code>
       <coding>
@@ -55,6 +84,9 @@
       <reference value="Procedure/Vorbehandlung"/>
     </entry>
   </section>
+  <!-- Section ... (Anamnese) -->
+  <!-- Section ... (Befund) -->
+  <!-- Section ... (Diagnosen) -->
   <section>
     <title value="Massnahmen"/>
     <code>
@@ -97,6 +129,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml"> Transport </div>
     </text>
   </section>
+  <!-- Section ... (Übergabe) -->
   <section>
     <title value="Kommentar"/>
     <code>

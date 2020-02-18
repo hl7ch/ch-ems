@@ -70,6 +70,15 @@
         </element>
         <element id="Procedure.performer.actor">
             <path value="Procedure.performer.actor"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitionerrole"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-relatedperson"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
+            </type>
         </element>
     </differential>
 </StructureDefinition>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-resp-relatedperson"/>
+    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-relatedperson"/>
+    <version value="0.1.0"/>
+    <name value="CHRespRelatedPerson"/>
+    <title value="CH RESP Related Person Profile"/>
+    <status value="draft"/>
+    <date value="2020-02-18T00:00:00+00:00"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
+    <contact>
+        <name value="eCH Fachgruppe eHealth"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
+        </telecom>
+    </contact>
+    <description value="Definition of the related person for the use of the rescue protection protocol"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CH"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="RelatedPerson"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="RelatedPerson">
+            <path value="RelatedPerson"/>
+            <short value="CH RESP Related Person"/>
+        </element>
+        <element id="RelatedPerson.patient">
+            <path value="RelatedPerson.patient"/>
+            <short value="The patient this person is related to"/>
+        </element>
+        <element id="RelatedPerson.relationship">
+            <path value="RelatedPerson.relationship"/>
+            <short value="The nature of the relationship"/>
+            <max value="1"/>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype"/>
+            </binding>
+        </element>
+        <element id="RelatedPerson.name">
+            <path value="RelatedPerson.name"/>
+            <short value="A name associated with the person"/>
+            <type>
+                <code value="HumanName"/>
+                <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-humanname" />
+            </type>
+            <max value="1"/>
+        </element>
+        <element id="RelatedPerson.name.family">
+            <path value="RelatedPerson.name.family"/>
+            <min value="1"/>
+        </element>
+        <element id="RelatedPerson.name.given">
+            <path value="RelatedPerson.name.given"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+    </differential>
+</StructureDefinition>

@@ -150,7 +150,55 @@
             <max value="0"/>
         </element>
 
-        <!-- Section ... (Administrativ) -->
+        <!-- Section Administrative (Administrativ) -->
+        <element id="Composition.section:administrative">
+            <path value="Composition.section"/>
+            <sliceName value="administrative"/>
+            <short value="Administrative"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.title:administrative">
+            <path value="Composition.section.title"/>
+            <short value="'Administrativ' or 'TODO' or 'TODO' or 'TODO'"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.code:administrative">
+            <path value="Composition.section.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <code value="1100003" />
+                    <display value="Administrativ"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section.text:administrative">
+            <path value="Composition.section.text"/>
+            <short value="Human readable text of this section"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.entry:administrative">
+            <path value="Composition.section.entry"/>
+            <short value="Person or Organization"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-relatedperson"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+            </type>
+        </element>
+        <element id="Composition.section.entry:administrative.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section.section:administrative">
+            <path value="Composition.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
+        </element>
 
         <!-- Section Pretreatment (Vorbehandlung) -->
         <element id="Composition.section:pretreatment">

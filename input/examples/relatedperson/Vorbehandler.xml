@@ -10,5 +10,6 @@
     </patient>
     <name>
         <family value="Vorbehandler"/>
+        <given value="Max"/>
     </name>
 </RelatedPerson>

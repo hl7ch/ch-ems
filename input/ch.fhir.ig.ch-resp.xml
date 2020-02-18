@@ -179,6 +179,15 @@
       </reference>
       <name value="Vorbehandler"/>
       <description value="Example for Related Person"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-relatedperson"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="RelatedPerson/Ehefrau"/>
+      </reference>
+      <name value="Ehefrau"/>
+      <description value="Example for Related Person"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-relatedperson"/>
     </resource>
 
     <!-- References to structure definitions -->
@@ -251,6 +260,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-resp-procedure"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-relatedperson"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
