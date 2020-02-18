@@ -150,6 +150,43 @@
             <max value="0"/>
         </element>
 
+        <!-- Section Procedures (Massnahmen) -->
+        <element id="Composition.section:procedures">
+            <path value="Composition.section"/>
+            <sliceName value="procedures"/>
+            <short value="Procedures"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.title:procedures">
+            <path value="Composition.section.title"/>
+            <short value="'Massnahmen' or 'TODO' or 'TODO' or 'TODO'"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.code:procedures">
+            <path value="Composition.section.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <code value="1100008"/>
+                    <display value="Massnahmen"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section.text:procedures">
+            <path value="Composition.section.text"/>
+            <short value="Human readable text of this section"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.section:procedures">
+            <path value="Composition.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
+        </element>
+
         <!-- Section Annotation (Bemerkungen) -->
         <element id="Composition.section:annotation">
             <path value="Composition.section"/>

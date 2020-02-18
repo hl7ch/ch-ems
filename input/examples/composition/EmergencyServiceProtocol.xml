@@ -39,6 +39,20 @@
     </entry>
   </section>
   <section>
+    <title value="Massnahmen"/>
+    <code>
+      <coding>
+        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <code value="1100008"/>
+        <display value="Massnahmen"/>
+      </coding>
+    </code>
+    <text>
+      <status value="additional"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> Massnahmen </div>
+    </text>
+  </section>
+  <section>
     <title value="Kommentar"/>
     <code>
       <coding>
