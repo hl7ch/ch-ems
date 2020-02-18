@@ -187,6 +187,43 @@
             <max value="0"/>
         </element>
 
+        <!-- Section Event Of Death (Todesfall) -->
+        <element id="Composition.section:eventOfDeath">
+            <path value="Composition.section"/>
+            <sliceName value="eventOfDeath"/>
+            <short value="Event of death"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.title:eventOfDeath">
+            <path value="Composition.section.title"/>
+            <short value="'Todesfall' or 'TODO' or 'TODO' or 'TODO'"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.code:eventOfDeath">
+            <path value="Composition.section.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <code value="1100009"/>
+                    <display value="Todesfall"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section.text:eventOfDeath">
+            <path value="Composition.section.text"/>
+            <short value="Human readable text of this section"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.section:eventOfDeath">
+            <path value="Composition.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
+        </element>
+
         <!-- Section Annotation (Bemerkungen) -->
         <element id="Composition.section:annotation">
             <path value="Composition.section"/>

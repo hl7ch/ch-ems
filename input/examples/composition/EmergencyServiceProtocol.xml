@@ -53,6 +53,20 @@
     </text>
   </section>
   <section>
+    <title value="Todesfall"/>
+    <code>
+      <coding>
+        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <code value="1100009"/>
+        <display value="Todesfall"/>
+      </coding>
+    </code>
+    <text>
+      <status value="additional"/>
+      <div xmlns="http://www.w3.org/1999/xhtml"> Todesfall </div>
+    </text>
+  </section>
+  <section>
     <title value="Kommentar"/>
     <code>
       <coding>
