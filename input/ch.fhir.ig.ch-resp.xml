@@ -205,6 +205,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-resp-emergencyserviceprotocol"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-resp-encounter"/>
       </reference>
       <exampleBoolean value="false"/>

@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-resp-emergencyserviceprotocol"/>
+    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-emergencyserviceprotocol"/>
+    <version value="0.1.0"/>
+    <name value="CHRespEmergencyServiceProtocol"/>
+    <title value="CH RESP Emergency Service Protocol Logical Model"/>
+    <status value="draft"/>
+    <date value="2020-02-17"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
+    <contact>
+        <name value="eCH Fachgruppe eHealth"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
+        </telecom>
+    </contact>
+    <description value="Logical model of the emergency service protocol"/>
+    <fhirVersion value="4.0.1"/>
+    <kind value="logical"/>
+    <abstract value="false"/>
+    <type value="EmergencyServiceProtocol"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
+    <derivation value="specialization"/>
+    <differential>
+        <element id="EmergencyServiceProtocol">
+            <path value="EmergencyServiceProtocol"/>
+            <definition value="Emergency Service Protocol"/>
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+
+        <!-- Einsatz -->
+        <element id="EmergencyServiceProtocol.Einsatz">
+            <path value="EmergencyServiceProtocol.Einsatz"/>
+            <definition value="Einsatz"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Einsatzdatum">
+            <path value="EmergencyServiceProtocol.Einsatz.Einsatzdatum"/>
+            <definition value="Einsatzdatum"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="dateTime"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.EinsatznummerSNZ">
+            <path value="EmergencyServiceProtocol.Einsatz.EinsatznummerSNZ"/>
+            <definition value="Einsatznummer SNZ (Sanitaetsnotrufzentrale)"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.AufbietendeOrganisation">
+            <path value="EmergencyServiceProtocol.Einsatz.AufbietendeOrganisation"/>
+            <definition value="Aufbietende Organisation"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Auftragsempfaenger">
+            <path value="EmergencyServiceProtocol.Einsatz.Auftragsempfaenger"/>
+            <definition value="Auftragsempfaenger"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Auftragsempfaenger.AufgeboteneOrganisation">
+            <path value="EmergencyServiceProtocol.Einsatz.Auftragsempfaenger.AufgeboteneOrganisation"/>
+            <definition value="Aufgebotene Organisation"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Team">
+            <path value="EmergencyServiceProtocol.Einsatz.Team"/>
+            <definition value="Team"/>
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Team.GLNTeammitglied">
+            <path value="EmergencyServiceProtocol.Einsatz.Team.GLNTeammitglied"/>
+            <definition value="GLN Teammitglied"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Team.RolleTeammitglied">
+            <path value="EmergencyServiceProtocol.Einsatz.Team.RolleTeammitglied"/>
+            <definition value="Rolle Teammitglied"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte"/>
+            <definition value="Orte"/>
+            <min value="0"/>
+            <max value="2"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort"/>
+            <definition value="Einsatzort"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010"/>
+            <definition value="Postadresse (eCH-0010)"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.AdressierungStrasse">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.AdressierungStrasse"/>
+            <definition value="Adressierung Strasse"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.AdressierungStrasse.Strasse">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.AdressierungStrasse.Strasse"/>
+            <definition value="Strasse"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.AdressierungStrasse.Hausnummer">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.AdressierungStrasse.Hausnummer"/>
+            <definition value="Hausnummer"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.Stadt">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.Stadt"/>
+            <definition value="Stadt"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.PLZ">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.PLZ"/>
+            <definition value="PLZ"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.PLZ.SwissPLZ">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.PostadresseECH-0010.PLZ.SwissPLZ"/>
+            <definition value="Swiss PLZ"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.KoordinatenLaenge">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.KoordinatenLaenge"/>
+            <definition value="Koordinaten Laenge"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.KoordinatenBreite">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Einsatzort.KoordinatenBreite"/>
+            <definition value="Koordinaten Breite"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Zielort">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Zielort"/>
+            <definition value="Zielort"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010"/>
+            <definition value="Postadresse (eCH-0010)"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.AdressierungStrasse">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.AdressierungStrasse"/>
+            <definition value="Adressierung Strasse"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.AdressierungStrasse.Strasse">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.AdressierungStrasse.Strasse"/>
+            <definition value="Strasse"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.AdressierungStrasse.Hausnummer">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.AdressierungStrasse.Hausnummer"/>
+            <definition value="Hausnummer"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.Stadt">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.Stadt"/>
+            <definition value="Stadt"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.PLZ">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.PLZ"/>
+            <definition value="PLZ"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.PLZ.SwissPLZ">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Zielort.PostadresseECH-0010.PLZ.SwissPLZ"/>
+            <definition value="Swiss PLZ"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Orte.Zielort.GLN">
+            <path value="EmergencyServiceProtocol.Einsatz.Orte.Zielort.GLN"/>
+            <definition value="GLN"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Statuszeiten">
+            <path value="EmergencyServiceProtocol.Einsatz.Statuszeiten"/>
+            <definition value="Statuszeiten"/>
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Statuszeiten.Statuszeit">
+            <path value="EmergencyServiceProtocol.Einsatz.Statuszeiten.Statuszeit"/>
+            <definition value="Statuszeit"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="dateTime"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Einsatz.Statuszeiten.BedeutungDerStatuszeit">
+            <path value="EmergencyServiceProtocol.Einsatz.Statuszeiten.BedeutungDerStatuszeit"/>
+            <definition value="Bedeutung der Statuszeit"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+
+        <!-- Patient -->
+        <element id="EmergencyServiceProtocol.Patient">
+            <path value="EmergencyServiceProtocol.Patient"/>
+            <definition value="Patient"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Patient.Namen">
+            <path value="EmergencyServiceProtocol.Patient.Namen"/>
+            <definition value="Namen"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Patient.Namen.Vorname">
+            <path value="EmergencyServiceProtocol.Patient.Namen.Vorname"/>
+            <definition value="Vorname"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Patient.Namen.Name">
+            <path value="EmergencyServiceProtocol.Patient.Namen.Name"/>
+            <definition value="Name"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Patient.Buergerort-Nationalitaet">
+            <path value="EmergencyServiceProtocol.Patient.Buergerort-Nationalitaet"/>
+            <definition value="Buergerort/Nationalitaet"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Patient.Geburtsdatum">
+            <path value="EmergencyServiceProtocol.Patient.Geburtsdatum"/>
+            <definition value="Geburtsdatum"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="date"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Patient.Geschlecht">
+            <path value="EmergencyServiceProtocol.Patient.Geschlecht"/>
+            <definition value="Geschlecht"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Patient.AHV-Nummer">
+            <path value="EmergencyServiceProtocol.Patient.AHV-Nummer"/>
+            <definition value="AHV-Nummer"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Patient.NummerVersichertenkart">
+            <path value="EmergencyServiceProtocol.Patient.NummerVersichertenkarte"/>
+            <definition value="Nummer Versichertenkarte"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Patient.PLS-ID">
+            <path value="EmergencyServiceProtocol.Patient.PLS-ID"/>
+            <definition value="PLS-ID (Patientenleitsystem)"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+
+        <!-- Administrativ -->
+        <element id="EmergencyServiceProtocol.Administrativ">
+            <path value="EmergencyServiceProtocol.Administrativ"/>
+            <definition value="Administrativ"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Administrativ.Person-Organisation">
+            <path value="EmergencyServiceProtocol.Administrativ.Person-Organisation"/>
+            <definition value="Person/Organisation"/>
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Administrativ.Person-Organisation.Rolle">
+            <path value="EmergencyServiceProtocol.Administrativ.Person-Organisation.Rolle"/>
+            <definition value="Rolle"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Administrativ.Person-Organisation.Namen">
+            <path value="EmergencyServiceProtocol.Administrativ.Person-Organisation.Namen"/>
+            <definition value="Namen"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Administrativ.Person-Organisation.Namen.Vorname">
+            <path value="EmergencyServiceProtocol.Administrativ.Person-Organisation.Namen.Vorname"/>
+            <definition value="Vorname"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Administrativ.Person-Organisation.Namen.Name">
+            <path value="EmergencyServiceProtocol.Administrativ.Person-Organisation.Namen.Name"/>
+            <definition value="Name"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+
+        <!-- Vorbehandlung -->
+        <element id="EmergencyServiceProtocol.Vorbehandlung">
+            <path value="EmergencyServiceProtocol.Vorbehandlung"/>
+            <definition value="Vorbehandlung"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Vorbehandlung.ArtDerVorbehandlung">
+            <path value="EmergencyServiceProtocol.Vorbehandlung.ArtDerVorbehandlung"/>
+            <definition value="Art der Vorbehandlung"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Vorbehandlung.Vorbehandelnder">
+            <path value="EmergencyServiceProtocol.Vorbehandlung.Vorbehandelnder"/>
+            <definition value="Vorbehandelnder"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+
+        <!-- Anamnese -->
+        <element id="EmergencyServiceProtocol.Anamnese">
+            <path value="EmergencyServiceProtocol.Anamnese"/>
+            <definition value="Anamnese"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Anamnese.GeschehenFrei">
+            <path value="EmergencyServiceProtocol.Anamnese.GeschehenFrei"/>
+            <definition value="Geschehen frei"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Anamnese.SAMPLER">
+            <path value="EmergencyServiceProtocol.Anamnese.SAMPLER"/>
+            <definition value="SAMPLER"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Anamnese.SAMPLER.SymptomeOPQRST">
+            <path value="EmergencyServiceProtocol.Anamnese.SAMPLER.SymptomeOPQRST"/>
+            <definition value="Symptome (OPQRST)"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Anamnese.SAMPLER.SymptomeOPQRST.SymptomFrei">
+            <path value="EmergencyServiceProtocol.Anamnese.SAMPLER.SymptomeOPQRST.SymptomFrei"/>
+            <definition value="Symptom, frei"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+
+        <!-- Befund -->
+        <element id="EmergencyServiceProtocol.Befund">
+            <path value="EmergencyServiceProtocol.Befund"/>
+            <definition value="Befund"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.ZeitpunktBefund">
+            <path value="EmergencyServiceProtocol.Befund.ZeitpunktBefund"/>
+            <definition value="Zeitpunkt Befund"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="dateTime"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Airway">
+            <path value="EmergencyServiceProtocol.Befund.Airway"/>
+            <definition value="Airway"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Circulation">
+            <path value="EmergencyServiceProtocol.Befund.Circulation"/>
+            <definition value="Circulation"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Circulation.Herz-Kreislauf-Stillstand">
+            <path value="EmergencyServiceProtocol.Befund.Circulation.Herz-Kreislauf-Stillstand"/>
+            <definition value="Herz-Kreislauf-Stillstand"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="boolean"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Disability">
+            <path value="EmergencyServiceProtocol.Befund.Disability"/>
+            <definition value="Disability"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Disability.GCS">
+            <path value="EmergencyServiceProtocol.Befund.Disability.GCS"/>
+            <definition value="GCS"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Disability.GCS.Gesamtscore">
+            <path value="EmergencyServiceProtocol.Befund.Disability.GCS.Gesamtscore"/>
+            <definition value="Gesamtscore"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Disability.GCS.Augenoeffnung">
+            <path value="EmergencyServiceProtocol.Befund.Disability.GCS.Augenoeffnung"/>
+            <definition value="Augenoeffnung"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Disability.GCS.VerbaleKommunikation">
+            <path value="EmergencyServiceProtocol.Befund.Disability.GCS.VerbaleKommunikation"/>
+            <definition value="verbale Kommunikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Disability.GCS.MotorischeReaktion">
+            <path value="EmergencyServiceProtocol.Befund.Disability.GCS.MotorischeReaktion"/>
+            <definition value="motorische Reaktion"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Disability.AVPU">
+            <path value="EmergencyServiceProtocol.Befund.Disability.AVPU"/>
+            <definition value="AVPU"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Befund.Disability.StrokeFAST">
+            <path value="EmergencyServiceProtocol.Befund.Disability.StrokeFAST"/>
+            <definition value="Stroke/FAST"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+
+        <!-- Diagnosen -->
+        <element id="EmergencyServiceProtocol.Diagnosen">
+            <path value="EmergencyServiceProtocol.Diagnosen"/>
+            <definition value="Diagnosen"/>
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Diagnosen.DiagnoseArt">
+            <path value="EmergencyServiceProtocol.Diagnosen.DiagnoseArt"/>
+            <definition value="Diagnose-Art"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Diagnosen.ErstellerDiagnose">
+            <path value="EmergencyServiceProtocol.Diagnosen.ErstellerDiagnose"/>
+            <definition value="Ersteller Diagnose"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Diagnosen.DiagnoseICD10">
+            <path value="EmergencyServiceProtocol.Diagnosen.DiagnoseICD10"/>
+            <definition value="Diagnose (ICD-10)"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+
+        <!-- Massnahmen -->
+        <element id="EmergencyServiceProtocol.Massnahmen">
+            <path value="EmergencyServiceProtocol.Massnahmen"/>
+            <definition value="Massnahmen"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Narrative"/>
+            </type>
+        </element>
+
+        <!-- Todesfall -->
+        <element id="EmergencyServiceProtocol.Todesfall">
+            <path value="EmergencyServiceProtocol.Todesfall"/>
+            <definition value="Todesfall"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Narrative"/>
+            </type>
+        </element>
+
+        <!-- Transport -->
+        <element id="EmergencyServiceProtocol.Transport">
+            <path value="EmergencyServiceProtocol.Transport"/>
+            <definition value="Transport"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Narrative"/>
+            </type>
+        </element>
+
+        <!-- Uebergabe -->
+        <element id="EmergencyServiceProtocol.Uebergabe">
+            <path value="EmergencyServiceProtocol.Uebergabe"/>
+            <definition value="Uebergabe"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Uebergabe.Prioritaet">
+            <path value="EmergencyServiceProtocol.Uebergabe.Prioritaet"/>
+            <definition value="Prioritaet"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Uebergabe.ZustandBeiEinsatzende">
+            <path value="EmergencyServiceProtocol.Uebergabe.ZustandBeiEinsatzende"/>
+            <definition value="Zustand bei Einsatzende"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Uebergabe.NACA">
+            <path value="EmergencyServiceProtocol.Uebergabe.NACA"/>
+            <definition value="NACA"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Uebergabe.GCS">
+            <path value="EmergencyServiceProtocol.Uebergabe.GCS"/>
+            <definition value="GCS"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="EmergencyServiceProtocol.Uebergabe.GCS.Gesamtscore">
+            <path value="EmergencyServiceProtocol.Uebergabe.GCS.Gesamtscore"/>
+            <definition value="Gesamtscore"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="decimal"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Uebergabe.GCS.Augenoeffnung">
+            <path value="EmergencyServiceProtocol.Uebergabe.GCS.Augenoeffnung"/>
+            <definition value="Augenoeffnung"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Uebergabe.GCS.VerbaleKommunikation">
+            <path value="EmergencyServiceProtocol.Uebergabe.GCS.VerbaleKommunikation"/>
+            <definition value="verbale Kommunikation"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Uebergabe.GCS.MotorischeReaktion">
+            <path value="EmergencyServiceProtocol.Uebergabe.GCS.MotorischeReaktion"/>
+            <definition value="motorischeReaktion"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="code"/>
+            </type>
+        </element>
+        <element id="EmergencyServiceProtocol.Uebergabe.UebergabeAn">
+            <path value="EmergencyServiceProtocol.Uebergabe.UebergabeAn"/>
+            <definition value="Übergabe an"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="string"/>
+            </type>
+        </element>
+
+        <!-- Bemerkungen -->
+        <element id="EmergencyServiceProtocol.Bemerkungen">
+            <path value="EmergencyServiceProtocol.Bemerkungen"/>
+            <definition value="Bemerkungen"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Narrative"/>
+            </type>
+        </element>
+
+    </differential>
+</StructureDefinition>
