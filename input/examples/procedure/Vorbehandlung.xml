@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Procedure xmlns="http://hl7.org/fhir">
     <id value="Vorbehandlung"/>
     <meta>
         <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-procedure"/>
     </meta>
+    <extension url="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-performer">
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                <code value="1000142"/>
+                <display value="first responder"/>
+            </coding>
+        </valueCodeableConcept>
+    </extension>
     <status value="completed"/>
     <code>
         <coding>
             <system value="http://snomed.info/sct"/>
-            <code value="19257004"/>
-            <display value="Defibrillator"/>
+            <code value="386308007"/>
+            <display value="First aid"/>
         </coding>
     </code>
     <subject>
-        <reference value="Patient/PeterMuster"/>
+        <reference value="Patient/1-PeterMuster"/>
     </subject>
-    <performer>
-        <function>
-            <coding>
-                <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
-                <code value="1000084"/>
-                <display value="non-professional"/>
-            </coding>
-        </function>
-        <actor>
-            <reference value="RelatedPerson/Vorbehandler"/>
-        </actor>
-    </performer>
 </Procedure>

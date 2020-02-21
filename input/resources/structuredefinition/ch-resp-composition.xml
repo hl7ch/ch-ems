@@ -133,7 +133,6 @@
         <element id="Composition.section.entry:mission">
             <path value="Composition.section.entry"/>
             <short value="Encounter"/>
-            <min value="1"/>
             <max value="1"/>
             <type>
                 <code value="Reference"/>
@@ -234,8 +233,6 @@
         <element id="Composition.section.entry:pretreatment">
             <path value="Composition.section.entry"/>
             <short value="Procedure"/>
-            <min value="1"/>
-            <max value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-procedure"/>

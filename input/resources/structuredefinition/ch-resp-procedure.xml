@@ -34,6 +34,27 @@
             <path value="Procedure"/>
             <short value="CH RESP Procedure"/>
         </element>
+        <element id="Procedure.extension">
+            <path value="Procedure.extension"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="url"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <element id="Procedure.extension:performer">
+            <path value="Procedure.extension"/>
+            <short value="Performer of the procedure"/>
+            <sliceName value="performer"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-performer"/>
+            </type>
+        </element>
         <element id="Procedure.status">
             <path value="Procedure.status"/>
         </element>
@@ -47,6 +68,7 @@
         </element>
         <element id="Procedure.subject">
             <path value="Procedure.subject"/>
+            <short value="Patient"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
@@ -55,30 +77,6 @@
         <element id="Procedure.subject.reference">
             <path value="Procedure.subject.reference"/>
             <min value="1"/>
-        </element>
-        <element id="Procedure.performer">
-            <path value="Procedure.performer"/>
-            <short value="The people who performed the procedure"/>
-            <max value="1"/>
-        </element>
-        <element id="Procedure.performer.function">
-            <path value="Procedure.performer.function"/>
-            <binding>
-                <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-pre-treatment"/>
-            </binding>
-        </element>
-        <element id="Procedure.performer.actor">
-            <path value="Procedure.performer.actor"/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitionerrole"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-relatedperson"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-            </type>
         </element>
     </differential>
 </StructureDefinition>

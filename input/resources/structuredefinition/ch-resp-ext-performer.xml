@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-resp-ext-performer"/>
+    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-performer"/>
+    <version value="0.1.0"/>
+    <name value="CHRespExtPerformer"/>
+    <title value="CH RESP Extension Performer"/>
+    <status value="draft"/>
+    <date value="2020-02-21"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
+    <contact>
+        <name value="eCH Fachgruppe eHealth"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
+        </telecom>
+    </contact>
+    <description value="Extension to define the performer of the pretreatment"/>
+    <fhirVersion value="4.0.1"/>
+    <kind value="complex-type"/>
+    <abstract value="false"/>
+    <context>
+        <type value="element"/>
+        <expression value="Procedure"/>
+    </context>
+    <type value="Extension"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Extension">
+            <path value="Extension"/>
+            <short value="Extension"/>
+            <definition value="Extension to define the performer of the pretreatment"/>
+        </element>
+        <element id="Extension.extension">
+            <path value="Extension.extension"/>
+            <max value="0"/>
+        </element>
+        <element id="Extension.url">
+            <path value="Extension.url"/>
+            <type>
+                <code value="uri"/>
+            </type>
+            <fixedUri value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-performer"/>
+        </element>
+        <element id="Extension.valueCodeableConcept">
+            <path value="Extension.valueCodeableConcept"/>
+            <short value="Value of extension"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-pre-treatment"/> 
+            </binding>
+        </element>
+    </differential>
+</StructureDefinition>

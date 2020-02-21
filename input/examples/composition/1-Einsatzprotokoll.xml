@@ -182,6 +182,23 @@
   </section>
 
   <!-- Section Vorbehandlung -->
+  <section>
+    <title value="Vorbehandlung"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <code value="1100004"/>
+        <display value="Vorbehandlung"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span> - </span>
+      </div>
+    </text>
+  </section>
 
   <!-- Section Anamnese -->
 
