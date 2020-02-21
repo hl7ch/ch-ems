@@ -37,6 +37,14 @@
         <element id="RelatedPerson.patient">
             <path value="RelatedPerson.patient"/>
             <short value="The patient this person is related to"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+            </type>
+        </element>
+        <element id="RelatedPerson.patient.reference">
+            <path value="RelatedPerson.patient.reference"/>
+            <min value="1"/>
         </element>
         <element id="RelatedPerson.relationship">
             <path value="RelatedPerson.relationship"/>

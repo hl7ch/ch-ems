@@ -33,7 +33,7 @@
         <display value="ambulatory"/>
     </class>
     <subject>
-        <reference value="Patient/PeterMuster"/>
+        <reference value="Patient/1-PeterMuster"/>
     </subject>
     <participant>
         <type>

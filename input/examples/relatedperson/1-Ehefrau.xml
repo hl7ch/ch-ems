@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <RelatedPerson xmlns="http://hl7.org/fhir">
-    <id value="Ehefrau"/>
+    <id value="1-Ehefrau"/>
     <meta>
         <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-relatedperson"/>
     </meta>
     <patient>
-        <reference value="Patient/PeterMuster"/>
+        <reference value="Patient/1-PeterMuster"/>
     </patient>
     <relationship>
         <coding>

@@ -170,15 +170,15 @@
         <reference value="RelatedPerson/Vorbehandler"/>
       </reference>
       <name value="Vorbehandler"/>
-      <description value="Example for Related Person"/>
+      <description value="Example for RelatedPerson"/>
       <exampleCanonical value="StructureDefinition/ch-resp-relatedperson"/>
     </resource>
     <resource>
       <reference>
-        <reference value="RelatedPerson/Ehefrau"/>
+        <reference value="RelatedPerson/1-Ehefrau"/>
       </reference>
-      <name value="Ehefrau"/>
-      <description value="Example for Related Person"/>
+      <name value="1 Ehefrau"/>
+      <description value="Example for RelatedPerson"/>
       <exampleCanonical value="StructureDefinition/ch-resp-relatedperson"/>
     </resource>
 
