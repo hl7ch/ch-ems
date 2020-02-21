@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-resp-coverage"/>
+    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-coverage"/>
+    <version value="0.1.0"/>
+    <name value="CHRespCoverage"/>
+    <title value="CH RESP Coverage Profile"/>
+    <status value="draft"/>
+    <date value="2020-02-21T00:00:00+00:00"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
+    <contact>
+        <name value="eCH Fachgruppe eHealth"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
+        </telecom>
+    </contact>
+    <description value="Definition of the coverage for the use of the rescue protection protocol"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CH"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Coverage"/>
+    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-coverage"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Coverage">
+            <path value="Coverage"/>
+            <short value="CH RESP Coverage"/>
+        </element>
+        <element id="Coverage.contained">
+            <path value="Coverage.contained"/>
+            <short value="Inline Resources for payor"/>
+        </element>
+        <element id="Coverage.identifier">
+            <path value="Coverage.identifier"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="system"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <element id="Coverage.identifier:insurancecardnumber">
+            <path value="Coverage.identifier"/>
+            <sliceName value="insurancecardnumber"/>
+            <short value="Insurance card number"/>
+            <max value="1"/>
+        </element>
+        <element id="Coverage.identifier:insurancecardnumber.system">
+            <path value="Coverage.identifier.system"/>
+            <short value="oid of the insurance card number"/>
+            <fixedUri value="urn:oid:2.16.756.5.30.1.123.100.1.1.1"/>
+        </element>
+        <element id="Coverage.identifier:insurancecardnumber.value">
+            <path value="Coverage.identifier.value"/>
+            <short value="Insurance card number of the patient (20 digits)"/>
+        </element>
+        <element id="Coverage.status">
+            <path value="Coverage.status"/>
+        </element>
+        <element id="Coverage.beneficiary">
+            <path value="Coverage.beneficiary"/>
+            <short value="Insured patient"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+            </type>
+        </element>
+        <element id="Coverage.beneficiary.reference">
+            <path value="Coverage.beneficiary.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Coverage.payor">
+            <path value="Coverage.payor"/>
+            <short value="Insurance"/>
+        </element>
+        <element id="Coverage.payor.reference">
+            <path value="Coverage.payor.reference"/>
+            <min value="1"/>
+        </element>
+    </differential>
+</StructureDefinition>

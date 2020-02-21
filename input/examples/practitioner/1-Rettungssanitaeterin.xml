@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Practitioner xmlns="http://hl7.org/fhir">
-    <id value="Betreuer"/>
+    <id value="1-Rettungssanitaeterin"/>
     <meta>
         <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
     </meta>
@@ -9,4 +8,8 @@
         <system value="urn:oid:2.51.1.3"/>
         <value value="7601003330434"/>
     </identifier>
+    <name>
+        <family value="Muster"/>
+        <given value="Petra"/>
+    </name>
 </Practitioner>

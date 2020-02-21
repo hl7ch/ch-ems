@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Encounter xmlns="http://hl7.org/fhir">
-    <id value="Einsatz"/>
+    <id value="1-Einsatz"/>
     <meta>
         <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-encounter"/>
     </meta>

@@ -79,33 +79,26 @@
             <path value="Patient.identifier.value"/>
             <short value="AHVN13 / NAVS13 of the patient (13 digits starting with 756)"/>
         </element>
-        <element id="Patient.identifier:InsuranceCardNumber">
-            <path value="Patient.identifier"/>
-            <sliceName value="InsuranceCardNumber"/>
-            <short value="Insurance card number for this patient"/>
-            <min value="0"/>
-            <max value="1"/>
-            <patternIdentifier>
-                <system value="urn:oid:2.16.756.5.30.1.123.100.1.1.1" />
-            </patternIdentifier> 
-        </element>
-        <element id="Patient.identifier.value:InsuranceCardNumber">
-            <path value="Patient.identifier.value"/>
-            <short value="Insurance card number"/>
-        </element>
-        <element id="Patient.identifier:PLSId">
+        <element id="Patient.identifier:LocalPid">
             <path value="Patient.identifier" />
-            <sliceName value="PLSId" />
-            <short value="Number of the patient from the patient guidance system (PLS) for the temporary identification" />
-            <min value="0" />
+            <sliceName value="LocalPid" />
+            <short value="Local patient identifier: PLS-ID (Number from the patient guidance system (PLS) for temporary identification)"/>
             <max value="1" />
             <patternIdentifier>
-                <system value="urn:oid:2.16.756.5.30.1.143.20" />
+                <type>
+                    <coding>
+                        <system value="http://terminology.hl7.org/CodeSystem/v2-0203" />
+                        <code value="MR" />
+                    </coding>
+                </type>
             </patternIdentifier>
         </element>
-        <element id="Patient.identifier.value:PLSId">
-            <path value="Patient.identifier.value" />
-            <short value="PLS-ID"/>
+        <element id="Patient.identifier.system:LocalPid">
+            <path value="Patient.identifier.system" />
+        </element>
+        <element id="Patient.identifier.value:LocalPid">
+            <path value="Patient.identifier.value"/>
+            <short value="PLS-ID of the patient"/>
         </element>
         <element id="Patient.name">
             <path value="Patient.name"/>
@@ -124,9 +117,12 @@
         </element>
         <element id="Patient.gender">
             <path value="Patient.gender"/>
-            <short value="male | female | unknown"/>
-            <!-- TBD: CH-Core: male, female, other-->
+            <short value="male | female | other"/>
             <min value="1"/>
+            <binding>
+                <strength value="required"/>
+                <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
+            </binding>
         </element>
         <element id="Patient.birthDate">
             <path value="Patient.birthDate"/>

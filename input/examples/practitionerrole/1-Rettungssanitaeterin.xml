@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <PractitionerRole xmlns="http://hl7.org/fhir">
-    <id value="PetraMusterRole-1-Einsatzprotokoll"/>
+    <id value="1-Rettungssanitaeterin"/>
     <meta>
         <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitionerrole"/>
     </meta>
     <practitioner>
-        <reference value="Practitioner/PetraMuster"/>
+        <reference value="Practitioner/1-Rettungssanitaeterin"/>
     </practitioner>
     <code>
+        <!-- CH-EPR-Term -->
+        <!--<coding>
+            <system value="urn:oid:2.16.756.5.30.1.127.3.10.9"/>
+            <code value="01500"/>
+            <display value="Rettungssanitäterin/Rettungssanitäter"/>
+        </coding>-->
+        <!-- CDA-Beispiel -->
         <coding>
             <system value="http://snomed.info/sct"/>
             <code value="223366009"/>
+            <!-- Andere Gesundheitsfachperson -->
             <display value="Healthcare professional"/>
         </coding>
         <coding>
-            <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/> <!--TBD -->
+            <!-- TBD -->
+            <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
             <code value="133932002"/>
             <display value="Betreuer"/>
         </coding>

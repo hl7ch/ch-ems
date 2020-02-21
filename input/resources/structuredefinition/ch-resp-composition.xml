@@ -82,7 +82,7 @@
         </element>
         <element id="Composition.title">
             <path value="Composition.title"/>
-            <fixedString value="EmergencyServiceProtocol"/>
+            <short value="'Einsatzprotokoll' or 'TODO' or 'TODO' or 'Emergency Service Protocol'"/>
         </element>
 
         <element id="Composition.section">

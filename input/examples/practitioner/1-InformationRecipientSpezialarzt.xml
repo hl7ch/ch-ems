@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+    <id value="1-InformationRecipientSpezialarzt"/>
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+    </meta>
+    <identifier>
+        <system value="urn:oid:2.51.1.3"/>
+        <value value="7601000404268"/>
+    </identifier>
+    <name>
+        <family value="Hans"/>
+        <given value="Spezialarzt"/>
+    </name>
+</Practitioner>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+   <id value="1-Einsatzprotokoll"/>
+   <meta>
+      <lastUpdated value="2020-02-21T07:53:22.889+00:00"/>
+      <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-bundle"/>
+   </meta>
+   <identifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:uuid:658ab5ea-1f63-11e6-b6ba-3e1d05defe78"/>
+   </identifier>
+   <type value="document"/>
+   <timestamp value="2016-12-10T12:05:00.000+01:00"/>
+
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Composition/1-Einsatzprotokoll"/>
+      <resource>
+         <Composition>
+
+         </Composition>
+      </resource>
+   </entry>
+   
+</Bundle>
