@@ -1,0 +1,338 @@
+	<component>
+		<structuredBody>
+
+
+			<component>
+				<section>
+					<templateId root="2.16.756.5.30.1.1.10.3.41" />
+					<code code="1100005" codeSystem="2.16.756.5.30.1.143.5.1"
+						displayName="Anamnese" codeSystemName="IVR Codesystem RESP" />
+					<title>Anamnese</title>
+					<text>
+						<table>
+							<tbody>
+								<tr>
+									<th>Geschehen</th>
+								</tr>
+								<tr>
+									<td ID="anamnesis">Hat sich beim Spazieren im Wald schlecht gefühlt und
+										ist abgesessen.
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table>
+							<tbody>
+								<tr>
+									<th>Symptome</th>
+								</tr>
+								<tr>
+									<td ID="symptom">Starke Schmerzen in der Brust und im linken Oberarm
+										verspürt
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<list>
+							<caption>Allergien</caption>
+							<item>Baumpollen </item>
+							<item>bekannte Unverträglichkeitsreaktion auf einzelne
+								Medikamente
+							</item>
+						</list>
+						<list>
+							<caption>preMedication</caption>
+							<item>Aspirin cardio 100, 1 Tbl/Tag</item>
+						</list>
+						<list>
+							<caption>Medizinische Vorgeschichte</caption>
+							<item>Herzvorfall vor 4 Jahren, behandelt im Triemli, seit dem
+								Aspirin cardio
+							</item>
+						</list>
+						<list>
+							<caption>Weitere</caption>
+							<item>Seit dem Frühstück um ca.08:00 Uhr hat er nichts mehr
+								gegessen
+							</item>
+							<item>Peter Muster hat keine Patientenverfügung erstellt </item>
+							<item>es sind keine anderen medizinische Probleme bekannt</item>
+						</list>
+					</text>
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="2.16.756.5.30.1.1.10.4.62" />
+							<code code="261665006" codeSystem="2.16.840.1.113883.6.96"
+								codeSystemName="SNOMED CT" displayName="Unknown" />
+							<text>
+								<reference value="#anamnesis" />
+							</text>
+						</observation>
+					</entry>
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="2.16.756.5.30.1.1.10.4.63" />
+							<code code="162408000" codeSystem="2.16.840.1.113883.6.96"
+								codeSystemName="SNOMED CT" displayName="General symptom description (finding)" />
+							<text>
+								<reference value="#symptom" />
+							</text>
+						</observation>
+					</entry>
+				</section>
+			</component>
+
+
+			<component>
+				<section>
+					<templateId root="2.16.756.5.30.1.1.10.3.14" />
+					<code code="1100006" codeSystem="2.16.756.5.30.1.143.5.1"
+						displayName="Befund" codeSystemName="IVR Codesystem RESP" />
+					<title>Befund</title>
+					<text>
+						<paragraph>
+							Blutdruck 120/80 mmHg gemessen am rechten Arm
+							<br />
+							Schmerz 5
+							<br />
+						</paragraph>
+						<table>
+							<tbody>
+								<tr>
+									<th>GCS</th>
+								</tr>
+								<tr>
+									<td ID="gcs1">Total 15 (Augenöffnung spontan 4/ verbale Antwort
+										orientiert 5/ morot. Reaktion befolgt Antweisungen 6) um 12:25
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</text>
+					<entry>
+						<!-- cdachresp-dataelement-108 GCS -->
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="1.2.276.0.76.10.4034" />
+							<id root="1.2.276.0.76.4.17.9814184919" extension="98C1EB7E-DC2D-4D1F-806A-2AD65EBA0351" />
+							<code code="9269-2" codeSystem="2.16.840.1.113883.6.1"
+								displayName="Glasgow coma score total" />
+							<text>
+								<reference value='#gcs1' />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime value="20161210112500.0000+0100" />
+							<!-- cdachresp-dataelement-109 -->
+							<value xsi:type="PQ" value="15" unit="{score}" />
+							<entryRelationship typeCode="COMP"
+								contextConductionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="9267-6" codeSystem="2.16.840.1.113883.6.1"
+										displayName="Glasgow coma score eye opening" />
+									<statusCode code="completed" />
+									<!-- cdachresp-dataelement-110 -->
+									<value xsi:type="PQ" value="4" unit="{score}" />
+								</observation>
+							</entryRelationship>
+							<entryRelationship typeCode="COMP"
+								contextConductionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="9270-0" codeSystem="2.16.840.1.113883.6.1"
+										displayName="Glasgow coma score verbal" />
+									<statusCode code="completed" />
+									<!-- cdachresp-dataelement-111 -->
+									<value xsi:type="PQ" value="5" unit="{score}" />
+								</observation>
+							</entryRelationship>
+							<entryRelationship typeCode="COMP"
+								contextConductionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="9268-4" codeSystem="2.16.840.1.113883.6.1"
+										displayName="Glasgow coma score motor" />
+									<statusCode code="completed" />
+									<!-- cdachresp-dataelement-112 -->
+									<value xsi:type="PQ" value="6" unit="{score}" />
+								</observation>
+							</entryRelationship>
+						</observation>
+					</entry>
+				</section>
+			</component>
+
+
+			<component>
+				<section>
+					<templateId root="2.16.756.5.30.1.1.10.3.16" />
+					<code code="1100007" codeSystem="2.16.756.5.30.1.143.5.1"
+						displayName="Diagnosen" codeSystemName="IVR Codesystem RESP" />
+					<title>Diagnosen</title>
+					<text>
+						<table>
+							<tbody>
+								<tr>
+									<th>Verdachtsdiagnose</th>
+								</tr>
+								<tr>
+									<td ID="diagnose1">akuten transmuralen Myokardinfarkts der Vorderwand,
+										ACS/STEMI VW
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</text>
+					<entry>
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="2.16.756.5.30.1.1.10.4.68" />
+							<templateId root="2.16.840.1.113883.10.20.1.27" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.1" />
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2" />
+							<id root="1962D16E-D153-4A58-B17E-1D65FC81E6CE" />
+							<code nullFlavor="NA" />
+							<statusCode code="active" />
+							<entryRelationship typeCode="SUBJ">
+								<observation classCode="OBS" moodCode="EVN"
+									negationInd="false">
+									<templateId root="2.16.756.5.30.1.1.10.4.67" />
+									<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5" />
+									<templateId root="2.16.840.1.113883.10.20.1.28" />
+									<id root="AD092C2A-813D-4EAA-83F1-EB53DB2F16F0" />
+									<code code="2931005" codeSystem="2.16.840.1.113883.6.96"
+										displayName="Verdachtsdiagnose" />
+									<text>
+										<reference value="#diagnose1" />
+									</text>
+									<statusCode code="completed" />
+									<effectiveTime>
+										<low value="20161210112500.0000+0100" />
+									</effectiveTime>
+									<value xsi:type="CD" code="I21.0" codeSystem="2.16.756.5.30.1.126.3.2"
+										displayName="ST elevation (STEMI) myocardial infarction of anterior wall"></value>
+									<author>
+										<functionCode code="309343006" codeSystem="2.16.840.1.113883.6.96"
+											codeSystemName="SNOMED CT" displayName="Physician">
+											<translation code="309343006" codeSystem="2.16.840.1.113883.6.96"
+												codeSystemName="SNOMED CT" displayName="Physician" />
+										</functionCode>
+										<time value="20161210112500.0000+0100" />
+										<assignedAuthor>
+											<!-- cdachresp-dataelement-281 -->
+											<id root="2.51.1.3" extension="7601000028105" />
+										</assignedAuthor>
+									</author>
+								</observation>
+							</entryRelationship>
+						</act>
+					</entry>
+				</section>
+			</component>
+
+
+			<component>
+				<section>
+					<templateId root="2.16.756.5.30.1.1.10.3.15" />
+					<code code="1100011" codeSystem="2.16.756.5.30.1.143.5.1"
+						displayName="Übergabe" codeSystemName="IVR Codesystem RESP" />
+					<title>Übergabe</title>
+					<text>
+						<paragraph>Schmerz 4						</paragraph>
+						<table>
+							<tbody>
+								<tr>
+									<th>GCS</th>
+								</tr>
+								<tr>
+									<td ID="gcs2">15(4/5/6) um 13.03</td>
+								</tr>
+								<tr>
+									<th>NACA</th>
+								</tr>
+								<tr>
+									<td ID="naca">NACA: III</td>
+								</tr>
+								<tr>
+									<th>Zustand</th>
+								</tr>
+								<tr>
+									<td ID="statusdischarge">der Zustand des Patienten hat sich im Verlauf des
+										Einsatzes verbessert
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<paragraph> Übergabe an USZ Wertsachenbeutel mit Portemonaie,
+							Handy, Uhr, Schlüssel, Bargel sowie Wertsachenverzeichnis
+						</paragraph>
+					</text>
+					<entry>
+						<!-- cdachresp-dataelement-108 GCS -->
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="1.2.276.0.76.10.4034" />
+							<id root="1.2.276.0.76.4.17.9814184919" extension="9B19B61B-B0B9-49C9-85C7-15B25D1B26D9" />
+							<code code="9269-2" codeSystem="2.16.840.1.113883.6.1"
+								displayName="Glasgow coma score total" />
+							<text>
+								<reference value="#gcs1" />
+							</text>
+							<statusCode code="completed" />
+							<effectiveTime value="20161210120300.0000+0100" />
+							<!-- cdachresp-dataelement-109 -->
+							<value xsi:type="PQ" value="15" unit="{score}" />
+							<entryRelationship typeCode="COMP"
+								contextConductionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="9267-6" codeSystem="2.16.840.1.113883.6.1"
+										displayName="Glasgow coma score eye opening" />
+									<statusCode code="completed" />
+									<!-- cdachresp-dataelement-110 -->
+									<value xsi:type="PQ" value="4" unit="{score}" />
+								</observation>
+							</entryRelationship>
+							<entryRelationship typeCode="COMP"
+								contextConductionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="9270-0" codeSystem="2.16.840.1.113883.6.1"
+										displayName="Glasgow coma score verbal" />
+									<statusCode code="completed" />
+									<!-- cdachresp-dataelement-111 -->
+									<value xsi:type="PQ" value="5" unit="{score}" />
+								</observation>
+							</entryRelationship>
+							<entryRelationship typeCode="COMP"
+								contextConductionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="9268-4" codeSystem="2.16.840.1.113883.6.1"
+										displayName="Glasgow coma score motor" />
+									<statusCode code="completed" />
+									<!-- cdachresp-dataelement-112 -->
+									<value xsi:type="PQ" value="6" unit="{score}" />
+								</observation>
+							</entryRelationship>
+						</observation>
+					</entry>
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="1.2.276.0.76.10.4167" />
+							<code code="X-NACA" codeSystem="2.16.840.1.113883.6.1"
+								codeSystemName="LOINC" displayName="NACA Score" />
+							<statusCode code="completed" />
+							<value xsi:type="CE" code="III" codeSystem="1.2.276.0.76.5.82" />
+						</observation>
+					</entry>
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="2.16.756.5.30.1.1.10.4.65" />
+							<code code="75527-2" codeSystem="2.16.840.1.113883.6.1"
+								codeSystemName="LOINC" displayName="Vital status at discharge" />
+							<text>
+								<reference value="#statusdischarge" />
+							</text>
+							<statusCode code="completed" />
+							<value xsi:type="CD" code="385425000" codeSystem="2.16.840.1.113883.6.96"
+								displayName="Improved" />
+						</observation>
+					</entry>
+				</section>
+			</component>
+
+		</structuredBody>
+	</component>
+</ClinicalDocument>

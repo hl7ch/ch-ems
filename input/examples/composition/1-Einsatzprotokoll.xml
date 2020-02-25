@@ -95,7 +95,8 @@
       <reference value="Practitioner/1-Rettungssanitaeterin"/>
     </party>
   </attester>
-  <!-- CDA: custodian.assignedCustodian.representedCustodian-->
+  <!-- CDA: custodian.assignedCustodian.representedCustodian -->
+  <!-- cdachresp-dataelement-61 aufgebotene Organisation -->
   <custodian>
     <reference value="Organization/1-Rettungsdienst"/>
   </custodian>
@@ -115,7 +116,49 @@
       <status value="generated"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
         <table>
-          <thead>
+          <tbody>
+            <tr>
+              <th>Einsatz</th>
+            </tr>
+            <tr>
+              <td>Einsatzdatum</td>
+              <!-- cdachresp-dataelement-54 -->
+              <td>10.12.2016</td>
+            </tr>
+            <tr>
+              <td>Einsatznummer</td>
+              <!-- cdachresp-dataelement-54 -->
+              <td>S12345678</td>
+            </tr>
+            <tr>
+              <td>aufbietende Organisation</td>
+              <td>7601002156370 (SNZ)</td>
+            </tr>
+            <tr>
+              <td>augebotene Organisation</td>
+              <td>7601002156363 (Rettungsdienst Schutz &amp; Rettung Zürich)
+              </td>
+            </tr>
+            <tr>
+              <td>Team</td>
+              <td>
+										Petra Muster, GLN 7601003330434, Betreuerin
+                <br />
+										Hans Beispiel, GLN 7601000028105, Betreuer
+              </td>
+            </tr>
+            <tr>
+              <td>Einsatzort</td>
+              <td>Zürich, Waldrand (47.392115, 8.553192)</td>
+            </tr>
+            <tr>
+              <td>Zielort</td>
+              <td>USZ Notfall</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tbody>
             <tr>
               <th>Alarm</th>
               <th>Status DP</th>
@@ -127,18 +170,16 @@
               <th>Status 5</th>
               <th>Status 6</th>
             </tr>
-          </thead>
-          <tbody>
             <tr>
-              <td id="alarm">12.09</td>
-              <td id="disposition">12.11</td>
-              <td id="rollout">12.13</td>
-              <td id="arrivalonscene">12.17</td>
-              <td id="arrivalpatient">12.22</td>
-              <td id="departurefromscene">12.48</td>
-              <td id="arrivalattarget">12.54</td>
-              <td id="departurefromtarget"></td>
-              <td id="operationalreadiness"></td>
+              <th id="alarm">12.09</th>
+              <th id="disposition">12.11</th>
+              <th id="rollout">12.13</th>
+              <th id="arrivalonscene">12.17</th>
+              <th id="arrivalpatient">12.22</th>
+              <th id="departurefromscene">12.48</th>
+              <th id="arrivalattarget">12.54</th>
+              <th id="departurefromtarget"></th>
+              <th id="operationalreadiness"></th>
             </tr>
           </tbody>
         </table>
@@ -146,6 +187,24 @@
     </text>
     <entry>
       <reference value="Encounter/1-Einsatz"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-Disposition"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-Rollout"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-ArrivalOnScene"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-ArrivalPatient"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-DepartureFromScene"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-ArrivalAtTarget"/>
     </entry>
   </section>
 

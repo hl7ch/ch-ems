@@ -1,75 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <Encounter xmlns="http://hl7.org/fhir">
     <id value="1-Einsatz"/>
     <meta>
         <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-encounter"/>
     </meta>
-    <extension url="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-dateTime">
-        <valueDateTime value="2016-01-01T23:11:00+01:00"/>
-    </extension>
-    <extension url="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-missionNumber">
-        <valueString value="S12345678"/>
-    </extension>
-    <extension url="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-statusTimes">
-        <extension url="statusRole">
-            <valueCodeableConcept>
-                <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
-                    <code value="1000034"/>
-                    <display value="disposition"/>
-                </coding>
-            </valueCodeableConcept>
-        </extension>
-        <extension url="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-dateTime">
-            <valueDateTime value="2017-10-03T13:15:00+01:00"/>
-        </extension>
-    </extension>
+    <!-- cdachresp-dataelement-55 Einsatznummer (OID vom SNZ)-->
+    <identifier>
+        <system value="urn:oid:2.16.756.5.30.1.9999999999.1"/>
+        <value value="S12345678"/>
+    </identifier>
     <status value="finished"/>
     <class>
         <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
-        <code value="AMB"/>
-        <!-- TBD: EMER? -->
-        <display value="ambulatory"/>
+        <code value="EMER"/>
+        <display value="emergency"/>
     </class>
     <subject>
         <reference value="Patient/1-PeterMuster"/>
     </subject>
+    <!-- cdachresp-dataelement-60 aufbietende Organisation -->
+    <basedOn>
+        <reference value="ServiceRequest/1-AufbietendeOrganisation"/>
+    </basedOn>
+    <!-- cdachresp-dataelement-102 Team -->
     <participant>
+        <!-- cdachresp-dataelement-283 Rolle Teammitglied -->
         <type>
             <coding>
                 <system value="http://snomed.info/sct"/>
+                <code value="223366009"/>
+                <display value="Healthcare professional"/>
+            </coding>
+            <coding>
+                <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
                 <code value="133932002"/>
-                <display value="Caregiver"/>
+                <display value="Betreuer"/>
             </coding>
         </type>
         <individual>
-            <reference value="Practitioner/Betreuer"/>
+            <reference value="Practitioner/1-BetreuerPetraMuster"/>
         </individual>
     </participant>
     <participant>
+        <!-- cdachresp-dataelement-283 Rolle Teammitglied -->
         <type>
             <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="223366009"/>
+                <display value="Healthcare professional"/>
+            </coding>
+            <coding>
                 <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
-                <code value="1000013"/>
-                <display value="driver"/>
+                <code value="133932002"/>
+                <display value="Betreuer"/>
             </coding>
         </type>
         <individual>
-            <reference value="Practitioner/Fahrer"/>
+            <reference value="Practitioner/1-BetreuerHansBeispiel"/>
         </individual>
     </participant>
+    <participant>
+        <!-- cdachresp-dataelement-283 Rolle Teammitglied -->
+        <type>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="309343006"/>
+                <display value="Physician"/>
+            </coding>
+            <coding>
+                <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                <code value="309343006"/>
+                <display value="Notärztin / Notarzt"/>
+            </coding>
+        </type>
+        <individual>
+            <reference value="Practitioner/1-NotarztHansNotarzt"/>
+        </individual>
+    </participant>
+    <!-- cdachresp-dataelement-54: Einsatzdatum -->
+    <period>
+        <start value="2016-12-10"/>
+    </period>
+    <!-- cdachresp-dataelement-103 Zielort -->
+    <hospitalization>
+        <destination>
+            <reference value="Location/1-Zielort"/>
+        </destination>
+    </hospitalization>
+    <!-- cdachresp-dataelement-25 Einsatzort -->
     <location>
         <location>
-            <reference value="Location/Einsatzort"/>
+            <reference value="Location/1-Einsatzort"/>
         </location>
     </location>
-    <location>
-        <location>
-            <reference value="Location/Zielort"/>
-        </location>
-    </location>
-    <serviceProvider>
-        <reference value="Organization/Rettungsdienst"/>
-    </serviceProvider>
 </Encounter>

@@ -34,6 +34,11 @@
             <path value="Location"/>
             <short value="CH RESP Location"/>
         </element>
+        <element id="Location.identifier">
+            <path value="Location.identifier"/>
+            <short value="GLN of the destination hospital"/>
+            <max value="1"/>
+        </element>
         <element id="Location.name">
             <path value="Location.name"/>
             <short value="Name of the location as used by humans"/>
@@ -53,18 +58,6 @@
         <element id="Location.position.latitude">
             <path value="Location.position.latitude"/>
             <short value="Latitude with WGS84 datum"/>
-        </element>
-        <element id="Location.managingOrganization">
-            <path value="Location.managingOrganization"/>
-            <short value="Mission destination location"/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
-            </type>
-        </element>
-        <element id="Location.managingOrganization.reference">
-            <path value="Location.managingOrganization.reference"/>
-            <min value="1"/>
         </element>
     </differential>
 </StructureDefinition>

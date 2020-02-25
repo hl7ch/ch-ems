@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="1-Disposition"/>
+    <meta>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+    </meta>
+    <status value="final"/>
+    <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
+    <code>
+        <coding>
+            <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+            <code value="1000034"/>
+            <display value="disposition"/>
+        </coding>
+    </code>
+    <!-- cdachresp-dataelement-286 Statuszeit -->
+    <valueDateTime value="2016-12-10T11:11:00.000+01:00"/>
+</Observation>

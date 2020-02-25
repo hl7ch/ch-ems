@@ -79,19 +79,75 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Location/Einsatzort"/>
+        <reference value="Location/1-Einsatzort"/>
       </reference>
-      <name value="Einsatzort"/>
+      <name value="1 Einsatzort"/>
       <description value="Example for Location"/>
       <exampleCanonical value="StructureDefinition/ch-resp-location"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Location/Zielort"/>
+        <reference value="Location/1-Zielort"/>
       </reference>
-      <name value="Zielort"/>
+      <name value="1 Zielort"/>
       <description value="Example for Location"/>
       <exampleCanonical value="StructureDefinition/ch-resp-location"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-Alarm"/>
+      </reference>
+      <name value="1 Alarm"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-ArrivalAtTarget"/>
+      </reference>
+      <name value="1 Arrival at target"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-ArrivalOnScene"/>
+      </reference>
+      <name value="1 Arrival on scene"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-ArrivalPatient"/>
+      </reference>
+      <name value="1 ArrivalPatient"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-DepartureFromScene"/>
+      </reference>
+      <name value="1 Departure from scene"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-Disposition"/>
+      </reference>
+      <name value="1 Disposition"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-Rollout"/>
+      </reference>
+      <name value="1 Rollout"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
     </resource>
     <resource>
       <reference>
@@ -111,11 +167,35 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Organization/1-TeamRettungsdienst"/>
+      </reference>
+      <name value="1 Team Rettungsdienst"/>
+      <description value="Example for Organization"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-organization"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Patient/1-PeterMuster"/>
       </reference>
       <name value="1 Peter Muster"/>
       <description value="Example for Patient"/>
       <exampleCanonical value="StructureDefinition/ch-resp-patient"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Practitioner/1-BetreuerHansBeispiel"/>
+      </reference>
+      <name value="1 Betreuer Hans Beispiel"/>
+      <description value="Example for Practitioner"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Practitioner/1-BetreuerPetraMuster"/>
+      </reference>
+      <name value="1 Betreuer PetraMuster"/>
+      <description value="Example for Practitioner"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -129,7 +209,15 @@
       <reference>
         <reference value="Practitioner/1-Notarzt"/>
       </reference>
-      <name value="1-Notarzt"/>
+      <name value="1 Notarzt"/>
+      <description value="Example for Practitioner"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Practitioner/1-NotarztHansNotarzt"/>
+      </reference>
+      <name value="1 Notarzt Hans Notarzt"/>
       <description value="Example for Practitioner"/>
       <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
     </resource>
@@ -173,6 +261,14 @@
       <description value="Example for RelatedPerson"/>
       <exampleCanonical value="StructureDefinition/ch-resp-relatedperson"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="ServiceRequest/1-AufbietendeOrganisation"/>
+      </reference>
+      <name value="1 Aufbietende Organisation"/>
+      <description value="Example for ServiceRequest"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-servicerequest"/>
+    </resource>
 
     <!-- References to structure definitions -->
     <resource>
@@ -207,31 +303,19 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-ext-dateTime"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/ch-resp-ext-missionNumber"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="StructureDefinition/ch-resp-ext-performer"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-ext-statusTimes"/>
+        <reference value="StructureDefinition/ch-resp-location"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-location"/>
+        <reference value="StructureDefinition/ch-resp-observation"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -268,6 +352,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-resp-relatedperson"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-servicerequest"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

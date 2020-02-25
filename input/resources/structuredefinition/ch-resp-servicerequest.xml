@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-resp-servicerequest"/>
+    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-servicerequest"/>
+    <version value="0.1.0"/>
+    <name value="CHRespServiceRequest"/>
+    <title value="CH RESP Service Request Profile"/>
+    <status value="draft"/>
+    <date value="2020-02-24T00:00:00+00:00"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
+    <contact>
+        <name value="eCH Fachgruppe eHealth"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
+        </telecom>
+    </contact>
+    <description value="Definition of the service request for the use of the rescue protection protocol"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CH"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="ServiceRequest"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="ServiceRequest">
+            <path value="ServiceRequest"/>
+            <short value="CH RESP ServiceRequest"/>
+        </element>
+        <element id="ServiceRequest.contained">
+            <path value="ServiceRequest.contained"/>
+            <short value="Inline Resources for requester"/>
+        </element>
+        <element id="ServiceRequest.status">
+            <path value="ServiceRequest.status"/>
+        </element>
+        <element id="ServiceRequest.intent">
+            <path value="ServiceRequest.intent"/>
+        </element>
+        <element id="ServiceRequest.subject">
+            <path value="ServiceRequest.subject"/>
+            <short value="Patient"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+            </type>
+        </element>
+        <element id="ServiceRequest.subject.reference">
+            <path value="ServiceRequest.subject.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="ServiceRequest.requester">
+            <path value="ServiceRequest.requester"/>
+            <short value="Informant organisation (IMC)"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+            </type>
+        </element>
+        <element id="ServiceRequest.requester.reference">
+            <path value="ServiceRequest.requester.reference"/>
+            <min value="1"/>
+        </element>
+    </differential>
+</StructureDefinition>

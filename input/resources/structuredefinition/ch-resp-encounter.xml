@@ -33,46 +33,21 @@
             <path value="Encounter"/>
             <short value="CH RESP Encounter"/>
         </element>
-        <element id="Encounter.extension">
-            <path value="Encounter.extension"/>
-            <slicing>
-                <discriminator>
-                    <type value="value"/>
-                    <path value="url"/>
-                </discriminator>
-                <rules value="open"/>
-            </slicing>
-        </element>
-        <element id="Encounter.extension:date">
-            <path value="Encounter.extension"/>
-            <sliceName value="date"/>
-            <short value="Date (and time) of encounter"/>
-            <min value="1"/>
-            <max value="1"/>
-            <type>
-                <code value="Extension"/>
-                <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-dateTime"/>
-            </type>
-        </element>
-        <element id="Encounter.extension:missionNumber">
-            <path value="Encounter.extension"/>
-            <sliceName value="missionNumber"/>
+        <element id="Encounter.identifier">
+            <path value="Encounter.identifier"/>
             <short value="Misson number"/>
             <min value="1"/>
             <max value="1"/>
-            <type>
-                <code value="Extension"/>
-                <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-missionNumber"/>
-            </type>
         </element>
-        <element id="Encounter.extension:statusTimes">
-            <path value="Encounter.extension"/>
-            <sliceName value="statusTimes"/>
-            <short value="Status times"/>
-            <type>
-                <code value="Extension"/>
-                <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-statusTimes"/>
-            </type>
+        <element id="Encounter.identifier.system">
+            <path value="Encounter.identifier.system"/>
+            <short value="OID of organization (IMC)"/>
+            <min value="1"/>
+        </element>
+        <element id="Encounter.identifier.value">
+            <path value="Encounter.identifier.value"/>
+            <short value="Mission number IMC"/>
+            <min value="1"/>
         </element>
         <element id="Encounter.status">
             <path value="Encounter.status"/>
@@ -82,6 +57,7 @@
         </element>
         <element id="Encounter.subject">
             <path value="Encounter.subject"/>
+            <short value="Patient"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
@@ -91,13 +67,27 @@
             <path value="Encounter.subject.reference"/>
             <min value="1"/>
         </element>
+        <element id="Encounter.basedOn">
+            <path value="Encounter.basedOn"/>
+            <short value="Informant organisation (IMC)"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-servicerequest"/>
+            </type>
+        </element>
+        <element id="Encounter.basedOn.reference">
+            <path value="Encounter.basedOn.reference"/>
+            <min value="1"/>
+        </element>
         <element id="Encounter.participant">
             <path value="Encounter.participant"/>
-            <short value="List of participants involved in the encounter other than the patient"/>
+            <short value="Team"/>
         </element>
         <element id="Encounter.participant.type">
             <path value="Encounter.participant.type"/>
-            <short value="Role of participant in encounter"/>
+            <short value="Role of team member"/>
             <min value="1"/>
             <max value="1"/>
             <binding>
@@ -107,7 +97,7 @@
         </element>
         <element id="Encounter.participant.individual">
             <path value="Encounter.participant.individual"/>
-            <short value="Member of the team"/>
+            <short value="Team member"/>
             <min value="1"/>
             <type>
                 <code value="Reference"/>
@@ -118,10 +108,35 @@
             <path value="Encounter.participant.individual.reference"/>
             <min value="1"/>
         </element>
+        <element id="Encounter.period">
+            <path value="Encounter.period"/>
+            <short value="The date (and time) of the encounter"/>
+            <min value="1"/>
+        </element>
+        <element id="Encounter.period.start">
+            <path value="Encounter.period.start"/>
+            <min value="1"/>
+        </element>
+        <element id="Encounter.hospitalization">
+            <path value="Encounter.hospitalization"/>
+            <short value="Destination of mission"/>
+        </element>
+        <element id="Encounter.hospitalization.destination">
+            <path value="Encounter.hospitalization.destination"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-location"/>
+            </type>
+            <min value="1"/>
+        </element>
+        <element id="Encounter.hospitalization.destination.reference">
+            <path value="Encounter.hospitalization.destination.reference"/>
+            <min value="1"/>
+        </element>
         <element id="Encounter.location">
             <path value="Encounter.location"/>
-            <short value="Mission incident location and mission destination location"/>
-            <max value="2"/>
+            <short value="Location of mission"/>
+            <max value="1"/>
         </element>
         <element id="Encounter.location.location">
             <path value="Encounter.location.location"/>
@@ -132,19 +147,6 @@
         </element>
         <element id="Encounter.location.location.reference">
             <path value="Encounter.location.location.reference"/>
-            <min value="1"/>
-        </element>
-        <element id="Encounter.serviceProvider">
-            <path value="Encounter.serviceProvider"/>
-            <short value="Order recipient (called organization)"/>
-            <min value="1"/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
-            </type>
-        </element>
-        <element id="Encounter.serviceProvider.reference">
-            <path value="Encounter.serviceProvider.reference"/>
             <min value="1"/>
         </element>
     </differential>

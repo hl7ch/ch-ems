@@ -84,7 +84,19 @@
             <path value="Composition.title"/>
             <short value="'Einsatzprotokoll' or 'TODO' or 'TODO' or 'Emergency Service Protocol'"/>
         </element>
-
+        <element id="Composition.custodian">
+            <path value="Composition.custodian"/>
+            <short value="Order recipient (called organization)"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+            </type>
+        </element>
+        <element id="Composition.custodian.reference">
+            <path value="Composition.custodian.reference"/>
+            <min value="1"/>
+        </element>
         <element id="Composition.section">
             <path value="Composition.section"/>
             <min value="1"/>
@@ -130,16 +142,40 @@
             <min value="1"/>
             <max value="1"/>
         </element>
-        <element id="Composition.section.entry:mission">
+        <element id="Composition.section:mission.entry">
             <path value="Composition.section.entry"/>
-            <short value="Encounter"/>
+            <slicing>
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="resolve()"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <element id="Composition.section:mission.entry:missionEncounter">
+            <path value="Composition.section.entry"/>
+            <sliceName value="missionEncounter"/>
+            <short value="Mission encounter"/>
             <max value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-encounter"/>
             </type>
         </element>
-        <element id="Composition.section.entry:mission.reference">
+        <element id="Composition.section:mission.entry:missionEncounter.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:mission.entry:missionStatusTime">
+            <path value="Composition.section.entry"/>
+            <sliceName value="missionStatusTime"/>
+            <short value="Mission status time"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+            </type>
+        </element>
+        <element id="Composition.section:mission.entry:missionStatusTime.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
         </element>
