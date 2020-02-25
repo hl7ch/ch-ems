@@ -103,6 +103,14 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/1-Anamnese"/>
+      </reference>
+      <name value="1 Anamnese"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/1-ArrivalAtTarget"/>
       </reference>
       <name value="1 Arrival at target"/>
@@ -135,6 +143,14 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/1-Diagnose"/>
+      </reference>
+      <name value="1 Diagnose"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/1-Disposition"/>
       </reference>
       <name value="1 Disposition"/>
@@ -143,9 +159,25 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Observation/1-GCS"/>
+      </reference>
+      <name value="1 GCS"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Observation/1-Rollout"/>
       </reference>
       <name value="1 Rollout"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-Symptom"/>
+      </reference>
+      <name value="1 Symptom"/>
       <description value="Example for Observation"/>
       <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
     </resource>

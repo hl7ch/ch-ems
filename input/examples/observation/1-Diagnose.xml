@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="1-Diagnose"/>
+    <meta>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+    </meta>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+            <code value="2931005" />
+            <display value="Verdachtsdiagnose"/>
+        </coding>
+    </code>
+    <effectiveDateTime value="2016-12-10T11:25:00.000+01:00" />
+    <!-- cdachresp-dataelement-488 Ersteller Diagnose-->
+    <performer>
+        <reference value="Practitioner/1-Notarzt"/>
+    </performer>
+    <valueCodeableConcept>
+        <coding>
+            <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+            <code value="I21.0"/>
+            <display value="ST elevation (STEMI) myocardial infarction of anterior wall"/>
+        </coding>
+    </valueCodeableConcept>
+</Observation>

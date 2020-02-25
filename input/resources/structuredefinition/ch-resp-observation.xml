@@ -41,8 +41,8 @@
             <path value="Observation.code"/>
             <short value="Type of observation (code / type)"/>
         </element>
-        <element id="Observation.valueDateTime">
-            <path value="Observation.valueDateTime"/>
+        <element id="Observation.value[x]">
+            <path value="Observation.value[x]"/>
         </element>
     </differential>
 </StructureDefinition>

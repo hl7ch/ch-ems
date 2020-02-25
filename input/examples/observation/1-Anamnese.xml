@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="1-Anamnese"/>
+    <meta>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+    </meta>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="261665006"/>
+            <display value="Unknown"/>
+        </coding>
+    </code>
+    <!-- cdachresp-dataelement-98 Geschehen frei -->
+    <valueString value="Hat sich beim Spazieren im Wald schlecht gefühlt und ist abgesessen."/>
+</Observation>
