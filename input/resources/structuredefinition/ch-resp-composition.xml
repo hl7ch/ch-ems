@@ -284,11 +284,104 @@
             <max value="0"/>
         </element>
 
-        <!-- Section ... (Anamnese) -->
+        <!-- Section Anamnesis (Anamnese) -->
+        <element id="Composition.section:anamnesis">
+            <path value="Composition.section"/>
+            <sliceName value="anamnesis"/>
+            <short value="Anamnesis"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.title:anamnesis">
+            <path value="Composition.section.title"/>
+            <short value="'Anamnese' or 'TODO' or 'TODO' or 'TODO'"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.code:anamnesis">
+            <path value="Composition.section.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <!-- TBD -->
+                    <code value="1100005" />
+                    <display value="Anamnese"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section.text:anamnesis">
+            <path value="Composition.section.text"/>
+            <short value="Human readable text of this section"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
 
-        <!-- Section ... (Befund) -->
+        <!-- Section Findings (Befund) -->
+        <element id="Composition.section:findings">
+            <path value="Composition.section"/>
+            <sliceName value="findings"/>
+            <short value="Findings"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.title:findings">
+            <path value="Composition.section.title"/>
+            <short value="'Befund' or 'TODO' or 'TODO' or 'TODO'"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.code:findings">
+            <path value="Composition.section.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <!-- TBD -->
+                    <code value="1100006" />
+                    <display value="Befund"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section.text:findings">
+            <path value="Composition.section.text"/>
+            <short value="Human readable text of this section"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
 
-        <!-- Section ... (Diagnosen) -->
+        <!-- Section Diagnosis (Diagnosen) -->
+        <element id="Composition.section:diagnosis">
+            <path value="Composition.section"/>
+            <sliceName value="diagnosis"/>
+            <short value="Diagnosis"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.title:diagnosis">
+            <path value="Composition.section.title"/>
+            <short value="'Diagnosen' or 'TODO' or 'TODO' or 'TODO'"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.code:diagnosis">
+            <path value="Composition.section.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <!-- TBD -->
+                    <code value="1100007" />
+                    <display value="Diagnosen"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section.text:diagnosis">
+            <path value="Composition.section.text"/>
+            <short value="Human readable text of this section"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
 
         <!-- Section Procedures (Massnahmen) -->
         <element id="Composition.section:procedures">
@@ -401,7 +494,38 @@
             <max value="0"/>
         </element>
 
-        <!-- Section ... (Übergabe) -->
+        <!-- Section Handover (Übergabe) -->
+        <element id="Composition.section:handover">
+            <path value="Composition.section"/>
+            <sliceName value="handover"/>
+            <short value="Handover"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.title:handover">
+            <path value="Composition.section.title"/>
+            <short value="'Übergabe' or 'TODO' or 'TODO' or 'TODO'"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section.code:handover">
+            <path value="Composition.section.code"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <!-- TBD -->
+                    <code value="1100011" />
+                    <display value="Übergabe"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Composition.section.text:handover">
+            <path value="Composition.section.text"/>
+            <short value="Human readable text of this section"/>
+            <min value="1"/>
+            <max value="1"/>
+        </element>
 
         <!-- Section Annotation (Bemerkungen) -->
         <element id="Composition.section:annotation">

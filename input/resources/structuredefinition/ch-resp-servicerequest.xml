@@ -69,5 +69,17 @@
             <path value="ServiceRequest.requester.reference"/>
             <min value="1"/>
         </element>
+        <element id="ServiceRequest.insurance">
+            <path value="ServiceRequest.insurance"/>
+            <short value="Insurance coverage"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-coverage"/>
+            </type>
+        </element>
+        <element id="ServiceRequest.insurance.reference">
+            <path value="ServiceRequest.insurance.reference"/>
+            <min value="1"/>
+        </element>
     </differential>
 </StructureDefinition>

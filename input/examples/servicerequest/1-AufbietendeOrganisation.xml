@@ -22,4 +22,7 @@
     <requester>
         <reference value="#informant"/>
     </requester>
+    <insurance>
+        <reference value="Coverage/1-CoveragePeterMuster"/>
+    </insurance>
 </ServiceRequest>

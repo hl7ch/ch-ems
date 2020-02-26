@@ -136,16 +136,12 @@
             </tr>
             <tr>
               <td>augebotene Organisation</td>
-              <td>7601002156363 (Rettungsdienst Schutz &amp; Rettung Zürich)
-              </td>
+              <td>7601002156363 (Rettungsdienst Schutz &amp; Rettung Zürich)</td>
             </tr>
             <tr>
               <td>Team</td>
-              <td>
-										Petra Muster, GLN 7601003330434, Betreuerin
-                <br />
-										Hans Beispiel, GLN 7601000028105, Betreuer
-              </td>
+              <td>Petra Muster, GLN 7601003330434, Betreuerin <br />
+									Hans Beispiel, GLN 7601000028105, Betreuer </td>
             </tr>
             <tr>
               <td>Einsatzort</td>
@@ -187,6 +183,9 @@
     </text>
     <entry>
       <reference value="Encounter/1-Einsatz"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-Alarm"/>
     </entry>
     <entry>
       <reference value="Observation/1-Disposition"/>
@@ -279,9 +278,7 @@
               <th>Geschehen</th>
             </tr>
             <tr>
-              <td id="anamnesis">Hat sich beim Spazieren im Wald schlecht gefühlt und
-										ist abgesessen.
-              </td>
+              <td id="anamnesis">Hat sich beim Spazieren im Wald schlecht gefühlt und ist abgesessen.</td>
             </tr>
           </tbody>
         </table>
@@ -291,37 +288,29 @@
               <th>Symptome</th>
             </tr>
             <tr>
-              <td id="symptom">Starke Schmerzen in der Brust und im linken Oberarm
-										verspürt
-              </td>
+              <td id="symptom">Starke Schmerzen in der Brust und im linken Oberarm verspürt</td>
             </tr>
           </tbody>
         </table>
-        <list>
-          <caption>Allergien</caption>
-          <item>Baumpollen </item>
-          <item>bekannte Unverträglichkeitsreaktion auf einzelne
-								Medikamente
-          </item>
-        </list>
-        <list>
-          <caption>preMedication</caption>
-          <item>Aspirin cardio 100, 1 Tbl/Tag</item>
-        </list>
-        <list>
-          <caption>Medizinische Vorgeschichte</caption>
-          <item>Herzvorfall vor 4 Jahren, behandelt im Triemli, seit dem
-								Aspirin cardio
-          </item>
-        </list>
-        <list>
-          <caption>Weitere</caption>
-          <item>Seit dem Frühstück um ca.08:00 Uhr hat er nichts mehr
-								gegessen
-          </item>
-          <item>Peter Muster hat keine Patientenverfügung erstellt </item>
-          <item>es sind keine anderen medizinische Probleme bekannt</item>
-        </list>
+        <h4>Allergien</h4>
+        <ul>
+          <li>Baumpollen</li>
+          <li>bekannte Unverträglichkeitsreaktion auf einzelne Medikamente</li>
+        </ul>
+        <h4>preMedication</h4>
+        <ul>
+          <li>Aspirin cardio 100, 1 Tbl/Tag</li>
+        </ul>
+        <h4>Medizinische Vorgeschichte</h4>
+        <ul>
+          <li>Herzvorfall vor 4 Jahren, behandelt im Triemli, seit dem Aspirin cardio</li>
+        </ul>
+        <h4>Weitere</h4>
+        <ul>
+          <li>Seit dem Frühstück um ca.08:00 Uhr hat er nichts mehr gegessen</li>
+          <li>Peter Muster hat keine Patientenverfügung erstellt</li>
+          <li>es sind keine anderen medizinische Probleme bekannt</li>
+        </ul>
       </div>
     </text>
     <entry>
@@ -346,30 +335,26 @@
     <text>
       <status value="generated"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <paragraph>
-							Blutdruck 120/80 mmHg gemessen am rechten Arm
-          <br />
-							Schmerz 5
-          <br />
-        </paragraph>
+        <p>
+          Blutdruck 120/80 mmHg gemessen am rechten Arm <br />
+					Schmerz 5 <br />
+        </p>
         <table>
           <tbody>
             <tr>
               <th>GCS</th>
             </tr>
             <tr>
-              <td id="gcs1">Total 15 (Augenöffnung spontan 4/ verbale Antwort
-										orientiert 5/ morot. Reaktion befolgt Antweisungen 6) um 12:25
-              </td>
+              <td id="gcs1">Total 15 (Augenöffnung spontan 4/ verbale Antwort orientiert 5/ morot. Reaktion befolgt Antweisungen 6) um 12:25</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <!-- cdachresp-dataelement-108 GCS -->
-      <entry>
-        <reference value="Observation/1-GCS"/>
-      </entry>
     </text>
+    <!-- cdachresp-dataelement-108 GCS -->
+      <entry>
+        <reference value="Observation/1-GCSBefund"/>
+      </entry>
   </section>
 
   <!-- Section Diagnosen -->
@@ -392,9 +377,7 @@
               <th>Verdachtsdiagnose</th>
             </tr>
             <tr>
-              <td id="diagnose1">akuten transmuralen Myokardinfarkts der Vorderwand,
-										ACS/STEMI VW
-              </td>
+              <td id="diagnose1">akuten transmuralen Myokardinfarkts der Vorderwand, ACS/STEMI VW</td>
             </tr>
           </tbody>
         </table>
@@ -419,8 +402,7 @@
     <text>
       <status value="generated"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <span> Infusion gelegt und verabreichen ihm um 12:30 eine erste
-						Dosis von 2 Hüben Nitrolingual-Spray </span>
+        <span> Infusion gelegt und verabreichen ihm um 12:30 eine erste Dosis von 2 Hüben Nitrolingual-Spray </span>
       </div>
     </text>
   </section>
@@ -464,6 +446,55 @@
   </section>
 
   <!-- Section Übergabe -->
+  <section>
+    <title value="Übergabe"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <code value="1100011"/>
+        <display value="Übergabe"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Schmerz 4</p>
+        <table>
+          <tbody>
+            <tr>
+              <th>GCS</th>
+            </tr>
+            <tr>
+              <td id="gcs2">15(4/5/6) um 13.03</td>
+            </tr>
+            <tr>
+              <th>NACA</th>
+            </tr>
+            <tr>
+              <td id="naca">NACA: III</td>
+            </tr>
+            <tr>
+              <th>Zustand</th>
+            </tr>
+            <tr>
+              <td id="statusdischarge">der Zustand des Patienten hat sich im Verlauf des Einsatzes verbessert</td>
+            </tr>
+          </tbody>
+        </table>
+        <p> Übergabe an USZ Wertsachenbeutel mit Portemonaie, Handy, Uhr, Schlüssel, Bargel sowie Wertsachenverzeichnis </p>
+      </div>
+    </text>
+    <entry>
+      <reference value="Observation/1-ZustandUebergabe"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-NACAUebergabe"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-GCSUebergabe"/>
+    </entry>
+  </section>
 
   <!-- Section Bemerkungen -->
   <section>

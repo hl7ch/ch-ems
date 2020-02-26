@@ -45,14 +45,14 @@
   </dependsOn>
   <definition>
     <!-- References to examples -->
-    <!--<resource>
+    <resource>
       <reference>
         <reference value="Bundle/1-Einsatzprotokoll"/>
       </reference>
       <name value="1 Einsatzprotokoll"/>
       <description value="Example for Bundle"/>
       <exampleCanonical value="StructureDefinition/ch-resp-bundle"/>
-    </resource>-->
+    </resource>
     <resource>
       <reference>
         <reference value="Composition/1-Einsatzprotokoll"/>
@@ -159,9 +159,25 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Observation/1-GCS"/>
+        <reference value="Observation/1-GCSBefund"/>
       </reference>
-      <name value="1 GCS"/>
+      <name value="1 GCS Befund"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-GCSUebergabe"/>
+      </reference>
+      <name value="1 GCS Uebergabe"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-NACAUebergabe"/>
+      </reference>
+      <name value="1 NACA Uebergabe"/>
       <description value="Example for Observation"/>
       <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
     </resource>
@@ -178,6 +194,14 @@
         <reference value="Observation/1-Symptom"/>
       </reference>
       <name value="1 Symptom"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1-ZustandUebergabe"/>
+      </reference>
+      <name value="1 Zustand Uebergabe"/>
       <description value="Example for Observation"/>
       <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
     </resource>
