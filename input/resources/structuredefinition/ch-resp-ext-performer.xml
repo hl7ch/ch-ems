@@ -53,7 +53,7 @@
             </type>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-pre-treatment"/> 
+                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-preTreatment"/> 
             </binding>
         </element>
     </differential>

@@ -63,7 +63,7 @@
             <short value="Identification of the procedure"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-pre-treatment-type"/>
+                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-preTreatmentType"/>
             </binding>
         </element>
         <element id="Procedure.subject">

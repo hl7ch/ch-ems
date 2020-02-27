@@ -55,7 +55,7 @@
             <path value="Observation.valueCodeableConcept"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-naca"/>
+                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-naca"/>
             </binding>
         </element>
     </differential>

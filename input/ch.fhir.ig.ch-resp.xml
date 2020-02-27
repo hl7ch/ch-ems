@@ -205,7 +205,7 @@
       <description value="Example for Observation"/>
       <exampleCanonical value="StructureDefinition/ch-resp-observation-conditionchange"/>
     </resource>
-     <resource>
+    <resource>
       <reference>
         <reference value="Observation/AirwaysBefund"/>
       </reference>
@@ -524,6 +524,73 @@
       <exampleBoolean value="false"/>
     </resource>
 
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-preTreatmentType"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-roleTeam"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-roleMissionTime"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-event"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-diagType"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-findingsAirway"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-naca"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-priorityHospital"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-preTreatment"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-result"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
     <!-- pages, parameters -->
     <page>
       <nameUrl value="toc.html"/>

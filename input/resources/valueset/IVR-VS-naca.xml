@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id
+           
+            value="IVR-VS-naca"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.50--20160720104611"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2016-07-20T10:46:11+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url
+            
+             value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-naca"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.1.11.50"/>
+   </identifier>
+   <version value="2016-07-20T10:46:11"/>
+   <name value="NACA"/>
+   <title
+              
+               value="IVR valueset NACA"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="Interverband für Rettungswesen"/>
+   <description value="IVR valueset NACA"/>
+   <immutable value="false"/>
+   <compose>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+         <concept>
+            <code value="0"/>
+            <display value="keine Verletzung oder Erkrankung"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="keine Verletzung oder Erkrankung"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="keine ärztliche Intervention erforderlich"/>
+            </extension>
+            <code value="I"/>
+            <display value="geringfügige Störung"/>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="Ambulante ärztliche Abklärung, in der Regel aber keine notarztlichen Massnahmen erforderlich"/>
+            </extension>
+            <code value="II"/>
+            <display value="leichte bis mässig schwere Störung"/>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="nicht lebensbedrohlich; Stationäre Behandlung erforderlich, häufig auch notärztliche Massnahmen vor Ort"/>
+            </extension>
+            <code value="III"/>
+            <display value="mässige bis schwere Störung"/>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="kurzfristige Entwicklung einer Lebensbedrohung kann nicht ausgeschlossen werden; in den überwiegenden Fällen ist eine notärtzliche Versorgung notwendig"/>
+            </extension>
+            <code value="IV"/>
+            <display value="schwere Störung, lebensbedrohlich"/>
+         </concept>
+         <concept>
+            <code value="V"/>
+            <display value="akute Lebensgefahr"/>
+         </concept>
+         <concept>
+            <code value="VI"/>
+            <display value="Reanimation"/>
+         </concept>
+         <concept>
+            <code value="VII"/>
+            <display value="Tod"/>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

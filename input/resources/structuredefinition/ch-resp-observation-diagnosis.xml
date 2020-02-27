@@ -42,7 +42,7 @@
             <short value="Diagnosis type"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-diagnosis-type"/>
+                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-diagType"/>
             </binding>
         </element>
         <element id="Observation.effectiveDateTime">

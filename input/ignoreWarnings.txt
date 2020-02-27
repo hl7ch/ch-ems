@@ -11,13 +11,3 @@ Code System URI 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' is unknown so the co
 
 Code System URI 'urn:oid:1.2.276.0.76.5.82' is unknown so the code cannot be validated
 Code System URI 'http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR' is unknown so the code cannot be validated
-ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-role-mission-time not found by validator
-ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-role-team not found by validator
-ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-pre-treatment-type not found by validator
-ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-pre-treatment not found by validator
-ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-event not found by validator
-ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-findings-airway not found by validator
-ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-diagnosis-type not found by validator
-ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-priority-hospital not found by validator
-ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-result not found by validator
-ValueSet http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-naca not found by validator

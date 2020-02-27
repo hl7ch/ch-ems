@@ -92,7 +92,7 @@
             <max value="1"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-role-team"/>
+                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-roleTeam"/>
             </binding>
         </element>
         <element id="Encounter.participant.individual">

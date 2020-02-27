@@ -52,7 +52,7 @@
             <path value="Observation.valueCodeableConcept"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/ch-resp-IVR-findings-airway"/>
+                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-findingsAirway"/>
             </binding>
         </element>
     </differential>
