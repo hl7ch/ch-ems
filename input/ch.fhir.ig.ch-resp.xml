@@ -99,7 +99,7 @@
       </reference>
       <name value="1 Alarm"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -107,7 +107,7 @@
       </reference>
       <name value="1 Anamnese"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-anamnesisevent"/>
     </resource>
     <resource>
       <reference>
@@ -115,7 +115,7 @@
       </reference>
       <name value="1 Arrival at target"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -123,7 +123,7 @@
       </reference>
       <name value="1 Arrival on scene"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -131,7 +131,7 @@
       </reference>
       <name value="1 ArrivalPatient"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -139,7 +139,7 @@
       </reference>
       <name value="1 Departure from scene"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -147,7 +147,7 @@
       </reference>
       <name value="1 Diagnose"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-diagnosis"/>
     </resource>
     <resource>
       <reference>
@@ -155,7 +155,7 @@
       </reference>
       <name value="1 Disposition"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -163,7 +163,7 @@
       </reference>
       <name value="1 GCS Befund"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-glasgowcomascale"/>
     </resource>
     <resource>
       <reference>
@@ -171,7 +171,7 @@
       </reference>
       <name value="1 GCS Uebergabe"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-glasgowcomascale"/>
     </resource>
     <resource>
       <reference>
@@ -179,7 +179,7 @@
       </reference>
       <name value="1 NACA Uebergabe"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-injuryseverity"/>
     </resource>
     <resource>
       <reference>
@@ -187,7 +187,7 @@
       </reference>
       <name value="1 Rollout"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -195,7 +195,7 @@
       </reference>
       <name value="1 Symptom"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-anamnesissymptom"/>
     </resource>
     <resource>
       <reference>
@@ -203,7 +203,47 @@
       </reference>
       <name value="1 Zustand Uebergabe"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-conditionchange"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="Observation/AirwaysBefund"/>
+      </reference>
+      <name value="Airways Befund"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-airways"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/AVPUBefund"/>
+      </reference>
+      <name value="AVPU Befund"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-levelofresponsiveness"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/CardiacArrestBefund"/>
+      </reference>
+      <name value="Cardiac Arrest Befund"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-cardiacarrest"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/StatusPrioUebergabe"/>
+      </reference>
+      <name value="Status Priorität Übergabe"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-statuspriority"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/StrokeBefund"/>
+      </reference>
+      <name value="Stroke Befund"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="StructureDefinition/ch-resp-observation-stroke"/>
     </resource>
     <resource>
       <reference>
@@ -371,7 +411,73 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation"/>
+        <reference value="StructureDefinition/ch-resp-observation-airways"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-anamnesisevent"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-anamnesissymptom"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-cardiacarrest"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-conditionchange"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-diagnosis"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-glasgowcomascale"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-injuryseverity"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-levelofresponsiveness"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-statuspriority"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-resp-observation-stroke"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

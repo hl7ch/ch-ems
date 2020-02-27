@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="AVPUBefund"/>
+    <meta>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-levelofresponsiveness"/>
+    </meta>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="11454-6"/>
+            <display value="Level of Responsiveness (AVPU)"/>
+        </coding>
+    </code>
+    <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
+    <valueString value="A"/>
+</Observation>

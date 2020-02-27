@@ -2,7 +2,7 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="1-ArrivalPatient"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
     </meta>
     <status value="final"/>
     <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->

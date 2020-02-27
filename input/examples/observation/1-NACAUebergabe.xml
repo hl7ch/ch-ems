@@ -2,7 +2,7 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="1-NACAUebergabe"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-injuryseverity"/>
     </meta>
     <status value="final"/>
     <code>
@@ -15,7 +15,7 @@
     <!-- cdachresp-dataelement-23 NACA-->
     <valueCodeableConcept>
         <coding>
-            <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+            <system value="urn:oid:1.2.276.0.76.5.82"/>
             <code value="III"/>
             <display value="mässige bis schwere Störung"/>
         </coding>

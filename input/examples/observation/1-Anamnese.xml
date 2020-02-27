@@ -2,16 +2,23 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="1-Anamnese"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesisevent"/>
     </meta>
     <status value="final"/>
     <code>
         <coding>
             <system value="http://snomed.info/sct"/>
-            <code value="261665006"/>
-            <display value="Unknown"/>
+            <code value="272379006"/>
+            <display value="Event"/>
         </coding>
     </code>
     <!-- cdachresp-dataelement-98 Geschehen frei -->
-    <valueString value="Hat sich beim Spazieren im Wald schlecht gefühlt und ist abgesessen."/>
+    <valueCodeableConcept>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="261665006"/>
+            <display value="Unknown"/>
+        </coding>
+        <text value="Hat sich beim Spazieren im Wald schlecht gefühlt und ist abgesessen."/>
+    </valueCodeableConcept>
 </Observation>

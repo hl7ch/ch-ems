@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Observation xmlns="http://hl7.org/fhir">
-    <id value="1-ZustandUebergabe"/>
+    <id value="StatusPrioUebergabe"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-conditionchange"/>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-statuspriority"/>
     </meta>
     <status value="final"/>
     <code>
         <coding>
             <system value="http://loinc.org"/>
-            <code value="75527-2"/>
-            <display value="Vital status at discharge"/>
+            <code value="77941-3"/>
+            <display value="Final patient acuity"/>
         </coding>
     </code>
-    <!-- cdachresp-dataelement-24 Zustand bei Einsatzende-->
+    <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
+    <!-- cdachresp-dataelement-436 Priorität -->
     <valueCodeableConcept>
         <coding>
             <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
-            <code value="385425000"/>
-            <display value="Improved"/>
+            <code value="263935005"/>
+            <display value="yellow"/>
         </coding>
     </valueCodeableConcept>
 </Observation> 

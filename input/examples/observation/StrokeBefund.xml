@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="StrokeBefund"/>
+    <meta>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-stroke"/>
+    </meta>
+    <status value="final"/>
+    <code>
+        <coding>
+            <!-- TBD -->
+            <system value="http://loinc.org"/>
+            <code value="70182-1"/>
+            <display value="NIH Stroke Scale"/>
+        </coding>
+    </code>
+    <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
+    <!-- TBD -->
+    <valueString value="FAST"/>
+</Observation>

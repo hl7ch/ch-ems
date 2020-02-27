@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-resp-observation-cardiacarrest"/>
+    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-cardiacarrest"/>
+    <version value="0.1.0"/>
+    <name value="CHRespObservationCardiacArrest"/>
+    <title value="CH RESP Observation Profile Cardiac Arrest"/>
+    <status value="draft"/>
+    <date value="2020-02-24T00:00:00+00:00"/>
+    <publisher value="eCH Fachgruppe eHealth"/>
+    <contact>
+        <name value="eCH Fachgruppe eHealth"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.ech.ch/de/node/36373/"/>
+        </telecom>
+    </contact>
+    <description value="Definition of the observation cardiac arrest"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CH"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation">
+            <path value="Observation"/>
+            <short value="CH RESP Observation"/>
+        </element>
+        <element id="Observation.status">
+            <path value="Observation.status"/>
+        </element>
+        <element id="Observation.code">
+            <path value="Observation.code"/>
+            <short value="Cardiac arrest"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="410429000"/>
+                    <display value="Cardiac arrest"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Observation.valueBoolean">
+            <path value="Observation.valueBoolean"/>
+        </element>
+    </differential>
+</StructureDefinition>

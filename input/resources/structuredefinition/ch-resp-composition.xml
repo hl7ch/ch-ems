@@ -147,7 +147,7 @@
             <slicing>
                 <discriminator>
                     <type value="profile"/>
-                    <path value="resolve()"/>
+                    <path value="$this.resolve()"/>
                 </discriminator>
                 <rules value="open"/>
             </slicing>
@@ -166,16 +166,16 @@
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
         </element>
-        <element id="Composition.section:mission.entry:missionStatusTime">
+        <element id="Composition.section:mission.entry:missionTimeStatus">
             <path value="Composition.section.entry"/>
-            <sliceName value="missionStatusTime"/>
-            <short value="Mission status time"/>
+            <sliceName value="missionTimeStatus"/>
+            <short value="Mission time status"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
             </type>
         </element>
-        <element id="Composition.section:mission.entry:missionStatusTime.reference">
+        <element id="Composition.section:mission.entry:missionTimeStatus.reference">
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
         </element>
@@ -289,7 +289,7 @@
             <path value="Composition.section"/>
             <sliceName value="anamnesis"/>
             <short value="Anamnesis"/>
-            <min value="1"/>
+            <min value="0"/>
             <max value="1"/>
         </element>
         <element id="Composition.section.title:anamnesis">
@@ -316,13 +316,55 @@
             <min value="1"/>
             <max value="1"/>
         </element>
+        <element id="Composition.section:anamnesis.entry">
+            <path value="Composition.section.entry"/>
+            <slicing>
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="$this.resolve()"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <element id="Composition.section:anamnesis.entry:anamnesisEvent">
+            <path value="Composition.section.entry"/>
+            <sliceName value="anamnesisEvent"/>
+            <short value="Anamnesis event"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesisevent"/>
+            </type>
+        </element>
+        <element id="Composition.section:anamnesis.entry:anamnesisEvent.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:anamnesis.entry:anamnesisSymptom">
+            <path value="Composition.section.entry"/>
+            <sliceName value="anamnesisSymptom"/>
+            <short value="Anamnesis symptom"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesissymptom"/>
+            </type>
+        </element>
+        <element id="Composition.section:anamnesis.entry:anamnesisSymptom.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section.section:anamnesis">
+            <path value="Composition.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
+        </element>
 
         <!-- Section Findings (Befund) -->
         <element id="Composition.section:findings">
             <path value="Composition.section"/>
             <sliceName value="findings"/>
             <short value="Findings"/>
-            <min value="1"/>
+            <min value="0"/>
             <max value="1"/>
         </element>
         <element id="Composition.section.title:findings">
@@ -349,14 +391,99 @@
             <min value="1"/>
             <max value="1"/>
         </element>
+        <element id="Composition.section:findings.entry">
+            <path value="Composition.section.entry"/>
+            <slicing>
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="$this.resolve()"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <element id="Composition.section:findings.entry:glasgowComaScale">
+            <path value="Composition.section.entry"/>
+            <sliceName value="glasgowComaScale"/>
+            <short value="Glasgow coma scale"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-glasgowcomascale"/>
+            </type>
+        </element>
+        <element id="Composition.section:findings.entry:glasgowComaScale.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:findings.entry:levelOfResponsiveness">
+            <path value="Composition.section.entry"/>
+            <sliceName value="levelOfResponsiveness"/>
+            <short value="Level of Responsiveness (AVPU)"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-levelofresponsiveness"/>
+            </type>
+        </element>
+        <element id="Composition.section:findings.entry:levelOfResponsiveness.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:findings.entry:observationAirways">
+            <path value="Composition.section.entry"/>
+            <sliceName value="observationAirways"/>
+            <short value="Observation Airways"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-airways"/>
+            </type>
+        </element>
+        <element id="Composition.section:findings.entry:observationAirways.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:findings.entry:observationCardiacArrest">
+            <path value="Composition.section.entry"/>
+            <sliceName value="observationCardiacArrest"/>
+            <short value="Observation Cardiac Arrest"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-cardiacarrest"/>
+            </type>
+        </element>
+        <element id="Composition.section:findings.entry:observationCardiacArrest.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:findings.entry:observationStroke">
+            <path value="Composition.section.entry"/>
+            <sliceName value="observationStroke"/>
+            <short value="Stroke / FAST"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-stroke"/>
+            </type>
+        </element>
+        <element id="Composition.section:findings.entry:observationStroke.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section.section:findings">
+            <path value="Composition.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
+        </element>
 
         <!-- Section Diagnosis (Diagnosen) -->
         <element id="Composition.section:diagnosis">
             <path value="Composition.section"/>
             <sliceName value="diagnosis"/>
             <short value="Diagnosis"/>
-            <min value="1"/>
-            <max value="1"/>
+            <min value="0"/>
+            <max value="*"/>
         </element>
         <element id="Composition.section.title:diagnosis">
             <path value="Composition.section.title"/>
@@ -381,6 +508,24 @@
             <short value="Human readable text of this section"/>
             <min value="1"/>
             <max value="1"/>
+        </element>
+        <element id="Composition.section.entry:diagnosis">
+            <path value="Composition.section.entry"/>
+            <short value="Problem concern entry"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-diagnosis"/>
+            </type>
+        </element>
+        <element id="Composition.section.entry:diagnosis.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section.section:diagnosis">
+            <path value="Composition.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
         </element>
 
         <!-- Section Procedures (Massnahmen) -->
@@ -499,7 +644,7 @@
             <path value="Composition.section"/>
             <sliceName value="handover"/>
             <short value="Handover"/>
-            <min value="1"/>
+            <min value="0"/>
             <max value="1"/>
         </element>
         <element id="Composition.section.title:handover">
@@ -525,6 +670,77 @@
             <short value="Human readable text of this section"/>
             <min value="1"/>
             <max value="1"/>
+        </element>
+        <element id="Composition.section:handover.entry">
+            <path value="Composition.section.entry"/>
+            <slicing>
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="$this.resolve()"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <element id="Composition.section:handover.entry:patientStatusPriority">
+            <path value="Composition.section.entry"/>
+            <sliceName value="patientStatusPriority"/>
+            <short value="Patient status priority"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-statuspriority"/>
+            </type>
+        </element>
+        <element id="Composition.section:handover.entry:patientStatusPriority.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:handover.entry:patientConditionChange">
+            <path value="Composition.section.entry"/>
+            <sliceName value="patientConditionChange"/>
+            <short value="Patient condition change"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-conditionchange"/>
+            </type>
+        </element>
+        <element id="Composition.section:handover.entry:patientConditionChange.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:handover.entry:injurySeverityObservation">
+            <path value="Composition.section.entry"/>
+            <sliceName value="injurySeverityObservation"/>
+            <short value="Injury severity observation"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-injuryseverity"/>
+            </type>
+        </element>
+        <element id="Composition.section:handover.entry:injurySeverityObservation.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:handover.entry:glasgowComaScale">
+            <path value="Composition.section.entry"/>
+            <sliceName value="glasgowComaScale"/>
+            <short value="Glasgow coma scale"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-glasgowcomascale"/>
+            </type>
+        </element>
+        <element id="Composition.section:handover.entry:glasgowComaScale.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section.section:handover">
+            <path value="Composition.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
         </element>
 
         <!-- Section Annotation (Bemerkungen) -->

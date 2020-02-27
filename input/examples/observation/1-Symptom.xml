@@ -2,16 +2,23 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="1-Symptom"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesissymptom"/>
     </meta>
     <status value="final"/>
     <code>
         <coding>
             <system value="http://snomed.info/sct"/>
-            <code value="162408000"/>
-            <display value="General symptom description (finding)"/>
+            <code value="404684003"/>
+            <display value="Clinical finding (finding)"/>
         </coding>
     </code>
     <!-- cdachresp-dataelement-468 Symptom, frei -->
-    <valueString value="Starke Schmerzen in der Brust und im linken Oberarm verspürt"/>
+    <valueCodeableConcept>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="162408000"/>
+            <display value="General symptom description (finding)"/>
+        </coding>
+        <text value="Starke Schmerzen in der Brust und im linken Oberarm verspürt"/>
+    </valueCodeableConcept>
 </Observation>
