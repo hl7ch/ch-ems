@@ -17,9 +17,9 @@
          <Composition xmlns="http://hl7.org/fhir">
             <id value="1-Einsatzprotokoll"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:32:43.353+00:00"/>
-               <source value="#YJHuqTYw3uhuZM3f"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-26T11:20:26.173+00:00"/>
+               <source value="#81gOPYgVczZKKPXZ"/>
                <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-composition"/>
             </meta>
             <language value="de-CH"/>
@@ -155,8 +155,7 @@
                            <tr>
                               <td>Team</td>
                               <td>Petra Muster, GLN 7601003330434, Betreuerin 
-                                 <br/>
- Hans Beispiel, GLN 7601000028105, Betreuer 
+                                 <br/> Hans Beispiel, GLN 7601000028105, Betreuer 
                               </td>
                            </tr>
                            <tr>
@@ -348,8 +347,7 @@
                   <status value="generated"/>
                   <div xmlns="http://www.w3.org/1999/xhtml">
                      <p> Blutdruck 120/80 mmHg gemessen am rechten Arm 
-                        <br/>
- Schmerz 5 
+                        <br/>Schmerz 5                  
                         <br/>
                      </p>
                      <table>
@@ -529,10 +527,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-GCSUebergabe"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:30:34.885+00:00"/>
-               <source value="#Cb34eEU3K4TcVipC"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:12:08.023+00:00"/>
+               <source value="#0W71ScJwy3XHir1R"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-glasgowcomascale"/>
             </meta>
             <status value="final"/>
             <code>
@@ -603,10 +601,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-NACAUebergabe"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:30:51.521+00:00"/>
-               <source value="#YLDTDV8jShZKDrbP"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:12:15.211+00:00"/>
+               <source value="#DNvm0RDmel3dLsjF"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-injuryseverity"/>
             </meta>
             <status value="final"/>
             <code>
@@ -619,7 +617,7 @@
             <!-- cdachresp-dataelement-23 NACA-->
             <valueCodeableConcept>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="urn:oid:1.2.276.0.76.5.82"/>
                   <code value="III"/>
                   <display value="mässige bis schwere Störung"/>
                </coding>
@@ -633,10 +631,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-Rollout"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:31:02.737+00:00"/>
-               <source value="#Vi4SwJz0PV5I0Mht"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:12:19.010+00:00"/>
+               <source value="#5efPowu8Bjwkqcis"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
             <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
@@ -658,21 +656,28 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-Symptom"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:31:39.475+00:00"/>
-               <source value="#1cXxYtMj4WOvKIq7"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:12:22.516+00:00"/>
+               <source value="#FxhzNS4vGk7TTdid"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesissymptom"/>
             </meta>
             <status value="final"/>
             <code>
                <coding>
                   <system value="http://snomed.info/sct"/>
-                  <code value="162408000"/>
-                  <display value="General symptom description (finding)"/>
+                  <code value="404684003"/>
+                  <display value="Clinical finding (finding)"/>
                </coding>
             </code>
             <!-- cdachresp-dataelement-468 Symptom, frei -->
-            <valueString value="Starke Schmerzen in der Brust und im linken Oberarm verspürt"/>
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="162408000"/>
+                  <display value="General symptom description (finding)"/>
+               </coding>
+               <text value="Starke Schmerzen in der Brust und im linken Oberarm verspürt"/>
+            </valueCodeableConcept>
          </Observation>
       </resource>
    </entry>
@@ -682,10 +687,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-ZustandUebergabe"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:31:54.816+00:00"/>
-               <source value="#YIS0SAvFq97jV3lg"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:12:32.411+00:00"/>
+               <source value="#JqQOSmEEDbsTpfri"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-conditionchange"/>
             </meta>
             <status value="final"/>
             <code>
@@ -990,10 +995,10 @@
             <code>
                <!-- CH-EPR-Term -->
                <!--<coding>
-            <system value="urn:oid:2.16.756.5.30.1.127.3.10.9"/>
-            <code value="01500"/>
-            <display value="Rettungssanitäterin/Rettungssanitäter"/>
-        </coding>-->
+                  <system value="urn:oid:2.16.756.5.30.1.127.3.10.9"/>
+                  <code value="01500"/>
+                  <display value="Rettungssanitäterin/Rettungssanitäter"/>
+               </coding>-->
                <!-- CDA-Beispiel -->
                <coding>
                   <system value="http://snomed.info/sct"/>
@@ -1045,10 +1050,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-Alarm"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:27:35.551+00:00"/>
-               <source value="#n8Xt7FUl8aUaDJGX"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:11:26.845+00:00"/>
+               <source value="#HpZib4nmPby7nNgM"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
             <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
@@ -1070,21 +1075,28 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-Anamnese"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:28:34.226+00:00"/>
-               <source value="#7Y3RQhI8qxBjj03Y"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:11:29.391+00:00"/>
+               <source value="#eLaoBFX53jZ4Iqm1"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesisevent"/>
             </meta>
             <status value="final"/>
             <code>
                <coding>
                   <system value="http://snomed.info/sct"/>
-                  <code value="261665006"/>
-                  <display value="Unknown"/>
+                  <code value="272379006"/>
+                  <display value="Event"/>
                </coding>
             </code>
             <!-- cdachresp-dataelement-98 Geschehen frei -->
-            <valueString value="Hat sich beim Spazieren im Wald schlecht gefühlt und ist abgesessen."/>
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="261665006"/>
+                  <display value="Unknown"/>
+               </coding>
+               <text value="Hat sich beim Spazieren im Wald schlecht gefühlt und ist abgesessen."/>
+            </valueCodeableConcept>
          </Observation>
       </resource>
    </entry>
@@ -1094,10 +1106,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-ArrivalAtTarget"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:28:53.602+00:00"/>
-               <source value="#2D7hJxEpdfxxVXSK"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:11:34.402+00:00"/>
+               <source value="#vhfmdxw3myNDxE4F"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
             <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
@@ -1119,10 +1131,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-ArrivalOnScene"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:29:06.822+00:00"/>
-               <source value="#8gylSvRDdvPXp0nl"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:11:41.942+00:00"/>
+               <source value="#UhcYRyfFhJxAtKC2"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
             <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
@@ -1144,10 +1156,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-ArrivalPatient"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:29:22.138+00:00"/>
-               <source value="#6BzxQhd1N4h6MAns"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:11:42.690+00:00"/>
+               <source value="#l0CqhTa7uYaa8uPr"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
             <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
@@ -1169,10 +1181,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-DepartureFromScene"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:29:37.946+00:00"/>
-               <source value="#InzTMI4vxE5s9mIc"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:11:48.273+00:00"/>
+               <source value="#TuXjzETCtaAJ826H"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
             <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
@@ -1194,10 +1206,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-Diagnose"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:29:49.489+00:00"/>
-               <source value="#sZzZOMW2vT8etWAw"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:11:53.050+00:00"/>
+               <source value="#yOr7H55CNvignDK7"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-diagnosis"/>
             </meta>
             <status value="final"/>
             <code>
@@ -1228,10 +1240,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-Disposition"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:30:01.663+00:00"/>
-               <source value="#RZhv9Cz8ZOOa6Bpt"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:11:59.954+00:00"/>
+               <source value="#EXLg11Mi0az0gLUh"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
             <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
@@ -1253,10 +1265,10 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-GCSBefund"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:30:17.262+00:00"/>
-               <source value="#qFBD2B0FIbfB2MXK"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-28T06:12:02.942+00:00"/>
+               <source value="#um4fL0hfBUbxJcNy"/>
+               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-glasgowcomascale"/>
             </meta>
             <status value="final"/>
             <code>
@@ -1327,9 +1339,9 @@
          <ServiceRequest xmlns="http://hl7.org/fhir">
             <id value="1-AufbietendeOrganisation"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:24:54.983+00:00"/>
-               <source value="#7mXdd7Sz2krzSLji"/>
+               <versionId value="2"/>
+               <lastUpdated value="2020-02-26T11:34:54.197+00:00"/>
+               <source value="#EaE3VvSl3O1Gf9uT"/>
                <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-servicerequest"/>
             </meta>
             <contained>
