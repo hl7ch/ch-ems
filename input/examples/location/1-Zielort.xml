@@ -2,9 +2,9 @@
 <Location xmlns="http://hl7.org/fhir">
     <id value="1-Zielort"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-location"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
     </meta>
-    <!-- cdachresp-dataelement-222 GLN Zielort -->
+    <!-- cdachems-dataelement-222 GLN Zielort -->
     <identifier>
         <system value="urn:oid:2.51.1.3"/>
         <value value="7601002155939"/>

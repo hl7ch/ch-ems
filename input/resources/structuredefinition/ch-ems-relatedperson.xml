@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-relatedperson"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-relatedperson"/>
+    <id value="ch-ems-relatedperson"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-relatedperson"/>
     <version value="0.1.0"/>
     <name value="CHRespRelatedPerson"/>
-    <title value="CH RESP Related Person Profile"/>
+    <title value="CH EMS Related Person Profile"/>
     <status value="draft"/>
     <date value="2020-02-18T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -32,14 +32,14 @@
     <differential>
         <element id="RelatedPerson">
             <path value="RelatedPerson"/>
-            <short value="CH RESP Related Person"/>
+            <short value="CH EMS Related Person"/>
         </element>
         <element id="RelatedPerson.patient">
             <path value="RelatedPerson.patient"/>
             <short value="The patient this person is related to"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
             </type>
         </element>
         <element id="RelatedPerson.patient.reference">

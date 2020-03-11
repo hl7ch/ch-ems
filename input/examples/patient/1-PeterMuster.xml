@@ -2,7 +2,7 @@
 <Patient xmlns="http://hl7.org/fhir">
   <id value="1-PeterMuster"/>
   <meta>
-    <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+    <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
   </meta>
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-ech-11-placeoforigin">
     <valueAddress>
@@ -22,7 +22,7 @@
     </extension>
   </extension>
   <identifier>
-    <!-- cdachresp-dataelement-135 navs13 -->
+    <!-- cdachems-dataelement-135 navs13 -->
     <system value="urn:oid:2.16.756.5.32"/>
     <value value="7560123123499"/>
   </identifier>
@@ -39,22 +39,22 @@
   </identifier>
   <name>
     <use value="official" />
-    <!-- cdachresp-dataelement-8 -->
+    <!-- cdachems-dataelement-8 -->
     <family value="Muster">
       <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name">
         <valueCode value="officialName"/>
       </extension>
     </family>
-    <!-- cdachresp-dataelement-9 -->
+    <!-- cdachems-dataelement-9 -->
     <given value="Peter">
       <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-firstname">
         <valueCode value="officalFirstName"/>
       </extension>
     </given>
   </name>
-  <!-- cdachresp-dataelement-11 -->
+  <!-- cdachems-dataelement-11 -->
   <gender value="male"/>
-  <!-- cdachresp-dataelement-10 -->
+  <!-- cdachems-dataelement-10 -->
   <birthDate value="1961-10-01"/>
   <address>
     <use value="home"/>

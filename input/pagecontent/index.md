@@ -1,5 +1,5 @@
 ### Introduction
-CH-RESP is a FHIR implementation guide for the use of the rescue protection protocol.
+CH-EMS is a FHIR implementation guide for the use of the rescue protection protocol.
 
 
 ### Scope

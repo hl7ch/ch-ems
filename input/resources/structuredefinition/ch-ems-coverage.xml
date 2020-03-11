@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-coverage"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-coverage"/>
+    <id value="ch-ems-coverage"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-coverage"/>
     <version value="0.1.0"/>
     <name value="CHRespCoverage"/>
-    <title value="CH RESP Coverage Profile"/>
+    <title value="CH EMS Coverage Profile"/>
     <status value="draft"/>
     <date value="2020-02-21T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -32,7 +32,7 @@
     <differential>
         <element id="Coverage">
             <path value="Coverage"/>
-            <short value="CH RESP Coverage"/>
+            <short value="CH EMS Coverage"/>
         </element>
         <element id="Coverage.contained">
             <path value="Coverage.contained"/>
@@ -71,7 +71,7 @@
             <short value="Insured patient"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
             </type>
         </element>
         <element id="Coverage.beneficiary.reference">

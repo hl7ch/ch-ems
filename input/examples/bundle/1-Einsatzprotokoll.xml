@@ -3,7 +3,7 @@
    <id value="1-Einsatzprotokoll"/>
    <meta>
       <lastUpdated value="2020-02-21T07:53:22.889+00:00"/>
-      <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-bundle"/>
+      <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"/>
@@ -20,7 +20,7 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-26T11:20:26.173+00:00"/>
                <source value="#81gOPYgVczZKKPXZ"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-composition"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition"/>
             </meta>
             <language value="de-CH"/>
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
@@ -111,7 +111,7 @@
                </party>
             </attester>
             <!-- CDA: custodian.assignedCustodian.representedCustodian -->
-            <!-- cdachresp-dataelement-61 aufgebotene Organisation -->
+            <!-- cdachems-dataelement-61 aufgebotene Organisation -->
             <custodian>
                <reference value="Organization/1-Rettungsdienst"/>
             </custodian>
@@ -121,7 +121,7 @@
                <code>
                   <coding>
                      <!-- TBD -->
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100001"/>
                      <display value="Einsatz"/>
                   </coding>
@@ -136,12 +136,12 @@
                            </tr>
                            <tr>
                               <td>Einsatzdatum</td>
-                              <!-- cdachresp-dataelement-54 -->
+                              <!-- cdachems-dataelement-54 -->
                               <td>10.12.2016</td>
                            </tr>
                            <tr>
                               <td>Einsatznummer</td>
-                              <!-- cdachresp-dataelement-54 -->
+                              <!-- cdachems-dataelement-54 -->
                               <td>S12345678</td>
                            </tr>
                            <tr>
@@ -227,7 +227,7 @@
                <code>
                   <coding>
                      <!-- TBD -->
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100003"/>
                      <display value="Administrativ"/>
                   </coding>
@@ -258,7 +258,7 @@
                <code>
                   <coding>
                      <!-- TBD -->
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100004"/>
                      <display value="Vorbehandlung"/>
                   </coding>
@@ -276,7 +276,7 @@
                <code>
                   <coding>
                      <!-- TBD -->
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100005"/>
                      <display value="Anamnese"/>
                   </coding>
@@ -338,7 +338,7 @@
                <code>
                   <coding>
                      <!-- TBD -->
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100006"/>
                      <display value="Befund"/>
                   </coding>
@@ -362,7 +362,7 @@
                      </table>
                   </div>
                </text>
-               <!-- cdachresp-dataelement-108 GCS -->
+               <!-- cdachems-dataelement-108 GCS -->
                <entry>
                   <reference value="Observation/1-GCSBefund"/>
                </entry>
@@ -373,7 +373,7 @@
                <code>
                   <coding>
                      <!-- TBD -->
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100007"/>
                      <display value="Diagnosen"/>
                   </coding>
@@ -403,7 +403,7 @@
                <code>
                   <coding>
                      <!-- TBD -->
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100008"/>
                      <display value="Massnahmen"/>
                   </coding>
@@ -421,7 +421,7 @@
                <code>
                   <coding>
                      <!-- TBD -->
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100009"/>
                      <display value="Todesfall"/>
                   </coding>
@@ -439,7 +439,7 @@
                <code>
                   <coding>
                      <!-- TBD -->
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100010"/>
                      <display value="Transport"/>
                   </coding>
@@ -457,7 +457,7 @@
                <code>
                   <coding>
                      <!-- TBD -->
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100011"/>
                      <display value="Übergabe"/>
                   </coding>
@@ -530,7 +530,7 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:12:08.023+00:00"/>
                <source value="#0W71ScJwy3XHir1R"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-glasgowcomascale"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-glasgowcomascale"/>
             </meta>
             <status value="final"/>
             <code>
@@ -541,13 +541,13 @@
                </coding>
             </code>
             <effectiveDateTime value="2016-12-10T12:03:00.000+01:00"/>
-            <!-- cdachresp-dataelement-458 GCS-Gesamtscore-->
+            <!-- cdachems-dataelement-458 GCS-Gesamtscore-->
             <valueQuantity>
                <value value="15"/>
                <system value="http://unitsofmeasure.org"/>
                <code value="{score}"/>
             </valueQuantity>
-            <!-- cdachresp-dataelement-461 GCS-motorische Kommunikation -->
+            <!-- cdachems-dataelement-461 GCS-motorische Kommunikation -->
             <component>
                <code>
                   <coding>
@@ -562,7 +562,7 @@
                   <code value="{score}"/>
                </valueQuantity>
             </component>
-            <!-- cdachresp-dataelement-460 GCS-verbale Kommunikation-->
+            <!-- cdachems-dataelement-460 GCS-verbale Kommunikation-->
             <component>
                <code>
                   <coding>
@@ -577,7 +577,7 @@
                   <code value="{score}"/>
                </valueQuantity>
             </component>
-            <!-- cdachresp-dataelement GCS-Augenöffnung 459 -->
+            <!-- cdachems-dataelement GCS-Augenöffnung 459 -->
             <component>
                <code>
                   <coding>
@@ -604,7 +604,7 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:12:15.211+00:00"/>
                <source value="#DNvm0RDmel3dLsjF"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-injuryseverity"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-injuryseverity"/>
             </meta>
             <status value="final"/>
             <code>
@@ -614,7 +614,7 @@
                   <display value="Injury severity score NACA"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-23 NACA-->
+            <!-- cdachems-dataelement-23 NACA-->
             <valueCodeableConcept>
                <coding>
                   <system value="urn:oid:1.2.276.0.76.5.82"/>
@@ -634,18 +634,18 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:12:19.010+00:00"/>
                <source value="#5efPowu8Bjwkqcis"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
-            <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
             <code>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                   <code value="1000035"/>
                   <display value="rollout"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-286 Statuszeit -->
+            <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:13:00.000+01:00"/>
          </Observation>
       </resource>
@@ -659,7 +659,7 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:12:22.516+00:00"/>
                <source value="#FxhzNS4vGk7TTdid"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesissymptom"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesissymptom"/>
             </meta>
             <status value="final"/>
             <code>
@@ -669,7 +669,7 @@
                   <display value="Clinical finding (finding)"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-468 Symptom, frei -->
+            <!-- cdachems-dataelement-468 Symptom, frei -->
             <valueCodeableConcept>
                <coding>
                   <system value="http://snomed.info/sct"/>
@@ -690,7 +690,7 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:12:32.411+00:00"/>
                <source value="#JqQOSmEEDbsTpfri"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-conditionchange"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-conditionchange"/>
             </meta>
             <status value="final"/>
             <code>
@@ -700,10 +700,10 @@
                   <display value="Vital status at discharge"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-24 Zustand bei Einsatzende-->
+            <!-- cdachems-dataelement-24 Zustand bei Einsatzende-->
             <valueCodeableConcept>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                   <code value="385425000"/>
                   <display value="Improved"/>
                </coding>
@@ -720,9 +720,9 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:32:27.557+00:00"/>
                <source value="#EJ13hxTInfWH7Dif"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-encounter"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-encounter"/>
             </meta>
-            <!-- cdachresp-dataelement-55 Einsatznummer (OID vom SNZ)-->
+            <!-- cdachems-dataelement-55 Einsatznummer (OID vom SNZ)-->
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.9999999999.1"/>
                <value value="S12345678"/>
@@ -736,13 +736,13 @@
             <subject>
                <reference value="Patient/1-PeterMuster"/>
             </subject>
-            <!-- cdachresp-dataelement-60 aufbietende Organisation -->
+            <!-- cdachems-dataelement-60 aufbietende Organisation -->
             <basedOn>
                <reference value="ServiceRequest/1-AufbietendeOrganisation"/>
             </basedOn>
-            <!-- cdachresp-dataelement-102 Team -->
+            <!-- cdachems-dataelement-102 Team -->
             <participant>
-               <!-- cdachresp-dataelement-283 Rolle Teammitglied -->
+               <!-- cdachems-dataelement-283 Rolle Teammitglied -->
                <type>
                   <coding>
                      <system value="http://snomed.info/sct"/>
@@ -750,7 +750,7 @@
                      <display value="Healthcare professional"/>
                   </coding>
                   <coding>
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="133932002"/>
                      <display value="Betreuer"/>
                   </coding>
@@ -760,7 +760,7 @@
                </individual>
             </participant>
             <participant>
-               <!-- cdachresp-dataelement-283 Rolle Teammitglied -->
+               <!-- cdachems-dataelement-283 Rolle Teammitglied -->
                <type>
                   <coding>
                      <system value="http://snomed.info/sct"/>
@@ -768,7 +768,7 @@
                      <display value="Healthcare professional"/>
                   </coding>
                   <coding>
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="133932002"/>
                      <display value="Betreuer"/>
                   </coding>
@@ -778,7 +778,7 @@
                </individual>
             </participant>
             <participant>
-               <!-- cdachresp-dataelement-283 Rolle Teammitglied -->
+               <!-- cdachems-dataelement-283 Rolle Teammitglied -->
                <type>
                   <coding>
                      <system value="http://snomed.info/sct"/>
@@ -786,7 +786,7 @@
                      <display value="Physician"/>
                   </coding>
                   <coding>
-                     <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                     <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="309343006"/>
                      <display value="Notärztin / Notarzt"/>
                   </coding>
@@ -795,17 +795,17 @@
                   <reference value="Practitioner/1-NotarztHansNotarzt"/>
                </individual>
             </participant>
-            <!-- cdachresp-dataelement-54: Einsatzdatum -->
+            <!-- cdachems-dataelement-54: Einsatzdatum -->
             <period>
                <start value="2016-12-10"/>
             </period>
-            <!-- cdachresp-dataelement-103 Zielort -->
+            <!-- cdachems-dataelement-103 Zielort -->
             <hospitalization>
                <destination>
                   <reference value="Location/1-Zielort"/>
                </destination>
             </hospitalization>
-            <!-- cdachresp-dataelement-25 Einsatzort -->
+            <!-- cdachems-dataelement-25 Einsatzort -->
             <location>
                <location>
                   <reference value="Location/1-Einsatzort"/>
@@ -823,7 +823,7 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T09:37:43.071+00:00"/>
                <source value="#0l06VuaryKkiHTuR"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
             </meta>
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-ech-11-placeoforigin">
                <valueAddress>
@@ -843,7 +843,7 @@
                </extension>
             </extension>
             <identifier>
-               <!-- cdachresp-dataelement-135 navs13 -->
+               <!-- cdachems-dataelement-135 navs13 -->
                <system value="urn:oid:2.16.756.5.32"/>
                <value value="7560123123499"/>
             </identifier>
@@ -860,22 +860,22 @@
             </identifier>
             <name>
                <use value="official"/>
-               <!-- cdachresp-dataelement-8 -->
+               <!-- cdachems-dataelement-8 -->
                <family value="Muster">
                   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name">
                      <valueCode value="officialName"/>
                   </extension>
                </family>
-               <!-- cdachresp-dataelement-9 -->
+               <!-- cdachems-dataelement-9 -->
                <given value="Peter">
                   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-firstname">
                      <valueCode value="officalFirstName"/>
                   </extension>
                </given>
             </name>
-            <!-- cdachresp-dataelement-11 -->
+            <!-- cdachems-dataelement-11 -->
             <gender value="male"/>
-            <!-- cdachresp-dataelement-10 -->
+            <!-- cdachems-dataelement-10 -->
             <birthDate value="1961-10-01"/>
             <address>
                <use value="home"/>
@@ -919,7 +919,7 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:17:12.705+00:00"/>
                <source value="#KSawmL36XyVAiphQ"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
             </meta>
             <identifier>
                <system value="urn:oid:2.51.1.3"/>
@@ -941,7 +941,7 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:18:12.604+00:00"/>
                <source value="#2rbDQhhdBOgsUPDF"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
             </meta>
             <identifier>
                <system value="urn:oid:2.51.1.3"/>
@@ -963,7 +963,7 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:19:11.690+00:00"/>
                <source value="#lcVVknEDwb6HvQsx"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitionerrole"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitionerrole"/>
             </meta>
             <practitioner>
                <reference value="Practitioner/1-Notarzt"/>
@@ -987,7 +987,7 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:19:17.405+00:00"/>
                <source value="#eSDDeLgg8c452iwS"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitionerrole"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitionerrole"/>
             </meta>
             <practitioner>
                <reference value="Practitioner/1-Rettungssanitaeterin"/>
@@ -1008,7 +1008,7 @@
                </coding>
                <coding>
                   <!-- TBD -->
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                   <code value="133932002"/>
                   <display value="Betreuer"/>
                </coding>
@@ -1025,7 +1025,7 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:20:20.451+00:00"/>
                <source value="#1GumoZ78cncoMUSp"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-relatedperson"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-relatedperson"/>
             </meta>
             <patient>
                <reference value="Patient/1-PeterMuster"/>
@@ -1053,18 +1053,18 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:11:26.845+00:00"/>
                <source value="#HpZib4nmPby7nNgM"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
-            <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
             <code>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                   <code value="1000033"/>
                   <display value="alarm"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-286 Statuszeit -->
+            <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:09:00.000+01:00"/>
          </Observation>
       </resource>
@@ -1078,7 +1078,7 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:11:29.391+00:00"/>
                <source value="#eLaoBFX53jZ4Iqm1"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesisevent"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesisevent"/>
             </meta>
             <status value="final"/>
             <code>
@@ -1088,7 +1088,7 @@
                   <display value="Event"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-98 Geschehen frei -->
+            <!-- cdachems-dataelement-98 Geschehen frei -->
             <valueCodeableConcept>
                <coding>
                   <system value="http://snomed.info/sct"/>
@@ -1109,18 +1109,18 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:11:34.402+00:00"/>
                <source value="#vhfmdxw3myNDxE4F"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
-            <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
             <code>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                   <code value="1000039"/>
                   <display value="arrival at target"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-286 Statuszeit -->
+            <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:54:00.000+01:00"/>
          </Observation>
       </resource>
@@ -1134,18 +1134,18 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:11:41.942+00:00"/>
                <source value="#UhcYRyfFhJxAtKC2"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
-            <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
             <code>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                   <code value="1000036"/>
                   <display value="arrival on scene"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-286 Statuszeit -->
+            <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:17:00.000+01:00"/>
          </Observation>
       </resource>
@@ -1159,18 +1159,18 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:11:42.690+00:00"/>
                <source value="#l0CqhTa7uYaa8uPr"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
-            <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
             <code>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                   <code value="1000037"/>
                   <display value="arrival patient"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-286 Statuszeit -->
+            <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:22:00.000+01:00"/>
          </Observation>
       </resource>
@@ -1184,18 +1184,18 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:11:48.273+00:00"/>
                <source value="#TuXjzETCtaAJ826H"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
-            <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
             <code>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                   <code value="1000038"/>
                   <display value="departure from scene"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-286 Statuszeit -->
+            <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:48:00.000+01:00"/>
          </Observation>
       </resource>
@@ -1209,18 +1209,18 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:11:53.050+00:00"/>
                <source value="#yOr7H55CNvignDK7"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-diagnosis"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-diagnosis"/>
             </meta>
             <status value="final"/>
             <code>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                   <code value="2931005"/>
                   <display value="Verdachtsdiagnose"/>
                </coding>
             </code>
             <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
-            <!-- cdachresp-dataelement-488 Ersteller Diagnose-->
+            <!-- cdachems-dataelement-488 Ersteller Diagnose-->
             <performer>
                <reference value="Practitioner/1-Notarzt"/>
             </performer>
@@ -1243,18 +1243,18 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:11:59.954+00:00"/>
                <source value="#EXLg11Mi0az0gLUh"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
-            <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
             <code>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                   <code value="1000034"/>
                   <display value="disposition"/>
                </coding>
             </code>
-            <!-- cdachresp-dataelement-286 Statuszeit -->
+            <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:11:00.000+01:00"/>
          </Observation>
       </resource>
@@ -1268,7 +1268,7 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:12:02.942+00:00"/>
                <source value="#um4fL0hfBUbxJcNy"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-glasgowcomascale"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-glasgowcomascale"/>
             </meta>
             <status value="final"/>
             <code>
@@ -1279,13 +1279,13 @@
                </coding>
             </code>
             <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
-            <!-- cdachresp-dataelement-109 GCS-Gesamtscore-->
+            <!-- cdachems-dataelement-109 GCS-Gesamtscore-->
             <valueQuantity>
                <value value="15"/>
                <system value="http://unitsofmeasure.org"/>
                <code value="{score}"/>
             </valueQuantity>
-            <!-- cdachresp-dataelement-112 GCS-motorische Kommunikation -->
+            <!-- cdachems-dataelement-112 GCS-motorische Kommunikation -->
             <component>
                <code>
                   <coding>
@@ -1300,7 +1300,7 @@
                   <code value="{score}"/>
                </valueQuantity>
             </component>
-            <!-- cdachresp-dataelement-111 GCS-verbale Kommunikation-->
+            <!-- cdachems-dataelement-111 GCS-verbale Kommunikation-->
             <component>
                <code>
                   <coding>
@@ -1315,7 +1315,7 @@
                   <code value="{score}"/>
                </valueQuantity>
             </component>
-            <!-- cdachresp-dataelement GCS-Augenöffnung 110 -->
+            <!-- cdachems-dataelement GCS-Augenöffnung 110 -->
             <component>
                <code>
                   <coding>
@@ -1342,12 +1342,12 @@
                <versionId value="2"/>
                <lastUpdated value="2020-02-26T11:34:54.197+00:00"/>
                <source value="#EaE3VvSl3O1Gf9uT"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-servicerequest"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-servicerequest"/>
             </meta>
             <contained>
                <Organization xmlns="http://hl7.org/fhir">
                   <id value="informant"/>
-                  <!-- cdachresp-dataelement-60 aufbietende Organisation -->
+                  <!-- cdachems-dataelement-60 aufbietende Organisation -->
                   <identifier>
                      <system value="urn:oid:2.51.1.3"/>
                      <value value="7601002156370"/>
@@ -1377,16 +1377,16 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:25:40.055+00:00"/>
                <source value="#Gt90iVkI9D0DtD67"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-location"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
             </meta>
             <name value="Waldrand"/>
-            <!-- cdachresp-dataelement-175 Einsatzort Postadresse (eCH-0010) -->
+            <!-- cdachems-dataelement-175 Einsatzort Postadresse (eCH-0010) -->
             <address>
                <city value="Zürich"/>
                <postalCode value="8044"/>
                <country value="CH"/>
             </address>
-            <!-- cdachresp-dataelement-28 Koordinaten Einsatzort -->
+            <!-- cdachems-dataelement-28 Koordinaten Einsatzort -->
             <position>
                <longitude value="8.553192"/>
                <latitude value="47.392115"/>
@@ -1403,9 +1403,9 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:25:59.732+00:00"/>
                <source value="#wPe3oJXwEE5J42xC"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-location"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
             </meta>
-            <!-- cdachresp-dataelement-222 GLN Zielort -->
+            <!-- cdachems-dataelement-222 GLN Zielort -->
             <identifier>
                <system value="urn:oid:2.51.1.3"/>
                <value value="7601002155939"/>
@@ -1429,9 +1429,9 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:13:10.289+00:00"/>
                <source value="#vZbf10v4oS6ykNCA"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
             </meta>
-            <!-- cdachresp-dataelement-281 GLN Teammitglied -->
+            <!-- cdachems-dataelement-281 GLN Teammitglied -->
             <identifier>
                <system value="urn:oid:2.51.1.3"/>
                <value value="7601000211804"/>
@@ -1466,9 +1466,9 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:13:48.833+00:00"/>
                <source value="#R1bB8nSAqNUqzEzj"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
             </meta>
-            <!-- cdachresp-dataelement-281 GLN Teammitglied -->
+            <!-- cdachems-dataelement-281 GLN Teammitglied -->
             <identifier>
                <system value="urn:oid:2.51.1.3"/>
                <value value="7601003330434"/>
@@ -1503,9 +1503,9 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:17:41.744+00:00"/>
                <source value="#q8EgQlNYc0b0PoZJ"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
             </meta>
-            <!-- cdachresp-dataelement-281 GLN Teammitglied -->
+            <!-- cdachems-dataelement-281 GLN Teammitglied -->
             <identifier>
                <system value="urn:oid:2.51.1.3"/>
                <value value="7601000028105"/>
@@ -1565,14 +1565,14 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:23:30.659+00:00"/>
                <source value="#gSWR7ScK7E1Zv1Xi"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
             </meta>
-            <!-- cdachresp-dataelement-61 aufgebotene Organisation -->
+            <!-- cdachems-dataelement-61 aufgebotene Organisation -->
             <identifier>
                <system value="urn:oid:2.51.1.3"/>
                <value value="7601002156363"/>
             </identifier>
-            <!-- cdachresp-dataelement-384 aufgebotene Organisation -->
+            <!-- cdachems-dataelement-384 aufgebotene Organisation -->
             <name value="Rettungsdienst Schutz und Rettung Zürich"/>
          </Organization>
       </resource>
@@ -1586,7 +1586,7 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:23:51.780+00:00"/>
                <source value="#g1ou3d4gsDlmHUIq"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
             </meta>
             <identifier>
                <system value="urn:oid:2.51.1.3"/>
@@ -1616,7 +1616,7 @@
                <versionId value="1"/>
                <lastUpdated value="2020-02-26T10:21:56.221+00:00"/>
                <source value="#IFwsGqswVtKfZe9P"/>
-               <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-coverage"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-coverage"/>
             </meta>
             <contained>
                <Organization xmlns="http://hl7.org/fhir">
@@ -1624,7 +1624,7 @@
                   <name value="KPT"/>
                </Organization>
             </contained>
-            <!-- cdachresp-dataelement-486 Nummer Versichertenkarte -->
+            <!-- cdachems-dataelement-486 Nummer Versichertenkarte -->
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.123.100.1.1.1"/>
                <value value="80756003760012390001"/>
@@ -1633,7 +1633,7 @@
             <beneficiary>
                <reference value="Patient/1-PeterMuster"/>
             </beneficiary>
-            <!-- cdachresp-dataelement-525 Versicherung RESP -->
+            <!-- cdachems-dataelement-525 Versicherung EMS -->
             <payor>
                <reference value="#kpt"/>
             </payor>

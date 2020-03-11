@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-composition"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-composition"/>
+    <id value="ch-ems-composition"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition"/>
     <version value="0.1.0"/>
     <name value="CHRespComposition"/>
-    <title value="CH RESP Composition Profile"/>
+    <title value="CH EMS Composition Profile"/>
     <status value="draft"/>
     <date value="2020-02-05T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -31,7 +31,7 @@
     <differential>
         <element id="Composition">
             <path value="Composition"/>
-            <short value="CH RESP Composition"/>
+            <short value="CH EMS Composition"/>
         </element>
         <element id="Composition.status">
             <path value="Composition.status"/>
@@ -54,7 +54,7 @@
             <min value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
             </type>
         </element>
         <element id="Composition.subject.reference">
@@ -69,12 +69,12 @@
             <short value="The author of this document"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitionerrole"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitionerrole"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
             </type>
         </element>
         <element id="Composition.author.reference">
@@ -90,7 +90,7 @@
             <min value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
             </type>
         </element>
         <element id="Composition.custodian.reference">
@@ -129,7 +129,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                     <!-- TBD -->
                     <code value="1100001" />
                     <display value="Einsatz"/>
@@ -159,7 +159,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-encounter"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-encounter"/>
             </type>
         </element>
         <element id="Composition.section:mission.entry:missionEncounter.reference">
@@ -172,7 +172,7 @@
             <short value="Mission time status"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </type>
         </element>
         <element id="Composition.section:mission.entry:missionTimeStatus.reference">
@@ -204,7 +204,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                     <code value="1100003" />
                     <display value="Administrativ"/>
                 </coding>
@@ -221,8 +221,8 @@
             <short value="Person or Organization"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-relatedperson"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-relatedperson"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
             </type>
         </element>
         <element id="Composition.section.entry:administrative.reference">
@@ -254,7 +254,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                     <code value="1100004" />
                     <display value="Vorbehandlung"/>
                 </coding>
@@ -271,7 +271,7 @@
             <short value="Procedure"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-procedure"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-procedure"/>
             </type>
         </element>
         <element id="Composition.section.entry:pretreatment.reference">
@@ -303,7 +303,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                     <!-- TBD -->
                     <code value="1100005" />
                     <display value="Anamnese"/>
@@ -333,7 +333,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesisevent"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesisevent"/>
             </type>
         </element>
         <element id="Composition.section:anamnesis.entry:anamnesisEvent.reference">
@@ -346,7 +346,7 @@
             <short value="Anamnesis symptom"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesissymptom"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesissymptom"/>
             </type>
         </element>
         <element id="Composition.section:anamnesis.entry:anamnesisSymptom.reference">
@@ -378,7 +378,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                     <!-- TBD -->
                     <code value="1100006" />
                     <display value="Befund"/>
@@ -408,7 +408,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-glasgowcomascale"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-glasgowcomascale"/>
             </type>
         </element>
         <element id="Composition.section:findings.entry:glasgowComaScale.reference">
@@ -422,7 +422,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-levelofresponsiveness"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-levelofresponsiveness"/>
             </type>
         </element>
         <element id="Composition.section:findings.entry:levelOfResponsiveness.reference">
@@ -436,7 +436,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-airways"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-airways"/>
             </type>
         </element>
         <element id="Composition.section:findings.entry:observationAirways.reference">
@@ -450,7 +450,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-cardiacarrest"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-cardiacarrest"/>
             </type>
         </element>
         <element id="Composition.section:findings.entry:observationCardiacArrest.reference">
@@ -464,7 +464,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-stroke"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-stroke"/>
             </type>
         </element>
         <element id="Composition.section:findings.entry:observationStroke.reference">
@@ -496,7 +496,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                     <!-- TBD -->
                     <code value="1100007" />
                     <display value="Diagnosen"/>
@@ -515,7 +515,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-diagnosis"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-diagnosis"/>
             </type>
         </element>
         <element id="Composition.section.entry:diagnosis.reference">
@@ -547,7 +547,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                     <code value="1100008"/>
                     <display value="Massnahmen"/>
                 </coding>
@@ -584,7 +584,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                     <code value="1100009"/>
                     <display value="Todesfall"/>
                 </coding>
@@ -621,7 +621,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                     <code value="1100010"/>
                     <display value="Transport"/>
                 </coding>
@@ -658,7 +658,7 @@
             <min value="1"/>
             <patternCodeableConcept>
                 <coding>
-                    <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                    <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                     <!-- TBD -->
                     <code value="1100011" />
                     <display value="Übergabe"/>
@@ -688,7 +688,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-statuspriority"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-statuspriority"/>
             </type>
         </element>
         <element id="Composition.section:handover.entry:patientStatusPriority.reference">
@@ -702,7 +702,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-conditionchange"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-conditionchange"/>
             </type>
         </element>
         <element id="Composition.section:handover.entry:patientConditionChange.reference">
@@ -716,7 +716,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-injuryseverity"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-injuryseverity"/>
             </type>
         </element>
         <element id="Composition.section:handover.entry:injurySeverityObservation.reference">
@@ -730,7 +730,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-glasgowcomascale"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-glasgowcomascale"/>
             </type>
         </element>
         <element id="Composition.section:handover.entry:glasgowComaScale.reference">

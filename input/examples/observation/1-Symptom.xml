@@ -2,7 +2,7 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="1-Symptom"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesissymptom"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesissymptom"/>
     </meta>
     <status value="final"/>
     <code>
@@ -12,7 +12,7 @@
             <display value="Clinical finding (finding)"/>
         </coding>
     </code>
-    <!-- cdachresp-dataelement-468 Symptom, frei -->
+    <!-- cdachems-dataelement-468 Symptom, frei -->
     <valueCodeableConcept>
         <coding>
             <system value="http://snomed.info/sct"/>

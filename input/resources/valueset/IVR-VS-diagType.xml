@@ -15,7 +15,7 @@
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-diagType"/>
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagType"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>

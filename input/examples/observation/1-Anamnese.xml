@@ -2,7 +2,7 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="1-Anamnese"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesisevent"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesisevent"/>
     </meta>
     <status value="final"/>
     <code>
@@ -12,7 +12,7 @@
             <display value="Event"/>
         </coding>
     </code>
-    <!-- cdachresp-dataelement-98 Geschehen frei -->
+    <!-- cdachems-dataelement-98 Geschehen frei -->
     <valueCodeableConcept>
         <coding>
             <system value="http://snomed.info/sct"/>

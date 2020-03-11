@@ -2,7 +2,7 @@
 <RelatedPerson xmlns="http://hl7.org/fhir">
     <id value="1-Ehefrau"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-relatedperson"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-relatedperson"/>
     </meta>
     <patient>
         <reference value="Patient/1-PeterMuster"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-procedure"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-procedure"/>
+    <id value="ch-ems-procedure"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-procedure"/>
     <version value="0.1.0"/>
     <name value="CHRespProcedure"/>
-    <title value="CH RESP Procedure Profile"/>
+    <title value="CH EMS Procedure Profile"/>
     <status value="draft"/>
     <date value="2020-02-18T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -32,7 +32,7 @@
     <differential>
         <element id="Procedure">
             <path value="Procedure"/>
-            <short value="CH RESP Procedure"/>
+            <short value="CH EMS Procedure"/>
         </element>
         <element id="Procedure.extension">
             <path value="Procedure.extension"/>
@@ -52,7 +52,7 @@
             <max value="1"/>
             <type>
                 <code value="Extension"/>
-                <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-performer"/>
+                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-performer"/>
             </type>
         </element>
         <element id="Procedure.status">
@@ -63,7 +63,7 @@
             <short value="Identification of the procedure"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-preTreatmentType"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatmentType"/>
             </binding>
         </element>
         <element id="Procedure.subject">
@@ -71,7 +71,7 @@
             <short value="Patient"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
             </type>
         </element>
         <element id="Procedure.subject.reference">

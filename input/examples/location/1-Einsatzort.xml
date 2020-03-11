@@ -2,16 +2,16 @@
 <Location xmlns="http://hl7.org/fhir">
     <id value="1-Einsatzort"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-location"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
     </meta>
     <name value="Waldrand"/>
-    <!-- cdachresp-dataelement-175 Einsatzort Postadresse (eCH-0010) -->
+    <!-- cdachems-dataelement-175 Einsatzort Postadresse (eCH-0010) -->
     <address>
         <city value="Zürich"/>
         <postalCode value="8044"/>
         <country value="CH"/>
     </address>
-    <!-- cdachresp-dataelement-28 Koordinaten Einsatzort -->
+    <!-- cdachems-dataelement-28 Koordinaten Einsatzort -->
     <position>
         <longitude value="8.553192"/>
         <latitude value="47.392115"/>

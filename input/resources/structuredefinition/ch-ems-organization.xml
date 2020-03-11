@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-organization"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-organization"/>
+    <id value="ch-ems-organization"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
     <version value="0.1.0"/>
     <name value="CHRespOrganization"/>
-    <title value="CH RESP Organization Profile"/>
+    <title value="CH EMS Organization Profile"/>
     <status value="draft"/>
     <date value="2020-02-17T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -32,7 +32,7 @@
     <differential>
         <element id="Organization">
             <path value="Organization"/>
-            <short value="CH RESP Organization"/>
+            <short value="CH EMS Organization"/>
         </element>
         <element id="Organization.identifier">
             <path value="Organization.identifier"/>

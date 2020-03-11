@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-observation-anamnesisevent"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-anamnesisevent"/>
+    <id value="ch-ems-observation-missiontimestatus"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
     <version value="0.1.0"/>
-    <name value="CHRespObservationAnamnesisEvent"/>
-    <title value="CH RESP Observation Profile Anamnesis Event"/>
+    <name value="CHRespObservationMissionTimeStatus"/>
+    <title value="CH EMS Observation Profile Mission Time Status"/>
     <status value="draft"/>
     <date value="2020-02-24T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -16,7 +16,7 @@
             <value value="https://www.ivr-ias.ch/"/>
         </telecom>
     </contact>
-    <description value="Definition of the observation anamnesis event"/>
+    <description value="Definition of the observation mission time status"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -32,35 +32,21 @@
     <differential>
         <element id="Observation">
             <path value="Observation"/>
-            <short value="CH RESP Observation"/>
+            <short value="CH EMS Observation"/>
         </element>
         <element id="Observation.status">
             <path value="Observation.status"/>
         </element>
         <element id="Observation.code">
             <path value="Observation.code"/>
-            <short value="Anamnesis event"/>
-            <patternCodeableConcept>
-                <coding>
-                    <system value="http://snomed.info/sct"/>
-                    <code value="272379006"/>
-                    <display value="Event"/>
-                </coding>
-            </patternCodeableConcept>
-        </element>
-        <element id="Observation.valueCodeableConcept">
-            <path value="Observation.valueCodeableConcept"/>
+            <short value="Role mission time"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-event"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-roleMissionTime"/>
             </binding>
         </element>
-        <element id="Observation.valueCodeableConcept.text">
-            <path value="Observation.valueCodeableConcept.text"/>
-            <short value="General symptom description"/>
+        <element id="Observation.valueDateTime">
+            <path value="Observation.valueDateTime"/>
         </element>
     </differential>
 </StructureDefinition>
-
-
-

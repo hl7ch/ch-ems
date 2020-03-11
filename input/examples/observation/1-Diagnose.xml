@@ -2,18 +2,18 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="1-Diagnose"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-diagnosis"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-diagnosis"/>
     </meta>
     <status value="final"/>
     <code>
         <coding>
-            <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+            <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
             <code value="2931005" />
             <display value="Verdachtsdiagnose"/>
         </coding>
     </code>
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00" />
-    <!-- cdachresp-dataelement-488 Ersteller Diagnose-->
+    <!-- cdachems-dataelement-488 Ersteller Diagnose-->
     <performer>
         <reference value="Practitioner/1-Notarzt"/>
     </performer>

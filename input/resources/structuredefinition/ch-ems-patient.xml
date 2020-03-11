@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-patient"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+    <id value="ch-ems-patient"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
     <version value="0.1.0"/>
     <name value="CHRespPatient"/>
-    <title value="CH RESP Patient Profile"/>
+    <title value="CH EMS Patient Profile"/>
     <status value="draft"/>
     <date value="2020-02-05T00:00:00+10:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -31,7 +31,7 @@
     <differential>
         <element id="Patient">
             <path value="Patient"/>
-            <short value="CH RESP Patient"/>
+            <short value="CH EMS Patient"/>
         </element>
         <element id="Patient.extension">
             <path value="Patient.extension" />

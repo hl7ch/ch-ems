@@ -15,7 +15,7 @@
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-preTreatment"/>
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatment"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -52,7 +52,7 @@
          <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
          <concept>
             <code value="1000142"/>
-            <display value="first responder"/>
+            <display value="first emsonder"/>
             <designation>
                <language value="de-CH"/>
                <value value="ausgebildeter Ersthelfer"/>

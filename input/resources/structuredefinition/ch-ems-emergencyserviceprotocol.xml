@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-emergencyserviceprotocol"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-emergencyserviceprotocol"/>
+    <id value="ch-ems-emergencyserviceprotocol"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-emergencyserviceprotocol"/>
     <version value="0.1.0"/>
     <name value="CHRespEmergencyServiceProtocol"/>
-    <title value="CH RESP Emergency Service Protocol Logical Model"/>
+    <title value="CH EMS Emergency Service Protocol Logical Model"/>
     <status value="draft"/>
     <date value="2020-02-17"/>
     <publisher value="IVR Interverband für Rettungswesen"/>

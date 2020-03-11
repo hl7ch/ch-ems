@@ -2,7 +2,7 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="1-ZustandUebergabe"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-conditionchange"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-conditionchange"/>
     </meta>
     <status value="final"/>
     <code>
@@ -12,10 +12,10 @@
             <display value="Vital status at discharge"/>
         </coding>
     </code>
-    <!-- cdachresp-dataelement-24 Zustand bei Einsatzende-->
+    <!-- cdachems-dataelement-24 Zustand bei Einsatzende-->
     <valueCodeableConcept>
         <coding>
-            <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+            <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
             <code value="385425000"/>
             <display value="Improved"/>
         </coding>

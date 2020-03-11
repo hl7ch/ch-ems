@@ -2,9 +2,9 @@
 <Encounter xmlns="http://hl7.org/fhir">
     <id value="1-Einsatz"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-encounter"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-encounter"/>
     </meta>
-    <!-- cdachresp-dataelement-55 Einsatznummer (OID vom SNZ)-->
+    <!-- cdachems-dataelement-55 Einsatznummer (OID vom SNZ)-->
     <identifier>
         <system value="urn:oid:2.16.756.5.30.1.9999999999.1"/>
         <value value="S12345678"/>
@@ -18,13 +18,13 @@
     <subject>
         <reference value="Patient/1-PeterMuster"/>
     </subject>
-    <!-- cdachresp-dataelement-60 aufbietende Organisation -->
+    <!-- cdachems-dataelement-60 aufbietende Organisation -->
     <basedOn>
         <reference value="ServiceRequest/1-AufbietendeOrganisation"/>
     </basedOn>
-    <!-- cdachresp-dataelement-102 Team -->
+    <!-- cdachems-dataelement-102 Team -->
     <participant>
-        <!-- cdachresp-dataelement-283 Rolle Teammitglied -->
+        <!-- cdachems-dataelement-283 Rolle Teammitglied -->
         <type>
             <coding>
                 <system value="http://snomed.info/sct"/>
@@ -32,7 +32,7 @@
                 <display value="Healthcare professional"/>
             </coding>
             <coding>
-                <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                 <code value="133932002"/>
                 <display value="Betreuer"/>
             </coding>
@@ -42,7 +42,7 @@
         </individual>
     </participant>
     <participant>
-        <!-- cdachresp-dataelement-283 Rolle Teammitglied -->
+        <!-- cdachems-dataelement-283 Rolle Teammitglied -->
         <type>
             <coding>
                 <system value="http://snomed.info/sct"/>
@@ -50,7 +50,7 @@
                 <display value="Healthcare professional"/>
             </coding>
             <coding>
-                <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                 <code value="133932002"/>
                 <display value="Betreuer"/>
             </coding>
@@ -60,7 +60,7 @@
         </individual>
     </participant>
     <participant>
-        <!-- cdachresp-dataelement-283 Rolle Teammitglied -->
+        <!-- cdachems-dataelement-283 Rolle Teammitglied -->
         <type>
             <coding>
                 <system value="http://snomed.info/sct"/>
@@ -68,7 +68,7 @@
                 <display value="Physician"/>
             </coding>
             <coding>
-                <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+                <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                 <code value="309343006"/>
                 <display value="Notärztin / Notarzt"/>
             </coding>
@@ -77,17 +77,17 @@
             <reference value="Practitioner/1-NotarztHansNotarzt"/>
         </individual>
     </participant>
-    <!-- cdachresp-dataelement-54: Einsatzdatum -->
+    <!-- cdachems-dataelement-54: Einsatzdatum -->
     <period>
         <start value="2016-12-10"/>
     </period>
-    <!-- cdachresp-dataelement-103 Zielort -->
+    <!-- cdachems-dataelement-103 Zielort -->
     <hospitalization>
         <destination>
             <reference value="Location/1-Zielort"/>
         </destination>
     </hospitalization>
-    <!-- cdachresp-dataelement-25 Einsatzort -->
+    <!-- cdachems-dataelement-25 Einsatzort -->
     <location>
         <location>
             <reference value="Location/1-Einsatzort"/>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-ext-performer"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-performer"/>
+    <id value="ch-ems-ext-performer"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-performer"/>
     <version value="0.1.0"/>
     <name value="CHRespExtPerformer"/>
-    <title value="CH RESP Extension Performer"/>
+    <title value="CH EMS Extension Performer"/>
     <status value="draft"/>
     <date value="2020-02-21"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -41,7 +41,7 @@
             <type>
                 <code value="uri"/>
             </type>
-            <fixedUri value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-ext-performer"/>
+            <fixedUri value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-performer"/>
         </element>
         <element id="Extension.valueCodeableConcept">
             <path value="Extension.valueCodeableConcept"/>
@@ -53,7 +53,7 @@
             </type>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-preTreatment"/> 
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatment"/> 
             </binding>
         </element>
     </differential>

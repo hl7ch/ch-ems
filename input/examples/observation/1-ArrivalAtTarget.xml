@@ -2,17 +2,17 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="1-ArrivalAtTarget"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-observation-missiontimestatus"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
     </meta>
     <status value="final"/>
-    <!-- cdachresp-dataelement-278 : Bedeutung der Statuszeit -->
+    <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
     <code>
         <coding>
-            <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+            <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
             <code value="1000039"/>
             <display value="arrival at target"/>
         </coding>
     </code>
-    <!-- cdachresp-dataelement-286 Statuszeit -->
+    <!-- cdachems-dataelement-286 Statuszeit -->
     <valueDateTime value="2016-12-10T11:54:00.000+01:00"/>
 </Observation>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-location"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-location"/>
+    <id value="ch-ems-location"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
     <version value="0.1.0"/>
     <name value="CHRespLocation"/>
-    <title value="CH RESP Location Profile"/>
+    <title value="CH EMS Location Profile"/>
     <status value="draft"/>
     <date value="2020-02-17T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -32,7 +32,7 @@
     <differential>
         <element id="Location">
             <path value="Location"/>
-            <short value="CH RESP Location"/>
+            <short value="CH EMS Location"/>
         </element>
         <element id="Location.identifier">
             <path value="Location.identifier"/>

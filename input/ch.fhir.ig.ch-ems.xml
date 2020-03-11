@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ch.fhir.ig.ch-resp"/>
+  <id value="ch.fhir.ig.ch-ems"/>
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      ImplementationGuide for CH-RESP
+      ImplementationGuide for CH-EMS
     </div>
   </text>
-  <url value="http://fhir.ch/ig/ch-resp/ImplementationGuide/ch.fhir.ig.ch-resp"/>
+  <url value="http://fhir.ch/ig/ch-ems/ImplementationGuide/ch.fhir.ig.ch-ems"/>
   <version value="0.0.1"/>
   <name value="CH_RESP"/>
-  <title value="CH-RESP"/>
+  <title value="CH-EMS"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2020-02-05"/>
@@ -30,7 +30,7 @@
     </coding>
   </jurisdiction>
   <copyright value="CC-BY-SA-4.0"/>
-  <packageId value="ch.fhir.ig.ch-resp"/>
+  <packageId value="ch.fhir.ig.ch-ems"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="chcore">
@@ -51,7 +51,7 @@
       </reference>
       <name value="1 Einsatzprotokoll"/>
       <description value="Example for Bundle"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-bundle"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-bundle"/>
     </resource>
     <resource>
       <reference>
@@ -59,7 +59,7 @@
       </reference>
       <name value="1 Einsatzprotokoll"/>
       <description value="Example for Composition"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-composition"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-composition"/>
     </resource>
     <resource>
       <reference>
@@ -67,7 +67,7 @@
       </reference>
       <name value="1 Coverage Peter Muster"/>
       <description value="Example for Coverage"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-coverage"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-coverage"/>
     </resource>
     <resource>
       <reference>
@@ -75,7 +75,7 @@
       </reference>
       <name value="1 Einsatz"/>
       <description value="Example for Encounter"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-encounter"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-encounter"/>
     </resource>
     <resource>
       <reference>
@@ -83,7 +83,7 @@
       </reference>
       <name value="1 Einsatzort"/>
       <description value="Example for Location"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-location"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-location"/>
     </resource>
     <resource>
       <reference>
@@ -91,7 +91,7 @@
       </reference>
       <name value="1 Zielort"/>
       <description value="Example for Location"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-location"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-location"/>
     </resource>
     <resource>
       <reference>
@@ -99,7 +99,7 @@
       </reference>
       <name value="1 Alarm"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -107,7 +107,7 @@
       </reference>
       <name value="1 Anamnese"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-anamnesisevent"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-anamnesisevent"/>
     </resource>
     <resource>
       <reference>
@@ -115,7 +115,7 @@
       </reference>
       <name value="1 Arrival at target"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -123,7 +123,7 @@
       </reference>
       <name value="1 Arrival on scene"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -131,7 +131,7 @@
       </reference>
       <name value="1 ArrivalPatient"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -139,7 +139,7 @@
       </reference>
       <name value="1 Departure from scene"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -147,7 +147,7 @@
       </reference>
       <name value="1 Diagnose"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-diagnosis"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-diagnosis"/>
     </resource>
     <resource>
       <reference>
@@ -155,7 +155,7 @@
       </reference>
       <name value="1 Disposition"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -163,7 +163,7 @@
       </reference>
       <name value="1 GCS Befund"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-glasgowcomascale"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-glasgowcomascale"/>
     </resource>
     <resource>
       <reference>
@@ -171,7 +171,7 @@
       </reference>
       <name value="1 GCS Uebergabe"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-glasgowcomascale"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-glasgowcomascale"/>
     </resource>
     <resource>
       <reference>
@@ -179,7 +179,7 @@
       </reference>
       <name value="1 NACA Uebergabe"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-injuryseverity"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-injuryseverity"/>
     </resource>
     <resource>
       <reference>
@@ -187,7 +187,7 @@
       </reference>
       <name value="1 Rollout"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>
@@ -195,7 +195,7 @@
       </reference>
       <name value="1 Symptom"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-anamnesissymptom"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-anamnesissymptom"/>
     </resource>
     <resource>
       <reference>
@@ -203,7 +203,7 @@
       </reference>
       <name value="1 Zustand Uebergabe"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-conditionchange"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-conditionchange"/>
     </resource>
     <resource>
       <reference>
@@ -211,7 +211,7 @@
       </reference>
       <name value="Airways Befund"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-airways"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-airways"/>
     </resource>
     <resource>
       <reference>
@@ -219,7 +219,7 @@
       </reference>
       <name value="AVPU Befund"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-levelofresponsiveness"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-levelofresponsiveness"/>
     </resource>
     <resource>
       <reference>
@@ -227,7 +227,7 @@
       </reference>
       <name value="Cardiac Arrest Befund"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-cardiacarrest"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-cardiacarrest"/>
     </resource>
     <resource>
       <reference>
@@ -235,7 +235,7 @@
       </reference>
       <name value="Status Priorität Übergabe"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-statuspriority"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-statuspriority"/>
     </resource>
     <resource>
       <reference>
@@ -243,7 +243,7 @@
       </reference>
       <name value="Stroke Befund"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-observation-stroke"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-observation-stroke"/>
     </resource>
     <resource>
       <reference>
@@ -251,7 +251,7 @@
       </reference>
       <name value="1 USZ as information recipient"/>
       <description value="Example for Organization"/>
-      <!--<exampleCanonical value="StructureDefinition/ch-resp-organization"/>-->
+      <!--<exampleCanonical value="StructureDefinition/ch-ems-organization"/>-->
     </resource>
     <resource>
       <reference>
@@ -259,7 +259,7 @@
       </reference>
       <name value="1 Rettungsdienst"/>
       <description value="Example for Organization"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-organization"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-organization"/>
     </resource>
     <resource>
       <reference>
@@ -267,7 +267,7 @@
       </reference>
       <name value="1 Team Rettungsdienst"/>
       <description value="Example for Organization"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-organization"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-organization"/>
     </resource>
     <resource>
       <reference>
@@ -275,7 +275,7 @@
       </reference>
       <name value="1 Peter Muster"/>
       <description value="Example for Patient"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-patient"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-patient"/>
     </resource>
     <resource>
       <reference>
@@ -283,7 +283,7 @@
       </reference>
       <name value="1 Betreuer Hans Beispiel"/>
       <description value="Example for Practitioner"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -291,7 +291,7 @@
       </reference>
       <name value="1 Betreuer PetraMuster"/>
       <description value="Example for Practitioner"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -299,7 +299,7 @@
       </reference>
       <name value="1 Spezialarzt as information recipient"/>
       <description value="Example for Practitioner"/>
-      <!--<exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>-->
+      <!--<exampleCanonical value="StructureDefinition/ch-ems-practitioner"/>-->
     </resource>
     <resource>
       <reference>
@@ -307,7 +307,7 @@
       </reference>
       <name value="1 Notarzt"/>
       <description value="Example for Practitioner"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -315,7 +315,7 @@
       </reference>
       <name value="1 Notarzt Hans Notarzt"/>
       <description value="Example for Practitioner"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -323,7 +323,7 @@
       </reference>
       <name value="1 Rettungssanitaeterin"/>
       <description value="Example for Practitioner"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-practitioner"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -331,7 +331,7 @@
       </reference>
       <name value="1 PractitionerRole Notarzt"/>
       <description value="Example for PractitionerRole"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-practitionerrole"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-practitionerrole"/>
     </resource>
     <resource>
       <reference>
@@ -339,7 +339,7 @@
       </reference>
       <name value="1 PractitionerRole Rettungssanitaeterin"/>
       <description value="Example for PractitionerRole"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-practitionerrole"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-practitionerrole"/>
     </resource>
     <resource>
       <reference>
@@ -347,7 +347,7 @@
       </reference>
       <name value="Vorbehandlung"/>
       <description value="Example for Procedure"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-procedure"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-procedure"/>
     </resource>
     <resource>
       <reference>
@@ -355,7 +355,7 @@
       </reference>
       <name value="1 Ehefrau"/>
       <description value="Example for RelatedPerson"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-relatedperson"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-relatedperson"/>
     </resource>
     <resource>
       <reference>
@@ -363,163 +363,163 @@
       </reference>
       <name value="1 Aufbietende Organisation"/>
       <description value="Example for ServiceRequest"/>
-      <exampleCanonical value="StructureDefinition/ch-resp-servicerequest"/>
+      <exampleCanonical value="StructureDefinition/ch-ems-servicerequest"/>
     </resource>
 
     <!-- References to structure definitions -->
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-bundle"/>
+        <reference value="StructureDefinition/ch-ems-bundle"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-composition"/>
+        <reference value="StructureDefinition/ch-ems-composition"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-coverage"/>
+        <reference value="StructureDefinition/ch-ems-coverage"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-emergencyserviceprotocol"/>
+        <reference value="StructureDefinition/ch-ems-emergencyserviceprotocol"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-encounter"/>
+        <reference value="StructureDefinition/ch-ems-encounter"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-ext-performer"/>
+        <reference value="StructureDefinition/ch-ems-ext-performer"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-location"/>
+        <reference value="StructureDefinition/ch-ems-location"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-airways"/>
+        <reference value="StructureDefinition/ch-ems-observation-airways"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-anamnesisevent"/>
+        <reference value="StructureDefinition/ch-ems-observation-anamnesisevent"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-anamnesissymptom"/>
+        <reference value="StructureDefinition/ch-ems-observation-anamnesissymptom"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-cardiacarrest"/>
+        <reference value="StructureDefinition/ch-ems-observation-cardiacarrest"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-conditionchange"/>
+        <reference value="StructureDefinition/ch-ems-observation-conditionchange"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-diagnosis"/>
+        <reference value="StructureDefinition/ch-ems-observation-diagnosis"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-glasgowcomascale"/>
+        <reference value="StructureDefinition/ch-ems-observation-glasgowcomascale"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-injuryseverity"/>
+        <reference value="StructureDefinition/ch-ems-observation-injuryseverity"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-levelofresponsiveness"/>
+        <reference value="StructureDefinition/ch-ems-observation-levelofresponsiveness"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-missiontimestatus"/>
+        <reference value="StructureDefinition/ch-ems-observation-missiontimestatus"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-statuspriority"/>
+        <reference value="StructureDefinition/ch-ems-observation-statuspriority"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-observation-stroke"/>
+        <reference value="StructureDefinition/ch-ems-observation-stroke"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-organization"/>
+        <reference value="StructureDefinition/ch-ems-organization"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-patient"/>
+        <reference value="StructureDefinition/ch-ems-patient"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-practitioner"/>
+        <reference value="StructureDefinition/ch-ems-practitioner"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-practitionerrole"/>
+        <reference value="StructureDefinition/ch-ems-practitionerrole"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-procedure"/>
+        <reference value="StructureDefinition/ch-ems-procedure"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-relatedperson"/>
+        <reference value="StructureDefinition/ch-ems-relatedperson"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-resp-servicerequest"/>
+        <reference value="StructureDefinition/ch-ems-servicerequest"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

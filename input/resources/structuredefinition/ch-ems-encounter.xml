@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-encounter"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-encounter"/>
+    <id value="ch-ems-encounter"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-encounter"/>
     <version value="0.1.0"/>
     <name value="CHRespEncounter"/>
-    <title value="CH RESP Encounter Profile"/>
+    <title value="CH EMS Encounter Profile"/>
     <status value="draft"/>
     <date value="2020-02-05T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -31,7 +31,7 @@
     <differential>
         <element id="Encounter">
             <path value="Encounter"/>
-            <short value="CH RESP Encounter"/>
+            <short value="CH EMS Encounter"/>
         </element>
         <element id="Encounter.identifier">
             <path value="Encounter.identifier"/>
@@ -60,7 +60,7 @@
             <short value="Patient"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
             </type>
         </element>
         <element id="Encounter.subject.reference">
@@ -74,7 +74,7 @@
             <max value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-servicerequest"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-servicerequest"/>
             </type>
         </element>
         <element id="Encounter.basedOn.reference">
@@ -92,7 +92,7 @@
             <max value="1"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-resp/ValueSet/IVR-VS-roleTeam"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-roleTeam"/>
             </binding>
         </element>
         <element id="Encounter.participant.individual">
@@ -101,7 +101,7 @@
             <min value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-practitioner"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
             </type>
         </element>
         <element id="Encounter.participant.individual.reference">
@@ -125,7 +125,7 @@
             <path value="Encounter.hospitalization.destination"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-location"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
             </type>
             <min value="1"/>
         </element>
@@ -142,7 +142,7 @@
             <path value="Encounter.location.location"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-location"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
             </type>
         </element>
         <element id="Encounter.location.location.reference">

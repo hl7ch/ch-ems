@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-resp-servicerequest"/>
-    <url value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-servicerequest"/>
+    <id value="ch-ems-servicerequest"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-servicerequest"/>
     <version value="0.1.0"/>
     <name value="CHRespServiceRequest"/>
-    <title value="CH RESP Service Request Profile"/>
+    <title value="CH EMS Service Request Profile"/>
     <status value="draft"/>
     <date value="2020-02-24T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -32,7 +32,7 @@
     <differential>
         <element id="ServiceRequest">
             <path value="ServiceRequest"/>
-            <short value="CH RESP ServiceRequest"/>
+            <short value="CH EMS ServiceRequest"/>
         </element>
         <element id="ServiceRequest.contained">
             <path value="ServiceRequest.contained"/>
@@ -49,7 +49,7 @@
             <short value="Patient"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-patient"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
             </type>
         </element>
         <element id="ServiceRequest.subject.reference">
@@ -74,7 +74,7 @@
             <short value="Insurance coverage"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-coverage"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-coverage"/>
             </type>
         </element>
         <element id="ServiceRequest.insurance.reference">

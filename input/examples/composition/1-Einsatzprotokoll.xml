@@ -2,7 +2,7 @@
 <Composition xmlns="http://hl7.org/fhir">
   <id value="1-Einsatzprotokoll"/>
   <meta>
-    <profile value="http://fhir.ch/ig/ch-resp/StructureDefinition/ch-resp-composition"/>
+    <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition"/>
   </meta>
   <language value="de-CH"/>
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
@@ -21,7 +21,7 @@
       <reference value="Practitioner/1-InformationRecipientSpezialarzt"/>
     </valueReference>
   </extension>
-  <!-- CDA: informationRecipient.intendedRecipient.receivedOrganization (cdachresp-dataelement-174) -->
+  <!-- CDA: informationRecipient.intendedRecipient.receivedOrganization (cdachems-dataelement-174) -->
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient">
     <valueReference>
       <reference value="Organization/1-InformationRecipientUSZ"/>
@@ -96,7 +96,7 @@
     </party>
   </attester>
   <!-- CDA: custodian.assignedCustodian.representedCustodian -->
-  <!-- cdachresp-dataelement-61 aufgebotene Organisation -->
+  <!-- cdachems-dataelement-61 aufgebotene Organisation -->
   <custodian>
     <reference value="Organization/1-Rettungsdienst"/>
   </custodian>
@@ -107,7 +107,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100001"/>
         <display value="Einsatz"/>
       </coding>
@@ -122,12 +122,12 @@
             </tr>
             <tr>
               <td>Einsatzdatum</td>
-              <!-- cdachresp-dataelement-54 -->
+              <!-- cdachems-dataelement-54 -->
               <td>10.12.2016</td>
             </tr>
             <tr>
               <td>Einsatznummer</td>
-              <!-- cdachresp-dataelement-54 -->
+              <!-- cdachems-dataelement-54 -->
               <td>S12345678</td>
             </tr>
             <tr>
@@ -213,7 +213,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100003"/>
         <display value="Administrativ"/>
       </coding>
@@ -245,7 +245,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100004"/>
         <display value="Vorbehandlung"/>
       </coding>
@@ -264,7 +264,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100005"/>
         <display value="Anamnese"/>
       </coding>
@@ -327,7 +327,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100006"/>
         <display value="Befund"/>
       </coding>
@@ -351,7 +351,7 @@
         </table>
       </div>
     </text>
-    <!-- cdachresp-dataelement-108 GCS -->
+    <!-- cdachems-dataelement-108 GCS -->
       <entry>
         <reference value="Observation/1-GCSBefund"/>
       </entry>
@@ -363,7 +363,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100007"/>
         <display value="Diagnosen"/>
       </coding>
@@ -394,7 +394,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100008"/>
         <display value="Massnahmen"/>
       </coding>
@@ -413,7 +413,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100009"/>
         <display value="Todesfall"/>
       </coding>
@@ -432,7 +432,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100010"/>
         <display value="Transport"/>
       </coding>
@@ -451,7 +451,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-resp/CodeSystem/ch-resp-IVR"/>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100011"/>
         <display value="Übergabe"/>
       </coding>

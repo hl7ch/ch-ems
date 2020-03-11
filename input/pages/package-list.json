@@ -1,21 +1,21 @@
 {
-  "package-id": "ch.fhir.ig.ch-resp",
-  "title": "CH-RESP (R4)",
+  "package-id": "ch.fhir.ig.ch-ems",
+  "title": "CH-EMS (R4)",
   "introduction": "Implementation guide for rescue protection protocol",
-  "canonical": "http://fhir.ch/ig/ch-resp",
+  "canonical": "http://fhir.ch/ig/ch-ems",
   "list": [
     {
       "version": "current",
       "date": "n/a",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "http://fhir.ch/ig/ch-resp/index.html",
+      "path": "http://fhir.ch/ig/ch-ems/index.html",
       "status": "ci-build"
     },
     {
       "version": "dev",
       "date": "n/a",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "http://build.fhir.org/ig/ch-resp/index.html",
+      "path": "http://build.fhir.org/ig/ch-ems/index.html",
       "status": "ci-build"
     }
   ]
