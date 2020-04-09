@@ -15,7 +15,7 @@
             <value value="https://www.ivr-ias.ch/"/>
         </telecom>
     </contact>
-    <description value="Definition of the composition for the use of the rescue protection protocol"/>
+    <description value="Definition of the composition for the use of the emergency medical service protocol"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -82,7 +82,7 @@
         </element>
         <element id="Composition.title">
             <path value="Composition.title"/>
-            <short value="'Einsatzprotokoll' or 'TODO' or 'TODO' or 'Emergency Service Protocol'"/>
+            <short value="'Einsatzprotokoll Rettungsdienst' or 'TODO' or 'TODO' or 'Emergency Medical Service protocol'"/>
         </element>
         <element id="Composition.custodian">
             <path value="Composition.custodian"/>

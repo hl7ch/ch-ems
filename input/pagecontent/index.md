@@ -1,11 +1,11 @@
 ### Introduction
-CH-EMS is a FHIR implementation guide for the use of the rescue protection protocol.
+CH-EMS is a FHIR implementation guide for the use of the emergency medical service protocol (EMS-protocol).
 
 
 ### Scope
-* [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatypes for the use of the rescue protection protocol
-* [Extensions](extensions.html) - are FHIR extensions that are added for the use of the rescue protection protocol
-* [Terminologies](terminology.html) - are defined or referenced code systems and value sets for the use of the rescue protection protocol 
+* [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatypes for the use of the emergency medical service protocol 
+* [Extensions](extensions.html) - are FHIR extensions that are added for the use of the emergency medical service protocol 
+* [Terminologies](terminology.html) - are defined or referenced code systems and value sets for the use of the emergency medical service protocol  
 
 
 ### Copyright

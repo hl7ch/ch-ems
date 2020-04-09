@@ -90,7 +90,7 @@
             <author>
                <reference value="PractitionerRole/1-Notarzt"/>
             </author>
-            <title value="Einsatzprotokoll"/>
+            <title value="Einsatzprotokoll Rettungsdienst"/>
             <confidentiality value="N">
                <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode">
                   <valueCodeableConcept>

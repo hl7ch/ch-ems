@@ -16,7 +16,7 @@
             <value value="https://www.ivr-ias.ch/"/>
         </telecom>
     </contact>
-    <description value="Definition of the document for the use of the rescue protection protocol"/>
+    <description value="Definition of the document for the use of the emergency medical service protocol"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
