@@ -3,7 +3,7 @@
     <id value="ch-ems-patient"/>
     <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
     <version value="0.1.0"/>
-    <name value="CHRespPatient"/>
+    <name value="CHEmsPatient"/>
     <title value="CH EMS Patient Profile"/>
     <status value="draft"/>
     <date value="2020-02-05T00:00:00+10:00"/>

@@ -3,7 +3,7 @@
     <id value="ch-ems-composition"/>
     <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition"/>
     <version value="0.1.0"/>
-    <name value="CHRespComposition"/>
+    <name value="CHEmsComposition"/>
     <title value="CH EMS Composition Profile"/>
     <status value="draft"/>
     <date value="2020-02-05T00:00:00+00:00"/>

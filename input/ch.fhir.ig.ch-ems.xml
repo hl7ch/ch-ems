@@ -5,12 +5,12 @@
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      ImplementationGuide for CH-EMS
+      Implementation Guide for CH-EMS
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-ems/ImplementationGuide/ch.fhir.ig.ch-ems"/>
   <version value="0.0.1"/>
-  <name value="CH_RESP"/>
+  <name value="CH_EMS"/>
   <title value="CH-EMS"/>
   <status value="active"/>
   <experimental value="false"/>

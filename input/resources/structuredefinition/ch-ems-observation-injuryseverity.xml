@@ -4,7 +4,7 @@
     <id value="ch-ems-observation-injuryseverity"/>
     <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-injuryseverity"/>
     <version value="0.1.0"/>
-    <name value="CHRespObservationInjurySeverity"/>
+    <name value="CHEmsObservationInjurySeverity"/>
     <title value="CH EMS Observation Profile Injury Severity"/>
     <status value="draft"/>
     <date value="2020-02-24T00:00:00+00:00"/>

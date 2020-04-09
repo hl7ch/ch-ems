@@ -4,7 +4,7 @@
     <id value="ch-ems-relatedperson"/>
     <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-relatedperson"/>
     <version value="0.1.0"/>
-    <name value="CHRespRelatedPerson"/>
+    <name value="CHEmsRelatedPerson"/>
     <title value="CH EMS Related Person Profile"/>
     <status value="draft"/>
     <date value="2020-02-18T00:00:00+00:00"/>

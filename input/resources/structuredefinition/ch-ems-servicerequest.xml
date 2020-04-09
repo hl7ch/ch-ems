@@ -4,7 +4,7 @@
     <id value="ch-ems-servicerequest"/>
     <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-servicerequest"/>
     <version value="0.1.0"/>
-    <name value="CHRespServiceRequest"/>
+    <name value="CHEmsServiceRequest"/>
     <title value="CH EMS Service Request Profile"/>
     <status value="draft"/>
     <date value="2020-02-24T00:00:00+00:00"/>

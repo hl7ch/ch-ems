@@ -4,7 +4,7 @@
     <id value="ch-ems-bundle"/>
     <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
     <version value="0.1.0"/>
-    <name value="CHRespBundle"/>
+    <name value="CHEmsBundle"/>
     <title value="CH EMS Bundle Profile"/>
     <status value="draft"/>
     <date value="2020-02-05T00:00:00+00:00"/>

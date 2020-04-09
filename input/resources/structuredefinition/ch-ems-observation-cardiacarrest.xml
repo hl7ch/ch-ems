@@ -4,7 +4,7 @@
     <id value="ch-ems-observation-cardiacarrest"/>
     <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-cardiacarrest"/>
     <version value="0.1.0"/>
-    <name value="CHRespObservationCardiacArrest"/>
+    <name value="CHEmsObservationCardiacArrest"/>
     <title value="CH EMS Observation Profile Cardiac Arrest"/>
     <status value="draft"/>
     <date value="2020-02-24T00:00:00+00:00"/>
