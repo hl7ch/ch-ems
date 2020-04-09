@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-roleMissionTime"/>
+   <id value="IVR-VS-roleMissionTime"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.22--20161023200525"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2016-10-23T20:05:25+01:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-roleMissionTime"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-roleMissionTime"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2016-10-23T20:05:25"/>
    <name value="IVRVSmissionTimeRole"/>
-   <title
-              
-               value="IVR valueset role mission time (.143.11.10)"/>
+   <title value="IVR valueset role mission time (.143.11.10)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>

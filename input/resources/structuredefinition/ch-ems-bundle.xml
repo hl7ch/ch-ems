@@ -27,7 +27,7 @@
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Bundle"/>
-    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-document"/>
+    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-document-epr"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Bundle">
@@ -60,11 +60,12 @@
                 </discriminator>
                 <rules value="open" />
             </slicing>
+            <min value="1"/>
+            <max value="1"/>
         </element>
         <element id="Bundle.entry:Composition">
             <path value="Bundle.entry" />
             <sliceName value="Composition" />
-            <short value="Composition" />
         </element>
         <element id="Bundle.entry:Composition.resource">
             <path value="Bundle.entry.resource" />

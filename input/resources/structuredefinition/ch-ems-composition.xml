@@ -26,16 +26,12 @@
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Composition"/>
-    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition"/>
+    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-epr"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Composition">
             <path value="Composition"/>
             <short value="CH EMS Composition"/>
-        </element>
-        <element id="Composition.status">
-            <path value="Composition.status"/>
-            <short value="preliminary | final | amended | entered-in-error"/>
         </element>
         <element id="Composition.type">
             <path value="Composition.type"/>
@@ -51,7 +47,6 @@
         <element id="Composition.subject">
             <path value="Composition.subject"/>
             <short value="A human patient for whom this document instance was created"/>
-            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
@@ -87,7 +82,6 @@
         <element id="Composition.custodian">
             <path value="Composition.custodian"/>
             <short value="Order recipient (called organization)"/>
-            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
@@ -95,7 +89,6 @@
         </element>
         <element id="Composition.custodian.reference">
             <path value="Composition.custodian.reference"/>
-            <min value="1"/>
         </element>
         <element id="Composition.section">
             <path value="Composition.section"/>

@@ -30,7 +30,7 @@
                </valueIdentifier>
             </extension>
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
-               <valueInteger value="1"/>
+               <unsignedInt value="1"/>
             </extension>
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient">
                <valueReference>
