@@ -12,7 +12,7 @@
     </valueIdentifier>
   </extension>
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
-    <unsignedInt value="1"/>
+    <valueUnsignedInt value="1"/>
   </extension>
   <!-- TBD: kann das CDA-Element in 2 FHIR-Elemente aufgeteilt werden? -->
   <!-- CDA: informationRecipient.intendedRecipient.informationRecipient -->

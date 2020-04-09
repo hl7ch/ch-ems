@@ -23,6 +23,7 @@
   </extension>
   <identifier>
     <!-- cdachems-dataelement-135 navs13 -->
+    <!-- Important: The AHV number must NOT be stored in the EPD -->
     <system value="urn:oid:2.16.756.5.32"/>
     <value value="7560123123499"/>
   </identifier>
@@ -48,7 +49,7 @@
     <!-- cdachems-dataelement-9 -->
     <given value="Peter">
       <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-firstname">
-        <valueCode value="officalFirstName"/>
+        <valueCode value="officialFirstName"/>
       </extension>
     </given>
   </name>

@@ -70,10 +70,12 @@
         <element id="Patient.identifier:AHVN13">
             <path value="Patient.identifier"/>
             <sliceName value="AHVN13"/>
-            <short value="AHVN13 / NAVS13"/>
+            <short value="Important: The AHV number must NOT be stored in the EPD"/>
             <patternIdentifier>
                 <system value="urn:oid:2.16.756.5.32" />
             </patternIdentifier>
+            <min value="0"/>
+            <max value="1"/>
         </element>
         <element id="Patient.identifier.value:AHVN13">
             <path value="Patient.identifier.value"/>
