@@ -6,8 +6,8 @@
     {% include list-profiles.xhtml %}
   </div>
 
-  <h3>Logical Model</h3>
+  <!--<h3>Logical Model</h3>
   <div>
     {% include list-simple-logicals.xhtml %}
-  </div>
+  </div>-->
 </div>

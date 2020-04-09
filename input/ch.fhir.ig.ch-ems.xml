@@ -5,7 +5,7 @@
   <text>
     <status value="additional"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-      Implementation Guide for CH-EMS
+      Implementation Guide for the Emergency Medical Service protocol
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-ems/ImplementationGuide/ch.fhir.ig.ch-ems"/>
@@ -382,12 +382,6 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-ems-coverage"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/ch-ems-emergencyserviceprotocol"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
