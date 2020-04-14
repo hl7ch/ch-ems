@@ -517,21 +517,20 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-
+  
+    <!-- References to value sets -->
     <resource>
       <reference>
         <reference value="ValueSet/IVR-VS-preTreatmentType"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-
     <resource>
       <reference>
         <reference value="ValueSet/IVR-VS-roleTeam"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-
     <resource>
       <reference>
         <reference value="ValueSet/IVR-VS-roleMissionTime"/>
@@ -550,42 +549,38 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-
     <resource>
       <reference>
         <reference value="ValueSet/IVR-VS-findingsAirway"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-
     <resource>
       <reference>
         <reference value="ValueSet/IVR-VS-naca"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-
     <resource>
       <reference>
         <reference value="ValueSet/IVR-VS-priorityHospital"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-
     <resource>
       <reference>
         <reference value="ValueSet/IVR-VS-preTreatment"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-
     <resource>
       <reference>
         <reference value="ValueSet/IVR-VS-result"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
-    <!-- pages, parameters -->
+
+    <!-- pages -->
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
@@ -593,6 +588,21 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="document.html"/>
+        <title value="Emergency Medical Service protocol"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="usecase-german.html"/>
+        <title value="Anwendungsfälle"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="usecase-french.html"/>
+        <title value="Cas d’application"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -611,6 +621,8 @@
         <generation value="html"/>
       </page>
     </page>
+
+    <!-- parameters -->
     <parameter>
       <code value="releaselabel"/>
       <value value="CI build"/>
