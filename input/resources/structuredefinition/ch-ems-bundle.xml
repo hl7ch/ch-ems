@@ -24,6 +24,11 @@
         </coding>
     </jurisdiction>
     <fhirVersion value="4.0.1"/>
+    <mapping>
+        <identity value="CDA-CH-RESP"/>
+        <uri value="http://e-health-wiki.ch/index.php/Ehscda:CDA-CH-RESP_(specification)"/>
+        <name value="CDA-CH-RESP"/>
+    </mapping>
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Bundle"/>
@@ -33,15 +38,27 @@
         <element id="Bundle">
             <path value="Bundle"/>
             <short value="CH EMS Document"/>
+            <mapping>
+                <identity value="CDA-CH-RESP"/>
+                <map value="https://art-decor.org/art-decor/decor-templates--cdachresp-?section=templates"/>
+            </mapping>
         </element>
         <element id="Bundle.identifier">
             <path value="Bundle.identifier"/>
+            <mapping>
+                <identity value="CDA-CH-RESP"/>
+                <map value="hl7:id (1..1)"/>
+            </mapping>
         </element>
         <element id="Bundle.identifier.system">
             <path value="Bundle.identifier.system"/>
         </element>
         <element id="Bundle.identifier.value">
             <path value="Bundle.identifier.value"/>
+            <mapping>
+                <identity value="CDA-CH-RESP"/>
+                <map value="@ root (1..1)"/>
+            </mapping>
         </element>
         <element id="Bundle.type">
             <path value="Bundle.type" />
@@ -50,6 +67,10 @@
         </element>
         <element id="Bundle.timestamp">
             <path value="Bundle.timestamp" />
+            <mapping>
+                <identity value="CDA-CH-RESP"/>
+                <map value="hl7:effectiveTime (1..1)"/>
+            </mapping>
         </element>
         <element id="Bundle.entry">
             <path value="Bundle.entry" />
