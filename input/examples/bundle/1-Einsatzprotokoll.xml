@@ -361,10 +361,13 @@ Schmerz 5
                      </table>
                   </div>
                </text>
-               <!-- cdachems-dataelement-108 GCS -->
-               <entry>
-                  <reference value="Observation/1-GCSBefund"/>
-               </entry>
+               <section>
+                  <title value="Disability"/>
+                  <!-- cdachems-dataelement-108 GCS -->
+                  <entry>
+                     <reference value="Observation/1-GCSBefund"/>
+                  </entry>
+               </section>
             </section>
             <!-- Section Diagnosen -->
             <section>

@@ -384,8 +384,94 @@
             <min value="1"/>
             <max value="1"/>
         </element>
-        <element id="Composition.section:findings.entry">
-            <path value="Composition.section.entry"/>
+        <!-- Nested Sections (Findings) -->
+        <element id="Composition.section:findings.section">
+            <path value="Composition.section.section"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="title"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <!-- Nested Section (Findings): Section Airway -->
+        <element id="Composition.section:findings.section:airway">
+            <path value="Composition.section.section"/>
+            <sliceName value="airway"/>
+            <short value="Airway"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section:findings.section:airway.title">
+            <path value="Composition.section.section.title"/>
+            <min value="1"/>
+            <fixedString value="Airway"/>
+        </element>
+        <element id="Composition.section:findings.section:airway:entry">
+            <path value="Composition.section.section.entry"/>
+            <short value="Observation Airways"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-airways"/>
+            </type>
+        </element>
+        <element id="Composition.section:findings.section:airway.entry.reference">
+            <path value="Composition.section.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:findings.section:airway">
+            <path value="Composition.section.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
+        </element>
+        <!-- Nested Section (Findings): Section Circulation -->
+        <element id="Composition.section:findings.section:circulation">
+            <path value="Composition.section.section"/>
+            <sliceName value="circulation"/>
+            <short value="Circulation"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section:findings.section:circulation.title">
+            <path value="Composition.section.section.title"/>
+            <min value="1"/>
+            <fixedString value="Circulation"/>
+        </element>
+        <element id="Composition.section:findings.section:circulation.entry">
+            <path value="Composition.section.section.entry"/>
+            <short value="Observation Cardiac Arrest"/>
+            <max value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-cardiacarrest"/>
+            </type>
+        </element>
+        <element id="Composition.section:findings.section:circulation.entry.reference">
+            <path value="Composition.section.section.entry.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="Composition.section:findings.section:circulation">
+            <path value="Composition.section.section.section"/>
+            <min value="0"/>
+            <max value="0"/>
+        </element>
+        <!-- Nested Section (Findings): Section Disability -->
+        <element id="Composition.section:findings.section:disability">
+            <path value="Composition.section.section"/>
+            <sliceName value="disability"/>
+            <short value="Disability"/>
+            <min value="0"/>
+            <max value="1"/>
+        </element>
+        <element id="Composition.section:findings.section:disability.title">
+            <path value="Composition.section.section.title"/>
+            <min value="1"/>
+            <fixedString value="Disability"/>
+        </element>
+        <element id="Composition.section:findings.section:disability.entry">
+            <path value="Composition.section.section.entry"/>
             <slicing>
                 <discriminator>
                     <type value="profile"/>
@@ -394,8 +480,8 @@
                 <rules value="open"/>
             </slicing>
         </element>
-        <element id="Composition.section:findings.entry:glasgowComaScale">
-            <path value="Composition.section.entry"/>
+        <element id="Composition.section:findings.section:disability.entry:glasgowComaScale">
+            <path value="Composition.section.section.entry"/>
             <sliceName value="glasgowComaScale"/>
             <short value="Glasgow coma scale"/>
             <max value="1"/>
@@ -404,12 +490,12 @@
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-glasgowcomascale"/>
             </type>
         </element>
-        <element id="Composition.section:findings.entry:glasgowComaScale.reference">
-            <path value="Composition.section.entry.reference"/>
+        <element id="Composition.section:findings.section:disability.entry:glasgowComaScale.reference">
+            <path value="Composition.section.section.entry.reference"/>
             <min value="1"/>
         </element>
-        <element id="Composition.section:findings.entry:levelOfResponsiveness">
-            <path value="Composition.section.entry"/>
+        <element id="Composition.section:findings.section:disability.entry:levelOfResponsiveness">
+            <path value="Composition.section.section.entry"/>
             <sliceName value="levelOfResponsiveness"/>
             <short value="Level of Responsiveness (AVPU)"/>
             <max value="1"/>
@@ -418,40 +504,12 @@
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-levelofresponsiveness"/>
             </type>
         </element>
-        <element id="Composition.section:findings.entry:levelOfResponsiveness.reference">
-            <path value="Composition.section.entry.reference"/>
+        <element id="Composition.section:findings.section:disability.entry:levelOfResponsiveness.reference">
+            <path value="Composition.section.section.entry.reference"/>
             <min value="1"/>
         </element>
-        <element id="Composition.section:findings.entry:observationAirways">
-            <path value="Composition.section.entry"/>
-            <sliceName value="observationAirways"/>
-            <short value="Observation Airways"/>
-            <max value="1"/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-airways"/>
-            </type>
-        </element>
-        <element id="Composition.section:findings.entry:observationAirways.reference">
-            <path value="Composition.section.entry.reference"/>
-            <min value="1"/>
-        </element>
-        <element id="Composition.section:findings.entry:observationCardiacArrest">
-            <path value="Composition.section.entry"/>
-            <sliceName value="observationCardiacArrest"/>
-            <short value="Observation Cardiac Arrest"/>
-            <max value="1"/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-cardiacarrest"/>
-            </type>
-        </element>
-        <element id="Composition.section:findings.entry:observationCardiacArrest.reference">
-            <path value="Composition.section.entry.reference"/>
-            <min value="1"/>
-        </element>
-        <element id="Composition.section:findings.entry:observationStroke">
-            <path value="Composition.section.entry"/>
+        <element id="Composition.section:findings.section:disability.entry:observationStroke">
+            <path value="Composition.section.section.entry"/>
             <sliceName value="observationStroke"/>
             <short value="Stroke / FAST"/>
             <max value="1"/>
@@ -460,12 +518,12 @@
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-stroke"/>
             </type>
         </element>
-        <element id="Composition.section:findings.entry:observationStroke.reference">
-            <path value="Composition.section.entry.reference"/>
+        <element id="Composition.section:findings.section:disability.entry:observationStroke.reference">
+            <path value="Composition.section.section.entry.reference"/>
             <min value="1"/>
         </element>
-        <element id="Composition.section.section:findings">
-            <path value="Composition.section.section"/>
+        <element id="Composition.section:findings.section:disability">
+            <path value="Composition.section.section.section"/>
             <min value="0"/>
             <max value="0"/>
         </element>
