@@ -47,14 +47,14 @@
             <path value="Patient.extension"/>
             <sliceName value="placeOfOrigin"/>
             <short value="Place of origin of patient"/>
-            <min value="1"/>
+            <min value="0"/>
             <max value="1"/>
         </element>
         <element id="Patient.extension:citizenship">
             <path value="Patient.extension" />
             <sliceName value="citizenship" />
             <short value="Citizenship of patient"/>
-            <min value="1"/>
+            <min value="0"/>
             <max value="1"/>
         </element>
         <element id="Patient.identifier">
@@ -70,7 +70,7 @@
         <element id="Patient.identifier:AHVN13">
             <path value="Patient.identifier"/>
             <sliceName value="AHVN13"/>
-            <short value="Important: The AHV number must NOT be stored in the EPD"/>
+            <short value="Important: The AHV number must NOT be stored in the EPR"/>
             <patternIdentifier>
                 <system value="urn:oid:2.16.756.5.32" />
             </patternIdentifier>
@@ -108,15 +108,6 @@
             <min value="1"/>
             <max value="1"/>
         </element>
-        <element id="Patient.name.family">
-            <path value="Patient.name.family"/>
-            <min value="1"/>
-        </element>
-        <element id="Patient.name.given">
-            <path value="Patient.name.given"/>
-            <min value="1"/>
-            <max value="1"/>
-        </element>
         <element id="Patient.gender">
             <path value="Patient.gender"/>
             <short value="male | female | other"/>
@@ -130,6 +121,48 @@
             <path value="Patient.birthDate"/>
             <short value="The date of birth for the individual"/>
             <min value="1"/>
+        </element>
+        <element id="Patient.address">
+            <path value="Patient.address"/>
+            <short value="Address of the patient"/>
+        </element>
+        <element id="Patient.contact">
+            <path value="Patient.contact"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="relationship"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
+        </element>
+        <element id="Patient.contact:involvedParticipant">
+            <path value="Patient.contact"/>
+            <sliceName value="involvedParticipant"/>
+            <short value="Involved Participant (Person / Organization)"/>
+            <min value="0"/>
+            <max value="*"/>
+        </element>
+        <element id="Patient.contact.relationship:involvedParticipant">
+            <path value="Patient.contact.relationship"/>
+            <short value="Role of the involved participant"/>
+            <min value="0"/>
+            <max value="1"/>
+            <binding>
+                <strength value="required"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-role"/>
+            </binding>
+        </element>
+        <element id="Patient.contact.name:involvedParticipant">
+            <path value="Patient.contact.name"/>
+            <short value="Name of the involved participant"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="HumanName"/>
+                <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-humanname" />
+            </type>
         </element>
     </differential>
 </StructureDefinition>

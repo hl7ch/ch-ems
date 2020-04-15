@@ -249,9 +249,6 @@
                      </table>
                   </div>
                </text>
-               <entry>
-                  <reference value="RelatedPerson/1-Ehefrau"/>
-               </entry>
             </section>
             <!-- Section Vorbehandlung -->
             <section>
@@ -846,7 +843,7 @@ Schmerz 5
             </extension>
             <identifier>
                <!-- cdachems-dataelement-135 navs13 -->
-               <!-- Important: The AHV number must NOT be stored in the EPD -->
+               <!-- Important: The AHV number must NOT be stored in the EPR -->
                <system value="urn:oid:2.16.756.5.32"/>
                <value value="7560123123499"/>
             </identifier>
@@ -888,6 +885,20 @@ Schmerz 5
                <postalCode value="8003"/>
                <country value="CH"/>
             </address>
+            <contact>
+               <relationship>
+                  <coding>
+                     <system value="http://snomed.info/sct"/>
+                     <code value="74964007"/>
+                     <display value="Other"/>
+                  </coding>
+                  <text value="Ehefrau"/>
+               </relationship>
+               <name>
+                  <family value="Muster"/>
+                  <given value="Erika"/>
+               </name>
+            </contact>
          </Patient>
       </resource>
    </entry>
@@ -1017,34 +1028,6 @@ Schmerz 5
                </coding>
             </code>
          </PractitionerRole>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/RelatedPerson/1-Ehefrau"/>
-      <resource>
-         <RelatedPerson xmlns="http://hl7.org/fhir">
-            <id value="1-Ehefrau"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:20:20.451+00:00"/>
-               <source value="#1GumoZ78cncoMUSp"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-relatedperson"/>
-            </meta>
-            <patient>
-               <reference value="Patient/1-PeterMuster"/>
-            </patient>
-            <relationship>
-               <coding>
-                  <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
-                  <code value="WIFE"/>
-                  <display value="wife"/>
-               </coding>
-            </relationship>
-            <name>
-               <family value="Muster"/>
-               <given value="Erika"/>
-            </name>
-         </RelatedPerson>
       </resource>
    </entry>
    <entry>

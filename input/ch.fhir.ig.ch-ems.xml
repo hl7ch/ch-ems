@@ -351,14 +351,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="RelatedPerson/1-Ehefrau"/>
-      </reference>
-      <name value="1 Ehefrau"/>
-      <description value="Example for RelatedPerson"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-relatedperson"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="ServiceRequest/1-AufbietendeOrganisation"/>
       </reference>
       <name value="1 Aufbietende Organisation"/>
@@ -502,12 +494,6 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-ems-procedure"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/ch-ems-relatedperson"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

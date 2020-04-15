@@ -23,7 +23,7 @@
   </extension>
   <identifier>
     <!-- cdachems-dataelement-135 navs13 -->
-    <!-- Important: The AHV number must NOT be stored in the EPD -->
+    <!-- Important: The AHV number must NOT be stored in the EPR -->
     <system value="urn:oid:2.16.756.5.32"/>
     <value value="7560123123499"/>
   </identifier>
@@ -65,4 +65,18 @@
     <postalCode value="8003"/>
     <country value="CH"/>
   </address>
+  <contact>
+    <relationship>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="74964007"/>
+        <display value="Other"/>
+      </coding>
+      <text value="Ehefrau"/>
+    </relationship>
+    <name>
+      <family value="Muster"/>
+      <given value="Erika"/>
+    </name>
+  </contact>
 </Patient>
