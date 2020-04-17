@@ -532,7 +532,7 @@ Schmerz 5
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:12:08.023+00:00"/>
                <source value="#0W71ScJwy3XHir1R"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-glasgowcomascale"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-gcs"/>
             </meta>
             <status value="final"/>
             <code>
@@ -606,7 +606,7 @@ Schmerz 5
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:12:15.211+00:00"/>
                <source value="#DNvm0RDmel3dLsjF"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-injuryseverity"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-naca"/>
             </meta>
             <status value="final"/>
             <code>
@@ -1257,7 +1257,7 @@ Schmerz 5
                <versionId value="2"/>
                <lastUpdated value="2020-02-28T06:12:02.942+00:00"/>
                <source value="#um4fL0hfBUbxJcNy"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-glasgowcomascale"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-gcs"/>
             </meta>
             <status value="final"/>
             <code>

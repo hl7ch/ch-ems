@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-ems-observation-injuryseverity"/>
-    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-injuryseverity"/>
+    <id value="ch-ems-observation-stroke-fast"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-stroke-fast"/>
     <version value="0.1.0"/>
-    <name value="CHEmsObservationInjurySeverity"/>
-    <title value="CH EMS Observation Profile Injury Severity"/>
+    <name value="CHEmsObservationStrokeFAST"/>
+    <title value="CH EMS Observation Profile Stroke/FAST"/>
     <status value="draft"/>
     <date value="2020-02-24T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
@@ -16,7 +16,7 @@
             <value value="https://www.ivr-ias.ch/"/>
         </telecom>
     </contact>
-    <description value="Definition of the observation injury severity"/>
+    <description value="Definition of the observation Stroke/FAST"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -39,24 +39,22 @@
         </element>
         <element id="Observation.code">
             <path value="Observation.code"/>
-            <short value="Injury severity score NACA"/>
+            <short value="Stroke / FAST"/>
             <patternCodeableConcept>
                 <coding>
+                    <!-- TBD -->
                     <system value="http://loinc.org"/>
-                    <code value="88076-5"/>
-                    <display value="Injury severity score NACA"/>
+                    <code value="70182-1"/>
+                    <display value="NIH Stroke Scale"/>
                 </coding>
             </patternCodeableConcept>
         </element>
         <element id="Observation.effectiveDateTime">
             <path value="Observation.effectiveDateTime"/>
         </element>
-        <element id="Observation.valueCodeableConcept">
-            <path value="Observation.valueCodeableConcept"/>
-            <binding>
-                <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-naca"/>
-            </binding>
+        <!-- TBD -->
+        <element id="Observation.value[x]">
+            <path value="Observation.value[x]"/>
         </element>
     </differential>
 </StructureDefinition>

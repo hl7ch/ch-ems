@@ -2,7 +2,7 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="1-NACAUebergabe"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-injuryseverity"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-naca"/>
     </meta>
     <status value="final"/>
     <code>

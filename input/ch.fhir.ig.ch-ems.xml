@@ -163,7 +163,7 @@
       </reference>
       <name value="1 GCS Befund"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-glasgowcomascale"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-gcs"/>
     </resource>
     <resource>
       <reference>
@@ -171,7 +171,7 @@
       </reference>
       <name value="1 GCS Uebergabe"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-glasgowcomascale"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-gcs"/>
     </resource>
     <resource>
       <reference>
@@ -179,7 +179,7 @@
       </reference>
       <name value="1 NACA Uebergabe"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-injuryseverity"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-naca"/>
     </resource>
     <resource>
       <reference>
@@ -219,7 +219,7 @@
       </reference>
       <name value="AVPU Befund"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-levelofresponsiveness"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-avpu"/>
     </resource>
     <resource>
       <reference>
@@ -243,7 +243,7 @@
       </reference>
       <name value="Stroke Befund"/>
       <description value="Example for Observation"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-stroke"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-stroke-fast"/>
     </resource>
     <resource>
       <reference>
@@ -433,19 +433,19 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-ems-observation-glasgowcomascale"/>
+        <reference value="StructureDefinition/ch-ems-observation-gcs"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-ems-observation-injuryseverity"/>
+        <reference value="StructureDefinition/ch-ems-observation-naca"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-ems-observation-levelofresponsiveness"/>
+        <reference value="StructureDefinition/ch-ems-observation-avpu"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -463,7 +463,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-ems-observation-stroke"/>
+        <reference value="StructureDefinition/ch-ems-observation-stroke-fast"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

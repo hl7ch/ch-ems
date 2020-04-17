@@ -2,7 +2,7 @@
 <Observation xmlns="http://hl7.org/fhir">
     <id value="StrokeBefund"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-stroke"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-stroke-fast"/>
     </meta>
     <status value="final"/>
     <code>
