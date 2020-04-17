@@ -788,6 +788,20 @@
             <path value="Composition.section.entry.reference"/>
             <min value="1"/>
         </element>
+        <element id="Composition.section:handover.entry:handoverTo">
+            <path value="Composition.section.entry"/>
+            <sliceName value="handoverTo"/>
+            <short value="Handover patient to oranisation/practitioner"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+            </type>
+        </element>
+        <element id="Composition.section:handover.entry:handoverTo.reference">
+            <path value="Composition.section.entry.reference"/>
+            <min value="1"/>
+        </element>
         <element id="Composition.section.section:handover">
             <path value="Composition.section.section"/>
             <min value="0"/>
