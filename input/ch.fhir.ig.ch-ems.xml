@@ -282,16 +282,16 @@
         <reference value="Practitioner/1-BetreuerHansBeispiel"/>
       </reference>
       <name value="1 Betreuer Hans Beispiel"/>
-      <description value="Example for Practitioner"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+      <description value="Example for Practitioner with GLN"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
     </resource>
     <resource>
       <reference>
         <reference value="Practitioner/1-BetreuerPetraMuster"/>
       </reference>
       <name value="1 Betreuer PetraMuster"/>
-      <description value="Example for Practitioner"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+      <description value="Example for Practitioner with GLN"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
     </resource>
     <resource>
       <reference>
@@ -306,24 +306,24 @@
         <reference value="Practitioner/1-Notarzt"/>
       </reference>
       <name value="1 Notarzt"/>
-      <description value="Example for Practitioner"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+      <description value="Example for Practitioner with GLN"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
     </resource>
     <resource>
       <reference>
         <reference value="Practitioner/1-NotarztHansNotarzt"/>
       </reference>
       <name value="1 Notarzt Hans Notarzt"/>
-      <description value="Example for Practitioner"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+      <description value="Example for Practitioner with GLN"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
     </resource>
     <resource>
       <reference>
         <reference value="Practitioner/1-Rettungssanitaeterin"/>
       </reference>
       <name value="1 Rettungssanitaeterin"/>
-      <description value="Example for Practitioner"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+      <description value="Example for Practitioner with GLN"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
     </resource>
     <resource>
       <reference>
@@ -476,6 +476,12 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-ems-patient"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/ch-ems-practitioner-gln"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

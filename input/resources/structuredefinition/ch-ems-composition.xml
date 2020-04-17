@@ -77,7 +77,7 @@
             <short value="The author of this document"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitionerrole"/>
                 <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
