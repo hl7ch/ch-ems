@@ -23,11 +23,6 @@
         </coding>
     </jurisdiction>
     <fhirVersion value="4.0.1"/>
-    <mapping>
-        <identity value="CDA-CH-RESP"/>
-        <uri value="http://e-health-wiki.ch/index.php/Ehscda:CDA-CH-RESP_(specification)"/>
-        <name value="CDA-CH-RESP"/>
-    </mapping>
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Composition"/>
@@ -37,10 +32,6 @@
         <element id="Composition">
             <path value="Composition"/>
             <short value="CH EMS Composition"/>
-            <mapping>
-                <identity value="CDA-CH-RESP"/>
-                <map value="https://art-decor.org/art-decor/decor-templates--cdachresp-?section=templates"/>
-            </mapping>
         </element>
         <element id="Composition.type">
             <path value="Composition.type"/>
@@ -60,10 +51,6 @@
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
             </type>
-            <mapping>
-                <identity value="CDA-CH-RESP"/>
-                <map value="hl7:recordTarget (1..1)"/>
-            </mapping>
         </element>
         <element id="Composition.subject.reference">
             <path value="Composition.subject.reference"/>
