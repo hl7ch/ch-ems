@@ -706,7 +706,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-preTreatType" />
+        <reference value="ValueSet/IVR-VS-preTreatmentType" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
