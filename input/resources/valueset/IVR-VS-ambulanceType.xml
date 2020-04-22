@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-ambulanceType"/>
+   <id value="IVR-VS-ambulanceType"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.33--20170107105258"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2017-01-07T10:52:58+02:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-ambulanceType"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-ambulanceType"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2017-01-07T10:52:58"/>
    <name value="IVRVSambulanceType"/>
-   <title
-              
-               value="IVR Valueset ambulance type (143.11.28)"/>
+   <title value="IVR Valueset ambulance type (143.11.28)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -77,7 +71,7 @@
          </concept>
          <concept>
             <code value="73957001"/>
-            <display value=" Air transport ambulance"/>
+            <display value="Air transport ambulance"/>
             <designation>
                <language value="de-CH"/>
                <value value="Ambulanz-Jet"/>

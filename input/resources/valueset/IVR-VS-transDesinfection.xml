@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-transDesinfection"/>
+   <id value="IVR-VS-transDesinfection"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.54--20160724190014"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2016-07-24T19:00:14+02:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-transDesinfection"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-transDesinfection"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2016-07-24T19:00:14"/>
    <name value="Ech0207transDesinfection"/>
-   <title
-              
-               value="IVR valueset unit desinfection"/>
+   <title value="IVR valueset unit desinfection"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>

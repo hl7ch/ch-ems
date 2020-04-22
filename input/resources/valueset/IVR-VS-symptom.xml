@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-symptom"/>
+   <id value="IVR-VS-symptom"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.41--20170408105643"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2017-04-08T10:56:43+02:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-symptom"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-symptom"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2017-04-08T10:56:43"/>
    <name value="IVRVSsymptom"/>
-   <title
-              
-               value="IVR valueset symptom (.143.11.38)"/>
+   <title value="IVR valueset symptom (.143.11.38)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -45,7 +39,7 @@
          </concept>
          <concept>
             <code value="267036007"/>
-            <display value="Dyspnea "/>
+            <display value="Dyspnea"/>
             <designation>
                <language value="de-CH"/>
                <value value="Atemnot"/>
@@ -53,7 +47,7 @@
          </concept>
          <concept>
             <code value="418107008"/>
-            <display value=" Unconsciousness "/>
+            <display value=" Unconsciousness"/>
             <designation>
                <language value="de-CH"/>
                <value value="Bewusstseinsstörung"/>
@@ -61,7 +55,7 @@
          </concept>
          <concept>
             <code value="131148009"/>
-            <display value="Bleeding "/>
+            <display value="Bleeding"/>
             <designation>
                <language value="de-CH"/>
                <value value="Blutung"/>
@@ -69,7 +63,7 @@
          </concept>
          <concept>
             <code value="62315008"/>
-            <display value="Diarrhea "/>
+            <display value="Diarrhea"/>
             <designation>
                <language value="de-CH"/>
                <value value="Durchfall"/>
@@ -77,7 +71,7 @@
          </concept>
          <concept>
             <code value="422400008"/>
-            <display value="Vomiting "/>
+            <display value="Vomiting"/>
             <designation>
                <language value="de-CH"/>
                <value value="Erbrechen"/>
@@ -85,7 +79,7 @@
          </concept>
          <concept>
             <code value="386661006"/>
-            <display value="Fever "/>
+            <display value="Fever"/>
             <designation>
                <language value="de-CH"/>
                <value value="Fieber"/>
@@ -113,7 +107,7 @@
          </concept>
          <concept>
             <code value="91175000"/>
-            <display value="Seizure "/>
+            <display value="Seizure"/>
             <designation>
                <language value="de-CH"/>
                <value value="Krampfanfall"/>
@@ -121,7 +115,7 @@
          </concept>
          <concept>
             <code value="44695005"/>
-            <display value="Paralysis "/>
+            <display value="Paralysis"/>
             <designation>
                <language value="de-CH"/>
                <value value="Lähmung"/>
@@ -129,7 +123,7 @@
          </concept>
          <concept>
             <code value="80313002"/>
-            <display value="Palpitations "/>
+            <display value="Palpitations"/>
             <designation>
                <language value="de-CH"/>
                <value value="Palpitation"/>
@@ -141,7 +135,7 @@
          </concept>
          <concept>
             <code value="21522001"/>
-            <display value="Abdominal pain "/>
+            <display value="Abdominal pain"/>
             <designation>
                <language value="de-CH"/>
                <value value="Bauchschmerzen"/>
@@ -149,7 +143,7 @@
          </concept>
          <concept>
             <code value="29857009"/>
-            <display value="Chest pain "/>
+            <display value="Chest pain"/>
             <designation>
                <language value="de-CH"/>
                <value value="Brustschmerzen"/>
@@ -157,7 +151,7 @@
          </concept>
          <concept>
             <code value="162397003"/>
-            <display value="Pain in throat "/>
+            <display value="Pain in throat"/>
             <designation>
                <language value="de-CH"/>
                <value value="Halsschmerzen"/>
@@ -165,7 +159,7 @@
          </concept>
          <concept>
             <code value="25064002"/>
-            <display value="Headache "/>
+            <display value="Headache"/>
             <designation>
                <language value="de-CH"/>
                <value value="Kopfschmerzen"/>
@@ -173,7 +167,7 @@
          </concept>
          <concept>
             <code value="16001004"/>
-            <display value="Otalgia "/>
+            <display value="Otalgia"/>
             <designation>
                <language value="de-CH"/>
                <value value="Ohrenschmerzen"/>
@@ -181,7 +175,7 @@
          </concept>
          <concept>
             <code value="161891005"/>
-            <display value="Backache "/>
+            <display value="Backache"/>
             <designation>
                <language value="de-CH"/>
                <value value="Rückenschmerzen"/>
@@ -189,7 +183,7 @@
          </concept>
          <concept>
             <code value="27355003"/>
-            <display value="Toothache "/>
+            <display value="Toothache"/>
             <designation>
                <language value="de-CH"/>
                <value value="Zahnschmerzen"/>
@@ -197,7 +191,7 @@
          </concept>
          <concept>
             <code value="399153001"/>
-            <display value="Vertigo "/>
+            <display value="Vertigo"/>
             <designation>
                <language value="de-CH"/>
                <value value="Schwindel"/>
@@ -221,7 +215,7 @@
          </concept>
          <concept>
             <code value="422587007"/>
-            <display value=" Nausea "/>
+            <display value=" Nausea"/>
             <designation>
                <language value="de-CH"/>
                <value value="Übelkeit"/>
@@ -229,7 +223,7 @@
          </concept>
          <concept>
             <code value="22253000"/>
-            <display value="Pain "/>
+            <display value="Pain"/>
             <designation>
                <language value="de-CH"/>
                <value value="Schmerzen"/>

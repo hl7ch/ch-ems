@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-diagType"/>
+   <id value="IVR-VS-diagType"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.24--20161113161032"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2016-11-13T16:10:32+02:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagType"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagType"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2016-11-13T16:10:32"/>
    <name value="IVRVSdiagType"/>
-   <title
-              
-               value="IVR valueset diagnosis type (.143.11.16)"/>
+   <title value="IVR valueset diagnosis type (.143.11.16)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>

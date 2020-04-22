@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-valTxpe"/>
+   <id value="IVR-VS-valTxpe"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.37--20170107121218"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2017-01-07T12:12:18+02:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-valTxpe"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-valTxpe"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2017-01-07T12:12:18"/>
    <name value="IVRVSvalTxpe"/>
-   <title
-              
-               value="IVR valueset valuables type (.143.11.33)"/>
+   <title value="IVR valueset valuables type (.143.11.33)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>

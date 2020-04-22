@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-violenceResult"/>
+   <id value="IVR-VS-violenceResult"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.31--20161231110842"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2016-12-31T11:08:42+02:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceResult"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceResult"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2016-12-31T11:08:42"/>
    <name value="IVRVSviolenceResult"/>
-   <title
-              
-               value="IVR valueset result of violence (.143.11.26)"/>
+   <title value="IVR valueset result of violence (.143.11.26)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>

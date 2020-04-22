@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-hospitalPriority"/>
+   <id value="IVR-VS-hospitalPriority"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.55--20170620210936"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2017-06-20T21:09:36+02:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-hospitalPriority"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-hospitalPriority"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2017-06-20T21:09:36"/>
    <name value="ECH0207:hospitalPriority"/>
-   <title
-              
-               value="IVR valueset priority hospital"/>
+   <title value="IVR valueset priority hospital"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>

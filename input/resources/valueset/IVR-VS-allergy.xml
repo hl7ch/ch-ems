@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-allergy"/>
+   <id value="IVR-VS-allergy"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.19--20161008121129"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2016-10-08T12:11:29+02:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-allergy"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-allergy"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2016-10-08T12:11:29"/>
    <name value="IVRVSallergy"/>
-   <title
-              
-               value="IVR valueset allergy (.143.11.7)"/>
+   <title value="IVR valueset allergy (.143.11.7)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -37,7 +31,7 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="390952000"/>
-            <display value=" Dust allergy"/>
+            <display value="Dust allergy"/>
             <designation>
                <language value="de-CH"/>
                <value value="Allergie auf Hausstaub"/>

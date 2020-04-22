@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-gcs-augenoeffnung"/>
+   <id value="IVR-VS-gcs-augenoeffnung"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.14--20160730115400"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2016-07-30T11:54:00+02:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcs-augenoeffnung"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcs-augenoeffnung"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2016-07-30T11:54:00"/>
    <name value="GCS_Augenöffnung"/>
-   <title
-              
-               value="IVR valueset GCS Augenoeffnung (143.11.34)"/>
+   <title value="IVR valueset GCS Augenoeffnung (143.11.34)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>

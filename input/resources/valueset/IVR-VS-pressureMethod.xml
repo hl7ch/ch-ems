@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id
-           
-            value="IVR-VS-pressureMethod"/>
+   <id value="IVR-VS-pressureMethod"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.62--20170813004655"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -13,9 +11,7 @@
          <start value="2017-08-13T00:46:55+02:00"/>
       </valuePeriod>
    </extension>
-   <url
-            
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pressureMethod"/>
+   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pressureMethod"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -23,9 +19,7 @@
    </identifier>
    <version value="2017-08-13T00:46:55"/>
    <name value="IVRVSpressureMethod"/>
-   <title
-              
-               value="IVR valueset blood pressure method (.143.11.47)"/>
+   <title value="IVR valueset blood pressure method (.143.11.47)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
