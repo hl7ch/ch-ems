@@ -15,7 +15,7 @@
     <!-- cdachems-dataelement-23 NACA-->
     <valueCodeableConcept>
         <coding>
-            <system value="urn:oid:1.2.276.0.76.5.82"/>
+            <system value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-naca"/>
             <code value="III"/>
             <display value="mässige bis schwere Störung"/>
         </coding>

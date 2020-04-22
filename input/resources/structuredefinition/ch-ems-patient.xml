@@ -151,7 +151,7 @@
             <max value="1"/>
             <binding>
                 <strength value="required"/>
-                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-role"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-personRole"/>
             </binding>
         </element>
         <element id="Patient.contact.name:involvedParticipant">
