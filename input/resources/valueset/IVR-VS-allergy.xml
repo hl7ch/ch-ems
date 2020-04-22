@@ -2,105 +2,120 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id
            
-            value="IVR-VS-findingsAirway"/>
+            value="IVR-VS-allergy"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.42--20170408114356"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.19--20161008121129"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2017-04-08T11:43:56+02:00"/>
+         <start value="2016-10-08T12:11:29+02:00"/>
       </valuePeriod>
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-findingsAirway"/>
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-allergy"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.1.11.42"/>
+      <value value="2.16.756.5.30.1.1.11.19"/>
    </identifier>
-   <version value="2017-04-08T11:43:56"/>
-   <name value="IVRVSfindingsAirway"/>
+   <version value="2016-10-08T12:11:29"/>
+   <name value="IVRVSallergy"/>
    <title
               
-               value="IVR valueset findings airway (.143.11.39)"/>
+               value="IVR valueset allergy (.143.11.7)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
-   <description value="IVR valueset findings airway (.143.11.39)"/>
+   <description value="IVR valueset allergy (.143.11.7)"/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
       <include>
          <system value="http://snomed.info/sct"/>
          <concept>
-            <code value="23875004"/>
-            <display value="No pathologic finding"/>
+            <code value="390952000"/>
+            <display value=" Dust allergy"/>
             <designation>
                <language value="de-CH"/>
-               <value value="kein pathologischer Befund"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Atemwege frei"/>
+               <value value="Allergie auf Hausstaub"/>
             </designation>
          </concept>
          <concept>
-            <code value="263821009"/>
-            <display value="Obstructed"/>
+            <code value="418689008"/>
+            <display value="Allergy to grass pollen"/>
             <designation>
                <language value="de-CH"/>
-               <value value="obstruiert"/>
+               <value value="Allergie auf Gräser Pollen"/>
             </designation>
          </concept>
          <concept>
-            <code value="68052005"/>
-            <display value="Pulmonary aspiration"/>
+            <code value="419263009"/>
+            <display value="Allergy to tree pollen"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Aspiration"/>
+               <value value="Allergie auf Baum Pollen"/>
             </designation>
          </concept>
          <concept>
-            <code value="52765003"/>
-            <display value="Intubation"/>
+            <code value="300911008"/>
+            <display value="Allergy to animal hair"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Intubation"/>
+               <value value="Allergie auf Tiere"/>
             </designation>
          </concept>
          <concept>
-            <code value="48387007"/>
-            <display value="Tracheostomy"/>
+            <code value="716187007"/>
+            <display value="Allergy to insects"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Tracheostomie"/>
+               <value value="Allergie auf Insekten"/>
             </designation>
          </concept>
          <concept>
-            <code value="301287002"/>
-            <display value="Expiratory stridor"/>
+            <code value="414285001"/>
+            <display value="Food allergy"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Stridor exspirtatorisch"/>
+               <value value="Allergie auf Lebensmittel"/>
             </designation>
          </concept>
          <concept>
-            <code value="58596002"/>
-            <display value="Inspiratory stridor"/>
+            <code value="416098002"/>
+            <display value="Drug allergy"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Stridor inspiratorisch"/>
+               <value value="Allergie auf Medikamente"/>
             </designation>
          </concept>
          <concept>
-            <code value="17621005"/>
-            <display value="Normal"/>
+            <code value="716186003"/>
+            <display value="No known allergy"/>
             <designation>
                <language value="de-CH"/>
-               <value value="unauffällig"/>
+               <value value="keine bekannten Allergien"/>
+            </designation>
+         </concept>
+      </include>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+         <concept>
+            <code value="1000057"/>
+            <display value="see attachment"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="siehe Beilage"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000055"/>
+            <display value="not asked"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="nicht erfragt"/>
             </designation>
          </concept>
       </include>

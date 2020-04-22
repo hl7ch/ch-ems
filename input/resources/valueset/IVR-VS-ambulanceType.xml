@@ -2,85 +2,85 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id
            
-            value="IVR-VS-result"/>
+            value="IVR-VS-ambulanceType"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.59--20170812203529"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.33--20170107105258"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2017-08-12T20:35:29+02:00"/>
+         <start value="2017-01-07T10:52:58+02:00"/>
       </valuePeriod>
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-result"/>
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-ambulanceType"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.1.11.59"/>
+      <value value="2.16.756.5.30.1.1.11.33"/>
    </identifier>
-   <version value="2017-08-12T20:35:29"/>
-   <name value="IVRVSresult"/>
+   <version value="2017-01-07T10:52:58"/>
+   <name value="IVRVSambulanceType"/>
    <title
               
-               value="IVR valueset result (.143.11.44)"/>
+               value="IVR Valueset ambulance type (143.11.28)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
-   <description value="IVR valueset  result  (.143.11.44)"/>
+   <description value="IVR Valueset ambulance type (143.11.28)"/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
       <include>
          <system value="http://snomed.info/sct"/>
          <concept>
-            <code value="231877006"/>
-            <display value="Worse"/>
+            <code value="83887000"/>
+            <display value="Rescue vehicle"/>
             <designation>
                <language value="de-CH"/>
-               <value value="verschlechtert"/>
+               <value value="Rettungswagen"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="détérioré"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="perturbato"/>
+               <value value="ambulance"/>
             </designation>
          </concept>
          <concept>
-            <code value="260388006"/>
-            <display value="No status change "/>
+            <code value="465341007"/>
+            <display value="Automobile ambulance"/>
             <designation>
                <language value="de-CH"/>
-               <value value="unverändert"/>
+               <value value="Einsatzambulanz"/>
             </designation>
             <designation>
-               <language value="fr-CH"/>
-               <value value="inchangé"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="invariato"/>
+               <language value="de-CH"/>
+               <value value="Ambulanz"/>
             </designation>
          </concept>
          <concept>
-            <code value="385425000"/>
-            <display value="Improved"/>
+            <code value="55121009"/>
+            <display value="Light land transport vehicle"/>
             <designation>
                <language value="de-CH"/>
-               <value value="verbessert"/>
+               <value value="Notarzt-Zubringer-Fahrzeug"/>
             </designation>
+         </concept>
+         <concept>
+            <code value="469233002"/>
+            <display value="Helicopter ambulance"/>
             <designation>
-               <language value="fr-CH"/>
-               <value value="amélioré"/>
+               <language value="de-CH"/>
+               <value value="Rettungshelikopter"/>
             </designation>
+         </concept>
+         <concept>
+            <code value="73957001"/>
+            <display value=" Air transport ambulance"/>
             <designation>
-               <language value="it-CH"/>
-               <value value="migliorato"/>
+               <language value="de-CH"/>
+               <value value="Ambulanz-Jet"/>
             </designation>
          </concept>
       </include>

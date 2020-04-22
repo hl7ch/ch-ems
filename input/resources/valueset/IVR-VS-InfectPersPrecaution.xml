@@ -2,105 +2,112 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id
            
-            value="IVR-VS-findingsAirway"/>
+            value="IVR-VS-InfectPersPrecaution"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.42--20170408114356"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.53--20160724185153"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2017-04-08T11:43:56+02:00"/>
+         <start value="2016-07-24T18:51:53+02:00"/>
       </valuePeriod>
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-findingsAirway"/>
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-InfectPersPrecaution"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.1.11.42"/>
+      <value value="2.16.756.5.30.1.1.11.53"/>
    </identifier>
-   <version value="2017-04-08T11:43:56"/>
-   <name value="IVRVSfindingsAirway"/>
+   <version value="2016-07-24T18:51:53"/>
+   <name value="Ech0207InfectPersPrecaution"/>
    <title
               
-               value="IVR valueset findings airway (.143.11.39)"/>
+               value="IVR valueset infectiontransport precaution personnel"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
-   <description value="IVR valueset findings airway (.143.11.39)"/>
+   <description value="IVR valueset infectiontransport precaution personnel"/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
       <include>
          <system value="http://snomed.info/sct"/>
          <concept>
-            <code value="23875004"/>
-            <display value="No pathologic finding"/>
+            <code value="469008007"/>
+            <display value="Airway protection face mask"/>
             <designation>
                <language value="de-CH"/>
-               <value value="kein pathologischer Befund"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Atemwege frei"/>
+               <value value="Schutzmaske mit Ventil"/>
             </designation>
          </concept>
          <concept>
-            <code value="263821009"/>
-            <display value="Obstructed"/>
+            <code value="38126007"/>
+            <display value="Safety goggles"/>
             <designation>
                <language value="de-CH"/>
-               <value value="obstruiert"/>
+               <value value="Schutzbrille"/>
             </designation>
          </concept>
          <concept>
-            <code value="68052005"/>
-            <display value="Pulmonary aspiration"/>
+            <code value="52291003"/>
+            <display value="Gloves"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Aspiration"/>
+               <value value="Handschuhe"/>
+            </designation>
+         </concept>
+      </include>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+         <concept>
+            <code value="1000068"/>
+            <display value="disinfection of hands by Virugard"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Händedesinfektion mit Virugard"/>
             </designation>
          </concept>
          <concept>
-            <code value="52765003"/>
-            <display value="Intubation"/>
+            <code value="1000069"/>
+            <display value="disinfection of hands by Sterilium"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Intubation"/>
+               <value value="Händedesinfektion mit Sterilium"/>
             </designation>
          </concept>
          <concept>
-            <code value="48387007"/>
-            <display value="Tracheostomy"/>
+            <code value="1000070"/>
+            <display value="operation clothes"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Tracheostomie"/>
+               <value value="Operationsmantel"/>
             </designation>
          </concept>
          <concept>
-            <code value="301287002"/>
-            <display value="Expiratory stridor"/>
+            <code value="1000071"/>
+            <display value="cloth change after mission"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Stridor exspirtatorisch"/>
+               <value value="Dienstkleiderwechsel nach Einsatzende"/>
             </designation>
          </concept>
          <concept>
-            <code value="58596002"/>
-            <display value="Inspiratory stridor"/>
+            <code value="1000072"/>
+            <display value="hazmat suit, ventilated"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Stridor inspiratorisch"/>
+               <value value="Vollschutzabzug, belüftet"/>
             </designation>
          </concept>
          <concept>
-            <code value="17621005"/>
-            <display value="Normal"/>
+            <code value="1000073"/>
+            <display value="other protective action"/>
             <designation>
                <language value="de-CH"/>
-               <value value="unauffällig"/>
+               <value value="andere Schutzmassnahme"/>
             </designation>
          </concept>
       </include>

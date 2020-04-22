@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id
+           
+            value="IVR-VS-missionTimeRole"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.22--20161023200525"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2016-10-23T20:05:25+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-missionTimeRole"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.1.11.22"/>
+   </identifier>
+   <version value="2016-10-23T20:05:25"/>
+   <name value="IVRVSmissionTimeRole"/>
+   <title
+              
+               value="IVR valueset role mission time (.143.11.10)"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="Interverband für Rettungswesen"/>
+   <description value="IVR valueset role mission time (.143.11.10)"/>
+   <immutable value="false"/>
+   <compose>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="Zeitpunkt des Eingangs des Notrufs bei der Sanitätsnotrufzentrale Einsatzleitsystem der Sanitätsnotrufzentrale definiert Zeit des Alarmeingangs wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefertFalls keine Schnittstelle zum Einsatzleitsystem vorhanden ist muss der Rettungsdienst die Zeitangabe der Sanitätsnotrufzentrale zwingend übernehmen"/>
+            </extension>
+            <code value="1000033"/>
+            <display value="alarm"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Alarmierungszeit"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="Zeitpunkt, zu dem der Rettungsdienst von der Sanitätsnotrufzentrale alarmiert wurde Einsatzleitsystem der Sanitätsnotrufzentrale definiert Alarmierungszeit wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefertFalls keine Schnittstelle zum Einsatzleitsystem vorhanden ist muss der Rettungsdienst die Zeitangabe der Sanitätsnotrufzentrale zwingend übernehmen"/>
+            </extension>
+            <code value="1000034"/>
+            <display value="disposition"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Dispositionszeit"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="Zeitpunkt des Ausrückens der ersten Einheit des Rettungsdienstes ausrückende Einheit erfasst die Zeit der Abfahrt wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefert, kann aber vom Rettungsdienst verändert werden"/>
+            </extension>
+            <code value="1000035"/>
+            <display value="rollout"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ausrückzeit"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="Zeit des Eintreffens des Rettungsdienstes am Einsatzort gemäss Aufgebot Sanitätsnotrufzentrale ausrückende Einheit erfasst die Zeit der Abfahrt wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefert, kann aber vom Rettungsdienst verändert werden"/>
+            </extension>
+            <code value="1000036"/>
+            <display value="arrival on scene"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ankunftszeit am Einsatzort"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="wird zur Zeit NICHT verwendetZeitpunkt des Eintreffens des Rettungsdienstes beim Patienten ausrückende Einheit erfasst die Zeit der Abfahrt wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefert, kann aber vom Rettungsdienst verändert werden"/>
+            </extension>
+            <code value="1000037"/>
+            <display value="arrival patient"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ankunftszeit beim Patienten"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="Zeit der Abfahrt vom Ereignisort ausrückende Einheit erfasst die Zeit der Abfahrt wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefert, kann aber vom Rettungsdienst verändert werden"/>
+            </extension>
+            <code value="1000038"/>
+            <display value="departure from scene"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Abfahrtszeit vom Einsatzort"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="Zeit der Ankunft am Zielort gemäss Einsatzauftrag oder EntscheidPatient/Notarzt/Rettungsdienst ausrückende Einheit erfasst die Zeit der Ankunft wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefert, kann aber vom Rettungsdienst verändert werden"/>
+            </extension>
+            <code value="1000039"/>
+            <display value="arrival at target"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ankunftszeit am Zielort"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000040"/>
+            <display value="handover patient"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Übergabezeit"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="Zeit der Abfahrt des Rettungsdienstes ab ZielortIn der Regel ist dann ein neuer Einsatz bereits wieder möglich ausrückende Einheit erfasst die Zeit der Abfahrt wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefert, kann aber vom Rettungsdienst verändert werden"/>
+            </extension>
+            <code value="1000041"/>
+            <display value="departure from target"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Abfahrtszeit vom Zielort"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="Zeitpunkt, in dem das Team des Rettungsdienstes wieder voll einsatzbereit ist ausrückende Einheit erfasst die Zeit der vollen Einsatzbereitschaft wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefert, kann aber vom Rettungsdienst verändert werden"/>
+            </extension>
+            <code value="1000042"/>
+            <display value="operational readiness"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Zeit Einsatzbereit"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

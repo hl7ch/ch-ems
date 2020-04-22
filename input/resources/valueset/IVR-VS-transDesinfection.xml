@@ -2,68 +2,64 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id
            
-            value="IVR-VS-preTreatment"/>
+            value="IVR-VS-transDesinfection"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.57--20170809181027"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.54--20160724190014"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2017-08-09T18:10:27+02:00"/>
+         <start value="2016-07-24T19:00:14+02:00"/>
       </valuePeriod>
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatment"/>
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-transDesinfection"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.1.11.57"/>
+      <value value="2.16.756.5.30.1.1.11.54"/>
    </identifier>
-   <version value="2017-08-09T18:10:27"/>
-   <name value="PreTreatmen"/>
+   <version value="2016-07-24T19:00:14"/>
+   <name value="Ech0207transDesinfection"/>
    <title
               
-               value="IVR valueset pre-treatment (.143.11.14)"/>
+               value="IVR valueset unit desinfection"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
-   <description value="IVR valueset pre-treatment (.143.11.14)"/>
+   <description value="IVR valueset unit desinfection"/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
       <include>
          <system value="http://snomed.info/sct"/>
          <concept>
-            <code value="223366009"/>
-            <display value="Healthcare professional"/>
-         </concept>
-         <concept>
-            <code value="260413007"/>
-            <display value="None"/>
+            <code value="74964007"/>
+            <display value="Other"/>
             <designation>
                <language value="de-CH"/>
-               <value value="keine Vorbehandlung"/>
+               <value value="anderes Desinfektionsverfahren"/>
             </designation>
          </concept>
       </include>
       <include>
          <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
          <concept>
-            <code value="1000142"/>
-            <display value="first responder"/>
+            <code value="1000124"/>
+            <display value="nebulize with H2O2"/>
             <designation>
                <language value="de-CH"/>
-               <value value="ausgebildeter Ersthelfer"/>
+               <value value="Vernebelung H2O2"/>
             </designation>
          </concept>
          <concept>
-            <code value="1000084"/>
-            <display value="non-professional"/>
+            <code value="1000125"/>
+            <display value="scrub disinfection  with H2O2"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Laie"/>
+               <value value="Scheuer-Wisch-Desinfektion H2O2"/>
             </designation>
          </concept>
       </include>

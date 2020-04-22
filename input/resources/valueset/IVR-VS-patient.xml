@@ -2,62 +2,52 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id
            
-            value="IVR-VS-diagType"/>
+            value="IVR-VS-patient"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.24--20161113161032"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.67--20171128111725"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2016-11-13T16:10:32+02:00"/>
+         <start value="2017-11-28T11:17:25+02:00"/>
       </valuePeriod>
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagType"/>
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-patient"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.1.11.24"/>
+      <value value="2.16.756.5.30.1.1.11.67"/>
    </identifier>
-   <version value="2016-11-13T16:10:32"/>
-   <name value="IVRVSdiagType"/>
+   <version value="2017-11-28T11:17:25"/>
+   <name value="IVRVSpatient"/>
    <title
               
-               value="IVR valueset diagnosis type (.143.11.16)"/>
+               value="IVR valueset patient"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
-   <description value="IVR valueset diagnosis type (.143.11.16)"/>
+   <description value="valueset for patient observation demographics"/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
       <include>
          <system value="http://snomed.info/sct"/>
          <concept>
-            <code value="47965005"/>
-            <display value="differential diagnosis"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Differentialdiagnose"/>
-            </designation>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="Place of origin"/>
+            </extension>
+            <code value="307117005"/>
+            <display value="Place of origin (observable entity)"/>
          </concept>
+      </include>
+      <include>
+         <system value="http://loinc.org"/>
          <concept>
-            <code value="14657009"/>
-            <display value="established diagnosis"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Diagnose"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="2931005"/>
-            <display value="probable diagnosis"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Verdachtsdiagnose"/>
-            </designation>
+            <code value="66476-3"/>
+            <display value="Country of citizenship"/>
          </concept>
       </include>
    </compose>

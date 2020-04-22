@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id
+           
+            value="IVR-VS-urgency"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.51--20160724151443"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2016-07-24T15:14:43+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.1.11.51"/>
+   </identifier>
+   <version value="2016-07-24T15:14:43"/>
+   <name value="Urgency"/>
+   <title
+              
+               value="IVR valueset urgency"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="Interverband für Rettungswesen"/>
+   <description value="IVR valueset urgency"/>
+   <immutable value="false"/>
+   <compose>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+         <concept>
+            <code value="1000007"/>
+            <display value="with siren"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="mit Sondersignal"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000008"/>
+            <display value="without siren"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ohne Sondersignal"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

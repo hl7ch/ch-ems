@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id
+           
+            value="IVR-VS-teamRole"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.20--20161023192135"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2016-10-23T19:21:35+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.1.11.20"/>
+   </identifier>
+   <version value="2016-10-23T19:21:35"/>
+   <name value="IVRVSteamRole"/>
+   <title
+              
+               value="IVR valueset role team (.143.11.8)"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="Interverband für Rettungswesen"/>
+   <description value="IVR valueset role team (.143.11.8)"/>
+   <immutable value="false"/>
+   <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
+   <compose>
+      <include>
+         <system value="http://snomed.info/sct"/>
+         <concept>
+            <code value="28411006"/>
+            <display value="Neonatologist"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Neonatologe"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="224549000"/>
+            <display value="Neonatal nurse"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Neonatologie-Pflege"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="308040008"/>
+            <display value="pilot"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Pilot"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="pilote"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="pilota"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="133932002"/>
+            <display value="Caregiver "/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Betreuer"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="309343006"/>
+            <display value="pysician"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Notärztin / Notarzt"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="309453006"/>
+            <display value="Registered midwife"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Hebamme"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="106292003"/>
+            <display value="Professional nurse"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Pflegefachperson"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="74964007"/>
+            <display value="Other"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="andere Rolle"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="62247001"/>
+            <display value="family doctor"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Hausarzt"/>
+            </designation>
+         </concept>
+      </include>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+         <concept>
+            <code value="1000138"/>
+            <display value="flight assistant"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Rettungsspezialist Helikopter"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000013"/>
+            <display value="driver"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Fahrer"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000014"/>
+            <display value="trainee"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="in Ausbildung"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000016"/>
+            <display value="attending doctor"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="betreuender Arzt"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000020"/>
+            <display value="apprentice"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Praktikant"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000021"/>
+            <display value="security force"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Sicherheitsbegleitung"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

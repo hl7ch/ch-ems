@@ -2,144 +2,139 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id
            
-            value="IVR-VS-event"/>
+            value="IVR-VS-actRecovAid"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.23--20161113155040"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.11--20160724211849"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2016-11-13T15:50:40+02:00"/>
+         <start value="2016-07-24T21:18:49+02:00"/>
       </valuePeriod>
    </extension>
    <url
             
-             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-event"/>
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-actRecovAid"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.1.11.23"/>
+      <value value="2.16.756.5.30.1.1.11.11"/>
    </identifier>
-   <version value="2016-11-13T15:50:40"/>
-   <name value="IVRVSevent"/>
+   <version value="2016-07-24T21:18:49"/>
+   <name value="ActRecovAid"/>
    <title
               
-               value="IVR valueset event (.143.11.15)"/>
+               value="IVR valueset Recovery Aid (.143.11.3)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
-   <description value="IVR valueset event (.143.11.15)"/>
+   <description value="listet die Hilfsmittel auf, welche bei der Bergung und beim Transport des Patienten verwendet werden"/>
    <immutable value="false"/>
    <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
       <include>
          <system value="http://snomed.info/sct"/>
          <concept>
-            <code value="39104002"/>
-            <display value="Illness"/>
+            <code value="156009"/>
+            <display value="Spine board"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Krankheit"/>
+               <value value="Rettungsbrett"/>
             </designation>
          </concept>
          <concept>
-            <code value="52684005"/>
-            <display value="Assault"/>
+            <code value="63562005"/>
+            <display value="Cervical collar"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Überfall"/>
+               <value value="Halskragen"/>
             </designation>
          </concept>
          <concept>
-            <code value="19440001"/>
-            <display value="Explosion"/>
+            <code value="89149003"/>
+            <display value="Stretcher"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Explosion"/>
+               <value value="Schaufelbahre"/>
             </designation>
          </concept>
          <concept>
-            <code value="80032004"/>
-            <display value="Fire"/>
+            <code value="257389003"/>
+            <display value="Lap belt "/>
             <designation>
                <language value="de-CH"/>
-               <value value="Brand"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="1912002"/>
-            <display value="Fall"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Sturz"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="7542004"/>
-            <display value="Work Accident"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Arbeitsunfall"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="57701003"/>
-            <display value="Sports Accident"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Sportunfall"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="1631000175102"/>
-            <display value="Patient not asked"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="nicht erfragt"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="79573009"/>
-            <display value="Household Accident "/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Haushaltsunfall"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="242089005"/>
-            <display value="Traffic accident "/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Verkehrsunfall"/>
+               <value value="Beckengurt"/>
             </designation>
          </concept>
          <concept>
             <code value="74964007"/>
-            <display value="Other "/>
+            <display value="Other"/>
             <designation>
                <language value="de-CH"/>
-               <value value="anderes"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="261665006"/>
-            <display value="Unknown"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="unbekannt"/>
+               <value value="andere"/>
             </designation>
          </concept>
       </include>
       <include>
          <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
          <concept>
-            <code value="100005"/>
-            <display value="no information"/>
+            <code value="1000085"/>
+            <display value="vacuum pillow"/>
             <designation>
                <language value="de-CH"/>
-               <value value="keine Angaben"/>
+               <value value="Vakuumkissen"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000086"/>
+            <display value="vacuum mattress"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Vakuummatraze"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000087"/>
+            <display value="carrying chair"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Tragestuhl"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000088"/>
+            <display value="KED system"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="KED System"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000089"/>
+            <display value="Sam Splint"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Sam Splint"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000090"/>
+            <display value="Sam Sling"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Sam Sling"/>
+            </designation>
+         </concept>
+         <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value="und ähnliche Baby-Transport-Systeme"/>
+            </extension>
+            <code value="1000091"/>
+            <display value="Maxi Cosi"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Maxi Cosi"/>
             </designation>
          </concept>
       </include>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id
+           
+            value="IVR-VS-transReason"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.38--20170107144938"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2017-01-07T14:49:38+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-transReason"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.1.11.38"/>
+   </identifier>
+   <version value="2017-01-07T14:49:38"/>
+   <name value="IVRVStransReason"/>
+   <title
+              
+               value="IVR valueset transport reason (.143.11.32)"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="Interverband für Rettungswesen"/>
+   <description value="IVR valueset transport reason (.143.11.32)"/>
+   <immutable value="false"/>
+   <compose>
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+         <concept>
+            <code value="1000110"/>
+            <display value="emergency mission"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Notfall-Einsatz"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000111"/>
+            <display value="relocation"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Verlegung zwischen Institutionen"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000112"/>
+            <display value="shuttle for emergency doctor"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Notarzt-Zubringer"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000113"/>
+            <display value="incubator transport"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Isolettentransport"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000114"/>
+            <display value="neonatology mission"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Neonatologischer Einsatz"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000003"/>
+            <display value="stand-by mission"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Bereitschaftsdienst"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000115"/>
+            <display value="return transport"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Rücktransport von Untersuchung"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000116"/>
+            <display value="intervention mission police"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Interventionseinsatz Polizei"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000117"/>
+            <display value="self-referral"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Selbsteinweisung / Krankentransport"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000118"/>
+            <display value="stretcher mission"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Einsatz Stretcher"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000119"/>
+            <display value="mission fpr partner"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Einsatz für Vertragspartner"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000120"/>
+            <display value="involuntary committment"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="fürsorgerische Unterbringung"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000121"/>
+            <display value="service on place"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Dienstleistung vor Ort (DVO)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000122"/>
+            <display value="referral by doctor"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Ärztliche Einweisung"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="1000123"/>
+            <display value="refuse of transport"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Transportverweigerung"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>
