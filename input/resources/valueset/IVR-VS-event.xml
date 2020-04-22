@@ -95,7 +95,7 @@
          </concept>
          <concept>
             <code value="79573009"/>
-            <display value="Household Accident "/>
+            <display value="Household Accident"/>
             <designation>
                <language value="de-CH"/>
                <value value="Haushaltsunfall"/>
@@ -103,7 +103,7 @@
          </concept>
          <concept>
             <code value="242089005"/>
-            <display value="Traffic accident "/>
+            <display value="Traffic accident"/>
             <designation>
                <language value="de-CH"/>
                <value value="Verkehrsunfall"/>
@@ -111,7 +111,7 @@
          </concept>
          <concept>
             <code value="74964007"/>
-            <display value="Other "/>
+            <display value="Other"/>
             <designation>
                <language value="de-CH"/>
                <value value="anderes"/>

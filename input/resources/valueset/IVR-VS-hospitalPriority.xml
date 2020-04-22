@@ -18,7 +18,7 @@
       <value value="2.16.756.5.30.1.1.11.55"/>
    </identifier>
    <version value="2017-06-20T21:09:36"/>
-   <name value="ECH0207:hospitalPriority"/>
+   <name value="IVRVShospitalPriority"/>
    <title value="IVR valueset priority hospital"/>
    <status value="draft"/>
    <experimental value="false"/>

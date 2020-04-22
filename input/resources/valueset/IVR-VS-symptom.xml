@@ -47,7 +47,7 @@
          </concept>
          <concept>
             <code value="418107008"/>
-            <display value=" Unconsciousness"/>
+            <display value="Unconsciousness"/>
             <designation>
                <language value="de-CH"/>
                <value value="Bewusstseinsstörung"/>
@@ -215,7 +215,7 @@
          </concept>
          <concept>
             <code value="422587007"/>
-            <display value=" Nausea"/>
+            <display value="Nausea"/>
             <designation>
                <language value="de-CH"/>
                <value value="Übelkeit"/>
