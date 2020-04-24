@@ -70,6 +70,14 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Bundle/2b-Einsatzprotokoll"/>
+      </reference>
+      <name value="2b Einsatzprotokoll"/>
+      <description value="Example for Bundle"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Composition/1-Einsatzprotokoll"/>
       </reference>
       <name value="1 Einsatzprotokoll"/>
@@ -89,6 +97,14 @@
         <reference value="Composition/2-Einsatzprotokoll"/>
       </reference>
       <name value="2 Einsatzprotokoll"/>
+      <description value="Example for Composition"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/2b-Einsatzprotokoll"/>
+      </reference>
+      <name value="2b Einsatzprotokoll"/>
       <description value="Example for Composition"/>
       <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition"/>
     </resource>
