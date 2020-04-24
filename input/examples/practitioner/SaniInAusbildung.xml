@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Practitioner xmlns="http://hl7.org/fhir">
+    <id value="SaniInAusbildung"/>
+    <meta>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+    </meta>
+    <name>
+        <family value="Sanitaeter"/>
+        <given value="Azubi"/>
+    </name>
+</Practitioner>

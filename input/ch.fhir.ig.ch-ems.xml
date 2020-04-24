@@ -190,7 +190,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Observation/1-Symptom"/>
+        <reference value="Observation/1-Symptome"/>
       </reference>
       <name value="1 Symptom"/>
       <description value="Example for Observation"/>
@@ -278,17 +278,17 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Practitioner/1-BetreuerHansBeispiel"/>
+        <reference value="Practitioner/1-TeamMemberHansBeispiel"/>
       </reference>
-      <name value="1 Betreuer Hans Beispiel"/>
+      <name value="1 Teammitglied Hans Beispiel"/>
       <description value="Example for Practitioner with GLN"/>
       <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Practitioner/1-BetreuerPetraMuster"/>
+        <reference value="Practitioner/1-TeamMemberPetraMuster"/>
       </reference>
-      <name value="1 Betreuer PetraMuster"/>
+      <name value="1 Teammitglied Petra Muster"/>
       <description value="Example for Practitioner with GLN"/>
       <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
     </resource>
@@ -302,7 +302,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Practitioner/1-Notarzt"/>
+        <reference value="Practitioner/1-NotarztHansNotarzt"/>
       </reference>
       <name value="1 Notarzt"/>
       <description value="Example for Practitioner with GLN"/>
@@ -310,15 +310,15 @@
     </resource>
     <resource>
       <reference>
-        <reference value="Practitioner/1-NotarztHansNotarzt"/>
+        <reference value="Practitioner/1-TeamMemberHansNotarzt"/>
       </reference>
-      <name value="1 Notarzt Hans Notarzt"/>
+      <name value="1 Teammitglied Hans Notarzt"/>
       <description value="Example for Practitioner with GLN"/>
       <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
     </resource>
     <resource>
       <reference>
-        <reference value="Practitioner/1-Rettungssanitaeterin"/>
+        <reference value="Practitioner/1-SaniPetraMuster"/>
       </reference>
       <name value="1 Rettungssanitaeterin"/>
       <description value="Example for Practitioner with GLN"/>
@@ -326,7 +326,15 @@
     </resource>
     <resource>
       <reference>
-        <reference value="PractitionerRole/1-Notarzt"/>
+        <reference value="Practitioner/SaniInAusbildung"/>
+      </reference>
+      <name value="1 Practitioner Rettungssanitaeter in Ausbildung"/>
+      <description value="Example for Practitioner without GLN"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="PractitionerRole/1-NotarztHansNotarzt"/>
       </reference>
       <name value="1 PractitionerRole Notarzt"/>
       <description value="Example for PractitionerRole"/>
@@ -334,7 +342,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="PractitionerRole/1-Rettungssanitaeterin"/>
+        <reference value="PractitionerRole/1-SaniPetraMuster"/>
       </reference>
       <name value="1 PractitionerRole Rettungssanitaeterin"/>
       <description value="Example for PractitionerRole"/>
@@ -511,28 +519,15 @@
 
     <!-- References to value sets -->
     <!-- exported from Art-Decor and then referenced via https://docs.google.com/spreadsheets/d/1j22odB2IcdCshqr-SDj0RUQb-i-kpV4d1BFT4wSr1eo/edit#gid=0 -->
-
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-eyeForm" />
+        <reference value="ValueSet/IVR-VS-actRecovAid" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-locationType" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/IVR-VS-deathManner" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/IVR-VS-result" />
+        <reference value="ValueSet/IVR-VS-actRespiOwner" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -556,13 +551,19 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-pressureMethod" />
+        <reference value="ValueSet/IVR-VS-bedding" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/IVR-VS-coldExposure" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-deathManner" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -580,19 +581,25 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/IVR-VS-emergDoctSystem" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/IVR-VS-event" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-findingsAirway" />
+        <reference value="ValueSet/IVR-VS-eyeForm" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-violenceForm" />
+        <reference value="ValueSet/IVR-VS-findingsAirway" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -628,6 +635,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/IVR-VS-hospitalPriority" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/IVR-VS-idMedium" />
       </reference>
       <exampleBoolean value="false"/>
@@ -658,7 +671,13 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-emergDoctSystem" />
+        <reference value="ValueSet/IVR-VS-locationType" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-missionTimeRole" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -676,19 +695,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-respirationObservation" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="ValueSet/IVR-VS-offender" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/IVR-VS-actRespiOwner" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -700,19 +707,25 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/IVR-VS-personRole" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+     <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-pressureMethod" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/IVR-VS-preTreatment" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-preTreatmentType" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/IVR-VS-hospitalPriority" />
+        <reference value="ValueSet/IVR-VS-preTreatType" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -724,43 +737,25 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-pulseMethod" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="ValueSet/IVR-VS-pulesResult" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-actRecovAid" />
+        <reference value="ValueSet/IVR-VS-pulseMethod" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-violenceResult" />
+        <reference value="ValueSet/IVR-VS-respirationObservation" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-personRole" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/IVR-VS-missionTimeRole" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/IVR-VS-teamRole" />
+        <reference value="ValueSet/IVR-VS-result" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -784,25 +779,13 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-ZUB" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="ValueSet/IVR-VS-symptom" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-bedding" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="ValueSet/IVR-VS-transReason" />
+        <reference value="ValueSet/IVR-VS-teamRole" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -814,13 +797,19 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-urgency" />
+        <reference value="ValueSet/IVR-VS-transReason" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <reference>
         <reference value="ValueSet/IVR-VS-urgency-adequate" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-urgency" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>
@@ -838,7 +827,25 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/IVR-VS-violenceForm" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-violenceResult" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/IVR-VS-woundTreat" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/IVR-VS-ZUB" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>

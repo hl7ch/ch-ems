@@ -55,7 +55,7 @@
             <path value="Observation.valueCodeableConcept"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-priorityHospital"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-hospitalPriority"/>
             </binding>
         </element>
     </differential>

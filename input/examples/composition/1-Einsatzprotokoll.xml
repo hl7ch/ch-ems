@@ -8,20 +8,17 @@
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
     <valueIdentifier>
       <system value="urn:ietf:rfc:3986"/>
-      <value value="urn:uuid:658ab5ea-1f63-11f6-b6ba-3e1d05defe78"/>
+      <value value="urn:uuid:658ab5ea-1f63-11e6-b6ba-3e1d05defe78"/>
     </valueIdentifier>
   </extension>
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
     <valueUnsignedInt value="1"/>
   </extension>
-  <!-- TBD: kann das CDA-Element in 2 FHIR-Elemente aufgeteilt werden? -->
-  <!-- CDA: informationRecipient.intendedRecipient.informationRecipient -->
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient">
     <valueReference>
       <reference value="Practitioner/1-InformationRecipientSpezialarzt"/>
     </valueReference>
   </extension>
-  <!-- CDA: informationRecipient.intendedRecipient.receivedOrganization (cdachems-dataelement-174) -->
   <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient">
     <valueReference>
       <reference value="Organization/1-InformationRecipientUSZ"/>
@@ -52,28 +49,27 @@
     <reference value="Encounter/1-Einsatz"/>
   </encounter>
   <date value="2016-12-10T12:05:00.000+01:00"/>
-  <!-- TBD: author: assignedAuthor und functionCode müssen in 2 FHIR-Elementen abgebildet werden -->
   <!-- CDA: author.assignedAuthor -->
   <author>
     <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time">
       <valueDateTime value="2016-12-10T12:13:05.000+01:00"/>
     </extension>
-    <reference value="Practitioner/1-Rettungssanitaeterin"/>
+    <reference value="Practitioner/1-SaniPetraMuster"/>
   </author>
   <!-- CDA: author.functionCode -->
   <author>
-    <reference value="PractitionerRole/1-Rettungssanitaeterin"/>
+    <reference value="PractitionerRole/1-SaniPetraMuster"/>
   </author>
   <!-- CDA: author.assignedAuthor -->
   <author>
     <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time">
       <valueDateTime value="2016-12-10T12:13:05.000+01:00"/>
     </extension>
-    <reference value="Practitioner/1-Notarzt"/>
+    <reference value="Practitioner/1-NotarztHansNotarzt"/>
   </author>
   <!-- CDA: author.functionCode -->
   <author>
-    <reference value="PractitionerRole/1-Notarzt"/>
+    <reference value="PractitionerRole/1-NotarztHansNotarzt"/>
   </author>
   <title value="Einsatzprotokoll Rettungsdienst"/>
   <confidentiality value="N">
@@ -92,7 +88,7 @@
     <mode value="legal"/>
     <time value="2016-12-10T12:13:05.000+01:00"/>
     <party>
-      <reference value="Practitioner/1-Rettungssanitaeterin"/>
+      <reference value="Practitioner/1-SaniPetraMuster"/>
     </party>
   </attester>
   <!-- CDA: custodian.assignedCustodian.representedCustodian -->
@@ -100,13 +96,11 @@
   <custodian>
     <reference value="Organization/1-Rettungsdienst"/>
   </custodian>
-
   <!-- Section Einsatz -->
   <section>
     <title value="Einsatz"/>
     <code>
       <coding>
-        <!-- TBD -->
         <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
         <code value="1100001"/>
         <display value="Einsatz"/>
@@ -140,8 +134,10 @@
             </tr>
             <tr>
               <td>Team</td>
-              <td>Petra Muster, GLN 7601003330434, Betreuerin <br />
-									Hans Beispiel, GLN 7601000028105, Betreuer </td>
+              <td>Petra Muster, GLN 7601003330434, Betreuerin 
+                <br/>
+ Hans Beispiel, GLN 7601000028105, Betreuer 
+              </td>
             </tr>
             <tr>
               <td>Einsatzort</td>
@@ -174,8 +170,8 @@
               <th id="arrivalpatient">12.22</th>
               <th id="departurefromscene">12.48</th>
               <th id="arrivalattarget">12.54</th>
-              <th id="departurefromtarget"></th>
-              <th id="operationalreadiness"></th>
+              <th id="departurefromtarget"/>
+              <th id="operationalreadiness"/>
             </tr>
           </tbody>
         </table>
@@ -206,7 +202,6 @@
       <reference value="Observation/1-ArrivalAtTarget"/>
     </entry>
   </section>
-
   <!-- Section Adminstrativ -->
   <section>
     <title value="Administrativ"/>
@@ -235,7 +230,6 @@
       </div>
     </text>
   </section>
-
   <!-- Section Vorbehandlung -->
   <section>
     <title value="Vorbehandlung"/>
@@ -254,7 +248,6 @@
       </div>
     </text>
   </section>
-
   <!-- Section Anamnese -->
   <section>
     <title value="Anamnese"/>
@@ -314,10 +307,9 @@
       <reference value="Observation/1-Anamnese"/>
     </entry>
     <entry>
-      <reference value="Observation/1-Symptom"/>
+      <reference value="Observation/1-Symptome"/>
     </entry>
   </section>
-
   <!-- Section Befund -->
   <section>
     <title value="Befund"/>
@@ -332,9 +324,10 @@
     <text>
       <status value="generated"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <p>
-          Blutdruck 120/80 mmHg gemessen am rechten Arm <br />
-					Schmerz 5 <br />
+        <p> Blutdruck 120/80 mmHg gemessen am rechten Arm 
+          <br/>
+                           Schmerz 5                  
+          <br/>
         </p>
         <table>
           <tbody>
@@ -356,7 +349,6 @@
       </entry>
     </section>
   </section>
-
   <!-- Section Diagnosen -->
   <section>
     <title value="Diagnosen"/>
@@ -387,7 +379,6 @@
       <reference value="Observation/1-Diagnose"/>
     </entry>
   </section>
-
   <!-- Section Massnahmen -->
   <section>
     <title value="Massnahmen"/>
@@ -406,7 +397,6 @@
       </div>
     </text>
   </section>
-
   <!-- Section Todesfall -->
   <section>
     <title value="Todesfall"/>
@@ -425,7 +415,6 @@
       </div>
     </text>
   </section>
-
   <!-- Section Transport -->
   <section>
     <title value="Transport"/>
@@ -444,7 +433,6 @@
       </div>
     </text>
   </section>
-
   <!-- Section Übergabe -->
   <section>
     <title value="Übergabe"/>
@@ -495,7 +483,6 @@
       <reference value="Observation/1-GCSUebergabe"/>
     </entry>
   </section>
-
   <!-- Section Bemerkungen -->
   <section>
     <title value="Kommentar"/>
@@ -513,5 +500,4 @@
       </div>
     </text>
   </section>
-
 </Composition>

@@ -2,7 +2,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-Einsatzprotokoll"/>
    <meta>
-      <lastUpdated value="2020-02-21T07:53:22.889+00:00"/>
+      <lastUpdated value="2020-04-24T07:53:22.889+00:00"/>
       <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
    </meta>
    <identifier>
@@ -17,16 +17,13 @@
          <Composition xmlns="http://hl7.org/fhir">
             <id value="1-Einsatzprotokoll"/>
             <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-26T11:20:26.173+00:00"/>
-               <source value="#81gOPYgVczZKKPXZ"/>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition"/>
             </meta>
             <language value="de-CH"/>
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
                <valueIdentifier>
                   <system value="urn:ietf:rfc:3986"/>
-                  <value value="urn:uuid:658ab5ea-1f63-11f6-b6ba-3e1d05defe78"/>
+                  <value value="urn:uuid:658ab5ea-1f63-11e6-b6ba-3e1d05defe78"/>
                </valueIdentifier>
             </extension>
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
@@ -67,28 +64,27 @@
                <reference value="Encounter/1-Einsatz"/>
             </encounter>
             <date value="2016-12-10T12:05:00.000+01:00"/>
-            <!-- TBD: author: assignedAuthor und functionCode müssen in 2 FHIR-Elementen abgebildet werden -->
             <!-- CDA: author.assignedAuthor -->
             <author>
                <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time">
                   <valueDateTime value="2016-12-10T12:13:05.000+01:00"/>
                </extension>
-               <reference value="Practitioner/1-Rettungssanitaeterin"/>
+               <reference value="Practitioner/1-SaniPetraMuster"/>
             </author>
             <!-- CDA: author.functionCode -->
             <author>
-               <reference value="PractitionerRole/1-Rettungssanitaeterin"/>
+               <reference value="PractitionerRole/1-SaniPetraMuster"/>
             </author>
             <!-- CDA: author.assignedAuthor -->
             <author>
                <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time">
                   <valueDateTime value="2016-12-10T12:13:05.000+01:00"/>
                </extension>
-               <reference value="Practitioner/1-Notarzt"/>
+               <reference value="Practitioner/1-NotarztHansNotarzt"/>
             </author>
             <!-- CDA: author.functionCode -->
             <author>
-               <reference value="PractitionerRole/1-Notarzt"/>
+               <reference value="PractitionerRole/1-NotarztHansNotarzt"/>
             </author>
             <title value="Einsatzprotokoll Rettungsdienst"/>
             <confidentiality value="N">
@@ -107,7 +103,7 @@
                <mode value="legal"/>
                <time value="2016-12-10T12:13:05.000+01:00"/>
                <party>
-                  <reference value="Practitioner/1-Rettungssanitaeterin"/>
+                  <reference value="Practitioner/1-SaniPetraMuster"/>
                </party>
             </attester>
             <!-- CDA: custodian.assignedCustodian.representedCustodian -->
@@ -120,7 +116,6 @@
                <title value="Einsatz"/>
                <code>
                   <coding>
-                     <!-- TBD -->
                      <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                      <code value="1100001"/>
                      <display value="Einsatz"/>
@@ -327,7 +322,7 @@
                   <reference value="Observation/1-Anamnese"/>
                </entry>
                <entry>
-                  <reference value="Observation/1-Symptom"/>
+                  <reference value="Observation/1-Symptome"/>
                </entry>
             </section>
             <!-- Section Befund -->
@@ -346,7 +341,7 @@
                   <div xmlns="http://www.w3.org/1999/xhtml">
                      <p> Blutdruck 120/80 mmHg gemessen am rechten Arm 
                         <br/>
-Schmerz 5                  
+                           Schmerz 5                  
                         <br/>
                      </p>
                      <table>
@@ -524,204 +519,11 @@ Schmerz 5
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-GCSUebergabe"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-GCSUebergabe"/>
-            <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:12:08.023+00:00"/>
-               <source value="#0W71ScJwy3XHir1R"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-gcs"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="9269-2"/>
-                  <display value="Glasgow coma score total"/>
-               </coding>
-            </code>
-            <effectiveDateTime value="2016-12-10T12:03:00.000+01:00"/>
-            <!-- cdachems-dataelement-458 GCS-Gesamtscore-->
-            <valueQuantity>
-               <value value="15"/>
-               <system value="http://unitsofmeasure.org"/>
-               <code value="{score}"/>
-            </valueQuantity>
-            <!-- cdachems-dataelement-461 GCS-motorische Kommunikation -->
-            <component>
-               <code>
-                  <coding>
-                     <system value="http://loinc.org"/>
-                     <code value="9268-4"/>
-                     <display value="Glasgow coma score motor"/>
-                  </coding>
-               </code>
-               <valueQuantity>
-                  <value value="6"/>
-                  <system value="http://unitsofmeasure.org"/>
-                  <code value="{score}"/>
-               </valueQuantity>
-            </component>
-            <!-- cdachems-dataelement-460 GCS-verbale Kommunikation-->
-            <component>
-               <code>
-                  <coding>
-                     <system value="http://loinc.org"/>
-                     <code value="9270-0"/>
-                     <display value="Glasgow coma score verbal"/>
-                  </coding>
-               </code>
-               <valueQuantity>
-                  <value value="5"/>
-                  <system value="http://unitsofmeasure.org"/>
-                  <code value="{score}"/>
-               </valueQuantity>
-            </component>
-            <!-- cdachems-dataelement GCS-Augenöffnung 459 -->
-            <component>
-               <code>
-                  <coding>
-                     <system value="http://loinc.org"/>
-                     <code value="9267-6"/>
-                     <display value="Glasgow coma score eye opening"/>
-                  </coding>
-               </code>
-               <valueQuantity>
-                  <value value="4"/>
-                  <system value="http://unitsofmeasure.org"/>
-                  <code value="{score}"/>
-               </valueQuantity>
-            </component>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-NACAUebergabe"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-NACAUebergabe"/>
-            <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:12:15.211+00:00"/>
-               <source value="#DNvm0RDmel3dLsjF"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-naca"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="88076-5"/>
-                  <display value="Injury severity score NACA"/>
-               </coding>
-            </code>
-            <!-- cdachems-dataelement-23 NACA-->
-            <valueCodeableConcept>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-naca"/>
-                  <code value="III"/>
-                  <display value="mässige bis schwere Störung"/>
-               </coding>
-            </valueCodeableConcept>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Rollout"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-Rollout"/>
-            <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:12:19.010+00:00"/>
-               <source value="#5efPowu8Bjwkqcis"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
-            </meta>
-            <status value="final"/>
-            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
-            <code>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
-                  <code value="1000035"/>
-                  <display value="rollout"/>
-               </coding>
-            </code>
-            <!-- cdachems-dataelement-286 Statuszeit -->
-            <valueDateTime value="2016-12-10T11:13:00.000+01:00"/>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Symptom"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-Symptom"/>
-            <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:12:22.516+00:00"/>
-               <source value="#FxhzNS4vGk7TTdid"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesissymptom"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <system value="http://snomed.info/sct"/>
-                  <code value="404684003"/>
-                  <display value="Clinical finding (finding)"/>
-               </coding>
-            </code>
-            <!-- cdachems-dataelement-468 Symptom, frei -->
-            <valueCodeableConcept>
-               <coding>
-                  <system value="http://snomed.info/sct"/>
-                  <code value="162408000"/>
-                  <display value="General symptom description (finding)"/>
-               </coding>
-               <text value="Starke Schmerzen in der Brust und im linken Oberarm verspürt"/>
-            </valueCodeableConcept>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ZustandUebergabe"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-ZustandUebergabe"/>
-            <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:12:32.411+00:00"/>
-               <source value="#JqQOSmEEDbsTpfri"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-conditionchange"/>
-            </meta>
-            <status value="final"/>
-            <code>
-               <coding>
-                  <system value="http://loinc.org"/>
-                  <code value="75527-2"/>
-                  <display value="Vital status at discharge"/>
-               </coding>
-            </code>
-            <!-- cdachems-dataelement-24 Zustand bei Einsatzende-->
-            <valueCodeableConcept>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
-                  <code value="385425000"/>
-                  <display value="Improved"/>
-               </coding>
-            </valueCodeableConcept>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
       <fullUrl value="http://test.fhir.ch/r4/Encounter/1-Einsatz"/>
       <resource>
          <Encounter xmlns="http://hl7.org/fhir">
             <id value="1-Einsatz"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:32:27.557+00:00"/>
-               <source value="#EJ13hxTInfWH7Dif"/>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-encounter"/>
             </meta>
             <!-- cdachems-dataelement-55 Einsatznummer (OID vom SNZ)-->
@@ -758,7 +560,7 @@ Schmerz 5
                   </coding>
                </type>
                <individual>
-                  <reference value="Practitioner/1-BetreuerPetraMuster"/>
+                  <reference value="Practitioner/1-TeamMemberPetraMuster"/>
                </individual>
             </participant>
             <participant>
@@ -776,7 +578,7 @@ Schmerz 5
                   </coding>
                </type>
                <individual>
-                  <reference value="Practitioner/1-BetreuerHansBeispiel"/>
+                  <reference value="Practitioner/1-TeamMemberHansBeispiel"/>
                </individual>
             </participant>
             <participant>
@@ -794,7 +596,7 @@ Schmerz 5
                   </coding>
                </type>
                <individual>
-                  <reference value="Practitioner/1-NotarztHansNotarzt"/>
+                  <reference value="Practitioner/1-TeamMemberHansNotarzt"/>
                </individual>
             </participant>
             <!-- cdachems-dataelement-54: Einsatzdatum -->
@@ -822,9 +624,6 @@ Schmerz 5
          <Patient xmlns="http://hl7.org/fhir">
             <id value="1-PeterMuster"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T09:37:43.071+00:00"/>
-               <source value="#0l06VuaryKkiHTuR"/>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
             </meta>
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-ech-11-placeoforigin">
@@ -832,17 +631,6 @@ Schmerz 5
                   <city value="Musterdorf"/>
                   <state value="ZH"/>
                </valueAddress>
-            </extension>
-            <extension url="http://hl7.org/fhir/StructureDefinition/patient-citizenship">
-               <extension url="code">
-                  <valueCodeableConcept>
-                     <coding>
-                        <system value="urn:iso:std:iso:3166" />
-                        <code value="CH"/>
-                        <display value="Switzerland" />
-                     </coding>
-                  </valueCodeableConcept>
-               </extension>
             </extension>
             <identifier>
                <!-- cdachems-dataelement-135 navs13 -->
@@ -882,12 +670,26 @@ Schmerz 5
             <birthDate value="1961-10-01"/>
             <address>
                <use value="home"/>
-               <line value="Bahnhofstrasse"/>
-               <line value="1"/>
+               <line value="Bahnhofstrasse">
+                  <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype">
+                     <valueCode value="street"/>
+                  </extension>
+                  <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+                     <valueString value="1"/>
+                  </extension>
+               </line>
                <city value="Zürich"/>
-               <postalCode value="8003"/>
-               <country value="CH"/>
+               <postalCode value="8003" />
+               <country value="Schweiz">
+                  <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding">
+                     <valueCoding>
+                        <system value="urn:iso:std:iso:3166" />
+                        <code value="CH"/>
+                     </valueCoding>
+                  </extension>
+               </country>
             </address>
+            <!-- participant.associatedEntity -->
             <contact>
                <relationship>
                   <coding>
@@ -906,14 +708,41 @@ Schmerz 5
       </resource>
    </entry>
    <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Coverage/1-CoveragePeterMuster"/>
+      <resource>
+         <Coverage xmlns="http://hl7.org/fhir">
+            <id value="1-CoveragePeterMuster"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-coverage"/>
+            </meta>
+            <contained>
+               <Organization xmlns="http://hl7.org/fhir">
+                  <id value="kpt"/>
+                  <name value="KPT"/>
+               </Organization>
+            </contained>
+            <!-- cdachems-dataelement-486 Nummer Versichertenkarte (participant.associatedEntity.id) -->
+            <identifier>
+               <system value="urn:oid:2.16.756.5.30.1.123.100.1.1.1"/>
+               <value value="80756003760012390001"/>
+            </identifier>
+            <status value="active"/>
+            <beneficiary>
+               <reference value="Patient/1-PeterMuster"/>
+            </beneficiary>
+            <!-- cdachems-dataelement-525 Versicherung EMS (participant.associatedEntity.scopintOrganization) -->
+            <payor>
+               <reference value="#kpt"/>
+            </payor>
+         </Coverage>
+      </resource>
+   </entry>
+   <entry>
       <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-InformationRecipientSpezialarzt"/>
       <resource>
          <Practitioner xmlns="http://hl7.org/fhir">
             <id value="1-InformationRecipientSpezialarzt"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:14:30.399+00:00"/>
-               <source value="#xYiR81FAGp6gdlSg"/>
                <profile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
             </meta>
             <identifier>
@@ -928,36 +757,33 @@ Schmerz 5
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-Notarzt"/>
+      <fullUrl value="http://test.fhir.ch/r4/Organization/1-InformationRecipientUSZ"/>
       <resource>
-         <Practitioner xmlns="http://hl7.org/fhir">
-            <id value="1-Notarzt"/>
+         <Organization xmlns="http://hl7.org/fhir">
+            <id value="1-InformationRecipientUSZ"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:17:12.705+00:00"/>
-               <source value="#KSawmL36XyVAiphQ"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+               <profile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
             </meta>
             <identifier>
                <system value="urn:oid:2.51.1.3"/>
-               <value value="7601000028105"/>
+               <value value="7601002155939"/>
             </identifier>
-            <name>
-               <family value="Notarzt"/>
-               <given value="Hans"/>
-            </name>
-         </Practitioner>
+            <name value="USZ"/>
+            <address>
+               <line value="Rämistrasse 100"/>
+               <city value="Zürich"/>
+               <postalCode value="8091"/>
+               <country value="CH"/>
+            </address>
+         </Organization>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-Rettungssanitaeterin"/>
+      <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-SaniPetraMuster"/>
       <resource>
          <Practitioner xmlns="http://hl7.org/fhir">
-            <id value="1-Rettungssanitaeterin"/>
+            <id value="1-SaniPetraMuster"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:18:12.604+00:00"/>
-               <source value="#2rbDQhhdBOgsUPDF"/>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
             </meta>
             <identifier>
@@ -972,51 +798,17 @@ Schmerz 5
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/PractitionerRole/1-Notarzt"/>
+      <fullUrl value="http://test.fhir.ch/r4/PractitionerRole/1-SaniPetraMuster"/>
       <resource>
          <PractitionerRole xmlns="http://hl7.org/fhir">
-            <id value="1-Notarzt"/>
+            <id value="1-SaniPetraMuster"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:19:11.690+00:00"/>
-               <source value="#lcVVknEDwb6HvQsx"/>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitionerrole"/>
             </meta>
             <practitioner>
-               <reference value="Practitioner/1-Notarzt"/>
+               <reference value="Practitioner/1-SaniPetraMuster"/>
             </practitioner>
             <code>
-               <coding>
-                  <system value="http://snomed.info/sct"/>
-                  <code value="309343006"/>
-                  <display value="Physician"/>
-               </coding>
-            </code>
-         </PractitionerRole>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/PractitionerRole/1-Rettungssanitaeterin"/>
-      <resource>
-         <PractitionerRole xmlns="http://hl7.org/fhir">
-            <id value="1-Rettungssanitaeterin"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:19:17.405+00:00"/>
-               <source value="#eSDDeLgg8c452iwS"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitionerrole"/>
-            </meta>
-            <practitioner>
-               <reference value="Practitioner/1-Rettungssanitaeterin"/>
-            </practitioner>
-            <code>
-               <!-- CH-EPR-Term -->
-               <!--<coding>
-                  <system value="urn:oid:2.16.756.5.30.1.127.3.10.9"/>
-                  <code value="01500"/>
-                  <display value="Rettungssanitäterin/Rettungssanitäter"/>
-               </coding>-->
-               <!-- CDA-Beispiel -->
                <coding>
                   <system value="http://snomed.info/sct"/>
                   <code value="223366009"/>
@@ -1034,14 +826,258 @@ Schmerz 5
       </resource>
    </entry>
    <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-NotarztHansNotarzt"/>
+      <resource>
+         <Practitioner xmlns="http://hl7.org/fhir">
+            <id value="1-NotarztHansNotarzt"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.51.1.3"/>
+               <value value="7601000028105"/>
+            </identifier>
+            <name>
+               <family value="Notarzt"/>
+               <given value="Hans"/>
+            </name>
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/PractitionerRole/1-NotarztHansNotarzt"/>
+      <resource>
+         <PractitionerRole xmlns="http://hl7.org/fhir">
+            <id value="1-NotarztHansNotarzt"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitionerrole"/>
+            </meta>
+            <practitioner>
+               <reference value="Practitioner/1-NotarztHansNotarzt"/>
+            </practitioner>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="309343006"/>
+                  <display value="Physician"/>
+               </coding>
+            </code>
+         </PractitionerRole>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-TeamMemberPetraMuster"/>
+      <resource>
+         <Practitioner xmlns="http://hl7.org/fhir">
+            <id value="1-TeamMemberPetraMuster"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+            </meta>
+            <!-- cdachems-dataelement-281 GLN Teammitglied -->
+            <identifier>
+               <system value="urn:oid:2.51.1.3"/>
+               <value value="7601003330434"/>
+               <assigner>
+                  <reference value="Organization/1-TeamRettungsdienst"/>
+               </assigner>
+            </identifier>
+            <name>
+               <family value="Muster"/>
+               <given value="Petra"/>
+            </name>
+            <telecom>
+               <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
+                  <valueCode value="NA"/>
+               </extension>
+            </telecom>
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-TeamMemberHansBeispiel"/>
+      <resource>
+         <Practitioner xmlns="http://hl7.org/fhir">
+            <id value="1-TeamMemberHansBeispiel"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+            </meta>
+            <!-- cdachems-dataelement-281 GLN Teammitglied -->
+            <identifier>
+               <system value="urn:oid:2.51.1.3"/>
+               <value value="7601000211804"/>
+               <assigner>
+                  <reference value="Organization/1-TeamRettungsdienst"/>
+               </assigner>
+            </identifier>
+            <name>
+               <family value="Beispiel"/>
+               <given value="Hans"/>
+            </name>
+            <telecom>
+               <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
+                  <valueCode value="NA"/>
+               </extension>
+            </telecom>
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-TeamMemberHansNotarzt"/>
+      <resource>
+         <Practitioner xmlns="http://hl7.org/fhir">
+            <id value="1-TeamMemberHansNotarzt"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+            </meta>
+            <!-- cdachems-dataelement-281 GLN Teammitglied -->
+            <identifier>
+               <system value="urn:oid:2.51.1.3"/>
+               <value value="7601000028105"/>
+               <assigner>
+                  <reference value="Organization/1-TeamRettungsdienst"/>
+               </assigner>
+            </identifier>
+            <name>
+               <family value="Notarzt"/>
+               <given value="Hans"/>
+            </name>
+            <telecom>
+               <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
+                  <valueCode value="NA"/>
+               </extension>
+            </telecom>
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Organization/1-Rettungsdienst"/>
+      <resource>
+         <Organization xmlns="http://hl7.org/fhir">
+            <id value="1-Rettungsdienst"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
+            </meta>
+            <!-- cdachems-dataelement-61 aufgebotene Organisation -->
+            <identifier>
+               <system value="urn:oid:2.51.1.3"/>
+               <value value="7601002156363"/>
+            </identifier>
+            <!-- cdachems-dataelement-384 aufgebotene Organisation -->
+            <name value="Rettungsdienst Schutz und Rettung Zürich"/>
+         </Organization>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Organization/1-TeamRettungsdienst"/>
+      <resource>
+         <Organization xmlns="http://hl7.org/fhir">
+            <id value="1-TeamRettungsdienst"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.51.1.3"/>
+               <value value="7601002156363"/>
+            </identifier>
+            <name value="Rettungsdienst Schutz und Rettung Zürich"/>
+            <telecom>
+               <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
+                  <valueCode value="NA"/>
+               </extension>
+            </telecom>
+            <address>
+               <line value="Bahnhofquai 3, Amtshaus I"/>
+               <city value="Zürich"/>
+               <postalCode value="8001"/>
+               <country value="CH"/>
+            </address>
+         </Organization>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/ServiceRequest/1-AufbietendeOrganisation"/>
+      <resource>
+         <ServiceRequest xmlns="http://hl7.org/fhir">
+            <id value="1-AufbietendeOrganisation"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-servicerequest"/>
+            </meta>
+            <contained>
+               <Organization xmlns="http://hl7.org/fhir">
+                  <id value="informant"/>
+                  <!-- cdachems-dataelement-60 aufbietende Organisation (informant.assignedEntity) -->
+                  <identifier>
+                     <system value="urn:oid:2.51.1.3"/>
+                     <value value="7601002156370"/>
+                  </identifier>
+               </Organization>
+            </contained>
+            <status value="completed"/>
+            <intent value="order"/>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <requester>
+               <reference value="#informant"/>
+            </requester>
+            <insurance>
+               <reference value="Coverage/1-CoveragePeterMuster"/>
+            </insurance>
+         </ServiceRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Location/1-Einsatzort"/>
+      <resource>
+         <Location xmlns="http://hl7.org/fhir">
+            <id value="1-Einsatzort"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
+            </meta>
+            <name value="Waldrand"/>
+            <!-- cdachems-dataelement-175 Einsatzort Postadresse (eCH-0010) -->
+            <address>
+               <city value="Zürich"/>
+               <postalCode value="8044"/>
+               <country value="CH"/>
+            </address>
+            <!-- cdachems-dataelement-28 Koordinaten Einsatzort -->
+            <position>
+               <longitude value="8.553192"/>
+               <latitude value="47.392115"/>
+            </position>
+         </Location>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Location/1-Zielort"/>
+      <resource>
+         <Location xmlns="http://hl7.org/fhir">
+            <id value="1-Zielort"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
+            </meta>
+            <!-- cdachems-dataelement-222 GLN Zielort -->
+            <identifier>
+               <system value="urn:oid:2.51.1.3"/>
+               <value value="7601002155939"/>
+            </identifier>
+            <name value="Universitätsspital Zürich, Notfall"/>
+            <address>
+               <line value="Rämistrasse 100"/>
+               <city value="Zürich"/>
+               <postalCode value="8091"/>
+               <country value="Switzerland"/>
+            </address>
+         </Location>
+      </resource>
+   </entry>
+   <entry>
       <fullUrl value="http://test.fhir.ch/r4/Observation/1-Alarm"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-Alarm"/>
             <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:11:26.845+00:00"/>
-               <source value="#HpZib4nmPby7nNgM"/>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
             <status value="final"/>
@@ -1059,14 +1095,143 @@ Schmerz 5
       </resource>
    </entry>
    <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Disposition"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="1-Disposition"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
+            </meta>
+            <status value="final"/>
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
+            <code>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+                  <code value="1000034"/>
+                  <display value="disposition"/>
+               </coding>
+            </code>
+            <!-- cdachems-dataelement-286 Statuszeit -->
+            <valueDateTime value="2016-12-10T11:11:00.000+01:00"/>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Rollout"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="1-Rollout"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
+            </meta>
+            <status value="final"/>
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
+            <code>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+                  <code value="1000035"/>
+                  <display value="rollout"/>
+               </coding>
+            </code>
+            <!-- cdachems-dataelement-286 Statuszeit -->
+            <valueDateTime value="2016-12-10T11:13:00.000+01:00"/>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ArrivalOnScene"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="1-ArrivalOnScene"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
+            </meta>
+            <status value="final"/>
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
+            <code>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+                  <code value="1000036"/>
+                  <display value="arrival on scene"/>
+               </coding>
+            </code>
+            <!-- cdachems-dataelement-286 Statuszeit -->
+            <valueDateTime value="2016-12-10T11:17:00.000+01:00"/>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ArrivalPatient"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="1-ArrivalPatient"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
+            </meta>
+            <status value="final"/>
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
+            <code>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+                  <code value="1000037"/>
+                  <display value="arrival patient"/>
+               </coding>
+            </code>
+            <!-- cdachems-dataelement-286 Statuszeit -->
+            <valueDateTime value="2016-12-10T11:22:00.000+01:00"/>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-DepartureFromScene"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="1-DepartureFromScene"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
+            </meta>
+            <status value="final"/>
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
+            <code>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+                  <code value="1000038"/>
+                  <display value="departure from scene"/>
+               </coding>
+            </code>
+            <!-- cdachems-dataelement-286 Statuszeit -->
+            <valueDateTime value="2016-12-10T11:48:00.000+01:00"/>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ArrivalAtTarget"/>
+      <resource>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="1-ArrivalAtTarget"/>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
+            </meta>
+            <status value="final"/>
+            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
+            <code>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+                  <code value="1000039"/>
+                  <display value="arrival at target"/>
+               </coding>
+            </code>
+            <!-- cdachems-dataelement-286 Statuszeit -->
+            <valueDateTime value="2016-12-10T11:54:00.000+01:00"/>
+         </Observation>
+      </resource>
+   </entry>
+   <entry>
       <fullUrl value="http://test.fhir.ch/r4/Observation/1-Anamnese"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-Anamnese"/>
             <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:11:29.391+00:00"/>
-               <source value="#eLaoBFX53jZ4Iqm1"/>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesisevent"/>
             </meta>
             <status value="final"/>
@@ -1090,161 +1255,30 @@ Schmerz 5
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ArrivalAtTarget"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Symptome"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-ArrivalAtTarget"/>
+            <id value="1-Symptome"/>
             <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:11:34.402+00:00"/>
-               <source value="#vhfmdxw3myNDxE4F"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
-            </meta>
-            <status value="final"/>
-            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
-            <code>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
-                  <code value="1000039"/>
-                  <display value="arrival at target"/>
-               </coding>
-            </code>
-            <!-- cdachems-dataelement-286 Statuszeit -->
-            <valueDateTime value="2016-12-10T11:54:00.000+01:00"/>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ArrivalOnScene"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-ArrivalOnScene"/>
-            <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:11:41.942+00:00"/>
-               <source value="#UhcYRyfFhJxAtKC2"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
-            </meta>
-            <status value="final"/>
-            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
-            <code>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
-                  <code value="1000036"/>
-                  <display value="arrival on scene"/>
-               </coding>
-            </code>
-            <!-- cdachems-dataelement-286 Statuszeit -->
-            <valueDateTime value="2016-12-10T11:17:00.000+01:00"/>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ArrivalPatient"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-ArrivalPatient"/>
-            <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:11:42.690+00:00"/>
-               <source value="#l0CqhTa7uYaa8uPr"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
-            </meta>
-            <status value="final"/>
-            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
-            <code>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
-                  <code value="1000037"/>
-                  <display value="arrival patient"/>
-               </coding>
-            </code>
-            <!-- cdachems-dataelement-286 Statuszeit -->
-            <valueDateTime value="2016-12-10T11:22:00.000+01:00"/>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-DepartureFromScene"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-DepartureFromScene"/>
-            <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:11:48.273+00:00"/>
-               <source value="#TuXjzETCtaAJ826H"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
-            </meta>
-            <status value="final"/>
-            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
-            <code>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
-                  <code value="1000038"/>
-                  <display value="departure from scene"/>
-               </coding>
-            </code>
-            <!-- cdachems-dataelement-286 Statuszeit -->
-            <valueDateTime value="2016-12-10T11:48:00.000+01:00"/>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Diagnose"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-Diagnose"/>
-            <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:11:53.050+00:00"/>
-               <source value="#yOr7H55CNvignDK7"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-diagnosis"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesissymptom"/>
             </meta>
             <status value="final"/>
             <code>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
-                  <code value="2931005"/>
-                  <display value="Verdachtsdiagnose"/>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="404684003"/>
+                  <display value="Clinical finding (finding)"/>
                </coding>
             </code>
-            <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
-            <!-- cdachems-dataelement-488 Ersteller Diagnose-->
-            <performer>
-               <reference value="Practitioner/1-Notarzt"/>
-            </performer>
+            <!-- cdachems-dataelement-468 Symptom, frei -->
             <valueCodeableConcept>
                <coding>
-                  <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
-                  <code value="I21.0"/>
-                  <display value="ST elevation (STEMI) myocardial infarction of anterior wall"/>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="162408000"/>
+                  <display value="General symptom description (finding)"/>
                </coding>
+               <text value="Starke Schmerzen in der Brust und im linken Oberarm verspürt"/>
             </valueCodeableConcept>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Disposition"/>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-Disposition"/>
-            <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:11:59.954+00:00"/>
-               <source value="#EXLg11Mi0az0gLUh"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
-            </meta>
-            <status value="final"/>
-            <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
-            <code>
-               <coding>
-                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
-                  <code value="1000034"/>
-                  <display value="disposition"/>
-               </coding>
-            </code>
-            <!-- cdachems-dataelement-286 Statuszeit -->
-            <valueDateTime value="2016-12-10T11:11:00.000+01:00"/>
          </Observation>
       </resource>
    </entry>
@@ -1254,9 +1288,6 @@ Schmerz 5
          <Observation xmlns="http://hl7.org/fhir">
             <id value="1-GCSBefund"/>
             <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-28T06:12:02.942+00:00"/>
-               <source value="#um4fL0hfBUbxJcNy"/>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-gcs"/>
             </meta>
             <status value="final"/>
@@ -1323,310 +1354,159 @@ Schmerz 5
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/ServiceRequest/1-AufbietendeOrganisation"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Diagnose"/>
       <resource>
-         <ServiceRequest xmlns="http://hl7.org/fhir">
-            <id value="1-AufbietendeOrganisation"/>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="1-Diagnose"/>
             <meta>
-               <versionId value="2"/>
-               <lastUpdated value="2020-02-26T11:34:54.197+00:00"/>
-               <source value="#EaE3VvSl3O1Gf9uT"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-servicerequest"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-diagnosis"/>
             </meta>
-            <contained>
-               <Organization xmlns="http://hl7.org/fhir">
-                  <id value="informant"/>
-                  <!-- cdachems-dataelement-60 aufbietende Organisation -->
-                  <identifier>
-                     <system value="urn:oid:2.51.1.3"/>
-                     <value value="7601002156370"/>
-                  </identifier>
-               </Organization>
-            </contained>
-            <status value="completed"/>
-            <intent value="order"/>
-            <subject>
-               <reference value="Patient/1-PeterMuster"/>
-            </subject>
-            <requester>
-               <reference value="#informant"/>
-            </requester>
-            <insurance>
-               <reference value="Coverage/1-CoveragePeterMuster"/>
-            </insurance>
-         </ServiceRequest>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+                  <code value="2931005"/>
+                  <display value="Verdachtsdiagnose"/>
+               </coding>
+            </code>
+            <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
+            <!-- cdachems-dataelement-488 Ersteller Diagnose-->
+            <performer>
+               <reference value="Practitioner/1-NotarztHansNotarzt"/>
+            </performer>
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://fhir.de/CodeSystem/dimdi/icd-10-gm"/>
+                  <code value="I21.0"/>
+                  <display value="ST elevation (STEMI) myocardial infarction of anterior wall"/>
+               </coding>
+            </valueCodeableConcept>
+         </Observation>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Location/1-Einsatzort"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ZustandUebergabe"/>
       <resource>
-         <Location xmlns="http://hl7.org/fhir">
-            <id value="1-Einsatzort"/>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="1-ZustandUebergabe"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:25:40.055+00:00"/>
-               <source value="#Gt90iVkI9D0DtD67"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-conditionchange"/>
             </meta>
-            <name value="Waldrand"/>
-            <!-- cdachems-dataelement-175 Einsatzort Postadresse (eCH-0010) -->
-            <address>
-               <city value="Zürich"/>
-               <postalCode value="8044"/>
-               <country value="CH"/>
-            </address>
-            <!-- cdachems-dataelement-28 Koordinaten Einsatzort -->
-            <position>
-               <longitude value="8.553192"/>
-               <latitude value="47.392115"/>
-            </position>
-         </Location>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="75527-2"/>
+                  <display value="Vital status at discharge"/>
+               </coding>
+            </code>
+            <!-- cdachems-dataelement-24 Zustand bei Einsatzende-->
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+                  <code value="385425000"/>
+                  <display value="Improved"/>
+               </coding>
+            </valueCodeableConcept>
+         </Observation>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Location/1-Zielort"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-NACAUebergabe"/>
       <resource>
-         <Location xmlns="http://hl7.org/fhir">
-            <id value="1-Zielort"/>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="1-NACAUebergabe"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:25:59.732+00:00"/>
-               <source value="#wPe3oJXwEE5J42xC"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-naca"/>
             </meta>
-            <!-- cdachems-dataelement-222 GLN Zielort -->
-            <identifier>
-               <system value="urn:oid:2.51.1.3"/>
-               <value value="7601002155939"/>
-            </identifier>
-            <name value="Universitätsspital Zürich, Notfall"/>
-            <address>
-               <line value="Rämistrasse 100"/>
-               <city value="Zürich"/>
-               <postalCode value="8091"/>
-               <country value="Switzerland"/>
-            </address>
-         </Location>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="88076-5"/>
+                  <display value="Injury severity score NACA"/>
+               </coding>
+            </code>
+            <!-- cdachems-dataelement-23 NACA-->
+            <valueCodeableConcept>
+               <coding>
+                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+                  <code value="III"/>
+                  <display value="mässige bis schwere Störung"/>
+               </coding>
+            </valueCodeableConcept>
+         </Observation>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-BetreuerHansBeispiel"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/1-GCSUebergabe"/>
       <resource>
-         <Practitioner xmlns="http://hl7.org/fhir">
-            <id value="1-BetreuerHansBeispiel"/>
+         <Observation xmlns="http://hl7.org/fhir">
+            <id value="1-GCSUebergabe"/>
             <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:13:10.289+00:00"/>
-               <source value="#vZbf10v4oS6ykNCA"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-gcs"/>
             </meta>
-            <!-- cdachems-dataelement-281 GLN Teammitglied -->
-            <identifier>
-               <system value="urn:oid:2.51.1.3"/>
-               <value value="7601000211804"/>
-               <assigner>
-                  <reference value="Organization/1-TeamRettungsdienst"/>
-               </assigner>
-            </identifier>
-            <name>
-               <family value="Beispiel"/>
-               <given value="Hans"/>
-            </name>
-            <telecom>
-               <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
-                  <valueCode value="NA"/>
-               </extension>
-            </telecom>
-            <address>
-               <line value="Bahnhofquai 3, Amtshaus I"/>
-               <city value="Zürich"/>
-               <postalCode value="8001"/>
-               <country value="CH"/>
-            </address>
-         </Practitioner>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-BetreuerPetraMuster"/>
-      <resource>
-         <Practitioner xmlns="http://hl7.org/fhir">
-            <id value="1-BetreuerPetraMuster"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:13:48.833+00:00"/>
-               <source value="#R1bB8nSAqNUqzEzj"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
-            </meta>
-            <!-- cdachems-dataelement-281 GLN Teammitglied -->
-            <identifier>
-               <system value="urn:oid:2.51.1.3"/>
-               <value value="7601003330434"/>
-               <assigner>
-                  <reference value="Organization/1-TeamRettungsdienst"/>
-               </assigner>
-            </identifier>
-            <name>
-               <family value="Muster"/>
-               <given value="Petra"/>
-            </name>
-            <telecom>
-               <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
-                  <valueCode value="NA"/>
-               </extension>
-            </telecom>
-            <address>
-               <line value="Bahnhofquai 3, Amtshaus I"/>
-               <city value="Zürich"/>
-               <postalCode value="8001"/>
-               <country value="CH"/>
-            </address>
-         </Practitioner>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Practitioner/1-NotarztHansNotarzt"/>
-      <resource>
-         <Practitioner xmlns="http://hl7.org/fhir">
-            <id value="1-NotarztHansNotarzt"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:17:41.744+00:00"/>
-               <source value="#q8EgQlNYc0b0PoZJ"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
-            </meta>
-            <!-- cdachems-dataelement-281 GLN Teammitglied -->
-            <identifier>
-               <system value="urn:oid:2.51.1.3"/>
-               <value value="7601000028105"/>
-               <assigner>
-                  <reference value="Organization/1-TeamRettungsdienst"/>
-               </assigner>
-            </identifier>
-            <name>
-               <family value="Notarzt"/>
-               <given value="Hans"/>
-            </name>
-            <telecom>
-               <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
-                  <valueCode value="NA"/>
-               </extension>
-            </telecom>
-            <address>
-               <line value="Bahnhofquai 3, Amtshaus I"/>
-               <city value="Zürich"/>
-               <postalCode value="8001"/>
-               <country value="CH"/>
-            </address>
-         </Practitioner>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Organization/1-InformationRecipientUSZ"/>
-      <resource>
-         <Organization xmlns="http://hl7.org/fhir">
-            <id value="1-InformationRecipientUSZ"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:23:05.172+00:00"/>
-               <source value="#2WQt8r5YRX9myiSA"/>
-               <profile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-            </meta>
-            <identifier>
-               <system value="urn:oid:2.51.1.3"/>
-               <value value="7601002155939"/>
-            </identifier>
-            <name value="USZ"/>
-            <address>
-               <line value="Rämistrasse 100"/>
-               <city value="Zürich"/>
-               <postalCode value="8091"/>
-               <country value="CH"/>
-            </address>
-         </Organization>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Organization/1-Rettungsdienst"/>
-      <resource>
-         <Organization xmlns="http://hl7.org/fhir">
-            <id value="1-Rettungsdienst"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:23:30.659+00:00"/>
-               <source value="#gSWR7ScK7E1Zv1Xi"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
-            </meta>
-            <!-- cdachems-dataelement-61 aufgebotene Organisation -->
-            <identifier>
-               <system value="urn:oid:2.51.1.3"/>
-               <value value="7601002156363"/>
-            </identifier>
-            <!-- cdachems-dataelement-384 aufgebotene Organisation -->
-            <name value="Rettungsdienst Schutz und Rettung Zürich"/>
-         </Organization>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Organization/1-TeamRettungsdienst"/>
-      <resource>
-         <Organization xmlns="http://hl7.org/fhir">
-            <id value="1-TeamRettungsdienst"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:23:51.780+00:00"/>
-               <source value="#g1ou3d4gsDlmHUIq"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
-            </meta>
-            <identifier>
-               <system value="urn:oid:2.51.1.3"/>
-               <value value="7601002156363"/>
-            </identifier>
-            <name value="Rettungsdienst Schutz und Rettung Zürich"/>
-            <telecom>
-               <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
-                  <valueCode value="NA"/>
-               </extension>
-            </telecom>
-            <address>
-               <line value="Bahnhofquai 3, Amtshaus I"/>
-               <city value="Zürich"/>
-               <postalCode value="8001"/>
-               <country value="CH"/>
-            </address>
-         </Organization>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Coverage/1-CoveragePeterMuster"/>
-      <resource>
-         <Coverage xmlns="http://hl7.org/fhir">
-            <id value="1-CoveragePeterMuster"/>
-            <meta>
-               <versionId value="1"/>
-               <lastUpdated value="2020-02-26T10:21:56.221+00:00"/>
-               <source value="#IFwsGqswVtKfZe9P"/>
-               <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-coverage"/>
-            </meta>
-            <contained>
-               <Organization xmlns="http://hl7.org/fhir">
-                  <id value="kpt"/>
-                  <name value="KPT"/>
-               </Organization>
-            </contained>
-            <!-- cdachems-dataelement-486 Nummer Versichertenkarte -->
-            <identifier>
-               <system value="urn:oid:2.16.756.5.30.1.123.100.1.1.1"/>
-               <value value="80756003760012390001"/>
-            </identifier>
-            <status value="active"/>
-            <beneficiary>
-               <reference value="Patient/1-PeterMuster"/>
-            </beneficiary>
-            <!-- cdachems-dataelement-525 Versicherung EMS -->
-            <payor>
-               <reference value="#kpt"/>
-            </payor>
-         </Coverage>
+            <status value="final"/>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="9269-2"/>
+                  <display value="Glasgow coma score total"/>
+               </coding>
+            </code>
+            <effectiveDateTime value="2016-12-10T12:03:00.000+01:00"/>
+            <!-- cdachems-dataelement-458 GCS-Gesamtscore-->
+            <valueQuantity>
+               <value value="15"/>
+               <system value="http://unitsofmeasure.org"/>
+               <code value="{score}"/>
+            </valueQuantity>
+            <!-- cdachems-dataelement-461 GCS-motorische Kommunikation -->
+            <component>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="9268-4"/>
+                     <display value="Glasgow coma score motor"/>
+                  </coding>
+               </code>
+               <valueQuantity>
+                  <value value="6"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="{score}"/>
+               </valueQuantity>
+            </component>
+            <!-- cdachems-dataelement-460 GCS-verbale Kommunikation-->
+            <component>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="9270-0"/>
+                     <display value="Glasgow coma score verbal"/>
+                  </coding>
+               </code>
+               <valueQuantity>
+                  <value value="5"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="{score}"/>
+               </valueQuantity>
+            </component>
+            <!-- cdachems-dataelement GCS-Augenöffnung 459 -->
+            <component>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="9267-6"/>
+                     <display value="Glasgow coma score eye opening"/>
+                  </coding>
+               </code>
+               <valueQuantity>
+                  <value value="4"/>
+                  <system value="http://unitsofmeasure.org"/>
+                  <code value="{score}"/>
+               </valueQuantity>
+            </component>
+         </Observation>
       </resource>
    </entry>
 </Bundle>

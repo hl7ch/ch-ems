@@ -11,7 +11,7 @@
     </identifier>
     <status value="finished"/>
     <class>
-        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
         <code value="EMER"/>
         <display value="emergency"/>
     </class>
@@ -38,7 +38,7 @@
             </coding>
         </type>
         <individual>
-            <reference value="Practitioner/1-BetreuerPetraMuster"/>
+            <reference value="Practitioner/1-TeamMemberPetraMuster"/>
         </individual>
     </participant>
     <participant>
@@ -56,7 +56,7 @@
             </coding>
         </type>
         <individual>
-            <reference value="Practitioner/1-BetreuerHansBeispiel"/>
+            <reference value="Practitioner/1-TeamMemberHansBeispiel"/>
         </individual>
     </participant>
     <participant>
@@ -74,7 +74,7 @@
             </coding>
         </type>
         <individual>
-            <reference value="Practitioner/1-NotarztHansNotarzt"/>
+            <reference value="Practitioner/1-TeamMemberHansNotarzt"/>
         </individual>
     </participant>
     <!-- cdachems-dataelement-54: Einsatzdatum -->

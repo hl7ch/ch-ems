@@ -42,7 +42,7 @@
             <short value="Role mission time"/>
             <binding>
                 <strength value="preferred"/>
-                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-roleMissionTime"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-missionTimeRole"/>
             </binding>
         </element>
         <element id="Observation.valueDateTime">

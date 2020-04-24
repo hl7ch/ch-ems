@@ -5,22 +5,22 @@
         <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-coverage"/>
     </meta>
     <contained>
-        <Organization>
-            <id value="kpt" />
-            <name value="KPT" />
+        <Organization xmlns="http://hl7.org/fhir">
+            <id value="kpt"/>
+            <name value="KPT"/>
         </Organization>
     </contained>
-    <!-- cdachems-dataelement-486 Nummer Versichertenkarte -->
+    <!-- cdachems-dataelement-486 Nummer Versichertenkarte (participant.associatedEntity.id) -->
     <identifier>
-        <system value="urn:oid:2.16.756.5.30.1.123.100.1.1.1" />
-        <value value="80756003760012390001" />
+        <system value="urn:oid:2.16.756.5.30.1.123.100.1.1.1"/>
+        <value value="80756003760012390001"/>
     </identifier>
     <status value="active"/>
     <beneficiary>
-        <reference value="Patient/1-PeterMuster"/>    
+        <reference value="Patient/1-PeterMuster"/>
     </beneficiary>
-    <!-- cdachems-dataelement-525 Versicherung EMS -->
+    <!-- cdachems-dataelement-525 Versicherung EMS (participant.associatedEntity.scopintOrganization) -->
     <payor>
-        <reference value="#kpt"/>    
+        <reference value="#kpt"/>
     </payor>
-</Coverage>    
+</Coverage>
