@@ -1,0 +1,14 @@
+<Location xmlns="http://hl7.org/fhir">
+    <id value="2-Einsatzort"/>
+    <meta>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location"/>
+    </meta>
+    <name value="Sternen Oerlikon"/>
+    <!-- cdachems-dataelement-175 Einsatzort Postadresse (eCH-0010) -->
+    <address>
+        <line value="Schaffhauserstr. 350"/>
+        <city value="Zürich"/>
+        <postalCode value="8050"/>
+        <country value="CH"/>
+    </address>
+</Location>

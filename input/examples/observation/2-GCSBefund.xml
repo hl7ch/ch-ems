@@ -1,0 +1,66 @@
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="2-GCSBefund"/>
+    <meta>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-gcs"/>
+    </meta>
+    <status value="final"/>
+    <code>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="9269-2"/>
+            <display value="Glasgow coma score total"/>
+        </coding>
+    </code>
+    <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
+    <!-- cdachems-dataelement-109 GCS-Gesamtscore-->
+    <valueQuantity>
+        <value value="9"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="{score}"/>
+    </valueQuantity>
+    <!-- cdachems-dataelement-112 GCS-motorische Kommunikation -->
+    <component>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="9268-4"/>
+                <display value="Glasgow coma score motor"/>
+            </coding>
+        </code>
+        <valueQuantity>
+            <value value="3"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{score}"/>
+        </valueQuantity>
+    </component>
+    <!-- cdachems-dataelement-111 GCS-verbale Kommunikation-->
+    <component>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="9270-0"/>
+                <display value="Glasgow coma score verbal"/>
+            </coding>
+        </code>
+        <valueQuantity>
+            <value value="3"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{score}"/>
+        </valueQuantity>
+    </component>
+    <!-- cdachems-dataelement GCS-Augenöffnung 110 -->
+    <component>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="9267-6"/>
+                <display value="Glasgow coma score eye opening"/>
+            </coding>
+        </code>
+        <valueQuantity>
+            <value value="3"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{score}"/>
+        </valueQuantity>
+    </component>
+</Observation>

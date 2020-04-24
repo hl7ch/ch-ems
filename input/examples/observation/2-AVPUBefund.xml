@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Observation xmlns="http://hl7.org/fhir">
-    <id value="AVPUBefund"/>
+    <id value="2-AVPUBefund"/>
     <meta>
         <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-avpu"/>
     </meta>
@@ -13,5 +13,5 @@
         </coding>
     </code>
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
-    <valueString value="A"/>
+    <valueString value="V"/>
 </Observation>
