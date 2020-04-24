@@ -47,10 +47,10 @@ Das Team kehrt mit dem Fahrzeug auf die Basis zurück, führt die Retablierung d
 Für das Rettungsdienstprotokoll werden 2 Use cases beschrieben:
 
 **1. Primäreinsatz mit identifizierbarem Patienten:**   
-Einsatz, in dem der Rettungsdienst den ersten Kontakt mit dem Patienten hat und diesen auf Grund eines Ausweises, auf Grund einer Aussage des Patienten o.Ä. eindeutig identifizieren kann. Häufig handelt es sich hierbei um Notfalleinsätze. Primäreinsätze sind für den Rettungsdienst mehrheitlich nicht planbar. 
+Einsatz, in dem der Rettungsdienst den ersten Kontakt mit dem Patienten hat und diesen auf Grund eines Ausweises, auf Grund einer Aussage des Patienten o.Ä. **eindeutig identifizieren** kann. Häufig handelt es sich hierbei um Notfalleinsätze. Primäreinsätze sind für den Rettungsdienst mehrheitlich nicht planbar. 
 
 **2. Primäreinsatz mit unbekanntem Patienten:**   
-Einsatz, in dem das Team des Rettungsdienstes bis zum Abschluss des Einsatzes den Patienten nicht identifizieren kann. Gründe dafür können z.B. sein, dass sich die Person nicht äussern kann und keine Ausweise auf sich trägt oder dass im Falle eines Grossereignisses die Identifikation der Verletzen auf dem Schadenplatz mangels Zeit nicht erfolgen konnte.
+Einsatz, in dem das Team des Rettungsdienstes bis zum Abschluss des Einsatzes den Patienten **nicht identifizieren** kann. Gründe dafür können z.B. sein, dass sich die Person nicht äussern kann und keine Ausweise auf sich trägt oder dass im Falle eines Grossereignisses die Identifikation der Verletzen auf dem Schadenplatz mangels Zeit nicht erfolgen konnte.
 
 Beide Use Cases sind frei erfunden. Sie dienen allein der Illustration, wie Angaben, die im Verlauf eines Einsatzes erfahren werden, im Datensatz des CH-EMS abgebildet werden. Die Use Cases können deshalb Angaben enthalten, die einsatztaktisch oder medizinisch nicht sinnvoll sind. Die Beschreibung der beiden Use Cases enthält Daten, die in den Beispieldaten des Datensatzes soweit möglich wieder aufgenommen werden. Falls bei einem Datensatz-Attribut mehr als ein Beispiel aufgeführt wird, so betreffen diese einen oder beide der Use Cases. Die Beschreibung der Use Cases ist weniger detailliert als die Beispieldaten. Dies bedeutet, dass es Beispieldaten gibt, die in beiden oder nur in einem der beiden Use Cases erwähnt werden, aber auch Daten, die in den Use Cases gar nicht erwähnt werden.
 
@@ -74,7 +74,7 @@ Mit diesem Schritt ist der Einsatz für das Team vollständig abgeschlossen.
 **Umsetzungsbeispiele:**
 
 * Elektronisch: [1-Einsatzprotokoll (xml)](Bundle-1-Einsatzprotokoll.xml.html)   
-* Elektronisch: 1b-Einsatzprotokoll (xml)
+* Elektronisch: [1b-Einsatzprotokoll (xml)](Bundle-1b-Einsatzprotokoll.xml.html)
 
 #### Use case 2 - Primäreinsatz mit unbekanntem Patienten
 Am 10.12.2016 um 12.09 Uhr erhält die Sanitätsnotrufzentrale Zürich (GLN 7601002156370) einen Notruf (Status ALARM). Es wird gemeldet, dass eine unbekannte Person auf der Strasse zusammengebrochen und nicht ansprechbar ist, aber atmet und deshalb Nothilfe benötigt wird. Als Einsatzort wird 8050 Zürich, Sternen Oerlikon, Schaffhauserstr. 350, angegeben. Genauere Angaben sind zum Zeitpunkt des Anrufs nicht vorhanden.

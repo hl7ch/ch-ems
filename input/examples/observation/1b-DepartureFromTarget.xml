@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="1b-DepartureFromTarget"/>
+    <meta>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
+    </meta>
+    <status value="final"/>
+    <!-- cdachems-dataelement-278 : Bedeutung der Statuszeit -->
+    <code>
+        <coding>
+            <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+            <code value="1000041"/>
+            <display value="departure from target"/>
+        </coding>
+    </code>
+    <!-- cdachems-dataelement-286 Statuszeit -->
+    <valueDateTime value="2016-12-10T12:25:00.000+01:00"/>
+</Observation>

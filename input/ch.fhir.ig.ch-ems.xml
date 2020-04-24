@@ -54,9 +54,25 @@
     </resource>
     <resource>
       <reference>
+        <reference value="Bundle/1b-Einsatzprotokoll"/>
+      </reference>
+      <name value="1b Einsatzprotokoll"/>
+      <description value="Example for Bundle"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="Composition/1-Einsatzprotokoll"/>
       </reference>
       <name value="1 Einsatzprotokoll"/>
+      <description value="Example for Composition"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Composition/1b-Einsatzprotokoll"/>
+      </reference>
+      <name value="1b Einsatzprotokoll"/>
       <description value="Example for Composition"/>
       <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition"/>
     </resource>
@@ -128,7 +144,7 @@
       <reference>
         <reference value="Observation/1-ArrivalPatient"/>
       </reference>
-      <name value="1 ArrivalPatient"/>
+      <name value="1 Arrival Patient"/>
       <description value="Example for Observation"/>
       <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
     </resource>
@@ -203,6 +219,22 @@
       <name value="1 Zustand Uebergabe"/>
       <description value="Example for Observation"/>
       <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-conditionchange"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1b-DepartureFromTarget"/>
+      </reference>
+      <name value="1b Departure from target"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/1b-OperationalReadiness"/>
+      </reference>
+      <name value="1b Operational readiness"/>
+      <description value="Example for Observation"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
     </resource>
     <resource>
       <reference>

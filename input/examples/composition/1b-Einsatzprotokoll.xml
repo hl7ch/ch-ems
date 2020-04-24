@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="1b-Einsatzprotokoll"/>
+  <meta>
+    <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition"/>
+  </meta>
+  <language value="de-CH"/>
+  <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
+    <valueIdentifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:uuid:658ab5ea-1f63-11e6-b6ba-3e1d05defe78"/>
+    </valueIdentifier>
+  </extension>
+  <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
+    <valueUnsignedInt value="2"/>
+  </extension>
+  <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient">
+    <valueReference>
+      <reference value="Practitioner/1-InformationRecipientSpezialarzt"/>
+    </valueReference>
+  </extension>
+  <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient">
+    <valueReference>
+      <reference value="Organization/1-InformationRecipientUSZ"/>
+    </valueReference>
+  </extension>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:b5e2bd3b-f670-4b0c-a62d-38303baac826"/>
+  </identifier>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="67796-3"/>
+      <display value="EMS Patient Care Report"/>
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="371535009"/>
+      <display value="Transfer summary report"/>
+    </coding>
+  </type>
+  <!-- CDA: recordTarget -->
+  <subject>
+    <reference value="Patient/1-PeterMuster"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/1-Einsatz"/>
+  </encounter>
+  <date value="2016-12-10T12:40:00.000+01:00"/>
+  <!-- CDA: author.assignedAuthor -->
+  <author>
+    <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time">
+      <valueDateTime value="2016-12-10T12:13:05.000+01:00"/>
+    </extension>
+    <reference value="Practitioner/1-SaniPetraMuster"/>
+  </author>
+  <!-- CDA: author.functionCode -->
+  <author>
+    <reference value="PractitionerRole/1-SaniPetraMuster"/>
+  </author>
+  <!-- CDA: author.assignedAuthor -->
+  <author>
+    <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time">
+      <valueDateTime value="2016-12-10T12:13:05.000+01:00"/>
+    </extension>
+    <reference value="Practitioner/1-NotarztHansNotarzt"/>
+  </author>
+  <!-- CDA: author.functionCode -->
+  <author>
+    <reference value="PractitionerRole/1-NotarztHansNotarzt"/>
+  </author>
+  <title value="Einsatzprotokoll Rettungsdienst"/>
+  <confidentiality value="N">
+    <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="17621005"/>
+          <display value="Normal"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </confidentiality>
+  <!-- CDA: legalAutenticator -->
+  <attester>
+    <mode value="legal"/>
+    <time value="2016-12-10T12:40:00.000+01:00"/>
+    <party>
+      <reference value="Practitioner/1-SaniPetraMuster"/>
+    </party>
+  </attester>
+  <!-- CDA: custodian.assignedCustodian.representedCustodian -->
+  <!-- cdachems-dataelement-61 aufgebotene Organisation -->
+  <custodian>
+    <reference value="Organization/1-Rettungsdienst"/>
+  </custodian>
+  <!-- Section Einsatz -->
+  <section>
+    <title value="Einsatz"/>
+    <code>
+      <coding>
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <code value="1100001"/>
+        <display value="Einsatz"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <table>
+          <tbody>
+            <tr>
+              <th>Einsatz</th>
+            </tr>
+            <tr>
+              <td>Einsatzdatum</td>
+              <!-- cdachems-dataelement-54 -->
+              <td>10.12.2016</td>
+            </tr>
+            <tr>
+              <td>Einsatznummer</td>
+              <!-- cdachems-dataelement-54 -->
+              <td>S12345678</td>
+            </tr>
+            <tr>
+              <td>aufbietende Organisation</td>
+              <td>7601002156370 (SNZ)</td>
+            </tr>
+            <tr>
+              <td>augebotene Organisation</td>
+              <td>7601002156363 (Rettungsdienst Schutz &amp; Rettung Zürich)</td>
+            </tr>
+            <tr>
+              <td>Team</td>
+              <td>Petra Muster, GLN 7601003330434, Betreuerin 
+                <br/>
+                                 Hans Beispiel, GLN 7601000028105, Betreuer 
+              </td>
+            </tr>
+            <tr>
+              <td>Einsatzort</td>
+              <td>Zürich, Waldrand (47.392115, 8.553192)</td>
+            </tr>
+            <tr>
+              <td>Zielort</td>
+              <td>USZ Notfall</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tbody>
+            <tr>
+              <th>Alarm</th>
+              <th>Status DP</th>
+              <th>Status 1</th>
+              <th>Status 2</th>
+              <th>Kontakt Patient</th>
+              <th>Status 3</th>
+              <th>Status 4</th>
+              <th>Status 5</th>
+              <th>Status 6</th>
+            </tr>
+            <tr>
+              <th id="alarm">12.09</th>
+              <th id="disposition">12.11</th>
+              <th id="rollout">12.13</th>
+              <th id="arrivalonscene">12.17</th>
+              <th id="arrivalpatient">12.22</th>
+              <th id="departurefromscene">12.48</th>
+              <th id="arrivalattarget">12.54</th>
+              <th id="departurefromtarget">13.25</th>
+              <th id="operationalreadiness">13.40</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </text>
+    <entry>
+      <reference value="Encounter/1-Einsatz"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-Alarm"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-Disposition"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-Rollout"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-ArrivalOnScene"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-ArrivalPatient"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-DepartureFromScene"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-ArrivalAtTarget"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1b-DepartureFromTarget"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1b-OperationalReadiness"/>
+    </entry>
+  </section>
+  <!-- Section Adminstrativ -->
+  <section>
+    <title value="Administrativ"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <code value="1100003"/>
+        <display value="Administrativ"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <table>
+          <tbody>
+            <tr>
+              <th>Person/Organsiation</th>
+            </tr>
+            <tr>
+              <td>Ehefrau</td>
+              <td>Erika Muster</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </text>
+  </section>
+  <!-- Section Vorbehandlung -->
+  <section>
+    <title value="Vorbehandlung"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <code value="1100004"/>
+        <display value="Vorbehandlung"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span> - </span>
+      </div>
+    </text>
+  </section>
+  <!-- Section Anamnese -->
+  <section>
+    <title value="Anamnese"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <code value="1100005"/>
+        <display value="Anamnese"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <table>
+          <tbody>
+            <tr>
+              <th>Geschehen</th>
+            </tr>
+            <tr>
+              <td id="anamnesis">Hat sich beim Spazieren im Wald schlecht gefühlt und ist abgesessen.</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tbody>
+            <tr>
+              <th>Symptome</th>
+            </tr>
+            <tr>
+              <td id="symptom">Starke Schmerzen in der Brust und im linken Oberarm verspürt</td>
+            </tr>
+          </tbody>
+        </table>
+        <h4>Allergien</h4>
+        <ul>
+          <li>Baumpollen</li>
+          <li>bekannte Unverträglichkeitsreaktion auf einzelne Medikamente</li>
+        </ul>
+        <h4>preMedication</h4>
+        <ul>
+          <li>Aspirin cardio 100, 1 Tbl/Tag</li>
+        </ul>
+        <h4>Medizinische Vorgeschichte</h4>
+        <ul>
+          <li>Herzvorfall vor 4 Jahren, behandelt im Triemli, seit dem Aspirin cardio</li>
+        </ul>
+        <h4>Weitere</h4>
+        <ul>
+          <li>Seit dem Frühstück um ca.08:00 Uhr hat er nichts mehr gegessen</li>
+          <li>Peter Muster hat keine Patientenverfügung erstellt</li>
+          <li>es sind keine anderen medizinische Probleme bekannt</li>
+        </ul>
+      </div>
+    </text>
+    <entry>
+      <reference value="Observation/1-Anamnese"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-Symptome"/>
+    </entry>
+  </section>
+  <!-- Section Befund -->
+  <section>
+    <title value="Befund"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <code value="1100006"/>
+        <display value="Befund"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p> Blutdruck 120/80 mmHg gemessen am rechten Arm 
+          <br/>
+                           Schmerz 5                  
+          <br/>
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <th>GCS</th>
+            </tr>
+            <tr>
+              <td id="gcs1">Total 15 (Augenöffnung spontan 4/ verbale Antwort orientiert 5/ morot. Reaktion befolgt Antweisungen 6) um 12:25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </text>
+    <section>
+      <title value="Disability"/>
+      <!-- cdachems-dataelement-108 GCS -->
+      <entry>
+        <reference value="Observation/1-GCSBefund"/>
+      </entry>
+    </section>
+  </section>
+  <!-- Section Diagnosen -->
+  <section>
+    <title value="Diagnosen"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <code value="1100007"/>
+        <display value="Diagnosen"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <table>
+          <tbody>
+            <tr>
+              <th>Verdachtsdiagnose</th>
+            </tr>
+            <tr>
+              <td id="diagnose1">akuten transmuralen Myokardinfarkts der Vorderwand, ACS/STEMI VW</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </text>
+    <entry>
+      <reference value="Observation/1-Diagnose"/>
+    </entry>
+  </section>
+  <!-- Section Massnahmen -->
+  <section>
+    <title value="Massnahmen"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <code value="1100008"/>
+        <display value="Massnahmen"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span> Infusion gelegt und verabreichen ihm um 12:30 eine erste Dosis von 2 Hüben Nitrolingual-Spray </span>
+      </div>
+    </text>
+  </section>
+  <!-- Section Todesfall -->
+  <section>
+    <title value="Todesfall"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <code value="1100009"/>
+        <display value="Todesfall"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span> - </span>
+      </div>
+    </text>
+  </section>
+  <!-- Section Transport -->
+  <section>
+    <title value="Transport"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <code value="1100010"/>
+        <display value="Transport"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span> Fahrt mit Sondersignal ins USZ. </span>
+      </div>
+    </text>
+  </section>
+  <!-- Section Übergabe -->
+  <section>
+    <title value="Übergabe"/>
+    <code>
+      <coding>
+        <!-- TBD -->
+        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <code value="1100011"/>
+        <display value="Übergabe"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Schmerz 4</p>
+        <table>
+          <tbody>
+            <tr>
+              <th>GCS</th>
+            </tr>
+            <tr>
+              <td id="gcs2">15(4/5/6) um 13.03</td>
+            </tr>
+            <tr>
+              <th>NACA</th>
+            </tr>
+            <tr>
+              <td id="naca">NACA: III</td>
+            </tr>
+            <tr>
+              <th>Zustand</th>
+            </tr>
+            <tr>
+              <td id="statusdischarge">der Zustand des Patienten hat sich im Verlauf des Einsatzes verbessert</td>
+            </tr>
+          </tbody>
+        </table>
+        <p> Übergabe an USZ Wertsachenbeutel mit Portemonaie, Handy, Uhr, Schlüssel, Bargel sowie Wertsachenverzeichnis </p>
+      </div>
+    </text>
+    <entry>
+      <reference value="Observation/1-ZustandUebergabe"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-NACAUebergabe"/>
+    </entry>
+    <entry>
+      <reference value="Observation/1-GCSUebergabe"/>
+    </entry>
+  </section>
+  <!-- Section Bemerkungen -->
+  <section>
+    <title value="Kommentar"/>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="48767-8"/>
+        <display value="Annotation comment"/>
+      </coding>
+    </code>
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <span> - </span>
+      </div>
+    </text>
+  </section>
+</Composition>
