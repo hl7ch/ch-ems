@@ -3,9 +3,10 @@ This exchange format is defined as a document type that corresponds to a Bundle 
 
 {% include img.html img="document.png" caption="Emergency Medical Service protocol" width="40%" %}
 
-* [Profile Emergency Medical Service protocol](StructureDefinition-ch-ems-bundle.html)
+* Profile: 
+   * [Emergency Medical Service protocol](StructureDefinition-ch-ems-bundle.html)
 * Examples:
    * [1-Einsatzprotokoll (xml)](Bundle-1-Einsatzprotokoll.xml.html)   
-   * 1b-Einsatzprotokoll (xml)   
-   * 2-Einsatzprotokoll (xml)   
-   * 2b-Einsatzprotokoll (xml)   
+   * [1b-Einsatzprotokoll (xml)](Bundle-1b-Einsatzprotokoll.xml.html)   
+   * [2-Einsatzprotokoll (xml)](Bundle-2-Einsatzprotokoll.xml.html)   
+   * [2b-Einsatzprotokoll (xml)](Bundle-2b-Einsatzprotokoll.xml.html)   
