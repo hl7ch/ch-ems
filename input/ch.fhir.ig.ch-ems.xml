@@ -955,6 +955,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/IVR-VS-vigilanzAvpu" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/IVR-VS-violenceForm" />
       </reference>
       <exampleBoolean value="false"/>
