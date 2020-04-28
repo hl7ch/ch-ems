@@ -33,6 +33,48 @@
             <path value="PractitionerRole"/>
             <short value="CH EMS Practitioner Role"/>
         </element>
-     
+        <element id="PractitionerRole.practitioner">
+            <path value="PractitionerRole.practitioner"/>
+            <short value="Practitioner that is able to provide the defined services"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
+            </type>
+            <min value="1"/>
+        </element>
+        <element id="PractitionerRole.practitioner.reference">
+            <path value="PractitionerRole.practitioner.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="PractitionerRole.organization">
+            <path value="PractitionerRole.organization"/>
+            <short value="Organization where the roles are available"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
+            </type>
+        </element>
+        <element id="PractitionerRole.organization.reference">
+            <path value="PractitionerRole.organization.reference"/>
+            <min value="1"/>
+        </element>
+        <element id="PractitionerRole.code">
+            <path value="PractitionerRole.code"/>
+            <short value="Roles which this practitioner may perform"/>
+            <min value="1"/>
+            <binding>
+                <strength value="required"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole"/>
+            </binding>
+        </element>
+        <element id="PractitionerRole.specialty">
+            <path value="PractitionerRole.specialty"/>
+            <short value="Specific specialty of the practitioner"/>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://fhir.ch/ig/ch-epr-term/ValueSet/HCProfessional.hcSpecialisation"/>
+            </binding>
+        </element>
     </differential>
 </StructureDefinition>
