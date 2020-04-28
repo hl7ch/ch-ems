@@ -51,9 +51,12 @@
         <element id="Observation.effectiveDateTime">
             <path value="Observation.effectiveDateTime"/>
         </element>
-        <element id="Observation.valueString">
-            <path value="Observation.valueString"/>
-            <short value="A, V, P or U"/>
+        <element id="Observation.valueCodeableConcept">
+            <path value="Observation.valueCodeableConcept"/>
+            <binding>
+                <strength value="preferred"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-vigilanzAvpu"/>
+            </binding>
         </element>
     </differential>
 </StructureDefinition>

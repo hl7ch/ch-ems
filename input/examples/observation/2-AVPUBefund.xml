@@ -13,5 +13,11 @@
         </coding>
     </code>
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
-    <valueString value="V"/>
+    <valueCodeableConcept>
+        <coding>
+            <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+            <code value="V"/>
+            <display value="Reaktion nur bei lauter Ansprache"/>
+        </coding>
+    </valueCodeableConcept>
 </Observation>
