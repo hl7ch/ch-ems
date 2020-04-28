@@ -673,16 +673,9 @@
             </practitioner>
             <code>
                <coding>
-                  <system value="http://snomed.info/sct"/>
-                  <code value="223366009"/>
-                  <!-- Andere Gesundheitsfachperson -->
-                  <display value="Healthcare professional"/>
-               </coding>
-               <coding>
-                  <!-- TBD -->
-                  <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
-                  <code value="133932002"/>
-                  <display value="Betreuer"/>
+                     <system value="http://snomed.info/sct"/>
+                     <code value="133932002"/>
+                     <display value="Caregiver"/>
                </coding>
             </code>
          </PractitionerRole>
