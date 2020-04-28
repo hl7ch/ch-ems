@@ -28,13 +28,8 @@
         <type>
             <coding>
                 <system value="http://snomed.info/sct"/>
-                <code value="223366009"/>
-                <display value="Healthcare professional"/>
-            </coding>
-            <coding>
-                <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                 <code value="133932002"/>
-                <display value="Betreuer"/>
+                <display value="Caregiver"/>
             </coding>
         </type>
         <individual>
@@ -46,13 +41,8 @@
         <type>
             <coding>
                 <system value="http://snomed.info/sct"/>
-                <code value="223366009"/>
-                <display value="Healthcare professional"/>
-            </coding>
-            <coding>
-                <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
                 <code value="133932002"/>
-                <display value="Betreuer"/>
+                <display value="Caregiver"/>
             </coding>
         </type>
         <individual>
@@ -66,11 +56,6 @@
                 <system value="http://snomed.info/sct"/>
                 <code value="309343006"/>
                 <display value="Physician"/>
-            </coding>
-            <coding>
-                <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
-                <code value="309343006"/>
-                <display value="Notärztin / Notarzt"/>
             </coding>
         </type>
         <individual>
