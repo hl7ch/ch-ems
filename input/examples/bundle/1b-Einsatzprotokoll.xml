@@ -623,14 +623,14 @@
                   <state value="ZH"/>
                </valueAddress>
             </extension>
+            <!-- cdachems-dataelement-135 navs13 -->
+            <!-- Important: The AHV number must NOT be stored in the EPR -->
             <identifier>
-               <!-- cdachems-dataelement-135 navs13 -->
-               <!-- Important: The AHV number must NOT be stored in the EPR -->
                <system value="urn:oid:2.16.756.5.32"/>
                <value value="7560123123499"/>
             </identifier>
+            <!-- OID SRZ, here dummy -->
             <identifier>
-               <!-- OID SRZ, here dummy -->
                <type>
                   <coding>
                      <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>

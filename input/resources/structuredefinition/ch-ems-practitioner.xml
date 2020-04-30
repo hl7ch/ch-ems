@@ -31,7 +31,7 @@
     <differential>
         <element id="Practitioner">
             <path value="Practitioner"/>
-            <short value="CH EMS Practitioner (GLN optional)"/>
+            <short value="CH EMS Practitioner (without GLN)"/>
         </element>
         <element id="Practitioner.identifier">
             <path value="Practitioner.identifier" />
@@ -46,26 +46,8 @@
         <element id="Practitioner.identifier:GLN">
             <path value="Practitioner.identifier" />
             <sliceName value="GLN" />
-            <short value="GLN (Global Location Number)"/>
-            <max value="1"/>
-        </element>
-        <element id="Practitioner.identifier:GLN.system">
-            <path value="Practitioner.identifier.system" />
-            <short value="OID of the GLN" />
-            <fixedUri value="urn:oid:2.51.1.3" />
-        </element>
-        <element id="Practitioner.identifier:GLN.value">
-            <path value="Practitioner.identifier.value" />
-            <short value="GLN of the practitioner (13 digits starting with 7601 for Swiss accredited practitioners)" />
-        </element>
-
-        <element id="Practitioner.identifier:GLN.assigner">
-            <path value="Practitioner.identifier.assigner" />
-            <short value="Organization that issued id" />
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
-            </type>
+            <short value="Practitioner without GLN (Global Location Number)"/>
+            <max value="0"/>
         </element>
         <element id="Practitioner.name">
             <path value="Practitioner.name"/>
