@@ -8,8 +8,8 @@
 	</extension>
 	<url value="urn:oid:2.16.756.5.30.1.143.5.1"/>
 	<version value="2020-05-18T17:00:00"/>
-	<name value="IVR_CS"/>
-	<title value="IVR codesystem"/>
+	<name value="IVRCodeSystem"/>
+	<title value="IVR Code System"/>
 	<status value="draft"/>
 	<experimental value="false"/>
 	<publisher value="Interverband für Rettungswesen"/>
