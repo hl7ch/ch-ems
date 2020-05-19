@@ -699,12 +699,6 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-diagnosis" />
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
         <reference value="ValueSet/IVR-VS-diagType" />
       </reference>
       <exampleBoolean value="false"/>
