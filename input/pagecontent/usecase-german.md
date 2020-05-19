@@ -73,8 +73,9 @@ Mit diesem Schritt ist der Einsatz für das Team vollständig abgeschlossen.
 
 **Umsetzungsbeispiele:**
 
-* Elektronisch: [1-Einsatzprotokoll (xml)](Bundle-1-Einsatzprotokoll.xml.html)   
-* Elektronisch: [1b-Einsatzprotokoll (xml)](Bundle-1b-Einsatzprotokoll.xml.html)
+* 1-Einsatzprotokoll: [XML](Bundle-1-Einsatzprotokoll.xml.html), [JSON](Bundle-1-Einsatzprotokoll.json.html)    
+* 1b-Einsatzprotokoll: [XML](Bundle-1b-Einsatzprotokoll.xml.html), [JSON](Bundle-1b-Einsatzprotokoll.json.html)     
+
 
 #### Use case 2 - Primäreinsatz mit unbekanntem Patienten
 Am 10.12.2016 um 12.09 Uhr erhält die Sanitätsnotrufzentrale Zürich (GLN 7601002156370) einen Notruf (Status ALARM). Es wird gemeldet, dass eine unbekannte Person auf der Strasse zusammengebrochen und nicht ansprechbar ist, aber atmet und deshalb Nothilfe benötigt wird. Als Einsatzort wird 8050 Zürich, Sternen Oerlikon, Schaffhauserstr. 350, angegeben. Genauere Angaben sind zum Zeitpunkt des Anrufs nicht vorhanden.
@@ -99,5 +100,5 @@ Mit diesem Schritt ist der Einsatz für das Team vollständig abgeschlossen.
 
 **Umsetzungsbeispiele:**
 
-* Elektronisch: [2-Einsatzprotokoll (xml)](Bundle-2-Einsatzprotokoll.xml.html)   
-* Elektronisch: [2b-Einsatzprotokoll (xml)](Bundle-2b-Einsatzprotokoll.xml.html)
+* 2-Einsatzprotokoll: [XML](Bundle-2-Einsatzprotokoll.xml.html), [JSON](Bundle-2-Einsatzprotokoll.json.html)    
+* 2b-Einsatzprotokoll: [XML](Bundle-2b-Einsatzprotokoll.xml.html), [JSON](Bundle-2b-Einsatzprotokoll.json.html)    
