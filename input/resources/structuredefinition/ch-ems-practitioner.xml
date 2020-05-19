@@ -15,7 +15,7 @@
             <value value="https://www.ivr-ias.ch/"/>
         </telecom>
     </contact>
-    <description value="Definition of the practitioner without GLN"/>
+    <description value="Definition of the practitioner"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -31,7 +31,7 @@
     <differential>
         <element id="Practitioner">
             <path value="Practitioner"/>
-            <short value="CH EMS Practitioner (without GLN)"/>
+            <short value="CH EMS Practitioner"/>
         </element>
         <element id="Practitioner.identifier">
             <path value="Practitioner.identifier" />
@@ -46,8 +46,25 @@
         <element id="Practitioner.identifier:GLN">
             <path value="Practitioner.identifier" />
             <sliceName value="GLN" />
-            <short value="Practitioner without GLN (Global Location Number)"/>
-            <max value="0"/>
+            <short value="GLN (Global Location Number)" />
+        </element>
+        <element id="Practitioner.identifier:GLN.system">
+            <path value="Practitioner.identifier.system" />
+            <short value="OID of the GLN" />
+            <fixedUri value="urn:oid:2.51.1.3" />
+        </element>
+        <element id="Practitioner.identifier:GLN.value">
+            <path value="Practitioner.identifier.value" />
+            <short value="GLN of the practitioner (13 digits starting with 7601 for Swiss accredited practitioners)" />
+        </element>
+
+        <element id="Practitioner.identifier:GLN.assigner">
+            <path value="Practitioner.identifier.assigner" />
+            <short value="Organization that issued id" />
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
+            </type>
         </element>
         <element id="Practitioner.name">
             <path value="Practitioner.name"/>

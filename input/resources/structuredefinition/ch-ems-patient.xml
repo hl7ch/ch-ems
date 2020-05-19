@@ -26,7 +26,7 @@
     <kind value="resource"/>
     <abstract value="false"/>
     <type value="Patient"/>
-    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr"/>
+    <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"/>
     <derivation value="constraint"/>
     <differential>
         <element id="Patient">
@@ -47,15 +47,11 @@
             <path value="Patient.extension"/>
             <sliceName value="placeOfOrigin"/>
             <short value="Place of origin of patient"/>
-            <min value="0"/>
-            <max value="1"/>
         </element>
         <element id="Patient.extension:citizenship">
             <path value="Patient.extension" />
             <sliceName value="citizenship" />
             <short value="Citizenship of patient"/>
-            <min value="0"/>
-            <max value="1"/>
         </element>
         <element id="Patient.identifier">
             <path value="Patient.identifier" />
@@ -70,12 +66,9 @@
         <element id="Patient.identifier:AHVN13">
             <path value="Patient.identifier"/>
             <sliceName value="AHVN13"/>
-            <short value="Important: The AHV number must NOT be stored in the EPR"/>
             <patternIdentifier>
                 <system value="urn:oid:2.16.756.5.32" />
             </patternIdentifier>
-            <min value="0"/>
-            <max value="1"/>
         </element>
         <element id="Patient.identifier.value:AHVN13">
             <path value="Patient.identifier.value"/>
@@ -85,7 +78,6 @@
             <path value="Patient.identifier" />
             <sliceName value="LocalPid" />
             <short value="Local patient identifier: PLS-ID (Number from the patient guidance system (PLS) for temporary identification)"/>
-            <max value="1" />
             <patternIdentifier>
                 <type>
                     <coding>
@@ -105,13 +97,10 @@
         <element id="Patient.name">
             <path value="Patient.name"/>
             <short value="The patient's official name"/>
-            <min value="1"/>
-            <max value="1"/>
         </element>
         <element id="Patient.gender">
             <path value="Patient.gender"/>
             <short value="male | female | other"/>
-            <min value="1"/>
             <binding>
                 <strength value="required"/>
                 <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
@@ -120,7 +109,6 @@
         <element id="Patient.birthDate">
             <path value="Patient.birthDate"/>
             <short value="The date of birth for the individual"/>
-            <min value="1"/>
         </element>
         <element id="Patient.address">
             <path value="Patient.address"/>
@@ -141,14 +129,10 @@
             <path value="Patient.contact"/>
             <sliceName value="involvedParticipant"/>
             <short value="Involved Participant (Person / Organization)"/>
-            <min value="0"/>
-            <max value="*"/>
         </element>
         <element id="Patient.contact.relationship:involvedParticipant">
             <path value="Patient.contact.relationship"/>
             <short value="Role of the involved participant"/>
-            <min value="0"/>
-            <max value="1"/>
             <binding>
                 <strength value="required"/>
                 <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-personRole"/>
@@ -157,8 +141,6 @@
         <element id="Patient.contact.name:involvedParticipant">
             <path value="Patient.contact.name"/>
             <short value="Name of the involved participant"/>
-            <min value="0"/>
-            <max value="1"/>
             <type>
                 <code value="HumanName"/>
                 <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-humanname" />

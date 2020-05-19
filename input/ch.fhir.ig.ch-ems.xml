@@ -402,7 +402,7 @@
       </reference>
       <name value="1 Teammitglied Hans Beispiel"/>
       <description value="Example for Practitioner with GLN"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -410,7 +410,7 @@
       </reference>
       <name value="1 Teammitglied Petra Muster"/>
       <description value="Example for Practitioner with GLN"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -426,7 +426,7 @@
       </reference>
       <name value="1 Notarzt"/>
       <description value="Example for Practitioner with GLN"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -434,7 +434,7 @@
       </reference>
       <name value="1 Teammitglied Hans Notarzt"/>
       <description value="Example for Practitioner with GLN"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -442,7 +442,7 @@
       </reference>
       <name value="1 Rettungssanitaeterin"/>
       <description value="Example for Practitioner with GLN"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
     </resource>
     <resource>
       <reference>
@@ -611,12 +611,6 @@
     <resource>
       <reference>
         <reference value="StructureDefinition/ch-ems-patient"/>
-      </reference>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <reference>
-        <reference value="StructureDefinition/ch-ems-practitioner-gln"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

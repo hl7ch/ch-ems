@@ -2,7 +2,7 @@
 <Practitioner xmlns="http://hl7.org/fhir">
     <id value="1-TeamMemberPetraMuster"/>
     <meta>
-        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner-gln"/>
+        <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"/>
     </meta>
     <!-- cdachems-dataelement-281 GLN Teammitglied -->
     <identifier>
@@ -16,9 +16,4 @@
         <family value="Muster"/>
         <given value="Petra"/>
     </name>
-    <telecom>
-        <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-nullFlavor">
-            <valueCode value="NA"/>
-        </extension>
-    </telecom>
 </Practitioner>

@@ -12,7 +12,6 @@
   </extension>
   <identifier>
     <!-- cdachems-dataelement-135 navs13 -->
-    <!-- Important: The AHV number must NOT be stored in the EPR -->
     <system value="urn:oid:2.16.756.5.32"/>
     <value value="7560123123499"/>
   </identifier>
