@@ -7,9 +7,9 @@
     <status value="final"/>
     <code>
         <coding>
-            <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+            <system value="http://snomed.info/sct"/>
             <code value="2931005" />
-            <display value="Verdachtsdiagnose"/>
+            <display value="probable diagnosis"/>
         </coding>
     </code>
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00" />
