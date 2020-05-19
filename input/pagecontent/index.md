@@ -1,6 +1,10 @@
 ### Introduction
 CH-EMS is a FHIR implementation guide for the use of the emergency medical service protocol (EMS-protocol).
 
+**Download**: You can download this implementation guide in npm format from [here](package.tgz).
+
+**Identification**: OID: 2.16.756.5.30.1.143.1.1
+
 
 ### Scope
 * [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatypes for the use of the emergency medical service protocol 
