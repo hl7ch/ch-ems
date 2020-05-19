@@ -645,6 +645,14 @@
       <exampleBoolean value="false"/>
     </resource>
 
+    <!-- References to code systems -->
+    <resource>
+      <reference>
+        <reference value="CodeSystem/2.16.756.5.30.1.143.5.1" />
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+
     <!-- References to value sets -->
     <!-- exported from Art-Decor and then referenced via https://docs.google.com/spreadsheets/d/1j22odB2IcdCshqr-SDj0RUQb-i-kpV4d1BFT4wSr1eo/edit#gid=0 -->
     <resource>

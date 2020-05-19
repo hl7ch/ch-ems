@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="2.16.756.5.30.1.143.5.1"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+		<valuePeriod>
+			<start value="2020-05-18T17:00:00+02:00"/>
+		</valuePeriod>
+	</extension>
+	<url value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+	<version value="2020-05-18T17:00:00"/>
+	<name value="IVR_CS"/>
+	<title value="IVR codesystem"/>
+	<status value="draft"/>
+	<experimental value="false"/>
+	<publisher value="Interverband für Rettungswesen"/>
+	<description value="IVR Code System"/>
+	<caseSensitive value="false"/>
+	<content value="complete"/>
+	<concept>
+		<code value="0"></code>
+		<display value="keine Verletzung oder Erkrankung"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="keine Verletzung oder Erkrankung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1"></code>
+		<display value="keine Reaktion auf Schmerzreiz"></display>
+	</concept>
+	<concept>
+		<code value="1000001"></code>
+		<display value="primary mission"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Primäreinsatz"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000002"></code>
+		<display value="secondary mission"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Sekundäreinsatz"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000003"></code>
+		<display value="stand-by mission"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Bereitschaftsdienst"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000004"></code>
+		<display value="residential EMS"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Stationär Rettungsdienst"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000005"></code>
+		<display value="pickup by EMS"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Abholung durch Rettungsdienst"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000006"></code>
+		<display value="rendezvous"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Rendez vous"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000007"></code>
+		<display value="with siren"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="mit Sondersignal"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000008"></code>
+		<display value="without siren"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="ohne Sondersignal"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000010"></code>
+		<display value="paramedic-on-training"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Rettungssanitäter/in in Ausbildung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000011"></code>
+		<display value="Ambulanceman-on-training"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Transportsanitäter/in in Ausbildung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000013"></code>
+		<display value="driver"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Fahrer"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000014"></code>
+		<display value="trainee"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="in Ausbildung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000016"></code>
+		<display value="attending doctor"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="betreuender Arzt"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000020"></code>
+		<display value="apprentice"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Praktikant"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000021"></code>
+		<display value="security force"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Sicherheitsbegleitung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000022"></code>
+		<display value="witness"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Zeuge / Zeugin"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000033"></code>
+		<display value="alarm"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Alarmierungszeit"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000034"></code>
+		<display value="disposition"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Dispositionszeit"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000035"></code>
+		<display value="rollout"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Ausrückzeit"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000036"></code>
+		<display value="arrival on scene"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Ankunftszeit am Einsatzort"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000037"></code>
+		<display value="arrival patient"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Ankunftszeit beim Patienten"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000038"></code>
+		<display value="departure from scene"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Abfahrtszeit vom Einsatzort"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000039"></code>
+		<display value="arrival at target"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Ankunftszeit am Zielort"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000040"></code>
+		<display value="handover patient"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Übergabezeit"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000041"></code>
+		<display value="departure from target"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Abfahrtszeit vom Zielort"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000042"></code>
+		<display value="operational readiness"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Zeit Einsatzbereit"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000043"></code>
+		<display value="contumeliousness"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Beschimpfung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000044"></code>
+		<display value="pelting with items"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Bewerfen mit Gegenständen"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000045"></code>
+		<display value="unwanted touching"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Unerwünschte Berührung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000046"></code>
+		<display value="hustling"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Stossen / Anrempeln"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000049"></code>
+		<display value="slight corporal attack"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="leichter körperlicher Angriff"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="100005"></code>
+		<display value="no information"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="keine Angaben"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000050"></code>
+		<display value="schwerer körperlicher Angriff"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="schwerer körperlicher Angriff"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000053"></code>
+		<display value="Identity card"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Identitätskarte"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000054"></code>
+		<display value="unknown"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="unbekannt"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000055"></code>
+		<display value="not asked"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="nicht erfragt"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000057"></code>
+		<display value="see attachment"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="siehe Beilage"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000058"></code>
+		<display value="no information"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="keine Angaben"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000059"></code>
+		<display value="threat with weapon"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Bedrohung mit Waffe"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000060"></code>
+		<display value="violation by weapon"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Verletzung mit Waffe"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000061"></code>
+		<display value="passport"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Pass"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000062"></code>
+		<display value="Health insurance card"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Krankenkassenkarte"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000063"></code>
+		<display value="Driver license"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Fahrausweis"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000064"></code>
+		<display value="personal statement"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="persönliche Aussage"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000065"></code>
+		<display value="Credit card"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Kreditkarte"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000066"></code>
+		<display value="other identification piece"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="anderes Identifikationsmittel"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000067"></code>
+		<display value="identification impossible"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Identifikation nicht möglich"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000068"></code>
+		<display value="disinfection of hands by Virugard"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Händedesinfektion mit Virugard"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000069"></code>
+		<display value="disinfection of hands by Sterilium"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Händedesinfektion mit Sterilium"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000070"></code>
+		<display value="operation clothes"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Operationsmantel"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000071"></code>
+		<display value="cloth change after mission"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Dienstkleiderwechsel nach Einsatzende"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000072"></code>
+		<display value="hazmat suit, ventilated"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Vollschutzabzug, belüftet"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000073"></code>
+		<display value="other protective action"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="andere Schutzmassnahme"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000074"></code>
+		<display value="not tangible"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="nicht fühlbar"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000075"></code>
+		<display value="Stridor links"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Stridor links"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000077"></code>
+		<display value="Respiratory crackles left"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Rasselgeräusche links"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000078"></code>
+		<display value="Respiratory crackles right"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Rasselgeräusche rechts"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000079"></code>
+		<display value="crowd"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Personenansammlung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000080"></code>
+		<display value="person, unknown"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Drittperson unbekannt"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000081"></code>
+		<display value="person, known"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Drittperson bekannt"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000082"></code>
+		<display value="organisation point of departure"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Organisation des Abfahrtsortes"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000083"></code>
+		<display value="organisation point of arrival"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Organisation Zielort"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000084"></code>
+		<display value="non-professional"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Laie"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000085"></code>
+		<display value="vacuum pillow"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Vakuumkissen"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000086"></code>
+		<display value="vacuum mattress"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Vakuummatraze"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000087"></code>
+		<display value="carrying chair"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Tragestuhl"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000088"></code>
+		<display value="KED system"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="KED System"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000089"></code>
+		<display value="Sam Splint"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Sam Splint"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000090"></code>
+		<display value="Sam Sling"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Sam Sling"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000091"></code>
+		<display value="Maxi Cosi"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Maxi Cosi"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000092"></code>
+		<display value="property damage"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Sachschaden"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000093"></code>
+		<display value="violation of personal integrity"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Verletzung der persönlichen Integrität"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000094"></code>
+		<display value="obstruction of mission"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Behinderung des Einsatzes"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000095"></code>
+		<display value="escort"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Begleitperson"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000096"></code>
+		<display value="inheritor"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Erben"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000097"></code>
+		<display value="principal"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Auftraggeber"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000098"></code>
+		<display value="legal representative"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="gesetzlicher Vertreter"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000099"></code>
+		<display value="parents"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Eltern"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000101"></code>
+		<display value="seated"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="sitzend"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000102"></code>
+		<display value="partly lying"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="halb liegend"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000103"></code>
+		<display value="laying"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="liegend"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000104"></code>
+		<display value="legs up"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Beine hoch"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000105"></code>
+		<display value="legs down"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Beine tief"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000106"></code>
+		<display value="knee kick"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Kniekick"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000107"></code>
+		<display value="abdominal position"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Bauchlage"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000108"></code>
+		<display value="side position left"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Seitenlage links"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000109"></code>
+		<display value="side position right"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Seitenlage rechts"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000110"></code>
+		<display value="emergency mission"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Notfall-Einsatz"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000111"></code>
+		<display value="relocation"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Verlegung zwischen Institutionen"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000112"></code>
+		<display value="shuttle for emergency doctor"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Notarzt-Zubringer"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000113"></code>
+		<display value="incubator transport"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Isolettentransport"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000114"></code>
+		<display value="neonatology mission"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Neonatologischer Einsatz"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000115"></code>
+		<display value="return transport"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Rücktransport von Untersuchung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000116"></code>
+		<display value="intervention mission police"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Interventionseinsatz Polizei"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000117"></code>
+		<display value="self-referral"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Selbsteinweisung / Krankentransport"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000118"></code>
+		<display value="stretcher mission"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Einsatz Stretcher"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000119"></code>
+		<display value="mission fpr partner"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Einsatz für Vertragspartner"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000120"></code>
+		<display value="involuntary committment"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="fürsorgerische Unterbringung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000121"></code>
+		<display value="service on place"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Dienstleistung vor Ort (DVO)"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000122"></code>
+		<display value="referral by doctor"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Ärztliche Einweisung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000123"></code>
+		<display value="refuse of transport"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Transportverweigerung"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000124"></code>
+		<display value="nebulize with H2O2"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Vernebelung H2O2"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000125"></code>
+		<display value="scrub disinfection  with H2O2"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Scheuer-Wisch-Desinfektion H2O2"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000126"></code>
+		<display value="wedding ring"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Ehering"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000127"></code>
+		<display value="wallet"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Portemonnaie"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000128"></code>
+		<display value="wrist watch"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Armbanduhr"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000129"></code>
+		<display value="fingerring"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Fingerring"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000130"></code>
+		<display value="necklace"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Halskette"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000131"></code>
+		<display value="billfold"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Brieftasche"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000132"></code>
+		<display value="handbag"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Handtasche"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000133"></code>
+		<display value="bag"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Tasche"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000134"></code>
+		<display value="no, siren necessary"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="nein, Sondersignal notwendig"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000135"></code>
+		<display value="no, siren not necessary"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="nein, Sondersignal nicht notwendig"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000138"></code>
+		<display value="flight assistant"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Rettungsspezialist Helikopter"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000139"></code>
+		<display value="3pol EKG"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="3pol EKG"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000140"></code>
+		<display value="4pol EKG"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="4pol EKG"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000141"></code>
+		<display value="12pol EKG"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="12pol EKG"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000142"></code>
+		<display value="first responder"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="ausgebildeter Ersthelfer"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000143"></code>
+		<display value="first-degree frostbite"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Erfrierungen 1. Grades"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000144"></code>
+		<display value="second-degree frostbite"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Erfrierungen 2. Grades"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000145"></code>
+		<display value="third-degree frostbite"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Erfrierungen 3. Grades"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000146"></code>
+		<display value="fourth-degree frostbite"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Erfrierungen 4. Grades"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000147"></code>
+		<display value="first-degree burn"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Verbrennung 1. Grades"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000148"></code>
+		<display value="second-degree burn"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Verbrennung 2. Grades"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000149"></code>
+		<display value="third-degree burn"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Verbrennung 3. Grades"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="100076"></code>
+		<display value="Stridor rechts"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Stridor rechts"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1100001"></code>
+		<display value="Einsatz"></display>
+	</concept>
+	<concept>
+		<code value="1100002"></code>
+		<display value="Patient"></display>
+	</concept>
+	<concept>
+		<code value="1100003"></code>
+		<display value="Administrativ"></display>
+	</concept>
+	<concept>
+		<code value="1100004"></code>
+		<display value="Vorbehandlung"></display>
+	</concept>
+	<concept>
+		<code value="1100005"></code>
+		<display value="Anamnese"></display>
+	</concept>
+	<concept>
+		<code value="1100006"></code>
+		<display value="Befund"></display>
+	</concept>
+	<concept>
+		<code value="1100007"></code>
+		<display value="Diagnosen"></display>
+	</concept>
+	<concept>
+		<code value="1100008"></code>
+		<display value="Massnahmen"></display>
+	</concept>
+	<concept>
+		<code value="1100009"></code>
+		<display value="Todesfall"></display>
+	</concept>
+	<concept>
+		<code value="1100010"></code>
+		<display value="Transport"></display>
+	</concept>
+	<concept>
+		<code value="1100011"></code>
+		<display value="Übergabe"></display>
+	</concept>
+	<concept>
+		<code value="2"></code>
+		<display value="auf Schmerz Strecksynergismen"></display>
+	</concept>
+	<concept>
+		<code value="3"></code>
+		<display value="auf Schmerz Beugesynergismen"></display>
+	</concept>
+	<concept>
+		<code value="4"></code>
+		<display value="ungezielte Schmerzabwehr"></display>
+	</concept>
+	<concept>
+		<code value="5"></code>
+		<display value="gezielte Schmerzabwehr"></display>
+	</concept>
+	<concept>
+		<code value="6"></code>
+		<display value="befolgt Aufforderungen"></display>
+	</concept>
+	<concept>
+		<code value="A"></code>
+		<display value="wach, ansprechbar und orientiert"></display>
+	</concept>
+	<concept>
+		<code value="I"></code>
+		<display value="geringfügige Störung"></display>
+	</concept>
+	<concept>
+		<code value="II"></code>
+		<display value="leichte bis mässig schwere Störung"></display>
+	</concept>
+	<concept>
+		<code value="III"></code>
+		<display value="mässige bis schwere Störung"></display>
+	</concept>
+	<concept>
+		<code value="IV"></code>
+		<display value="schwere Störung, lebensbedrohlich"></display>
+	</concept>
+	<concept>
+		<code value="P"></code>
+		<display value="Reaktion nur auf Schmerzreiz"></display>
+	</concept>
+	<concept>
+		<code value="U"></code>
+		<display value="nicht ansprechbar, bewusstlos"></display>
+	</concept>
+	<concept>
+		<code value="V"></code>
+		<display value="Reaktion nur bei lauter Ansprache"></display>
+	</concept>
+	<concept>
+		<code value="VI"></code>
+		<display value="Reanimation"></display>
+	</concept>
+	<concept>
+		<code value="VII"></code>
+		<display value="Tod"></display>
+	</concept>
+</CodeSystem>

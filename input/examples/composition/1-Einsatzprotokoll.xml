@@ -101,7 +101,7 @@
     <title value="Einsatz"/>
     <code>
       <coding>
-        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100001"/>
         <display value="Einsatz"/>
       </coding>
@@ -208,7 +208,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100003"/>
         <display value="Administrativ"/>
       </coding>
@@ -236,7 +236,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100004"/>
         <display value="Vorbehandlung"/>
       </coding>
@@ -254,7 +254,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100005"/>
         <display value="Anamnese"/>
       </coding>
@@ -316,7 +316,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100006"/>
         <display value="Befund"/>
       </coding>
@@ -355,7 +355,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100007"/>
         <display value="Diagnosen"/>
       </coding>
@@ -385,7 +385,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100008"/>
         <display value="Massnahmen"/>
       </coding>
@@ -403,7 +403,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100009"/>
         <display value="Todesfall"/>
       </coding>
@@ -421,7 +421,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100010"/>
         <display value="Transport"/>
       </coding>
@@ -439,7 +439,7 @@
     <code>
       <coding>
         <!-- TBD -->
-        <system value="http://fhir.ch/ig/ch-ems/CodeSystem/ch-ems-IVR"/>
+        <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100011"/>
         <display value="Übergabe"/>
       </coding>
