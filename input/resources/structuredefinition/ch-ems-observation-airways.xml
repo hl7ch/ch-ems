@@ -72,6 +72,9 @@
             <path value="Observation.encounter.reference"/>
             <min value="1"/>
         </element>
+        <element id="Observation.effectiveDateTime">
+            <path value="Observation.effectiveDateTime"/>
+        </element>
         <element id="Observation.valueCodeableConcept">
             <path value="Observation.valueCodeableConcept"/>
             <binding>
