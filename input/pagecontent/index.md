@@ -16,7 +16,7 @@ The [CH EMS profiles](profiles.html) are based on the CH Core basic profiles. Th
 
 #### Swiss EPR context
 If the documents are used in the EPR context, the requirements of the [CH Core Document Profile EPR](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document-epr.html) must also be fulfilled. For the use case of the emergency services, there are two main aspects that must be considered in the EPR context:
-* The **AHV number** of the patient must **not** be stored in the EPR
+* The **social security number (AHVN13)** of the patient must **not** be stored in the EPR
 * For a valid EPR document, the **name of the patient** must be known, which is not always guaranteed in emergency services    
 
 *Validation: see [README CH Core](https://github.com/hl7ch/ch-core)*
