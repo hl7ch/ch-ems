@@ -13,6 +13,9 @@
             <display value="NIH Stroke Scale"/>
         </coding>
     </code>
+    <subject>
+        <reference value="Patient/1-PeterMuster"/>
+    </subject>
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
     <!-- TBD -->
     <valueString value="FAST"/>

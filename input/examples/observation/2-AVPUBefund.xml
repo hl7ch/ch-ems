@@ -12,6 +12,12 @@
             <display value="Level of Responsiveness (AVPU)"/>
         </coding>
     </code>
+    <subject>
+        <reference value="Patient/2-PatientUnbekannt"/>
+    </subject>
+    <encounter>
+        <reference value="Encounter/2-Einsatz"/>
+    </encounter>
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
     <valueCodeableConcept>
         <coding>

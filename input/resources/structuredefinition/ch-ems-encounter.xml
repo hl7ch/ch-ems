@@ -115,7 +115,7 @@
         </element>
         <element id="Encounter.period">
             <path value="Encounter.period"/>
-            <short value="The date (and time) of the encounter"/>
+            <short value="The date (and time) of the mission"/>
             <min value="1"/>
         </element>
         <element id="Encounter.period.start">

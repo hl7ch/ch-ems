@@ -12,8 +12,14 @@
             <display value="Finding of respiratory obstruction"/>
         </coding>
     </code>
+    <subject>
+        <reference value="Patient/2-PatientUnbekannt"/>
+    </subject>
+    <encounter>
+        <reference value="Encounter/2-Einsatz"/>
+    </encounter>
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
-   <!-- cdachems-dataelement-469 Airway -->
+    <!-- cdachems-dataelement-469 Airway -->
     <valueCodeableConcept>
         <coding>
             <system value="http://snomed.info/sct"/>

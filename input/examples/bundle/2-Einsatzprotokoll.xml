@@ -185,25 +185,25 @@
                   <reference value="Encounter/2-Einsatz"/>
                </entry>
                <entry>
-                  <reference value="Observation/1-Alarm"/>
+                  <reference value="Observation/2-Alarm"/>
                </entry>
                <entry>
-                  <reference value="Observation/1-Disposition"/>
+                  <reference value="Observation/2-Disposition"/>
                </entry>
                <entry>
-                  <reference value="Observation/1-Rollout"/>
+                  <reference value="Observation/2-Rollout"/>
                </entry>
                <entry>
-                  <reference value="Observation/1-ArrivalOnScene"/>
+                  <reference value="Observation/2-ArrivalOnScene"/>
                </entry>
                <entry>
                   <reference value="Observation/2-ArrivalPatient"/>
                </entry>
                <entry>
-                  <reference value="Observation/1-DepartureFromScene"/>
+                  <reference value="Observation/2-DepartureFromScene"/>
                </entry>
                <entry>
-                  <reference value="Observation/1-ArrivalAtTarget"/>
+                  <reference value="Observation/2-ArrivalAtTarget"/>
                </entry>
             </section>
             <!-- Section Adminstrativ -->
@@ -441,10 +441,10 @@
                   </div>
                </text>
                <entry>
-                  <reference value="Observation/1-ZustandUebergabe"/>
+                  <reference value="Observation/2-ZustandUebergabe"/>
                </entry>
                <entry>
-                  <reference value="Observation/1-NACAUebergabe"/>
+                  <reference value="Observation/2-NACAUebergabe"/>
                </entry>
                <entry>
                   <reference value="Observation/2-GCSUebergabe"/>
@@ -805,10 +805,10 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Alarm"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/2-Alarm"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-Alarm"/>
+            <id value="2-Alarm"/>
             <meta>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
@@ -821,16 +821,22 @@
                   <display value="alarm"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:09:00.000+01:00"/>
          </Observation>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Disposition"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/2-Disposition"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-Disposition"/>
+            <id value="2-Disposition"/>
             <meta>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
@@ -843,16 +849,22 @@
                   <display value="disposition"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:11:00.000+01:00"/>
          </Observation>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-Rollout"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/2-Rollout"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-Rollout"/>
+            <id value="2-Rollout"/>
             <meta>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
@@ -865,16 +877,22 @@
                   <display value="rollout"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:13:00.000+01:00"/>
          </Observation>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ArrivalOnScene"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/2-ArrivalOnScene"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-ArrivalOnScene"/>
+            <id value="2-ArrivalOnScene"/>
             <meta>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
@@ -887,6 +905,12 @@
                   <display value="arrival on scene"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:17:00.000+01:00"/>
          </Observation>
@@ -909,16 +933,22 @@
                   <display value="arrival patient"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:18:00.000+01:00"/>
          </Observation>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-DepartureFromScene"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/2-DepartureFromScene"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-DepartureFromScene"/>
+            <id value="2-DepartureFromScene"/>
             <meta>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
@@ -931,16 +961,22 @@
                   <display value="departure from scene"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:48:00.000+01:00"/>
          </Observation>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ArrivalAtTarget"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/2-ArrivalAtTarget"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-ArrivalAtTarget"/>
+            <id value="2-ArrivalAtTarget"/>
             <meta>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
             </meta>
@@ -953,6 +989,12 @@
                   <display value="arrival at target"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:54:00.000+01:00"/>
          </Observation>
@@ -974,6 +1016,12 @@
                   <display value="Finding of respiratory obstruction"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
             <!-- cdachems-dataelement-469 Airway -->
             <valueCodeableConcept>
@@ -1002,6 +1050,12 @@
                   <display value="Glasgow coma score total"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
             <!-- cdachems-dataelement-109 GCS-Gesamtscore-->
             <valueQuantity>
@@ -1073,6 +1127,12 @@
                   <display value="Level of Responsiveness (AVPU)"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
             <valueCodeableConcept>
                <coding>
@@ -1100,6 +1160,12 @@
                   <display value="probable diagnosis"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
             <!-- cdachems-dataelement-488 Ersteller Diagnose-->
             <performer>
@@ -1116,10 +1182,10 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-ZustandUebergabe"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/2-ZustandUebergabe"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-ZustandUebergabe"/>
+            <id value="2-ZustandUebergabe"/>
             <meta>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-conditionchange"/>
             </meta>
@@ -1131,6 +1197,12 @@
                   <display value="Vital status at discharge"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-24 Zustand bei Einsatzende-->
             <valueCodeableConcept>
                <coding>
@@ -1143,10 +1215,10 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/1-NACAUebergabe"/>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/2-NACAUebergabe"/>
       <resource>
          <Observation xmlns="http://hl7.org/fhir">
-            <id value="1-NACAUebergabe"/>
+            <id value="2-NACAUebergabe"/>
             <meta>
                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-naca"/>
             </meta>
@@ -1158,6 +1230,12 @@
                   <display value="Injury severity score NACA"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-23 NACA-->
             <valueCodeableConcept>
                <coding>
@@ -1185,6 +1263,12 @@
                   <display value="Glasgow coma score total"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/2-PatientUnbekannt"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/2-Einsatz"/>
+            </encounter>
             <effectiveDateTime value="2016-12-10T12:03:00.000+01:00"/>
             <!-- cdachems-dataelement-458 GCS-Gesamtscore-->
             <valueQuantity>

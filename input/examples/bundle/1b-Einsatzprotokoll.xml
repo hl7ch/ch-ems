@@ -661,12 +661,12 @@
             <address>
                <use value="home"/>
                <line value="Bahnhofstrasse">
-                  <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype">
+                  <!--<extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype">
                      <valueCode value="street"/>
                   </extension>
                   <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
                      <valueString value="1"/>
-                  </extension>
+                  </extension>-->
                </line>
                <city value="Zürich"/>
                <postalCode value="8003" />
@@ -1052,6 +1052,12 @@
                   <display value="alarm"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:09:00.000+01:00"/>
          </Observation>
@@ -1074,6 +1080,12 @@
                   <display value="disposition"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:11:00.000+01:00"/>
          </Observation>
@@ -1096,6 +1108,12 @@
                   <display value="rollout"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:13:00.000+01:00"/>
          </Observation>
@@ -1118,6 +1136,12 @@
                   <display value="arrival on scene"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:17:00.000+01:00"/>
          </Observation>
@@ -1140,6 +1164,12 @@
                   <display value="arrival patient"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:22:00.000+01:00"/>
          </Observation>
@@ -1162,6 +1192,12 @@
                   <display value="departure from scene"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:48:00.000+01:00"/>
          </Observation>
@@ -1184,6 +1220,12 @@
                   <display value="arrival at target"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T11:54:00.000+01:00"/>
          </Observation>
@@ -1206,6 +1248,12 @@
                   <display value="departure from target"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T12:25:00.000+01:00"/>
          </Observation>
@@ -1228,6 +1276,12 @@
                   <display value="operational readiness"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-286 Statuszeit -->
             <valueDateTime value="2016-12-10T12:40:00.000+01:00"/>
          </Observation>
@@ -1249,6 +1303,12 @@
                   <display value="Event"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-98 Geschehen frei -->
             <valueCodeableConcept>
                <coding>
@@ -1277,6 +1337,12 @@
                   <display value="Clinical finding (finding)"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-468 Symptom, frei -->
             <valueCodeableConcept>
                <coding>
@@ -1305,6 +1371,12 @@
                   <display value="Glasgow coma score total"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
             <!-- cdachems-dataelement-109 GCS-Gesamtscore-->
             <valueQuantity>
@@ -1376,6 +1448,12 @@
                   <display value="probable diagnosis"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
             <!-- cdachems-dataelement-488 Ersteller Diagnose-->
             <performer>
@@ -1407,6 +1485,12 @@
                   <display value="Vital status at discharge"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-24 Zustand bei Einsatzende-->
             <valueCodeableConcept>
                <coding>
@@ -1434,6 +1518,12 @@
                   <display value="Injury severity score NACA"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <!-- cdachems-dataelement-23 NACA-->
             <valueCodeableConcept>
                <coding>
@@ -1461,6 +1551,12 @@
                   <display value="Glasgow coma score total"/>
                </coding>
             </code>
+            <subject>
+               <reference value="Patient/1-PeterMuster"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <effectiveDateTime value="2016-12-10T12:03:00.000+01:00"/>
             <!-- cdachems-dataelement-458 GCS-Gesamtscore-->
             <valueQuantity>

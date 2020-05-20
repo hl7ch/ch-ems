@@ -12,6 +12,12 @@
             <display value="Vital status at discharge"/>
         </coding>
     </code>
+    <subject>
+        <reference value="Patient/1-PeterMuster"/>
+    </subject>
+    <encounter>
+        <reference value="Encounter/1-Einsatz"/>
+    </encounter>
     <!-- cdachems-dataelement-24 Zustand bei Einsatzende-->
     <valueCodeableConcept>
         <coding>

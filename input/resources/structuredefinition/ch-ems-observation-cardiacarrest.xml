@@ -48,6 +48,23 @@
                 </coding>
             </patternCodeableConcept>
         </element>
+        <element id="Observation.subject">
+            <path value="Observation.subject"/>
+            <short value="Patient"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
+            </type>
+        </element>
+        <element id="Observation.encounter">
+            <path value="Observation.encounter"/>
+            <short value="Emergency service during which this observation is made"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-encounter"/>
+            </type>
+        </element>
         <element id="Observation.valueBoolean">
             <path value="Observation.valueBoolean"/>
         </element>

@@ -13,6 +13,12 @@
             <display value="departure from scene"/>
         </coding>
     </code>
+    <subject>
+        <reference value="Patient/1-PeterMuster"/>
+    </subject>
+    <encounter>
+        <reference value="Encounter/1-Einsatz"/>
+    </encounter>
     <!-- cdachems-dataelement-286 Statuszeit -->
     <valueDateTime value="2016-12-10T11:48:00.000+01:00"/>
 </Observation>

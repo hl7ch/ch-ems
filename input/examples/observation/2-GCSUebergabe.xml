@@ -11,6 +11,12 @@
             <display value="Glasgow coma score total"/>
         </coding>
     </code>
+    <subject>
+        <reference value="Patient/2-PatientUnbekannt"/>
+    </subject>
+    <encounter>
+        <reference value="Encounter/2-Einsatz"/>
+    </encounter>
     <effectiveDateTime value="2016-12-10T12:03:00.000+01:00"/>
     <!-- cdachems-dataelement-458 GCS-Gesamtscore-->
     <valueQuantity>

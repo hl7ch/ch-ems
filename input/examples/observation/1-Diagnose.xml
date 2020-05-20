@@ -12,6 +12,12 @@
             <display value="probable diagnosis"/>
         </coding>
     </code>
+    <subject>
+        <reference value="Patient/1-PeterMuster"/>
+    </subject>
+    <encounter>
+        <reference value="Encounter/1-Einsatz"/>
+    </encounter>
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00" />
     <!-- cdachems-dataelement-488 Ersteller Diagnose-->
     <performer>

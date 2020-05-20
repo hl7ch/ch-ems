@@ -12,6 +12,9 @@
             <display value="Final patient acuity"/>
         </coding>
     </code>
+    <subject>
+        <reference value="Patient/1-PeterMuster"/>
+    </subject>
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
     <!-- cdachems-dataelement-436 Priorität -->
     <valueCodeableConcept>
