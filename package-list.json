@@ -1,6 +1,6 @@
 {
   "package-id": "ch.fhir.ig.ch-ems",
-  "title": "CH-EMS (R4)",
+  "title": "CH EMS (R4)",
   "introduction": "Implementation Guide for the Emergency Medical Service protocol",
   "canonical": "http://fhir.ch/ig/ch-ems",
   "list": [
