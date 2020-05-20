@@ -66,6 +66,10 @@
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
             </type>
         </element>
+        <element id="Practitioner.identifier:GLN.assigner.reference">
+            <path value="Practitioner.identifier.assigner.reference"/>
+            <min value="1"/>
+        </element>
         <element id="Practitioner.name">
             <path value="Practitioner.name"/>
             <short value="The name(s) associated with the practitioner"/>

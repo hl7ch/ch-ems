@@ -56,6 +56,10 @@
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
             </type>
         </element>
+        <element id="Observation.subject.reference">
+            <path value="Observation.subject.reference"/>
+            <min value="1"/>
+        </element>
         <element id="Observation.encounter">
             <path value="Observation.encounter"/>
             <short value="Emergency service during which this observation is made"/>
@@ -63,6 +67,10 @@
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-encounter"/>
             </type>
+        </element>
+        <element id="Observation.encounter.reference">
+            <path value="Observation.encounter.reference"/>
+            <min value="1"/>
         </element>
         <element id="Observation.valueCodeableConcept">
             <path value="Observation.valueCodeableConcept"/>
