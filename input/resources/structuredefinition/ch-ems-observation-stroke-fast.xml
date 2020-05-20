@@ -42,10 +42,9 @@
             <short value="Stroke / FAST"/>
             <patternCodeableConcept>
                 <coding>
-                    <!-- TBD -->
-                    <system value="http://loinc.org"/>
-                    <code value="70182-1"/>
-                    <display value="NIH Stroke Scale"/>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="716800008"/>
+                    <display value="Face Arm Speech Test score"/>
                 </coding>
             </patternCodeableConcept>
         </element>
