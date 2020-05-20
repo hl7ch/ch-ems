@@ -41,7 +41,7 @@
             <path value="Observation.code"/>
             <short value="Diagnosis type"/>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagType"/>
             </binding>
         </element>
@@ -64,7 +64,7 @@
         <element id="Observation.valueCodeableConcept">
             <path value="Observation.valueCodeableConcept"/>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://hl7.org/fhir/ValueSet/icd-10"/>
             </binding>
         </element>

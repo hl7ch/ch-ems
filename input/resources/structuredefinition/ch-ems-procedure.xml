@@ -62,7 +62,7 @@
             <path value="Procedure.code"/>
             <short value="Identification of the procedure"/>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatType"/>
             </binding>
         </element>

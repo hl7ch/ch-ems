@@ -41,7 +41,7 @@
             <path value="Observation.code"/>
             <short value="Role mission time"/>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-missionTimeRole"/>
             </binding>
         </element>

@@ -96,7 +96,7 @@
             <min value="1"/>
             <max value="1"/>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole"/>
             </binding>
         </element>

@@ -63,7 +63,7 @@
             <short value="Roles which this practitioner may perform"/>
             <min value="1"/>
             <binding>
-                <strength value="required"/>
+                <strength value="extensible"/>
                 <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole"/>
             </binding>
         </element>
@@ -71,7 +71,7 @@
             <path value="PractitionerRole.specialty"/>
             <short value="Specific specialty of the practitioner"/>
             <binding>
-                <strength value="preferred"/>
+                <strength value="extensible"/>
                 <valueSet value="http://fhir.ch/ig/ch-epr-term/ValueSet/HCProfessional.hcSpecialisation"/>
             </binding>
         </element>
