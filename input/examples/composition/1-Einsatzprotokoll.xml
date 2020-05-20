@@ -207,7 +207,6 @@
     <title value="Administrativ"/>
     <code>
       <coding>
-        <!-- TBD -->
         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100003"/>
         <display value="Administrativ"/>
@@ -235,7 +234,6 @@
     <title value="Vorbehandlung"/>
     <code>
       <coding>
-        <!-- TBD -->
         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100004"/>
         <display value="Vorbehandlung"/>
@@ -253,7 +251,6 @@
     <title value="Anamnese"/>
     <code>
       <coding>
-        <!-- TBD -->
         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100005"/>
         <display value="Anamnese"/>
@@ -315,7 +312,6 @@
     <title value="Befund"/>
     <code>
       <coding>
-        <!-- TBD -->
         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100006"/>
         <display value="Befund"/>
@@ -354,7 +350,6 @@
     <title value="Diagnosen"/>
     <code>
       <coding>
-        <!-- TBD -->
         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100007"/>
         <display value="Diagnosen"/>
@@ -384,7 +379,6 @@
     <title value="Massnahmen"/>
     <code>
       <coding>
-        <!-- TBD -->
         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100008"/>
         <display value="Massnahmen"/>
@@ -402,7 +396,6 @@
     <title value="Todesfall"/>
     <code>
       <coding>
-        <!-- TBD -->
         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100009"/>
         <display value="Todesfall"/>
@@ -420,7 +413,6 @@
     <title value="Transport"/>
     <code>
       <coding>
-        <!-- TBD -->
         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100010"/>
         <display value="Transport"/>
@@ -438,7 +430,6 @@
     <title value="Übergabe"/>
     <code>
       <coding>
-        <!-- TBD -->
         <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
         <code value="1100011"/>
         <display value="Übergabe"/>
