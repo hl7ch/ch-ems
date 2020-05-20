@@ -5,18 +5,21 @@
   "canonical": "http://fhir.ch/ig/ch-ems",
   "list": [
     {
-      "version": "current",
-      "date": "n/a",
+      "version": "dev",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "http://fhir.ch/ig/ch-ems/index.html",
-      "status": "ci-build"
+      "path": "http://build.fhir.org/ig/hl7ch/ch-ems",
+      "status": "ci-build",
+      "fhirVersion": "4.0.1"
     },
     {
-      "version": "dev",
-      "date": "n/a",
-      "desc": "Continuous Integration Build (latest in version control)",
-      "path": "http://build.fhir.org/ig/ch-ems/index.html",
-      "status": "ci-build"
+      "version": "0.1.0",
+      "date": "2020-06-01",
+      "desc": "IVR DSTU 1",
+      "path": "http://fhir.ch/ig/ch-ems",
+      "status": "trial-use",
+      "sequence" : "DSTU 1",
+      "fhirVersion": "4.0.1",
+      "current": true
     }
   ]
 }
