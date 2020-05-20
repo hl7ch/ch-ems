@@ -3,7 +3,7 @@
    <id value="1b-Einsatzprotokoll"/>
    <meta>
       <lastUpdated value="2020-04-24T07:53:22.889+00:00"/>
-      <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
+      <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document"/>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"/>

@@ -50,7 +50,7 @@
       </reference>
       <name value="1 Einsatzprotokoll"/>
       <description value="Example for Bundle"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document"/>
     </resource>
     <resource>
       <reference>
@@ -58,7 +58,7 @@
       </reference>
       <name value="1b Einsatzprotokoll"/>
       <description value="Example for Bundle"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document"/>
     </resource>
     <resource>
       <reference>
@@ -66,7 +66,7 @@
       </reference>
       <name value="2 Einsatzprotokoll"/>
       <description value="Example for Bundle"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document"/>
     </resource>
     <resource>
       <reference>
@@ -74,7 +74,7 @@
       </reference>
       <name value="2b Einsatzprotokoll"/>
       <description value="Example for Bundle"/>
-      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
+      <exampleCanonical value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document"/>
     </resource>
     <resource>
       <reference>
@@ -496,7 +496,7 @@
     <!-- References to structure definitions -->
     <resource>
       <reference>
-        <reference value="StructureDefinition/ch-ems-bundle"/>
+        <reference value="StructureDefinition/ch-ems-document"/>
       </reference>
       <exampleBoolean value="false"/>
     </resource>

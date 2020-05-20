@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <StructureDefinition xmlns="http://hl7.org/fhir">
-    <id value="ch-ems-bundle"/>
-    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-bundle"/>
+    <id value="ch-ems-document"/>
+    <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document"/>
     <version value="0.1.0"/>
-    <name value="CHEmsBundle"/>
-    <title value="CH EMS Bundle Profile"/>
+    <name value="CHEmsDocument"/>
+    <title value="CH EMS Document Profile"/>
     <status value="draft"/>
     <date value="2020-02-05T00:00:00+00:00"/>
     <publisher value="IVR Interverband für Rettungswesen"/>
