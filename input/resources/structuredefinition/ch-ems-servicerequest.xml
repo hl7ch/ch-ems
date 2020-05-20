@@ -55,6 +55,18 @@
             <path value="ServiceRequest.subject.reference"/>
             <min value="1"/>
         </element>
+        <element id="ServiceRequest.encounter">
+            <path value="ServiceRequest.encounter"/>
+            <short value="Encounter in which the request was created"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-encounter"/>
+            </type>
+        </element>
+        <element id="ServiceRequest.encounter.reference">
+            <path value="ServiceRequest.encounter.reference"/>
+            <min value="1"/>
+        </element>
         <element id="ServiceRequest.requester">
             <path value="ServiceRequest.requester"/>
             <short value="Informant organisation (IMC)"/>

@@ -18,6 +18,9 @@
     <subject>
         <reference value="Patient/2-PatientUnbekannt"/>
     </subject>
+    <encounter>
+        <reference value="Encounter/2-Einsatz"/>
+    </encounter>
     <requester>
         <reference value="#informant"/>
     </requester>

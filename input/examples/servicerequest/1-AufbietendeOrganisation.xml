@@ -19,6 +19,9 @@
     <subject>
         <reference value="Patient/1-PeterMuster"/>
     </subject>
+    <encounter>
+        <reference value="Encounter/1-Einsatz"/>
+    </encounter>
     <requester>
         <reference value="#informant"/>
     </requester>

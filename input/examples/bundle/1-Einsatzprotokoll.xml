@@ -794,9 +794,9 @@
             </practitioner>
             <code>
                <coding>
-                     <system value="http://snomed.info/sct"/>
-                     <code value="133932002"/>
-                     <display value="Caregiver"/>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="133932002"/>
+                  <display value="Caregiver"/>
                </coding>
             </code>
          </PractitionerRole>
@@ -974,6 +974,9 @@
             <subject>
                <reference value="Patient/1-PeterMuster"/>
             </subject>
+            <encounter>
+               <reference value="Encounter/1-Einsatz"/>
+            </encounter>
             <requester>
                <reference value="#informant"/>
             </requester>
