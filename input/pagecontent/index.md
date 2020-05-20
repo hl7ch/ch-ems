@@ -12,10 +12,14 @@ The CH EMS implementation guide describes the FHIR representation of the defined
 #### Swiss context
 The [CH EMS profiles](profiles.html) are based on the CH Core basic profiles. Thus, the examples of the EMS protocols ([Einsatzprotokolle 1, 1b, 2, 2b](StructureDefinition-ch-ems-document-examples.html)) are valid in the Swiss context. In order to verify the correctness, the documents can be validated against the [CH EMS Document Profile](StructureDefinition-ch-ems-document.html). (The requirements of the [CH Core Document Profile](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document.html) are thus also fulfilled and checked).
 
+*Validation: see [README CH EMS](https://github.com/hl7ch/ch-ems)*
+
 #### Swiss EPR context
 If the documents are used in the EPR context, the requirements of the [CH Core Document Profile EPR](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document-epr.html) must also be fulfilled. For the use case of the emergency services, there are two main aspects that must be considered in the EPR context:
 * The **AHV number** of the patient must **not** be stored in the EPR
 * For a valid EPR document, the **name of the patient** must be known, which is not always guaranteed in emergency services    
+
+*Validation: see [README CH Core](https://github.com/hl7ch/ch-core)*
 
 
 ### Copyright
