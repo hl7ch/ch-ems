@@ -1,22 +1,28 @@
 ### Introduction
-CH-EMS is a FHIR implementation guide for the use of the emergency medical service protocol (EMS-protocol).
+TBD (CH-EMS is a FHIR implementation guide for the use of the emergency medical service protocol (EMS protocol).)
 
 **Download**: You can download this implementation guide in npm format from [here](package.tgz).
 
-**Identification**: OID: 2.16.756.5.30.1.143.1.1
+**Identification**: OID: 2.16.756.5.30.1.143.1.1    
 
 
-### Scope
-* [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatypes for the use of the emergency medical service protocol 
-* [Extensions](extensions.html) - are FHIR extensions that are added for the use of the emergency medical service protocol 
-* [Terminologies](terminology.html) - are defined or referenced code systems and value sets for the use of the emergency medical service protocol  
+### Swiss specific context
+The CH EMS implementation guide describes the FHIR representation of the defined [**Emergency Medical Service protocol**](document.html). This implementation guide is dependent on [CH Core](http://fhir.ch/ig/ch-core/index.html) and [CH EPR Term](http://fhir.ch/ig/ch-epr-term/index.html), which describe the Swiss specific context, especially related to the Swiss electronic patient record (EPR).
+
+#### Swiss context
+The [CH EMS profiles](profiles.html) are based on the CH Core basic profiles. Thus, the examples of the EMS protocols ([Einsatzprotokolle 1, 1b, 2, 2b](StructureDefinition-ch-ems-document-examples.html)) are valid in the Swiss context. In order to verify the correctness, the documents can be validated against the [CH EMS Document Profile](StructureDefinition-ch-ems-document.html). (The requirements of the [CH Core Document Profile](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document.html) are thus also fulfilled and checked).
+
+#### Swiss EPR context
+If the documents are used in the EPR context, the requirements of the [CH Core Document Profile EPR](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document-epr.html) must also be fulfilled. For the use case of the emergency services, there are two main aspects that must be considered in the EPR context:
+* The **AHV number** of the patient must **not** be stored in the EPR
+* For a valid EPR document, the **name of the patient** must be known, which is not always guaranteed in emergency services    
 
 
 ### Copyright
 This artefact includes content from SNOMED Clinical Terms&reg; (SNOMED CT&reg;) which is copyright of the 
 International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must 
 have the appropriate SNOMED CT Affiliate license - for more information contact 
-http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.
+<http://www.snomed.org/snomed-ct/get-snomed> or <info@snomed.org>.
 
 This artefact includes content from LOINC®. This content LOINC® is copyright © 1995 Regenstrief Institute, 
-Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use.
+Inc. and the LOINC Committee, and available at no cost under the license at <http://loinc.org/terms-of-use>.
