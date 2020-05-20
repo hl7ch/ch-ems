@@ -78,5 +78,17 @@
             <path value="Procedure.subject.reference"/>
             <min value="1"/>
         </element>
+        <element id="Procedure.encounter">
+            <path value="Procedure.encounter"/>
+            <short value="Emergency service during which this procedure is made"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-encounter"/>
+            </type>
+        </element>
+        <element id="Procedure.encounter.reference">
+            <path value="Procedure.encounter.reference"/>
+            <min value="1"/>
+        </element>
     </differential>
 </StructureDefinition>
