@@ -979,6 +979,12 @@
       </reference>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="ValueSet/yes-no-unknown"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
 
     <!-- pages -->
     <page>

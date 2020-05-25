@@ -76,9 +76,161 @@
         <element id="Observation.effectiveDateTime">
             <path value="Observation.effectiveDateTime"/>
         </element>
-        <!-- TBD -->
-        <element id="Observation.value[x]">
-            <path value="Observation.value[x]"/>
+
+        <element id="Observation.component">
+            <path value="Observation.component"/>
+            <slicing>
+                <discriminator>
+                    <type value="pattern"/>
+                    <path value="code"/>
+                </discriminator>
+                <ordered value="false"/>
+                <rules value="open"/>
+            </slicing>
         </element>
+
+        <!-- Face left -->
+        <element id="Observation.component:faceLeft">
+            <path value="Observation.component"/>
+            <sliceName value="faceLeft"/>
+            <short value="Left side of face"/>
+        </element>
+        <element id="Observation.component:faceLeft.code">
+            <path value="Observation.component.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="83272003"/>
+                    <display value="Structure of left side of face (body structure)"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Observation.component:faceLeft.valueCodeableConcept">
+            <path value="Observation.component.valueCodeableConcept"/>
+            <short value="Face drooping (left side)"/>
+            <min value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <binding>
+                <strength value="extensible"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/yes-no-unknown"/>
+            </binding>
+        </element>
+        <!-- Face right -->
+        <element id="Observation.component:faceRight">
+            <path value="Observation.component"/>
+            <sliceName value="faceRight"/>
+            <short value="Right side of face"/>
+        </element>
+        <element id="Observation.component:faceRight.code">
+            <path value="Observation.component.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="49368008"/>
+                    <display value="Structure of right side of face (body structure)"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Observation.component:faceRight.valueCodeableConcept">
+            <path value="Observation.component.valueCodeableConcept"/>
+            <short value="Face drooping (right side)"/>
+            <min value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <binding>
+                <strength value="extensible"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/yes-no-unknown"/>
+            </binding>
+        </element>
+
+        <!-- Arm left -->
+        <element id="Observation.component:armLeft">
+            <path value="Observation.component"/>
+            <sliceName value="armLeft"/>
+            <short value="Left arm"/>
+        </element>
+        <element id="Observation.component:armLeft.code">
+            <path value="Observation.component.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="368208006"/>
+                    <display value="Left upper arm structure (body structure)"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Observation.component:armLeft.valueCodeableConcept">
+            <path value="Observation.component.valueCodeableConcept"/>
+            <short value="Arm weakness (left side)"/>
+            <min value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <binding>
+                <strength value="extensible"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/yes-no-unknown"/>
+            </binding>
+        </element>
+        <!-- Arm right -->
+        <element id="Observation.component:armRight">
+            <path value="Observation.component"/>
+            <sliceName value="armRight"/>
+            <short value="Right arm"/>
+        </element>
+        <element id="Observation.component:armRight.code">
+            <path value="Observation.component.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="368209003"/>
+                    <display value="Right upper arm structure (body structure)"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Observation.component:armRight.valueCodeableConcept">
+            <path value="Observation.component.valueCodeableConcept"/>
+            <short value="Arm weakness (right side)"/>
+            <min value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <binding>
+                <strength value="extensible"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/yes-no-unknown"/>
+            </binding>
+        </element>
+
+        <!-- Speech -->
+        <element id="Observation.component:speech">
+            <path value="Observation.component"/>
+            <sliceName value="speech"/>
+            <short value="Speech"/>
+        </element>
+        <element id="Observation.component:speech.code">
+            <path value="Observation.component.code"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="87335007"/>
+                    <display value="Speaking (observable entity)"/>
+                </coding>
+            </patternCodeableConcept>
+        </element>
+        <element id="Observation.component:speech.valueCodeableConcept">
+            <path value="Observation.component.valueCodeableConcept"/>
+            <short value="Speech difficulty"/>
+            <min value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <binding>
+                <strength value="extensible"/>
+                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/yes-no-unknown"/>
+            </binding>
+        </element>
+
     </differential>
 </StructureDefinition>

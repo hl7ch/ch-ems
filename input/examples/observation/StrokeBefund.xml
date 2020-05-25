@@ -9,13 +9,99 @@
         <coding>
             <system value="http://snomed.info/sct"/>
             <code value="716800008"/>
-            <display value="Face Arm Speech Test score"/>
+            <display value="Face Arm Speech Test score (observable entity)"/>
         </coding>
     </code>
     <subject>
         <reference value="Patient/1-PeterMuster"/>
     </subject>
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
-    <!-- TBD -->
-    <valueString value="FAST"/>
+    <!-- Face left -->
+    <component>
+        <code>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="83272003"/>
+                <display value="Structure of left side of face (body structure)"/>
+            </coding>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="373067005"/>
+                <display value="No (qualifier value)"/>
+            </coding>
+        </valueCodeableConcept>
+    </component>
+    <!-- Face right -->
+    <component>
+        <code>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="49368008"/>
+                <display value="Structure of right side of face (body structure)"/>
+            </coding>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="373066001"/>
+                <display value="Yes (qualifier value)"/>
+            </coding>
+        </valueCodeableConcept>
+    </component>
+
+    <!-- Arm left -->
+    <component>
+        <code>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="368208006"/>
+                <display value="Left upper arm structure (body structure)"/>
+            </coding>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="373067005"/>
+                <display value="No (qualifier value)"/>
+            </coding>
+        </valueCodeableConcept>
+    </component>
+    <!-- Arm right -->
+    <component>
+        <code>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="368209003"/>
+                <display value="Right upper arm structure (body structure)"/>
+            </coding>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="373067005"/>
+                <display value="No (qualifier value)"/>
+            </coding>
+        </valueCodeableConcept>
+    </component>
+
+    <!-- Speech -->
+    <component>
+        <code>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="87335007"/>
+                <display value="Speaking (observable entity)"/>
+            </coding>
+        </code>
+        <valueCodeableConcept>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="261665006"/>
+                <display value="Unknown (qualifier value)"/>
+            </coding>
+        </valueCodeableConcept>
+    </component>
+
 </Observation>
