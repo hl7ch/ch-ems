@@ -33,11 +33,17 @@
                 <display value="Glasgow coma score motor"/>
             </coding>
         </code>
-        <valueQuantity>
-            <value value="3"/>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="{score}"/>
-        </valueQuantity>
+        <valueCodeableConcept>
+            <coding>
+                <extension url="http://hl7.org/fhir/StructureDefinition/ordinalValue">
+                    <valueDecimal value="3"/>
+                </extension>
+                <system value="http://loinc.org"/>
+                <code value="LA6564-4"/>
+                <display value="Flexion to pain"/>
+            </coding>
+            <text value="3 (Flexion to pain)"/>
+        </valueCodeableConcept>
     </component>
     <!-- cdachems-dataelement-111 GCS-verbale Kommunikation-->
     <component>
@@ -48,11 +54,17 @@
                 <display value="Glasgow coma score verbal"/>
             </coding>
         </code>
-        <valueQuantity>
-            <value value="3"/>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="{score}"/>
-        </valueQuantity>
+        <valueCodeableConcept>
+            <coding>
+                <extension url="http://hl7.org/fhir/StructureDefinition/ordinalValue">
+                    <valueDecimal value="3"/>
+                </extension>
+                <system value="http://loinc.org"/>
+                <code value="LA6559-4"/>
+                <display value="Inappropriate words"/>
+            </coding>
+            <text value="3 (Inappropriate words)"/>
+        </valueCodeableConcept>
     </component>
     <!-- cdachems-dataelement GCS-Augenöffnung 110 -->
     <component>
@@ -63,10 +75,16 @@
                 <display value="Glasgow coma score eye opening"/>
             </coding>
         </code>
-        <valueQuantity>
-            <value value="3"/>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="{score}"/>
-        </valueQuantity>
+        <valueCodeableConcept>
+            <coding>
+                <extension url="http://hl7.org/fhir/StructureDefinition/ordinalValue">
+                    <valueDecimal value="3"/>
+                </extension>
+                <system value="http://loinc.org"/>
+                <code value="LA6555-2"/>
+                <display value="Eye opening to verbal command"/>
+            </coding>
+            <text value="3 (Eye opening to verbal command)"/>
+        </valueCodeableConcept>
     </component>
 </Observation>

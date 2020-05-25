@@ -175,7 +175,7 @@
                               <th id="departurefromscene">12.48</th>
                               <th id="arrivalattarget">12.54</th>
                               <th id="departurefromtarget">13.25</th>
-									   <th id="operationalreadiness">13.40</th>
+                              <th id="operationalreadiness">13.40</th>
                            </tr>
                         </tbody>
                      </table>
@@ -637,9 +637,9 @@
             </practitioner>
             <code>
                <coding>
-                     <system value="http://snomed.info/sct"/>
-                     <code value="133932002"/>
-                     <display value="Caregiver"/>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="133932002"/>
+                  <display value="Caregiver"/>
                </coding>
             </code>
          </PractitionerRole>
@@ -1130,11 +1130,17 @@
                      <display value="Glasgow coma score motor"/>
                   </coding>
                </code>
-               <valueQuantity>
-                  <value value="3"/>
-                  <system value="http://unitsofmeasure.org"/>
-                  <code value="{score}"/>
-               </valueQuantity>
+               <valueCodeableConcept>
+                  <coding>
+                     <extension url="http://hl7.org/fhir/StructureDefinition/ordinalValue">
+                        <valueDecimal value="3"/>
+                     </extension>
+                     <system value="http://loinc.org"/>
+                     <code value="LA6564-4"/>
+                     <display value="Flexion to pain"/>
+                  </coding>
+                  <text value="3 (Flexion to pain)"/>
+               </valueCodeableConcept>
             </component>
             <!-- cdachems-dataelement-111 GCS-verbale Kommunikation-->
             <component>
@@ -1145,11 +1151,17 @@
                      <display value="Glasgow coma score verbal"/>
                   </coding>
                </code>
-               <valueQuantity>
-                  <value value="3"/>
-                  <system value="http://unitsofmeasure.org"/>
-                  <code value="{score}"/>
-               </valueQuantity>
+               <valueCodeableConcept>
+                  <coding>
+                     <extension url="http://hl7.org/fhir/StructureDefinition/ordinalValue">
+                        <valueDecimal value="3"/>
+                     </extension>
+                     <system value="http://loinc.org"/>
+                     <code value="LA6559-4"/>
+                     <display value="Inappropriate words"/>
+                  </coding>
+                  <text value="3 (Inappropriate words)"/>
+               </valueCodeableConcept>
             </component>
             <!-- cdachems-dataelement GCS-Augenöffnung 110 -->
             <component>
@@ -1160,11 +1172,17 @@
                      <display value="Glasgow coma score eye opening"/>
                   </coding>
                </code>
-               <valueQuantity>
-                  <value value="3"/>
-                  <system value="http://unitsofmeasure.org"/>
-                  <code value="{score}"/>
-               </valueQuantity>
+               <valueCodeableConcept>
+                  <coding>
+                     <extension url="http://hl7.org/fhir/StructureDefinition/ordinalValue">
+                        <valueDecimal value="3"/>
+                     </extension>
+                     <system value="http://loinc.org"/>
+                     <code value="LA6555-2"/>
+                     <display value="Eye opening to verbal command"/>
+                  </coding>
+                  <text value="3 (Eye opening to verbal command)"/>
+               </valueCodeableConcept>
             </component>
          </Observation>
       </resource>
@@ -1194,9 +1212,9 @@
             <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
             <valueCodeableConcept>
                <coding>
-                     <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
-                     <code value="V"/>
-                     <display value="Reaktion nur bei lauter Ansprache"/>
+                  <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+                  <code value="V"/>
+                  <display value="Reaktion nur bei lauter Ansprache"/>
                </coding>
             </valueCodeableConcept>
          </Observation>
@@ -1334,7 +1352,7 @@
                <system value="http://unitsofmeasure.org"/>
                <code value="{score}"/>
             </valueQuantity>
-            <!-- cdachems-dataelement-461 GCS-motorische Kommunikation -->
+            <!-- cdachems-dataelement-112 GCS-motorische Kommunikation -->
             <component>
                <code>
                   <coding>
@@ -1343,13 +1361,19 @@
                      <display value="Glasgow coma score motor"/>
                   </coding>
                </code>
-               <valueQuantity>
-                  <value value="3"/>
-                  <system value="http://unitsofmeasure.org"/>
-                  <code value="{score}"/>
-               </valueQuantity>
+               <valueCodeableConcept>
+                  <coding>
+                     <extension url="http://hl7.org/fhir/StructureDefinition/ordinalValue">
+                        <valueDecimal value="3"/>
+                     </extension>
+                     <system value="http://loinc.org"/>
+                     <code value="LA6564-4"/>
+                     <display value="Flexion to pain"/>
+                  </coding>
+                  <text value="3 (Flexion to pain)"/>
+               </valueCodeableConcept>
             </component>
-            <!-- cdachems-dataelement-460 GCS-verbale Kommunikation-->
+            <!-- cdachems-dataelement-111 GCS-verbale Kommunikation-->
             <component>
                <code>
                   <coding>
@@ -1358,13 +1382,19 @@
                      <display value="Glasgow coma score verbal"/>
                   </coding>
                </code>
-               <valueQuantity>
-                  <value value="4"/>
-                  <system value="http://unitsofmeasure.org"/>
-                  <code value="{score}"/>
-               </valueQuantity>
+               <valueCodeableConcept>
+                  <coding>
+                     <extension url="http://hl7.org/fhir/StructureDefinition/ordinalValue">
+                        <valueDecimal value="4"/>
+                     </extension>
+                     <system value="http://loinc.org"/>
+                     <code value="LA6560-2"/>
+                     <display value="Confused"/>
+                  </coding>
+                  <text value="4 (Confused)"/>
+               </valueCodeableConcept>
             </component>
-            <!-- cdachems-dataelement GCS-Augenöffnung 459 -->
+            <!-- cdachems-dataelement GCS-Augenöffnung 110 -->
             <component>
                <code>
                   <coding>
@@ -1373,11 +1403,17 @@
                      <display value="Glasgow coma score eye opening"/>
                   </coding>
                </code>
-               <valueQuantity>
-                  <value value="3"/>
-                  <system value="http://unitsofmeasure.org"/>
-                  <code value="{score}"/>
-               </valueQuantity>
+               <valueCodeableConcept>
+                  <coding>
+                     <extension url="http://hl7.org/fhir/StructureDefinition/ordinalValue">
+                        <valueDecimal value="3"/>
+                     </extension>
+                     <system value="http://loinc.org"/>
+                     <code value="LA6555-2"/>
+                     <display value="Eye opening to verbal command"/>
+                  </coding>
+                  <text value="3 (Eye opening to verbal command)"/>
+               </valueCodeableConcept>
             </component>
          </Observation>
       </resource>

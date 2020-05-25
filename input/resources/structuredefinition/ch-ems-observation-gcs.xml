@@ -91,6 +91,7 @@
                 <rules value="open"/>
             </slicing>
         </element>
+
         <!-- GCS motor -->
         <element id="Observation.component:motor">
             <path value="Observation.component"/>
@@ -107,12 +108,33 @@
                 </coding>
             </patternCodeableConcept>
         </element>
-        <element id="Observation.component:motor.valueQuantity">
-            <path value="Observation.component.valueQuantity"/>
+        <element id="Observation.component:motor.valueCodeableConcept">
+            <path value="Observation.component.valueCodeableConcept"/>
+            <min value="1"/>
             <type>
-                <code value="Quantity"/>
+                <code value="CodeableConcept"/>
             </type>
         </element>
+        <element id="Observation.component:motor.valueCodeableConcept.coding">
+            <path value="Observation.component.valueCodeableConcept.coding"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.component:motor.valueCodeableConcept.coding.system">
+            <path value="Observation.component.valueCodeableConcept.coding.system"/>
+            <min value="1"/>
+            <fixedUri value="http://loinc.org"/>
+        </element>
+        <element id="Observation.component:motor.valueCodeableConcept.coding.code">
+            <path value="Observation.component.valueCodeableConcept.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.component:motor.valueCodeableConcept.coding.display">
+            <path value="Observation.component.valueCodeableConcept.coding.display"/>
+        </element>
+        <element id="Observation.component:motor.valueCodeableConcept.text">
+            <path value="Observation.component.valueCodeableConcept.text"/>
+        </element>
+
         <!-- GCS verbal -->
         <element id="Observation.component:verbal">
             <path value="Observation.component"/>
@@ -129,12 +151,33 @@
                 </coding>
             </patternCodeableConcept>
         </element>
-        <element id="Observation.component:verbal.valueQuantity">
-            <path value="Observation.component.valueQuantity"/>
+        <element id="Observation.component:verbal.valueCodeableConcept">
+            <path value="Observation.component.valueCodeableConcept"/>
+            <min value="1"/>
             <type>
-                <code value="Quantity"/>
+                <code value="CodeableConcept"/>
             </type>
         </element>
+        <element id="Observation.component:verbal.valueCodeableConcept.coding">
+            <path value="Observation.component.valueCodeableConcept.coding"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.component:verbal.valueCodeableConcept.coding.system">
+            <path value="Observation.component.valueCodeableConcept.coding.system"/>
+            <min value="1"/>
+            <fixedUri value="http://loinc.org"/>
+        </element>
+        <element id="Observation.component:verbal.valueCodeableConcept.coding.code">
+            <path value="Observation.component.valueCodeableConcept.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.component:verbal.valueCodeableConcept.coding.display">
+            <path value="Observation.component.valueCodeableConcept.coding.display"/>
+        </element>
+        <element id="Observation.component:verbal.valueCodeableConcept.text">
+            <path value="Observation.component.valueCodeableConcept.text"/>
+        </element>
+
         <!-- GCS eye opening -->
         <element id="Observation.component:eyeOpening">
             <path value="Observation.component"/>
@@ -151,11 +194,31 @@
                 </coding>
             </patternCodeableConcept>
         </element>
-        <element id="Observation.component:eyeOpening.valueQuantity">
-            <path value="Observation.component.valueQuantity"/>
+        <element id="Observation.component:eyeOpening.valueCodeableConcept">
+            <path value="Observation.component.valueCodeableConcept"/>
+            <min value="1"/>
             <type>
-                <code value="Quantity"/>
+                <code value="CodeableConcept"/>
             </type>
+        </element>
+        <element id="Observation.component:eyeOpening.valueCodeableConcept.coding">
+            <path value="Observation.component.valueCodeableConcept.coding"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.component:eyeOpening.valueCodeableConcept.coding.system">
+            <path value="Observation.component.valueCodeableConcept.coding.system"/>
+            <min value="1"/>
+            <fixedUri value="http://loinc.org"/>
+        </element>
+        <element id="Observation.component:eyeOpening.valueCodeableConcept.coding.code">
+            <path value="Observation.component.valueCodeableConcept.coding.code"/>
+            <min value="1"/>
+        </element>
+        <element id="Observation.component:eyeOpening.valueCodeableConcept.coding.display">
+            <path value="Observation.component.valueCodeableConcept.coding.display"/>
+        </element>
+        <element id="Observation.component:eyeOpening.valueCodeableConcept.text">
+            <path value="Observation.component.valueCodeableConcept.text"/>
         </element>
     </differential>
 </StructureDefinition>
