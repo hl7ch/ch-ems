@@ -78,7 +78,8 @@
         </element>
         <element id="Composition.title">
             <path value="Composition.title"/>
-            <short value="'Einsatzprotokoll Rettungsdienst' or 'TODO' or 'TODO' or 'Emergency Medical Service protocol'"/>
+            <short value="'Einsatzprotokoll Rettungsdienst' or 'Fiche d’intervention du service de sauvetage' or 
+                            'Cartella sanitaria  del ente di salvataggio e soccorso' or 'Emergency Medical Service protocol'"/>
         </element>
         <element id="Composition.custodian">
             <path value="Composition.custodian"/>
