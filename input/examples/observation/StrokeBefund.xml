@@ -15,31 +15,24 @@
     <subject>
         <reference value="Patient/1-PeterMuster"/>
     </subject>
+    <!-- T: Time -->
     <effectiveDateTime value="2016-12-10T11:25:00.000+01:00"/>
-    <!-- Face left -->
+    <!-- F: Face-->
     <component>
+        <extension url="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-laterality">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="http://snomed.info/sct"/>
+                    <code value="419465000"/>
+                    <display value="Unilateral right"/>	
+                </coding>
+            </valueCodeableConcept>
+        </extension>
         <code>
             <coding>
                 <system value="http://snomed.info/sct"/>
-                <code value="83272003"/>
-                <display value="Structure of left side of face (body structure)"/>
-            </coding>
-        </code>
-        <valueCodeableConcept>
-            <coding>
-                <system value="http://snomed.info/sct"/>
-                <code value="373067005"/>
-                <display value="No (qualifier value)"/>
-            </coding>
-        </valueCodeableConcept>
-    </component>
-    <!-- Face right -->
-    <component>
-        <code>
-            <coding>
-                <system value="http://snomed.info/sct"/>
-                <code value="49368008"/>
-                <display value="Structure of right side of face (body structure)"/>
+                <code value="89545001"/>
+                <display value="Face structure (body structure)"/>
             </coding>
         </code>
         <valueCodeableConcept>
@@ -50,14 +43,13 @@
             </coding>
         </valueCodeableConcept>
     </component>
-
-    <!-- Arm left -->
+    <!-- A: Arm -->
     <component>
         <code>
             <coding>
                 <system value="http://snomed.info/sct"/>
-                <code value="368208006"/>
-                <display value="Left upper arm structure (body structure)"/>
+                <code value="53120007"/>
+                <display value="Upper limb structure (body structure)"/>
             </coding>
         </code>
         <valueCodeableConcept>
@@ -68,25 +60,7 @@
             </coding>
         </valueCodeableConcept>
     </component>
-    <!-- Arm right -->
-    <component>
-        <code>
-            <coding>
-                <system value="http://snomed.info/sct"/>
-                <code value="368209003"/>
-                <display value="Right upper arm structure (body structure)"/>
-            </coding>
-        </code>
-        <valueCodeableConcept>
-            <coding>
-                <system value="http://snomed.info/sct"/>
-                <code value="373067005"/>
-                <display value="No (qualifier value)"/>
-            </coding>
-        </valueCodeableConcept>
-    </component>
-
-    <!-- Speech -->
+    <!-- S: Speech -->
     <component>
         <code>
             <coding>
@@ -103,5 +77,4 @@
             </coding>
         </valueCodeableConcept>
     </component>
-
 </Observation>

@@ -73,8 +73,13 @@
             <path value="Observation.encounter.reference"/>
             <min value="1"/>
         </element>
+        <!-- All answers (F, A, S, T) are requiered (yes/no/unknown), 
+             if F/A answered with yes, the side is also required,
+             there is no summary conclusion -->
         <element id="Observation.effectiveDateTime">
             <path value="Observation.effectiveDateTime"/>
+            <short value="T: Time"/>
+            <min value="1"/>
         </element>
 
         <element id="Observation.component">
@@ -87,55 +92,51 @@
                 <ordered value="false"/>
                 <rules value="open"/>
             </slicing>
+            <min value="3"/>
+            <max value="3"/>
+        </element>
+        <element id="Observation.component.extension">
+            <path value="Observation.component.extension"/>
+            <slicing>
+                <discriminator>
+                    <type value="value"/>
+                    <path value="url"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
         </element>
 
-        <!-- Face left -->
-        <element id="Observation.component:faceLeft">
+        <!-- Face -->
+        <element id="Observation.component:face">
             <path value="Observation.component"/>
-            <sliceName value="faceLeft"/>
-            <short value="Left side of face"/>
-        </element>
-        <element id="Observation.component:faceLeft.code">
-            <path value="Observation.component.code"/>
-            <patternCodeableConcept>
-                <coding>
-                    <system value="http://snomed.info/sct"/>
-                    <code value="83272003"/>
-                    <display value="Structure of left side of face (body structure)"/>
-                </coding>
-            </patternCodeableConcept>
-        </element>
-        <element id="Observation.component:faceLeft.valueCodeableConcept">
-            <path value="Observation.component.valueCodeableConcept"/>
-            <short value="Face drooping (left side)"/>
+            <sliceName value="face"/>
+            <short value="F: Face"/>
             <min value="1"/>
+            <max value="1"/>
+        </element>
+        <element id="Observation.component:face.extension">
+            <path value="Observation.component.extension"/>
+            <short value="Affected side of the face"/>
+            <min value="0"/>
+            <max value="1"/>
             <type>
-                <code value="CodeableConcept"/>
+                <code value="Extension"/>
+                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-laterality"/>
             </type>
-            <binding>
-                <strength value="extensible"/>
-                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/yes-no-unknown"/>
-            </binding>
         </element>
-        <!-- Face right -->
-        <element id="Observation.component:faceRight">
-            <path value="Observation.component"/>
-            <sliceName value="faceRight"/>
-            <short value="Right side of face"/>
-        </element>
-        <element id="Observation.component:faceRight.code">
+        <element id="Observation.component:face.code">
             <path value="Observation.component.code"/>
             <patternCodeableConcept>
                 <coding>
                     <system value="http://snomed.info/sct"/>
-                    <code value="49368008"/>
-                    <display value="Structure of right side of face (body structure)"/>
+                    <code value="89545001"/>
+                    <display value="Face structure (body structure)"/>
                 </coding>
             </patternCodeableConcept>
         </element>
-        <element id="Observation.component:faceRight.valueCodeableConcept">
+        <element id="Observation.component:face.valueCodeableConcept">
             <path value="Observation.component.valueCodeableConcept"/>
-            <short value="Face drooping (right side)"/>
+            <short value="Face drooping"/>
             <min value="1"/>
             <type>
                 <code value="CodeableConcept"/>
@@ -146,25 +147,37 @@
             </binding>
         </element>
 
-        <!-- Arm left -->
-        <element id="Observation.component:armLeft">
+        <!-- Arm -->
+        <element id="Observation.component:arm">
             <path value="Observation.component"/>
-            <sliceName value="armLeft"/>
-            <short value="Left arm"/>
+            <sliceName value="arm"/>
+            <short value="A: Arm"/>
+            <min value="1"/>
+            <max value="1"/>
         </element>
-        <element id="Observation.component:armLeft.code">
+        <element id="Observation.component:arm.extension">
+            <path value="Observation.component.extension"/>
+            <short value="Affected arm"/>
+            <min value="0"/>
+            <max value="1"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-laterality"/>
+            </type>
+        </element>
+        <element id="Observation.component:arm.code">
             <path value="Observation.component.code"/>
             <patternCodeableConcept>
                 <coding>
                     <system value="http://snomed.info/sct"/>
-                    <code value="368208006"/>
-                    <display value="Left upper arm structure (body structure)"/>
+                    <code value="53120007"/>
+                    <display value="Upper limb structure (body structure)"/>
                 </coding>
             </patternCodeableConcept>
         </element>
-        <element id="Observation.component:armLeft.valueCodeableConcept">
+        <element id="Observation.component:arm.valueCodeableConcept">
             <path value="Observation.component.valueCodeableConcept"/>
-            <short value="Arm weakness (left side)"/>
+            <short value="Arm weakness"/>
             <min value="1"/>
             <type>
                 <code value="CodeableConcept"/>
@@ -174,40 +187,14 @@
                 <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/yes-no-unknown"/>
             </binding>
         </element>
-        <!-- Arm right -->
-        <element id="Observation.component:armRight">
-            <path value="Observation.component"/>
-            <sliceName value="armRight"/>
-            <short value="Right arm"/>
-        </element>
-        <element id="Observation.component:armRight.code">
-            <path value="Observation.component.code"/>
-            <patternCodeableConcept>
-                <coding>
-                    <system value="http://snomed.info/sct"/>
-                    <code value="368209003"/>
-                    <display value="Right upper arm structure (body structure)"/>
-                </coding>
-            </patternCodeableConcept>
-        </element>
-        <element id="Observation.component:armRight.valueCodeableConcept">
-            <path value="Observation.component.valueCodeableConcept"/>
-            <short value="Arm weakness (right side)"/>
-            <min value="1"/>
-            <type>
-                <code value="CodeableConcept"/>
-            </type>
-            <binding>
-                <strength value="extensible"/>
-                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/yes-no-unknown"/>
-            </binding>
-        </element>
-
+        
         <!-- Speech -->
         <element id="Observation.component:speech">
             <path value="Observation.component"/>
             <sliceName value="speech"/>
-            <short value="Speech"/>
+            <short value="S: Speech"/>
+            <min value="1"/>
+            <max value="1"/>
         </element>
         <element id="Observation.component:speech.code">
             <path value="Observation.component.code"/>
@@ -231,6 +218,5 @@
                 <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/yes-no-unknown"/>
             </binding>
         </element>
-
     </differential>
 </StructureDefinition>

@@ -520,6 +520,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-ems-ext-laterality"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-ems-ext-performer"/>
       </reference>
       <exampleBoolean value="false"/>
