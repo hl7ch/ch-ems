@@ -9,7 +9,7 @@
         <coding>
             <system value="http://snomed.info/sct"/>
             <code value="716800008"/>
-            <display value="Face Arm Speech Test score (observable entity)"/>
+            <display value="Face Arm Speech Test score"/>
         </coding>
     </code>
     <subject>
