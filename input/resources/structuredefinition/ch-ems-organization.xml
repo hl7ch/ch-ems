@@ -33,6 +33,12 @@
         <element id="Organization">
             <path value="Organization"/>
             <short value="CH EMS Organization"/>
+            <constraint>
+                <key value="ch-ems-epr"/>
+                <severity value="warning"/>
+                <human value="Warning, if the resource is not conform to the CH Core EPR restrictions"/>
+                <expression value="conformsTo('http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr')"/>
+            </constraint>
         </element>
         <element id="Organization.identifier">
             <path value="Organization.identifier"/>

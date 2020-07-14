@@ -32,6 +32,12 @@
         <element id="Patient">
             <path value="Patient"/>
             <short value="CH EMS Patient"/>
+            <constraint>
+                <key value="ch-ems-epr"/>
+                <severity value="warning"/>
+                <human value="Warning, if the resource is not conform to the CH Core EPR restrictions"/>
+                <expression value="conformsTo('http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr')"/>
+            </constraint>
         </element>
         <element id="Patient.extension">
             <path value="Patient.extension" />

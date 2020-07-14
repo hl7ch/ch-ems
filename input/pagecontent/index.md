@@ -19,6 +19,9 @@ If the documents are used in the EPR context, the requirements of the [CH Core D
 * The **social security number (AHVN13)** of the patient must **not** be stored in the EPR
 * For a valid EPR document, the **name of the patient** must be known, which is not always guaranteed in emergency services    
 
+To support the compatibility check against the CH Core EPR profiles, a warning is generated in case of deviations during validation:   
+'ch-ems-epr: Warning, if the resource is not conform to the CH Core EPR restrictions'
+
 *Validation: see [README CH Core](https://github.com/hl7ch/ch-core)*
 
 

@@ -32,6 +32,12 @@
         <element id="Bundle">
             <path value="Bundle"/>
             <short value="CH EMS Document"/>
+            <constraint>
+                <key value="ch-ems-epr"/>
+                <severity value="warning"/>
+                <human value="Warning, if the resource is not conform to the CH Core EPR restrictions"/>
+                <expression value="conformsTo('http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-document-epr')"/>
+            </constraint>
         </element>
         <element id="Bundle.identifier">
             <path value="Bundle.identifier"/>
