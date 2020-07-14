@@ -2,11 +2,18 @@
 
 # The following display values do not correspond to the exact wording
 The display "EMS Patient Care Report" is not a valid display for the code {http://loinc.org}67796-3 - should be one of ["EMS patient care report - version 3 Document NEMSIS","EMS PCR - v 3 Doc NEMSIS"]
-The display "Annotation comment" is not a valid display for the code {http://loinc.org}48767-8 - should be one of ["Annotation comment [Interpretation] Narrative","Annotation comment Imp"]
-The display "Level of Responsiveness (AVPU)" is not a valid display for the code {http://loinc.org}11454-6 - should be one of ["Responsiveness assessment at First encounter","Responsiveness assessment 1st enctr"]
-The display "Final patient acuity" is not a valid display for the code {http://loinc.org}77941-3 - should be one of ["Final patient acuity NEMSIS","Final patient acuity NEMSIS"]
-The display "Clinical presentation" is not a valid display for the code {http://loinc.org}55108-5 - should be one of ["Clinical presentation Document","Clinical presentation Doc"]
+Internal error: The display "EMS Patient Care Report" is not a valid display for the code {http://loinc.org}67796-3 - should be one of ["EMS patient care report - version 3 Document NEMSIS","EMS PCR - v 3 Doc NEMSIS"]
+Internal error: The display "Annotation comment" is not a valid display for the code {http://loinc.org}48767-8 - should be one of ["Annotation comment [Interpretation] Narrative","Annotation comment Imp"]
+Internal error: The display "Level of Responsiveness (AVPU)" is not a valid display for the code {http://loinc.org}11454-6 - should be one of ["Responsiveness assessment at First encounter","Responsiveness assessment 1st enctr"]
+Internal error: The display "Final patient acuity" is not a valid display for the code {http://loinc.org}77941-3 - should be one of ["Final patient acuity NEMSIS","Final patient acuity NEMSIS"]
+Internal error: The display "Clinical presentation" is not a valid display for the code {http://loinc.org}55108-5 - should be one of ["Clinical presentation Document","Clinical presentation Doc"]
 
 # The following code systems are external and not supported by terminology server
 Code System URI "http://fhir.de/CodeSystem/dimdi/icd-10-gm" is unknown so the code cannot be validated
 Error from server: Unable to provide support for code system urn:oid:2.16.756.5.30.1.143.5.1
+
+# Valid Codes (Warning: The code xxxxxxxxx is not valid in the system http://snomed.info/sct)
+The code 418107008 is not valid in the system http://snomed.info/sct
+The code 386661006 is not valid in the system http://snomed.info/sct
+The code 260376009 is not valid in the system http://snomed.info/sct
+The code 385425000 is not valid in the system http://snomed.info/sct
