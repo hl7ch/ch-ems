@@ -7,6 +7,9 @@
     <contained>
         <Organization xmlns="http://hl7.org/fhir">
             <id value="kpt"/>
+            <meta>
+                <profile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+            </meta>
             <name value="KPT"/>
         </Organization>
     </contained>

@@ -7,6 +7,9 @@
     <contained>
         <Organization>
             <id value="informant" />
+            <meta>
+                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
+            </meta>
             <!-- cdachems-dataelement-60 aufbietende Organisation -->
             <identifier>
                 <system value="urn:oid:2.51.1.3"/>
