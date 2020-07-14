@@ -74,6 +74,7 @@
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"/>
+                <aggregation value="contained"/>
             </type>
         </element>
         <element id="ServiceRequest.requester.reference">

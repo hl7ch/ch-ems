@@ -81,6 +81,13 @@
         <element id="Coverage.payor">
             <path value="Coverage.payor"/>
             <short value="Insurance"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+                <aggregation value="contained"/>
+            </type>
         </element>
         <element id="Coverage.payor.reference">
             <path value="Coverage.payor.reference"/>
