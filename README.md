@@ -43,3 +43,5 @@ wget https://storage.googleapis.com/ig-build/org.hl7.fhir.validator.jar -O org.h
 ```
 java -jar org.hl7.fhir.validator.jar [file path] -version 4.0.1 -ig ch.fhir.ig.ch-ems#current -profile http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document
 ```
+
+In case the current published IG (#current) is not found, replace #current with the current version (e.g. #1.0.0) of the published IG (http://fhir.ch/ig/ch-ems/history.html)
