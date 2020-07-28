@@ -1,5 +1,7 @@
 ### Introduction
-TBD (CH-EMS is a FHIR implementation guide for the use of the emergency medical service protocol (EMS protocol).)
+This FHIR implementation guide defines a standardised information workflow applicable to Swiss emergency services (EMS). It is used as a basis for projects to digitalise the processes in the Swiss emergency services and to connect these organisations to other EMS, hospitals and the Swiss Electronic Patient Record (EPR).    
+The project is under the leadership of the "Interverband für Rettungswesen".    
+This information workflow is established as standard at the association eCH under the number eCH-0207, Version 2, and at eHealth Suisse under the name CDA-CH-RESP (official data exchange format according to Swiss legislation).
 
 **Download**: You can download this implementation guide in npm format from [here](package.tgz).
 
@@ -20,7 +22,7 @@ If the documents are used in the EPR context, the requirements of the [CH Core D
 * For a valid EPR document, the **name of the patient** must be known, which is not always guaranteed in emergency services    
 
 To support the compatibility check against the CH Core EPR profiles, a warning is generated in case of deviations during validation:   
-'ch-ems-epr: Warning, if the resource is not conform to the CH Core EPR restrictions'
+'ch-ems-epr: Warning that the resource is not conform to the CH Core EPR restrictions'
 
 *Validation: see [README CH Core](https://github.com/hl7ch/ch-core)*
 

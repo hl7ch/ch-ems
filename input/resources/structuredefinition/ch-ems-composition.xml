@@ -35,7 +35,7 @@
             <constraint>
                 <key value="ch-ems-epr"/>
                 <severity value="warning"/>
-                <human value="Warning, if the resource is not conform to the CH Core EPR restrictions"/>
+                <human value="Warning that the resource is not conform to the CH Core EPR restrictions"/>
                 <expression value="conformsTo('http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-epr')"/>
             </constraint>
         </element>
