@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-gcs-augenoeffnung"/>
+   <id
+           
+            value="IVR-VS-gcs-augenoeffnung"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.14--20160730115400"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,38 +13,94 @@
          <start value="2016-07-30T11:54:00+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcs-augenoeffnung"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcs-augenoeffnung"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
       <value value="2.16.756.5.30.1.1.11.14"/>
    </identifier>
    <version value="2016-07-30T11:54:00"/>
-   <name value="GgsAugenoeffnung"/>
-   <title value="IVR valueset GCS Augenoeffnung (143.11.34)"/>
+   <name value="GCS_Augenöffnung"/>
+   <title
+              
+               value="IVR valueset GCS Augenoeffnung (143.11.34)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
    <description value="IVR valueset GCS Augenöffnung (143.11.34)"/>
    <immutable value="false"/>
+   <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
    <compose>
+      <include>
+         <system value="http://snomed.info/sct"/>
+         <concept>
+            <code value="260389003"/>
+            <display value="No reaction"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="keine Reaktion"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Aucune réaction"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Nessuna reazione"/>
+            </designation>
+         </concept>
+      </include>
       <include>
          <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
          <concept>
-            <code value="1"/>
-            <display value="keine Reaktion"/>
+            <code value="1000150"/>
+            <display value="on pain stimulus"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="auf Schmerzreiz"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="À la douleur"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Allo stimolo doloroso"/>
+            </designation>
          </concept>
          <concept>
-            <code value="2"/>
-            <display value="auf Schmerzreiz"/>
+            <code value="1000151"/>
+            <display value="on request"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="auf Aufforderung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="À la demande"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Allo stimolo verbale"/>
+            </designation>
          </concept>
          <concept>
-            <code value="3"/>
-            <display value="auf Aufforderung"/>
-         </concept>
-         <concept>
-            <code value="4"/>
-            <display value="spontan"/>
+            <code value="1000152"/>
+            <display value="spontaneous"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="spontan"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Spontanée"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Spontanea"/>
+            </designation>
          </concept>
       </include>
    </compose>

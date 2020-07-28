@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id
+           
+            value="IVR-VS-diagnosis"/>
+   <meta>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.25--20200724102043"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+      <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2020-07-24T10:20:43+02:00"/>
+      </valuePeriod>
+   </extension>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagnosis"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.1.11.25"/>
+   </identifier>
+   <version value="2020-07-24T10:20:43"/>
+   <name value="Diagnosis"/>
+   <title
+              
+               value="IVR Valueset diagnosis (..143.11.20)"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="Interverband für Rettungswesen"/>
+   <description value="IVR Valueset diagnosis (..143.11.20)"/>
+   <immutable value="false"/>
+   <compose>
+      <include>
+         <system value="urn:oid:1.2.276.0.76.5.409"/>
+         <concept>
+            <code value="R56.0"/>
+            <display value="Febrile convulsions"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Fieberkrampf"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Fieberkrämpfe"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Convulsioni febbrili"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Convulsions fébriles"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="F44.5"/>
+            <display value="Dissociative convulsions"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Krampfanfall"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Dissoziative Krampfanfälle"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Convulsioni dissociative"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Convulsions dissociatives"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="G45.9"/>
+            <display value="Transient cerebral ischaemic attack, unspecified"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Zerebrale transitorische Ischämie, nicht näher bezeichnet"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TIA / Schlaganfall"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Attacchi cerebrovascolari ischemici transitori non specificati"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Accident ischémique cérébral transitoire, sans précision"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="I21.0"/>
+            <display value="Acute transmural myocardial infarction of anterior wall"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Akuter transmuraler Myokardinfarkt der Vorderwand"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ACS/STEMI VW"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Infarctus transmural aigu du myocarde, de la paroi antérieure"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Infarto miocardico acuto transmurale della parete anteriore"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

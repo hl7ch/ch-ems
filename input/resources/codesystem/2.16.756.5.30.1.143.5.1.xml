@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
+	<url value="urn:oid:2.16.756.5.30.1.143.5.1"></url>
 	<id value="2.16.756.5.30.1.143.5.1"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
 		<valuePeriod>
@@ -7,7 +7,7 @@
 		</valuePeriod>
 	</extension>
 	<url value="urn:oid:2.16.756.5.30.1.143.5.1"/>
-	<version value="2020-05-18T17:00:00"/>
+	<version value="2020-07-28T17:00:00"/>
 	<name value="IVRCodeSystem"/>
 	<title value="IVR Code System"/>
 	<status value="draft"/>
@@ -25,15 +25,19 @@
 		</designation>
 	</concept>
 	<concept>
-		<code value="1"></code>
-		<display value="keine Reaktion auf Schmerzreiz"></display>
-	</concept>
-	<concept>
 		<code value="1000001"></code>
 		<display value="primary mission"></display>
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Primäreinsatz"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Mission primaire"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Intervento primario"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -43,6 +47,14 @@
 			<language value="de-CH"></language>
 			<value value="Sekundäreinsatz"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Mission secondaire"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Intervento secondario"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000003"></code>
@@ -50,6 +62,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Bereitschaftsdienst"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Service de garde"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Guardia medica"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -59,6 +79,14 @@
 			<language value="de-CH"></language>
 			<value value="Stationär Rettungsdienst"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Service de secours fixe"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Servizio di soccorso fisso"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000005"></code>
@@ -67,13 +95,29 @@
 			<language value="de-CH"></language>
 			<value value="Abholung durch Rettungsdienst"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Prise en charge par le service de secours"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Trasporto con servizio ambulanza"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000006"></code>
-		<display value="rendezvous"></display>
+		<display value="rendezvous "></display>
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Rendez vous"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Rendez-vous"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Rendez-vous"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -83,6 +127,14 @@
 			<language value="de-CH"></language>
 			<value value="mit Sondersignal"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Avec sirène"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Con segnali prioritari"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000008"></code>
@@ -90,6 +142,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="ohne Sondersignal"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Sans sirène"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Senza segnali prioritari"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -99,13 +159,30 @@
 			<language value="de-CH"></language>
 			<value value="Rettungssanitäter/in in Ausbildung"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Etudiant/e Ambulanier/ère"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Soccorritore in formazione"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000011"></code>
-		<display value="Ambulanceman-on-training"></display>
+		<display value="Ambulanceman-on-training "></display>
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Transportsanitäter/in in Ausbildung"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Technicien ambulancier en formation"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value
+				value="Soccorritore ausiliario d'ambulanza in formazione"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -115,6 +192,14 @@
 			<language value="de-CH"></language>
 			<value value="Fahrer"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Chauffeur"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Autista"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000014"></code>
@@ -122,6 +207,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="in Ausbildung"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="en formation"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="In formazione"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -131,6 +224,14 @@
 			<language value="de-CH"></language>
 			<value value="betreuender Arzt"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Médecin responsable"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Medico responsabile"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000020"></code>
@@ -138,6 +239,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Praktikant"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Stagiaire"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Stagista"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -147,6 +256,14 @@
 			<language value="de-CH"></language>
 			<value value="Sicherheitsbegleitung"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Service sécurité"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Accompagnamento protettivo"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000022"></code>
@@ -154,6 +271,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Zeuge / Zeugin"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Témoin"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Testimone"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -163,6 +288,14 @@
 			<language value="de-CH"></language>
 			<value value="Alarmierungszeit"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Heure d'alarme"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Orario dell'allarme"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000034"></code>
@@ -170,6 +303,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Dispositionszeit"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="traitement de la centrale d’appels"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Tempo di elaborazione telefonata 144"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -179,6 +320,14 @@
 			<language value="de-CH"></language>
 			<value value="Ausrückzeit"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Parti"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Partenza per il luogo"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000036"></code>
@@ -186,6 +335,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Ankunftszeit am Einsatzort"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Arrivée sur le site"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Arrivo sul luogo"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -195,6 +352,14 @@
 			<language value="de-CH"></language>
 			<value value="Ankunftszeit beim Patienten"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Arrivée auprès du patient"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Accesso al paziente"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000038"></code>
@@ -202,6 +367,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Abfahrtszeit vom Einsatzort"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Départ du site"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Partenza dal luogo"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -211,6 +384,14 @@
 			<language value="de-CH"></language>
 			<value value="Ankunftszeit am Zielort"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Arrivée à destination"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Arrivo a destinazione"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000040"></code>
@@ -218,6 +399,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Übergabezeit"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Remise du patient"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Consegna del paziente"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -227,6 +416,14 @@
 			<language value="de-CH"></language>
 			<value value="Abfahrtszeit vom Zielort"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Départ du lieu de destination"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Partenza dal luogo di destinazione"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000042"></code>
@@ -234,6 +431,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Zeit Einsatzbereit"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Opérationnel"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Prontezza"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -243,6 +448,14 @@
 			<language value="de-CH"></language>
 			<value value="Beschimpfung"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Insulte"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Insulto"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000044"></code>
@@ -250,6 +463,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Bewerfen mit Gegenständen"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Lancer des objets"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Lancio di oggetti"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -259,6 +480,14 @@
 			<language value="de-CH"></language>
 			<value value="Unerwünschte Berührung"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Contact physique indésirable"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Contatto fisico indesiderato"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000046"></code>
@@ -266,6 +495,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Stossen / Anrempeln"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Bousculades"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Spintoni"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -275,6 +512,14 @@
 			<language value="de-CH"></language>
 			<value value="leichter körperlicher Angriff"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Agression physique légère"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Leggera aggressione fisica"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="100005"></code>
@@ -282,6 +527,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="keine Angaben"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Pas d'informations"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Nessuna informazione"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -291,6 +544,14 @@
 			<language value="de-CH"></language>
 			<value value="schwerer körperlicher Angriff"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Agression physique grave"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Severa aggressione fisica"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000053"></code>
@@ -298,6 +559,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Identitätskarte"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Carte d'identité"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Carta d'identità"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -307,6 +576,14 @@
 			<language value="de-CH"></language>
 			<value value="unbekannt"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="inconnu"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="sconosciuto"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000055"></code>
@@ -314,6 +591,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="nicht erfragt"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Pas demandé"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Non indagato"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -323,6 +608,14 @@
 			<language value="de-CH"></language>
 			<value value="siehe Beilage"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Voir pièce jointe"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Vedi allegato"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000058"></code>
@@ -330,6 +623,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="keine Angaben"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Aucune information"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Nessuna informazione"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -339,6 +640,14 @@
 			<language value="de-CH"></language>
 			<value value="Bedrohung mit Waffe"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Menace avec arme"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Minaccia con arma"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000060"></code>
@@ -346,6 +655,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Verletzung mit Waffe"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Blessure par arme"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ferita con arma"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -355,6 +672,14 @@
 			<language value="de-CH"></language>
 			<value value="Pass"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Passeport"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Passaporto"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000062"></code>
@@ -362,6 +687,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Krankenkassenkarte"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Carte d'assurance maladie"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Tessera di assicurazione sanitaria"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -371,6 +704,14 @@
 			<language value="de-CH"></language>
 			<value value="Fahrausweis"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Permis de conduire"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Patente di guida"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000064"></code>
@@ -378,6 +719,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="persönliche Aussage"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Déclaration personnelle"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Dichiarazione personale"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -387,6 +736,14 @@
 			<language value="de-CH"></language>
 			<value value="Kreditkarte"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Carte de crédit"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Carta di credito"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000066"></code>
@@ -395,6 +752,14 @@
 			<language value="de-CH"></language>
 			<value value="anderes Identifikationsmittel"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Autre pièce d'identification"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Altro dispositivo di identificazione"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000067"></code>
@@ -402,6 +767,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Identifikation nicht möglich"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Identification impossible"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Identificazione impossibile"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -459,6 +832,14 @@
 			<language value="de-CH"></language>
 			<value value="nicht fühlbar"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Non perceptible"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Non percettibile"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000075"></code>
@@ -466,6 +847,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Stridor links"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Stridor à gauche"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Stridore a sinistra"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -475,6 +864,14 @@
 			<language value="de-CH"></language>
 			<value value="Rasselgeräusche links"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Râles à gauche"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Crepitii a sinistra"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000078"></code>
@@ -482,6 +879,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Rasselgeräusche rechts"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Râles à droite"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Crepitii a destra"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -491,6 +896,14 @@
 			<language value="de-CH"></language>
 			<value value="Personenansammlung"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Foule"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Folla"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000080"></code>
@@ -498,6 +911,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Drittperson unbekannt"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Tierce personne inconnue"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Terza persona sconosciuta"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -507,6 +928,14 @@
 			<language value="de-CH"></language>
 			<value value="Drittperson bekannt"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Tierce personne connue"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Terza persona conosciuta"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000082"></code>
@@ -514,6 +943,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Organisation des Abfahrtsortes"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Organisation du lieu de départ"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Organizzazione del luogo di partenza"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -523,6 +960,14 @@
 			<language value="de-CH"></language>
 			<value value="Organisation Zielort"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Organisation du lieu d'arrivée"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Organizzazione del luogo di arrivo"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000084"></code>
@@ -530,6 +975,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Laie"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Laïque"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Laico"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -539,6 +992,14 @@
 			<language value="de-CH"></language>
 			<value value="Vakuumkissen"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Attelle à dépression"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Stecca a depressione"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000086"></code>
@@ -546,6 +1007,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Vakuummatraze"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Matelas coquille"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Materasso a depressione"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -555,6 +1024,14 @@
 			<language value="de-CH"></language>
 			<value value="Tragestuhl"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Chaise de transport"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Sedia di trasporto"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000088"></code>
@@ -562,6 +1039,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="KED System"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="KED"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="KED"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -571,6 +1056,14 @@
 			<language value="de-CH"></language>
 			<value value="Sam Splint"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Attelle"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Stecca"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000090"></code>
@@ -578,6 +1071,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Sam Sling"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Ceinture pelvienne"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Cintura pelvica"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -587,6 +1088,14 @@
 			<language value="de-CH"></language>
 			<value value="Maxi Cosi"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Siège pour enfant"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Seggiolino per bambini"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000092"></code>
@@ -594,6 +1103,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Sachschaden"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Dommages à la propriété"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Danni alla proprietà"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -603,6 +1120,14 @@
 			<language value="de-CH"></language>
 			<value value="Verletzung der persönlichen Integrität"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Atteinte à l'intégrité de la personne"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Violazione dell'integrità personale"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000094"></code>
@@ -610,6 +1135,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Behinderung des Einsatzes"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Obstacle au bon déroulement de la mission"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ostacolo al buon svolgimento della missione"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -619,6 +1152,14 @@
 			<language value="de-CH"></language>
 			<value value="Begleitperson"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Accompagnateur"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Accompagnatore"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000096"></code>
@@ -626,6 +1167,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Erben"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Héritiers"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Eredi"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -635,6 +1184,14 @@
 			<language value="de-CH"></language>
 			<value value="Auftraggeber"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Mandataire"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Mandatario"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000098"></code>
@@ -642,6 +1199,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="gesetzlicher Vertreter"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Représentant légal"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Rappresentante legale"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -651,6 +1216,14 @@
 			<language value="de-CH"></language>
 			<value value="Eltern"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Parents"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Genitori"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000101"></code>
@@ -658,6 +1231,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="sitzend"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="assis"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="seduto"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -667,6 +1248,14 @@
 			<language value="de-CH"></language>
 			<value value="halb liegend"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="semi-assis"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Semiseduto"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000103"></code>
@@ -674,6 +1263,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="liegend"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="couché"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="sdraiato"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -683,6 +1280,14 @@
 			<language value="de-CH"></language>
 			<value value="Beine hoch"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Jambes surélevées"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Gambe rialzate"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000105"></code>
@@ -690,6 +1295,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Beine tief"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Jambes en bas"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Gambe in giù"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -699,6 +1312,14 @@
 			<language value="de-CH"></language>
 			<value value="Kniekick"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Coup de genou"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ginocchia piegate"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000107"></code>
@@ -706,6 +1327,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Bauchlage"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Décubitus ventral"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Decubito Prono"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -715,6 +1344,14 @@
 			<language value="de-CH"></language>
 			<value value="Seitenlage links"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Décubitus latéral gauche"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Decubito laterale sinistro"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000109"></code>
@@ -722,6 +1359,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Seitenlage rechts"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Décubitus latéral droite"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Decubito laterale destro"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -731,6 +1376,14 @@
 			<language value="de-CH"></language>
 			<value value="Notfall-Einsatz"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Mission d'urgence"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Missione di emergenza"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000111"></code>
@@ -738,6 +1391,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Verlegung zwischen Institutionen"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Transferts entre institutions"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Trasferimenti tra istituzioni"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -747,6 +1408,14 @@
 			<language value="de-CH"></language>
 			<value value="Notarzt-Zubringer"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Véhicule SMUR"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Automedica"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000113"></code>
@@ -754,6 +1423,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Isolettentransport"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Transport isolette"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Trasporto con isoletta"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -763,6 +1440,14 @@
 			<language value="de-CH"></language>
 			<value value="Neonatologischer Einsatz"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Intervention néonatale"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Intervento neonatale"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000115"></code>
@@ -770,6 +1455,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Rücktransport von Untersuchung"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Transport de retour après examen"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Trasporto di ritorno dopo esame"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -779,6 +1472,14 @@
 			<language value="de-CH"></language>
 			<value value="Interventionseinsatz Polizei"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Intervention pour la police"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Intervento per il polizia"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000117"></code>
@@ -786,6 +1487,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Selbsteinweisung / Krankentransport"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Auto-admission"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Auto-ricovero"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -795,13 +1504,29 @@
 			<language value="de-CH"></language>
 			<value value="Einsatz Stretcher"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Intervention avec brancard"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Intervento con barella"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000119"></code>
-		<display value="mission fpr partner"></display>
+		<display value="mission for partner"></display>
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Einsatz für Vertragspartner"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Intervention pour les partenaires contractuels"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Intervento per i partner contrattuali"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -811,6 +1536,14 @@
 			<language value="de-CH"></language>
 			<value value="fürsorgerische Unterbringung"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Hospitalisation non consensuelle"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ricovero non consenzuale"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000121"></code>
@@ -818,6 +1551,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Dienstleistung vor Ort (DVO)"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Service sur place"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Servizio sul posto"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -827,6 +1568,14 @@
 			<language value="de-CH"></language>
 			<value value="Ärztliche Einweisung"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Admission médicale"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ricovero medico"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000123"></code>
@@ -834,6 +1583,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Transportverweigerung"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Refus de transport"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Rifiuto di trasporto"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -843,6 +1600,14 @@
 			<language value="de-CH"></language>
 			<value value="Vernebelung H2O2"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Nébulisation avec H2O2"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Nebulizzazione con H2O2"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000125"></code>
@@ -850,6 +1615,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Scheuer-Wisch-Desinfektion H2O2"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Désinfection par frottement avec H2O2"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Disinfezione con strofinamento con H2O2"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -859,6 +1632,14 @@
 			<language value="de-CH"></language>
 			<value value="Ehering"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Alliance"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Fede nuziale"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000127"></code>
@@ -866,6 +1647,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Portemonnaie"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Porte-monnaie"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Borsellino"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -875,13 +1664,29 @@
 			<language value="de-CH"></language>
 			<value value="Armbanduhr"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Montre-bracelet"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Orologio da polso"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000129"></code>
-		<display value="fingerring"></display>
+		<display value="Fingerring"></display>
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Fingerring"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Bague"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Anello"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -891,6 +1696,14 @@
 			<language value="de-CH"></language>
 			<value value="Halskette"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Collier"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Collana"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000131"></code>
@@ -898,6 +1711,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Brieftasche"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Portefeuille"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Portafogli"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -907,6 +1728,14 @@
 			<language value="de-CH"></language>
 			<value value="Handtasche"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Sac à main"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Borsetta"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000133"></code>
@@ -914,6 +1743,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Tasche"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Sac"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Borsa"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -923,6 +1760,14 @@
 			<language value="de-CH"></language>
 			<value value="nein, Sondersignal notwendig"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="non, sirène nécessaire"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="no, segnali prioritari necessari"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000135"></code>
@@ -930,6 +1775,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="nein, Sondersignal nicht notwendig"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="non, sirène non nécessaire"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="no, segnali prioritari non necessari"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -939,6 +1792,14 @@
 			<language value="de-CH"></language>
 			<value value="Rettungsspezialist Helikopter"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Assistant de vol"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Assistente di volo"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000139"></code>
@@ -946,6 +1807,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="3pol EKG"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="ECG 3 dérivations"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="ECG e derivazioni"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -955,6 +1824,14 @@
 			<language value="de-CH"></language>
 			<value value="4pol EKG"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="ECG 4 dérivations"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="ECG 4 derivazioni"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000141"></code>
@@ -962,6 +1839,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="12pol EKG"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="ECG 12 dérivations"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="ECG 12 derivazioni"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -971,6 +1856,18 @@
 			<language value="de-CH"></language>
 			<value value="ausgebildeter Ersthelfer"></value>
 		</designation>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="First responder"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="First responder"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="First responder"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000143"></code>
@@ -978,6 +1875,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Erfrierungen 1. Grades"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Gelures au 1er degré"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ipotermia di 1. grado"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -987,6 +1892,14 @@
 			<language value="de-CH"></language>
 			<value value="Erfrierungen 2. Grades"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Gelures au 2ème degré"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ipotermia di 2. grado"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000145"></code>
@@ -994,6 +1907,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Erfrierungen 3. Grades"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Gelures au 3ème degré"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ipotermia di 3. grado"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -1003,6 +1924,14 @@
 			<language value="de-CH"></language>
 			<value value="Erfrierungen 4. Grades"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Gelures au 4ème degré"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ipotermia di 4. grado"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000147"></code>
@@ -1010,6 +1939,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Verbrennung 1. Grades"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Brûlure au 1er degré"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ustione di 1. grado"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -1019,6 +1956,14 @@
 			<language value="de-CH"></language>
 			<value value="Verbrennung 2. Grades"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Brûlure au 2ème degré"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ustione di 2. grado"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000149"></code>
@@ -1026,6 +1971,206 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Verbrennung 3. Grades"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Brûlure au 3ème degré"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Ustione di 3. grado"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000150"></code>
+		<display value="on pain stimulus"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="auf Schmerzreiz"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="À la douleur"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Allo stimolo doloroso"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000151"></code>
+		<display value="on request"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="auf Aufforderung"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="À la demande"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Allo stimolo verbale"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000152"></code>
+		<display value="spontaneous"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="spontan"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Spontanée"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Spontanea"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000153"></code>
+		<display value="stretching"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="auf Schmerz Strecksynergismen"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Extension stéréotypée"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Estensione delle estremità allo stimolo doloroso"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000154"></code>
+		<display value="bending"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="auf Schmerz Beugesynergismen"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Flexion stéréotypée"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Anormale flessione allo stimolo doloroso"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000155"></code>
+		<display value="undirected defense"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="ungezielte Schmerzabwehr"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Evitement désorientée"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Retrae / Flette ma non localizza il dolore"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000156"></code>
+		<display value="directed defense"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="gezielte Schmerzabwehr"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Evitement orientée"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Retrae / Flette localizza il dolore"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000157"></code>
+		<display value="take orders"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="befolgt Aufforderungen"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Aux ordres"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Obbedisce ai comandi"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000158"></code>
+		<display value="incomprehensible sounds"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="unverständliche Laute"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Sons incompréhensibles"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Suoni incomprensibili"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000159"></code>
+		<display value="incoherent words"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="unzusammenhängende Worte"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Inappropriée"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Parla e pronuncia parole, ma incoerenti"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000160"></code>
+		<display value="conversational, disoriented"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="konversationsfähig, desorientiert"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Confuse"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Confusione, frasi sconnesse"></value>
+		</designation>
+	</concept>
+	<concept>
+		<code value="1000161"></code>
+		<display value="conversational, oriented"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="konversationsfähig, orientiert"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Normale"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Paziente orientato, conversazione appropriata"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -1035,109 +2180,349 @@
 			<language value="de-CH"></language>
 			<value value="Stridor rechts"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Stridor à droite"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Stridore a destra"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100001"></code>
-		<display value="Einsatz"></display>
+		<display value="intervention"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Einsatz"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Intervention"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Intervento"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100002"></code>
-		<display value="Patient"></display>
+		<display value="patient"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Patient"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Patient"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Paziente"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100003"></code>
-		<display value="Administrativ"></display>
+		<display value="administrative"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Administrativ"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Administratif"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Amministrativo"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100004"></code>
-		<display value="Vorbehandlung"></display>
+		<display value="pretreatment"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Vorbehandlung"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Prétraitement"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Pretrattamento"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100005"></code>
-		<display value="Anamnese"></display>
+		<display value="anamnesis"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Anamnese"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Anamnèse"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Anamnesi"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100006"></code>
-		<display value="Befund"></display>
+		<display value="findings"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Befund"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Résultats"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Risultati"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100007"></code>
-		<display value="Diagnosen"></display>
+		<display value="diagnosis"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Diagnosen"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Diagnostique"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Diagnosi"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100008"></code>
-		<display value="Massnahmen"></display>
+		<display value="measures"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Massnahmen"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Mesures"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Misure"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100009"></code>
-		<display value="Todesfall"></display>
+		<display value="death"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Todesfall"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Décès"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Decesso"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100010"></code>
-		<display value="Transport"></display>
+		<display value="transport"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Transport"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Transport"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Trasporto"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1100011"></code>
-		<display value="Übergabe"></display>
-	</concept>
-	<concept>
-		<code value="2"></code>
-		<display value="auf Schmerz Strecksynergismen"></display>
-	</concept>
-	<concept>
-		<code value="3"></code>
-		<display value="auf Schmerz Beugesynergismen"></display>
-	</concept>
-	<concept>
-		<code value="4"></code>
-		<display value="ungezielte Schmerzabwehr"></display>
-	</concept>
-	<concept>
-		<code value="5"></code>
-		<display value="gezielte Schmerzabwehr"></display>
-	</concept>
-	<concept>
-		<code value="6"></code>
-		<display value="befolgt Aufforderungen"></display>
+		<display value="handover"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Übergabe"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Remise"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Consegna"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="A"></code>
 		<display value="wach, ansprechbar und orientiert"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="wach, ansprechbar und orientiert"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Alerte, réactif et orienté"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Vigile, reattivo e orientato"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="I"></code>
 		<display value="geringfügige Störung"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="geringfügige Störung"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Perturbation minime"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Disturbo minimo"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="II"></code>
 		<display value="leichte bis mässig schwere Störung"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="leichte bis mässig schwere Störung"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Perturbation mineure à modérément grave"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Disturbo da lieve a moderatamente grave"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="III"></code>
 		<display value="mässige bis schwere Störung"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="mässige bis schwere Störung"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Perturbation modérée à grave"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Disturbo da moderato a grave"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="IV"></code>
 		<display value="schwere Störung, lebensbedrohlich"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="schwere Störung, lebensbedrohlich"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Perturbation grave, mettant la vie en danger"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Grave disturbo, pericolo di morte"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="P"></code>
 		<display value="Reaktion nur auf Schmerzreiz"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Reazione solo allo stimolo del dolore"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Réaction uniquement au stimulus de la douleur"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Reazione solo allo stimolo del dolore"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="U"></code>
 		<display value="nicht ansprechbar, bewusstlos"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="nicht ansprechbar, bewusstlos"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Inconscient, sans réaction"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Incosciente, senza reazione"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="V"></code>
 		<display value="Reaktion nur bei lauter Ansprache"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Reaktion nur bei lauter Ansprache"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Réaction uniquement lorsque l'on parle fort"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Reazione solo su stimolo verbale forte"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="VI"></code>
 		<display value="Reanimation"></display>
+		<designation>
+			<language value="de-DE"></language>
+			<value value="Reanimation"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Réanimation"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Rianimazione"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="VII"></code>
-		<display value="Tod"></display>
+		<display value="death"></display>
+		<designation>
+			<language value="de-CH"></language>
+			<value value="Tod"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Mort"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Morte"></value>
+		</designation>
 	</concept>
 </CodeSystem>

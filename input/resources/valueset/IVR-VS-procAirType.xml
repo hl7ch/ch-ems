@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-procAirType"/>
+   <id
+           
+            value="IVR-VS-procAirType"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.43--20170408121354"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2017-04-08T12:13:54+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-procAirType"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-procAirType"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2017-04-08T12:13:54"/>
    <name value="IVRVSprocAirType"/>
-   <title value="IVR valueset procedure airway type (.143.11.40)"/>
+   <title
+              
+               value="IVR valueset procedure airway type (.143.11.40)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -31,18 +37,34 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="52765003"/>
-            <display value="Intubation"/>
+            <display value="Intubation "/>
             <designation>
                <language value="de-CH"/>
                <value value="Intubation"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Intubation"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Intubazione"/>
+            </designation>
          </concept>
          <concept>
             <code value="230040009"/>
-            <display value="Airway suctioning"/>
+            <display value="Airway suctioning "/>
             <designation>
                <language value="de-CH"/>
                <value value="Absaugen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Aspiration des voies aériennes"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Aspirazione delle vie aeree"/>
             </designation>
          </concept>
          <concept>
@@ -52,13 +74,33 @@
                <language value="de-CH"/>
                <value value="Fremdkörperentfernung"/>
             </designation>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Freimachen der Atemwege"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Libération des voies aériennes"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Liberazione delle vie aeree"/>
+            </designation>
          </concept>
          <concept>
             <code value="232666000"/>
-            <display value="Jaw thrust"/>
+            <display value="Jaw thrust "/>
             <designation>
                <language value="de-CH"/>
                <value value="Esmarch Handgriff"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Subluxation de la mandibule"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Sublussazione della mandibola"/>
             </designation>
          </concept>
       </include>

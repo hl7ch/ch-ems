@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-bedding"/>
+   <id
+           
+            value="IVR-VS-bedding"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.17--20160911141142"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-09-11T14:11:42+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-bedding"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-bedding"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-09-11T14:11:42"/>
    <name value="ECH0207bedding"/>
-   <title value="IVR valueset transport bedding (.143.11.17)"/>
+   <title
+              
+               value="IVR valueset transport bedding (.143.11.17)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -34,7 +40,15 @@
             <display value="Trendelenburg positioning"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Trendelenburg"/>
+               <value value="Trendelenburg-Lage"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Position de Trendelenburg"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Posizione di Trendelenburg"/>
             </designation>
          </concept>
          <concept>
@@ -43,6 +57,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="andere"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="autre"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="altro"/>
             </designation>
          </concept>
       </include>
@@ -55,6 +77,14 @@
                <language value="de-CH"/>
                <value value="sitzend"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="assis"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="seduto"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000102"/>
@@ -62,6 +92,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="halb liegend"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="semi-assis"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Semiseduto"/>
             </designation>
          </concept>
          <concept>
@@ -71,6 +109,14 @@
                <language value="de-CH"/>
                <value value="liegend"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="couché"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="sdraiato"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000104"/>
@@ -78,6 +124,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Beine hoch"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Jambes surélevées"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Gambe rialzate"/>
             </designation>
          </concept>
          <concept>
@@ -87,6 +141,14 @@
                <language value="de-CH"/>
                <value value="Beine tief"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Jambes en bas"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Gambe in giù"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000106"/>
@@ -94,6 +156,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Kniekick"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Coup de genou"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ginocchia piegate"/>
             </designation>
          </concept>
          <concept>
@@ -103,6 +173,14 @@
                <language value="de-CH"/>
                <value value="Bauchlage"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Décubitus ventral"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Decubito Prono"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000108"/>
@@ -111,6 +189,14 @@
                <language value="de-CH"/>
                <value value="Seitenlage links"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Décubitus latéral gauche"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Decubito laterale sinistro"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000109"/>
@@ -118,6 +204,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Seitenlage rechts"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Décubitus latéral droite"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Decubito laterale destro"/>
             </designation>
          </concept>
       </include>

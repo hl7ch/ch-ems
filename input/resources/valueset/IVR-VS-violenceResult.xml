@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-violenceResult"/>
+   <id
+           
+            value="IVR-VS-violenceResult"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.31--20161231110842"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-12-31T11:08:42+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceResult"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceResult"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-12-31T11:08:42"/>
    <name value="IVRVSviolenceResult"/>
-   <title value="IVR valueset result of violence (.143.11.26)"/>
+   <title
+              
+               value="IVR valueset result of violence (.143.11.26)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="keine"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="aucun"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="nessuna"/>
+            </designation>
          </concept>
          <concept>
             <code value="52684005"/>
@@ -44,6 +58,14 @@
                <language value="de-CH"/>
                <value value="Körperverletzung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Coups et blessures"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Lesioni coporali"/>
+            </designation>
          </concept>
          <concept>
             <code value="74964007"/>
@@ -51,6 +73,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="andere"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="autre"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="altro"/>
             </designation>
          </concept>
       </include>
@@ -63,6 +93,14 @@
                <language value="de-CH"/>
                <value value="Behinderung des Einsatzes"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Obstacle au bon déroulement de la mission"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ostacolo al buon svolgimento della missione"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000093"/>
@@ -71,6 +109,14 @@
                <language value="de-CH"/>
                <value value="Verletzung der persönlichen Integrität"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Atteinte à l'intégrité de la personne"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Violazione dell'integrità personale"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000092"/>
@@ -78,6 +124,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Sachschaden"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Dommages à la propriété"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Danni alla proprietà"/>
             </designation>
          </concept>
       </include>

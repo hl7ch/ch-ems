@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-respirationObservation"/>
+   <id
+           
+            value="IVR-VS-respirationObservation"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.27--20161201054012"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-12-01T05:40:12+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-respirationObservation"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-respirationObservation"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-12-01T05:40:12"/>
    <name value="IVRVSrespirationObservation"/>
-   <title value="IVR valueset Observation Respiration (.143.11.22)"/>
+   <title
+              
+               value="IVR valueset Observation Respiration (.143.11.22)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="Apnoe"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Apnée"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Apnea"/>
+            </designation>
          </concept>
          <concept>
             <code value="267036007"/>
@@ -43,6 +57,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Dispnoe"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Dyspnée"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Dispnea"/>
             </designation>
          </concept>
          <concept>
@@ -52,6 +74,14 @@
                <language value="de-CH"/>
                <value value="Bradypnoe"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Bradypnée"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Bradipnea"/>
+            </designation>
          </concept>
          <concept>
             <code value="271823003"/>
@@ -59,6 +89,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Tachypnoe"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tachypnée"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tachipnea"/>
             </designation>
          </concept>
          <concept>
@@ -68,6 +106,14 @@
                <language value="de-CH"/>
                <value value="Schnappatmung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Respiration agonale"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Respiro agonico"/>
+            </designation>
          </concept>
          <concept>
             <code value="3415004"/>
@@ -75,6 +121,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Zyanose"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Cyanose"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Cianosi"/>
             </designation>
          </concept>
          <concept>
@@ -84,6 +138,14 @@
                <language value="de-CH"/>
                <value value="Spastik"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Spastique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Spastico"/>
+            </designation>
          </concept>
          <concept>
             <code value="44416002"/>
@@ -91,6 +153,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Atemwegsverlegung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Obstruction des voies aériennes"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ostruzione delle vie aeree"/>
             </designation>
          </concept>
          <concept>
@@ -100,6 +170,14 @@
                <language value="de-CH"/>
                <value value="Atemgeräusch abgeschwächt"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Murmure vésiculaire atténué"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Murmore vescicolare attenuato"/>
+            </designation>
          </concept>
          <concept>
             <code value="65949001"/>
@@ -108,6 +186,14 @@
                <language value="de-CH"/>
                <value value="Atemgeräusch verschärft"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Augmentation des bruits respiratoires"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Aumento rumore respiratorio"/>
+            </designation>
          </concept>
          <concept>
             <code value="371820004"/>
@@ -115,6 +201,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="beatmet"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="ventilé"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ventilato"/>
             </designation>
          </concept>
       </include>
@@ -127,6 +221,14 @@
                <language value="de-CH"/>
                <value value="Stridor links"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Stridor à gauche"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Stridore a sinistra"/>
+            </designation>
          </concept>
          <concept>
             <code value="100076"/>
@@ -134,6 +236,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Stridor rechts"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Stridor à droite"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Stridore a destra"/>
             </designation>
          </concept>
          <concept>
@@ -143,6 +253,14 @@
                <language value="de-CH"/>
                <value value="Rasselgeräusche links"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Râles à gauche"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Crepitii a sinistra"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000078"/>
@@ -150,6 +268,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Rasselgeräusche rechts"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Râles à droite"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Crepitii a destra"/>
             </designation>
          </concept>
       </include>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-preTreatType"/>
+   <id
+           
+            value="IVR-VS-preTreatType"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.13--20160724213408"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -8,10 +10,12 @@
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2016-07-24T21:34:08+01:00"/>
+         <start value="2016-07-24T21:34:08+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatType"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatType"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-07-24T21:34:08"/>
    <name value="PreTreatType"/>
-   <title value="IVR valueset pre-treatment type (.143.11.13)"/>
+   <title
+              
+               value="IVR valueset pre-treatment type (.143.11.13)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="Medikation"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Médicaments"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Medicamenti"/>
+            </designation>
          </concept>
          <concept>
             <code value="260413007"/>
@@ -43,6 +57,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="keine"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="aucun"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="nessuna"/>
             </designation>
          </concept>
          <concept>
@@ -52,6 +74,14 @@
                <language value="de-CH"/>
                <value value="Erste Hilfe"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Premiers secours"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Primo soccorso"/>
+            </designation>
          </concept>
          <concept>
             <code value="266700009"/>
@@ -59,6 +89,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Beatmung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Assistance ventilatoire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Assistenza ventilatoria"/>
             </designation>
          </concept>
          <concept>
@@ -68,6 +106,14 @@
                <language value="de-CH"/>
                <value value="CPR"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="RCP"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="RCP"/>
+            </designation>
          </concept>
          <concept>
             <code value="19257004"/>
@@ -76,6 +122,14 @@
                <language value="de-CH"/>
                <value value="Defibrillator / AED"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Défibrillateur"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Defibrillatore"/>
+            </designation>
          </concept>
          <concept>
             <code value="74964007"/>
@@ -83,6 +137,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="andere"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="autre"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="altro"/>
             </designation>
          </concept>
       </include>

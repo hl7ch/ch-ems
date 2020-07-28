@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-eyeForm"/>
+   <id
+           
+            value="IVR-VS-eyeForm"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.58--20170812201648"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2017-08-12T20:16:48+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-eyeForm"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-eyeForm"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2017-08-12T20:16:48"/>
    <name value="IVRVSeyeForm"/>
-   <title value="IVR valueset eye Form (.143.11.43)"/>
+   <title
+              
+               value="IVR valueset eye Form (.143.11.43)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="rund"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="rond"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="rotondo"/>
+            </designation>
          </concept>
          <concept>
             <code value="79017007"/>
@@ -43,6 +57,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="deformiert"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="déformé"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="deformato"/>
             </designation>
          </concept>
       </include>

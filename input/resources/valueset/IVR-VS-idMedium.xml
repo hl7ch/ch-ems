@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-idMedium"/>
+   <id
+           
+            value="IVR-VS-idMedium"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.35--20170107114728"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2017-01-07T11:47:28+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-idMedium"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-idMedium"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2017-01-07T11:47:28"/>
    <name value="IVRVSidMedium"/>
-   <title value="IVR valueset identification medium (.143.11.30)"/>
+   <title
+              
+               value="IVR valueset identification medium (.143.11.30)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -35,6 +41,14 @@
                <language value="de-CH"/>
                <value value="Identitätskarte"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Carte d'identité"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Carta d'identità"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000061"/>
@@ -42,6 +56,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Pass"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Passeport"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Passaporto"/>
             </designation>
          </concept>
          <concept>
@@ -51,6 +73,14 @@
                <language value="de-CH"/>
                <value value="Krankenkassenkarte"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Carte d'assurance maladie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tessera di assicurazione sanitaria"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000063"/>
@@ -58,6 +88,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Fahrausweis"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Permis de conduire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Patente di guida"/>
             </designation>
          </concept>
          <concept>
@@ -67,6 +105,14 @@
                <language value="de-CH"/>
                <value value="persönliche Aussage"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Déclaration personnelle"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Dichiarazione personale"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000065"/>
@@ -75,6 +121,14 @@
                <language value="de-CH"/>
                <value value="Kreditkarte"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Carte de crédit"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Carta di credito"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000066"/>
@@ -82,6 +136,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="anderes Identifikationsmittel"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Autre pièce d'identification"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Altro dispositivo di identificazione"/>
             </designation>
          </concept>
       </include>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-airway"/>
+   <id
+           
+            value="IVR-VS-airway"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.18--20160911143032"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-09-11T14:30:32+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-airway"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-airway"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-09-11T14:30:32"/>
    <name value="ECH0207Airway"/>
-   <title value="IVR valueset airway (143.11.2)"/>
+   <title
+              
+               value="IVR valueset airway (143.11.2)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -31,10 +37,18 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="248553004"/>
-            <display value="No obstruction of airway"/>
+            <display value="No obstruction of airway "/>
             <designation>
                <language value="de-CH"/>
                <value value="Atemwege frei"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Voies aériennes libres"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Vie aeree libere"/>
             </designation>
          </concept>
          <concept>
@@ -44,6 +58,14 @@
                <language value="de-CH"/>
                <value value="Freimachen der Atemwege"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Libération des voies aériennes"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Liberazione delle vie aeree"/>
+            </designation>
          </concept>
          <concept>
             <code value="230040009"/>
@@ -52,13 +74,29 @@
                <language value="de-CH"/>
                <value value="Absaugen der Atemwege"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Aspiration des voies aériennes"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Aspirazione delle vie aeree"/>
+            </designation>
          </concept>
          <concept>
             <code value="706177004"/>
-            <display value="Inhalation therapy device"/>
+            <display value="Inhalation therapy device "/>
             <designation>
                <language value="de-CH"/>
                <value value="Inhalationsset"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Kit de nébulisation"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Set per l'inalazione"/>
             </designation>
          </concept>
          <concept>
@@ -67,6 +105,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="andere"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="autre"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="altro"/>
             </designation>
          </concept>
       </include>

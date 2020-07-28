@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-valTxpe"/>
+   <id
+           
+            value="IVR-VS-valTxpe"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.37--20170107121218"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2017-01-07T12:12:18+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-valTxpe"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-valTxpe"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2017-01-07T12:12:18"/>
    <name value="IVRVSvalTxpe"/>
-   <title value="IVR valueset valuables type (.143.11.33)"/>
+   <title
+              
+               value="IVR valueset valuables type (.143.11.33)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="anderes"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="autre"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="altro"/>
+            </designation>
          </concept>
       </include>
       <include>
@@ -47,6 +61,14 @@
                <language value="de-CH"/>
                <value value="Ehering"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Alliance"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Fede nuziale"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000127"/>
@@ -54,6 +76,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Portemonnaie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Porte-monnaie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Borsellino"/>
             </designation>
          </concept>
          <concept>
@@ -63,13 +93,29 @@
                <language value="de-CH"/>
                <value value="Armbanduhr"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Montre-bracelet"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Orologio da polso"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000129"/>
-            <display value="fingerring"/>
+            <display value="Fingerring"/>
             <designation>
                <language value="de-CH"/>
                <value value="Fingerring"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Bague"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Anello"/>
             </designation>
          </concept>
          <concept>
@@ -79,6 +125,14 @@
                <language value="de-CH"/>
                <value value="Halskette"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Collier"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Collana"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000131"/>
@@ -86,6 +140,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Brieftasche"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Portefeuille"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Portafogli"/>
             </designation>
          </concept>
          <concept>
@@ -95,6 +157,14 @@
                <language value="de-CH"/>
                <value value="Handtasche"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Sac à main"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Borsetta"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000133"/>
@@ -102,6 +172,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Tasche"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Sac"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Borsa"/>
             </designation>
          </concept>
       </include>

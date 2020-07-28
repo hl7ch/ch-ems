@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-intensity"/>
+   <id
+           
+            value="IVR-VS-intensity"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.32--20161231113921"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-12-31T11:39:21+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-intensity"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-intensity"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-12-31T11:39:21"/>
    <name value="IVRVSintensity"/>
-   <title value="IVR valueset intensity (.143.11.27)"/>
+   <title
+              
+               value="IVR valueset intensity (.143.11.27)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="schwach"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Faible"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Debole"/>
+            </designation>
          </concept>
          <concept>
             <code value="17621005"/>
@@ -44,6 +58,14 @@
                <language value="de-CH"/>
                <value value="normal"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Normal"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Normale"/>
+            </designation>
          </concept>
          <concept>
             <code value="260404005"/>
@@ -51,6 +73,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="stark"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Fort"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Forte"/>
             </designation>
          </concept>
       </include>
@@ -62,6 +92,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="nicht fühlbar"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Non perceptible"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Non percettibile"/>
             </designation>
          </concept>
       </include>

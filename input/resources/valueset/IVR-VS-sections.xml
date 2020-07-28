@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-sections"/>
+   <id
+           
+            value="IVR-VS-sections"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.47--20170612112636"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2017-06-12T11:26:36+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-sections"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-sections"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2017-06-12T11:26:36"/>
    <name value="IVRValuesetSection"/>
-   <title value="IVR valueset sections"/>
+   <title
+              
+               value="IVR valueset sections"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -29,48 +35,183 @@
       <include>
          <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
          <concept>
+            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+               <valueString value=""/>
+            </extension>
             <code value="1100001"/>
-            <display value="Einsatz"/>
+            <display value="intervention"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Einsatz"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Intervention"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Intervento"/>
+            </designation>
          </concept>
          <concept>
             <code value="1100002"/>
-            <display value="Patient"/>
+            <display value="patient"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Patient"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Patient"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Paziente"/>
+            </designation>
          </concept>
          <concept>
             <code value="1100003"/>
-            <display value="Administrativ"/>
+            <display value="administrative"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Administrativ"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Administratif"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Amministrativo"/>
+            </designation>
          </concept>
          <concept>
             <code value="1100004"/>
-            <display value="Vorbehandlung"/>
+            <display value="pretreatment"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Vorbehandlung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Prétraitement"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Pretrattamento"/>
+            </designation>
          </concept>
          <concept>
             <code value="1100005"/>
-            <display value="Anamnese"/>
+            <display value="anamnesis"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Anamnese"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Anamnèse"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Anamnesi"/>
+            </designation>
          </concept>
          <concept>
             <code value="1100006"/>
-            <display value="Befund"/>
+            <display value="findings"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Befund"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Résultats"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Risultati"/>
+            </designation>
          </concept>
          <concept>
             <code value="1100007"/>
-            <display value="Diagnosen"/>
+            <display value="diagnosis"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Diagnosen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Diagnostique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Diagnosi"/>
+            </designation>
          </concept>
          <concept>
             <code value="1100008"/>
-            <display value="Massnahmen"/>
+            <display value="measures"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Massnahmen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Mesures"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Misure"/>
+            </designation>
          </concept>
          <concept>
             <code value="1100009"/>
-            <display value="Todesfall"/>
+            <display value="death"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Todesfall"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Décès"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Decesso"/>
+            </designation>
          </concept>
          <concept>
             <code value="1100010"/>
-            <display value="Transport"/>
+            <display value="transport"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Transport"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Transport"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Trasporto"/>
+            </designation>
          </concept>
          <concept>
             <code value="1100011"/>
-            <display value="Übergabe"/>
+            <display value="handover"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Übergabe"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Remise"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Consegna"/>
+            </designation>
          </concept>
       </include>
    </compose>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-vigilanzAvpu"/>
+   <id
+           
+            value="IVR-VS-vigilanzAvpu"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.143.11.1--20160801215709"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-08-01T21:57:09+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-vigilanzAvpu"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-vigilanzAvpu"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-08-01T21:57:09"/>
    <name value="Vigilanzavpu"/>
-   <title value="IVR vigilanz (AVPU)"/>
+   <title
+              
+               value="IVR vigilanz (AVPU)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -31,18 +37,66 @@
          <concept>
             <code value="A"/>
             <display value="wach, ansprechbar und orientiert"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="wach, ansprechbar und orientiert"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Alerte, réactif et orienté"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Vigile, reattivo e orientato"/>
+            </designation>
          </concept>
          <concept>
             <code value="V"/>
             <display value="Reaktion nur bei lauter Ansprache"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Reaktion nur bei lauter Ansprache"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Réaction uniquement lorsque l'on parle fort"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Reazione solo su stimolo verbale forte"/>
+            </designation>
          </concept>
          <concept>
             <code value="P"/>
             <display value="Reaktion nur auf Schmerzreiz"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="Reazione solo allo stimolo del dolore"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Réaction uniquement au stimulus de la douleur"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Reazione solo allo stimolo del dolore"/>
+            </designation>
          </concept>
          <concept>
             <code value="U"/>
             <display value="nicht ansprechbar, bewusstlos"/>
+            <designation>
+               <language value="de-DE"/>
+               <value value="nicht ansprechbar, bewusstlos"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Inconscient, sans réaction"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Incosciente, senza reazione"/>
+            </designation>
          </concept>
       </include>
    </compose>

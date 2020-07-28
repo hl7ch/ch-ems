@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-woundTreat"/>
+   <id
+           
+            value="IVR-VS-woundTreat"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.60--20170812205835"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2017-08-12T20:58:35+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-woundTreat"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-woundTreat"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2017-08-12T20:58:35"/>
    <name value="IVRVSwoundTreat"/>
-   <title value="IVR valueset wound treatment (.143.11.45)"/>
+   <title
+              
+               value="IVR valueset wound treatment (.143.11.45)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="Wundschnellverband"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Pansement rapide"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Medicazoine rapida"/>
+            </designation>
          </concept>
          <concept>
             <code value="9458007"/>
@@ -44,6 +58,14 @@
                <language value="de-CH"/>
                <value value="elastische Binde"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Bandage élastique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Bendaggio elastico"/>
+            </designation>
          </concept>
          <concept>
             <code value="38141007"/>
@@ -51,6 +73,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Tourniquet"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Garrot"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Laccio emostatico"/>
             </designation>
          </concept>
       </include>

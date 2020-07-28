@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-ambulanceType"/>
+   <id
+           
+            value="IVR-VS-ambulanceType"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.33--20170107105258"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2017-01-07T10:52:58+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-ambulanceType"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-ambulanceType"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2017-01-07T10:52:58"/>
    <name value="IVRVSambulanceType"/>
-   <title value="IVR Valueset ambulance type (143.11.28)"/>
+   <title
+              
+               value="IVR Valueset ambulance type (143.11.28)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -52,6 +58,14 @@
                <language value="de-CH"/>
                <value value="Ambulanz"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Ambulance"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ambulanza"/>
+            </designation>
          </concept>
          <concept>
             <code value="55121009"/>
@@ -59,6 +73,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Notarzt-Zubringer-Fahrzeug"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Véhicule SMUR"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Automedica"/>
             </designation>
          </concept>
          <concept>
@@ -68,13 +90,29 @@
                <language value="de-CH"/>
                <value value="Rettungshelikopter"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Hélicoptère de sauvetage"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Elicottero di salvataggio"/>
+            </designation>
          </concept>
          <concept>
             <code value="73957001"/>
-            <display value="Air transport ambulance"/>
+            <display value=" Air transport ambulance"/>
             <designation>
                <language value="de-CH"/>
                <value value="Ambulanz-Jet"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Avion-ambulance"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Aereoambulanza"/>
             </designation>
          </concept>
       </include>

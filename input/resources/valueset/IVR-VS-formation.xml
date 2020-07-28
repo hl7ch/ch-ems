@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-formation"/>
+   <id
+           
+            value="IVR-VS-formation"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.21--20161023194802"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-10-23T19:48:02+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-10-23T19:48:02"/>
    <name value="IVRVSformation"/>
-   <title value="IVR valueset formation (.143.11.9)"/>
+   <title
+              
+               value="IVR valueset formation (.143.11.9)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -31,26 +37,50 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="397897005"/>
-            <display value="Paramedic"/>
+            <display value="Paramedic "/>
             <designation>
                <language value="de-CH"/>
                <value value="Rettungssanitäter/in HF"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Ambulanier/ère ES"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Soccoritore SSS"/>
+            </designation>
          </concept>
          <concept>
             <code value="159738005"/>
-            <display value="Ambulanceman"/>
+            <display value="Ambulanceman "/>
             <designation>
                <language value="de-CH"/>
                <value value="Transportsanitäter/in FA"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Technicien ambulancier"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Soccorritore ausiliario d'ambulanza"/>
+            </designation>
          </concept>
          <concept>
             <code value="309294001"/>
-            <display value="Accident and Emergency doctor"/>
+            <display value="Accident and Emergency doctor "/>
             <designation>
                <language value="de-CH"/>
                <value value="Notarzt/Notärztin SGNOR"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Médecin d'urgence SSMUS"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Medico d'urgenza SSMUS"/>
             </designation>
          </concept>
          <concept>
@@ -60,13 +90,29 @@
                <language value="de-CH"/>
                <value value="Anästhesiepfleger/in HF"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Infirmier/ère en anesthésie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Infermiere/a anestesista"/>
+            </designation>
          </concept>
          <concept>
             <code value="309453006"/>
-            <display value="Registered midwife"/>
+            <display value="Registered midwife "/>
             <designation>
                <language value="de-CH"/>
                <value value="Hebamme FH"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Sage femme"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ostetrica"/>
             </designation>
          </concept>
          <concept>
@@ -74,15 +120,31 @@
             <display value="Professional nurse"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Pflegefachperson HF"/>
+               <value value="Pflegefachperson"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Infirmier/ère"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Infermiere/a"/>
             </designation>
          </concept>
          <concept>
             <code value="224535009"/>
-            <display value="Registered nurse"/>
+            <display value="Registered nurse "/>
             <designation>
                <language value="de-CH"/>
                <value value="Pflegefachperson FH"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Infirmier/ère HES"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Infermiere/a SSS"/>
             </designation>
          </concept>
       </include>
@@ -95,13 +157,29 @@
                <language value="de-CH"/>
                <value value="Rettungssanitäter/in in Ausbildung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Etudiant/e Ambulanier/ère"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Soccorritore in formazione"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000011"/>
-            <display value="Ambulanceman-on-training"/>
+            <display value="Ambulanceman-on-training "/>
             <designation>
                <language value="de-CH"/>
                <value value="Transportsanitäter/in in Ausbildung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Technicien ambulancier en formation"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Soccorritore ausiliario d'ambulanza in formazione"/>
             </designation>
          </concept>
       </include>

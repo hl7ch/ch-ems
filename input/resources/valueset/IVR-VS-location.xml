@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-location"/>
+   <id
+           
+            value="IVR-VS-location"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.28--20161201061503"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-12-01T06:15:03+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-location"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-location"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-12-01T06:15:03"/>
    <name value="IVRVSlocation"/>
-   <title value="IVR valueset location (.143.11.23)"/>
+   <title
+              
+               value="IVR valueset location (.143.11.23)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="brachial"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="brachial"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="brachiale"/>
+            </designation>
          </concept>
          <concept>
             <code value="69105007"/>
@@ -43,6 +57,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="karotid"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Artère carotide"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Arteria carotidea"/>
             </designation>
          </concept>
          <concept>
@@ -52,21 +74,45 @@
                <language value="de-CH"/>
                <value value="inguinal"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="inguinal"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="inguinale"/>
+            </designation>
          </concept>
          <concept>
             <code value="261173001"/>
-            <display value="Radial"/>
+            <display value="radial"/>
             <designation>
                <language value="de-CH"/>
                <value value="radial"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="radial"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="radiale"/>
+            </designation>
          </concept>
          <concept>
             <code value="7771000"/>
-            <display value="Left"/>
+            <display value="left"/>
             <designation>
                <language value="de-CH"/>
                <value value="links"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="gauche"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="sinistra"/>
             </designation>
          </concept>
          <concept>
@@ -75,6 +121,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="rechts"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="droite"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="destra"/>
             </designation>
          </concept>
          <concept>
@@ -92,13 +146,29 @@
                <language value="de-CH"/>
                <value value="unten"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="haut"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="alto"/>
+            </designation>
          </concept>
          <concept>
             <code value="26216008"/>
-            <display value="Central"/>
+            <display value="central"/>
             <designation>
                <language value="de-CH"/>
                <value value="Mitte"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="central"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="centrale"/>
             </designation>
          </concept>
          <concept>
@@ -108,6 +178,14 @@
                <language value="de-CH"/>
                <value value="axillar"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="axillaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ascellare"/>
+            </designation>
          </concept>
          <concept>
             <code value="264499004"/>
@@ -116,21 +194,45 @@
                <language value="de-CH"/>
                <value value="Ohr"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="auriculaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="auricolare"/>
+            </designation>
          </concept>
          <concept>
             <code value="260548002"/>
-            <display value="Oral"/>
+            <display value="oral"/>
             <designation>
                <language value="de-CH"/>
                <value value="oral"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="oral"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="orale"/>
+            </designation>
          </concept>
          <concept>
             <code value="255582007"/>
-            <display value="Rectal"/>
+            <display value="rectal"/>
             <designation>
                <language value="de-CH"/>
                <value value="rektal"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="rectal"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="rettale"/>
             </designation>
          </concept>
       </include>

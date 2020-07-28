@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-idSource"/>
+   <id
+           
+            value="IVR-VS-idSource"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.34--20170107114047"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2017-01-07T11:40:47+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-idSource"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-idSource"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2017-01-07T11:40:47"/>
    <name value="IVRVSidSource"/>
-   <title value="IVR valueset identification source (143.11.29)"/>
+   <title
+              
+               value="IVR valueset identification source (143.11.29)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="Patient"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Patient"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Paziente"/>
+            </designation>
          </concept>
          <concept>
             <code value="125677006"/>
@@ -44,6 +58,14 @@
                <language value="de-CH"/>
                <value value="Angehöriger"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Proche"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Parente"/>
+            </designation>
          </concept>
          <concept>
             <code value="14406004"/>
@@ -51,6 +73,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Polizei"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Police"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Polizia"/>
             </designation>
          </concept>
       </include>
@@ -63,6 +93,14 @@
                <language value="de-CH"/>
                <value value="Zeuge / Zeugin"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Témoin"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Testimone"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000067"/>
@@ -70,6 +108,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Identifikation nicht möglich"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Identification impossible"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Identificazione impossibile"/>
             </designation>
          </concept>
       </include>

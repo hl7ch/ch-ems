@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-ZUB"/>
+   <id
+           
+            value="IVR-VS-ZUB"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.49--20160720101512"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-07-20T10:15:12+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-ZUB"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-ZUB"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-07-20T10:15:12"/>
    <name value="ZUB"/>
-   <title value="IVR valueset status change"/>
+   <title
+              
+               value="IVR valueset status change"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="Verbesserung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Amérioration"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Miglioramento"/>
+            </designation>
          </concept>
          <concept>
             <code value="260388006"/>
@@ -44,6 +58,14 @@
                <language value="de-CH"/>
                <value value="unverändert"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="inchangé"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="invariato"/>
+            </designation>
          </concept>
          <concept>
             <code value="390772001"/>
@@ -51,6 +73,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Verschlechterung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Aggravation"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Peggioramento"/>
             </designation>
          </concept>
       </include>

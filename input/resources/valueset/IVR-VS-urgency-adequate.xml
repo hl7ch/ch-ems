@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-urgency-adequate"/>
+   <id
+           
+            value="IVR-VS-urgency-adequate"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.40--20170407141340"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2017-04-07T14:13:40+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency-adequate"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency-adequate"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2017-04-07T14:13:40"/>
    <name value="IVRVSurg_adequate"/>
-   <title value="IVR valueset urgency adequate (143.11.37)"/>
+   <title
+              
+               value="IVR valueset urgency adequate (143.11.37)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -31,7 +37,7 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="373066001"/>
-            <display value="Yes"/>
+            <display value="Yes "/>
             <designation>
                <language value="de-CH"/>
                <value value="Ja"/>
@@ -71,6 +77,14 @@
                <language value="de-CH"/>
                <value value="nein, Sondersignal notwendig"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="non, sirène nécessaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="no, segnali prioritari necessari"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000135"/>
@@ -78,6 +92,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="nein, Sondersignal nicht notwendig"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="non, sirène non nécessaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="no, segnali prioritari non necessari"/>
             </designation>
          </concept>
       </include>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-personRole"/>
+   <id
+           
+            value="IVR-VS-personRole"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.26--20161119123218"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-11-19T12:32:18+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-personRole"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-personRole"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-11-19T12:32:18"/>
    <name value="Ech0207personRole"/>
-   <title value="IVR valueset role (.143.11.21)"/>
+   <title
+              
+               value="IVR valueset role (.143.11.21)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="andere Rolle"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Autre rôle"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Altro ruolo"/>
+            </designation>
          </concept>
       </include>
       <include>
@@ -47,6 +61,14 @@
                <language value="de-CH"/>
                <value value="Begleitperson"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Accompagnateur"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Accompagnatore"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000096"/>
@@ -54,6 +76,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Erben"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Héritiers"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Eredi"/>
             </designation>
          </concept>
          <concept>
@@ -63,6 +93,14 @@
                <language value="de-CH"/>
                <value value="Auftraggeber"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Mandataire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Mandatario"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000098"/>
@@ -71,6 +109,14 @@
                <language value="de-CH"/>
                <value value="gesetzlicher Vertreter"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Représentant légal"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Rappresentante legale"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000099"/>
@@ -78,6 +124,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Eltern"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Parents"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Genitori"/>
             </designation>
          </concept>
       </include>

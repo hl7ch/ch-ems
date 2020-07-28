@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-violenceForm"/>
+   <id
+           
+            value="IVR-VS-violenceForm"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.30--20161231110243"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-12-31T11:02:43+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceForm"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceForm"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-12-31T11:02:43"/>
    <name value="IVRVSviolenceForm"/>
-   <title value="IVR valueset form of violence (143.11.25)"/>
+   <title
+              
+               value="IVR valueset form of violence (143.11.25)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="keine"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Aucun"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Nessuna"/>
+            </designation>
          </concept>
          <concept>
             <code value="284616006"/>
@@ -43,6 +57,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Verbale Drohung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Menaces verbales"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Minacce verbali"/>
             </designation>
          </concept>
          <concept>
@@ -52,6 +74,14 @@
                <language value="de-CH"/>
                <value value="Anspucken"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Crachat"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Sputo"/>
+            </designation>
          </concept>
          <concept>
             <code value="248109002"/>
@@ -60,6 +90,14 @@
                <language value="de-CH"/>
                <value value="Sexuelle Belästigung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Agression sexuelle"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Violenza sessuale"/>
+            </designation>
          </concept>
          <concept>
             <code value="74964007"/>
@@ -67,6 +105,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Anderes"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Autre"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Altro"/>
             </designation>
          </concept>
       </include>
@@ -79,6 +125,14 @@
                <language value="de-CH"/>
                <value value="Beschimpfung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Insulte"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Insulto"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000044"/>
@@ -86,6 +140,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Bewerfen mit Gegenständen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Lancer des objets"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Lancio di oggetti"/>
             </designation>
          </concept>
          <concept>
@@ -95,6 +157,14 @@
                <language value="de-CH"/>
                <value value="Unerwünschte Berührung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Contact physique indésirable"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Contatto fisico indesiderato"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000046"/>
@@ -102,6 +172,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Stossen / Anrempeln"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Bousculades"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Spintoni"/>
             </designation>
          </concept>
          <concept>
@@ -111,6 +189,14 @@
                <language value="de-CH"/>
                <value value="leichter körperlicher Angriff"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Agression physique légère"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Leggera aggressione fisica"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000050"/>
@@ -118,6 +204,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="schwerer körperlicher Angriff"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Agression physique grave"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Severa aggressione fisica"/>
             </designation>
          </concept>
          <concept>
@@ -127,6 +221,14 @@
                <language value="de-CH"/>
                <value value="Bedrohung mit Waffe"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Menace avec arme"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Minaccia con arma"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000060"/>
@@ -134,6 +236,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Verletzung mit Waffe"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Blessure par arme"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ferita con arma"/>
             </designation>
          </concept>
       </include>

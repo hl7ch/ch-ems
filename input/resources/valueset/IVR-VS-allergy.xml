@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-allergy"/>
+   <id
+           
+            value="IVR-VS-allergy"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.19--20161008121129"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-10-08T12:11:29+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-allergy"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-allergy"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-10-08T12:11:29"/>
    <name value="IVRVSallergy"/>
-   <title value="IVR valueset allergy (.143.11.7)"/>
+   <title
+              
+               value="IVR valueset allergy (.143.11.7)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -31,10 +37,18 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="390952000"/>
-            <display value="Dust allergy"/>
+            <display value=" Dust allergy"/>
             <designation>
                <language value="de-CH"/>
                <value value="Allergie auf Hausstaub"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Allergie à la poussière"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Allergia alla polvere"/>
             </designation>
          </concept>
          <concept>
@@ -44,6 +58,14 @@
                <language value="de-CH"/>
                <value value="Allergie auf Gräser Pollen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Rhume des foins"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Allergia al fieno"/>
+            </designation>
          </concept>
          <concept>
             <code value="419263009"/>
@@ -51,6 +73,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Allergie auf Baum Pollen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Allergie au pollen"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Allergia al polline"/>
             </designation>
          </concept>
          <concept>
@@ -60,6 +90,14 @@
                <language value="de-CH"/>
                <value value="Allergie auf Tiere"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Allergie aux poils d'animaux"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Allergia agli animali"/>
+            </designation>
          </concept>
          <concept>
             <code value="716187007"/>
@@ -67,6 +105,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Allergie auf Insekten"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Allergie aux piqûres d'insectes"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Allergia agli insetti"/>
             </designation>
          </concept>
          <concept>
@@ -76,6 +122,14 @@
                <language value="de-CH"/>
                <value value="Allergie auf Lebensmittel"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Allergie allimentaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Allergia alimentare"/>
+            </designation>
          </concept>
          <concept>
             <code value="416098002"/>
@@ -84,6 +138,14 @@
                <language value="de-CH"/>
                <value value="Allergie auf Medikamente"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Allergie à des médicaments"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Allergia ai farmaci"/>
+            </designation>
          </concept>
          <concept>
             <code value="716186003"/>
@@ -91,6 +153,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="keine bekannten Allergien"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Pas d'allergies connues"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Nessuna allergia nota"/>
             </designation>
          </concept>
       </include>
@@ -103,6 +173,14 @@
                <language value="de-CH"/>
                <value value="siehe Beilage"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Voir pièce jointe"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Vedi allegato"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000055"/>
@@ -110,6 +188,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="nicht erfragt"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Pas demandé"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Non indagato"/>
             </designation>
          </concept>
       </include>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-teamRole"/>
+   <id
+           
+            value="IVR-VS-teamRole"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.20--20161023192135"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-10-23T19:21:35+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-10-23T19:21:35"/>
    <name value="IVRVSteamRole"/>
-   <title value="IVR valueset role team (.143.11.8)"/>
+   <title
+              
+               value="IVR valueset role team (.143.11.8)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="Neonatologe"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Néonatologue"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Neonatologo"/>
+            </designation>
          </concept>
          <concept>
             <code value="224549000"/>
@@ -43,6 +57,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Neonatologie-Pflege"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Infirmier/ère en néonatologie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Infermiere/a in neonatologia"/>
             </designation>
          </concept>
          <concept>
@@ -63,10 +85,18 @@
          </concept>
          <concept>
             <code value="133932002"/>
-            <display value="Caregiver"/>
+            <display value="Caregiver "/>
             <designation>
                <language value="de-CH"/>
                <value value="Betreuer"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Soignant"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Curante"/>
             </designation>
          </concept>
          <concept>
@@ -74,7 +104,15 @@
             <display value="Physician"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Notärztin / Notarzt"/>
+               <value value="Ärztin / Arzt"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Médecin"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Medico"/>
             </designation>
          </concept>
          <concept>
@@ -84,6 +122,14 @@
                <language value="de-CH"/>
                <value value="Hebamme"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Sage femme"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ostetrica"/>
+            </designation>
          </concept>
          <concept>
             <code value="106292003"/>
@@ -91,6 +137,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Pflegefachperson"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Infirmière"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Infermiera"/>
             </designation>
          </concept>
          <concept>
@@ -100,6 +154,14 @@
                <language value="de-CH"/>
                <value value="andere Rolle"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Autre rôle"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Altro ruolo"/>
+            </designation>
          </concept>
          <concept>
             <code value="62247001"/>
@@ -107,6 +169,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Hausarzt"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Médecin de famille"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Medico di famiglia"/>
             </designation>
          </concept>
       </include>
@@ -119,6 +189,14 @@
                <language value="de-CH"/>
                <value value="Rettungsspezialist Helikopter"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Assistant de vol"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Assistente di volo"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000013"/>
@@ -126,6 +204,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Fahrer"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Chauffeur"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Autista"/>
             </designation>
          </concept>
          <concept>
@@ -135,6 +221,14 @@
                <language value="de-CH"/>
                <value value="in Ausbildung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="en formation"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="In formazione"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000016"/>
@@ -142,6 +236,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="betreuender Arzt"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Médecin responsable"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Medico responsabile"/>
             </designation>
          </concept>
          <concept>
@@ -151,6 +253,14 @@
                <language value="de-CH"/>
                <value value="Praktikant"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Stagiaire"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Stagista"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000021"/>
@@ -158,6 +268,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Sicherheitsbegleitung"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Service sécurité"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Accompagnamento protettivo"/>
             </designation>
          </concept>
       </include>

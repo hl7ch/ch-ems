@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-symptom"/>
+   <id
+           
+            value="IVR-VS-symptom"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.41--20170408105643"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2017-04-08T10:56:43+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-symptom"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-symptom"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2017-04-08T10:56:43"/>
    <name value="IVRVSsymptom"/>
-   <title value="IVR valueset symptom (.143.11.38)"/>
+   <title
+              
+               value="IVR valueset symptom (.143.11.38)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,53 +42,109 @@
                <language value="de-CH"/>
                <value value="krankhafte Unruhe"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Agitation"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Agitazione"/>
+            </designation>
          </concept>
          <concept>
             <code value="267036007"/>
-            <display value="Dyspnea"/>
+            <display value="Dyspnea "/>
             <designation>
                <language value="de-CH"/>
                <value value="Atemnot"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Dyspnée"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Dispnea"/>
+            </designation>
          </concept>
          <concept>
             <code value="418107008"/>
-            <display value="Unconsciousness"/>
+            <display value=" Unconsciousness "/>
             <designation>
                <language value="de-CH"/>
                <value value="Bewusstseinsstörung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Inconscience"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Incoscienza"/>
+            </designation>
          </concept>
          <concept>
             <code value="131148009"/>
-            <display value="Bleeding"/>
+            <display value="Bleeding "/>
             <designation>
                <language value="de-CH"/>
                <value value="Blutung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Hemorragie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Emorragia"/>
+            </designation>
          </concept>
          <concept>
             <code value="62315008"/>
-            <display value="Diarrhea"/>
+            <display value="Diarrhea "/>
             <designation>
                <language value="de-CH"/>
                <value value="Durchfall"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Diarrhée"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Diarrea"/>
+            </designation>
          </concept>
          <concept>
             <code value="422400008"/>
-            <display value="Vomiting"/>
+            <display value="Vomiting "/>
             <designation>
                <language value="de-CH"/>
                <value value="Erbrechen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Vomissement"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Vomito"/>
+            </designation>
          </concept>
          <concept>
             <code value="386661006"/>
-            <display value="Fever"/>
+            <display value="Fever "/>
             <designation>
                <language value="de-CH"/>
                <value value="Fieber"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Fièvre"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Febbre"/>
             </designation>
          </concept>
          <concept>
@@ -96,6 +158,14 @@
                <language value="de-CH"/>
                <value value="Herzrasen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tachycardie"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tachicardia"/>
+            </designation>
          </concept>
          <concept>
             <code value="418363000"/>
@@ -104,26 +174,50 @@
                <language value="de-CH"/>
                <value value="Juckreiz"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Prurit"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Prurito"/>
+            </designation>
          </concept>
          <concept>
             <code value="91175000"/>
-            <display value="Seizure"/>
+            <display value="Seizure "/>
             <designation>
                <language value="de-CH"/>
                <value value="Krampfanfall"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Convulsions"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Convulsioni"/>
+            </designation>
          </concept>
          <concept>
             <code value="44695005"/>
-            <display value="Paralysis"/>
+            <display value="Paralysis "/>
             <designation>
                <language value="de-CH"/>
                <value value="Lähmung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Paralysie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Paralisi"/>
+            </designation>
          </concept>
          <concept>
             <code value="80313002"/>
-            <display value="Palpitations"/>
+            <display value="Palpitations "/>
             <designation>
                <language value="de-CH"/>
                <value value="Palpitation"/>
@@ -132,69 +226,141 @@
                <language value="de-CH"/>
                <value value="Herzklopfen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Palpitations"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Palpitazioni"/>
+            </designation>
          </concept>
          <concept>
             <code value="21522001"/>
-            <display value="Abdominal pain"/>
+            <display value="Abdominal pain "/>
             <designation>
                <language value="de-CH"/>
                <value value="Bauchschmerzen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Douleur abdominale"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Dolore addominale"/>
+            </designation>
          </concept>
          <concept>
             <code value="29857009"/>
-            <display value="Chest pain"/>
+            <display value="Chest pain "/>
             <designation>
                <language value="de-CH"/>
                <value value="Brustschmerzen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Douleur thoracique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Dolore toracico"/>
+            </designation>
          </concept>
          <concept>
             <code value="162397003"/>
-            <display value="Pain in throat"/>
+            <display value="Pain in throat "/>
             <designation>
                <language value="de-CH"/>
                <value value="Halsschmerzen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Mal de gorge"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Mal di gola"/>
+            </designation>
          </concept>
          <concept>
             <code value="25064002"/>
-            <display value="Headache"/>
+            <display value="Headache "/>
             <designation>
                <language value="de-CH"/>
                <value value="Kopfschmerzen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Céphalée"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Cefalea"/>
+            </designation>
          </concept>
          <concept>
             <code value="16001004"/>
-            <display value="Otalgia"/>
+            <display value="Otalgia "/>
             <designation>
                <language value="de-CH"/>
                <value value="Ohrenschmerzen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Otalgie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Otalgia"/>
+            </designation>
          </concept>
          <concept>
             <code value="161891005"/>
-            <display value="Backache"/>
+            <display value="Backache "/>
             <designation>
                <language value="de-CH"/>
                <value value="Rückenschmerzen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Dorsaglie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Dorsalgia"/>
+            </designation>
          </concept>
          <concept>
             <code value="27355003"/>
-            <display value="Toothache"/>
+            <display value="Toothache "/>
             <designation>
                <language value="de-CH"/>
                <value value="Zahnschmerzen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Mal de dent"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Mal di denti"/>
+            </designation>
          </concept>
          <concept>
             <code value="399153001"/>
-            <display value="Vertigo"/>
+            <display value="Vertigo "/>
             <designation>
                <language value="de-CH"/>
                <value value="Schwindel"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Vertiges"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Vertigini"/>
             </designation>
          </concept>
          <concept>
@@ -204,6 +370,14 @@
                <language value="de-CH"/>
                <value value="Synkope"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Syncope"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Sincope"/>
+            </designation>
          </concept>
          <concept>
             <code value="247412007"/>
@@ -212,21 +386,45 @@
                <language value="de-CH"/>
                <value value="Wehen"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Contractions"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Contrazioni"/>
+            </designation>
          </concept>
          <concept>
             <code value="422587007"/>
-            <display value="Nausea"/>
+            <display value=" Nausea "/>
             <designation>
                <language value="de-CH"/>
                <value value="Übelkeit"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Nausée"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Nausea"/>
+            </designation>
          </concept>
          <concept>
             <code value="22253000"/>
-            <display value="Pain"/>
+            <display value="Pain "/>
             <designation>
                <language value="de-CH"/>
                <value value="Schmerzen"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Douleur"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Dolore"/>
             </designation>
          </concept>
       </include>
@@ -239,6 +437,14 @@
                <language value="de-CH"/>
                <value value="nicht erfragt"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Pas demandé"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Non indagato"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000058"/>
@@ -247,6 +453,14 @@
                <language value="de-CH"/>
                <value value="keine Angaben"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Aucune information"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Nessuna informazione"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000057"/>
@@ -254,6 +468,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="siehe Beilage"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Voir pièce jointe"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Vedi allegato"/>
             </designation>
          </concept>
       </include>

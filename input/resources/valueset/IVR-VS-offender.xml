@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-offender"/>
+   <id
+           
+            value="IVR-VS-offender"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.29--20161231104542"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-12-31T10:45:42+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-offender"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-offender"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-12-31T10:45:42"/>
    <name value="IVRVSoffender"/>
-   <title value="IVR valueset offender (143.11.24)"/>
+   <title
+              
+               value="IVR valueset offender (143.11.24)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -30,11 +36,19 @@
       <include>
          <system value="http://snomed.info/sct"/>
          <concept>
-            <code value="125677006"/>
+            <code value="25677006"/>
             <display value="Relative"/>
             <designation>
                <language value="de-CH"/>
                <value value="Angehörige"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Proche"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Parente"/>
             </designation>
          </concept>
          <concept>
@@ -43,6 +57,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Patient"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Patient"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Paziente"/>
             </designation>
          </concept>
       </include>
@@ -55,6 +77,14 @@
                <language value="de-CH"/>
                <value value="Personenansammlung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Foule"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Folla"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000080"/>
@@ -63,6 +93,14 @@
                <language value="de-CH"/>
                <value value="Drittperson unbekannt"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tierce personne inconnue"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Terza persona sconosciuta"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000081"/>
@@ -70,6 +108,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Drittperson bekannt"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tierce personne connue"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Terza persona conosciuta"/>
             </designation>
          </concept>
       </include>

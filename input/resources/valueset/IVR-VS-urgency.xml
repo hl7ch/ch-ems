@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-urgency"/>
+   <id
+           
+            value="IVR-VS-urgency"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.51--20160724151443"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-07-24T15:14:43+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-07-24T15:14:43"/>
    <name value="Urgency"/>
-   <title value="IVR valueset urgency"/>
+   <title
+              
+               value="IVR valueset urgency"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -35,6 +41,14 @@
                <language value="de-CH"/>
                <value value="mit Sondersignal"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Avec sirène"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Con segnali prioritari"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000008"/>
@@ -42,6 +56,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="ohne Sondersignal"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Sans sirène"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Senza segnali prioritari"/>
             </designation>
          </concept>
       </include>

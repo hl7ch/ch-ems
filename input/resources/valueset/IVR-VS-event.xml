@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="IVR-VS-event"/>
+   <id
+           
+            value="IVR-VS-event"/>
    <meta>
       <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.23--20161113155040"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -11,7 +13,9 @@
          <start value="2016-11-13T15:50:40+02:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-event"/>
+   <url
+            
+             value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-event"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
@@ -19,7 +23,9 @@
    </identifier>
    <version value="2016-11-13T15:50:40"/>
    <name value="IVRVSevent"/>
-   <title value="IVR valueset event (.143.11.15)"/>
+   <title
+              
+               value="IVR valueset event (.143.11.15)"/>
    <status value="draft"/>
    <experimental value="false"/>
    <publisher value="Interverband für Rettungswesen"/>
@@ -36,6 +42,14 @@
                <language value="de-CH"/>
                <value value="Krankheit"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Maladie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Malattia"/>
+            </designation>
          </concept>
          <concept>
             <code value="52684005"/>
@@ -43,6 +57,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Überfall"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Assault"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Assalto"/>
             </designation>
          </concept>
          <concept>
@@ -52,6 +74,14 @@
                <language value="de-CH"/>
                <value value="Explosion"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Explosion"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Esplosione"/>
+            </designation>
          </concept>
          <concept>
             <code value="80032004"/>
@@ -59,6 +89,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Brand"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Incendie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Incendio"/>
             </designation>
          </concept>
          <concept>
@@ -68,6 +106,14 @@
                <language value="de-CH"/>
                <value value="Sturz"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Chute"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Caduta"/>
+            </designation>
          </concept>
          <concept>
             <code value="7542004"/>
@@ -75,6 +121,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Arbeitsunfall"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Accident de travail"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Infortunio sul lavoro"/>
             </designation>
          </concept>
          <concept>
@@ -84,6 +138,14 @@
                <language value="de-CH"/>
                <value value="Sportunfall"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Accident de sport"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Infortunio sportivo"/>
+            </designation>
          </concept>
          <concept>
             <code value="1631000175102"/>
@@ -92,18 +154,34 @@
                <language value="de-CH"/>
                <value value="nicht erfragt"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Pas demandé"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Non indagatto"/>
+            </designation>
          </concept>
          <concept>
             <code value="79573009"/>
-            <display value="Household Accident"/>
+            <display value="Household Accident "/>
             <designation>
                <language value="de-CH"/>
                <value value="Haushaltsunfall"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Accident domestique"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Infortunio domestico"/>
+            </designation>
          </concept>
          <concept>
             <code value="242089005"/>
-            <display value="Traffic accident"/>
+            <display value="Traffic accident "/>
             <designation>
                <language value="de-CH"/>
                <value value="Verkehrsunfall"/>
@@ -111,10 +189,18 @@
          </concept>
          <concept>
             <code value="74964007"/>
-            <display value="Other"/>
+            <display value="Other "/>
             <designation>
                <language value="de-CH"/>
                <value value="anderes"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Autre"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Altro"/>
             </designation>
          </concept>
          <concept>
@@ -123,6 +209,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="unbekannt"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Inconnu"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Sconosciuto"/>
             </designation>
          </concept>
       </include>
@@ -134,6 +228,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="keine Angaben"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Pas d'informations"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Nessuna informazione"/>
             </designation>
          </concept>
       </include>
