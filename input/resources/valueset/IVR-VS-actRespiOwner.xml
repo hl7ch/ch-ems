@@ -47,7 +47,7 @@
                <value value="Patient"/>
             </designation>
             <designation>
-               <language value="it-CF"/>
+               <language value="it-CH"/>
                <value value="Paziente"/>
             </designation>
          </concept>
