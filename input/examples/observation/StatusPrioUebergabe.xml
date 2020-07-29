@@ -19,7 +19,7 @@
     <!-- cdachems-dataelement-436 Priorität -->
     <valueCodeableConcept>
         <coding>
-            <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
+            <system value="http://snomed.info/sct"/>
             <code value="263935005"/>
             <display value="yellow"/>
         </coding>
