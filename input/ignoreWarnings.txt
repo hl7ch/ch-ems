@@ -11,9 +11,3 @@ Internal error: The display "Clinical presentation" is not a valid display for t
 # The following code systems are external and not supported by terminology server
 Code System URI "http://fhir.de/CodeSystem/dimdi/icd-10-gm" is unknown so the code cannot be validated
 Error from server: Unable to provide support for code system urn:oid:2.16.756.5.30.1.143.5.1
-
-# Valid Codes (Warning: The code xxxxxxxxx is not valid in the system http://snomed.info/sct)
-The code 418107008 is not valid in the system http://snomed.info/sct
-The code 386661006 is not valid in the system http://snomed.info/sct
-The code 260376009 is not valid in the system http://snomed.info/sct
-The code 385425000 is not valid in the system http://snomed.info/sct
