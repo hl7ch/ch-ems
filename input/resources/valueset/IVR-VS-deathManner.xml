@@ -31,5 +31,4 @@
    <publisher value="Interverband für Rettungswesen"/>
    <description value="IVR valueset  manner of death  (.143.11.41)"/>
    <immutable value="false"/>
-   <compose/>
 </ValueSet>
