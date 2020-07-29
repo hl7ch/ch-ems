@@ -37,7 +37,7 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="52765003"/>
-            <display value="Intubation "/>
+            <display value="Intubation"/>
             <designation>
                <language value="de-CH"/>
                <value value="Intubation"/>
@@ -53,7 +53,7 @@
          </concept>
          <concept>
             <code value="230040009"/>
-            <display value="Airway suctioning "/>
+            <display value="Airway suctioning"/>
             <designation>
                <language value="de-CH"/>
                <value value="Absaugen"/>
@@ -89,7 +89,7 @@
          </concept>
          <concept>
             <code value="232666000"/>
-            <display value="Jaw thrust "/>
+            <display value="Jaw thrust"/>
             <designation>
                <language value="de-CH"/>
                <value value="Esmarch Handgriff"/>

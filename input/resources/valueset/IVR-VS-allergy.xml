@@ -37,7 +37,7 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="390952000"/>
-            <display value=" Dust allergy"/>
+            <display value="Dust allergy"/>
             <designation>
                <language value="de-CH"/>
                <value value="Allergie auf Hausstaub"/>

@@ -37,7 +37,7 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="409528009"/>
-            <display value="Surgical face mask "/>
+            <display value="Surgical face mask"/>
             <designation>
                <language value="de-DE"/>
                <value value="Operationsmaske"/>

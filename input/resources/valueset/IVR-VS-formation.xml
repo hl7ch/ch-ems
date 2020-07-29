@@ -37,7 +37,7 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="397897005"/>
-            <display value="Paramedic "/>
+            <display value="Paramedic"/>
             <designation>
                <language value="de-CH"/>
                <value value="Rettungssanitäter/in HF"/>
@@ -53,7 +53,7 @@
          </concept>
          <concept>
             <code value="159738005"/>
-            <display value="Ambulanceman "/>
+            <display value="Ambulanceman"/>
             <designation>
                <language value="de-CH"/>
                <value value="Transportsanitäter/in FA"/>
@@ -69,7 +69,7 @@
          </concept>
          <concept>
             <code value="309294001"/>
-            <display value="Accident and Emergency doctor "/>
+            <display value="Accident and Emergency doctor"/>
             <designation>
                <language value="de-CH"/>
                <value value="Notarzt/Notärztin SGNOR"/>
@@ -101,7 +101,7 @@
          </concept>
          <concept>
             <code value="309453006"/>
-            <display value="Registered midwife "/>
+            <display value="Registered midwife"/>
             <designation>
                <language value="de-CH"/>
                <value value="Hebamme FH"/>
@@ -133,7 +133,7 @@
          </concept>
          <concept>
             <code value="224535009"/>
-            <display value="Registered nurse "/>
+            <display value="Registered nurse"/>
             <designation>
                <language value="de-CH"/>
                <value value="Pflegefachperson FH"/>
@@ -168,7 +168,7 @@
          </concept>
          <concept>
             <code value="1000011"/>
-            <display value="Ambulanceman-on-training "/>
+            <display value="Ambulanceman-on-training"/>
             <designation>
                <language value="de-CH"/>
                <value value="Transportsanitäter/in in Ausbildung"/>

@@ -37,7 +37,7 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="373066001"/>
-            <display value="Yes "/>
+            <display value="Yes"/>
             <designation>
                <language value="de-CH"/>
                <value value="Ja"/>

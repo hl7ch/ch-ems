@@ -37,7 +37,7 @@
          <system value="http://snomed.info/sct"/>
          <concept>
             <code value="248553004"/>
-            <display value="No obstruction of airway "/>
+            <display value="No obstruction of airway"/>
             <designation>
                <language value="de-CH"/>
                <value value="Atemwege frei"/>
@@ -85,7 +85,7 @@
          </concept>
          <concept>
             <code value="706177004"/>
-            <display value="Inhalation therapy device "/>
+            <display value="Inhalation therapy device"/>
             <designation>
                <language value="de-CH"/>
                <value value="Inhalationsset"/>
