@@ -106,7 +106,7 @@
 	</concept>
 	<concept>
 		<code value="1000006"></code>
-		<display value="rendezvous "></display>
+		<display value="rendezvous"></display>
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Rendez vous"></value>
@@ -170,7 +170,7 @@
 	</concept>
 	<concept>
 		<code value="1000011"></code>
-		<display value="Ambulanceman-on-training "></display>
+		<display value="Ambulanceman-on-training"></display>
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Transportsanitäter/in in Ausbildung"></value>
