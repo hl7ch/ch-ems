@@ -35,9 +35,6 @@
       <include>
          <system value="urn:oid:2.16.756.5.30.1.143.5.1"/>
          <concept>
-            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-               <valueString value=""/>
-            </extension>
             <code value="1100001"/>
             <display value="intervention"/>
             <designation>
