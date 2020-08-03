@@ -122,7 +122,7 @@
         </element>
         <element id="Composition.section.title:mission">
             <path value="Composition.section.title"/>
-            <short value="'Einsatz' or 'TODO' or 'TODO' or 'TODO'"/>
+            <short value="'Einsatz' or 'Intervention' or 'Intervento' or 'intervention'"/>
             <min value="1"/>
             <max value="1"/>
         </element>
@@ -196,7 +196,7 @@
         </element>
         <element id="Composition.section.title:administrative">
             <path value="Composition.section.title"/>
-            <short value="'Administrativ' or 'TODO' or 'TODO' or 'TODO'"/>
+            <short value="'Administrativ' or 'Administratif' or 'Amministrativo' or 'administrative'"/>
             <min value="1"/>
             <max value="1"/>
         </element>
@@ -233,7 +233,7 @@
         </element>
         <element id="Composition.section.title:pretreatment">
             <path value="Composition.section.title"/>
-            <short value="'Vorbehandlung' or 'TODO' or 'TODO' or 'TODO'"/>
+            <short value="'Vorbehandlung' or 'Prétraitement' or 'Pretrattamento' or 'pretreatment'"/>
             <min value="1"/>
             <max value="1"/>
         </element>
@@ -282,7 +282,7 @@
         </element>
         <element id="Composition.section.title:anamnesis">
             <path value="Composition.section.title"/>
-            <short value="'Anamnese' or 'TODO' or 'TODO' or 'TODO'"/>
+            <short value="'Anamnese' or 'Anamnèse' or 'Anamnesi' or 'anamnesis'"/>
             <min value="1"/>
             <max value="1"/>
         </element>
@@ -356,7 +356,7 @@
         </element>
         <element id="Composition.section.title:findings">
             <path value="Composition.section.title"/>
-            <short value="'Befund' or 'TODO' or 'TODO' or 'TODO'"/>
+            <short value="'Befund' or 'Résultats' or 'Risultati' or 'findings'"/>
             <min value="1"/>
             <max value="1"/>
         </element>
@@ -531,7 +531,7 @@
         </element>
         <element id="Composition.section.title:diagnosis">
             <path value="Composition.section.title"/>
-            <short value="'Diagnosen' or 'TODO' or 'TODO' or 'TODO'"/>
+            <short value="'Diagnosen' or 'Diagnostique' or 'Diagnosi' or 'diagnosis'"/>
             <min value="1"/>
             <max value="1"/>
         </element>
@@ -581,7 +581,7 @@
         </element>
         <element id="Composition.section.title:procedures">
             <path value="Composition.section.title"/>
-            <short value="'Massnahmen' or 'TODO' or 'TODO' or 'TODO'"/>
+            <short value="'Massnahmen' or 'Mesures' or 'Misure' or 'measures'"/>
             <min value="1"/>
             <max value="1"/>
         </element>
@@ -618,7 +618,7 @@
         </element>
         <element id="Composition.section.title:eventOfDeath">
             <path value="Composition.section.title"/>
-            <short value="'Todesfall' or 'TODO' or 'TODO' or 'TODO'"/>
+            <short value="'Todesfall' or 'Décès' or 'Decesso' or 'death'"/>
             <min value="1"/>
             <max value="1"/>
         </element>
@@ -655,7 +655,7 @@
         </element>
         <element id="Composition.section.title:transport">
             <path value="Composition.section.title"/>
-            <short value="'Transport' or 'TODO' or 'TODO' or 'TODO'"/>
+            <short value="'Transport' or 'Transport' or 'Trasporto' or 'transport'"/>
             <min value="1"/>
             <max value="1"/>
         </element>
@@ -692,7 +692,7 @@
         </element>
         <element id="Composition.section.title:handover">
             <path value="Composition.section.title"/>
-            <short value="'Übergabe' or 'TODO' or 'TODO' or 'TODO'"/>
+            <short value="'Übergabe' or 'Remise' or 'Consegna' or 'handover'"/>
             <min value="1"/>
             <max value="1"/>
         </element>
