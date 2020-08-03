@@ -1,4 +1,4 @@
-@host = http://test.fhir.ch/r4
+@host = http://test.ahdis.ch/fhir
 
 
 ###
@@ -241,4 +241,8 @@ Content-Type: application/fhir+xml
 
 ###
 GET {{host}}/Coverage/1-CoveragePeterMuster HTTP/1.1
+Content-Type: application/fhir+xml
+
+###
+GET http://test.fhir.ch/r4/Patient/1-PeterMuster HTTP/1.1
 Content-Type: application/fhir+xml
