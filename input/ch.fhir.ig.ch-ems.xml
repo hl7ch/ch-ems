@@ -532,6 +532,12 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/ch-ems-ext-teamrole"/>
+      </reference>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/ch-ems-location"/>
       </reference>
       <exampleBoolean value="false"/>

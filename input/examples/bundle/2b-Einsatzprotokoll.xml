@@ -497,26 +497,30 @@
             <!-- cdachems-dataelement-102 Team -->
             <participant>
                <!-- cdachems-dataelement-283 Rolle Teammitglied -->
-               <type>
-                  <coding>
-                     <system value="http://snomed.info/sct"/>
-                     <code value="133932002"/>
-                     <display value="Caregiver"/>
-                  </coding>
-               </type>
+               <extension url="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-teamrole">
+                  <valueCodeableConcept>
+                     <coding>
+                        <system value="http://snomed.info/sct"/>
+                        <code value="133932002"/>
+                        <display value="Caregiver"/>
+                     </coding>
+                  </valueCodeableConcept>
+               </extension>
                <individual>
                   <reference value="Practitioner/1-TeamMemberPetraMuster"/>
                </individual>
             </participant>
             <participant>
                <!-- cdachems-dataelement-283 Rolle Teammitglied -->
-               <type>
-                  <coding>
-                     <system value="http://snomed.info/sct"/>
-                     <code value="133932002"/>
-                     <display value="Caregiver"/>
-                  </coding>
-               </type>
+               <extension url="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-teamrole">
+                  <valueCodeableConcept>
+                     <coding>
+                        <system value="http://snomed.info/sct"/>
+                        <code value="133932002"/>
+                        <display value="Caregiver"/>
+                     </coding>
+                  </valueCodeableConcept>
+               </extension>
                <individual>
                   <reference value="Practitioner/1-TeamMemberHansBeispiel"/>
                </individual>
