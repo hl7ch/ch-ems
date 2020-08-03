@@ -646,9 +646,10 @@
             <address>
                <use value="home"/>
                <line value="Bahnhofstrasse">
-                  <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype">
+                  <!-- annotated due to consequent error based on ch-core, see https://github.com/hl7ch/ch-core/pull/62 -->
+                  <!--<extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype">
                      <valueCode value="street"/>
-                  </extension>
+                  </extension>-->
                   <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
                      <valueString value="1"/>
                   </extension>
