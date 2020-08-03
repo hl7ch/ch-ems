@@ -819,7 +819,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="ValueSet/IVR-VS-naca" />
+        <reference value="ValueSet/IVR-VS-NACA" />
       </reference>
       <exampleBoolean value="false"/>
     </resource>

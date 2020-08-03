@@ -7,7 +7,7 @@
 		</valuePeriod>
 	</extension>
 	<url value="urn:oid:2.16.756.5.30.1.143.5.1"/>
-	<version value="2020-07-28T17:00:00"/>
+	<version value="2020-08-03T17:00:00"/>
 	<name value="IVRCodeSystem"/>
 	<title value="IVR Code System"/>
 	<status value="draft"/>
@@ -109,7 +109,7 @@
 		<display value="rendezvous"></display>
 		<designation>
 			<language value="de-CH"></language>
-			<value value="Rendez vous"></value>
+			<value value="Rendezvous"></value>
 		</designation>
 		<designation>
 			<language value="fr-CH"></language>
@@ -784,6 +784,14 @@
 			<language value="de-CH"></language>
 			<value value="Händedesinfektion mit Virugard"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Désinfection des mains avec Virugard"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Disinfezione delle mani con Virugard"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000069"></code>
@@ -791,6 +799,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Händedesinfektion mit Sterilium"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Désinfection des mains avec Sterilium"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Disinfezione delle mani con Sterilium"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -800,6 +816,14 @@
 			<language value="de-CH"></language>
 			<value value="Operationsmantel"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Vêtements chirurgicaux"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Abiti chirurgici"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000071"></code>
@@ -807,6 +831,15 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Dienstkleiderwechsel nach Einsatzende"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value
+				value="Changement de vêtements après la fin de la mission"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Cambio di vestiti dopo la fine della missione"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -816,6 +849,14 @@
 			<language value="de-CH"></language>
 			<value value="Vollschutzabzug, belüftet"></value>
 		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Combinaison de protection totale, ventilé"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Tutta di protezione completo, ventilato"></value>
+		</designation>
 	</concept>
 	<concept>
 		<code value="1000073"></code>
@@ -823,6 +864,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="andere Schutzmassnahme"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="Autres mesures de protection"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="Altre misure di sicurezza"></value>
 		</designation>
 	</concept>
 	<concept>
@@ -1857,7 +1906,7 @@
 			<value value="ausgebildeter Ersthelfer"></value>
 		</designation>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="First responder"></value>
 		</designation>
 		<designation>
@@ -1985,7 +2034,7 @@
 		<code value="1000150"></code>
 		<display value="on pain stimulus"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="auf Schmerzreiz"></value>
 		</designation>
 		<designation>
@@ -2033,7 +2082,7 @@
 		<code value="1000153"></code>
 		<display value="stretching"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="auf Schmerz Strecksynergismen"></value>
 		</designation>
 		<designation>
@@ -2049,7 +2098,7 @@
 		<code value="1000154"></code>
 		<display value="bending"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="auf Schmerz Beugesynergismen"></value>
 		</designation>
 		<designation>
@@ -2065,7 +2114,7 @@
 		<code value="1000155"></code>
 		<display value="undirected defense"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="ungezielte Schmerzabwehr"></value>
 		</designation>
 		<designation>
@@ -2081,7 +2130,7 @@
 		<code value="1000156"></code>
 		<display value="directed defense"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="gezielte Schmerzabwehr"></value>
 		</designation>
 		<designation>
@@ -2097,7 +2146,7 @@
 		<code value="1000157"></code>
 		<display value="take orders"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="befolgt Aufforderungen"></value>
 		</designation>
 		<designation>
@@ -2129,7 +2178,7 @@
 		<code value="1000159"></code>
 		<display value="incoherent words"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="unzusammenhängende Worte"></value>
 		</designation>
 		<designation>
@@ -2145,7 +2194,7 @@
 		<code value="1000160"></code>
 		<display value="conversational, disoriented"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="konversationsfähig, desorientiert"></value>
 		</designation>
 		<designation>
@@ -2161,7 +2210,7 @@
 		<code value="1000161"></code>
 		<display value="conversational, oriented"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="konversationsfähig, orientiert"></value>
 		</designation>
 		<designation>
@@ -2193,7 +2242,7 @@
 		<code value="1100001"></code>
 		<display value="intervention"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Einsatz"></value>
 		</designation>
 		<designation>
@@ -2209,7 +2258,7 @@
 		<code value="1100002"></code>
 		<display value="patient"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Patient"></value>
 		</designation>
 		<designation>
@@ -2225,7 +2274,7 @@
 		<code value="1100003"></code>
 		<display value="administrative"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Administrativ"></value>
 		</designation>
 		<designation>
@@ -2241,7 +2290,7 @@
 		<code value="1100004"></code>
 		<display value="pretreatment"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Vorbehandlung"></value>
 		</designation>
 		<designation>
@@ -2257,7 +2306,7 @@
 		<code value="1100005"></code>
 		<display value="anamnesis"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Anamnese"></value>
 		</designation>
 		<designation>
@@ -2273,7 +2322,7 @@
 		<code value="1100006"></code>
 		<display value="findings"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Befund"></value>
 		</designation>
 		<designation>
@@ -2305,7 +2354,7 @@
 		<code value="1100008"></code>
 		<display value="measures"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Massnahmen"></value>
 		</designation>
 		<designation>
@@ -2321,7 +2370,7 @@
 		<code value="1100009"></code>
 		<display value="death"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Todesfall"></value>
 		</designation>
 		<designation>
@@ -2337,7 +2386,7 @@
 		<code value="1100010"></code>
 		<display value="transport"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Transport"></value>
 		</designation>
 		<designation>
@@ -2353,7 +2402,7 @@
 		<code value="1100011"></code>
 		<display value="handover"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Übergabe"></value>
 		</designation>
 		<designation>
@@ -2369,7 +2418,7 @@
 		<code value="A"></code>
 		<display value="wach, ansprechbar und orientiert"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="wach, ansprechbar und orientiert"></value>
 		</designation>
 		<designation>
@@ -2401,7 +2450,7 @@
 		<code value="II"></code>
 		<display value="leichte bis mässig schwere Störung"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="leichte bis mässig schwere Störung"></value>
 		</designation>
 		<designation>
@@ -2417,7 +2466,7 @@
 		<code value="III"></code>
 		<display value="mässige bis schwere Störung"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="mässige bis schwere Störung"></value>
 		</designation>
 		<designation>
@@ -2433,7 +2482,7 @@
 		<code value="IV"></code>
 		<display value="schwere Störung, lebensbedrohlich"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="schwere Störung, lebensbedrohlich"></value>
 		</designation>
 		<designation>
@@ -2449,7 +2498,7 @@
 		<code value="P"></code>
 		<display value="Reaktion nur auf Schmerzreiz"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Reazione solo allo stimolo del dolore"></value>
 		</designation>
 		<designation>
@@ -2465,7 +2514,7 @@
 		<code value="U"></code>
 		<display value="nicht ansprechbar, bewusstlos"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="nicht ansprechbar, bewusstlos"></value>
 		</designation>
 		<designation>
@@ -2481,7 +2530,7 @@
 		<code value="V"></code>
 		<display value="Reaktion nur bei lauter Ansprache"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Reaktion nur bei lauter Ansprache"></value>
 		</designation>
 		<designation>
@@ -2497,7 +2546,7 @@
 		<code value="VI"></code>
 		<display value="Reanimation"></display>
 		<designation>
-			<language value="de-DE"></language>
+			<language value="de-CH"></language>
 			<value value="Reanimation"></value>
 		</designation>
 		<designation>

@@ -186,6 +186,14 @@
                <language value="de-CH"/>
                <value value="Verkehrsunfall"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Accident de la circulation"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Incidente della circolazione"/>
+            </designation>
          </concept>
          <concept>
             <code value="74964007"/>

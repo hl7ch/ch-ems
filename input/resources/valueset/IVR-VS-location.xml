@@ -138,6 +138,14 @@
                <language value="de-CH"/>
                <value value="oben"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Haut"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Alto"/>
+            </designation>
          </concept>
          <concept>
             <code value="421610009"/>

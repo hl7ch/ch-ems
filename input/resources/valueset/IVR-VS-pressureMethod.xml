@@ -39,11 +39,11 @@
             <code value="10179008"/>
             <display value="invasive"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="invasiv"/>
             </designation>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="IBP"/>
             </designation>
             <designation>
@@ -63,7 +63,7 @@
                <value value="nicht invasiv"/>
             </designation>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="NIBP"/>
             </designation>
             <designation>

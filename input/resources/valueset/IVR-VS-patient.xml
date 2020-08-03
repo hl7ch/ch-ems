@@ -40,9 +40,9 @@
                <valueString value="Place of origin"/>
             </extension>
             <code value="307117005"/>
-            <display value="Place of origin (observable entity)"/>
+            <display value="Place of origin"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Geburtsort"/>
             </designation>
             <designation>

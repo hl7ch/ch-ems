@@ -90,6 +90,14 @@
                <language value="de-CH"/>
                <value value="Beckengurt"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Ceinture abdominale"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Cintura pelvica"/>
+            </designation>
          </concept>
          <concept>
             <code value="74964007"/>

@@ -38,7 +38,7 @@
             <code value="1100001"/>
             <display value="intervention"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Einsatz"/>
             </designation>
             <designation>
@@ -54,7 +54,7 @@
             <code value="1100002"/>
             <display value="patient"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Patient"/>
             </designation>
             <designation>
@@ -70,7 +70,7 @@
             <code value="1100003"/>
             <display value="administrative"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Administrativ"/>
             </designation>
             <designation>
@@ -86,7 +86,7 @@
             <code value="1100004"/>
             <display value="pretreatment"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Vorbehandlung"/>
             </designation>
             <designation>
@@ -102,7 +102,7 @@
             <code value="1100005"/>
             <display value="anamnesis"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Anamnese"/>
             </designation>
             <designation>
@@ -118,7 +118,7 @@
             <code value="1100006"/>
             <display value="findings"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Befund"/>
             </designation>
             <designation>
@@ -150,7 +150,7 @@
             <code value="1100008"/>
             <display value="measures"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Massnahmen"/>
             </designation>
             <designation>
@@ -166,7 +166,7 @@
             <code value="1100009"/>
             <display value="death"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Todesfall"/>
             </designation>
             <designation>
@@ -182,7 +182,7 @@
             <code value="1100010"/>
             <display value="transport"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Transport"/>
             </designation>
             <designation>
@@ -198,7 +198,7 @@
             <code value="1100011"/>
             <display value="handover"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Übergabe"/>
             </designation>
             <designation>

@@ -39,7 +39,7 @@
             <code value="223366009"/>
             <display value="Healthcare professional"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Gesundheitsfachperson"/>
             </designation>
             <designation>
@@ -78,7 +78,7 @@
                <value value="ausgebildeter Ersthelfer"/>
             </designation>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="First responder"/>
             </designation>
             <designation>

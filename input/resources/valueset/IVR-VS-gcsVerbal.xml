@@ -39,7 +39,7 @@
             <code value="260389003"/>
             <display value="no reaction"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="keine verbale Reaktion"/>
             </designation>
             <designation>
@@ -74,7 +74,7 @@
             <code value="1000159"/>
             <display value="incoherent words"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="unzusammenhängende Worte"/>
             </designation>
             <designation>
@@ -90,7 +90,7 @@
             <code value="1000160"/>
             <display value="conversational, disoriented"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="konversationsfähig, desorientiert"/>
             </designation>
             <designation>
@@ -106,7 +106,7 @@
             <code value="1000161"/>
             <display value="conversational, oriented"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="konversationsfähig, orientiert"/>
             </designation>
             <designation>

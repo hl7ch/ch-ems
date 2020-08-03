@@ -39,7 +39,7 @@
             <code value="409528009"/>
             <display value="Surgical face mask"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Operationsmaske"/>
             </designation>
             <designation>
@@ -58,6 +58,14 @@
                <language value="de-CH"/>
                <value value="Schutzmaske mit Ventil"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Masque de protection avec valve"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Mascherine di protezione con valvola"/>
+            </designation>
          </concept>
          <concept>
             <code value="38126007"/>
@@ -66,6 +74,14 @@
                <language value="de-CH"/>
                <value value="Schutzbrille"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Lunettes de protection"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Occhiali protettivi"/>
+            </designation>
          </concept>
          <concept>
             <code value="52291003"/>
@@ -73,6 +89,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Handschuhe"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Gants"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Guanti"/>
             </designation>
          </concept>
       </include>
@@ -85,6 +109,14 @@
                <language value="de-CH"/>
                <value value="Händedesinfektion mit Virugard"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Désinfection des mains avec Virugard"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Disinfezione delle mani con Virugard"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000069"/>
@@ -92,6 +124,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Händedesinfektion mit Sterilium"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Désinfection des mains avec Sterilium"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Disinfezione delle mani con Sterilium"/>
             </designation>
          </concept>
          <concept>
@@ -101,6 +141,14 @@
                <language value="de-CH"/>
                <value value="Operationsmantel"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Vêtements chirurgicaux"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Abiti chirurgici"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000071"/>
@@ -108,6 +156,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="Dienstkleiderwechsel nach Einsatzende"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Changement de vêtements après la fin de la mission"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Cambio di vestiti dopo la fine della missione"/>
             </designation>
          </concept>
          <concept>
@@ -117,6 +173,14 @@
                <language value="de-CH"/>
                <value value="Vollschutzabzug, belüftet"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Combinaison de protection totale, ventilé"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tutta di protezione completo, ventilato"/>
+            </designation>
          </concept>
          <concept>
             <code value="1000073"/>
@@ -124,6 +188,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="andere Schutzmassnahme"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Autres mesures de protection"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Altre misure di sicurezza"/>
             </designation>
          </concept>
       </include>

@@ -39,7 +39,7 @@
             <code value="260389003"/>
             <display value="No reaction"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="keine Reaktion auf Schmerzreiz"/>
             </designation>
             <designation>
@@ -58,7 +58,7 @@
             <code value="1000153"/>
             <display value="stretching"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="auf Schmerz Strecksynergismen"/>
             </designation>
             <designation>
@@ -74,7 +74,7 @@
             <code value="1000154"/>
             <display value="bending"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="auf Schmerz Beugesynergismen"/>
             </designation>
             <designation>
@@ -90,7 +90,7 @@
             <code value="1000155"/>
             <display value="undirected defense"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="ungezielte Schmerzabwehr"/>
             </designation>
             <designation>
@@ -106,7 +106,7 @@
             <code value="1000156"/>
             <display value="directed defense"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="gezielte Schmerzabwehr"/>
             </designation>
             <designation>
@@ -122,7 +122,7 @@
             <code value="1000157"/>
             <display value="take orders"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="befolgt Aufforderungen"/>
             </designation>
             <designation>

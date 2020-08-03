@@ -4,13 +4,13 @@
            
             value="IVR-VS-gcs-augenoeffnung"/>
    <meta>
-      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.14--20160730115400"/>
+      <source value="http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.68--20200801115042"/>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
       <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2016-07-30T11:54:00+02:00"/>
+         <start value="2020-08-01T11:50:42+02:00"/>
       </valuePeriod>
    </extension>
    <url
@@ -19,9 +19,9 @@
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.1.11.14"/>
+      <value value="2.16.756.5.30.1.1.11.68"/>
    </identifier>
-   <version value="2016-07-30T11:54:00"/>
+   <version value="2020-08-01T11:50:42"/>
    <name value="GcsAugenoeffnung"/>
    <title
               
@@ -58,7 +58,7 @@
             <code value="1000150"/>
             <display value="on pain stimulus"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="auf Schmerzreiz"/>
             </designation>
             <designation>

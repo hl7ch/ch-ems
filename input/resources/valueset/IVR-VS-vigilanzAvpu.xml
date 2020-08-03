@@ -38,7 +38,7 @@
             <code value="A"/>
             <display value="wach, ansprechbar und orientiert"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="wach, ansprechbar und orientiert"/>
             </designation>
             <designation>
@@ -54,7 +54,7 @@
             <code value="V"/>
             <display value="Reaktion nur bei lauter Ansprache"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Reaktion nur bei lauter Ansprache"/>
             </designation>
             <designation>
@@ -70,7 +70,7 @@
             <code value="P"/>
             <display value="Reaktion nur auf Schmerzreiz"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="Reazione solo allo stimolo del dolore"/>
             </designation>
             <designation>
@@ -86,7 +86,7 @@
             <code value="U"/>
             <display value="nicht ansprechbar, bewusstlos"/>
             <designation>
-               <language value="de-DE"/>
+               <language value="de-CH"/>
                <value value="nicht ansprechbar, bewusstlos"/>
             </designation>
             <designation>

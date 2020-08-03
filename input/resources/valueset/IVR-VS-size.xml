@@ -42,6 +42,14 @@
                <language value="de-CH"/>
                <value value="vergrössert"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Grossi"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Ingrandito"/>
+            </designation>
          </concept>
          <concept>
             <code value="255509001"/>
@@ -49,6 +57,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="gross"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Grand"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Grande"/>
             </designation>
          </concept>
          <concept>
@@ -58,6 +74,14 @@
                <language value="de-CH"/>
                <value value="normal"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Normal"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Normale"/>
+            </designation>
          </concept>
          <concept>
             <code value="255507004"/>
@@ -65,6 +89,14 @@
             <designation>
                <language value="de-CH"/>
                <value value="klein"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Petit"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Piccolo"/>
             </designation>
          </concept>
       </include>
