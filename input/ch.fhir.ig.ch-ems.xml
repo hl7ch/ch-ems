@@ -1015,6 +1015,16 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <nameUrl value="index-german.html"/>
+        <title value="Home (DE)"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="index-french.html"/>
+        <title value="Home (FR)"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
         <nameUrl value="document.html"/>
         <title value="Emergency Medical Service protocol"/>
         <generation value="markdown"/>
