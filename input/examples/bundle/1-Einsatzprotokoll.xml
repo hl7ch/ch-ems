@@ -673,14 +673,16 @@
             </address>
             <!-- participant.associatedEntity -->
             <contact>
-               <relationship>
-                  <coding>
-                     <system value="http://snomed.info/sct"/>
-                     <code value="74964007"/>
-                     <display value="Other"/>
-                  </coding>
-                  <text value="Ehefrau"/>
-               </relationship>
+               <extension url="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-personrole">
+                  <valueCodeableConcept>
+                     <coding>
+                        <system value="http://snomed.info/sct"/>
+                        <code value="74964007"/>
+                        <display value="Other"/>
+                     </coding>
+                     <text value="Ehefrau"/>
+                  </valueCodeableConcept>
+               </extension>
                <name>
                   <family value="Muster"/>
                   <given value="Erika"/>

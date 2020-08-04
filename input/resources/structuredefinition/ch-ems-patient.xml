@@ -122,29 +122,28 @@
         </element>
         <element id="Patient.contact">
             <path value="Patient.contact"/>
+            <short value="Involved Participant (Person / Organization)"/>
+        </element>
+        <element id="Patient.contact.extension">
+            <path value="Patient.contact.extension"/>
             <slicing>
                 <discriminator>
                     <type value="value"/>
-                    <path value="relationship"/>
+                    <path value="url"/>
                 </discriminator>
-                <ordered value="false"/>
                 <rules value="open"/>
             </slicing>
         </element>
-        <element id="Patient.contact:involvedParticipant">
-            <path value="Patient.contact"/>
-            <sliceName value="involvedParticipant"/>
-            <short value="Involved Participant (Person / Organization)"/>
-        </element>
-        <element id="Patient.contact.relationship:involvedParticipant">
-            <path value="Patient.contact.relationship"/>
+        <element id="Patient.contact.extension:personRole">
+            <path value="Patient.contact.extension"/>
             <short value="Role of the involved participant"/>
-            <binding>
-                <strength value="required"/>
-                <valueSet value="http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-personRole"/>
-            </binding>
+            <sliceName value="personRole"/>
+            <type>
+                <code value="Extension"/>
+                <profile value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-personrole"/>
+            </type>
         </element>
-        <element id="Patient.contact.name:involvedParticipant">
+        <element id="Patient.contact.name">
             <path value="Patient.contact.name"/>
             <short value="Name of the involved participant"/>
             <type>
