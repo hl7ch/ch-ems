@@ -7,7 +7,7 @@
 		</valuePeriod>
 	</extension>
 	<url value="urn:oid:2.16.756.5.30.1.143.5.1"/>
-	<version value="2020-08-03T17:00:00"/>
+	<version value="2020-08-06T17:00:00"/>
 	<name value="IVRCodeSystem"/>
 	<title value="IVR Code System"/>
 	<status value="draft"/>
@@ -22,6 +22,14 @@
 		<designation>
 			<language value="de-CH"></language>
 			<value value="keine Verletzung oder Erkrankung"></value>
+		</designation>
+		<designation>
+			<language value="fr-CH"></language>
+			<value value="aucune blessure ou maladie"></value>
+		</designation>
+		<designation>
+			<language value="it-CH"></language>
+			<value value="nessuna lesione o malattia"></value>
 		</designation>
 	</concept>
 	<concept>

@@ -40,15 +40,15 @@
             <display value="death of unknown cause"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Todesursache unbekannt"/>
+               <value value="unklarer Todesfall"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="cause de décès inconnue"/>
+               <value value="mort inexpliquée"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="causa die morte sconosciuta"/>
+               <value value="caduta di nodi più chiara"/>
             </designation>
          </concept>
          <concept>
@@ -60,15 +60,19 @@
             </designation>
             <designation>
                <language value="de-CH"/>
+               <value value="Nicht-natürlicher Todesfall"/>
+            </designation>
+            <designation>
+               <language value="de-CH"/>
                <value value="AGT"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="mort suspecte"/>
+               <value value="mort non naturelle"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="morte sospetta"/>
+               <value value="morte non naturale"/>
             </designation>
          </concept>
          <concept>
@@ -76,7 +80,7 @@
             <display value="natural death"/>
             <designation>
                <language value="de-CH"/>
-               <value value="natürlicher Tod"/>
+               <value value="natürlicher Todesfall"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
