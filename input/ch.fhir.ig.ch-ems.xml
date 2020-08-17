@@ -8,12 +8,12 @@
     </div>
   </text>
   <url value="http://fhir.ch/ig/ch-ems/ImplementationGuide/ch.fhir.ig.ch-ems"/>
-  <version value="0.1.0"/>
+  <version value="1.9.0"/>
   <name value="CH_EMS"/>
   <title value="CH EMS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2020-02-05"/>
+  <date value="2020-08-17"/>
   <publisher value="IVR Interverband für Rettungswesen"/>
   <contact>
     <name value="IVR Interverband für Rettungswesen"/>
@@ -1059,8 +1059,8 @@
     <!-- parameters -->
     <parameter>
       <code value="releaselabel"/>
-      <value value="CI build"/>
-      <!--<value value="Draft Standard for Trial Use"/>-->
+      <!--<value value="CI build"/>-->
+      <value value="Standard for Trial Use"/>
     </parameter>
     <parameter>
       <code value="path-pages" />
