@@ -1,37 +1,35 @@
-### Einleitung TBD
-This FHIR implementation guide defines a standardised information workflow applicable to Swiss emergency services (EMS). It is used as a basis for projects to digitalise the processes in the Swiss emergency services and to connect these organisations to other EMS, hospitals and the Swiss Electronic Patient Record (EPR).    
-The project is under the leadership of the "Interverband für Rettungswesen".    
-This information workflow is established as standard at the association eCH under the number eCH-0207, Version 2, and at eHealth Suisse under the name CDA-CH-RESP (official data exchange format according to Swiss legislation).
+### Einführung
+Dieser FHIR-Implementierungsleitfaden definiert einen standardisierten Informationsworkflow für die Schweizer Rettungsdienste (EMS). Er dient als Grundlage für Projekte zur Digitalisierung der Prozesse in den schweizerischen Notfalldiensten und zur Anbindung dieser Organisationen an andere EMS, Spitäler und das elektronische Patientendossier Schweiz (EPD).    
+Das Projekt steht unter der Patronat des "Interverbandes für Rettungswesen".    
+Dieser Informationsworkflow ist beim Verein eCH unter der Nummer eCH-0207, Version 2, und bei eHealth Suisse unter dem Namen CH-EMS (offizielles Datenaustauschformat gemäss Schweizer Gesetzgebung) als Standard etabliert.
 
-**Download**: You can download this implementation guide in npm format from [here](package.tgz).
+**Herunterladen**: Sie können diesen Implementierungsleitfaden im npm-Format von [hier](package.tgz) herunterladen.
 
-**Identification**: OID: 2.16.756.5.30.1.143.1.1    
+**Identifizierung**: OID: 2.16.756.5.30.1.143.1.1    
 
 
-### Swiss specific context
-The CH EMS implementation guide describes the FHIR representation of the defined [**Emergency Medical Service protocol**](document.html). This implementation guide is dependent on [CH Core](http://fhir.ch/ig/ch-core/index.html) and [CH EPR Term](http://fhir.ch/ig/ch-epr-term/index.html), which describe the Swiss specific context, especially related to the Swiss electronic patient record (EPR).
+### Spezifischer Schweizer Kontext
+Der CH EMS Implementierungsleitfaden beschreibt die FHIR-Darstellung des definierten [**Protokolls für Rettungsdienste**](document.html). Dieser Implementierungsleitfaden ist abhängig von [CH Core](http://fhir.ch/ig/ch-core/index.html) und [CH EPR Term](http://fhir.ch/ig/ch-epr-term/index.html), die den schweizerischen spezifischen Kontext beschreiben, insbesondere im Zusammenhang mit dem elektronischen Patientendossier Schweiz (EPD).
 
-#### Swiss context
-The [CH EMS profiles](profiles.html) are based on the CH Core basic profiles. Thus, the examples of the EMS protocols ([Einsatzprotokolle 1, 1b, 2, 2b](StructureDefinition-ch-ems-document-examples.html)) are valid in the Swiss context. In order to verify the correctness, the documents can be validated against the [CH EMS Document Profile](StructureDefinition-ch-ems-document.html). (The requirements of the [CH Core Document Profile](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document.html) are thus also fulfilled and checked).
+#### Schweizer Kontext
+Die [CH EMS Profile](profiles.html) basieren auf den CH Core Basisprofilen. Die Beispiele der EMS-Protokolle ([Einsatzprotokolle 1, 1b, 2, 2b](StructureDefinition-ch-ems-document-examples.html)) sind somit im schweizerischen Kontext gültig. Um die Korrektheit zu überprüfen, können die Dokumente gegen das [CH EMS Dokumentenprofil](StructureDefinition-ch-ems-document.html) validiert werden. (Damit werden auch die Anforderungen des [CH Core Dokumentenprofils](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document.html) erfüllt und überprüft).
 
-*Validation: see [README CH EMS](https://github.com/hl7ch/ch-ems)*
+*Validierung: siehe [README CH EMS](https://github.com/hl7ch/ch-ems)*
 
-#### Swiss EPR context
-If the documents are used in the EPR context, the requirements of the [CH Core Document Profile EPR](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document-epr.html) must also be fulfilled. For the use case of the emergency services, there are two main aspects that must be considered in the EPR context:
-* The **social security number (AHVN13)** of the patient must **not** be stored in the EPR
-* For a valid EPR document, the **name of the patient** must be known, which is not always guaranteed in emergency services    
+#### Schweizer EPD-Kontext
+Wenn die Dokumente im EPD-Kontext verwendet werden, müssen auch die Anforderungen des  [CH Core EPD-Dokumentenprofil](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document-epr.html) erfüllt werden. Für den Anwendungsfall der Notfalldienste gibt es zwei Hauptaspekte, die im EPD-Kontext berücksichtig werden müssen:
+* Die **Sozialversicherungsnummer (AHVN13)** des Patienten **darf nicht** im EPD gespeichert werden
+* Für ein gültiges EPD-Dokument muss der **Name des Patienten** bekannt sein, was bei Notfalldiensten nicht immer gewährleistet ist    
 
-To support the compatibility check against the CH Core EPR profiles, a warning is generated in case of deviations during validation:   
-'ch-ems-epr: Warning that the resource is not conform to the CH Core EPR restrictions'
+Um die Kompatibilitätsprüfung gegen die CH Core EPD-Profile zu unterstützen, wird bei Abweichungen während der Validierung eine Warnung generiert:   
+'ch-ems-epr: Warnung, dass die Ressource nicht mit den CH Core EPD-Einschränkungen konform ist'
 
-*Validation: see [README CH Core](https://github.com/hl7ch/ch-core)*
+*Validierung: siehe [README CH Core](https://github.com/hl7ch/ch-core)*
 
 
 ### Copyright
-This artefact includes content from SNOMED Clinical Terms&reg; (SNOMED CT&reg;) which is copyright of the 
-International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must 
-have the appropriate SNOMED CT Affiliate license - for more information contact 
-<http://www.snomed.org/snomed-ct/get-snomed> or <info@snomed.org>.
+Dieses Artefakt enthält Inhalte aus SNOMED Clinical Terms&reg; (SNOMED CT&reg;), die dem Urheberrecht der 
+International Health Terminology Standards Development Organisation (IHTSDO) unterliegen. Implementierer dieser Artefakte müssen über die entsprechende SNOMED CT Affiliate Lizenz verfügen - für weitere Informationen wenden Sie sich bitte an 
+<http://www.snomed.org/snomed-ct/get-snomed> oder <info@snomed.org>.
 
-This artefact includes content from LOINC®. This content LOINC® is copyright © 1995 Regenstrief Institute, 
-Inc. and the LOINC Committee, and available at no cost under the license at <http://loinc.org/terms-of-use>.
+Dieses Artefakt enthält Inhalte von  LOINC®. Dieser LOINC®-Inhalt ist urheberrechtlich geschützt © 1995 Regenstrief Institute, Inc. and the LOINC Committee und  unter der Lizenz unter <http://loinc.org/terms-of-use> kostenlos verfügbar.
