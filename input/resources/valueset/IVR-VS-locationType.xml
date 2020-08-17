@@ -63,10 +63,6 @@
                <value value="Maison de retraite"/>
             </designation>
             <designation>
-               <language value="fr-CH"/>
-               <value value="EMS"/>
-            </designation>
-            <designation>
                <language value="it-CH"/>
                <value value="Casa anziani"/>
             </designation>
@@ -192,19 +188,11 @@
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Maison de retraite"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
                <value value="hospice"/>
             </designation>
             <designation>
                <language value="it-CH"/>
                <value value="Casa anziani"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Casa di cura"/>
             </designation>
          </concept>
          <concept>

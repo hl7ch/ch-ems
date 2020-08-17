@@ -7,7 +7,7 @@
 		</valuePeriod>
 	</extension>
 	<url value="urn:oid:2.16.756.5.30.1.143.5.1"/>
-	<version value="2020-08-06T17:00:00"/>
+	<version value="2020-08-17T17:00:00"/>
 	<name value="IVRCodeSystem"/>
 	<title value="IVR Code System"/>
 	<status value="draft"/>
@@ -1911,10 +1911,6 @@
 		<display value="first responder"></display>
 		<designation>
 			<language value="de-CH"></language>
-			<value value="ausgebildeter Ersthelfer"></value>
-		</designation>
-		<designation>
-			<language value="de-CH"></language>
 			<value value="First responder"></value>
 		</designation>
 		<designation>
@@ -2568,7 +2564,7 @@
 	</concept>
 	<concept>
 		<code value="VII"></code>
-		<display value="death"></display>
+		<display value="Tod"></display>
 		<designation>
 			<language value="de-CH"></language>
 			<value value="Tod"></value>

@@ -42,10 +42,6 @@
                <value value="Fieberkrampf"/>
             </designation>
             <designation>
-               <language value="de-CH"/>
-               <value value="Fieberkrämpfe"/>
-            </designation>
-            <designation>
                <language value="it-CH"/>
                <value value="Convulsioni febbrili"/>
             </designation>
@@ -57,10 +53,6 @@
          <concept>
             <code value="F44.5"/>
             <display value="Dissociative convulsions"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Krampfanfall"/>
-            </designation>
             <designation>
                <language value="de-CH"/>
                <value value="Dissoziative Krampfanfälle"/>
@@ -82,10 +74,6 @@
                <value value="Zerebrale transitorische Ischämie, nicht näher bezeichnet"/>
             </designation>
             <designation>
-               <language value="de-CH"/>
-               <value value="TIA / Schlaganfall"/>
-            </designation>
-            <designation>
                <language value="it-CH"/>
                <value value="Attacchi cerebrovascolari ischemici transitori non specificati"/>
             </designation>
@@ -100,10 +88,6 @@
             <designation>
                <language value="de-CH"/>
                <value value="Akuter transmuraler Myokardinfarkt der Vorderwand"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
-               <value value="ACS/STEMI VW"/>
             </designation>
             <designation>
                <language value="fr-CH"/>

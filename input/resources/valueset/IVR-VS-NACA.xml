@@ -41,6 +41,14 @@
                <language value="de-CH"/>
                <value value="keine Verletzung oder Erkrankung"/>
             </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="aucune blessure ou maladie"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="nessuna lesione o malattia"/>
+            </designation>
          </concept>
          <concept>
             <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
@@ -152,7 +160,7 @@
          </concept>
          <concept>
             <code value="VII"/>
-            <display value="death"/>
+            <display value="Tod"/>
             <designation>
                <language value="de-CH"/>
                <value value="Tod"/>

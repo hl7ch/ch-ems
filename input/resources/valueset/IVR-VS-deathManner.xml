@@ -59,14 +59,6 @@
                <value value="aussergewöhnlicher Todesfall"/>
             </designation>
             <designation>
-               <language value="de-CH"/>
-               <value value="Nicht-natürlicher Todesfall"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
-               <value value="AGT"/>
-            </designation>
-            <designation>
                <language value="fr-CH"/>
                <value value="mort non naturelle"/>
             </designation>

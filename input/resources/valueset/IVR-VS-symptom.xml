@@ -155,10 +155,6 @@
                <value value="Tachykardie"/>
             </designation>
             <designation>
-               <language value="de-CH"/>
-               <value value="Herzrasen"/>
-            </designation>
-            <designation>
                <language value="fr-CH"/>
                <value value="Tachycardie"/>
             </designation>
@@ -221,10 +217,6 @@
             <designation>
                <language value="de-CH"/>
                <value value="Palpitation"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Herzklopfen"/>
             </designation>
             <designation>
                <language value="fr-CH"/>

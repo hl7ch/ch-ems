@@ -40,10 +40,6 @@
             <display value="No pathologic finding"/>
             <designation>
                <language value="de-CH"/>
-               <value value="kein pathologischer Befund"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
                <value value="Atemwege frei"/>
             </designation>
             <designation>

@@ -43,10 +43,6 @@
                <value value="invasiv"/>
             </designation>
             <designation>
-               <language value="de-CH"/>
-               <value value="IBP"/>
-            </designation>
-            <designation>
                <language value="fr-CH"/>
                <value value="invasif"/>
             </designation>
@@ -61,10 +57,6 @@
             <designation>
                <language value="de-CH"/>
                <value value="nicht invasiv"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
-               <value value="NIBP"/>
             </designation>
             <designation>
                <language value="fr-CH"/>

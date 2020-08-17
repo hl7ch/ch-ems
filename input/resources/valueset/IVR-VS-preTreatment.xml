@@ -75,10 +75,6 @@
             <display value="first responder"/>
             <designation>
                <language value="de-CH"/>
-               <value value="ausgebildeter Ersthelfer"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
                <value value="First responder"/>
             </designation>
             <designation>

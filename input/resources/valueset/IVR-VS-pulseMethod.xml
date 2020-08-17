@@ -40,10 +40,6 @@
             <display value="Palpation"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Tastuntersuchung"/>
-            </designation>
-            <designation>
-               <language value="de-CH"/>
                <value value="Palpation"/>
             </designation>
             <designation>

@@ -55,10 +55,6 @@
                <value value="Einsatzambulanz"/>
             </designation>
             <designation>
-               <language value="de-CH"/>
-               <value value="Ambulanz"/>
-            </designation>
-            <designation>
                <language value="fr-CH"/>
                <value value="Ambulance"/>
             </designation>
