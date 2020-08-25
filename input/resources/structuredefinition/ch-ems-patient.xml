@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-ems-patient"/>
     <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient"/>
-    <version value="0.1.0"/>
+    <version value="1.9.0"/>
     <name value="CHEmsPatient"/>
     <title value="CH EMS Patient Profile"/>
     <status value="draft"/>

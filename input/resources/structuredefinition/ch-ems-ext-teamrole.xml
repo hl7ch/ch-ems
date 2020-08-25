@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-ems-ext-teamrole"/>
     <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-teamrole"/>
-    <version value="0.1.0"/>
+    <version value="1.9.0"/>
     <name value="CHEmsExtTeamRole"/>
     <title value="CH EMS Extension Team Role"/>
     <status value="draft"/>

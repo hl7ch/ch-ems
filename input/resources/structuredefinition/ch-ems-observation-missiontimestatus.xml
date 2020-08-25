@@ -3,7 +3,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="ch-ems-observation-missiontimestatus"/>
     <url value="http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"/>
-    <version value="0.1.0"/>
+    <version value="1.9.0"/>
     <name value="CHEmsObservationMissionTimeStatus"/>
     <title value="CH EMS Observation Profile Mission Time Status"/>
     <status value="draft"/>
