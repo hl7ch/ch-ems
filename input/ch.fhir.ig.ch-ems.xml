@@ -10,7 +10,7 @@
   <url value="http://fhir.ch/ig/ch-ems/ImplementationGuide/ch.fhir.ig.ch-ems"/>
   <version value="1.9.0"/>
   <name value="CH_EMS"/>
-  <title value="CH EMS"/>
+  <title value="CH EMS (R4)"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2020-08-25"/>
