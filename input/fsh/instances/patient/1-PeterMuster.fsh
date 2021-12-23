@@ -47,12 +47,7 @@ Usage: #example
 * address.country.extension.valueCoding = urn:iso:std:iso:3166#CH
 
 // participant.associatedEntity
-* contact[contact].extension[$ch-ems-ext-personrole][+].valueCodeableConcept[+].coding = $sct#74964007 "Other"
-* contact[contact].extension[$ch-ems-ext-personrole][=].valueCodeableConcept[=].text = "Ehefrau"
-* contact[contact].name.family = "Muster"
-* contact[contact].name.given = "Erika"
-// TBD (MZ 21.12.2021): remove slice contact and contact.address
-// https://chat.fhir.org/#narrow/stream/215610-shorthand/topic/error.20The.20element.20or.20path.20you.20referenced.20does.20not.20exist
-* contact[contact].address.city = "Workaround"
-* contact[contact].address.postalCode = "8000"
-* contact[contact].address.country = "Switzerland"
+* contact.extension[$ch-ems-ext-personrole][+].valueCodeableConcept[+].coding = $sct#74964007 "Other"
+* contact.extension[$ch-ems-ext-personrole][=].valueCodeableConcept[=].text = "Ehefrau"
+* contact.name.family = "Muster"
+* contact.name.given = "Erika"
