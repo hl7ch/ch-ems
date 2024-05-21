@@ -51,5 +51,5 @@ pages:
     title: Extensions
   terminology.html:
     title: Terminology
-  changelog.html:
+  changelog.md:
     title: Changelog
