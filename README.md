@@ -1,4 +1,4 @@
-# CH EMS Implementation Guide (R4) 
+# CH EMS Implementation Guide (R4)
 FHIR Implementation Guide for the Emergency Medical Service protocol in Switzerland
 
 
