@@ -3,14 +3,6 @@ Parent: CHCoreEncounter
 Id: ch-ems-encounter
 Title: "CH EMS Encounter Profile"
 Description: "Definition of the encounter"
-* ^version = "1.9.0"
-* ^status = #draft
-* ^date = "2020-02-05T00:00:00+00:00"
-* ^publisher = "IVR Interverband für Rettungswesen"
-* ^contact.name = "IVR Interverband für Rettungswesen"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://www.ivr-ias.ch/"
-* ^jurisdiction = urn:iso:std:iso:3166#CH
 * . ^short = "CH EMS Encounter"
 * identifier 1..1
 * identifier ^short = "Misson number"
@@ -28,9 +20,6 @@ Description: "Definition of the encounter"
 * basedOn ^short = "Informant organisation (IMC)"
 * basedOn.reference 1..
 * participant ^short = "Team"
-* participant.extension ^slicing.discriminator.type = #value
-* participant.extension ^slicing.discriminator.path = "url"
-* participant.extension ^slicing.rules = #open
 * participant.extension contains CHEmsExtTeamRole named teamRole 1..1
 * participant.extension[teamRole] ^short = "Role of team member"
 * participant.individual 1..

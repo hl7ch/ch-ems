@@ -9,7 +9,7 @@ Ce flux d'informations est établi comme standard à l'association eCH sous le n
 
 
 ### Contexte spécifique à la Suisse
-Le guide de mise en œuvre du CH EMS décrit la représentation FHIR du [**protocole défini pour les services de secours**](document.html). Ce guide de mise en œuvre dépend de [CH Core](http://fhir.ch/ig/ch-core/index.html) et [CH EPR Term](http://fhir.ch/ig/ch-epr-term/index.html), qui décrivent le contexte spécifique de la Suisse, notamment en ce qui concerne le dossier électronique du patient suisse (DEP).
+Le guide de mise en œuvre du CH EMS décrit la représentation FHIR du [**protocole défini pour les services de secours**](document.html). Ce guide de mise en œuvre dépend de [CH Core](http://fhir.ch/ig/ch-core/index.html) et [CH Term](http://fhir.ch/ig/ch-term/index.html), qui décrivent le contexte spécifique de la Suisse, notamment en ce qui concerne le dossier électronique du patient suisse (DEP).
 
 #### Contexte suisse
 Les [profils CH EMS](profiles.html) sont basés sur les profils de base CH Core. Les exemples des protocoles EMS ([Einsatzprotokolle 1, 1b, 2, 2b](StructureDefinition-ch-ems-document-examples.html)) sont donc valables dans le contexte suisse. Afin de vérifier leur exactitude, les documents peuvent être validés par rapport au [profil de document CH EMS](StructureDefinition-ch-ems-document.html). (Cela permet également de remplir et de vérifier les exigences du [profil de document de base de CH Core](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document.html)).

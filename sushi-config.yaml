@@ -16,16 +16,21 @@ releaseLabel: CI Build
 publisher:
   name: IVR Interverband für Rettungswesen
 contact:
-  name: IVR Interverband für Rettungswesen
-  telecom:
-    system: url
-    value: https://www.ivr-ias.ch/
+  - name: IVR Interverband für Rettungswesen
+    telecom:
+      - system: url
+        value: https://www.ivr-ias.ch/
 
 dependencies:
-  ch.fhir.ig.ch-core: 1.0.0 # TBD next release -> update to new version  
+  ch.fhir.ig.ch-core: 5.0.0-ballot
 
 parameters:
-  special-url: urn:oid:2.16.756.5.30.1.143.5.1 # IVR Code System
+  special-url: 
+    - urn:oid:2.16.756.5.30.1.143.5.1 # IVR Code System
+    - urn:oid:1.2.276.0.76.5.409 # ICD-10
+  excludettl: true
+  allow-extensible-warnings: true
+  display-warnings: true    
 
 pages:
   index.md:

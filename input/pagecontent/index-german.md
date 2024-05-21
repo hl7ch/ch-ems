@@ -9,7 +9,7 @@ Dieser Informationsworkflow ist beim Verein eCH unter der Nummer eCH-0207, Versi
 
 
 ### Spezifischer Schweizer Kontext
-Der CH EMS Implementierungsleitfaden beschreibt die FHIR-Darstellung des definierten [**Protokolls für Rettungsdienste**](document.html). Dieser Implementierungsleitfaden ist abhängig von [CH Core](http://fhir.ch/ig/ch-core/index.html) und [CH EPR Term](http://fhir.ch/ig/ch-epr-term/index.html), die den schweizerischen spezifischen Kontext beschreiben, insbesondere im Zusammenhang mit dem elektronischen Patientendossier Schweiz (EPD).
+Der CH EMS Implementierungsleitfaden beschreibt die FHIR-Darstellung des definierten [**Protokolls für Rettungsdienste**](document.html). Dieser Implementierungsleitfaden ist abhängig von [CH Core](http://fhir.ch/ig/ch-core/index.html) und [CH Term](http://fhir.ch/ig/ch-term/index.html), die den schweizerischen spezifischen Kontext beschreiben, insbesondere im Zusammenhang mit dem elektronischen Patientendossier Schweiz (EPD).
 
 #### Schweizer Kontext
 Die [CH EMS Profile](profiles.html) basieren auf den CH Core Basisprofilen. Die Beispiele der EMS-Protokolle ([Einsatzprotokolle 1, 1b, 2, 2b](StructureDefinition-ch-ems-document-examples.html)) sind somit im schweizerischen Kontext gültig. Um die Korrektheit zu überprüfen, können die Dokumente gegen das [CH EMS Dokumentenprofil](StructureDefinition-ch-ems-document.html) validiert werden. (Damit werden auch die Anforderungen des [CH Core Dokumentenprofils](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document.html) erfüllt und überprüft).

@@ -20,6 +20,7 @@ Usage: #definition
 * publisher = "Interverband für Rettungswesen"
 * description = "IVR Valueset diagnosis (..143.11.20)"
 * immutable = false
+// https://hl7.org/fhir/R4/icd.html -> use http://fhir.de/CodeSystem/dimdi/icd-10-gm
 * compose.include.system = "urn:oid:1.2.276.0.76.5.409"
 * compose.include.concept[0].code = #R56.0
 * compose.include.concept[=].display = "Febrile convulsions"

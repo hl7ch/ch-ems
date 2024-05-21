@@ -3,14 +3,6 @@ Parent: Observation
 Id: ch-ems-observation-gcs
 Title: "CH EMS Observation Profile GCS"
 Description: "Definition of the observation glasgow coma scale"
-* ^version = "1.9.0"
-* ^status = #draft
-* ^date = "2020-02-24T00:00:00+00:00"
-* ^publisher = "IVR Interverband für Rettungswesen"
-* ^contact.name = "IVR Interverband für Rettungswesen"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://www.ivr-ias.ch/"
-* ^jurisdiction = urn:iso:std:iso:3166#CH
 * . ^short = "CH EMS Observation"
 * code = $loinc#9269-2 "Glasgow coma score total"
 * code ^short = "Glasgow coma score total"

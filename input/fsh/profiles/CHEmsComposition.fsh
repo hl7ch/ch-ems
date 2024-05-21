@@ -3,18 +3,10 @@ Parent: CHCoreComposition
 Id: ch-ems-composition
 Title: "CH EMS Composition Profile"
 Description: "Definition of the composition for the use of the emergency medical service protocol"
-* ^version = "1.9.0"
-* ^status = #draft
-* ^date = "2020-02-05T00:00:00+00:00"
-* ^publisher = "IVR Interverband für Rettungswesen"
-* ^contact.name = "IVR Interverband für Rettungswesen"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://www.ivr-ias.ch/"
-* ^jurisdiction = urn:iso:std:iso:3166#CH
+* . ^short = "CH EMS Composition"
 
 * obeys ch-ems-epr-composition
 
-* . ^short = "CH EMS Composition"
 * type = $loinc#67796-3 "EMS Patient Care Report"
 * type ^short = "Document type"
 * subject 1..

@@ -3,22 +3,8 @@ Parent: CHCorePractitioner
 Id: ch-ems-practitioner
 Title: "CH EMS Practitioner Profile"
 Description: "Definition of the practitioner"
-* ^version = "1.9.0"
-* ^status = #draft
-* ^date = "2020-02-05T00:00:00+00:00"
-* ^publisher = "IVR Interverband für Rettungswesen"
-* ^contact.name = "IVR Interverband für Rettungswesen"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://www.ivr-ias.ch/"
-* ^jurisdiction = urn:iso:std:iso:3166#CH
-
-* obeys ch-ems-epr-practitioner
-
 * . ^short = "CH EMS Practitioner"
-
-* identifier ^slicing.discriminator.type = #value
-* identifier ^slicing.discriminator.path = "system"
-* identifier ^slicing.rules = #open
+* obeys ch-ems-epr-practitioner
 * identifier[GLN] ^short = "GLN (Global Location Number)"
 * identifier[GLN].system = "urn:oid:2.51.1.3" (exactly)
 * identifier[GLN].system ^short = "OID of the GLN"

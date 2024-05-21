@@ -10,7 +10,7 @@ Usage: #example
 // Profile http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr, Element 'Patient.identifier[AHVN13]': max allowed = 0, but found 1
 // cdachems-dataelement-135 navs13
 * identifier[AHVN13].system = "urn:oid:2.16.756.5.32"
-* identifier[AHVN13].value = "7560123123499"
+* identifier[AHVN13].value = "7562295883070"
 // OID SRZ, here dummy
 * identifier[LocalPid].type = $v2-0203#MR
 * identifier[LocalPid].system = "urn:oid:2.16.756.5.30.1.9999999999.2"

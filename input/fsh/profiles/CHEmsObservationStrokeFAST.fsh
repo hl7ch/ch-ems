@@ -3,14 +3,6 @@ Parent: Observation
 Id: ch-ems-observation-stroke-fast
 Title: "CH EMS Observation Profile Stroke/FAST"
 Description: "Definition of the observation Stroke/FAST"
-* ^version = "1.9.0"
-* ^status = #draft
-* ^date = "2020-02-24T00:00:00+00:00"
-* ^publisher = "IVR Interverband für Rettungswesen"
-* ^contact.name = "IVR Interverband für Rettungswesen"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "https://www.ivr-ias.ch/"
-* ^jurisdiction = urn:iso:std:iso:3166#CH
 * . ^short = "CH EMS Observation"
 * code = $sct#716800008 "Face Arm Speech Test score"
 * code ^short = "Stroke / FAST"

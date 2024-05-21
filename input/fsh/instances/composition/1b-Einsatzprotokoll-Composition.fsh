@@ -4,12 +4,7 @@ Title: "1b Einsatzprotokoll"
 Description: "Example for Composition"
 Usage: #example
 * language = #de-CH
-* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid"
-* extension[=].valueIdentifier.system = "urn:ietf:rfc:3986"
-* extension[=].valueIdentifier.value = "urn:uuid:658ab5ea-1f63-11e6-b6ba-3e1d05defe78"
-* extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber"
-* extension[=].valueUnsignedInt = 2
-* extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"
 * extension[=].valueReference.reference = "Practitioner/1-InformationRecipientSpezialarzt"
 * extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"
 * extension[=].valueReference.reference = "Organization/1-InformationRecipientUSZ"
