@@ -4,14 +4,14 @@ name: CH_EMS
 title: "CH EMS (R4)"
 description: Implementation Guide for the Emergency Medical Service protocol
 status: active
-license: CC-BY-SA-4.0
-copyright: CC-BY-SA-4.0
+license: CC0-1.0
+copyright: CC0-1.0
 jurisdiction: urn:iso:std:iso:3166#CH
 date: 2021-12-21
 version: 1.9.0
 fhirVersion: 4.0.1
 copyrightYear: 2020+
-releaseLabel: CI Build
+releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 
 publisher:
   name: IVR Interverband für Rettungswesen
