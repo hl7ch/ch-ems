@@ -16,5 +16,5 @@ Description: "Extension to define the performer of the pretreatment"
 * url only uri
 * valueCodeableConcept 1..1
 * valueCodeableConcept only CodeableConcept
-* valueCodeableConcept from IVR-VS-preTreatment (extensible)
+* valueCodeableConcept from $IVR-VS-preTreatment (extensible)
 * valueCodeableConcept ^short = "Value of extension"

@@ -4,7 +4,7 @@ Id: ch-ems-observation-diagnosis
 Title: "CH EMS Observation Profile Diagnosis"
 Description: "Definition of the observation diagnosis"
 * . ^short = "CH EMS Observation"
-* code from IVR-VS-diagType (extensible)
+* code from $IVR-VS-diagType (extensible)
 * code ^short = "Diagnosis type"
 * subject 1..
 * subject only Reference(CHEmsPatient)
