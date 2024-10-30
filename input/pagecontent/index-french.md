@@ -32,11 +32,21 @@ Pour faciliter le contrôle de compatibilité avec les profils DEP de CH Core, u
 
 *Validation: voir [README CH Core](https://github.com/hl7ch/ch-core)*
 
+### Analyse & Dépendances
+La documentation suivante décrit les conditions de licence et d'utilisation de différents contenus ([IP Statements](#ip-statements)) utilisés dans ce IG. L'analyse de la compatibilité des versions ([Cross Version Analysis](#cross-version-analysis)) montre la compatibilité de ce IG avec FHIR R4 et R4B. De plus, les dépendances et les paquets ([Dependency Table](#dependency-table)) ainsi qu'une déclaration sur les profils globaux ([Globals Table](#globals-table)) sont listés. Ces sections sont générées automatiquement par l'outillage (en anglais).
 
-### Copyright
-Cet artefact contient du contenu provenant de la SNOMED Clinical Terms&reg; (SNOMED CT&reg;) qui est soumis au droit d'auteur de l' 
-International Health Terminology Standards Development Organisation (IHTSDO). Les personnes qui mettent en œuvre ces artefacts doivent posséder la licence d'affilié SNOMED CT appropriée - pour de plus amples informations, veuillez contacter 
-<http://www.snomed.org/snomed-ct/get-snomed> ou <info@snomed.org>.
+#### IP Statements
 
-Cet artefact comprend du contenu provenant de LOINC®. Ce contenu LOINC® est protégé par un copyright © 1995 Regenstrief Institute, 
-Inc. and the LOINC Committee, et disponible gratuitement sous licence à l'adresse <http://loinc.org/terms-of-use>.
+{% include ip-statements.xhtml %}
+
+#### Cross Version Analysis
+
+{% include cross-version-analysis.xhtml %}
+
+#### Dependency Table
+
+{% include dependency-table.xhtml %}
+
+#### Globals Table
+
+{% include globals-table.xhtml %}
