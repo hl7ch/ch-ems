@@ -22,7 +22,7 @@ contact:
         value: https://www.ivr-ias.ch/
 
 dependencies:
-  ch.fhir.ig.ch-core: 5.0.0-ballot
+  ch.fhir.ig.ch-core: current # 5.0.0
 
 parameters:
   special-url: 
