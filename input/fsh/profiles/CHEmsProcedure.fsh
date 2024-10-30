@@ -6,7 +6,7 @@ Description: "Definition of the procedure"
 * . ^short = "CH EMS Procedure"
 * extension contains CHEmsExtPerformer named performer 0..1
 * extension[performer] ^short = "Performer of the procedure"
-* code from $IVR-VS-preTreatType (extensible)
+* code from IVR-VS-preTreatType (extensible)
 * code ^short = "Identification of the procedure"
 * subject only Reference(CHEmsPatient)
 * subject ^short = "Patient"

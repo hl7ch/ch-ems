@@ -16,5 +16,5 @@ Description: "Extension to define the role of the involved participant"
 * url only uri
 * valueCodeableConcept 1..1
 * valueCodeableConcept only CodeableConcept
-* valueCodeableConcept from $IVR-VS-personRole (extensible)
+* valueCodeableConcept from IVR-VS-personRole (extensible)
 * valueCodeableConcept ^short = "Value of extension"

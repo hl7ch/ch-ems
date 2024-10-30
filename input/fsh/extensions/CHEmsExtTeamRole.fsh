@@ -16,5 +16,5 @@ Description: "Extension to define the role of the team member"
 * url only uri
 * valueCodeableConcept 1..1
 * valueCodeableConcept only CodeableConcept
-* valueCodeableConcept from $IVR-VS-teamRole (extensible)
+* valueCodeableConcept from IVR-VS-teamRole (extensible)
 * valueCodeableConcept ^short = "Value of extension"

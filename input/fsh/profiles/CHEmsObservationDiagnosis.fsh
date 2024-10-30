@@ -4,7 +4,7 @@ Id: ch-ems-observation-diagnosis
 Title: "CH EMS Observation Profile Diagnosis"
 Description: "Definition of the observation diagnosis"
 * . ^short = "CH EMS Observation"
-* code from $IVR-VS-diagType (extensible)
+* code from IVR-VS-diagType (extensible)
 * code ^short = "Diagnosis type"
 * subject 1..
 * subject only Reference(CHEmsPatient)
@@ -17,4 +17,4 @@ Description: "Definition of the observation diagnosis"
 * performer only Reference(CHEmsPractitioner)
 * performer ^short = "Author diagnosis"
 * performer.reference 1..
-* valueCodeableConcept from $icd-10 (extensible)
+* valueCodeableConcept from http://hl7.org/fhir/ValueSet/icd-10 (extensible)

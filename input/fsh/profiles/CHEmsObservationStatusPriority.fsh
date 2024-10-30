@@ -13,4 +13,4 @@ Description: "Definition of the observation status priority"
 * encounter only Reference(CHEmsEncounter)
 * encounter ^short = "Emergency service during which this observation is made"
 * encounter.reference 1..
-* valueCodeableConcept from $IVR-VS-hospitalPriority (extensible)
+* valueCodeableConcept from IVR-VS-hospitalPriority (extensible)
