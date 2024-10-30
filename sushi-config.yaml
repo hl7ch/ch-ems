@@ -44,11 +44,11 @@ pages:
     title: Cas d’application  
   document.md:
     title: Emergency Medical Service protocol 
-  profiles.html:
+  profiles.md:
     title: Profiles
-  extensions.html:
+  extensions.md:
     title: Extensions
-  terminology.html:
+  terminology.md:
     title: Terminology
   changelog.md:
     title: Changelog
