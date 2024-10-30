@@ -3,6 +3,12 @@ Le présent guide de mise en œuvre de la FHIR définit un flux d'information st
 Le projet est sous le patronage de l'"Interverband für Rettungswesen".    
 Ce flux d'informations est établi comme standard à l'association eCH sous le numéro eCH-0207, Version 2, et à eHealth Suisse sous le nom CH-EMS (format officiel d'échange de données selon la législation suisse).
 
+<div markdown="1" class="stu-note">
+
+[Changements significatifs, points ouverts et fermés.](changelog.html)
+
+</div>
+
 **Télécharger**: Vous pouvez télécharger ce guide de mise en œuvre au format npm à partir d'[ici](package.tgz).
 
 **Identification**: OID: 2.16.756.5.30.1.143.1.1    

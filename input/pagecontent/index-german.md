@@ -3,6 +3,12 @@ Dieser FHIR-Implementierungsleitfaden definiert einen standardisierten Informati
 Das Projekt steht unter der Patronat des "Interverbandes für Rettungswesen".    
 Dieser Informationsworkflow ist beim Verein eCH unter der Nummer eCH-0207, Version 2, und bei eHealth Suisse unter dem Namen CH-EMS (offizielles Datenaustauschformat gemäss Schweizer Gesetzgebung) als Standard etabliert.
 
+<div markdown="1" class="stu-note">
+
+[Wesentliche Änderungen, offene und geschlossene Punkte.](changelog.html)
+
+</div>
+
 **Herunterladen**: Sie können diesen Implementierungsleitfaden im npm-Format von [hier](package.tgz) herunterladen.
 
 **Identifizierung**: OID: 2.16.756.5.30.1.143.1.1    

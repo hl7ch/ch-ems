@@ -3,6 +3,12 @@ This FHIR implementation guide defines a standardised information workflow appli
 The project is under the leadership of the "Interverband für Rettungswesen".    
 This information workflow is established as standard at the association eCH under the number eCH-0207, Version 2, and at eHealth Suisse under the name CH-EMS (official data exchange format according to Swiss legislation).
 
+<div markdown="1" class="stu-note">
+
+[Significant changes, open and closed issues.](changelog.html)
+
+</div>
+
 **Download**: You can download this implementation guide in npm format from [here](package.tgz).
 
 **Identification**: OID: 2.16.756.5.30.1.143.1.1    
