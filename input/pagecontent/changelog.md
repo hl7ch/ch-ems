@@ -12,9 +12,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Change the value for AHVN13 in example 1-PeterMuster, because CH Core integrated a check on it
    * Update license and copyright like other Swiss IGs (see [here](https://github.com/hl7ch/ch-core/issues/226)) from `CC-BY-SA-4.0` to `CC0-1.0`
    * Include automatic generated sections IP Statements, Cross Version Analysis, Dependency Table, Globals Table on Home
-
-
-
+   * Use new introduced CH Core ServiceRequest as parent profile for CH EMS ServiceRequest
 
 #### Fixed
 

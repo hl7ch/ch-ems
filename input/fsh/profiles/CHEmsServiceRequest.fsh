@@ -1,5 +1,5 @@
 Profile: CHEmsServiceRequest
-Parent: ServiceRequest
+Parent: CHCoreServiceRequest
 Id: ch-ems-servicerequest
 Title: "CH EMS Service Request Profile"
 Description: "Definition of the service request"
