@@ -3,6 +3,12 @@ Dieser FHIR-Implementierungsleitfaden definiert einen standardisierten Informati
 Das Projekt steht unter der Patronat des "Interverbandes für Rettungswesen".    
 Dieser Informationsworkflow ist beim Verein eCH unter der Nummer eCH-0207, Version 2, und bei eHealth Suisse unter dem Namen CH-EMS (offizielles Datenaustauschformat gemäss Schweizer Gesetzgebung) als Standard etabliert.
 
+<div markdown="1" class="stu-note">
+
+[Wesentliche Änderungen, offene und geschlossene Punkte.](changelog.html)
+
+</div>
+
 **Herunterladen**: Sie können diesen Implementierungsleitfaden im npm-Format von [hier](package.tgz) herunterladen.
 
 **Identifizierung**: OID: 2.16.756.5.30.1.143.1.1    
@@ -26,10 +32,21 @@ Um die Kompatibilitätsprüfung gegen die CH Core EPD-Profile zu unterstützen, 
 
 *Validierung: siehe [README CH Core](https://github.com/hl7ch/ch-core)*
 
+### Analyse & Abhängigkeiten
+Die nachfolgende Dokumentation beschreibt die Lizenz- und Nutzungsbedingungen für verschiedene Inhalte ([IP Statements](#ip-statements)), die in diesem IG genutzt werden. Die Analyse zur Versionskompatibilität ([Cross Version Analysis](#cross-version-analysis)) zeigt die Kompatibilität dieses IGs zu FHIR R4 und R4B auf. Zudem werden Abhängigkeiten und Pakete ([Dependency Table](#dependency-table)) sowie eine Aussage über globale Profile ([Globals Table](#globals-table)) aufgeführt. Diese Abschnitte werden automatisch durch das Tooling (in Englisch) generiert.
 
-### Copyright
-Dieses Artefakt enthält Inhalte aus SNOMED Clinical Terms&reg; (SNOMED CT&reg;), die dem Urheberrecht der 
-International Health Terminology Standards Development Organisation (IHTSDO) unterliegen. Implementierer dieser Artefakte müssen über die entsprechende SNOMED CT Affiliate Lizenz verfügen - für weitere Informationen wenden Sie sich bitte an 
-<http://www.snomed.org/snomed-ct/get-snomed> oder <info@snomed.org>.
+#### IP Statements
 
-Dieses Artefakt enthält Inhalte von  LOINC®. Dieser LOINC®-Inhalt ist urheberrechtlich geschützt © 1995 Regenstrief Institute, Inc. and the LOINC Committee und  unter der Lizenz unter <http://loinc.org/terms-of-use> kostenlos verfügbar.
+{% include ip-statements.xhtml %}
+
+#### Cross Version Analysis
+
+{% include cross-version-analysis.xhtml %}
+
+#### Dependency Table
+
+{% include dependency-table.xhtml %}
+
+#### Globals Table
+
+{% include globals-table.xhtml %}

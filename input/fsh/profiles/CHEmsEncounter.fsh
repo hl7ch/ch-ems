@@ -10,7 +10,7 @@ Description: "Definition of the encounter"
 * identifier.system ^short = "OID of organization (IMC)"
 * identifier.value 1..
 * identifier.value ^short = "Mission number IMC"
-* class from $v3-ActEncounterCode (extensible)
+* class from http://terminology.hl7.org/ValueSet/v3-ActEncounterCode (extensible)
 * class ^definition = "See mapping from BFS Medizinsiche Statistik [BFS Encounter Class to FHIR mapping](https://build.fhir.org/ig/hl7ch/ch-core//ConceptMap-bfs-encounter-class-to-fhir.html)"
 * subject only Reference(CHEmsPatient)
 * subject ^short = "Patient"

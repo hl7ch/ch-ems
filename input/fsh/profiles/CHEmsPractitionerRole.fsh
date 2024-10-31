@@ -14,5 +14,5 @@ Description: "Definition of the practitioner role"
 * code 1..
 * code from $IVR-VS-teamRole (extensible)
 * code ^short = "Roles which this practitioner may perform"
-* specialty from $HCProfessional.hcSpecialisation (extensible)
+* specialty from http://fhir.ch/ig/ch-term/ValueSet/HCProfessional.hcSpecialisation (extensible)
 * specialty ^short = "Specific specialty of the practitioner"
