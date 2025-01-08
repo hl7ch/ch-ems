@@ -1,7 +1,7 @@
 Profile: CHEmsPractitionerRole
 Parent: CHCorePractitionerRole
 Id: ch-ems-practitionerrole
-Title: "CH EMS Practitioner Role Profile"
+Title: "CH EMS Practitioner Role"
 Description: "Definition of the practitioner role"
 * . ^short = "CH EMS Practitioner Role"
 * practitioner 1..

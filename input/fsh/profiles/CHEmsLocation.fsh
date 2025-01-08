@@ -1,7 +1,7 @@
 Profile: CHEmsLocation
 Parent: CHCoreLocation
 Id: ch-ems-location
-Title: "CH EMS Location Profile"
+Title: "CH EMS Location"
 Description: "Definition of the location"
 * . ^short = "CH EMS Location"
 * identifier ..1

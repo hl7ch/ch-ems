@@ -1,7 +1,7 @@
 Profile: CHEmsObservationNACA
 Parent: Observation
 Id: ch-ems-observation-naca
-Title: "CH EMS Observation Profile NACA"
+Title: "CH EMS Observation NACA"
 Description: "Definition of the observation injury severity (NACA)"
 * . ^short = "CH EMS Observation"
 * code = $loinc#88076-5 // "Injury severity score NACA"

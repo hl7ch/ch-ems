@@ -1,7 +1,7 @@
 Profile: CHEmsObservationAnamnesisSymptom
 Parent: Observation
 Id: ch-ems-observation-anamnesissymptom
-Title: "CH EMS Observation Profile Anamnesis Symptom"
+Title: "CH EMS Observation Anamnesis Symptom"
 Description: "Definition of the observation anamnesis symptom"
 * . ^short = "CH EMS Observation"
 * code = $sct#404684003 // "Clinical finding (finding)"

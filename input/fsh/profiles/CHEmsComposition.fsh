@@ -1,7 +1,7 @@
 Profile: CHEmsComposition
 Parent: CHCoreComposition
 Id: ch-ems-composition
-Title: "CH EMS Composition Profile"
+Title: "CH EMS Composition"
 Description: "Definition of the composition for the use of the emergency medical service protocol"
 * . ^short = "CH EMS Composition"
 

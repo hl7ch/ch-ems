@@ -1,7 +1,7 @@
 Profile: CHEmsPractitioner
 Parent: CHCorePractitioner
 Id: ch-ems-practitioner
-Title: "CH EMS Practitioner Profile"
+Title: "CH EMS Practitioner"
 Description: "Definition of the practitioner"
 * . ^short = "CH EMS Practitioner"
 * obeys ch-ems-epr-practitioner

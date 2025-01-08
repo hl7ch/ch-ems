@@ -1,7 +1,7 @@
 Profile: CHEmsProcedure
 Parent: Procedure
 Id: ch-ems-procedure
-Title: "CH EMS Procedure Profile"
+Title: "CH EMS Procedure"
 Description: "Definition of the procedure"
 * . ^short = "CH EMS Procedure"
 * extension contains CHEmsExtPerformer named performer 0..1

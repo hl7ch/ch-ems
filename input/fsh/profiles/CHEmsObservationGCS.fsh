@@ -1,7 +1,7 @@
 Profile: CHEmsObservationGCS
 Parent: Observation
 Id: ch-ems-observation-gcs
-Title: "CH EMS Observation Profile GCS"
+Title: "CH EMS Observation GCS"
 Description: "Definition of the observation glasgow coma scale"
 * . ^short = "CH EMS Observation"
 * code = $loinc#9269-2 // "Glasgow coma score total"

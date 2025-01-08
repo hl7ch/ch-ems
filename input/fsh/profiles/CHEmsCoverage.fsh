@@ -1,7 +1,7 @@
 Profile: CHEmsCoverage
 Parent: CHCoreCoverage
 Id: ch-ems-coverage
-Title: "CH EMS Coverage Profile"
+Title: "CH EMS Coverage"
 Description: "Definition of the coverage"
 * . ^short = "CH EMS Coverage"
 * contained ^short = "Inline Resources for payor"

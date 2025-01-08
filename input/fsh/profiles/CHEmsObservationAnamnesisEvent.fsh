@@ -1,7 +1,7 @@
 Profile: CHEmsObservationAnamnesisEvent
 Parent: Observation
 Id: ch-ems-observation-anamnesisevent
-Title: "CH EMS Observation Profile Anamnesis Event"
+Title: "CH EMS Observation Anamnesis Event"
 Description: "Definition of the observation anamnesis event"
 * . ^short = "CH EMS Observation"
 * code = $sct#272379006 // "Event"

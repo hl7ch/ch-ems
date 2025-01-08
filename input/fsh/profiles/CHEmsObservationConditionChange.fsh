@@ -1,7 +1,7 @@
 Profile: CHEmsObservationConditionChange
 Parent: Observation
 Id: ch-ems-observation-conditionchange
-Title: "CH EMS Observation Profile Condition Change"
+Title: "CH EMS Observation Condition Change"
 Description: "Definition of the observation condition change"
 * . ^short = "CH EMS Observation"
 * code = $loinc#75527-2 // "Vital status at discharge"

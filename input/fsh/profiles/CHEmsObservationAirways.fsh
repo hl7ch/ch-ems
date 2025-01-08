@@ -1,7 +1,7 @@
 Profile: CHEmsObservationAirways
 Parent: Observation
 Id: ch-ems-observation-airways
-Title: "CH EMS Observation Profile Airways"
+Title: "CH EMS Observation Airways"
 Description: "Definition of the observation airways"
 * . ^short = "CH EMS Observation"
 * code = $sct#301252002 // "Finding of respiratory obstruction"

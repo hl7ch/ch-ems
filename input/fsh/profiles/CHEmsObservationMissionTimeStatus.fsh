@@ -1,7 +1,7 @@
 Profile: CHEmsObservationMissionTimeStatus
 Parent: Observation
 Id: ch-ems-observation-missiontimestatus
-Title: "CH EMS Observation Profile Mission Time Status"
+Title: "CH EMS Observation Mission Time Status"
 Description: "Definition of the observation mission time status"
 * . ^short = "CH EMS Observation"
 * code from $IVR-VS-missionTimeRole (extensible)

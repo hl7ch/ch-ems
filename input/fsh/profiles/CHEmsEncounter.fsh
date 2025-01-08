@@ -1,7 +1,7 @@
 Profile: CHEmsEncounter
 Parent: CHCoreEncounter
 Id: ch-ems-encounter
-Title: "CH EMS Encounter Profile"
+Title: "CH EMS Encounter"
 Description: "Definition of the encounter"
 * . ^short = "CH EMS Encounter"
 * identifier 1..1

@@ -1,7 +1,7 @@
 Profile: CHEmsPatient
 Parent: CHCorePatient
 Id: ch-ems-patient
-Title: "CH EMS Patient Profile"
+Title: "CH EMS Patient"
 Description: "Definition of the patient"
 
 * obeys ch-ems-epr-patient

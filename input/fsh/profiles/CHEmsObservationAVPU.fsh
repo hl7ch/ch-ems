@@ -1,7 +1,7 @@
 Profile: CHEmsObservationAVPU
 Parent: Observation
 Id: ch-ems-observation-avpu
-Title: "CH EMS Observation Profile AVPU"
+Title: "CH EMS Observation AVPU"
 Description: "Definition of the observation level of responsiveness (AVPU)"
 * . ^short = "CH EMS Observation"
 * code = $loinc#11454-6 // "Level of Responsiveness (AVPU)"

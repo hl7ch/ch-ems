@@ -1,7 +1,7 @@
 Profile: CHEmsObservationStrokeFAST
 Parent: Observation
 Id: ch-ems-observation-stroke-fast
-Title: "CH EMS Observation Profile Stroke/FAST"
+Title: "CH EMS Observation Stroke/FAST"
 Description: "Definition of the observation Stroke/FAST"
 * . ^short = "CH EMS Observation"
 * code = $sct#716800008 // "Face Arm Speech Test score"
