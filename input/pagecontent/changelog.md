@@ -6,7 +6,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * Introduction the [IVR Valueset diagnosis (.143.11.20)](ValueSet-IVR-VS-diagnosis.html)
 
 #### Changed / Updated
-* Updates according the current published version of CH Core (see [changelog](https://fhir.ch/ig/ch-core/changelog.html))
+* Updates according the current published version 5.0.0 of CH Core (see also [changelog](https://fhir.ch/ig/ch-core/changelog.html))
    * Change the links to the Swiss terminology implementation guide because of its renaming from CH EPR Term to CH Term
    * Remove outdated (CDA) extensions: http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid, http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber
    * Change the value for AHVN13 in example 1-PeterMuster, because CH Core integrated a check on it
