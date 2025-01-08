@@ -1,6 +1,6 @@
 All significant changes to this FHIR implementation guide will be documented on this page.  
 
-### Next version
+### v2.1.0 (2025)
 
 #### Added
 * Introduction the [IVR Valueset diagnosis (.143.11.20)](ValueSet-IVR-VS-diagnosis.html)
