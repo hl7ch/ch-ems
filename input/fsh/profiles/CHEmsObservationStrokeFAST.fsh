@@ -4,7 +4,7 @@ Id: ch-ems-observation-stroke-fast
 Title: "CH EMS Observation Profile Stroke/FAST"
 Description: "Definition of the observation Stroke/FAST"
 * . ^short = "CH EMS Observation"
-* code = $sct#716800008 "Face Arm Speech Test score"
+* code = $sct#716800008 // "Face Arm Speech Test score"
 * code ^short = "Stroke / FAST"
 * subject 1..
 * subject only Reference(CHEmsPatient)
@@ -31,7 +31,7 @@ Description: "Definition of the observation Stroke/FAST"
 * component[face].extension 0..1
 * component[face].extension only CHEmsExtLaterality
 * component[face].extension ^short = "Affected side of the face"
-* component[face].code = $sct#89545001 "Face structure (body structure)"
+* component[face].code = $sct#89545001 // "Face structure (body structure)"
 * component[face].valueCodeableConcept 1..
 * component[face].valueCodeableConcept only CodeableConcept
 * component[face].valueCodeableConcept from YesNoUnknown (extensible)
@@ -40,13 +40,13 @@ Description: "Definition of the observation Stroke/FAST"
 * component[arm].extension 0..1
 * component[arm].extension only CHEmsExtLaterality
 * component[arm].extension ^short = "Affected arm"
-* component[arm].code = $sct#53120007 "Upper limb structure (body structure)"
+* component[arm].code = $sct#53120007 // "Upper limb structure (body structure)"
 * component[arm].valueCodeableConcept 1..
 * component[arm].valueCodeableConcept only CodeableConcept
 * component[arm].valueCodeableConcept from YesNoUnknown (extensible)
 * component[arm].valueCodeableConcept ^short = "Arm weakness"
 * component[speech] ^short = "S: Speech"
-* component[speech].code = $sct#87335007 "Speaking (observable entity)"
+* component[speech].code = $sct#87335007 // "Speaking (observable entity)"
 * component[speech].valueCodeableConcept 1..
 * component[speech].valueCodeableConcept only CodeableConcept
 * component[speech].valueCodeableConcept from YesNoUnknown (extensible)

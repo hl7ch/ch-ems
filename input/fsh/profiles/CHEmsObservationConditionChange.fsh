@@ -4,7 +4,7 @@ Id: ch-ems-observation-conditionchange
 Title: "CH EMS Observation Profile Condition Change"
 Description: "Definition of the observation condition change"
 * . ^short = "CH EMS Observation"
-* code = $loinc#75527-2 "Vital status at discharge"
+* code = $loinc#75527-2 // "Vital status at discharge"
 * code ^short = "Patient Condition Change"
 * subject 1..
 * subject only Reference(CHEmsPatient)

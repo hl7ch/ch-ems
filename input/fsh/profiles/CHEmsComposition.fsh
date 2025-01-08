@@ -7,8 +7,8 @@ Description: "Definition of the composition for the use of the emergency medical
 
 * obeys ch-ems-epr-composition
 
-* type = $loinc#67796-3 "EMS Patient Care Report"
-* type ^short = "Document type"
+* type = $loinc#67796-3
+* type ^short = "Document type: 'EMS Patient Care Report'"
 * subject 1..
 * subject only Reference(CHEmsPatient)
 * subject ^short = "A human patient for whom this document instance was created"
@@ -41,7 +41,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[mission].title 1..1
 * section[mission].title ^short = "'Einsatz' or 'Intervention' or 'Intervento' or 'intervention'"
 * section[mission].code 1..
-* section[mission].code = urn:oid:2.16.756.5.30.1.143.5.1#1100001 "Einsatz"
+* section[mission].code = urn:oid:2.16.756.5.30.1.143.5.1#1100001 // "Einsatz"
 * section[mission].text 1..1
 * section[mission].text ^short = "Human readable text of this section"
 * section[mission].entry ^slicing.discriminator.type = #profile
@@ -62,7 +62,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[administrative].title 1..1
 * section[administrative].title ^short = "'Administrativ' or 'Administratif' or 'Amministrativo' or 'administrative'"
 * section[administrative].code 1..
-* section[administrative].code = urn:oid:2.16.756.5.30.1.143.5.1#1100003 "Administrativ"
+* section[administrative].code = urn:oid:2.16.756.5.30.1.143.5.1#1100003 // "Administrativ"
 * section[administrative].text 1..1
 * section[administrative].text ^short = "Human readable text of this section"
 * section[administrative].section 0..0
@@ -71,7 +71,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[pretreatment].title 1..1
 * section[pretreatment].title ^short = "'Vorbehandlung' or 'Prétraitement' or 'Pretrattamento' or 'pretreatment'"
 * section[pretreatment].code 1..
-* section[pretreatment].code = urn:oid:2.16.756.5.30.1.143.5.1#1100004 "Vorbehandlung"
+* section[pretreatment].code = urn:oid:2.16.756.5.30.1.143.5.1#1100004 // "Vorbehandlung"
 * section[pretreatment].text 1..1
 * section[pretreatment].text ^short = "Human readable text of this section"
 * section[pretreatment].entry only Reference(CHEmsProcedure)
@@ -83,7 +83,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[anamnesis].title 1..1
 * section[anamnesis].title ^short = "'Anamnese' or 'Anamnèse' or 'Anamnesi' or 'anamnesis'"
 * section[anamnesis].code 1..
-* section[anamnesis].code = urn:oid:2.16.756.5.30.1.143.5.1#1100005 "Anamnese"
+* section[anamnesis].code = urn:oid:2.16.756.5.30.1.143.5.1#1100005 // "Anamnese"
 * section[anamnesis].text 1..1
 * section[anamnesis].text ^short = "Human readable text of this section"
 * section[anamnesis].entry ^slicing.discriminator.type = #profile
@@ -104,7 +104,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[findings].title 1..1
 * section[findings].title ^short = "'Befund' or 'Résultats' or 'Risultati' or 'findings'"
 * section[findings].code 1..
-* section[findings].code = urn:oid:2.16.756.5.30.1.143.5.1#1100006 "Befund"
+* section[findings].code = urn:oid:2.16.756.5.30.1.143.5.1#1100006 // "Befund"
 * section[findings].text 1..1
 * section[findings].text ^short = "Human readable text of this section"
 * section[findings].section ^slicing.discriminator.type = #value
@@ -155,7 +155,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[diagnosis].title 1..1
 * section[diagnosis].title ^short = "'Diagnosen' or 'Diagnostique' or 'Diagnosi' or 'diagnosis'"
 * section[diagnosis].code 1..
-* section[diagnosis].code = urn:oid:2.16.756.5.30.1.143.5.1#1100007 "Diagnosen"
+* section[diagnosis].code = urn:oid:2.16.756.5.30.1.143.5.1#1100007 // "Diagnosen"
 * section[diagnosis].text 1..1
 * section[diagnosis].text ^short = "Human readable text of this section"
 * section[diagnosis].entry ..1
@@ -168,7 +168,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[procedures].title 1..1
 * section[procedures].title ^short = "'Massnahmen' or 'Mesures' or 'Misure' or 'measures'"
 * section[procedures].code 1..
-* section[procedures].code = urn:oid:2.16.756.5.30.1.143.5.1#1100008 "Massnahmen"
+* section[procedures].code = urn:oid:2.16.756.5.30.1.143.5.1#1100008 // "Massnahmen"
 * section[procedures].text 1..1
 * section[procedures].text ^short = "Human readable text of this section"
 * section[procedures].section 0..0
@@ -177,7 +177,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[eventOfDeath].title 1..1
 * section[eventOfDeath].title ^short = "'Todesfall' or 'Décès' or 'Decesso' or 'death'"
 * section[eventOfDeath].code 1..
-* section[eventOfDeath].code = urn:oid:2.16.756.5.30.1.143.5.1#1100009 "Todesfall"
+* section[eventOfDeath].code = urn:oid:2.16.756.5.30.1.143.5.1#1100009 // "Todesfall"
 * section[eventOfDeath].text 1..1
 * section[eventOfDeath].text ^short = "Human readable text of this section"
 * section[eventOfDeath].section 0..0
@@ -186,7 +186,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[transport].title 1..1
 * section[transport].title ^short = "'Transport' or 'Transport' or 'Trasporto' or 'transport'"
 * section[transport].code 1..
-* section[transport].code = urn:oid:2.16.756.5.30.1.143.5.1#1100010 "Transport"
+* section[transport].code = urn:oid:2.16.756.5.30.1.143.5.1#1100010 // "Transport"
 * section[transport].text 1..1
 * section[transport].text ^short = "Human readable text of this section"
 * section[transport].section 0..0
@@ -195,7 +195,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[handover].title 1..1
 * section[handover].title ^short = "'Übergabe' or 'Remise' or 'Consegna' or 'handover'"
 * section[handover].code 1..
-* section[handover].code = urn:oid:2.16.756.5.30.1.143.5.1#1100011 "Übergabe"
+* section[handover].code = urn:oid:2.16.756.5.30.1.143.5.1#1100011 // "Übergabe"
 * section[handover].text 1..1
 * section[handover].text ^short = "Human readable text of this section"
 * section[handover].entry ^slicing.discriminator.type = #profile
@@ -220,7 +220,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[handover].entry[glasgowComaScale] ^short = "Glasgow coma scale"
 * section[handover].entry[glasgowComaScale].reference 1..
 * section[handover].entry[handoverTo] only Reference(CHEmsOrganization or CHEmsPractitioner)
-* section[handover].entry[handoverTo] ^short = "Handover patient to oranisation/practitioner"
+* section[handover].entry[handoverTo] ^short = "Handover patient to organisation/practitioner"
 * section[handover].entry[handoverTo].reference 1..
 * section[handover].section 0..0
 
@@ -228,7 +228,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[annotation].title 1..1
 * section[annotation].title ^short = "'Kommentar' or 'Commentaire' or 'Osservazione' or 'Comment'"
 * section[annotation].code 1..
-* section[annotation].code = $loinc#48767-8 "Annotation comment"
+* section[annotation].code = $loinc#48767-8 // "Annotation comment"
 * section[annotation].text 1..1
 * section[annotation].text ^short = "Human readable text of this section"
 * section[annotation].section 0..0

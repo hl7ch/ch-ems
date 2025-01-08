@@ -14,6 +14,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Include automatic generated sections IP Statements, Cross Version Analysis, Dependency Table, Globals Table on Home
    * Use new introduced CH Core ServiceRequest as parent profile for CH EMS ServiceRequest
 * Change outdated discriminator type `pattern` to `value` (no impact on implementations)   
+* [#3](https://github.com/hl7ch/ch-ems/issues/3): remove fixed display values
 
 #### Fixed
 * Replace ci-build links to stable version

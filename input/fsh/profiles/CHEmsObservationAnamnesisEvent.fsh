@@ -4,7 +4,7 @@ Id: ch-ems-observation-anamnesisevent
 Title: "CH EMS Observation Profile Anamnesis Event"
 Description: "Definition of the observation anamnesis event"
 * . ^short = "CH EMS Observation"
-* code = $sct#272379006 "Event"
+* code = $sct#272379006 // "Event"
 * code ^short = "Anamnesis event"
 * subject 1..
 * subject only Reference(CHEmsPatient)

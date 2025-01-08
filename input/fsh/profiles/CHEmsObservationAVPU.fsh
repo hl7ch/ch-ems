@@ -4,7 +4,7 @@ Id: ch-ems-observation-avpu
 Title: "CH EMS Observation Profile AVPU"
 Description: "Definition of the observation level of responsiveness (AVPU)"
 * . ^short = "CH EMS Observation"
-* code = $loinc#11454-6 "Level of Responsiveness (AVPU)"
+* code = $loinc#11454-6 // "Level of Responsiveness (AVPU)"
 * code ^short = "Level of Responsiveness (AVPU)"
 * subject 1..
 * subject only Reference(CHEmsPatient)

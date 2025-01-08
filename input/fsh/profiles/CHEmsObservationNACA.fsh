@@ -4,7 +4,7 @@ Id: ch-ems-observation-naca
 Title: "CH EMS Observation Profile NACA"
 Description: "Definition of the observation injury severity (NACA)"
 * . ^short = "CH EMS Observation"
-* code = $loinc#88076-5 "Injury severity score NACA"
+* code = $loinc#88076-5 // "Injury severity score NACA"
 * code ^short = "Injury severity score NACA"
 * subject 1..
 * subject only Reference(CHEmsPatient)

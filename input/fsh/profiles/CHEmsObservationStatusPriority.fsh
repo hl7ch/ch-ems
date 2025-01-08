@@ -4,7 +4,7 @@ Id: ch-ems-observation-statuspriority
 Title: "CH EMS Observation Profile Status Priority"
 Description: "Definition of the observation status priority"
 * . ^short = "CH EMS Observation"
-* code = $loinc#77941-3 "Final patient acuity"
+* code = $loinc#77941-3 // "Final patient acuity"
 * code ^short = "Patient Status"
 * subject 1..
 * subject only Reference(CHEmsPatient)
