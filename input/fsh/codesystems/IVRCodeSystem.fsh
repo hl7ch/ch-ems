@@ -1131,3 +1131,10 @@ Description: "IVR Code System"
 * #VII ^designation[=].value = "Mort"
 * #VII ^designation[+].language = #it-CH
 * #VII ^designation[=].value = "Morte"
+* #MN "Einsatznummer"
+* #MN ^designation[0].language = #de-CH
+* #MN ^designation[=].value = "Einsatznummer"
+* #MN ^designation[+].language = #fr-CH
+* #MN ^designation[=].value = "Numéro de la mission"
+* #MN ^designation[+].language = #it-CH
+* #MN ^designation[=].value = "Numero della missione"

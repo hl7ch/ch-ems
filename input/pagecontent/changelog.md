@@ -14,6 +14,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Update license and copyright like other Swiss IGs (see [here](https://github.com/hl7ch/ch-core/issues/226)) from `CC-BY-SA-4.0` to `CC0-1.0`
    * Include automatic generated sections IP Statements, Cross Version Analysis, Dependency Table, Globals Table on Home
    * Use new introduced CH Core ServiceRequest as parent profile for CH EMS ServiceRequest
+   * Define slice `Encounter.identifier:missionNumber` because underlying profile already sliced this element and add code `MN` 'Einsatznummer' to IVR Code System to be able to define the required identifier type
 * Change outdated discriminator type `pattern` to `value`
 * [#3](https://github.com/hl7ch/ch-ems/issues/3): Remove fixed display values
 * [#4](https://github.com/hl7ch/ch-ems/issues/4): Remove 'Profile' from profile title

@@ -4,8 +4,9 @@ Title: "1 Einsatz"
 Description: "Example for Encounter"
 Usage: #example
 // cdachems-dataelement-55 Einsatznummer (OID vom SNZ)
-* identifier.system = "urn:oid:2.16.756.5.30.1.9999999999.1"
-* identifier.value = "S12345678"
+* identifier[missionNumber].type = $IVR-CS#MN "Einsatznummer"
+* identifier[missionNumber].system = "urn:oid:2.16.756.5.30.1.9999999999.1"
+* identifier[missionNumber].value = "S12345678"
 * status = #finished
 * class = $v3-ActCode#EMER "emergency"
 * subject.reference = "Patient/1-PeterMuster"

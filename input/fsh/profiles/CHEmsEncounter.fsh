@@ -4,14 +4,15 @@ Id: ch-ems-encounter
 Title: "CH EMS Encounter"
 Description: "Definition of the encounter"
 * . ^short = "CH EMS Encounter"
-* identifier 1..1
-* identifier ^short = "Misson number"
-* identifier.system 1..
-* identifier.system ^short = "OID of organization (IMC)"
-* identifier.value 1..
-* identifier.value ^short = "Mission number IMC"
+* identifier 1..
+* identifier contains missionNumber 1..1 
+* identifier[missionNumber] ^short = "Mission number (Einsatznummer)"
+* identifier[missionNumber] ^patternIdentifier.type = $IVR-CS#MN
+* identifier[missionNumber].system 1..
+* identifier[missionNumber].system ^short = "OID of organization (IMC)"
+* identifier[missionNumber].value 1..
+* identifier[missionNumber].value ^short = "Mission number IMC"
 * class from http://terminology.hl7.org/ValueSet/v3-ActEncounterCode (extensible)
-* class ^definition = "See mapping from BFS Medizinsiche Statistik [BFS Encounter Class to FHIR mapping](https://build.fhir.org/ig/hl7ch/ch-core//ConceptMap-bfs-encounter-class-to-fhir.html)"
 * subject only Reference(CHEmsPatient)
 * subject ^short = "Patient"
 * subject.reference 1..
