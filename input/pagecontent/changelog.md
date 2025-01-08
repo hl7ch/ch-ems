@@ -16,6 +16,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * Change outdated discriminator type `pattern` to `value` (no impact on implementations)   
 
 #### Fixed
+* Replace ci-build links to stable version
 
 ### v1.9.0 (2020-08-25)
 Initial published version.

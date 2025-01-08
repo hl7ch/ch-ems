@@ -18,12 +18,12 @@ Dieser Informationsworkflow ist beim Verein eCH unter der Nummer eCH-0207, Versi
 Der CH EMS Implementierungsleitfaden beschreibt die FHIR-Darstellung des definierten [**Protokolls für Rettungsdienste**](document.html). Dieser Implementierungsleitfaden ist abhängig von [CH Core](http://fhir.ch/ig/ch-core/index.html) und [CH Term](http://fhir.ch/ig/ch-term/index.html), die den schweizerischen spezifischen Kontext beschreiben, insbesondere im Zusammenhang mit dem elektronischen Patientendossier Schweiz (EPD).
 
 #### Schweizer Kontext
-Die [CH EMS Profile](profiles.html) basieren auf den CH Core Basisprofilen. Die Beispiele der EMS-Protokolle ([Einsatzprotokolle 1, 1b, 2, 2b](StructureDefinition-ch-ems-document-examples.html)) sind somit im schweizerischen Kontext gültig. Um die Korrektheit zu überprüfen, können die Dokumente gegen das [CH EMS Dokumentenprofil](StructureDefinition-ch-ems-document.html) validiert werden. (Damit werden auch die Anforderungen des [CH Core Dokumentenprofils](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document.html) erfüllt und überprüft).
+Die [CH EMS Profile](profiles.html) basieren auf den CH Core Basisprofilen. Die Beispiele der EMS-Protokolle ([Einsatzprotokolle 1, 1b, 2, 2b](StructureDefinition-ch-ems-document-examples.html)) sind somit im schweizerischen Kontext gültig. Um die Korrektheit zu überprüfen, können die Dokumente gegen das [CH EMS Dokumentenprofil](StructureDefinition-ch-ems-document.html) validiert werden. (Damit werden auch die Anforderungen des [CH Core Dokumentenprofils](http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-document.html) erfüllt und überprüft).
 
 *Validierung: siehe [README CH EMS](https://github.com/hl7ch/ch-ems)*
 
 #### Schweizer EPD-Kontext
-Wenn die Dokumente im EPD-Kontext verwendet werden, müssen auch die Anforderungen des  [CH Core EPD-Dokumentenprofil](http://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-document-epr.html) erfüllt werden. Für den Anwendungsfall der Notfalldienste gibt es zwei Hauptaspekte, die im EPD-Kontext berücksichtig werden müssen:
+Wenn die Dokumente im EPD-Kontext verwendet werden, müssen auch die Anforderungen des  [CH Core EPD-Dokumentenprofil](http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-document-epr.html) erfüllt werden. Für den Anwendungsfall der Notfalldienste gibt es zwei Hauptaspekte, die im EPD-Kontext berücksichtig werden müssen:
 * Die **Sozialversicherungsnummer (AHVN13)** des Patienten **darf nicht** im EPD gespeichert werden
 * Für ein gültiges EPD-Dokument muss der **Name des Patienten** bekannt sein, was bei Notfalldiensten nicht immer gewährleistet ist    
 
