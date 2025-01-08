@@ -16,7 +16,7 @@ Usage: #definition
 * publisher = "Interverband für Rettungswesen"
 * description = "IVR valueset mission Emergency doctor system (.143.11.12)"
 * immutable = false
-* compose.include.system = "urn:oid:2.16.756.5.30.1.143.5.1"
+* compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000004
 * compose.include.concept[=].display = "residential EMS"
 * compose.include.concept[=].designation[0].language = #de-CH

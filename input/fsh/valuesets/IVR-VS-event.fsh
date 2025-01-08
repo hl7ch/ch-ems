@@ -114,7 +114,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Inconnu"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Sconosciuto"
-* compose.include[+].system = "urn:oid:2.16.756.5.30.1.143.5.1"
+* compose.include[+].system = $IVR-CS
 * compose.include[=].concept.code = #100005
 * compose.include[=].concept.display = "no information"
 * compose.include[=].concept.designation[0].language = #de-CH

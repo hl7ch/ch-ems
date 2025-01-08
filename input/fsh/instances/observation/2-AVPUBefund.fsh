@@ -8,4 +8,4 @@ Usage: #example
 * subject.reference = "Patient/2-PatientUnbekannt"
 * encounter.reference = "Encounter/2-Einsatz"
 * effectiveDateTime = "2016-12-10T11:25:00.000+01:00"
-* valueCodeableConcept = urn:oid:2.16.756.5.30.1.143.5.1#V "Reaktion nur bei lauter Ansprache"
+* valueCodeableConcept = $IVR-CS#V "Reaktion nur bei lauter Ansprache"

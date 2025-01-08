@@ -16,7 +16,7 @@ Usage: #definition
 * publisher = "Interverband für Rettungswesen"
 * description = "Values for sections codes"
 * immutable = false
-* compose.include.system = "urn:oid:2.16.756.5.30.1.143.5.1"
+* compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1100001
 * compose.include.concept[=].display = "intervention"
 * compose.include.concept[=].designation[0].language = #de-CH

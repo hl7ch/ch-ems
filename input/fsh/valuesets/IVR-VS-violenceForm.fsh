@@ -58,7 +58,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Autre"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Altro"
-* compose.include[+].system = "urn:oid:2.16.756.5.30.1.143.5.1"
+* compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000043
 * compose.include[=].concept[=].display = "contumeliousness"
 * compose.include[=].concept[=].designation[0].language = #de-CH

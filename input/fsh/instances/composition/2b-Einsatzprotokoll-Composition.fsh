@@ -31,7 +31,7 @@ Usage: #example
 * custodian.reference = "Organization/1-Rettungsdienst" // CDA: custodian.assignedCustodian.representedCustodian
 
 * section[mission].title = "Einsatz"
-* section[mission].code = urn:oid:2.16.756.5.30.1.143.5.1#1100001 "Einsatz"
+* section[mission].code = $IVR-CS#1100001 "Einsatz"
 * section[mission].text.status = #generated
 * section[mission].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -109,7 +109,7 @@ Usage: #example
 * section[mission].entry[missionTimeStatus][+] = Reference(2b-OperationalReadiness)
 
 * section[administrative].title = "Administrativ"
-* section[administrative].code = urn:oid:2.16.756.5.30.1.143.5.1#1100003 "Administrativ"
+* section[administrative].code = $IVR-CS#1100003 "Administrativ"
 * section[administrative].text.status = #generated
 * section[administrative].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -117,7 +117,7 @@ Usage: #example
 </div>"
 
 * section[pretreatment].title = "Vorbehandlung"
-* section[pretreatment].code = urn:oid:2.16.756.5.30.1.143.5.1#1100004 "Vorbehandlung"
+* section[pretreatment].code = $IVR-CS#1100004 "Vorbehandlung"
 * section[pretreatment].text.status = #generated
 * section[pretreatment].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -125,7 +125,7 @@ Usage: #example
 </div>"
 
 * section[anamnesis].title = "Anamnese"
-* section[anamnesis].code = urn:oid:2.16.756.5.30.1.143.5.1#1100005 "Anamnese"
+* section[anamnesis].code = $IVR-CS#1100005 "Anamnese"
 * section[anamnesis].text.status = #generated
 * section[anamnesis].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -133,7 +133,7 @@ Usage: #example
 </div>"
 
 * section[findings].title = "Befund"
-* section[findings].code = urn:oid:2.16.756.5.30.1.143.5.1#1100006 "Befund"
+* section[findings].code = $IVR-CS#1100006 "Befund"
 * section[findings].text.status = #generated
 * section[findings].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -171,7 +171,7 @@ Usage: #example
 * section[findings].section[disability].entry[levelOfResponsiveness] = Reference(2-AVPUBefund)
 
 * section[diagnosis].title = "Diagnosen"
-* section[diagnosis].code = urn:oid:2.16.756.5.30.1.143.5.1#1100007 "Diagnosen"
+* section[diagnosis].code = $IVR-CS#1100007 "Diagnosen"
 * section[diagnosis].text.status = #generated
 * section[diagnosis].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -189,7 +189,7 @@ Usage: #example
 * section[diagnosis].entry = Reference(2-Diagnose)
 
 * section[procedures].title = "Massnahmen"
-* section[procedures].code = urn:oid:2.16.756.5.30.1.143.5.1#1100008 "Massnahmen"
+* section[procedures].code = $IVR-CS#1100008 "Massnahmen"
 * section[procedures].text.status = #generated
 * section[procedures].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -199,7 +199,7 @@ Usage: #example
 </div>"
 
 * section[eventOfDeath].title = "Todesfall"
-* section[eventOfDeath].code = urn:oid:2.16.756.5.30.1.143.5.1#1100009 "Todesfall"
+* section[eventOfDeath].code = $IVR-CS#1100009 "Todesfall"
 * section[eventOfDeath].text.status = #generated
 * section[eventOfDeath].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -207,7 +207,7 @@ Usage: #example
 </div>"
 
 * section[transport].title = "Transport"
-* section[transport].code = urn:oid:2.16.756.5.30.1.143.5.1#1100010 "Transport"
+* section[transport].code = $IVR-CS#1100010 "Transport"
 * section[transport].text.status = #generated
 * section[transport].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -217,7 +217,7 @@ Usage: #example
 </div>"
 
 * section[handover].title = "Übergabe"
-* section[handover].code = urn:oid:2.16.756.5.30.1.143.5.1#1100011 "Übergabe"
+* section[handover].code = $IVR-CS#1100011 "Übergabe"
 * section[handover].text.status = #generated
 * section[handover].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">

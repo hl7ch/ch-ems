@@ -16,7 +16,7 @@ Usage: #definition
 * publisher = "Interverband für Rettungswesen"
 * description = "eCH-0207: Vigilanz (AVPU)"
 * immutable = false
-* compose.include.system = "urn:oid:2.16.756.5.30.1.143.5.1"
+* compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #A
 * compose.include.concept[=].display = "wach, ansprechbar und orientiert"
 * compose.include.concept[=].designation[0].language = #de-CH

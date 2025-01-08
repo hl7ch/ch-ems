@@ -26,7 +26,7 @@ Usage: #definition
 * compose.include[=].concept.designation[=].value = "Autre méthode de désinfection"
 * compose.include[=].concept.designation[+].language = #it-CH
 * compose.include[=].concept.designation[=].value = "Altro metodo di disinfezione"
-* compose.include[+].system = "urn:oid:2.16.756.5.30.1.143.5.1"
+* compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000124
 * compose.include[=].concept[=].display = "nebulize with H2O2"
 * compose.include[=].concept[=].designation[0].language = #de-CH

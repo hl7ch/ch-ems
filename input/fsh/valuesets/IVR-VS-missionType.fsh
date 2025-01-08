@@ -16,7 +16,7 @@ Usage: #definition
 * publisher = "Interverband für Rettungswesen"
 * description = "IVR valueset mission type (.143.11.11)"
 * immutable = false
-* compose.include.system = "urn:oid:2.16.756.5.30.1.143.5.1"
+* compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000001
 * compose.include.concept[=].display = "primary mission"
 * compose.include.concept[=].designation[0].language = #de-CH

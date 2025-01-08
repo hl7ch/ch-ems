@@ -1,10 +1,10 @@
 CodeSystem: IVRCodeSystem
-Id: 2.16.756.5.30.1.143.5.1
+Id: IVR
 Title: "IVR Code System"
 Description: "IVR Code System"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-05-18T17:00:00+02:00"
-* ^url = "urn:oid:2.16.756.5.30.1.143.5.1"
+// * ^url = "urn:oid:2.16.756.5.30.1.143.5.1"
 * ^version = "2020-08-17T17:00:00"
 * ^status = #draft
 * ^experimental = false

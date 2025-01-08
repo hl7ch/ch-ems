@@ -26,7 +26,7 @@ Usage: #definition
 * compose.include[=].concept.designation[=].value = "autre"
 * compose.include[=].concept.designation[+].language = #it-CH
 * compose.include[=].concept.designation[=].value = "altro"
-* compose.include[+].system = "urn:oid:2.16.756.5.30.1.143.5.1"
+* compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000126
 * compose.include[=].concept[=].display = "wedding ring"
 * compose.include[=].concept[=].designation[0].language = #de-CH

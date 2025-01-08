@@ -34,7 +34,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Aucun traitement antérieur"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Nessun trattamento precedente"
-* compose.include[+].system = "urn:oid:2.16.756.5.30.1.143.5.1"
+* compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000142
 * compose.include[=].concept[=].display = "first responder"
 * compose.include[=].concept[=].designation[0].language = #de-CH

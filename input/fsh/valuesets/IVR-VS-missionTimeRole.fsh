@@ -16,7 +16,7 @@ Usage: #definition
 * publisher = "Interverband für Rettungswesen"
 * description = "IVR valueset role mission time (.143.11.10)"
 * immutable = false
-* compose.include.system = "urn:oid:2.16.756.5.30.1.143.5.1"
+* compose.include.system = $IVR-CS
 * compose.include.concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include.concept[=].extension.valueString = "Zeitpunkt des Eingangs des Notrufs bei der Sanitätsnotrufzentrale Einsatzleitsystem der Sanitätsnotrufzentrale definiert Zeit des Alarmeingangs wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefertFalls keine Schnittstelle zum Einsatzleitsystem vorhanden ist muss der Rettungsdienst die Zeitangabe der Sanitätsnotrufzentrale zwingend übernehmen"
 * compose.include.concept[=].code = #1000033

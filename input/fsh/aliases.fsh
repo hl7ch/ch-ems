@@ -12,7 +12,8 @@ Alias: $shareablevalueset =                 http://hl7.org/fhir/StructureDefinit
 Alias: $iso21090-ADXP-houseNumber =         http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
 Alias: $ch-ext-ech-10-linetype =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype
 
-// CH EMS value sets
+// CH EMS terminology
+Alias: $IVR-CS =                            http://fhir.ch/ig/ch-ems/CodeSystem/IVR
 Alias: $IVR-VS-findingsAirway =             http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-findingsAirway
 Alias: $IVR-VS-event =                      http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-event
 Alias: $IVR-VS-vigilanzAvpu =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-vigilanzAvpu

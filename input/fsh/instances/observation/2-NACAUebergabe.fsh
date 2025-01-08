@@ -9,4 +9,4 @@ Usage: #example
 * encounter.reference = "Encounter/2-Einsatz"
 
 // cdachems-dataelement-23 NACA
-* valueCodeableConcept = urn:oid:2.16.756.5.30.1.143.5.1#III "mässige bis schwere Störung"
+* valueCodeableConcept = $IVR-CS#III "mässige bis schwere Störung"
