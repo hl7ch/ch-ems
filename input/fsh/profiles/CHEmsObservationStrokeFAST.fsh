@@ -16,7 +16,7 @@ Description: "Definition of the observation Stroke/FAST"
 * effectiveDateTime 1..
 * effectiveDateTime ^short = "T: Time"
 * component ..3
-* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.ordered = false
 * component ^slicing.rules = #open

@@ -20,7 +20,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * custodian only Reference(CHEmsOrganization)
 * custodian ^short = "Order recipient (called organization)"
 
-* section ^slicing.discriminator.type = #pattern
+* section ^slicing.discriminator.type = #value
 * section ^slicing.discriminator.path = "code"
 * section ^slicing.ordered = false
 * section ^slicing.rules = #open
