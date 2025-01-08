@@ -4,6 +4,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 #### Added
 * Introduction the [IVR Valueset diagnosis (.143.11.20)](ValueSet-IVR-VS-diagnosis.html)
+* [#2](https://github.com/hl7ch/ch-ems/issues/2): Include 'Propose a change' link in the footer
 
 #### Changed / Updated
 * Updates according the current published version 5.0.0 of CH Core (see also [changelog](https://fhir.ch/ig/ch-core/changelog.html))
