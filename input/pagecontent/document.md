@@ -6,7 +6,8 @@ This exchange format is defined as a document type that corresponds to a Bundle 
 * Profile: 
    * [Emergency Medical Service protocol](StructureDefinition-ch-ems-document.html)
 * Examples:
-   * 1-Einsatzprotokoll: [XML](Bundle-1-Einsatzprotokoll.xml.html), [JSON](Bundle-1-Einsatzprotokoll.json.html)    
-   * 1b-Einsatzprotokoll: [XML](Bundle-1b-Einsatzprotokoll.xml.html), [JSON](Bundle-1b-Einsatzprotokoll.json.html)    
-   * 2-Einsatzprotokoll: [XML](Bundle-2-Einsatzprotokoll.xml.html), [JSON](Bundle-2-Einsatzprotokoll.json.html)    
-   * 2b-Einsatzprotokoll: [XML](Bundle-2b-Einsatzprotokoll.xml.html), [JSON](Bundle-2b-Einsatzprotokoll.json.html)    
+   * 1-Einsatzprotokoll: [JSON](Bundle-1-Einsatzprotokoll.json.html), [XML](Bundle-1-Einsatzprotokoll.xml.html)    
+   * 1b-Einsatzprotokoll: [JSON](Bundle-1b-Einsatzprotokoll.json.html), [XML](Bundle-1b-Einsatzprotokoll.xml.html)
+   * 2-Einsatzprotokoll: [JSON](Bundle-2-Einsatzprotokoll.json.html), [XML](Bundle-2-Einsatzprotokoll.xml.html)
+   * 2b-Einsatzprotokoll: [JSON](Bundle-2b-Einsatzprotokoll.json.html), [XML](Bundle-2b-Einsatzprotokoll.xml.html) 
+   

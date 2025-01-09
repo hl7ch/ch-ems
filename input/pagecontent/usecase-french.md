@@ -74,8 +74,8 @@ Cette étape clôture intégralement l’intervention pour l’équipe.
 
 **Exemples de mise en œuvre:**
 
-* 1-Einsatzprotokoll (en allemand): [XML](Bundle-1-Einsatzprotokoll.xml.html), [JSON](Bundle-1-Einsatzprotokoll.json.html)    
-* 1b-Einsatzprotokoll (en allemand): [XML](Bundle-1b-Einsatzprotokoll.xml.html), [JSON](Bundle-1b-Einsatzprotokoll.json.html)     
+* 1-Einsatzprotokoll (en allemand): [JSON](Bundle-1-Einsatzprotokoll.json.html), [XML](Bundle-1-Einsatzprotokoll.xml.html)    
+* 1b-Einsatzprotokoll (en allemand): [JSON](Bundle-1b-Einsatzprotokoll.json.html), [XML](Bundle-1b-Einsatzprotokoll.xml.html)     
 
 
 #### 5.3.2	Cas d’application 2 - Intervention primaire avec patient inconnu
@@ -101,5 +101,5 @@ Cette étape clôture intégralement l’intervention pour l’équipe.
 
 **Exemples de mise en œuvre:**
 
-* 2-Einsatzprotokoll (en allemand): [XML](Bundle-2-Einsatzprotokoll.xml.html), [JSON](Bundle-2-Einsatzprotokoll.json.html)    
-* 2b-Einsatzprotokoll (en allemand): [XML](Bundle-2b-Einsatzprotokoll.xml.html), [JSON](Bundle-2b-Einsatzprotokoll.json.html)    
+* 2-Einsatzprotokoll (en allemand): [JSON](Bundle-2-Einsatzprotokoll.json.html), [XML](Bundle-2-Einsatzprotokoll.xml.html)  
+* 2b-Einsatzprotokoll (en allemand): [JSON](Bundle-2b-Einsatzprotokoll.json.html), [XML](Bundle-2b-Einsatzprotokoll.xml.html)   

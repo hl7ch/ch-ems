@@ -4,6 +4,7 @@
 A definition for CodeSystem 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' could not be found, so the code cannot be validated
 Unknown System 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' could not be found, so the code cannot be validated)
 Error from http://tx.fhir.org/r4: Unable to provide support for code system http://fhir.de/CodeSystem/dimdi/icd-10-gm
+None of the codings provided are in the value set 'ICD-10 Codes' (http://hl7.org/fhir/ValueSet/icd-10|%
 
 # The following display values do not correspond to the exact wording
 Der Displayname%
@@ -23,3 +24,19 @@ None of the codings provided are in the value set 'IdentifierType' (http://hl7.o
 # Caused through underlying profiles
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+
+# https://github.com/hl7ch/ch-ems/issues/7
+The code '263935005' is valid but is not active
+
+# https://github.com/hl7ch/ch-ems/issues/8
+The code '419465000' is valid but is not active
+
+# Non-EPR conform examples 
+WARNING: Patient/2-PatientUnbekannt: Patient: Constraint failed: ch-ems-epr-patient: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient)
+WARNING: Bundle/2b-Einsatzprotokoll: Bundle.entry[0].resource: Constraint failed: ch-ems-epr-composition: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition)
+WARNING: Bundle/2b-Einsatzprotokoll: Bundle.entry[2].resource/*Patient/2-PatientUnbekannt*/: Constraint failed: ch-ems-epr-patient: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient)
+WARNING: Bundle/2b-Einsatzprotokoll: Bundle: Constraint failed: ch-ems-epr-document: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document)
+WARNING: Bundle/2-Einsatzprotokoll: Bundle.entry[0].resource: Constraint failed: ch-ems-epr-composition: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition)
+WARNING: Bundle/2-Einsatzprotokoll: Bundle.entry[2].resource/*Patient/2-PatientUnbekannt*/: Constraint failed: ch-ems-epr-patient: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient)
+WARNING: Bundle/2-Einsatzprotokoll: Bundle: Constraint failed: ch-ems-epr-document: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document)
+WARNING: Practitioner/SaniInAusbildung: Practitioner: Constraint failed: ch-ems-epr-practitioner: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner)

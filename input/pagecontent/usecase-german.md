@@ -73,8 +73,8 @@ Mit diesem Schritt ist der Einsatz für das Team vollständig abgeschlossen.
 
 **Umsetzungsbeispiele:**
 
-* 1-Einsatzprotokoll: [XML](Bundle-1-Einsatzprotokoll.xml.html), [JSON](Bundle-1-Einsatzprotokoll.json.html)    
-* 1b-Einsatzprotokoll: [XML](Bundle-1b-Einsatzprotokoll.xml.html), [JSON](Bundle-1b-Einsatzprotokoll.json.html)     
+* 1-Einsatzprotokoll: [JSON](Bundle-1-Einsatzprotokoll.json.html), [XML](Bundle-1-Einsatzprotokoll.xml.html)  
+* 1b-Einsatzprotokoll: [JSON](Bundle-1b-Einsatzprotokoll.json.html), [XML](Bundle-1b-Einsatzprotokoll.xml.html)    
 
 
 #### Use case 2 - Primäreinsatz mit unbekanntem Patienten
@@ -100,5 +100,5 @@ Mit diesem Schritt ist der Einsatz für das Team vollständig abgeschlossen.
 
 **Umsetzungsbeispiele:**
 
-* 2-Einsatzprotokoll: [XML](Bundle-2-Einsatzprotokoll.xml.html), [JSON](Bundle-2-Einsatzprotokoll.json.html)    
-* 2b-Einsatzprotokoll: [XML](Bundle-2b-Einsatzprotokoll.xml.html), [JSON](Bundle-2b-Einsatzprotokoll.json.html)    
+* 2-Einsatzprotokoll: [JSON](Bundle-2-Einsatzprotokoll.json.html), [XML](Bundle-2-Einsatzprotokoll.xml.html)
+* 2b-Einsatzprotokoll: [JSON](Bundle-2b-Einsatzprotokoll.json.html), [XML](Bundle-2b-Einsatzprotokoll.xml.html)

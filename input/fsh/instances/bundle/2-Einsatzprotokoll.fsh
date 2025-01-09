@@ -1,7 +1,7 @@
 Instance: 2-Einsatzprotokoll
 InstanceOf: CHEmsDocument
 Title: "2 Einsatzprotokoll"
-Description: "Example for Bundle"
+Description: "Example for Bundle - Use case 2 (not EPR conform because of unknown patient)"
 Usage: #example
 * meta.lastUpdated = "2020-04-24T15:53:22.889+00:00"
 * identifier.system = "urn:ietf:rfc:3986"
