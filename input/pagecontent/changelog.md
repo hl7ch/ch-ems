@@ -19,6 +19,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#3](https://github.com/hl7ch/ch-ems/issues/3): Remove fixed display values
 * [#4](https://github.com/hl7ch/ch-ems/issues/4): Remove 'Profile' from profile title
 * [#5](https://github.com/hl7ch/ch-ems/issues/5): Usage of URL instead of OID for IVR CodeSystem
+* [#10](https://github.com/hl7ch/ch-ems/issues/10): Update intro text: date of birth is also required for an EPR document
 
 #### Fixed
 * Replace ci-build links with links to stable version

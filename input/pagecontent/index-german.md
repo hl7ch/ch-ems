@@ -25,7 +25,7 @@ Die [CH EMS Profile](profiles.html) basieren auf den CH Core Basisprofilen. Die 
 #### Schweizer EPD-Kontext
 Wenn die Dokumente im EPD-Kontext verwendet werden, müssen auch die Anforderungen des  [CH Core EPD-Dokumentenprofil](http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-document-epr.html) erfüllt werden. Für den Anwendungsfall der Notfalldienste gibt es zwei Hauptaspekte, die im EPD-Kontext berücksichtig werden müssen:
 * Die **Sozialversicherungsnummer (AHVN13)** des Patienten **darf nicht** im EPD gespeichert werden
-* Für ein gültiges EPD-Dokument muss der **Name des Patienten** bekannt sein, was bei Notfalldiensten nicht immer gewährleistet ist    
+* Für ein gültiges EPD-Dokument müssen der **Name** und das **Geburtsdatum** des Patienten bekannt sein, was bei Notfalldiensten nicht immer gewährleistet ist    
 
 Um die Kompatibilitätsprüfung gegen die CH Core EPD-Profile zu unterstützen, wird bei Abweichungen während der Validierung eine Warnung generiert:   
 'ch-ems-epr: Warnung, dass die Ressource nicht mit den CH Core EPD-Einschränkungen konform ist'

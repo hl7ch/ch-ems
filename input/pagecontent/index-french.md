@@ -25,7 +25,7 @@ Les [profils CH EMS](profiles.html) sont basés sur les profils de base CH Core.
 #### Contexte de DEP en Suisse
 Si les documents sont utilisés dans le contexte du DEP, les exigences du [profil de document DEP de CH Core](http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-document-epr.html) doivent également être respectées. L'utilisation des services de secours présente deux aspects principaux qui doivent être pris en compte dans le contexte du DEP:
 * Le **numéro d'assurance sociale du patient (NAVS13)** du patient **ne doit pas être archivé** dans le DEP   
-* Pour qu'un document EPD soit valable, le **nom du patient** doit être connu, ce qui n'est pas toujours garanti dans les services de secours
+* Pour qu'un document DEP soit valable, le **nom** et la **date de naissance** du patient doivent être connu, ce qui n'est pas toujours garanti dans les services de secours
 
 Pour faciliter le contrôle de compatibilité avec les profils DEP de CH Core, un avertissement est généré en cas d'écarts lors de la validation:   
 'ch-ems-epr: Avertissement que la ressource n'est pas conforme aux restrictions du DEP de CH Core'
