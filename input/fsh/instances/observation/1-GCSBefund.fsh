@@ -5,7 +5,7 @@ Description: "Example for Observation"
 Usage: #example
 * status = #final
 * code = $loinc#9269-2 "Glasgow coma score total"
-* subject.reference = "Patient/1-PeterMuster"
+* subject.reference = "Patient/1-ThomasMueller"
 * encounter.reference = "Encounter/1-Einsatz"
 * effectiveDateTime = "2016-12-10T11:25:00.000+01:00"
 

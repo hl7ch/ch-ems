@@ -7,4 +7,4 @@ Usage: #example
 * extension.valueCodeableConcept = $IVR-CS#1000142 "first responder"
 * status = #completed
 * code = $sct#386308007 "First aid"
-* subject.reference = "Patient/1-PeterMuster"
+* subject.reference = "Patient/1-ThomasMueller"

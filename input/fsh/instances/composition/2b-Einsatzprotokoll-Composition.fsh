@@ -5,7 +5,7 @@ Description: "Example for Composition"
 Usage: #example
 * language = #de-CH
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"
-* extension[=].valueReference.reference = "Practitioner/1-InformationRecipientSpezialarzt"
+* extension[=].valueReference.reference = "Practitioner/1-InformationRecipientSpitalarzt"
 * extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"
 * extension[=].valueReference.reference = "Organization/1-InformationRecipientUSZ"
 * identifier.system = "urn:ietf:rfc:3986"
@@ -58,7 +58,7 @@ Usage: #example
             </tr>
             <tr>
                 <td>Team</td>
-                <td>Petra Muster, GLN 7601003330434, Betreuerin / Hans Beispiel, GLN 7601000028105, Betreuer</td>
+                <td>Petra Muster, GLN 7601003330434, Betreuerin / Hans Transportsanitäter, GLN 7601000028105, Betreuer</td>
             </tr>
             <tr>
                 <td>Einsatzort</td>

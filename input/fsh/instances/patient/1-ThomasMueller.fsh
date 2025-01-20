@@ -1,6 +1,6 @@
-Instance: 1-PeterMuster
+Instance: 1-ThomasMueller
 InstanceOf: CHEmsPatient
-Title: "1 Peter Muster"
+Title: "1 Thomas Müller"
 Description: "Example for Patient"
 Usage: #example
 * extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-ech-11-placeoforigin"
@@ -20,9 +20,9 @@ Usage: #example
 // cdachems-dataelement-8
 * name.family.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-name"
 * name.family.extension.valueCode = #officialName
-* name.family = "Muster"
+* name.family = "Müller"
 // cdachems-dataelement-9
-* name.given = "Peter"
+* name.given = "Thomas"
 * name.given.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-11-firstname"
 * name.given.extension.valueCode = #officialFirstName
 
@@ -49,5 +49,5 @@ Usage: #example
 // participant.associatedEntity
 * contact.extension[personRole].valueCodeableConcept.coding = $sct#74964007 "Other"
 * contact.extension[personRole].valueCodeableConcept.text = "Ehefrau"
-* contact.name.family = "Muster"
+* contact.name.family = "Müller"
 * contact.name.given = "Erika"

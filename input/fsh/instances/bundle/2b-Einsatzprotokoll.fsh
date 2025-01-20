@@ -14,8 +14,8 @@ Usage: #example
 * entry[=].resource = 2-Einsatz
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/2-PatientUnbekannt"
 * entry[=].resource = 2-PatientUnbekannt
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/1-InformationRecipientSpezialarzt"
-* entry[=].resource = 1-InformationRecipientSpezialarzt
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/1-InformationRecipientSpitalarzt"
+* entry[=].resource = 1-InformationRecipientSpitalarzt
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/1-InformationRecipientUSZ"
 * entry[=].resource = 1-InformationRecipientUSZ
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/1-SaniPetraMuster"
@@ -24,8 +24,8 @@ Usage: #example
 * entry[=].resource = 1-SaniPetraMuster-PR
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/1-TeamMemberPetraMuster"
 * entry[=].resource = 1-TeamMemberPetraMuster
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/1-TeamMemberHansBeispiel"
-* entry[=].resource = 1-TeamMemberHansBeispiel
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/1-TeamMemberHansTransportsanitaeter"
+* entry[=].resource = 1-TeamMemberHansTransportsanitaeter
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/1-Rettungsdienst"
 * entry[=].resource = 1-Rettungsdienst
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/1-TeamRettungsdienst"

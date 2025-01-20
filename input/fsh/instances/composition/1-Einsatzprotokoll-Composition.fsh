@@ -5,7 +5,7 @@ Description: "Example for Composition"
 Usage: #example
 * language = #de-CH
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"
-* extension[=].valueReference.reference = "Practitioner/1-InformationRecipientSpezialarzt"
+* extension[=].valueReference.reference = "Practitioner/1-InformationRecipientSpitalarzt"
 * extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"
 * extension[=].valueReference.reference = "Organization/1-InformationRecipientUSZ"
 * identifier.system = "urn:ietf:rfc:3986"
@@ -13,7 +13,7 @@ Usage: #example
 * status = #final
 * type.coding[0] = $loinc#67796-3 "EMS Patient Care Report"
 * type.coding[+] = $sct#371535009 "Transfer summary report"
-* subject.reference = "Patient/1-PeterMuster" // CDA: recordTarget
+* subject.reference = "Patient/1-ThomasMueller" // CDA: recordTarget
 * encounter.reference = "Encounter/1-Einsatz"
 * date = "2016-12-10T12:05:00.000+01:00"
 * author[0].extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time"
@@ -22,8 +22,8 @@ Usage: #example
 * author[+].reference = "PractitionerRole/1-SaniPetraMuster-PR" //CDA: author.functionCode
 * author[+].extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time"
 * author[=].extension.valueDateTime = "2016-12-10T12:13:05.000+01:00"
-* author[=].reference = "Practitioner/1-NotarztHansNotarzt" // CDA: author.assignedAuthor
-* author[+].reference = "PractitionerRole/1-NotarztHansNotarzt-PR" // CDA: author.functionCode
+* author[=].reference = "Practitioner/1-NotarztPierreUrgentiste" // CDA: author.assignedAuthor
+* author[+].reference = "PractitionerRole/1-NotarztPierreUrgentiste-PR" // CDA: author.functionCode
 * title = "Einsatzprotokoll Rettungsdienst"
 * confidentiality.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode"
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal"
@@ -62,7 +62,7 @@ Usage: #example
             </tr>
             <tr>
                 <td>Team</td>
-                <td>Petra Muster, GLN 7601003330434, Betreuerin / Hans Beispiel, GLN 7601000028105, Betreuer</td>
+                <td>Petra Muster, GLN 7601003330434, Betreuerin / Hans Transportsanitäter, GLN 7601000028105, Betreuer</td>
             </tr>
             <tr>
                 <td>Einsatzort</td>
@@ -122,7 +122,7 @@ Usage: #example
             </tr>
             <tr>
                 <td>Ehefrau</td>
-                <td>Erika Muster</td>
+                <td>Erika Müller</td>
             </tr>
         </tbody>
     </table>
@@ -177,7 +177,7 @@ Usage: #example
     <h4>Weitere</h4>
     <ul>
         <li>Seit dem Frühstück um ca.08:00 Uhr hat er nichts mehr gegessen</li>
-        <li>Peter Muster hat keine Patientenverfügung erstellt</li>
+        <li>Thomas Müller hat keine Patientenverfügung erstellt</li>
         <li>es sind keine anderen medizinische Probleme bekannt</li>
     </ul>
 </div>"

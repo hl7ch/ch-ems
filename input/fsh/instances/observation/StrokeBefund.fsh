@@ -5,7 +5,7 @@ Description: "Example for Observation"
 Usage: #example
 * status = #final
 * code = $sct#716800008 "Face Arm Speech Test score"
-* subject.reference = "Patient/1-PeterMuster"
+* subject.reference = "Patient/1-ThomasMueller"
 
 // T: Time
 * effectiveDateTime = "2016-12-10T11:25:00.000+01:00"

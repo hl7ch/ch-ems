@@ -24,7 +24,7 @@ Usage: #example
 
 * participant[+].extension.url = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-teamrole"
 * participant[=].extension.valueCodeableConcept = $sct#133932002 "Caregiver"
-* participant[=].individual.reference = "Practitioner/1-TeamMemberHansBeispiel"
+* participant[=].individual.reference = "Practitioner/1-TeamMemberHansTransportsanitaeter"
 
 // cdachems-dataelement-54: Einsatzdatum
 * period.start = "2016-12-10"

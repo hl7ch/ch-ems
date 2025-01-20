@@ -5,7 +5,7 @@ Description: "Example for Observation"
 Usage: #example
 * status = #final
 * code = $loinc#75527-2 "Vital status at discharge"
-* subject.reference = "Patient/1-PeterMuster"
+* subject.reference = "Patient/1-ThomasMueller"
 * encounter.reference = "Encounter/1-Einsatz"
 
 // cdachems-dataelement-24 Zustand bei Einsatzende
