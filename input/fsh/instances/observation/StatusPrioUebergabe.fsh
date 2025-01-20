@@ -9,4 +9,4 @@ Usage: #example
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"
 
 // cdachems-dataelement-436 Priorität
-* valueCodeableConcept = $sct#263935005 "yellow"
+* valueCodeableConcept = $sct#371244009 "yellow"
