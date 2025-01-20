@@ -34,7 +34,7 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "rouge"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "rosso"
-* compose.include.concept[+].code = #263935005
+* compose.include.concept[+].code = #371244009
 * compose.include.concept[=].display = "yellow"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "gelb"

@@ -20,6 +20,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#4](https://github.com/hl7ch/ch-ems/issues/4): Remove 'Profile' from profile title
 * [#5](https://github.com/hl7ch/ch-ems/issues/5): Usage of URL instead of OID for IVR CodeSystem
 * [#10](https://github.com/hl7ch/ch-ems/issues/10): Update intro text: date of birth is also required for an EPR document
+* [#7](https://github.com/hl7ch/ch-ems/issues/7): Change inactive code for yellow
 * [#9](https://github.com/hl7ch/ch-ems/issues/9): Update use cases:
    * [DE](usecase-german.html)/[FR](usecase-french.html): Text links to resources contained in the document (Bundle)
    * Renaming persons for simpler understanding (Hans Beispiel -> Hans Transportsanitäter; Hans Notarzt -> Pierre Urgentiste, Hans Spezialarzt -> Claude Spitalarzt, Peter & Erika Muster -> Thomas & Erika Müller)
