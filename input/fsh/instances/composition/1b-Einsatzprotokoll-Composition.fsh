@@ -11,8 +11,8 @@ Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:b5e2bd3b-f670-4b0c-a62d-38303baac826"
 * status = #final
-* type.coding[0] = $loinc#67796-3 "EMS Patient Care Report"
-* type.coding[+] = $sct#371535009 "Transfer summary report"
+* type.coding[0] = $loinc#67796-3 "Wrong display value"
+* type.coding[+] = $sct#371535009 "Wrong display value"
 * subject.reference = "Patient/1-ThomasMueller" // CDA: recordTarget
 * encounter.reference = "Encounter/1-Einsatz"
 * date = "2016-12-10T13:40:00.000+01:00"
