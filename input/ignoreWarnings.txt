@@ -6,9 +6,7 @@ Unknown System 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' specified, so Concept
 Error from http://tx.fhir.org/r4: Unable to provide support for code system http://fhir.de/CodeSystem/dimdi/icd-10-gm
 None of the codings provided are in the value set 'ICD-10 Codes' (http://hl7.org/fhir/ValueSet/icd-10|%
 
-# The following display values do not correspond to the exact wording
-Der Displayname%
-Wrong Display Name%
+
 
 # Reference to draft CodeSystem
 Reference to draft CodeSystem%
