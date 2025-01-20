@@ -8,8 +8,8 @@ Usage: #example
 // cdachems-dataelement-278 : Bedeutung der Statuszeit
 * code = $IVR-CS#1000042 "operational readiness"
 
-* subject.reference = "Patient/1-PeterMuster"
+* subject.reference = "Patient/1-ThomasMueller"
 * encounter.reference = "Encounter/1-Einsatz"
 
 // cdachems-dataelement-286 Statuszeit
-* valueDateTime = "2016-12-10T12:40:00.000+01:00"
+* valueDateTime = "2016-12-10T13:40:00.000+01:00"

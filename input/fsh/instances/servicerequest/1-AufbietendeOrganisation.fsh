@@ -6,10 +6,10 @@ Usage: #example
 * contained = 1-informant
 * status = #completed
 * intent = #order
-* subject.reference = "Patient/1-PeterMuster"
+* subject.reference = "Patient/1-ThomasMueller"
 * encounter.reference = "Encounter/1-Einsatz"
 * requester.reference = "#1-informant"
-* insurance.reference = "Coverage/1-CoveragePeterMuster"
+* insurance.reference = "Coverage/1-CoverageThomasMueller"
 
 
 Instance: 1-informant

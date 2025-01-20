@@ -7,7 +7,7 @@ Usage: #example
 * code = $loinc#9269-2 "Glasgow coma score total"
 * subject.reference = "Patient/2-PatientUnbekannt"
 * encounter.reference = "Encounter/2-Einsatz"
-* effectiveDateTime = "2016-12-10T11:25:00.000+01:00"
+* effectiveDateTime = "2016-12-10T12:25:00.000+01:00"
 
 // cdachems-dataelement-109 GCS-Gesamtscore
 * valueQuantity = 9 '{score}'

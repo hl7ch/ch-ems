@@ -5,7 +5,7 @@ Description: "Example for Observation"
 Usage: #example
 * status = #final
 * code = $sct#404684003 "Clinical finding (finding)"
-* subject.reference = "Patient/1-PeterMuster"
+* subject.reference = "Patient/1-ThomasMueller"
 * encounter.reference = "Encounter/1-Einsatz"
 
 // cdachems-dataelement-468 Symptom, frei
