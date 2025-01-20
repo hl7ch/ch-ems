@@ -17,4 +17,12 @@ Description: "Definition of the observation diagnosis"
 * performer only Reference(CHEmsPractitioner)
 * performer ^short = "Author diagnosis"
 * performer.reference 1..
-* valueCodeableConcept from http://hl7.org/fhir/ValueSet/icd-10 (extensible)
+* value[x] only CodeableConcept
+* valueCodeableConcept.coding ^slicing.discriminator.type = #value
+* valueCodeableConcept.coding ^slicing.discriminator.path = "system"
+* valueCodeableConcept.coding ^slicing.rules = #open
+* valueCodeableConcept.coding contains 
+    icd10 0..1 
+* valueCodeableConcept.coding[icd10].system 1..
+* valueCodeableConcept.coding[icd10].system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
+* valueCodeableConcept.coding[icd10].code 1..

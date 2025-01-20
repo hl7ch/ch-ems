@@ -12,4 +12,4 @@ Usage: #example
 // cdachems-dataelement-488 Ersteller Diagnose
 * performer.reference = "Practitioner/1-SaniPetraMuster"
 
-* valueCodeableConcept = $icd-10-gm#I63 "Hirninfarkt"
+* valueCodeableConcept.coding[icd10] = $icd-10-gm#I63 "Hirninfarkt"
