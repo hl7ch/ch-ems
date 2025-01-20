@@ -4,10 +4,8 @@
 A definition for CodeSystem 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' could not be found, so the code cannot be validated
 Unknown System 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' could not be found, so the code cannot be validated)
 Error from http://tx.fhir.org/r4: Unable to provide support for code system http://fhir.de/CodeSystem/dimdi/icd-10-gm
-None of the codings provided are in the value set 'ICD-10 Codes' (http://hl7.org/fhir/ValueSet/icd-10|%
 
 # The following display values do not correspond to the exact wording
-Der Displayname%
 Wrong Display Name%
 
 # Reference to draft CodeSystem
@@ -20,6 +18,7 @@ UCUM Codes that contain human readable annotations like {score} can be misleadin
 
 # No suitable code 
 None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|%
+None of the codings provided are in the value set 'Patient Contact Relationship ' (http://hl7.org/fhir/ValueSet/patient-contactrelationship|%
 
 # Caused through underlying profiles
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)

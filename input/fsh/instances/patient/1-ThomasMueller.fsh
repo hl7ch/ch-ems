@@ -47,7 +47,8 @@ Usage: #example
 * address.country.extension.valueCoding = urn:iso:std:iso:3166#CH
 
 // participant.associatedEntity
-* contact.extension[personRole].valueCodeableConcept.coding = $sct#74964007 "Other"
-* contact.extension[personRole].valueCodeableConcept.text = "Ehefrau"
-* contact.name.family = "Müller"
-* contact.name.given = "Erika"
+* contact[involvedParticipant].relationship = $v3-RoleCode#thirdParty
+* contact[involvedParticipant].extension[personRole].valueCodeableConcept.coding = $sct#74964007 "Other"
+* contact[involvedParticipant].extension[personRole].valueCodeableConcept.text = "Ehefrau"
+* contact[involvedParticipant].name.family = "Müller"
+* contact[involvedParticipant].name.given = "Erika"

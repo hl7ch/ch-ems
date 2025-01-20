@@ -6,6 +6,7 @@ Alias: $icd-10-gm =                         http://fhir.de/CodeSystem/dimdi/icd-
 // HL7 code systems
 Alias: $v3-ActCode =                        http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: $v2-0203 =                           http://terminology.hl7.org/CodeSystem/v2-0203
+Alias: $v3-RoleCode =                       http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 // Extensions
 Alias: $shareablevalueset =                 http://hl7.org/fhir/StructureDefinition/shareablevalueset

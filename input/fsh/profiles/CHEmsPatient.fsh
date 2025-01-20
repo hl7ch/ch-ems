@@ -19,8 +19,12 @@ Description: "Definition of the patient"
 * gender ^short = "male | female | other"
 * birthDate ^short = "The date of birth for the individual"
 * address ^short = "Address of the patient"
-* contact ^short = "Involved Participant (Person / Organization)"
-* contact.extension contains CHEmsExtPersonRole named personRole 0..*
-* contact.extension[personRole] ^short = "Role of the involved participant"
-* contact.name only CHCoreHumanName
-* contact.name ^short = "Name of the involved participant"
+
+* contact contains
+    involvedParticipant 0..*
+* contact[involvedParticipant] ^short = "Involved Participant (Person / Organization)"
+* contact[involvedParticipant].relationship = $v3-RoleCode#thirdParty
+* contact[involvedParticipant].extension contains CHEmsExtPersonRole named personRole 0..*
+* contact[involvedParticipant].extension[personRole] ^short = "Role of the involved participant"
+* contact[involvedParticipant].name only CHCoreHumanName
+* contact[involvedParticipant].name ^short = "Name of the involved participant"
