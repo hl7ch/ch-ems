@@ -12,4 +12,4 @@ Usage: #example
 * encounter.reference = "Encounter/2-Einsatz"
 
 // cdachems-dataelement-286 Statuszeit
-* valueDateTime = "2016-12-10T11:09:00.000+01:00"
+* valueDateTime = "2016-12-10T12:09:00.000+01:00"

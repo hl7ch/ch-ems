@@ -7,7 +7,7 @@ Usage: #example
 * code = $sct#2931005 "probable diagnosis"
 * subject.reference = "Patient/1-ThomasMueller"
 * encounter.reference = "Encounter/1-Einsatz"
-* effectiveDateTime = "2016-12-10T11:25:00.000+01:00"
+* effectiveDateTime = "2016-12-10T12:25:00.000+01:00"
 
 // cdachems-dataelement-488 Ersteller Diagnose
 * performer.reference = "Practitioner/1-NotarztPierreUrgentiste"

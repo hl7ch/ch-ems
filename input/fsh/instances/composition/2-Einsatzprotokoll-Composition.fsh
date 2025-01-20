@@ -15,9 +15,9 @@ Usage: #example
 * type.coding[+] = $sct#371535009 "Transfer summary report"
 * subject = Reference(2-PatientUnbekannt) // CDA: recordTarget
 * encounter = Reference(2-Einsatz)
-* date = "2016-12-10T12:05:00.000+01:00"
+* date = "2016-12-10T13:05:00.000+01:00"
 * author[0].extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time"
-* author[=].extension.valueDateTime = "2016-12-10T12:13:05.000+01:00"
+* author[=].extension.valueDateTime = "2016-12-10T13:13:05.000+01:00"
 * author[=].reference = "Practitioner/1-SaniPetraMuster" // CDA: author.assignedAuthor
 * author[+].reference = "PractitionerRole/1-SaniPetraMuster-PR" // CDA: author.functionCode
 * title = "Einsatzprotokoll Rettungsdienst"
@@ -25,7 +25,7 @@ Usage: #example
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal"
 * confidentiality = #N
 * attester.mode = #legal
-* attester.time = "2016-12-10T12:13:05.000+01:00"
+* attester.time = "2016-12-10T13:13:05.000+01:00"
 * attester.party.reference = "Practitioner/1-SaniPetraMuster" // CDA: legalAutenticator
 // cdachems-dataelement-61 aufgebotene Organisation
 * custodian.reference = "Organization/1-Rettungsdienst" // CDA: custodian.assignedCustodian.representedCustodian

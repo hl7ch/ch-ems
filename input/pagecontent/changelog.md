@@ -24,6 +24,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * [DE](usecase-german.html)/[FR](usecase-french.html): Text links to resources contained in the document (Bundle)
    * Renaming persons for simpler understanding (Hans Beispiel -> Hans Transportsanitäter; Hans Notarzt -> Pierre Urgentiste, Hans Spezialarzt -> Claude Spitalarzt, Peter & Erika Muster -> Thomas & Erika Müller)
    * Use the same personal names for DE and FR so that it matches the contents of the resources
+   * Adjust times according to the use case 
 
 #### Fixed
 * Replace ci-build links with links to stable version

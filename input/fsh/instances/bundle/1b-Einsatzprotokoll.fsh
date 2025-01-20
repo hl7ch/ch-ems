@@ -7,7 +7,7 @@ Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:b5e2bd3b-f670-4b0c-a62d-38303baac826"
 * type = #document
-* timestamp = "2016-12-10T12:40:00.000+01:00"
+* timestamp = "2016-12-10T13:40:00.000+01:00"
 * entry[0].fullUrl = "http://test.fhir.ch/r4/Composition/1b-Einsatzprotokoll-Composition"
 * entry[=].resource = 1b-Einsatzprotokoll-Composition
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Encounter/1-Einsatz"
