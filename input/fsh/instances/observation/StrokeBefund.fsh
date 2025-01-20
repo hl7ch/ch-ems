@@ -12,7 +12,7 @@ Usage: #example
 
 // F: Face
 * component[face].extension.url = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-laterality"
-* component[face].extension.valueCodeableConcept = $sct#419465000 "Unilateral right"
+* component[face].extension.valueCodeableConcept = $sct#24028007 "Right (qualifier value)"
 * component[face].code = $sct#89545001 "Face structure (body structure)"
 * component[face].valueCodeableConcept = $sct#373066001 "Yes (qualifier value)"
 // A: Arm

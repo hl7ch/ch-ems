@@ -25,12 +25,6 @@ None of the codings provided are in the value set 'IdentifierType' (http://hl7.o
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
 
-# https://github.com/hl7ch/ch-ems/issues/7
-The code '263935005' is valid but is not active
-
-# https://github.com/hl7ch/ch-ems/issues/8
-The code '419465000' is valid but is not active
-
 # Non-EPR conform examples 
 WARNING: Patient/2-PatientUnbekannt: Patient: Constraint failed: ch-ems-epr-patient: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient)
 WARNING: Bundle/2b-Einsatzprotokoll: Bundle.entry[0].resource: Constraint failed: ch-ems-epr-composition: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition)
