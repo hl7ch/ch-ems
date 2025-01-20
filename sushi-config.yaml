@@ -24,6 +24,10 @@ contact:
 dependencies:
   ch.fhir.ig.ch-core: 5.0.0
 
+# For parameters defined by core FHIR see: 
+# http://build.fhir.org/codesystem-guide-parameter-code.html
+# For parameters defined by the FHIR Tools IG  see:
+# http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 parameters:
   excludettl: true
   allow-extensible-warnings: true
