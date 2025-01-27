@@ -12,6 +12,7 @@ Alias: $v3-RoleCode =                       http://terminology.hl7.org/CodeSyste
 Alias: $shareablevalueset =                 http://hl7.org/fhir/StructureDefinition/shareablevalueset
 Alias: $iso21090-ADXP-houseNumber =         http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
 Alias: $ch-ext-ech-10-linetype =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype
+Alias: $ordinalValue =                      http://hl7.org/fhir/StructureDefinition/ordinalValue
 
 // CH EMS terminology
 Alias: $IVR-CS =                            http://fhir.ch/ig/ch-ems/CodeSystem/IVR
@@ -27,3 +28,6 @@ Alias: $IVR-VS-teamRole =                   http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-preTreatType =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatType
 Alias: $IVR-VS-preTreatment =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatment
 Alias: $IVR-VS-personRole =                 http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-personRole
+Alias: $IVR-VS-gcs-augenoeffnung =          http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcs-augenoeffnung
+Alias: $IVR-VS-gcsMotoric =                 http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsMotoric
+Alias: $IVR-VS-gcsVerbal =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsVerbal
