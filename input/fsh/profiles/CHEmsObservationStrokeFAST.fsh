@@ -1,18 +1,11 @@
 Profile: CHEmsObservationStrokeFAST
-Parent: Observation
+Parent: CHEmsObservation
 Id: ch-ems-observation-stroke-fast
 Title: "CH EMS Observation Stroke/FAST"
 Description: "Definition of the observation Stroke/FAST"
-* . ^short = "CH EMS Observation"
+* . ^short = "CH EMS Observation Stroke/FAST"
 * code = $sct#716800008 // "Face Arm Speech Test score"
 * code ^short = "Stroke / FAST"
-* subject 1..
-* subject only Reference(CHEmsPatient)
-* subject ^short = "Patient"
-* subject.reference 1..
-* encounter only Reference(CHEmsEncounter)
-* encounter ^short = "Emergency service during which this observation is made"
-* encounter.reference 1..
 * effectiveDateTime 1..
 * effectiveDateTime ^short = "T: Time"
 * component ..3
