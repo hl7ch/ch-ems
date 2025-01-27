@@ -33,3 +33,6 @@ WARNING: Bundle/2-Einsatzprotokoll: Bundle.entry[0].resource: Constraint failed:
 WARNING: Bundle/2-Einsatzprotokoll: Bundle.entry[2].resource/*Patient/2-PatientUnbekannt*/: Constraint failed: ch-ems-epr-patient: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient)
 WARNING: Bundle/2-Einsatzprotokoll: Bundle: Constraint failed: ch-ems-epr-document: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document)
 WARNING: Practitioner/SaniInAusbildung: Practitioner: Constraint failed: ch-ems-epr-practitioner: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner)
+
+# Base profile for all Observation profiles
+INFORMATION: StructureDefinition/ch-ems-observation: StructureDefinition​.where(url = 'http:​/​/fhir​.ch​/ig​/ch-ems​/StructureDefinition​/ch-ems-observation'): The Implementation Guide contains no explicitly linked examples for this profile
