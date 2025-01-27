@@ -13,5 +13,6 @@ Description: "Definition of the observation anamnesis symptom"
 * encounter only Reference(CHEmsEncounter)
 * encounter ^short = "Emergency service during which this observation is made"
 * encounter.reference 1..
-* valueCodeableConcept = $sct#162408000 // "General symptom description (finding)"
-* valueCodeableConcept.text ^short = "General symptom description"
+* value[x] only CodeableConcept
+* value[x] = $sct#162408000 // "General symptom description (finding)"
+* value[x].text ^short = "General symptom description"
