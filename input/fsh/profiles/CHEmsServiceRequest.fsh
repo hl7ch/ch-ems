@@ -1,7 +1,7 @@
 Profile: CHEmsServiceRequest
 Parent: CHCoreServiceRequest
 Id: ch-ems-servicerequest
-Title: "CH EMS Service Request"
+Title: "CH EMS ServiceRequest"
 Description: "Definition of the service request"
 * . ^short = "CH EMS ServiceRequest"
 * contained ^short = "Inline Resources for requester"
