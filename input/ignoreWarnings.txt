@@ -35,4 +35,4 @@ WARNING: Bundle/2-Einsatzprotokoll: Bundle: Constraint failed: ch-ems-epr-docume
 WARNING: Practitioner/SaniInAusbildung: Practitioner: Constraint failed: ch-ems-epr-practitioner: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner)
 
 # Base profile for all Observation profiles
-INFORMATION: StructureDefinition/ch-ems-observation: StructureDefinition​.where(url = 'http:​/​/fhir​.ch​/ig​/ch-ems​/StructureDefinition​/ch-ems-observation'): The Implementation Guide contains no explicitly linked examples for this profile
+The Implementation Guide contains no explicitly linked examples for this profile
