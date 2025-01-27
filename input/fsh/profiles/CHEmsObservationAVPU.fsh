@@ -13,4 +13,5 @@ Description: "Definition of the observation level of responsiveness (AVPU)"
 * encounter only Reference(CHEmsEncounter)
 * encounter ^short = "Emergency service during which this observation is made"
 * encounter.reference 1..
-* valueCodeableConcept from $IVR-VS-vigilanzAvpu (extensible)
+* value[x] only CodeableConcept
+* value[x] from $IVR-VS-vigilanzAvpu (extensible)

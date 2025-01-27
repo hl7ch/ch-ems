@@ -13,5 +13,6 @@ Description: "Definition of the observation anamnesis event"
 * encounter only Reference(CHEmsEncounter)
 * encounter ^short = "Emergency service during which this observation is made"
 * encounter.reference 1..
-* valueCodeableConcept from $IVR-VS-event (extensible)
-* valueCodeableConcept.text ^short = "General symptom description"
+* value[x] only CodeableConcept
+* value[x] from $IVR-VS-event (extensible)
+* value[x].text ^short = "General symptom description"

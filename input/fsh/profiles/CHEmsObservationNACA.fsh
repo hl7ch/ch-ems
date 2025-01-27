@@ -13,4 +13,5 @@ Description: "Definition of the observation injury severity (NACA)"
 * encounter only Reference(CHEmsEncounter)
 * encounter ^short = "Emergency service during which this observation is made"
 * encounter.reference 1..
-* valueCodeableConcept from $IVR-VS-NACA (extensible)
+* value[x] only CodeableConcept
+* value[x] from $IVR-VS-NACA (extensible)
