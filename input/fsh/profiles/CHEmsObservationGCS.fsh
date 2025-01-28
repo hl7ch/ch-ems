@@ -16,25 +16,31 @@ Description: "Definition of the observation glasgow coma scale"
     eyeOpening 0..*
 * component[motor] ^short = "Glasgow coma score motor"
 * component[motor].code = $loinc#9268-4 // "Glasgow coma score motor"
-* component[motor].valueCodeableConcept 1..
-* component[motor].valueCodeableConcept only CodeableConcept
-* component[motor].valueCodeableConcept.coding 1..
-* component[motor].valueCodeableConcept.coding.system 1..
-* component[motor].valueCodeableConcept.coding.system = "http://loinc.org" (exactly)
-* component[motor].valueCodeableConcept.coding.code 1..
+* component[motor].value[x] 1..
+* component[motor].value[x] only CodeableConcept
+* component[motor].value[x] from $IVR-VS-gcsMotoric (extensible)
+* component[motor].value[x].coding.extension contains $ordinalValue named ordinalValue 0..1
+* component[motor].value[x].coding 1..
+* component[motor].value[x].coding.system 1..
+* component[motor].value[x].coding.system = "http://loinc.org" (exactly)
+* component[motor].value[x].coding.code 1..
 * component[verbal] ^short = "Glasgow coma score verbal"
 * component[verbal].code = $loinc#9270-0 // "Glasgow coma score verbal"
-* component[verbal].valueCodeableConcept 1..
-* component[verbal].valueCodeableConcept only CodeableConcept
-* component[verbal].valueCodeableConcept.coding 1..
-* component[verbal].valueCodeableConcept.coding.system 1..
-* component[verbal].valueCodeableConcept.coding.system = "http://loinc.org" (exactly)
-* component[verbal].valueCodeableConcept.coding.code 1..
+* component[verbal].value[x] 1..
+* component[verbal].value[x] only CodeableConcept
+* component[verbal].value[x] from $IVR-VS-gcsVerbal (extensible)
+* component[verbal].value[x].coding.extension contains $ordinalValue named ordinalValue 0..1
+* component[verbal].value[x].coding 1..
+* component[verbal].value[x].coding.system 1..
+* component[verbal].value[x].coding.system = "http://loinc.org" (exactly)
+* component[verbal].value[x].coding.code 1..
 * component[eyeOpening] ^short = "Glasgow coma score eye opening"
 * component[eyeOpening].code = $loinc#9267-6 // "Glasgow coma score eye opening"
-* component[eyeOpening].valueCodeableConcept 1..
-* component[eyeOpening].valueCodeableConcept only CodeableConcept
-* component[eyeOpening].valueCodeableConcept.coding 1..
-* component[eyeOpening].valueCodeableConcept.coding.system 1..
-* component[eyeOpening].valueCodeableConcept.coding.system = "http://loinc.org" (exactly)
-* component[eyeOpening].valueCodeableConcept.coding.code 1..
+* component[eyeOpening].value[x] 1..
+* component[eyeOpening].value[x] only CodeableConcept
+* component[eyeOpening].value[x] from $IVR-VS-gcs-augenoeffnung (extensible)
+* component[eyeOpening].value[x].coding.extension contains $ordinalValue named ordinalValue 0..1
+* component[eyeOpening].value[x].coding 1..
+* component[eyeOpening].value[x].coding.system 1..
+* component[eyeOpening].value[x].coding.system = "http://loinc.org" (exactly)
+* component[eyeOpening].value[x].coding.code 1..

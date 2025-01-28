@@ -6,4 +6,5 @@ Description: "Definition of the observation injury severity (NACA)"
 * . ^short = "CH EMS Observation NACA"
 * code = $loinc#88076-5 // "Injury severity score NACA"
 * code ^short = "Injury severity score NACA"
-* valueCodeableConcept from $IVR-VS-NACA (extensible)
+* value[x] only CodeableConcept
+* value[x] from $IVR-VS-NACA (extensible)

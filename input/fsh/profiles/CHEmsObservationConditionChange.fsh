@@ -6,4 +6,5 @@ Description: "Definition of the observation condition change"
 * . ^short = "CH EMS Observation Condition Change"
 * code = $loinc#75527-2 // "Vital status at discharge"
 * code ^short = "Patient Condition Change"
-* valueCodeableConcept from $IVR-VS-result (extensible)
+* value[x] only CodeableConcept
+* value[x] from $IVR-VS-result (extensible)

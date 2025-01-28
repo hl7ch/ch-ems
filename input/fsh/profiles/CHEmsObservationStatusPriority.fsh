@@ -6,4 +6,5 @@ Description: "Definition of the observation status priority"
 * . ^short = "CH EMS Observation Status Priority"
 * code = $loinc#77941-3 // "Final patient acuity"
 * code ^short = "Patient Status"
-* valueCodeableConcept from $IVR-VS-hospitalPriority (extensible)
+* value[x] only CodeableConcept
+* value[x] from $IVR-VS-hospitalPriority (extensible)

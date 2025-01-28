@@ -31,6 +31,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#11](https://github.com/hl7ch/ch-ems/issues/11): Add involved participant slice with relationship code 'thirdParty'
 * [#24](https://github.com/hl7ch/ch-ems/issues/24): Add slices for all Bundle.entry
    * Add a CH EMS Observation base profile with all common observation requirements defined
+* [#18](https://github.com/hl7ch/ch-ems/issues/18): Add value set binding to profiles/elements 
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
    * Add CH EMS Observation: Breathing
    * Add a CH EMS Procedure base profile with all common procedure requirements defined
