@@ -15,6 +15,7 @@ Reference to draft CodeSystem%
 Best Practice Recommendation: In general, all observations should have a performer
 Best Practice Recommendation: In general, all observations should have an effective[x] ()
 UCUM Codes that contain human readable annotations like {score} can be misleading (e.g. they are ignored when comparing units). Best Practice is not to depend on annotations in the UCUM code, so this usage should be checked, and the Quantity.unit SHOULD contain the annotation
+Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 # No suitable code 
 None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|%
@@ -33,3 +34,6 @@ WARNING: Bundle/2-Einsatzprotokoll: Bundle.entry[0].resource: Constraint failed:
 WARNING: Bundle/2-Einsatzprotokoll: Bundle.entry[2].resource/*Patient/2-PatientUnbekannt*/: Constraint failed: ch-ems-epr-patient: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient)
 WARNING: Bundle/2-Einsatzprotokoll: Bundle: Constraint failed: ch-ems-epr-document: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document)
 WARNING: Practitioner/SaniInAusbildung: Practitioner: Constraint failed: ch-ems-epr-practitioner: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner)
+
+# Base profile for all Observation profiles
+The Implementation Guide contains no explicitly linked examples for this profile

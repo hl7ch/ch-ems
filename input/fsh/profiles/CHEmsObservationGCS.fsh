@@ -1,18 +1,11 @@
 Profile: CHEmsObservationGCS
-Parent: Observation
+Parent: CHEmsObservation
 Id: ch-ems-observation-gcs
 Title: "CH EMS Observation GCS"
 Description: "Definition of the observation glasgow coma scale"
-* . ^short = "CH EMS Observation"
+* . ^short = "CH EMS Observation GCS"
 * code = $loinc#9269-2 // "Glasgow coma score total"
 * code ^short = "Glasgow coma score total"
-* subject 1..
-* subject only Reference(CHEmsPatient)
-* subject ^short = "Patient"
-* subject.reference 1..
-* encounter only Reference(CHEmsEncounter)
-* encounter ^short = "Emergency service during which this observation is made"
-* encounter.reference 1..
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.ordered = false

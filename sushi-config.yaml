@@ -24,15 +24,6 @@ contact:
 dependencies:
   ch.fhir.ig.ch-core: 5.0.0
 
-# For parameters defined by core FHIR see: 
-# http://build.fhir.org/codesystem-guide-parameter-code.html
-# For parameters defined by the FHIR Tools IG  see:
-# http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
-parameters:
-  excludettl: true
-  allow-extensible-warnings: true
-  display-warnings: true    
-
 pages:
   index.md:
     title: Home
@@ -54,3 +45,43 @@ pages:
     title: Terminology
   changelog.md:
     title: Changelog
+
+menu:
+  Home:
+    English: index.html
+    German: index-german.html
+    French: index-french.html
+  Use Case:
+    German: usecase-german.html
+    French: usecase-french.html
+  Document: document.html
+  Profiles: profiles.html
+  Extensions: extensions.html
+  Terminology: terminology.html
+  Artifacts: artifacts.html
+
+# For parameters defined by core FHIR see: 
+# http://build.fhir.org/codesystem-guide-parameter-code.html
+# For parameters defined by the FHIR Tools IG  see:
+# http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
+parameters:
+  excludettl: true
+  allow-extensible-warnings: true
+  display-warnings: true    
+  no-narrative: 
+  - Bundle/*
+  - Composition/*
+  - Coverage/*
+  - Encounter/*
+  - Location/*
+  - Observation/*
+  - Organization/*
+  - Patient/*
+  - Practitioner/*
+  - PractitionerRole/*
+  - Procedure/*
+  - ServiceRequest/*
+
+instanceOptions:  
+  setMetaProfile: never
+

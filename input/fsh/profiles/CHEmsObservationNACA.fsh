@@ -1,17 +1,10 @@
 Profile: CHEmsObservationNACA
-Parent: Observation
+Parent: CHEmsObservation
 Id: ch-ems-observation-naca
 Title: "CH EMS Observation NACA"
 Description: "Definition of the observation injury severity (NACA)"
-* . ^short = "CH EMS Observation"
+* . ^short = "CH EMS Observation NACA"
 * code = $loinc#88076-5 // "Injury severity score NACA"
 * code ^short = "Injury severity score NACA"
-* subject 1..
-* subject only Reference(CHEmsPatient)
-* subject ^short = "Patient"
-* subject.reference 1..
-* encounter only Reference(CHEmsEncounter)
-* encounter ^short = "Emergency service during which this observation is made"
-* encounter.reference 1..
 * value[x] only CodeableConcept
 * value[x] from $IVR-VS-NACA (extensible)

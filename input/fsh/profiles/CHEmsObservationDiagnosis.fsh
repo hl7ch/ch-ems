@@ -1,18 +1,11 @@
 Profile: CHEmsObservationDiagnosis
-Parent: Observation
+Parent: CHEmsObservation
 Id: ch-ems-observation-diagnosis
 Title: "CH EMS Observation Diagnosis"
 Description: "Definition of the observation diagnosis"
-* . ^short = "CH EMS Observation"
+* . ^short = "CH EMS Observation Diagnosis"
 * code from $IVR-VS-diagType (extensible)
 * code ^short = "Diagnosis type"
-* subject 1..
-* subject only Reference(CHEmsPatient)
-* subject ^short = "Patient"
-* subject.reference 1..
-* encounter only Reference(CHEmsEncounter)
-* encounter ^short = "Emergency service during which this observation is made"
-* encounter.reference 1..
 * performer ..1
 * performer only Reference(CHEmsPractitioner)
 * performer ^short = "Author diagnosis"
