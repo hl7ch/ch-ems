@@ -202,9 +202,9 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[procedures].section[airway].title 1..
 * section[procedures].section[airway].title = "Airway" (exactly)
 * section[procedures].section[airway].entry ..1
-//* section[procedures].section[airway].entry only Reference()
-//* section[procedures].section[airway].entry ^short = "Observation Airways"
-//* section[procedures].section[airway].entry.reference 1..
+* section[procedures].section[airway].entry only Reference(CHEmsProcedureAirways)
+* section[procedures].section[airway].entry ^short = "Procedure Airways"
+* section[procedures].section[airway].entry.reference 1..
 * section[procedures].section[airway].section 0..0
 * section[procedures].section[breathing] ^short = "Breathing"
 * section[procedures].section[breathing].title 1..

@@ -53,3 +53,5 @@ Definition of the observation level of responsiveness (AVPU)
 Definition of the observation Stroke/FAST  
 * [CH EMS Observation Diagnosis](StructureDefinition-ch-ems-observation-diagnosis.html)  
 Definition of the observation diagnosis
+* [CH EMS Procedure: Airways](StructureDefinition-ch-ems-procedure-airways.html)
+This profile constrains the Procedure resource for representing the airways procedures.

@@ -27,3 +27,4 @@ Alias: $IVR-VS-teamRole =                   http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-preTreatType =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatType
 Alias: $IVR-VS-preTreatment =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatment
 Alias: $IVR-VS-personRole =                 http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-personRole
+Alias: $IVR-VS-procAirType =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-procAirType
