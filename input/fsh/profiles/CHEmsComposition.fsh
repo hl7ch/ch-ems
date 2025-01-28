@@ -128,7 +128,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[findings].section[breathing].title 1..
 * section[findings].section[breathing].title = "Breathing" (exactly)
 * section[findings].section[breathing].entry ..1
-//* section[findings].section[breathing].entry only Reference(CHEmsObservationAirways)
+//* section[findings].section[breathing].entry only Reference()
 //* section[findings].section[breathing].entry ^short = "Observation Airways"
 //* section[findings].section[breathing].entry.reference 1..
 * section[findings].section[breathing].section 0..0
@@ -164,7 +164,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[findings].section[exposure].title 1..
 * section[findings].section[exposure].title = "Exposure" (exactly)
 * section[findings].section[exposure].entry ..1
-//* section[findings].section[exposure].entry only Reference(CHEmsObservationAirways)
+//* section[findings].section[exposure].entry only Reference()
 //* section[findings].section[exposure].entry ^short = "Observation Airways"
 //* section[findings].section[exposure].entry.reference 1..
 * section[findings].section[exposure].section 0..0
@@ -202,7 +202,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[procedures].section[airway].title 1..
 * section[procedures].section[airway].title = "Airway" (exactly)
 * section[procedures].section[airway].entry ..1
-//* section[procedures].section[airway].entry only Reference(CHEmsObservationAirways)
+//* section[procedures].section[airway].entry only Reference()
 //* section[procedures].section[airway].entry ^short = "Observation Airways"
 //* section[procedures].section[airway].entry.reference 1..
 * section[procedures].section[airway].section 0..0
@@ -210,7 +210,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[procedures].section[breathing].title 1..
 * section[procedures].section[breathing].title = "Breathing" (exactly)
 * section[procedures].section[breathing].entry ..1
-//* section[procedures].section[breathing].entry only Reference(CHEmsObservationAirways)
+//* section[procedures].section[breathing].entry only Reference()
 //* section[procedures].section[breathing].entry ^short = "Observation Airways"
 //* section[procedures].section[breathing].entry.reference 1..
 * section[procedures].section[breathing].section 0..0
@@ -248,7 +248,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[procedures].section[exposure].title 1..
 * section[procedures].section[exposure].title = "Exposure" (exactly)
 * section[procedures].section[exposure].entry ..1
-//* section[procedures].section[exposure].entry only Reference(CHEmsObservationAirways)
+//* section[procedures].section[exposure].entry only Reference()
 //* section[procedures].section[exposure].entry ^short = "Observation Airways"
 //* section[procedures].section[exposure].entry.reference 1..
 * section[procedures].section[exposure].section 0..0
