@@ -41,8 +41,8 @@ Definition of the procedure
 Definition of the observation anamnesis event
 * [CH EMS Observation Anamnesis Symptom](StructureDefinition-ch-ems-observation-anamnesissymptom.html)  
 Definition of the observation anamnesis symptom
-* [CH EMS Observation Airways](StructureDefinition-ch-ems-observation-airways.html)  
-Definition of the observation airways
+* [CH EMS Observation: Airways](StructureDefinition-ch-ems-observation-airways.html)  
+This profile constrains the Observation resource for representing the findings of the airways.
 * [CH EMS Observation Cardiac Arrest](StructureDefinition-ch-ems-observation-cardiacarrest.html)  
 Definition of the observation cardiac arrest  
 * [CH EMS Observation GCS](StructureDefinition-ch-ems-observation-gcs.html)  
