@@ -74,7 +74,7 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[pretreatment].code = $IVR-CS#1100004 // "Vorbehandlung"
 * section[pretreatment].text 1..1
 * section[pretreatment].text ^short = "Human readable text of this section"
-* section[pretreatment].entry only Reference(CHEmsProcedure)
+* section[pretreatment].entry only Reference(CHEmsProcedurePretreatment)
 * section[pretreatment].entry ^short = "Procedure"
 * section[pretreatment].entry.reference 1..
 * section[pretreatment].section 0..0

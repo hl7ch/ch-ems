@@ -35,8 +35,8 @@ Definition of the observation condition change
 Definition of the observation injury severity (NACA)  
 
 #### Medical Data
-* [CH EMS Procedure](StructureDefinition-ch-ems-procedure.html)  
-Definition of the procedure
+* [CH EMS Procedure: Pretreatment](StructureDefinition-ch-ems-procedure-pretreatment.html)  
+This profile constrains the Procedure resource for representing the pretreatment procedures.
 * [CH EMS Observation Anamnesis Event](StructureDefinition-ch-ems-observation-anamnesisevent.html)  
 Definition of the observation anamnesis event
 * [CH EMS Observation Anamnesis Symptom](StructureDefinition-ch-ems-observation-anamnesissymptom.html)  
