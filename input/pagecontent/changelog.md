@@ -35,6 +35,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Add a CH EMS Procedure base profile with all common procedure requirements defined
    * Rename CH EMS Procedure to CH EMS Procedure: Pretreatment
    * Add CH EMS Procedure: Airways
+   * Add CH EMS Procedure: Breathing
 
 #### Fixed
 * Replace ci-build links with links to stable version

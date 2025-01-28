@@ -55,3 +55,5 @@ Definition of the observation Stroke/FAST
 Definition of the observation diagnosis
 * [CH EMS Procedure: Airways](StructureDefinition-ch-ems-procedure-airways.html)
 This profile constrains the Procedure resource for representing the airways procedures.
+* [CH EMS Procedure: Breathing](StructureDefinition-ch-ems-procedure-breathing.html)
+This profile constrains the Procedure resource for representing the breathing procedures.
