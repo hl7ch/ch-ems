@@ -112,8 +112,10 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[findings].section ^slicing.rules = #open
 * section[findings].section contains
     airway 0..1 and
+    breathing 0..1 and
     circulation 0..1 and
-    disability 0..1
+    disability 0..1 and 
+    exposure 0..1
 * section[findings].section[airway] ^short = "Airway"
 * section[findings].section[airway].title 1..
 * section[findings].section[airway].title = "Airway" (exactly)
@@ -122,6 +124,14 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[findings].section[airway].entry ^short = "Observation Airways"
 * section[findings].section[airway].entry.reference 1..
 * section[findings].section[airway].section 0..0
+* section[findings].section[breathing] ^short = "Breathing"
+* section[findings].section[breathing].title 1..
+* section[findings].section[breathing].title = "Breathing" (exactly)
+* section[findings].section[breathing].entry ..1
+//* section[findings].section[breathing].entry only Reference(CHEmsObservationAirways)
+//* section[findings].section[breathing].entry ^short = "Observation Airways"
+//* section[findings].section[breathing].entry.reference 1..
+* section[findings].section[breathing].section 0..0
 * section[findings].section[circulation] ^short = "Circulation"
 * section[findings].section[circulation].title 1..
 * section[findings].section[circulation].title = "Circulation" (exactly)
@@ -150,6 +160,14 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[findings].section[disability].entry[injurySeverity] ^short = "Injury Severity (Stroke/FAST)"
 * section[findings].section[disability].entry[injurySeverity].reference 1..
 * section[findings].section[disability].section 0..0
+* section[findings].section[exposure] ^short = "Exposure"
+* section[findings].section[exposure].title 1..
+* section[findings].section[exposure].title = "Exposure" (exactly)
+* section[findings].section[exposure].entry ..1
+//* section[findings].section[exposure].entry only Reference(CHEmsObservationAirways)
+//* section[findings].section[exposure].entry ^short = "Observation Airways"
+//* section[findings].section[exposure].entry.reference 1..
+* section[findings].section[exposure].section 0..0
 
 * section[diagnosis] ^short = "Diagnosis"
 * section[diagnosis].title 1..1
@@ -171,7 +189,69 @@ Description: "Definition of the composition for the use of the emergency medical
 * section[procedures].code = $IVR-CS#1100008 // "Massnahmen"
 * section[procedures].text 1..1
 * section[procedures].text ^short = "Human readable text of this section"
-* section[procedures].section 0..0
+* section[procedures].section ^slicing.discriminator.type = #value
+* section[procedures].section ^slicing.discriminator.path = "title"
+* section[procedures].section ^slicing.rules = #open
+* section[procedures].section contains
+    airway 0..1 and
+    breathing 0..1 and
+    circulation 0..1 and
+    disability 0..1 and 
+    exposure 0..1
+* section[procedures].section[airway] ^short = "Airway"
+* section[procedures].section[airway].title 1..
+* section[procedures].section[airway].title = "Airway" (exactly)
+* section[procedures].section[airway].entry ..1
+//* section[procedures].section[airway].entry only Reference(CHEmsObservationAirways)
+//* section[procedures].section[airway].entry ^short = "Observation Airways"
+//* section[procedures].section[airway].entry.reference 1..
+* section[procedures].section[airway].section 0..0
+* section[procedures].section[breathing] ^short = "Breathing"
+* section[procedures].section[breathing].title 1..
+* section[procedures].section[breathing].title = "Breathing" (exactly)
+* section[procedures].section[breathing].entry ..1
+//* section[procedures].section[breathing].entry only Reference(CHEmsObservationAirways)
+//* section[procedures].section[breathing].entry ^short = "Observation Airways"
+//* section[procedures].section[breathing].entry.reference 1..
+* section[procedures].section[breathing].section 0..0
+* section[procedures].section[circulation] ^short = "Circulation"
+* section[procedures].section[circulation].title 1..
+* section[procedures].section[circulation].title = "Circulation" (exactly)
+* section[procedures].section[circulation].entry ..1
+//* section[procedures].section[circulation].entry only Reference(CHEmsObservationCardiacArrest)
+//* section[procedures].section[circulation].entry ^short = "Observation Cardiac Arrest"
+//* section[procedures].section[circulation].entry.reference 1..
+* section[procedures].section[circulation].section 0..0
+* section[procedures].section[disability] ^short = "Disability"
+* section[procedures].section[disability].title 1..
+* section[procedures].section[disability].title = "Disability" (exactly)
+/*
+* section[procedures].section[disability].entry ^slicing.discriminator.type = #profile
+* section[procedures].section[disability].entry ^slicing.discriminator.path = "resolve()"
+* section[procedures].section[disability].entry ^slicing.rules = #open
+* section[procedures].section[disability].entry contains
+    glasgowComaScale 0..1 and
+    levelOfResponsiveness 0..1 and
+    injurySeverity 0..1
+* section[procedures].section[disability].entry[glasgowComaScale] only Reference(CHEmsObservationGCS)
+* section[procedures].section[disability].entry[glasgowComaScale] ^short = "Glasgow coma scale"
+* section[procedures].section[disability].entry[glasgowComaScale].reference 1..
+* section[procedures].section[disability].entry[levelOfResponsiveness] only Reference(CHEmsObservationAVPU)
+* section[procedures].section[disability].entry[levelOfResponsiveness] ^short = "Level of Responsiveness (AVPU)"
+* section[procedures].section[disability].entry[levelOfResponsiveness].reference 1..
+* section[procedures].section[disability].entry[injurySeverity] only Reference(CHEmsObservationStrokeFAST)
+* section[procedures].section[disability].entry[injurySeverity] ^short = "Injury Severity (Stroke/FAST)"
+* section[procedures].section[disability].entry[injurySeverity].reference 1..
+*/
+* section[procedures].section[disability].section 0..0
+* section[procedures].section[exposure] ^short = "Exposure"
+* section[procedures].section[exposure].title 1..
+* section[procedures].section[exposure].title = "Exposure" (exactly)
+* section[procedures].section[exposure].entry ..1
+//* section[procedures].section[exposure].entry only Reference(CHEmsObservationAirways)
+//* section[procedures].section[exposure].entry ^short = "Observation Airways"
+//* section[procedures].section[exposure].entry.reference 1..
+* section[procedures].section[exposure].section 0..0
 
 * section[eventOfDeath] ^short = "Event of death"
 * section[eventOfDeath].title 1..1
