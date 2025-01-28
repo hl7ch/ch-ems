@@ -43,6 +43,8 @@ Definition of the observation anamnesis event
 Definition of the observation anamnesis symptom
 * [CH EMS Observation: Airways](StructureDefinition-ch-ems-observation-airways.html)  
 This profile constrains the Observation resource for representing the findings of the airways.
+* [CH EMS Observation: Breathing](StructureDefinition-ch-ems-observation-breathing.html)   
+This profile constrains the Observation resource for representing the findings of the breathing.
 * [CH EMS Observation Cardiac Arrest](StructureDefinition-ch-ems-observation-cardiacarrest.html)  
 Definition of the observation cardiac arrest  
 * [CH EMS Observation GCS](StructureDefinition-ch-ems-observation-gcs.html)  
@@ -53,7 +55,7 @@ Definition of the observation level of responsiveness (AVPU)
 Definition of the observation Stroke/FAST  
 * [CH EMS Observation Diagnosis](StructureDefinition-ch-ems-observation-diagnosis.html)  
 Definition of the observation diagnosis
-* [CH EMS Procedure: Airways](StructureDefinition-ch-ems-procedure-airways.html)
+* [CH EMS Procedure: Airways](StructureDefinition-ch-ems-procedure-airways.html)   
 This profile constrains the Procedure resource for representing the airways procedures.
-* [CH EMS Procedure: Breathing](StructureDefinition-ch-ems-procedure-breathing.html)
+* [CH EMS Procedure: Breathing](StructureDefinition-ch-ems-procedure-breathing.html)   
 This profile constrains the Procedure resource for representing the breathing procedures.

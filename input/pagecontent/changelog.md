@@ -32,6 +32,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#24](https://github.com/hl7ch/ch-ems/issues/24): Add slices for all Bundle.entry
    * Add a CH EMS Observation base profile with all common observation requirements defined
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
+   * Add CH EMS Observation: Breathing
    * Add a CH EMS Procedure base profile with all common procedure requirements defined
    * Rename CH EMS Procedure to CH EMS Procedure: Pretreatment
    * Add CH EMS Procedure: Airways
