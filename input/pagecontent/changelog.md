@@ -29,6 +29,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#8](https://github.com/hl7ch/ch-ems/issues/8): Update inactive codes for left and right, add VS Laterality   
 * [#12](https://github.com/hl7ch/ch-ems/issues/12): Add ICD-10 slice with fixed system instead of value set with different code system
 * [#11](https://github.com/hl7ch/ch-ems/issues/11): Add involved participant slice with relationship code 'thirdParty'
+* [#18](https://github.com/hl7ch/ch-ems/issues/18): Add value set binding to profiles/elements 
 * [#24](https://github.com/hl7ch/ch-ems/issues/24): Add slices for all Bundle.entry (with adding a CH EMS Observation base profile with all common observation requirements defined)
 
 #### Fixed

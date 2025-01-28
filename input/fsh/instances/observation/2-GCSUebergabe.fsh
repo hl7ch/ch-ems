@@ -14,21 +14,18 @@ Usage: #example
 
 // cdachems-dataelement-112 GCS-motorische Kommunikation
 * component[0].code = $loinc#9268-4 "Glasgow coma score motor"
-* component[=].valueCodeableConcept.coding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
-* component[=].valueCodeableConcept.coding.extension.valueDecimal = 3
+* component[=].valueCodeableConcept.coding.extension[ordinalValue].valueDecimal = 3
 * component[=].valueCodeableConcept.coding = $loinc#LA6564-4 "Flexion to pain"
 * component[=].valueCodeableConcept.text = "3 (Flexion to pain)"
 
 // cdachems-dataelement-111 GCS-verbale Kommunikation
 * component[+].code = $loinc#9270-0 "Glasgow coma score verbal"
-* component[=].valueCodeableConcept.coding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
-* component[=].valueCodeableConcept.coding.extension.valueDecimal = 4
+* component[=].valueCodeableConcept.coding.extension[ordinalValue].valueDecimal = 4
 * component[=].valueCodeableConcept.coding = $loinc#LA6560-2 "Confused"
 * component[=].valueCodeableConcept.text = "4 (Confused)"
 
 // cdachems-dataelement GCS-Augenöffnung 110
 * component[+].code = $loinc#9267-6 "Glasgow coma score eye opening"
-* component[=].valueCodeableConcept.coding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
-* component[=].valueCodeableConcept.coding.extension.valueDecimal = 3
+* component[=].valueCodeableConcept.coding.extension[ordinalValue].valueDecimal = 3
 * component[=].valueCodeableConcept.coding = $loinc#LA6555-2 "Eye opening to verbal command"
 * component[=].valueCodeableConcept.text = "3 (Eye opening to verbal command)"

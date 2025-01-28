@@ -25,22 +25,22 @@ Description: "Definition of the observation Stroke/FAST"
 * component[face].extension only CHEmsExtLaterality
 * component[face].extension ^short = "Affected side of the face"
 * component[face].code = $sct#89545001 // "Face structure (body structure)"
-* component[face].valueCodeableConcept 1..
-* component[face].valueCodeableConcept only CodeableConcept
-* component[face].valueCodeableConcept from YesNoUnknown (extensible)
-* component[face].valueCodeableConcept ^short = "Face drooping"
+* component[face].value[x] 1..
+* component[face].value[x] only CodeableConcept
+* component[face].value[x] from YesNoUnknown (extensible)
+* component[face].value[x] ^short = "Face drooping"
 * component[arm] ^short = "A: Arm"
 * component[arm].extension 0..1
 * component[arm].extension only CHEmsExtLaterality
 * component[arm].extension ^short = "Affected arm"
 * component[arm].code = $sct#53120007 // "Upper limb structure (body structure)"
-* component[arm].valueCodeableConcept 1..
-* component[arm].valueCodeableConcept only CodeableConcept
-* component[arm].valueCodeableConcept from YesNoUnknown (extensible)
-* component[arm].valueCodeableConcept ^short = "Arm weakness"
+* component[arm].value[x] 1..
+* component[arm].value[x] only CodeableConcept
+* component[arm].value[x] from YesNoUnknown (extensible)
+* component[arm].value[x] ^short = "Arm weakness"
 * component[speech] ^short = "S: Speech"
 * component[speech].code = $sct#87335007 // "Speaking (observable entity)"
-* component[speech].valueCodeableConcept 1..
-* component[speech].valueCodeableConcept only CodeableConcept
-* component[speech].valueCodeableConcept from YesNoUnknown (extensible)
-* component[speech].valueCodeableConcept ^short = "Speech difficulty"
+* component[speech].value[x] 1..
+* component[speech].value[x] only CodeableConcept
+* component[speech].value[x] from YesNoUnknown (extensible)
+* component[speech].value[x] ^short = "Speech difficulty"

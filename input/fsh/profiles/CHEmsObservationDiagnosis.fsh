@@ -16,6 +16,7 @@ Description: "Definition of the observation diagnosis"
 * valueCodeableConcept.coding ^slicing.rules = #open
 * valueCodeableConcept.coding contains 
     icd10 0..1 
+* valueCodeableConcept.coding[icd10] from $IVR-VS-diagnosis (extensible)    
 * valueCodeableConcept.coding[icd10].system 1..
 * valueCodeableConcept.coding[icd10].system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
 * valueCodeableConcept.coding[icd10].code 1..
