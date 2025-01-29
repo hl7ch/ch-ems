@@ -1,7 +1,7 @@
 Instance: StatusPrioUebergabe
 InstanceOf: CHEmsObservationStatusPriority
 Title: "Status Priorität Übergabe"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Status Priority - yellow at handover"
 Usage: #example
 * status = #final
 * code = $loinc#77941-3 "Final patient acuity"

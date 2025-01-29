@@ -1,7 +1,7 @@
 Instance: 2-Diagnose
 InstanceOf: CHEmsObservationDiagnosis
 Title: "2 Diagnose"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Diagnosis - stroke as probable diagnosis"
 Usage: #example
 * status = #final
 * code = $sct#2931005 "probable diagnosis"

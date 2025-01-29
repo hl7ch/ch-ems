@@ -1,7 +1,7 @@
 Instance: CardiacArrestBefund
 InstanceOf: CHEmsObservationCardiacArrest
 Title: "Cardiac Arrest Befund"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Cardiac Arrest - yes"
 Usage: #example
 * status = #final
 * code = $sct#410429000 "Cardiac arrest"

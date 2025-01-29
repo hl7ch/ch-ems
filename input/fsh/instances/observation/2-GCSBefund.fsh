@@ -1,7 +1,7 @@
 Instance: 2-GCSBefund
 InstanceOf: CHEmsObservationGCS
 Title: "2 GCS Befund"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: GCS - total score 9 (motor 3, verbal 3, eye opening 3)"
 Usage: #example
 * status = #final
 * code = $loinc#9269-2 "Glasgow coma score total"

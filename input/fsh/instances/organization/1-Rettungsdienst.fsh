@@ -1,7 +1,7 @@
 Instance: 1-Rettungsdienst
 InstanceOf: CHEmsOrganization
 Title: "1 Rettungsdienst"
-Description: "Example for Organization"
+Description: "Example for CH EMS Organization - SRZ as requested emergency service"
 Usage: #example
 // cdachems-dataelement-61 aufgebotene Organisation
 * identifier.system = "urn:oid:2.51.1.3"

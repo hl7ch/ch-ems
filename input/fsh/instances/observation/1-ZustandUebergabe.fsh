@@ -1,7 +1,7 @@
 Instance: 1-ZustandUebergabe
 InstanceOf: CHEmsObservationConditionChange
 Title: "1 Zustand Uebergabe"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Condition Change - improved at handover"
 Usage: #example
 * status = #final
 * code = $loinc#75527-2 "Vital status at discharge"

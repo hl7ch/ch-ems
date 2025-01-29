@@ -1,7 +1,7 @@
 Instance: 1-ArrivalOnScene
 InstanceOf: CHEmsObservationMissionTimeStatus
 Title: "1 Arrival on scene"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Mission Time Status"
 Usage: #example
 * status = #final
 

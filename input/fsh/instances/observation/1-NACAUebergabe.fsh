@@ -1,7 +1,7 @@
 Instance: 1-NACAUebergabe
 InstanceOf: CHEmsObservationNACA
 Title: "1 NACA Uebergabe"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: NACA - III"
 Usage: #example
 * status = #final
 * code = $loinc#88076-5 "Injury severity score NACA"

@@ -1,7 +1,7 @@
 Instance: 1-ThomasMueller
 InstanceOf: CHEmsPatient
 Title: "1 Thomas Müller"
-Description: "Example for Patient"
+Description: "Example for CH EMS Patient - with detailed information and his wife as involved participant"
 Usage: #example
 * extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-ech-11-placeoforigin"
 * extension.valueAddress.city = "Musterdorf"

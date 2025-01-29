@@ -1,7 +1,7 @@
 Instance: 2b-Einsatzprotokoll-Composition
 InstanceOf: CHEmsComposition
 Title: "2b Einsatzprotokoll"
-Description: "Example for Composition"
+Description: "Example for CH EMS Composition"
 Usage: #example
 * language = #de-CH
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"

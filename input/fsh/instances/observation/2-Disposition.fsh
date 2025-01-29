@@ -1,7 +1,7 @@
 Instance: 2-Disposition
 InstanceOf: CHEmsObservationMissionTimeStatus
 Title: "2 Disposition"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Mission Time Status"
 Usage: #example
 * status = #final
 

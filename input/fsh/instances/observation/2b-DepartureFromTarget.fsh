@@ -1,7 +1,7 @@
 Instance: 2b-DepartureFromTarget
 InstanceOf: CHEmsObservationMissionTimeStatus
 Title: "2b Departure from target"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Mission Time Status"
 Usage: #example
 * status = #final
 

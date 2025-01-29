@@ -1,7 +1,7 @@
 Instance: 2-AufbietendeOrganisation
 InstanceOf: CHEmsServiceRequest
 Title: "2 Aufbietende Organisation"
-Description: "Example for ServiceRequest"
+Description: "Example for CH EMS ServiceRequest - SNZ as requesting organization (as contained organization resource)"
 Usage: #example
 * contained = 2-informant
 * status = #completed

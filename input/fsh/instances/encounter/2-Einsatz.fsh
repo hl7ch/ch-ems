@@ -1,7 +1,7 @@
 Instance: 2-Einsatz
 InstanceOf: CHEmsEncounter
 Title: "2 Einsatz"
-Description: "Example for Encounter"
+Description: "Example for CH EMS Encounter - the mission with its details"
 Usage: #example
 // cdachems-dataelement-55 Einsatznummer (OID vom SNZ)
 * identifier[missionNumber].type = $IVR-CS#MN "Einsatznummer"

@@ -1,7 +1,7 @@
 Instance: 2-AVPUBefund
 InstanceOf: CHEmsObservationAVPU
 Title: "2 AVPU Befund"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: AVPU - level of responsiveness (AVPU) = V"
 Usage: #example
 * status = #final
 * code = $loinc#11454-6 "Level of Responsiveness (AVPU)"

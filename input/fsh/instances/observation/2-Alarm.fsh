@@ -1,7 +1,7 @@
 Instance: 2-Alarm
 InstanceOf: CHEmsObservationMissionTimeStatus
 Title: "2 Alarm"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Mission Time Status"
 Usage: #example
 * status = #final
 

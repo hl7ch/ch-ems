@@ -1,7 +1,7 @@
 Instance: 1-Einsatzort
 InstanceOf: CHEmsLocation
 Title: "1 Einsatzort"
-Description: "Example for Location (Coordinates)"
+Description: "Example for CH EMS Location - mission location with address and position (coordinates)"
 Usage: #example
 * name = "Waldrand"
 

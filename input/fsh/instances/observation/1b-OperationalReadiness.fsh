@@ -1,7 +1,7 @@
 Instance: 1b-OperationalReadiness
 InstanceOf: CHEmsObservationMissionTimeStatus
 Title: "1b Operational readiness"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Mission Time Status"
 Usage: #example
 * status = #final
 

@@ -1,7 +1,7 @@
 Instance: StrokeBefund
 InstanceOf: CHEmsObservationStrokeFAST
 Title: "Stroke Befund"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Stroke/FAST - face drooping right, arm weakness no, speech unknown at 12:25 on 10th December 2016"
 Usage: #example
 * status = #final
 * code = $sct#716800008 "Face Arm Speech Test score"

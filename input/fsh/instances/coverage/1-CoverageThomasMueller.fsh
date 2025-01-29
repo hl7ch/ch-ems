@@ -1,7 +1,7 @@
 Instance: 1-CoverageThomasMueller
 InstanceOf: CHEmsCoverage
 Title: "1 Coverage Thomas Müller"
-Description: "Example for Coverage"
+Description: "Example for CH EMS Coverage - with insurance (as contained organization) and insurance card number "
 Usage: #example
 * contained = kpt
 // cdachems-dataelement-486 Nummer Versichertenkarte (participant.associatedEntity.id)
