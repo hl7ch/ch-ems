@@ -1,9 +1,9 @@
 Profile: CHEmsObservationGCS
 Parent: CHEmsObservation
 Id: ch-ems-observation-gcs
-Title: "CH EMS Observation GCS"
-Description: "Definition of the observation glasgow coma scale"
-* . ^short = "CH EMS Observation GCS"
+Title: "CH EMS Observation: GCS"
+Description: "This profile constrains the Observation resource for representing the GCS (Glasgow Coma Scale)."
+* . ^short = "CH EMS Observation: GCS"
 * code = $loinc#9269-2 // "Glasgow coma score total"
 * code ^short = "Glasgow coma score total"
 * component ^slicing.discriminator.type = #value

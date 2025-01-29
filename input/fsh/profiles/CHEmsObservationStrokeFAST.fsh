@@ -1,9 +1,9 @@
 Profile: CHEmsObservationStrokeFAST
 Parent: CHEmsObservation
 Id: ch-ems-observation-stroke-fast
-Title: "CH EMS Observation Stroke/FAST"
-Description: "Definition of the observation Stroke/FAST"
-* . ^short = "CH EMS Observation Stroke/FAST"
+Title: "CH EMS Observation: Stroke/FAST"
+Description: "This profile constrains the Observation resource for representing the FAST (face, arm, speech, time) test in the context of a stroke examination."
+* . ^short = "CH EMS Observation: Stroke/FAST"
 * code = $sct#716800008 // "Face Arm Speech Test score"
 * code ^short = "Stroke / FAST"
 * effectiveDateTime 1..

@@ -2,7 +2,7 @@ Profile: CHEmsLocation
 Parent: CHCoreLocation
 Id: ch-ems-location
 Title: "CH EMS Location"
-Description: "Definition of the location"
+Description: "This profile constrains the Location resource for representing the location and the destination of the mission, either as physical location (address) or geographic location (position)."
 * . ^short = "CH EMS Location"
 * identifier ..1
 * identifier ^short = "GLN of the destination hospital"

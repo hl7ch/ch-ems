@@ -1,9 +1,9 @@
 Profile: CHEmsObservationDiagnosis
 Parent: CHEmsObservation
 Id: ch-ems-observation-diagnosis
-Title: "CH EMS Observation Diagnosis"
-Description: "Definition of the observation diagnosis"
-* . ^short = "CH EMS Observation Diagnosis"
+Title: "CH EMS Observation: Diagnosis"
+Description: "This profile constrains the Observation resource for representing the diagnosis; as a probable diagnosis, differential diagnosis, etc."
+* . ^short = "CH EMS Observation: Diagnosis"
 * code from $IVR-VS-diagType (extensible)
 * code ^short = "Diagnosis type"
 * performer ..1

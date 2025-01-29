@@ -2,7 +2,7 @@ Profile: CHEmsPractitioner
 Parent: CHCorePractitioner
 Id: ch-ems-practitioner
 Title: "CH EMS Practitioner"
-Description: "Definition of the practitioner"
+Description: "This profile constrains the Practitioner resource for representing practitioners involved in the emergency chain, e.g. paramedic (in training), transport paramedic, emergency doctor."
 * . ^short = "CH EMS Practitioner"
 * obeys ch-ems-epr-practitioner
 * identifier[GLN] ^short = "GLN (Global Location Number)"

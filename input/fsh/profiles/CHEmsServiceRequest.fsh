@@ -2,7 +2,7 @@ Profile: CHEmsServiceRequest
 Parent: CHCoreServiceRequest
 Id: ch-ems-servicerequest
 Title: "CH EMS ServiceRequest"
-Description: "Definition of the service request"
+Description: "This profile constrains the ServiceRequest resource for representing the requesting organization and further mission details."
 * . ^short = "CH EMS ServiceRequest"
 * contained ^short = "Inline Resources for requester"
 * subject only Reference(CHEmsPatient)

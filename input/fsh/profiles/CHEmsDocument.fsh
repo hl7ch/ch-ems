@@ -2,7 +2,7 @@ Profile: CHEmsDocument
 Parent: CHCoreDocument
 Id: ch-ems-document
 Title: "CH EMS Document"
-Description: "Definition of the document for the use of the emergency medical service protocol"
+Description: "This profile constrains the Bundle resource for representing the emergency medical service protocol."
 * . ^short = "CH EMS Document"
 * obeys ch-ems-epr-document
 * type = #document (exactly)
