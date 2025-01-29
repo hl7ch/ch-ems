@@ -36,3 +36,5 @@ Alias: $IVR-VS-gcsMotoric =                 http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-gcsVerbal =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsVerbal
 Alias: $IVR-VS-diagnosis =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagnosis
 Alias: $IVR-VS-sections =                   http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-sections
+Alias: $IVR-VS-coldExposure =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-coldExposure
+Alias: $IVR-VS-heatExposure =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-heatExposure

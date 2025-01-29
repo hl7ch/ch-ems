@@ -164,10 +164,18 @@ Description: "This profile constrains the Composition resource for representing 
 * section[findings].section[exposure] ^short = "Exposure"
 * section[findings].section[exposure].title 1..
 * section[findings].section[exposure].title = "Exposure" (exactly)
-* section[findings].section[exposure].entry ..1
-//* section[findings].section[exposure].entry only Reference()
-//* section[findings].section[exposure].entry ^short = "Observation Airways"
-//* section[findings].section[exposure].entry.reference 1..
+* section[findings].section[exposure].entry ^slicing.discriminator.type = #profile
+* section[findings].section[exposure].entry ^slicing.discriminator.path = "resolve()"
+* section[findings].section[exposure].entry ^slicing.rules = #open
+* section[findings].section[exposure].entry contains
+    heatExposure 0..1 and
+    coldExposure 0..1 
+* section[findings].section[exposure].entry[heatExposure] only Reference(CHEmsObservationHeatExposure)
+* section[findings].section[exposure].entry[heatExposure] ^short = "Heat Exposure (degree of burn)"
+* section[findings].section[exposure].entry[heatExposure].reference 1..
+* section[findings].section[exposure].entry[coldExposure] only Reference(CHEmsObservationColdExposure)
+* section[findings].section[exposure].entry[coldExposure] ^short = "Cold Exposure (degree of frostbite)"
+* section[findings].section[exposure].entry[coldExposure].reference 1..
 * section[findings].section[exposure].section 0..0
 
 * section[diagnosis] ^short = "Diagnosis"

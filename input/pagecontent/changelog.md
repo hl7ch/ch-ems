@@ -33,11 +33,10 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Add a CH EMS Observation base profile with all common observation requirements defined
 * [#18](https://github.com/hl7ch/ch-ems/issues/18): Add value set binding to profiles/elements 
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
-   * Add CH EMS Observation: Breathing
+   * Add CH EMS Observation: Breathing / CH EMS Observation: Heat Exposure / CH EMS Observation: Cold Exposure
    * Add a CH EMS Procedure base profile with all common procedure requirements defined
    * Rename CH EMS Procedure to CH EMS Procedure: Pretreatment
-   * Add CH EMS Procedure: Airways
-   * Add CH EMS Procedure: Breathing
+   * Add CH EMS Procedure: Airways / CH EMS Procedure: Breathing
 
 #### Fixed
 * Replace ci-build links with links to stable version
