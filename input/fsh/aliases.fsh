@@ -44,3 +44,4 @@ Alias: $IVR-VS-coldExposure =               http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-heatExposure =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-heatExposure
 Alias: $IVR-VS-pulesResult =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulesResult
 Alias: $IVR-VS-pulseMethod =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulseMethod
+Alias: $IVR-VS-pressureMethod =             http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pressureMethod

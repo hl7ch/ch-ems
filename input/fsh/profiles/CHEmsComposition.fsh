@@ -38,6 +38,7 @@ Description: "This profile constrains the Composition resource for representing 
     handover 0..1 and
     annotation 0..1
 
+// ---------------------------------------------------- mission ----------------------------------------------------//
 * section[mission] ^short = "Mission"
 * section[mission].title 1..1
 * section[mission].title ^short = "'Einsatz' or 'Intervention' or 'Intervento' or 'intervention'"
@@ -57,6 +58,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[mission].entry[missionTimeStatus].reference 1..
 * section[mission].section 0..0
 
+// ---------------------------------------------------- administrative ----------------------------------------------------//
 * section[administrative] ^short = "Administrative"
 * section[administrative].title 1..1
 * section[administrative].title ^short = "'Administrativ' or 'Administratif' or 'Amministrativo' or 'administrative'"
@@ -66,6 +68,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[administrative].text ^short = "Human readable text of this section"
 * section[administrative].section 0..0
 
+// ---------------------------------------------------- pretreatment ----------------------------------------------------//
 * section[pretreatment] ^short = "Pretreatment"
 * section[pretreatment].title 1..1
 * section[pretreatment].title ^short = "'Vorbehandlung' or 'Prétraitement' or 'Pretrattamento' or 'pretreatment'"
@@ -77,6 +80,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[pretreatment].entry.reference 1..
 * section[pretreatment].section 0..0
 
+// ---------------------------------------------------- anamnesis ----------------------------------------------------//
 * section[anamnesis] ^short = "Anamnesis"
 * section[anamnesis].title 1..1
 * section[anamnesis].title ^short = "'Anamnese' or 'Anamnèse' or 'Anamnesi' or 'anamnesis'"
@@ -96,6 +100,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[anamnesis].entry[anamnesisSymptom].reference 1..
 * section[anamnesis].section 0..0
 
+// ---------------------------------------------------- findings ----------------------------------------------------//
 * section[findings] ^short = "Findings"
 * section[findings].title 1..1
 * section[findings].title ^short = "'Befund' or 'Résultats' or 'Risultati' or 'findings'"
@@ -112,6 +117,7 @@ Description: "This profile constrains the Composition resource for representing 
     circulation 0..1 and
     disability 0..1 and 
     exposure 0..1
+
 * section[findings].section[airway] ^short = "A: Airway"
 * section[findings].section[airway].title 1..
 * section[findings].section[airway].title = "Airway" (exactly)
@@ -119,6 +125,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[findings].section[airway].entry only Reference(CHEmsObservationAirways)
 * section[findings].section[airway].entry.reference 1..
 * section[findings].section[airway].section 0..0
+
 * section[findings].section[breathing] ^short = "B: Breathing"
 * section[findings].section[breathing].title 1..
 * section[findings].section[breathing].title = "Breathing" (exactly)
@@ -126,6 +133,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[findings].section[breathing].entry only Reference(CHEmsObservationBreathing)
 * section[findings].section[breathing].entry.reference 1..
 * section[findings].section[breathing].section 0..0
+
 * section[findings].section[circulation] ^short = "C: Circulation"
 * section[findings].section[circulation].title 1..
 * section[findings].section[circulation].title = "Circulation" (exactly)
@@ -134,12 +142,16 @@ Description: "This profile constrains the Composition resource for representing 
 * section[findings].section[circulation].entry ^slicing.rules = #open
 * section[findings].section[circulation].entry contains
     cardiacArrest 0..1 and
-    heartRate 0..1
+    heartRate 0..1 and 
+    bloodPressure 0..1
 * section[findings].section[circulation].entry[cardiacArrest] only Reference(CHEmsObservationCardiacArrest)
 * section[findings].section[circulation].entry[cardiacArrest].reference 1..
 * section[findings].section[circulation].entry[heartRate] only Reference(CHEmsObservationHeartRate)
 * section[findings].section[circulation].entry[heartRate].reference 1..
+* section[findings].section[circulation].entry[bloodPressure] only Reference(CHEmsObservationBloodPressure)
+* section[findings].section[circulation].entry[bloodPressure].reference 1..
 * section[findings].section[circulation].section 0..0
+
 * section[findings].section[disability] ^short = "D: Disability"
 * section[findings].section[disability].title 1..
 * section[findings].section[disability].title = "Disability" (exactly)
@@ -157,6 +169,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[findings].section[disability].entry[injurySeverity] only Reference(CHEmsObservationStrokeFAST)
 * section[findings].section[disability].entry[injurySeverity].reference 1..
 * section[findings].section[disability].section 0..0
+
 * section[findings].section[exposure] ^short = "E: Exposure"
 * section[findings].section[exposure].title 1..
 * section[findings].section[exposure].title = "Exposure" (exactly)
@@ -172,6 +185,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[findings].section[exposure].entry[coldExposure].reference 1..
 * section[findings].section[exposure].section 0..0
 
+// ---------------------------------------------------- diagnosis ----------------------------------------------------//
 * section[diagnosis] ^short = "Diagnosis"
 * section[diagnosis].title 1..1
 * section[diagnosis].title ^short = "'Diagnosen' or 'Diagnostique' or 'Diagnosi' or 'diagnosis'"
@@ -184,6 +198,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[diagnosis].entry.reference 1..
 * section[diagnosis].section 0..0
 
+// ---------------------------------------------------- procedures ----------------------------------------------------//
 * section[procedures] ^short = "Procedures"
 * section[procedures].title 1..1
 * section[procedures].title ^short = "'Massnahmen' or 'Mesures' or 'Misure' or 'measures'"
@@ -248,6 +263,7 @@ Description: "This profile constrains the Composition resource for representing 
 //* section[procedures].section[exposure].entry.reference 1..
 * section[procedures].section[exposure].section 0..0
 
+// ---------------------------------------------------- eventOfDeath ----------------------------------------------------//
 * section[eventOfDeath] ^short = "Event of death"
 * section[eventOfDeath].title 1..1
 * section[eventOfDeath].title ^short = "'Todesfall' or 'Décès' or 'Decesso' or 'death'"
@@ -257,6 +273,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[eventOfDeath].text ^short = "Human readable text of this section"
 * section[eventOfDeath].section 0..0
 
+// ---------------------------------------------------- transport ----------------------------------------------------//
 * section[transport] ^short = "Transport"
 * section[transport].title 1..1
 * section[transport].title ^short = "'Transport' or 'Transport' or 'Trasporto' or 'transport'"
@@ -266,6 +283,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[transport].text ^short = "Human readable text of this section"
 * section[transport].section 0..0
 
+// ---------------------------------------------------- handover ----------------------------------------------------//
 * section[handover] ^short = "Handover"
 * section[handover].title 1..1
 * section[handover].title ^short = "'Übergabe' or 'Remise' or 'Consegna' or 'handover'"
@@ -294,6 +312,7 @@ Description: "This profile constrains the Composition resource for representing 
 * section[handover].entry[handoverTo].reference 1..
 * section[handover].section 0..0
 
+// ---------------------------------------------------- annotation ----------------------------------------------------//
 * section[annotation] ^short = "Annotation"
 * section[annotation].title 1..1
 * section[annotation].title ^short = "'Kommentar' or 'Commentaire' or 'Osservazione' or 'Comment'"
