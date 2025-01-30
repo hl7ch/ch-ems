@@ -14,7 +14,7 @@ Description: "This profile constrains the Composition resource for representing 
 * subject ^short = "A human patient for whom this document instance was created"
 * date ^short = "The document's creation date and time"
 * author only Reference(CHEmsPractitioner or CHEmsPractitionerRole or Device or CHEmsPatient or RelatedPerson or CHEmsOrganization)
-* author ^short = "The author of this document"
+* author ^short = "The author/responsible for this document/content (not necessarily who typed it in)"
 * title ^short = "'Einsatzprotokoll Rettungsdienst' or 'Fiche d’intervention du service de sauvetage' or 'Cartella sanitaria  del ente di salvataggio e soccorso' or 'Emergency Medical Service protocol'"
 * custodian 1..
 * custodian only Reference(CHEmsOrganization)
@@ -52,10 +52,8 @@ Description: "This profile constrains the Composition resource for representing 
     missionEncounter 0..1 and 
     missionTimeStatus 0..*
 * section[mission].entry[missionEncounter] only Reference(CHEmsEncounter)
-* section[mission].entry[missionEncounter] ^short = "Mission encounter"
 * section[mission].entry[missionEncounter].reference 1..
 * section[mission].entry[missionTimeStatus] only Reference(CHEmsObservationMissionTimeStatus)
-* section[mission].entry[missionTimeStatus] ^short = "Mission time status"
 * section[mission].entry[missionTimeStatus].reference 1..
 * section[mission].section 0..0
 
@@ -76,7 +74,6 @@ Description: "This profile constrains the Composition resource for representing 
 * section[pretreatment].text 1..1
 * section[pretreatment].text ^short = "Human readable text of this section"
 * section[pretreatment].entry only Reference(CHEmsProcedurePretreatment)
-* section[pretreatment].entry ^short = "Procedure"
 * section[pretreatment].entry.reference 1..
 * section[pretreatment].section 0..0
 
@@ -94,10 +91,8 @@ Description: "This profile constrains the Composition resource for representing 
     anamnesisEvent 0..1 and 
     anamnesisSymptom 0..*
 * section[anamnesis].entry[anamnesisEvent] only Reference(CHEmsObservationAnamnesisEvent)
-* section[anamnesis].entry[anamnesisEvent] ^short = "Anamnesis event"
 * section[anamnesis].entry[anamnesisEvent].reference 1..
 * section[anamnesis].entry[anamnesisSymptom] only Reference(CHEmsObservationAnamnesisSymptom)
-* section[anamnesis].entry[anamnesisSymptom] ^short = "Anamnesis symptom"
 * section[anamnesis].entry[anamnesisSymptom].reference 1..
 * section[anamnesis].section 0..0
 
@@ -117,31 +112,35 @@ Description: "This profile constrains the Composition resource for representing 
     circulation 0..1 and
     disability 0..1 and 
     exposure 0..1
-* section[findings].section[airway] ^short = "Airway"
+* section[findings].section[airway] ^short = "A: Airway"
 * section[findings].section[airway].title 1..
 * section[findings].section[airway].title = "Airway" (exactly)
 * section[findings].section[airway].entry ..1
 * section[findings].section[airway].entry only Reference(CHEmsObservationAirways)
-* section[findings].section[airway].entry ^short = "Observation Airways"
 * section[findings].section[airway].entry.reference 1..
 * section[findings].section[airway].section 0..0
-* section[findings].section[breathing] ^short = "Breathing"
+* section[findings].section[breathing] ^short = "B: Breathing"
 * section[findings].section[breathing].title 1..
 * section[findings].section[breathing].title = "Breathing" (exactly)
 * section[findings].section[breathing].entry ..1
 * section[findings].section[breathing].entry only Reference(CHEmsObservationBreathing)
-* section[findings].section[breathing].entry ^short = "Observation Breathing"
 * section[findings].section[breathing].entry.reference 1..
 * section[findings].section[breathing].section 0..0
-* section[findings].section[circulation] ^short = "Circulation"
+* section[findings].section[circulation] ^short = "C: Circulation"
 * section[findings].section[circulation].title 1..
 * section[findings].section[circulation].title = "Circulation" (exactly)
-* section[findings].section[circulation].entry ..1
-* section[findings].section[circulation].entry only Reference(CHEmsObservationCardiacArrest)
-* section[findings].section[circulation].entry ^short = "Observation Cardiac Arrest"
-* section[findings].section[circulation].entry.reference 1..
+* section[findings].section[circulation].entry ^slicing.discriminator.type = #profile
+* section[findings].section[circulation].entry ^slicing.discriminator.path = "resolve()"
+* section[findings].section[circulation].entry ^slicing.rules = #open
+* section[findings].section[circulation].entry contains
+    cardiacArrest 0..1 and
+    heartRate 0..1
+* section[findings].section[circulation].entry[cardiacArrest] only Reference(CHEmsObservationCardiacArrest)
+* section[findings].section[circulation].entry[cardiacArrest].reference 1..
+* section[findings].section[circulation].entry[heartRate] only Reference(CHEmsObservationHeartRate)
+* section[findings].section[circulation].entry[heartRate].reference 1..
 * section[findings].section[circulation].section 0..0
-* section[findings].section[disability] ^short = "Disability"
+* section[findings].section[disability] ^short = "D: Disability"
 * section[findings].section[disability].title 1..
 * section[findings].section[disability].title = "Disability" (exactly)
 * section[findings].section[disability].entry ^slicing.discriminator.type = #profile
@@ -152,16 +151,13 @@ Description: "This profile constrains the Composition resource for representing 
     levelOfResponsiveness 0..1 and
     injurySeverity 0..1
 * section[findings].section[disability].entry[glasgowComaScale] only Reference(CHEmsObservationGCS)
-* section[findings].section[disability].entry[glasgowComaScale] ^short = "Glasgow coma scale"
 * section[findings].section[disability].entry[glasgowComaScale].reference 1..
 * section[findings].section[disability].entry[levelOfResponsiveness] only Reference(CHEmsObservationAVPU)
-* section[findings].section[disability].entry[levelOfResponsiveness] ^short = "Level of Responsiveness (AVPU)"
 * section[findings].section[disability].entry[levelOfResponsiveness].reference 1..
 * section[findings].section[disability].entry[injurySeverity] only Reference(CHEmsObservationStrokeFAST)
-* section[findings].section[disability].entry[injurySeverity] ^short = "Injury Severity (Stroke/FAST)"
 * section[findings].section[disability].entry[injurySeverity].reference 1..
 * section[findings].section[disability].section 0..0
-* section[findings].section[exposure] ^short = "Exposure"
+* section[findings].section[exposure] ^short = "E: Exposure"
 * section[findings].section[exposure].title 1..
 * section[findings].section[exposure].title = "Exposure" (exactly)
 * section[findings].section[exposure].entry ^slicing.discriminator.type = #profile
@@ -171,10 +167,8 @@ Description: "This profile constrains the Composition resource for representing 
     heatExposure 0..1 and
     coldExposure 0..1 
 * section[findings].section[exposure].entry[heatExposure] only Reference(CHEmsObservationHeatExposure)
-* section[findings].section[exposure].entry[heatExposure] ^short = "Heat Exposure (degree of burn)"
 * section[findings].section[exposure].entry[heatExposure].reference 1..
 * section[findings].section[exposure].entry[coldExposure] only Reference(CHEmsObservationColdExposure)
-* section[findings].section[exposure].entry[coldExposure] ^short = "Cold Exposure (degree of frostbite)"
 * section[findings].section[exposure].entry[coldExposure].reference 1..
 * section[findings].section[exposure].section 0..0
 
@@ -187,7 +181,6 @@ Description: "This profile constrains the Composition resource for representing 
 * section[diagnosis].text ^short = "Human readable text of this section"
 * section[diagnosis].entry ..1
 * section[diagnosis].entry only Reference(CHEmsObservationDiagnosis)
-* section[diagnosis].entry ^short = "Problem concern entry"
 * section[diagnosis].entry.reference 1..
 * section[diagnosis].section 0..0
 
@@ -207,31 +200,28 @@ Description: "This profile constrains the Composition resource for representing 
     circulation 0..1 and
     disability 0..1 and 
     exposure 0..1
-* section[procedures].section[airway] ^short = "Airway"
+* section[procedures].section[airway] ^short = "A: Airway"
 * section[procedures].section[airway].title 1..
 * section[procedures].section[airway].title = "Airway" (exactly)
 * section[procedures].section[airway].entry ..1
 * section[procedures].section[airway].entry only Reference(CHEmsProcedureAirways)
-* section[procedures].section[airway].entry ^short = "Procedure Airways"
 * section[procedures].section[airway].entry.reference 1..
 * section[procedures].section[airway].section 0..0
-* section[procedures].section[breathing] ^short = "Breathing"
+* section[procedures].section[breathing] ^short = "B: Breathing"
 * section[procedures].section[breathing].title 1..
 * section[procedures].section[breathing].title = "Breathing" (exactly)
 * section[procedures].section[breathing].entry ..1
 * section[procedures].section[breathing].entry only Reference(CHEmsProcedureBreathing)
-* section[procedures].section[breathing].entry ^short = "Procedure Breathing"
 * section[procedures].section[breathing].entry.reference 1..
 * section[procedures].section[breathing].section 0..0
-* section[procedures].section[circulation] ^short = "Circulation"
+* section[procedures].section[circulation] ^short = "C: Circulation"
 * section[procedures].section[circulation].title 1..
 * section[procedures].section[circulation].title = "Circulation" (exactly)
 * section[procedures].section[circulation].entry ..1
 //* section[procedures].section[circulation].entry only Reference(CHEmsObservationCardiacArrest)
-//* section[procedures].section[circulation].entry ^short = "Observation Cardiac Arrest"
 //* section[procedures].section[circulation].entry.reference 1..
 * section[procedures].section[circulation].section 0..0
-* section[procedures].section[disability] ^short = "Disability"
+* section[procedures].section[disability] ^short = "D: Disability"
 * section[procedures].section[disability].title 1..
 * section[procedures].section[disability].title = "Disability" (exactly)
 /*
@@ -243,22 +233,18 @@ Description: "This profile constrains the Composition resource for representing 
     levelOfResponsiveness 0..1 and
     injurySeverity 0..1
 * section[procedures].section[disability].entry[glasgowComaScale] only Reference(CHEmsObservationGCS)
-* section[procedures].section[disability].entry[glasgowComaScale] ^short = "Glasgow coma scale"
 * section[procedures].section[disability].entry[glasgowComaScale].reference 1..
 * section[procedures].section[disability].entry[levelOfResponsiveness] only Reference(CHEmsObservationAVPU)
-* section[procedures].section[disability].entry[levelOfResponsiveness] ^short = "Level of Responsiveness (AVPU)"
 * section[procedures].section[disability].entry[levelOfResponsiveness].reference 1..
 * section[procedures].section[disability].entry[injurySeverity] only Reference(CHEmsObservationStrokeFAST)
-* section[procedures].section[disability].entry[injurySeverity] ^short = "Injury Severity (Stroke/FAST)"
 * section[procedures].section[disability].entry[injurySeverity].reference 1..
 */
 * section[procedures].section[disability].section 0..0
-* section[procedures].section[exposure] ^short = "Exposure"
+* section[procedures].section[exposure] ^short = "E: Exposure"
 * section[procedures].section[exposure].title 1..
 * section[procedures].section[exposure].title = "Exposure" (exactly)
 * section[procedures].section[exposure].entry ..1
 //* section[procedures].section[exposure].entry only Reference()
-//* section[procedures].section[exposure].entry ^short = "Observation Airways"
 //* section[procedures].section[exposure].entry.reference 1..
 * section[procedures].section[exposure].section 0..0
 
@@ -297,19 +283,14 @@ Description: "This profile constrains the Composition resource for representing 
     glasgowComaScale 0..1 and 
     handoverTo 0..*
 * section[handover].entry[patientStatusPriority] only Reference(CHEmsObservationStatusPriority)
-* section[handover].entry[patientStatusPriority] ^short = "Patient status priority"
 * section[handover].entry[patientStatusPriority].reference 1..
 * section[handover].entry[patientConditionChange] only Reference(CHEmsObservationConditionChange)
-* section[handover].entry[patientConditionChange] ^short = "Patient condition change"
 * section[handover].entry[patientConditionChange].reference 1..
 * section[handover].entry[injurySeverity] only Reference(CHEmsObservationNACA)
-* section[handover].entry[injurySeverity] ^short = "Injury severity (NACA)"
 * section[handover].entry[injurySeverity].reference 1..
 * section[handover].entry[glasgowComaScale] only Reference(CHEmsObservationGCS)
-* section[handover].entry[glasgowComaScale] ^short = "Glasgow coma scale"
 * section[handover].entry[glasgowComaScale].reference 1..
 * section[handover].entry[handoverTo] only Reference(CHEmsOrganization or CHEmsPractitioner)
-* section[handover].entry[handoverTo] ^short = "Handover patient to organisation/practitioner"
 * section[handover].entry[handoverTo].reference 1..
 * section[handover].section 0..0
 

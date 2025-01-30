@@ -2,17 +2,21 @@
 Alias: $loinc =                             http://loinc.org
 Alias: $sct =                               http://snomed.info/sct
 Alias: $icd-10-gm =                         http://fhir.de/CodeSystem/dimdi/icd-10-gm
+Alias: $ucum =                              http://unitsofmeasure.org 
 
 // HL7 code systems
 Alias: $v3-ActCode =                        http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: $v2-0203 =                           http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $v3-RoleCode =                       http://terminology.hl7.org/CodeSystem/v3-RoleCode
+Alias: $observation-category =              http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $data-absent-reason =                http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 // Extensions
 Alias: $shareablevalueset =                 http://hl7.org/fhir/StructureDefinition/shareablevalueset
 Alias: $iso21090-ADXP-houseNumber =         http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
 Alias: $ch-ext-ech-10-linetype =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype
 Alias: $ordinalValue =                      http://hl7.org/fhir/StructureDefinition/ordinalValue
+Alias: $imposeProfile =                     http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile
 
 // CH EMS terminology
 Alias: $IVR-CS =                            http://fhir.ch/ig/ch-ems/CodeSystem/IVR
@@ -38,3 +42,5 @@ Alias: $IVR-VS-diagnosis =                  http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-sections =                   http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-sections
 Alias: $IVR-VS-coldExposure =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-coldExposure
 Alias: $IVR-VS-heatExposure =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-heatExposure
+Alias: $IVR-VS-pulesResult =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulesResult
+Alias: $IVR-VS-pulseMethod =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulseMethod
