@@ -4,7 +4,8 @@ Title: "2 Diagnose"
 Description: "Example for CH EMS Observation: Diagnosis - stroke as probable diagnosis"
 Usage: #example
 * status = #final
-* code = $sct#2931005 "probable diagnosis"
+* code = $sct#2931005 "Probable diagnosis (contextual qualifier) (qualifier value)"
+* code.text = "Verdachtsdiagnose"
 * subject.reference = "Patient/2-PatientUnbekannt"
 * encounter.reference = "Encounter/2-Einsatz"
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"

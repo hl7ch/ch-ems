@@ -10,3 +10,4 @@ Usage: #example
 
 // cdachems-dataelement-23 NACA
 * valueCodeableConcept = $IVR-CS#III "mässige bis schwere Störung"
+* valueCodeableConcept.text = "mässige bis schwere Störung"

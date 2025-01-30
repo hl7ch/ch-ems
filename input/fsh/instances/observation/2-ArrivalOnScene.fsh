@@ -7,6 +7,7 @@ Usage: #example
 
 // cdachems-dataelement-278 : Bedeutung der Statuszeit
 * code = $IVR-CS#1000036 "arrival on scene"
+* code.text = "Ankunftszeit am Einsatzort"
 
 * subject.reference = "Patient/2-PatientUnbekannt"
 * encounter.reference = "Encounter/2-Einsatz"

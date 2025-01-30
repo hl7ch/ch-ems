@@ -20,24 +20,25 @@ Description: "This profile constrains the Observation resource for representing 
     face 1..1 and
     arm 1..1 and
     speech 1..1
+
 * component[face] ^short = "F: Face"
-* component[face].extension 0..1
-* component[face].extension only CHEmsExtLaterality
-* component[face].extension ^short = "Affected side of the face"
+* component[face].extension contains CHEmsExtLaterality named laterality 0..1
+* component[face].extension[laterality] ^short = "Affected side of the face"
 * component[face].code = $sct#89545001 // "Face structure (body structure)"
 * component[face].value[x] 1..
 * component[face].value[x] only CodeableConcept
 * component[face].value[x] from YesNoUnknown (extensible)
 * component[face].value[x] ^short = "Face drooping"
+
 * component[arm] ^short = "A: Arm"
-* component[arm].extension 0..1
-* component[arm].extension only CHEmsExtLaterality
-* component[arm].extension ^short = "Affected arm"
+* component[arm].extension contains CHEmsExtLaterality named laterality 0..1
+* component[arm].extension[laterality] ^short = "Affected arm"
 * component[arm].code = $sct#53120007 // "Upper limb structure (body structure)"
 * component[arm].value[x] 1..
 * component[arm].value[x] only CodeableConcept
 * component[arm].value[x] from YesNoUnknown (extensible)
 * component[arm].value[x] ^short = "Arm weakness"
+
 * component[speech] ^short = "S: Speech"
 * component[speech].code = $sct#87335007 // "Speaking (observable entity)"
 * component[speech].value[x] 1..

@@ -4,15 +4,14 @@ Title: "Stroke Befund"
 Description: "Example for CH EMS Observation: Stroke/FAST - face drooping right, arm weakness no, speech unknown at 12:25 on 10th December 2016"
 Usage: #example
 * status = #final
-* code = $sct#716800008 "Face Arm Speech Test score"
+* code = $sct#716800008 "Face Arm Speech Test score (observable entity)"
 * subject.reference = "Patient/1-ThomasMueller"
 
 // T: Time
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"
 
 // F: Face
-* component[face].extension.url = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-laterality"
-* component[face].extension.valueCodeableConcept = $sct#24028007 "Right (qualifier value)"
+* component[face].extension[laterality].valueCodeableConcept = $sct#24028007 "Right (qualifier value)"
 * component[face].code = $sct#89545001 "Face structure (body structure)"
 * component[face].valueCodeableConcept = $sct#373066001 "Yes (qualifier value)"
 // A: Arm

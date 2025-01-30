@@ -4,7 +4,7 @@ Title: "Cardiac Arrest Befund"
 Description: "Example for CH EMS Observation: Cardiac Arrest - yes"
 Usage: #example
 * status = #final
-* code = $sct#410429000 "Cardiac arrest"
+* code = $sct#410429000 "Cardiac arrest (disorder)"
 * subject.reference = "Patient/1-ThomasMueller"
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"
 

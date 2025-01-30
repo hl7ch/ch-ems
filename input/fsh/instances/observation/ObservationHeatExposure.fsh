@@ -8,4 +8,5 @@ Usage: #example
 * subject = Reference(2-PatientUnbekannt)
 * encounter = Reference(2-Einsatz)
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"
-* valueCodeableConcept = $sct#1000148 "second-degree burn"
+* valueCodeableConcept = $IVR-CS#1000148 "second-degree burn"
+* valueCodeableConcept.text = "Verbrennung 2. Grades"
