@@ -9,42 +9,44 @@ Le processus dans ses détails peut se dérouler différemment en fonction de l�
 Le graphique décrit par conséquent le déroulement le plus générique possible; ce déroulement est utile, mais n’entre pas dans des discussions de détail.
 
 ### Storyboard
-La Centrale d’appels sanitaires urgents reçoit un appel. Celui-ci concerne soit (a) un accident ou un problème de santé aigu et doit être traité le plus rapidement possible et en priorité absolue, soit (b) un transport prévu de personne avec contraintes médicales.
+La centrale d'appels sanitaires urgents reçoit un appel ou un message électronique. Celui-ci part soit (a) d'un accident ou d'une attaque sanitaire aiguë et doit être exécuté avec une priorité adaptée à la situation (intervention primaire), soit concerne (b) un transport planifié d'une personne avec des restrictions médicales (intervention secondaire).
 
 Les premières données relatives au domaine d’intervention (lieu d’intervention et destination) sont récoltées et documentées lors de cet appel. En cas d’événement majeur, des réserves sont possibles sur le lieu de destination, mais celles-ci doivent faire l’objet d’une clarification entre le départ de l’équipe de la base et l’arrivée sur le lieu de l’intervention.
 
-Le personnel de répartition de la centrale demande le plus d’informations possible au sujet des personnes concernées. Alors que dans le cas (a), ces informations seront vraisemblablement limitées au nombre de personnes, à leur âge approximatif et à leur genre, elles pourront être saisies de manière définitive avec le mandat dans le cas (b).
+
+Le dispatching à la centrale se fait donner le plus d'informations possible sur les personnes concernées. Dans le cas d'une intervention primaire, il se peut que peu ou pas d'informations sur le patient soient disponibles, alors que dans le cas d'une intervention secondaire, toutes les données pertinentes sur le patient peuvent être saisies de manière définitive avec la mission.
 
 Sur la base des informations disponibles, le personnel de répartition détermine la composition et l’équipement nécessaire de l’équipe d’intervention et sélectionne une équipe disponible ou se charge de sa création en procédant à des réorganisations dans les interventions en cours ou auprès des organisations partenaires.
 
-Toutes les informations relatives au scénario "Intervention" sont ainsi définies. Seules les heures des statuts doivent encore être déduites ou saisies.
+Toutes les informations relatives au scénario « intervention » sont ainsi déterminées. Seuls les temps de statut doivent encore être déduits ou saisis.
 
 L’équipe d’intervention reçoit le mandat d’intervention et débute sa mise en œuvre. En route vers le lieu d’intervention, il est possible d’évaluer les informations disponibles et, le cas échéant, de demander des informations supplémentaires.
 
 Un bilan de la situation est réalisé sur place avec les points suivants:
 
-* Établissement d’une anamnèse 
-* Collecte des premiers rapports 
-* Établissement des diagnostics
-* Application de mesures 
-* La médication doit être adaptée à l’anamnèse et, surtout, à une médication actuelle en cours
++ une anamnèse est établie
+* Des premiers résultats sont recueillis
+* Des diagnostics sont posés
+* Des mesures sont prises.
+* La médication doit être adaptée aux constatations et aussi aux médicaments que le patient prend régulièrement.
 
-Toutes ces étapes sont consignées et documentées dans le protocole de sauvetage.
+Toutes ces étapes sont consignées et documentées dans le protocole d'intervention.
 
-Alors que les données personnelles et administratives sont connues dès le début en cas d’intervention planifiée, elles doivent souvent être complétées une nouvelle fois sur le lieu d’intervention en cas d’intervention d’urgence. Cette opération peut être effectuée en parallèle à la saisie de l’anamnèse et des rapports; dans le cas le plus simple, le patient a sur lui une pièce d’identité et/ou une carte d’assuré.
+Alors que les données relatives à la personne et à l'administration sont connues dès le départ lors d'une intervention secondaire, elles doivent souvent être complétées sur place lors d'une intervention primaire. Cela peut se faire parallèlement au relevé de l'anamnèse et des résultats. Dans le cas le plus simple, le patient dispose d'une carte d'identité et/ou d'une carte d'assurance.
 
-Le transport commence dès que le patient peut être transporté et que le lieu de destination est connu (généralement, service des urgences pouvant accueillir des patients).
+Dès que le patient est transportable et que le lieu de destination est connu (généralement un service d'urgence adapté à l'évitement et disposant d'une capacité d'accueil), le transport du patient est effectué.
 
-Le patient et le protocole de sauvetage sont remis au lieu de destination.
+Le patient et le protocole d'intervention sont remis au lieu de destination.
 
-En cas d’intervention d’urgence, il n’est pas encore garanti, à ce moment-là, que le patient puisse être identifié de manière définitive. C’est alors à l’hôpital responsable du traitement de se charger de cette tâche et de clore définitivement le cas également sur le plan administratif.
+Dans le cas d'une intervention primaire, il n'est pas encore garanti, même à ce stade, que le patient ait pu être identifié de manière définitive. La tâche de le faire et de clore le cas sur le plan administratif incombe alors à l'hôpital traitant.
 
-L’équipe revient à la base avec son véhicule, exécute les opérations de rangement du véhicule et clôt le protocole. L’assurance qualité et le décompte (vis-à-vis du patient ou vis-à-vis du lieu de destination) sont maintenant de la responsabilité du back office du service de sauvetage.
+L'équipe retourne à la base avec le véhicule, procède au rétablissement et conclut le protocole d'intervention. 
+L'assurance qualité et la facturation (au patient ou à l'organisation qui a payé l'intervention) incombent désormais au back-office du service de secours.
 
 {% include img.html img="prozess-fr.jpg" caption="Flux de travail" width="40%" %}
 
 ### Cas d’application -  Remarques préalables
-Deux cas d’application sont décrits pour le protocole de sauvetage:
+Deux cas d’application sont décrits pour le protocole d'intervention:
 
 [**1. Intervention primaire avec patient identifiable**](usecase-french.html#cas-dapplication-1---intervention-primaire-avec-patient-identifiable):        
 Intervention au cours de laquelle le service de sauvetage est le premier à entrer en contact avec le patient et **peut identifier** ce dernier **de manière univoque** sur la base d’une pièce d’identité, d’une affirmation du patient ou autre. Il s’agit ici souvent d’interventions d’urgence. La majorité des interventions primaires ne peuvent pas être planifiées par le service de sauvetage.  
@@ -52,7 +54,7 @@ Intervention au cours de laquelle le service de sauvetage est le premier à entr
 [**2. Intervention primaire avec patient inconnu**](usecase-french.html#532-cas-dapplication-2---intervention-primaire-avec-patient-inconnu):         
 Intervention lors de laquelle, jusqu’à la fin de l’intervention, l’équipe du service de sauvetage **ne peut pas identifier** le patient. Entre autres raisons, il est possible que la personne ne puisse pas s’exprimer et n’ait pas de pièce d’identité sur elle ou que lors d’un événement majeur, il ne soit pas possible de procéder à l’identification des blessés sur le lieu du sinistre faute de temps.
 
-Ces deux cas d’application sont inventés librement. Ils servent uniquement à illustrer comment les indications recueillies au cours d’une intervention sont reproduites dans l’ensemble de données CH EMS. Ces cas d’application peuvent par conséquent contenir des indications qui ne sont pas judicieuses sur le plan médical ou tactique de l’intervention. La description de ces deux cas d’application contient des données qui peuvent être reprises, si possible, dans les exemples de données de l’ensemble de données. Si plus d’un exemple est donné pour un attribut de l’ensemble de données, ces exemples concernent un cas d’application ou les deux. La description des cas d’application est moins détaillée que les exemples de données. Cela signifie qu’il existe des exemples de données qui sont mentionnés dans les deux cas d’application ou uniquement dans l’un des deux, mais aussi des données qui ne sont pas du tout mentionnées dans les cas d’application.
+Ces deux cas d’application sont inventés librement. Ils servent uniquement à illustrer comment les indications recueillies au cours d’une intervention sont reproduites dans l’ensemble de données CH-EMS. Ces cas d’application peuvent par conséquent contenir des indications qui ne sont pas judicieuses sur le plan médical ou tactique de l’intervention. La description de ces deux cas d’application contient des données qui peuvent être reprises, si possible, dans les exemples de données de l’ensemble de données. Si plus d’un exemple est donné pour un attribut de l’ensemble de données, ces exemples concernent un cas d’application ou les deux. La description des cas d’application est moins détaillée que les exemples de données. Cela signifie qu’il existe des exemples de données qui sont mentionnés dans les deux cas d’application ou uniquement dans l’un des deux, mais aussi des données qui ne sont pas du tout mentionnées dans les cas d’application.
 
 #### Cas d’application 1 - Intervention primaire avec patient identifiable
 Le 10 décembre 2016 à 12 h 09 (heure de statut [ALARM](Observation-1-Alarm.html)), M. [Thomas Müller](Patient-1-ThomasMueller.html) compose le numéro d’urgence 144. Il se trouve quelque part au-dessus de Zurich en bordure de forêt et indique qu’il ressent de fortes douleurs à la poitrine et dans la partie supérieure de son bras gauche. Il arrive à peine à respirer. Sur la base des questions posées au patient, la [Centrale d’appels sanitaires urgents de Zurich](ServiceRequest-1-AufbietendeOrganisation.html) (GLN 7601002156370) soupçonne qu’il souffre d’un syndrome coronarien aigu (ACS) et définit ce terme comme mot-clé de l’intervention. La localisation du patient permet de savoir qu’il se trouve aux [coordonnées 47.392115, 8.553192](Location-1-Einsatzort.html).
@@ -73,7 +75,7 @@ Pendant que le médecin urgentiste retourne à la centrale après le transfert d
 Cette étape clôture intégralement l’intervention pour l’équipe.
 
 
-#### 5.3.2	Cas d’application 2 - Intervention primaire avec patient inconnu
+#### Cas d’application 2 - Intervention primaire avec patient inconnu
 Le 10 décembre 2016 à 12 h 09, la [Centrale d’appels sanitaires urgents de Zurich](ServiceRequest-2-AufbietendeOrganisation.html) (SNZ; GLN 7601002156370) reçoit un appel urgent (statut [ALARM](Observation-2-Alarm.html)). Selon la personne qui téléphone, une [personne inconnue](Patient-2-PatientUnbekannt.html) s’est effondrée dans la rue. Elle ne communique plus, mais respire, et une assistance d’urgence est demandée. Le lieu d’intervention se trouve à [8050 Zürich, Sternen Oerlikon, Schaffhauserstr. 350](Location-2-Einsatzort.html). Au moment de l’appel, aucune information plus précise n’est disponible.
 
 La Centrale d’appels sanitaires urgents de Zurich déploie, à 12 h 11 (statut: [DISPOSITION](Observation-2-Disposition.html), DP), l’[équipe 111](Organization-1-TeamRettungsdienst.html) du [Service de la protection et des secours](Organization-1-Rettungsdienst.html) (GLN 7601002156363) avec le véhicule de sauvetage (Z-211) équipé de signaux prioritaires sur le lieu d’intervention. L’équipe 111 est composée de [Petra Muster](Practitioner-1-TeamMemberPetraMuster.html), ambulancière diplômée ES, GLN 7601003330434, et [Hans Transportsanitäter](Practitioner-1-TeamMemberHansTransportsanitaeter.html), technicien ambulancier BF, GLN 7601000211804. Tous deux fournissent des prestations de personnel soignant. La SNZ attribue à l’[intervention](Encounter-2-Einsatz.html) le numéro d’intervention S12345678 et le numéro de répartition D12345678. Au vu du manque d’informations relatives à l’incident, les mots-clés « situation imprécise, clarifications sur place » sont attribués à l’intervention. Étant donné le peu d’informations disponibles et le lieu d’intervention, la CASU détermine à titre provisoire que le patient devrait, si besoin, être transporté au service des urgences interdisciplinaire de l’[Hôpital universitaire de Zurich](Location-1-Zielort.html) (USZ, Rämistrasse 100, 8091 Zurich, GLN 7601002155939).
