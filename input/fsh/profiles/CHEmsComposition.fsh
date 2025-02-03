@@ -165,6 +165,7 @@ Description: "This profile constrains the Composition resource for representing 
     glasgowComaScale 0..1 and
     levelOfResponsiveness 0..1 and
     pupilShape 0..1 and
+    pupilSize 0..1 and
     injurySeverity 0..1
 * section[findings].section[disability].entry[glasgowComaScale] only Reference(CHEmsObservationGCS)
 * section[findings].section[disability].entry[glasgowComaScale].reference 1..
@@ -172,6 +173,8 @@ Description: "This profile constrains the Composition resource for representing 
 * section[findings].section[disability].entry[levelOfResponsiveness].reference 1..
 * section[findings].section[disability].entry[pupilShape] only Reference(CHEmsObservationPupilShape)
 * section[findings].section[disability].entry[pupilShape].reference 1..
+* section[findings].section[disability].entry[pupilSize] only Reference(CHEmsObservationPupilSize)
+* section[findings].section[disability].entry[pupilSize].reference 1..
 * section[findings].section[disability].entry[injurySeverity] only Reference(CHEmsObservationStrokeFAST)
 * section[findings].section[disability].entry[injurySeverity].reference 1..
 * section[findings].section[disability].section 0..0
