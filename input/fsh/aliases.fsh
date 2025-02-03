@@ -10,6 +10,7 @@ Alias: $v2-0203 =                           http://terminology.hl7.org/CodeSyste
 Alias: $v3-RoleCode =                       http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: $observation-category =              http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $data-absent-reason =                http://terminology.hl7.org/CodeSystem/data-absent-reason
+Alias: $allergyintolerance-clinical =       http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
 
 // Extensions
 Alias: $shareablevalueset =                 http://hl7.org/fhir/StructureDefinition/shareablevalueset
