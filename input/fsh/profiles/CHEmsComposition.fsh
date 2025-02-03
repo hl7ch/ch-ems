@@ -93,11 +93,14 @@ Description: "This profile constrains the Composition resource for representing 
 * section[anamnesis].entry ^slicing.rules = #open
 * section[anamnesis].entry contains 
     anamnesisEvent 0..1 and 
-    anamnesisSymptom 0..*
+    anamnesisSymptom 0..* and 
+    allergyIntolerance 0..* 
 * section[anamnesis].entry[anamnesisEvent] only Reference(CHEmsObservationAnamnesisEvent)
 * section[anamnesis].entry[anamnesisEvent].reference 1..
 * section[anamnesis].entry[anamnesisSymptom] only Reference(CHEmsObservationAnamnesisSymptom)
 * section[anamnesis].entry[anamnesisSymptom].reference 1..
+* section[anamnesis].entry[allergyIntolerance] only Reference(CHEmsAllergyIntolerance)
+* section[anamnesis].entry[allergyIntolerance].reference 1..
 * section[anamnesis].section 0..0
 
 // ---------------------------------------------------- findings ----------------------------------------------------//
