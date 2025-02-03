@@ -1,7 +1,7 @@
 Instance: 1-InformationRecipientUSZ
 InstanceOf: Organization
 Title: "1 USZ as information recipient"
-Description: "Example for Organization"
+Description: "Example for CH EMS Organization - USZ as information recipient at handover"
 Usage: #definition
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601002155939"

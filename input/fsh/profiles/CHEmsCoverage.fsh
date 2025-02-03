@@ -2,7 +2,7 @@ Profile: CHEmsCoverage
 Parent: CHCoreCoverage
 Id: ch-ems-coverage
 Title: "CH EMS Coverage"
-Description: "Definition of the coverage"
+Description: "This profile constrains the Coverage resource for representing the insurance information of the patient."
 * . ^short = "CH EMS Coverage"
 * contained ^short = "Inline Resources for payor"
 * identifier[insuranceCardNumber] ..1

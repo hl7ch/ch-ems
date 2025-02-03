@@ -1,10 +1,11 @@
 Instance: 2-Einsatz
 InstanceOf: CHEmsEncounter
 Title: "2 Einsatz"
-Description: "Example for Encounter"
+Description: "Example for CH EMS Encounter - the mission with its details"
 Usage: #example
 // cdachems-dataelement-55 Einsatznummer (OID vom SNZ)
-* identifier[missionNumber].type = $IVR-CS#MN "Einsatznummer"
+* identifier[missionNumber].type = $IVR-CS#MN "Mission number"
+* identifier[missionNumber].type.text = "Einsatznummer"
 * identifier[missionNumber].system = "urn:oid:2.16.756.5.30.1.9999999999.1"
 * identifier[missionNumber].value = "S12345678"
 
@@ -19,11 +20,13 @@ Usage: #example
 // cdachems-dataelement-283 Rolle Teammitglied
 
 * participant[0].extension.url = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-teamrole"
-* participant[=].extension.valueCodeableConcept = $sct#133932002 "Caregiver"
+* participant[=].extension.valueCodeableConcept = $sct#133932002 "Caregiver (person)"
+* participant[=].extension.valueCodeableConcept.text = "Betreuer"
 * participant[=].individual.reference = "Practitioner/1-TeamMemberPetraMuster"
 
 * participant[+].extension.url = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-ext-teamrole"
-* participant[=].extension.valueCodeableConcept = $sct#133932002 "Caregiver"
+* participant[=].extension.valueCodeableConcept = $sct#133932002 "Caregiver (person)"
+* participant[=].extension.valueCodeableConcept.text = "Betreuer"
 * participant[=].individual.reference = "Practitioner/1-TeamMemberHansTransportsanitaeter"
 
 // cdachems-dataelement-54: Einsatzdatum

@@ -1,7 +1,7 @@
 Instance: 1-Symptome
 InstanceOf: CHEmsObservationAnamnesisSymptom
 Title: "1 Symptom"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Anamnesis Symptom"
 Usage: #example
 * status = #final
 * code = $sct#404684003 "Clinical finding (finding)"

@@ -1,13 +1,9 @@
 Profile: CHEmsProcedure
 Parent: Procedure
 Id: ch-ems-procedure
-Title: "CH EMS Procedure"
-Description: "Definition of the procedure"
-* . ^short = "CH EMS Procedure"
-* extension contains CHEmsExtPerformer named performer 0..1
-* extension[performer] ^short = "Performer of the procedure"
-* code from $IVR-VS-preTreatType (extensible)
-* code ^short = "Identification of the procedure"
+Title: "CH EMS Procedure (Base)"
+Description: "This profile constrains the Procedure resource to define the requirements for all specialized CH EMS Procedure profiles."
+* . ^short = "CH EMS Procedure (Base)"
 * subject only Reference(CHEmsPatient)
 * subject ^short = "Patient"
 * subject.reference 1..

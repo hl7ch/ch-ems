@@ -1,7 +1,7 @@
 Instance: 1-ZustandUebergabe
 InstanceOf: CHEmsObservationConditionChange
 Title: "1 Zustand Uebergabe"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Condition Change - improved at handover"
 Usage: #example
 * status = #final
 * code = $loinc#75527-2 "Vital status at discharge"
@@ -9,4 +9,5 @@ Usage: #example
 * encounter.reference = "Encounter/1-Einsatz"
 
 // cdachems-dataelement-24 Zustand bei Einsatzende
-* valueCodeableConcept = $sct#385425000 "Improved"
+* valueCodeableConcept = $sct#385425000 "Improved (qualifier value)"
+* valueCodeableConcept.text = "verbessert"

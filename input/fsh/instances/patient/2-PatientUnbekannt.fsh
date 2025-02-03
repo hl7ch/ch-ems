@@ -1,7 +1,7 @@
 Instance: 2-PatientUnbekannt
 InstanceOf: CHEmsPatient
 Title: "2 Patient unbekannt"
-Description: "Example for Patient (not EPR conform because of missing name and date of birth)"
+Description: "Example for CH EMS Patient - not EPR conform because of missing name and date of birth"
 Usage: #example
 // OID SRZ, here dummy
 * identifier[LocalPid].type = $v2-0203#MR

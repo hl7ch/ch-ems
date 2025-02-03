@@ -1,7 +1,7 @@
 Instance: 1b-Einsatzprotokoll
 InstanceOf: CHEmsDocument
 Title: "1b Einsatzprotokoll"
-Description: "Example for Bundle - Use case 1 (EPR conform)"
+Description: "Example for CH EMS Document - Use case 1 at operational readiness (EPR conform)"
 Usage: #example
 * meta.lastUpdated = "2020-04-24T07:53:22.889+00:00"
 * identifier.system = "urn:ietf:rfc:3986"

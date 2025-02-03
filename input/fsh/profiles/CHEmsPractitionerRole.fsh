@@ -2,7 +2,7 @@ Profile: CHEmsPractitionerRole
 Parent: CHCorePractitionerRole
 Id: ch-ems-practitionerrole
 Title: "CH EMS PractitionerRole"
-Description: "Definition of the practitioner role"
+Description: "This profile constrains the PractitionerRole resource for representing practitioners involved with the roles they perform, e.g. physician, caregiver."
 * . ^short = "CH EMS PractitionerRole"
 * practitioner 1..
 * practitioner only Reference(CHEmsPractitioner)

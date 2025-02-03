@@ -1,12 +1,13 @@
 Instance: 2-ArrivalOnScene
 InstanceOf: CHEmsObservationMissionTimeStatus
 Title: "2 Arrival on scene"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Mission Time Status"
 Usage: #example
 * status = #final
 
 // cdachems-dataelement-278 : Bedeutung der Statuszeit
 * code = $IVR-CS#1000036 "arrival on scene"
+* code.text = "Ankunftszeit am Einsatzort"
 
 * subject.reference = "Patient/2-PatientUnbekannt"
 * encounter.reference = "Encounter/2-Einsatz"

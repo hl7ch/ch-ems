@@ -5,8 +5,9 @@ A definition for CodeSystem 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' could no
 Unknown System 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' could not be found, so the code cannot be validated)
 Error from http://tx.fhir.org/r4: Unable to provide support for code system http://fhir.de/CodeSystem/dimdi/icd-10-gm
 
-# The following display values do not correspond to the exact wording
-Wrong Display Name%
+# No display values for Swiss languages
+There are no valid display names found for the code http://loinc.org#67796-3 for language(s) 'de-CH'. The display is 'EMS patient care report - version 3 Document NEMSIS' the default language display
+There are no valid display names found for the code http://loinc.org#48767-8 for language(s) 'de-CH'. The display is 'Annotation comment [Interpretation] Narrative' the default language display
 
 # Reference to draft CodeSystem
 Reference to draft CodeSystem%
@@ -20,6 +21,7 @@ Constraint failed: dom-6: 'A resource should have narrative for robust managemen
 # No suitable code 
 None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|%
 None of the codings provided are in the value set 'Patient Contact Relationship ' (http://hl7.org/fhir/ValueSet/patient-contactrelationship|%
+None of the codings provided are in the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|%
 
 # Caused through underlying profiles
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
@@ -35,5 +37,15 @@ WARNING: Bundle/2-Einsatzprotokoll: Bundle.entry[2].resource/*Patient/2-PatientU
 WARNING: Bundle/2-Einsatzprotokoll: Bundle: Constraint failed: ch-ems-epr-document: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document)
 WARNING: Practitioner/SaniInAusbildung: Practitioner: Constraint failed: ch-ems-epr-practitioner: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner)
 
-# Base profile for all Observation profiles
+# Base profile (Observation/Procedure)
 The Implementation Guide contains no explicitly linked examples for this profile
+The Implementation Guide contains no examples for this profile
+
+# VS content is work in progress
+The code provided (http://fhir.de/CodeSystem/dimdi/icd-10-gm#%
+
+# TODO: open discussion/question
+None of the codings provided are in the value set 'IVR valueset sections' (http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-sections|2.1.0-ci-build), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://loinc.org#48767-8)
+None of the codings provided are in the value set 'IVR valueset GCS motorische Reaktion (.143.11.35)' (http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsMotoric|%
+None of the codings provided are in the value set 'IVR valueset GCS Verbale Kommunikation(.143.11.36)' (http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsVerbal|%
+None of the codings provided are in the value set 'IVR valueset GCS Augenoeffnung (143.11.34)' (http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcs-augenoeffnung|%

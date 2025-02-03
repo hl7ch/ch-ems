@@ -1,12 +1,13 @@
 Instance: 2b-DepartureFromTarget
 InstanceOf: CHEmsObservationMissionTimeStatus
 Title: "2b Departure from target"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Mission Time Status"
 Usage: #example
 * status = #final
 
 // cdachems-dataelement-278 : Bedeutung der Statuszeit
 * code = $IVR-CS#1000041 "departure from target"
+* code.text = "Abfahrtszeit vom Zielort"
 
 * subject.reference = "Patient/2-PatientUnbekannt"
 * encounter.reference = "Encounter/2-Einsatz"

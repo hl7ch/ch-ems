@@ -1,10 +1,10 @@
 Instance: 1-Anamnese
 InstanceOf: CHEmsObservationAnamnesisEvent
 Title: "1 Anamnese"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Anamnesis Event"
 Usage: #example
 * status = #final
-* code = $sct#272379006 "Event"
+* code = $sct#272379006 "Event (event)"
 * subject.reference = "Patient/1-ThomasMueller"
 * encounter.reference = "Encounter/1-Einsatz"
 

@@ -2,7 +2,7 @@ Profile: CHEmsObservation
 Parent: Observation
 Id: ch-ems-observation
 Title: "CH EMS Observation (Base)"
-Description: "Definition of the observation as the base for all CH EMS Observation profiles"
+Description: "This profile constrains the Observation resource to define the requirements for all specialized CH EMS Observation profiles."
 * . ^short = "CH EMS Observation (Base)"
 * subject 1..
 * subject only Reference(CHEmsPatient)

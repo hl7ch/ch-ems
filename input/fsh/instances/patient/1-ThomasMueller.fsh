@@ -1,7 +1,7 @@
 Instance: 1-ThomasMueller
 InstanceOf: CHEmsPatient
 Title: "1 Thomas Müller"
-Description: "Example for Patient"
+Description: "Example for CH EMS Patient - with detailed information and his wife as involved participant"
 Usage: #example
 * extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-ech-11-placeoforigin"
 * extension.valueAddress.city = "Musterdorf"
@@ -48,7 +48,7 @@ Usage: #example
 
 // participant.associatedEntity
 * contact[involvedParticipant].relationship = $v3-RoleCode#thirdParty
-* contact[involvedParticipant].extension[personRole].valueCodeableConcept.coding = $sct#74964007 "Other"
+* contact[involvedParticipant].extension[personRole].valueCodeableConcept.coding = $sct#74964007 "Other (qualifier value)"
 * contact[involvedParticipant].extension[personRole].valueCodeableConcept.text = "Ehefrau"
 * contact[involvedParticipant].name.family = "Müller"
 * contact[involvedParticipant].name.given = "Erika"

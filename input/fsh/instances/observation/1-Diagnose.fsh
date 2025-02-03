@@ -1,10 +1,11 @@
 Instance: 1-Diagnose
 InstanceOf: CHEmsObservationDiagnosis
 Title: "1 Diagnose"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: Diagnosis - STEMI as probable diagnosis"
 Usage: #example
 * status = #final
-* code = $sct#2931005 "probable diagnosis"
+* code = $sct#2931005 "Probable diagnosis (contextual qualifier) (qualifier value)"
+* code.text = "Verdachtsdiagnose"
 * subject.reference = "Patient/1-ThomasMueller"
 * encounter.reference = "Encounter/1-Einsatz"
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"

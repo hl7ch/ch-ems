@@ -2,7 +2,7 @@ Profile: CHEmsEncounter
 Parent: CHCoreEncounter
 Id: ch-ems-encounter
 Title: "CH EMS Encounter"
-Description: "Definition of the encounter"
+Description: "This profile constrains the Encounter resource for representing the mission with its details."
 * . ^short = "CH EMS Encounter"
 * identifier 1..
 * identifier contains missionNumber 1..1 

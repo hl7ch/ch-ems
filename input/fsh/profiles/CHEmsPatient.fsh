@@ -2,7 +2,7 @@ Profile: CHEmsPatient
 Parent: CHCorePatient
 Id: ch-ems-patient
 Title: "CH EMS Patient"
-Description: "Definition of the patient"
+Description: "This profile constrains the Patient resource for representing patient information and information about any participants involved."
 
 * obeys ch-ems-epr-patient
 

@@ -1,7 +1,7 @@
 Instance: 1-TeamRettungsdienst
 InstanceOf: CHEmsOrganization
 Title: "1 Team Rettungsdienst"
-Description: "Example for Organization"
+Description: "Example for CH EMS Organization - SRZ as emergency service team"
 Usage: #example
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601002156363"

@@ -1,7 +1,7 @@
 Instance: 1-Zielort
 InstanceOf: CHEmsLocation
 Title: "1 Zielort"
-Description: "Example for Location"
+Description: "Example for CH EMS Location - destination of the mission with address"
 Usage: #example
 // cdachems-dataelement-222 GLN Zielort
 * identifier.system = "urn:oid:2.51.1.3"

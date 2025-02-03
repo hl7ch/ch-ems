@@ -1,7 +1,7 @@
 Instance: 2-NACAUebergabe
 InstanceOf: CHEmsObservationNACA
 Title: "2 NACA Uebergabe"
-Description: "Example for Observation"
+Description: "Example for CH EMS Observation: NACA - III"
 Usage: #example
 * status = #final
 * code = $loinc#88076-5 "Injury severity score NACA"
@@ -10,3 +10,4 @@ Usage: #example
 
 // cdachems-dataelement-23 NACA
 * valueCodeableConcept = $IVR-CS#III "mässige bis schwere Störung"
+* valueCodeableConcept.text = "mässige bis schwere Störung"

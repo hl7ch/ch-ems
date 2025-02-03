@@ -1,7 +1,7 @@
 Instance: 1b-Einsatzprotokoll-Composition
 InstanceOf: CHEmsComposition
 Title: "1b Einsatzprotokoll"
-Description: "Example for Composition"
+Description: "Example for CH EMS Composition"
 Usage: #example
 * language = #de-CH
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"
@@ -11,8 +11,9 @@ Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:b5e2bd3b-f670-4b0c-a62d-38303baac826"
 * status = #final
-* type.coding[0] = $loinc#67796-3 "EMS Patient Care Report"
-* type.coding[+] = $sct#371535009 "Transfer summary report"
+* type.coding[0] = $loinc#67796-3 "EMS patient care report - version 3 Document NEMSIS"
+* type.coding[+] = $sct#371535009 "Transfer summary report (record artifact)"
+* type.text = "Einsatzprotokoll Rettungsdienst"
 * subject.reference = "Patient/1-ThomasMueller" // CDA: recordTarget
 * encounter.reference = "Encounter/1-Einsatz"
 * date = "2016-12-10T13:40:00.000+01:00"
@@ -26,7 +27,8 @@ Usage: #example
 * author[+].reference = "PractitionerRole/1-NotarztPierreUrgentiste-PR" // CDA: author.functionCode
 * title = "Einsatzprotokoll Rettungsdienst"
 * confidentiality.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode"
-* confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal"
+* confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"
+* confidentiality.extension.valueCodeableConcept.text = "Normal"
 * confidentiality = #N
 * attester.mode = #legal
 * attester.time = "2016-12-10T13:40:00.000+01:00"
@@ -35,7 +37,8 @@ Usage: #example
 * custodian.reference = "Organization/1-Rettungsdienst" // CDA: custodian.assignedCustodian.representedCustodian
 
 * section[mission].title = "Einsatz"
-* section[mission].code = $IVR-CS#1100001 "Einsatz"
+* section[mission].code = $IVR-CS#1100001 "intervention"
+* section[mission].code.text = "Einsatz"
 * section[mission].text.status = #generated
 * section[mission].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -113,7 +116,8 @@ Usage: #example
 * section[mission].entry[missionTimeStatus][+] = Reference(1b-OperationalReadiness)
 
 * section[administrative].title = "Administrativ"
-* section[administrative].code = $IVR-CS#1100003 "Administrativ"
+* section[administrative].code = $IVR-CS#1100003 "administrative"
+* section[administrative].code.text = "Administrativ"
 * section[administrative].text.status = #generated
 * section[administrative].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -131,7 +135,8 @@ Usage: #example
 </div>"
 
 * section[pretreatment].title = "Vorbehandlung"
-* section[pretreatment].code = $IVR-CS#1100004 "Vorbehandlung"
+* section[pretreatment].code = $IVR-CS#1100004 "pretreatment"
+* section[pretreatment].code.text = "Vorbehandlung"
 * section[pretreatment].text.status = #generated
 * section[pretreatment].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -139,7 +144,8 @@ Usage: #example
 </div>"
 
 * section[anamnesis].title = "Anamnese"
-* section[anamnesis].code = $IVR-CS#1100005 "Anamnese"
+* section[anamnesis].code = $IVR-CS#1100005 "anamnesis"
+* section[anamnesis].code.text = "Anamnese"
 * section[anamnesis].text.status = #generated
 * section[anamnesis].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -187,7 +193,8 @@ Usage: #example
 * section[anamnesis].entry[anamnesisSymptom] = Reference(1-Symptome)
 
 * section[findings].title = "Befund"
-* section[findings].code = $IVR-CS#1100006 "Befund"
+* section[findings].code = $IVR-CS#1100006 "findings"
+* section[findings].code.text = "Befund"
 * section[findings].text.status = #generated
 * section[findings].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -210,7 +217,8 @@ Usage: #example
 * section[findings].section[disability].entry[glasgowComaScale] = Reference(1-GCSBefund)
 
 * section[diagnosis].title = "Diagnosen"
-* section[diagnosis].code = $IVR-CS#1100007 "Diagnosen"
+* section[diagnosis].code = $IVR-CS#1100007 "diagnosis"
+* section[diagnosis].code.text = "Diagnosen"
 * section[diagnosis].text.status = #generated
 * section[diagnosis].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -228,7 +236,8 @@ Usage: #example
 * section[diagnosis].entry = Reference(1-Diagnose)
 
 * section[procedures].title = "Massnahmen"
-* section[procedures].code = $IVR-CS#1100008 "Massnahmen"
+* section[procedures].code = $IVR-CS#1100008 "measures"
+* section[procedures].code.text = "Massnahmen"
 * section[procedures].text.status = #generated
 * section[procedures].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -238,7 +247,8 @@ Usage: #example
 </div>"
 
 * section[eventOfDeath].title = "Todesfall"
-* section[eventOfDeath].code = $IVR-CS#1100009 "Todesfall"
+* section[eventOfDeath].code = $IVR-CS#1100009 "death"
+* section[eventOfDeath].code.text = "Todesfall"
 * section[eventOfDeath].text.status = #generated
 * section[eventOfDeath].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -246,7 +256,8 @@ Usage: #example
 </div>"
 
 * section[transport].title = "Transport"
-* section[transport].code = $IVR-CS#1100010 "Transport"
+* section[transport].code = $IVR-CS#1100010 "transport"
+* section[transport].code.text = "Transport"
 * section[transport].text.status = #generated
 * section[transport].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -256,7 +267,8 @@ Usage: #example
 </div>"
 
 * section[handover].title = "Übergabe"
-* section[handover].code = $IVR-CS#1100011 "Übergabe"
+* section[handover].code = $IVR-CS#1100011 "handover"
+* section[handover].code.text = "Übergabe"
 * section[handover].text.status = #generated
 * section[handover].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -292,7 +304,8 @@ Usage: #example
 * section[handover].entry[glasgowComaScale] = Reference(1-GCSUebergabe)
 
 * section[annotation].title = "Kommentar"
-* section[annotation].code = $loinc#48767-8 "Annotation comment"
+* section[annotation].code = $loinc#48767-8 "Annotation comment [Interpretation] Narrative"
+* section[annotation].code.text = "Kommentar"
 * section[annotation].text.status = #generated
 * section[annotation].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
