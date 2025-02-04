@@ -7,4 +7,10 @@ Description: "This profile constrains the Observation resource for representing 
 * ^extension[$imposeProfile].valueCanonical = Canonical(http://hl7.org/fhir/StructureDefinition/bp)
 * code = $loinc#85354-9 // "Blood pressure panel with all children optional"
 * code ^short = "Blood pressure"
+* code MS 
 * method from $IVR-VS-pressureMethod (extensible)
+* method MS 
+* method only CHEmsCodeableConcept
+* component MS 
+* component.code MS 
+* component.valueQuantity MS

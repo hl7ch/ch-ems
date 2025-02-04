@@ -6,5 +6,8 @@ Description: "This profile constrains the Observation resource for representing 
 * . ^short = "CH EMS Observation: Airways"
 * code = $sct#301252002 // "Finding of respiratory obstruction"
 * code ^short = "Finding of respiratory obstruction"
-* value[x] only CodeableConcept
+* code MS 
+* value[x] only CHEmsCodeableConcept
 * value[x] from $IVR-VS-findingsAirway (extensible)
+* value[x] MS
+

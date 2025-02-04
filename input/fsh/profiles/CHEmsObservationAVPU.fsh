@@ -6,5 +6,7 @@ Description: "This profile constrains the Observation resource for representing 
 * . ^short = "CH EMS Observation: AVPU"
 * code = $loinc#11454-6 // "Level of Responsiveness (AVPU)"
 * code ^short = "Level of Responsiveness (AVPU)"
-* value[x] only CodeableConcept
+* code MS
+* value[x] only CHEmsCodeableConcept
 * value[x] from $IVR-VS-vigilanzAvpu (extensible)
+* value[x] MS

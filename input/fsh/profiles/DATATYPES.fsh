@@ -5,7 +5,7 @@ Title: "CH EMS CodeableConcept"
 Description: "This profile constrains the CodeableConcept data type."
 * . ^short = "CH EMS CodeableConcept"
 * coding only CHEmsCoding
-* coding 1.. MS
+* coding MS
 * text MS
 
 Profile: CHEmsCoding

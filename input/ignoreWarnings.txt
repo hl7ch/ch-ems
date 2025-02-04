@@ -18,10 +18,11 @@ Best Practice Recommendation: In general, all observations should have an effect
 UCUM Codes that contain human readable annotations like {score} can be misleading (e.g. they are ignored when comparing units). Best Practice is not to depend on annotations in the UCUM code, so this usage should be checked, and the Quantity.unit SHOULD contain the annotation
 Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
-# No suitable code 
+# No suitable code / only text provided
 None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|%
 None of the codings provided are in the value set 'Patient Contact Relationship ' (http://hl7.org/fhir/ValueSet/patient-contactrelationship|%
 None of the codings provided are in the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|%
+No code provided, and a code should be provided from the value set 'IVR valueset symptom%
 
 # Caused through underlying profiles
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)

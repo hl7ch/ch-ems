@@ -6,3 +6,5 @@ Description: "This profile constrains the Procedure resource for representing th
 * . ^short = "CH EMS Procedure: Airways"
 * code from $IVR-VS-procAirType (extensible)
 * code ^short = "Identification of the airways procedure"
+* code only CHEmsCodeableConcept
+* code MS 

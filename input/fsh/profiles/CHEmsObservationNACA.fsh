@@ -6,5 +6,7 @@ Description: "This profile constrains the Observation resource for representing 
 * . ^short = "CH EMS Observation NACA"
 * code = $loinc#88076-5 // "Injury severity score NACA"
 * code ^short = "Injury severity score NACA"
-* value[x] only CodeableConcept
+* code MS
+* value[x] only CHEmsCodeableConcept
 * value[x] from $IVR-VS-NACA (extensible)
+* value[x] MS

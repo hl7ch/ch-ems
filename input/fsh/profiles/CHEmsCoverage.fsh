@@ -4,15 +4,13 @@ Id: ch-ems-coverage
 Title: "CH EMS Coverage"
 Description: "This profile constrains the Coverage resource for representing the insurance information of the patient."
 * . ^short = "CH EMS Coverage"
-* contained ^short = "Inline Resources for payor"
-* identifier[insuranceCardNumber] ..1
-* identifier[insuranceCardNumber] ^short = "Insurance card number"
-* identifier[insuranceCardNumber].system = "urn:oid:2.16.756.5.30.1.123.100.1.1.1" (exactly)
-* identifier[insuranceCardNumber].system ^short = "oid of the insurance card number"
-* identifier[insuranceCardNumber].value ^short = "Insurance card number of the patient (20 digits)"
+* contained MS
+* identifier[insuranceCardNumber] ..1 MS
 * beneficiary only Reference(CHEmsPatient)
 * beneficiary ^short = "Insured patient"
+* beneficiary MS
 * beneficiary.reference 1..
 * payor ^short = "Insurance"
+* payor MS
 * payor ^type.aggregation = #contained
 * payor.reference 1..
