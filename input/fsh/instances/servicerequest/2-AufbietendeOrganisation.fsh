@@ -15,6 +15,6 @@ Instance: 2-informant
 InstanceOf: CHEmsOrganization
 Usage: #inline
 // cdachems-dataelement-60 aufbietende Organisation (informant.assignedEntity)
-* identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7601002156370"
+* identifier[GLN].system = "urn:oid:2.51.1.3"
+* identifier[GLN].value = "7601002156370"
 * name = "SNZ"

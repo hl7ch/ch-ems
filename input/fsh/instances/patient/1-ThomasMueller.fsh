@@ -3,9 +3,8 @@ InstanceOf: CHEmsPatient
 Title: "1 Thomas Müller"
 Description: "Example for CH EMS Patient - with detailed information and his wife as involved participant"
 Usage: #example
-* extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-ech-11-placeoforigin"
-* extension.valueAddress.city = "Musterdorf"
-* extension.valueAddress.state = "ZH"
+* extension[placeOfOrigin].valueAddress.city = "Musterdorf"
+* extension[placeOfOrigin].valueAddress.state = "ZH"
 
 // Profile http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr, Element 'Patient.identifier[AHVN13]': max allowed = 0, but found 1
 // cdachems-dataelement-135 navs13
