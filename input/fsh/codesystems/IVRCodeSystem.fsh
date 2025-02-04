@@ -991,6 +991,7 @@ Description: "IVR Code System"
 * #1100001 ^designation[=].value = "Intervention"
 * #1100001 ^designation[+].language = #it-CH
 * #1100001 ^designation[=].value = "Intervento"
+/* unused, Composition.subject and no section 
 * #1100002 "patient"
 * #1100002 ^designation[0].language = #de-CH
 * #1100002 ^designation[=].value = "Patient"
@@ -998,6 +999,7 @@ Description: "IVR Code System"
 * #1100002 ^designation[=].value = "Patient"
 * #1100002 ^designation[+].language = #it-CH
 * #1100002 ^designation[=].value = "Paziente"
+*/
 * #1100003 "administrative"
 * #1100003 ^designation[0].language = #de-CH
 * #1100003 ^designation[=].value = "Administrativ"
