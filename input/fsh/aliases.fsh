@@ -12,10 +12,11 @@ Alias: $observation-category =              http://terminology.hl7.org/CodeSyste
 Alias: $data-absent-reason =                http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias: $allergyintolerance-clinical =       http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
 
-// Extensions
+// Structure definitions
 Alias: $shareablevalueset =                 http://hl7.org/fhir/StructureDefinition/shareablevalueset
 Alias: $iso21090-ADXP-houseNumber =         http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
 Alias: $ch-ext-ech-10-linetype =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype
+Alias: $ch-core-gln-identifier =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-gln-identifier
 Alias: $ordinalValue =                      http://hl7.org/fhir/StructureDefinition/ordinalValue
 Alias: $imposeProfile =                     http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile
 
