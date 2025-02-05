@@ -1,15 +1,15 @@
-Instance: IVR-VS-valTxpe
+Instance: IVR-VS-valType
 InstanceOf: $shareablevalueset
 Usage: #definition
 * meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.37--20170107121218"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * extension.valuePeriod.start = "2017-01-07T12:12:18+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-valTxpe"
+* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-valType"
 * identifier.use = #official
 * identifier.system = "http://art-decor.org/ns/oids/vs"
 * identifier.value = "2.16.756.5.30.1.1.11.37"
 * version = "2017-01-07T12:12:18"
-* name = "IVRVSvalTxpe"
+* name = "IVRVSvalType"
 * title = "IVR valueset valuables type (.143.11.33)"
 * status = #draft
 * experimental = false

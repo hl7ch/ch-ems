@@ -57,3 +57,4 @@ Alias: $IVR-VS-bedding =                    http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-formation =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation
 Alias: $IVR-VS-urgency =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency
 Alias: $IVR-VS-urgency-adequate =           http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency-adequate
+Alias: $IVR-VS-valType =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-valType

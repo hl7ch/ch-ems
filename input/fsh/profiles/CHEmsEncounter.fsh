@@ -4,6 +4,7 @@ Id: ch-ems-encounter
 Title: "CH EMS Encounter"
 Description: "This profile constrains the Encounter resource for representing the mission with its details."
 * . ^short = "CH EMS Encounter"
+* extension contains CHEmsExtValuablesPatient named valuablesPatient 0..* MS
 * identifier 1..
 * identifier contains missionNumber 1..1 MS
 * identifier[missionNumber] ^short = "Mission number (Einsatznummer)"
@@ -21,7 +22,6 @@ Description: "This profile constrains the Encounter resource for representing th
 * basedOn.reference 1..
 * participant ^short = "Team"
 * participant.extension contains CHEmsExtTeamRole named teamRole 1..1 MS
-* participant.extension[teamRole] ^short = "Role of team member"
 * participant.individual 1.. MS
 * participant.individual only Reference(CHEmsPractitioner)
 * participant.individual ^short = "Team member"
