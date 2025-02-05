@@ -9,7 +9,7 @@ In Abhängigkeit vom Ereignis, das den Rettungseinsatz auslöst, kann der Ablauf
 Die Grafik beschreibt also einen möglichst generischen Ablauf, der sachdienlich ist, Diskussionen im Detail aber vermeidet.
 
 ### Storyboard
-In der Sanitätsnotrufzentrale geht ein Anruf oder eine elektronische Meldung ein. Diese geht entweder (a) von einem Unfall- oder einer akuten Gesundheitsattacke aus und ist mit einer der Situation angemessenen Priorität auszuführen (Primäreinsatz) oder betrifft (b) einen geplanten Transport einer Person mit medizinischen Einschränkungen (Sekundäreinsatz).
+In der Sanitätsnotrufzentrale geht ein Anruf oder eine elektronische Meldung ein. Diese geht entweder (a) von einem Unfall- oder einer akuten Gesundheitsattacke aus und ist mit einer der Situation angemessenen Priorität auszuführen (**Primäreinsatz**) oder betrifft (b) einen geplanten Transport einer Person mit medizinischen Einschränkungen (**Sekundäreinsatz**).
 
 Bei der Einsatzannahme werden die ersten Daten zur Domäne Einsatz (Einsatz- und Zielort) erhoben und dokumentiert. Beim Zielort sind bei einem Grossereignis Vorbehalte möglich, die aber zwischen dem Start des Teams von der Basis und der Abfahrt vom Einsatzort geklärt werden müssen.
 
@@ -42,7 +42,7 @@ Das Team kehrt mit dem Fahrzeug auf die Basis zurück, führt die Retablierung d
 
 {% include img.html img="Prozess.jpg" caption="Prozess Rettungsdienst" width="40%" %}
 
-### Use cases - Vorbemerkungen
+### Use cases
 Für das Einsatzprotokoll für Rettungsdienste werden 2 Use cases beschrieben:
 
 [**1. Primäreinsatz mit identifizierbarem Patienten**](usecase-german.html#use-case-1---primäreinsatz-mit-identifizierbarem-patienten):     

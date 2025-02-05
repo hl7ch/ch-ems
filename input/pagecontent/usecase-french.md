@@ -9,7 +9,7 @@ Le processus dans ses détails peut se dérouler différemment en fonction de l�
 Le graphique décrit par conséquent le déroulement le plus générique possible; ce déroulement est utile, mais n’entre pas dans des discussions de détail.
 
 ### Storyboard
-La centrale d'appels sanitaires urgents reçoit un appel ou un message électronique. Celui-ci part soit (a) d'un accident ou d'une attaque sanitaire aiguë et doit être exécuté avec une priorité adaptée à la situation (intervention primaire), soit concerne (b) un transport planifié d'une personne avec des restrictions médicales (intervention secondaire).
+La centrale d'appels sanitaires urgents reçoit un appel ou un message électronique. Celui-ci part soit (a) d'un accident ou d'une attaque sanitaire aiguë et doit être exécuté avec une priorité adaptée à la situation (**intervention primaire**), soit concerne (b) un transport planifié d'une personne avec des restrictions médicales (**intervention secondaire**).
 
 Les premières données relatives au domaine d’intervention (lieu d’intervention et destination) sont récoltées et documentées lors de cet appel. En cas d’événement majeur, des réserves sont possibles sur le lieu de destination, mais celles-ci doivent faire l’objet d’une clarification entre le départ de l’équipe de la base et l’arrivée sur le lieu de l’intervention.
 
@@ -45,7 +45,7 @@ L'assurance qualité et la facturation (au patient ou à l'organisation qui a pa
 
 {% include img.html img="prozess-fr.jpg" caption="Flux de travail" width="40%" %}
 
-### Cas d’application -  Remarques préalables
+### Cas d’application
 Deux cas d’application sont décrits pour le protocole d'intervention:
 
 [**1. Intervention primaire avec patient identifiable**](usecase-french.html#cas-dapplication-1---intervention-primaire-avec-patient-identifiable):        
