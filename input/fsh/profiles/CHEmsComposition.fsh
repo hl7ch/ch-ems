@@ -52,13 +52,19 @@ Description: "This profile constrains the Composition resource for representing 
 * section[mission].entry contains 
     missionEncounter 0..1 MS and 
     missionTimeStatus 0..* MS and 
-    precautionsInfection 0..* MS
+    precautionsInfection 0..* MS and 
+    recoveryAid 0..* MS and 
+    bedding 0..* MS
 * section[mission].entry[missionEncounter] only Reference(CHEmsEncounter)
 * section[mission].entry[missionEncounter].reference 1..
 * section[mission].entry[missionTimeStatus] only Reference(CHEmsObservationMissionTimeStatus)
 * section[mission].entry[missionTimeStatus].reference 1..
 * section[mission].entry[precautionsInfection] only Reference(CHEmsProcedurePrecautionsInfection)
 * section[mission].entry[precautionsInfection].reference 1..
+* section[mission].entry[recoveryAid] only Reference(CHEmsDeviceRecoveryAid)
+* section[mission].entry[recoveryAid].reference 1..
+* section[mission].entry[bedding] only Reference(CHEmsProcedureBedding)
+* section[mission].entry[bedding].reference 1..
 * section[mission].section 0..0
 
 // ---------------------------------------------------- administrative ----------------------------------------------------//

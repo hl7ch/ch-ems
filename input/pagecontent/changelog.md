@@ -40,9 +40,11 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#24](https://github.com/hl7ch/ch-ems/issues/24): Add slices for all Bundle.entry
    * Add a CH EMS Observation base profile with all common observation requirements defined
    * Add a CH EMS Procedure base profile with all common procedure requirements defined (Rename former CH EMS Procedure to CH EMS Procedure: Pretreatment)
+   * Add a CH EMS Device base profile with all common device requirements defined
 * [#18](https://github.com/hl7ch/ch-ems/issues/18): Add value set binding to profiles/elements 
    * Add CH EMS Observations: 
-   * Add CH EMS Procedures: Precautions Infection
+   * Add CH EMS Procedures: Precautions Infection | Bedding
+   * Add CH EMS Devices: Recovery Aid
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
    * Add CH EMS Observations: Breathing | Heat Exposure | Cold Exposure | Heart Rate | Blood Pressure | Pupil Shape | Pupil Size
    * Add CH EMS Procedures: Airways | Breathing
