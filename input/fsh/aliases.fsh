@@ -3,6 +3,7 @@ Alias: $loinc =                             http://loinc.org
 Alias: $sct =                               http://snomed.info/sct
 Alias: $icd-10-gm =                         http://fhir.de/CodeSystem/dimdi/icd-10-gm
 Alias: $ucum =                              http://unitsofmeasure.org 
+Alias: $edqm =                              urn:oid:0.4.0.127.0.16.1.1.2.1
 
 // HL7 code systems
 Alias: $v3-ActCode =                        http://terminology.hl7.org/CodeSystem/v3-ActCode

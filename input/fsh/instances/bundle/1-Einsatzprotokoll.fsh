@@ -72,3 +72,10 @@ Usage: #example
 * entry[=].resource = 1-NACAUebergabe
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/1-GCSUebergabe"
 * entry[=].resource = 1-GCSUebergabe
+
+/* validation test case
+* entry[+].fullUrl = "http://test.fhir.ch/r4/MedicationAdministration/MedAdminFentanyl"
+* entry[=].resource = MedAdminFentanyl
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Procedure/ProcedureAirwaysIntubation"
+* entry[=].resource = ProcedureAirwaysIntubation
+*/

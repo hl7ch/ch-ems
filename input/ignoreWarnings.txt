@@ -4,6 +4,7 @@
 A definition for CodeSystem 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' could not be found, so the code cannot be validated
 Unknown System 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' could not be found, so the code cannot be validated)
 Error from http://tx.fhir.org/r4: Unable to provide support for code system http://fhir.de/CodeSystem/dimdi/icd-10-gm
+A definition for CodeSystem 'urn:oid:2.51.1.1' could not be found, so the code cannot be validated
 
 # No display values for Swiss languages
 There are no valid display names found for the code http://loinc.org#67796-3 for language(s) 'de-CH'. The display is 'EMS patient care report - version 3 Document NEMSIS' the default language display

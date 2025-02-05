@@ -33,7 +33,10 @@ Description: "This profile constrains the Bundle resource for representing the e
   Coverage 0..* MS and 
   Procedure 0..* MS and 
   ServiceRequest 0..* MS and 
-  Observation 0..* MS
+  Observation 0..* MS and
+  AllergyIntolerance 0..* MS and
+  MedicationStatement 0..* MS and 
+  MedicationAdministration 0..* MS
 
 * entry[Coverage].resource only CHEmsCoverage  
 * entry[Coverage].resource 1..1
@@ -43,3 +46,9 @@ Description: "This profile constrains the Bundle resource for representing the e
 * entry[ServiceRequest].resource 1..1
 * entry[Observation].resource only CHEmsObservation
 * entry[Observation].resource 1..1
+* entry[AllergyIntolerance].resource only CHEmsAllergyIntolerance
+* entry[AllergyIntolerance].resource 1..1
+* entry[MedicationStatement].resource only CHEmsMedicationStatement
+* entry[MedicationStatement].resource 1..1
+* entry[MedicationAdministration].resource only CHEmsMedicationAdministration
+* entry[MedicationAdministration].resource 1..1

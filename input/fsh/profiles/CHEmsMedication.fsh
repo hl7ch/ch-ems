@@ -8,3 +8,6 @@ Description: "This profile constrains the Medication resource for representing t
 * code only CHEmsCodeableConcept
 * ingredient.item[x] MS 
 * ingredient.item[x] only CHEmsCodeableConcept
+* form MS 
+* form only CHEmsCodeableConcept
+* amount MS 
