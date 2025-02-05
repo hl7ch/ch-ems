@@ -7,6 +7,5 @@ Description: "This profile constrains the Procedure resource for representing th
 * extension contains CHEmsExtPerformer named performer 0..1 MS 
 * extension[performer] ^short = "Performer of the pretreatment"
 * code from $IVR-VS-preTreatType (extensible)
-* code ^short = "Identification of the procedure"
 * code only CHEmsCodeableConcept
 * code MS 
