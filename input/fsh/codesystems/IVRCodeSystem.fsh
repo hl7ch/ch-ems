@@ -43,16 +43,16 @@ Description: "IVR Code System"
 * #1000004 ^designation[0].language = #de-CH
 * #1000004 ^designation[=].value = "Stationär Rettungsdienst"
 * #1000004 ^designation[+].language = #fr-CH
-* #1000004 ^designation[=].value = "Service de secours fixe"
+* #1000004 ^designation[=].value = "Service de sauvetage fixe"
 * #1000004 ^designation[+].language = #it-CH
-* #1000004 ^designation[=].value = "Servizio di soccorso fisso"
+* #1000004 ^designation[=].value = "Servizio di salvataggio ospedaliero"
 * #1000005 "pickup by EMS"
 * #1000005 ^designation[0].language = #de-CH
 * #1000005 ^designation[=].value = "Abholung durch Rettungsdienst"
 * #1000005 ^designation[+].language = #fr-CH
-* #1000005 ^designation[=].value = "Prise en charge par le service de secours"
+* #1000005 ^designation[=].value = "Prise en charge par le service de sauvetage"
 * #1000005 ^designation[+].language = #it-CH
-* #1000005 ^designation[=].value = "Trasporto con servizio ambulanza"
+* #1000005 ^designation[=].value = "Trasporto con servizio di salvataggio"
 * #1000006 "rendezvous"
 * #1000006 ^designation[0].language = #de-CH
 * #1000006 ^designation[=].value = "Rendezvous"

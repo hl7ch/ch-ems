@@ -16,7 +16,7 @@ Description: "This profile constrains the Composition resource for representing 
 * author only Reference(CHEmsPractitioner or CHEmsPractitionerRole or Device or CHEmsPatient or RelatedPerson or CHEmsOrganization)
 * author ^short = "The author/responsible for this document/content (not necessarily who typed it in)"
 * title MS
-* title ^short = "'Einsatzprotokoll Rettungsdienst' or 'Fiche d’intervention du service de sauvetage' or 'Cartella sanitaria  del ente di salvataggio e soccorso' or 'Emergency Medical Service protocol'"
+* title ^short = "'Einsatzprotokoll Rettungsdienst' or 'Protocole d'intervention des services de sauvetage' or 'Protocollo d'intervento servizi di salvataggio' or 'Emergency Medical Service protocol'"
 * custodian 1.. MS
 * custodian.reference 1..
 * custodian only Reference(CHEmsOrganization)
