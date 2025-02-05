@@ -239,14 +239,23 @@ Description: "This profile constrains the Composition resource for representing 
 * section[procedures].section[circulation] ^short = "C: Circulation"
 * section[procedures].section[circulation].title 1.. MS
 * section[procedures].section[circulation].title = "Circulation" (exactly)
+* section[procedures].section[circulation].entry MS
+* section[procedures].section[circulation].entry only Reference(CHEmsProcedure)
+* section[procedures].section[circulation].entry.reference 1..
 * section[procedures].section[circulation].section 0..0
 * section[procedures].section[disability] ^short = "D: Disability"
 * section[procedures].section[disability].title 1.. MS
 * section[procedures].section[disability].title = "Disability" (exactly)
+* section[procedures].section[disability].entry MS
+* section[procedures].section[disability].entry only Reference(CHEmsProcedure)
+* section[procedures].section[disability].entry.reference 1..
 * section[procedures].section[disability].section 0..0
 * section[procedures].section[exposure] ^short = "E: Exposure"
 * section[procedures].section[exposure].title 1.. MS
 * section[procedures].section[exposure].title = "Exposure" (exactly)
+* section[procedures].section[exposure].entry MS
+* section[procedures].section[exposure].entry only Reference(CHEmsProcedure)
+* section[procedures].section[exposure].entry.reference 1..
 * section[procedures].section[exposure].section 0..0
 
 // ---------------------------------------------------- eventOfDeath ----------------------------------------------------//
