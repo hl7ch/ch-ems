@@ -95,13 +95,16 @@ Description: "This profile constrains the Composition resource for representing 
 * section[anamnesis].entry contains 
     anamnesisEvent 0..1 MS and 
     anamnesisSymptom 0..* MS and 
-    allergyIntolerance 0..* MS
+    allergyIntolerance 0..* MS and 
+    medicationStatement 0..* MS 
 * section[anamnesis].entry[anamnesisEvent] only Reference(CHEmsObservationAnamnesisEvent)
 * section[anamnesis].entry[anamnesisEvent].reference 1..
 * section[anamnesis].entry[anamnesisSymptom] only Reference(CHEmsObservationAnamnesisSymptom)
 * section[anamnesis].entry[anamnesisSymptom].reference 1..
 * section[anamnesis].entry[allergyIntolerance] only Reference(CHEmsAllergyIntolerance)
 * section[anamnesis].entry[allergyIntolerance].reference 1..
+* section[anamnesis].entry[medicationStatement] only Reference(CHEmsMedicationStatement)
+* section[anamnesis].entry[medicationStatement].reference 1..
 * section[anamnesis].section 0..0
 
 // ---------------------------------------------------- findings ----------------------------------------------------//

@@ -7,6 +7,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#2](https://github.com/hl7ch/ch-ems/issues/2): Include 'Propose a change' link in the footer
 * [#20](https://github.com/hl7ch/ch-ems/issues/20): Integration of medical data 
    * Composition.section:anamnesis.entry:allergyIntolerance -> 0..* CH EMS AllergyIntolerance
+   * Composition.section:anamnesis.entry:medicationStatement -> 0..* CH EMS MedicationStatement
+   * Composition.section:procedures.entry:medicationAdministration -> 0..* CH EMS MedicationAdministration
 * Introduction of the concept must support (incl. adding the data type profiles for CodeableConcept, Coding and Quantity)   
 
 #### Changed / Updated
