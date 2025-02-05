@@ -15,17 +15,17 @@ Usage: #example
 // cdachems-dataelement-112 GCS-motorische Kommunikation
 * component[0].code = $loinc#9268-4 "Glasgow coma score motor"
 * component[=].valueCodeableConcept.coding.extension[ordinalValue].valueDecimal = 6
-* component[=].valueCodeableConcept.coding = $loinc#LA6567-7 "Obeys commands"
-* component[=].valueCodeableConcept.text = "6 (Obeys commands)"
+* component[=].valueCodeableConcept.coding = $IVR-CS#1000157 "take orders"
+* component[=].valueCodeableConcept.text = "befolgt Aufforderungen"
 
 // cdachems-dataelement-111 GCS-verbale Kommunikation
 * component[+].code = $loinc#9270-0 "Glasgow coma score verbal"
 * component[=].valueCodeableConcept.coding.extension[ordinalValue].valueDecimal = 5
-* component[=].valueCodeableConcept.coding = $loinc#LA6561-0 "Oriented"
-* component[=].valueCodeableConcept.text = "5 (Oriented)"
+* component[=].valueCodeableConcept.coding = $IVR-CS#1000161 "conversational, oriented"	
+* component[=].valueCodeableConcept.text = "konversationsfähig, orientiert"
 
 // cdachems-dataelement GCS-Augenöffnung 110
 * component[+].code = $loinc#9267-6 "Glasgow coma score eye opening"
 * component[=].valueCodeableConcept.coding.extension[ordinalValue].valueDecimal = 4
-* component[=].valueCodeableConcept.coding = $loinc#LA6556-0 "Eyes open spontaneously"
-* component[=].valueCodeableConcept.text = "4 (Eyes open spontaneously)"
+* component[=].valueCodeableConcept.coding = $IVR-CS#1000152 "spontaneous"
+* component[=].valueCodeableConcept.text = "spontan"

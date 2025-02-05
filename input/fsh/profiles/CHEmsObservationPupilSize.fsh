@@ -6,5 +6,7 @@ Description: "This profile constrains the Observation resource for representing 
 * . ^short = "CH EMS Observation: Pupil Size"
 * code = $sct#301938007 // "Finding of size of pupil (finding)"
 * code ^short = "Finding of size of pupil"
-* value[x] only CodeableConcept
+* code MS
+* value[x] only CHEmsCodeableConcept
 * value[x] from $IVR-VS-size (extensible)
+* value[x] MS

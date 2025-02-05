@@ -6,5 +6,7 @@ Description: "This profile constrains the Observation resource for representing 
 * . ^short = "CH EMS Observation: Cold Exposure"
 * code = $sct#370977006 // "Frostbite (disorder)"
 * code ^short = "Frostbite"
-* value[x] only CodeableConcept
+* code MS
+* value[x] only CHEmsCodeableConcept
 * value[x] from $IVR-VS-coldExposure (extensible)
+* value[x] MS

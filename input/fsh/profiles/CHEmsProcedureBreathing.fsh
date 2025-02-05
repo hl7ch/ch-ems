@@ -6,3 +6,5 @@ Description: "This profile constrains the Procedure resource for representing th
 * . ^short = "CH EMS Procedure: Breathing"
 * code from $IVR-VS-ventilation (extensible)
 * code ^short = "Identification of the breathing procedure"
+* code only CHEmsCodeableConcept
+* code MS

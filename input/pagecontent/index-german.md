@@ -32,6 +32,10 @@ Um die Kompatibilitätsprüfung gegen die CH Core EPD-Profile zu unterstützen, 
 
 *Validierung: siehe [README CH Core](https://github.com/hl7ch/ch-core)*
 
+### Must Support
+Für das CH EMS Austauschformat hat das [mustSupport](https://hl7.org/fhir/R4/profiling.html#mustsupport) Flag, das auf `true` gesetzt ist, folgende Bedeutung:    
+Wenn die sendende Applikation Daten für das entsprechende Element hat, muss das Element mit einem nicht-leeren Wert ausgefüllt werden. Wenn der Wert nicht bekannt ist, kann das Element weggelassen werden.
+
 ### Analyse & Abhängigkeiten
 Die nachfolgende Dokumentation beschreibt die Lizenz- und Nutzungsbedingungen für verschiedene Inhalte ([IP Statements](#ip-statements)), die in diesem IG genutzt werden. Die Analyse zur Versionskompatibilität ([Cross Version Analysis](#cross-version-analysis)) zeigt die Kompatibilität dieses IGs zu FHIR R4 und R4B auf. Zudem werden Abhängigkeiten und Pakete ([Dependency Table](#dependency-table)) sowie eine Aussage über globale Profile ([Globals Table](#globals-table)) aufgeführt. Diese Abschnitte werden automatisch durch das Tooling (in Englisch) generiert.
 

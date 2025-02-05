@@ -6,5 +6,7 @@ Description: "This profile constrains the Observation resource for representing 
 * . ^short = "CH EMS Observation: Condition Change"
 * code = $loinc#75527-2 // "Vital status at discharge"
 * code ^short = "Patient Condition Change"
-* value[x] only CodeableConcept
+* code MS
+* value[x] only CHEmsCodeableConcept
 * value[x] from $IVR-VS-result (extensible)
+* value[x] MS

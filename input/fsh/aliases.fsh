@@ -12,10 +12,11 @@ Alias: $observation-category =              http://terminology.hl7.org/CodeSyste
 Alias: $data-absent-reason =                http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias: $allergyintolerance-clinical =       http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
 
-// Extensions
+// Structure definitions
 Alias: $shareablevalueset =                 http://hl7.org/fhir/StructureDefinition/shareablevalueset
 Alias: $iso21090-ADXP-houseNumber =         http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
 Alias: $ch-ext-ech-10-linetype =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype
+Alias: $ch-core-gln-identifier =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-gln-identifier
 Alias: $ordinalValue =                      http://hl7.org/fhir/StructureDefinition/ordinalValue
 Alias: $imposeProfile =                     http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile
 
@@ -40,7 +41,6 @@ Alias: $IVR-VS-gcs-augenoeffnung =          http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-gcsMotoric =                 http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsMotoric
 Alias: $IVR-VS-gcsVerbal =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsVerbal
 Alias: $IVR-VS-diagnosis =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagnosis
-Alias: $IVR-VS-sections =                   http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-sections
 Alias: $IVR-VS-coldExposure =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-coldExposure
 Alias: $IVR-VS-heatExposure =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-heatExposure
 Alias: $IVR-VS-pulesResult =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulesResult
@@ -49,3 +49,4 @@ Alias: $IVR-VS-pressureMethod =             http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-eyeForm =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-eyeForm
 Alias: $IVR-VS-allergy =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-allergy
 Alias: $IVR-VS-size =                       http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-size
+Alias: $IVR-VS-symptom =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-symptom

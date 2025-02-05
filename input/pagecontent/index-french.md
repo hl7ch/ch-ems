@@ -32,6 +32,10 @@ Pour faciliter le contrôle de compatibilité avec les profils DEP de CH Core, u
 
 *Validation: voir [README CH Core](https://github.com/hl7ch/ch-core)*
 
+### Must Support
+Pour le format d'échange CH EMS, l'indicateur [mustSupport](https://hl7.org/fhir/R4/profiling.html#mustsupport) fixé à `true` a la signification suivante:      
+Si l'application émettrice dispose de données pour l'élément, elle est tenue de remplir l'élément avec une valeur non vide. Si la valeur n'est pas connue, l'élément peut être omis.
+
 ### Analyse & Dépendances
 La documentation suivante décrit les conditions de licence et d'utilisation de différents contenus ([IP Statements](#ip-statements)) utilisés dans ce IG. L'analyse de la compatibilité des versions ([Cross Version Analysis](#cross-version-analysis)) montre la compatibilité de ce IG avec FHIR R4 et R4B. De plus, les dépendances et les paquets ([Dependency Table](#dependency-table)) ainsi qu'une déclaration sur les profils globaux ([Globals Table](#globals-table)) sont listés. Ces sections sont générées automatiquement par l'outillage (en anglais).
 
