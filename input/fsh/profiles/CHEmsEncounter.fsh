@@ -29,7 +29,7 @@ Description: "This profile constrains the Encounter resource for representing th
 * period 1..
 * period ^short = "The date (and time) of the mission"
 * period.start 1.. MS
-* hospitalization ^short = "Destination of mission"
+* hospitalization ^short = "Destination of the mission"
 * hospitalization.destination 1.. MS
 * hospitalization.destination only Reference(CHEmsLocation)
 * hospitalization.destination.reference 1..
@@ -38,3 +38,8 @@ Description: "This profile constrains the Encounter resource for representing th
 * location.location MS
 * location.location only Reference(CHEmsLocation)
 * location.location.reference 1..
+* priority MS 
+* priority only CHEmsCodeableConcept
+* priority from $IVR-VS-urgency (extensible)
+* priority ^short = "Urgency of the mission"
+* priority.extension contains CHEmsExtUrgencyAdequate named urgencyAdequate 0..1 MS 

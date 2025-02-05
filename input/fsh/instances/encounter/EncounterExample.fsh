@@ -1,7 +1,7 @@
 Instance: EncounterExample
 InstanceOf: CHEmsEncounter
 Title: "Example Encounter"
-Description: "Example for CH EMS Encounter - the mission with its details"
+Description: "Example for CH EMS Encounter - the mission with its details (e.g. with siren (but not adequate/necessary))"
 Usage: #example
 // cdachems-dataelement-55 Einsatznummer (OID vom SNZ)
 * identifier[missionNumber].type = $IVR-CS#MN "Mission number"
@@ -39,3 +39,8 @@ Usage: #example
 
 // cdachems-dataelement-25 Einsatzort
 * location.location.reference = "Location/1-Einsatzort"
+
+* priority = $IVR-CS#1000007 "with siren"
+* priority.text = "mit Sondersignal"
+* priority.extension[urgencyAdequate].valueCodeableConcept = $IVR-CS#1000135 "no, siren not necessary"
+* priority.extension[urgencyAdequate].valueCodeableConcept.text = "nein, Sondersignal nicht notwendig"
