@@ -96,7 +96,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Consegna del paziente"
 * compose.include.concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
-* compose.include.concept[=].extension.valueString = "Zeit der Abfahrt des Rettungsdienstes ab ZielortIn der Regel ist dann ein neuer Einsatz bereits wieder möglich ausrückende Einheit erfasst die Zeit der Abfahrt wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefert, kann aber vom Rettungsdienst verändert werden"
+* compose.include.concept[=].extension.valueString = "Zeit der Abfahrt des Rettungsdienstes ab Zielort. In der Regel ist dann ein neuer Einsatz bereits wieder möglich ausrückende Einheit erfasst die Zeit der Abfahrt wird (falls Schnittstelle zum Einsatzleitsystem vorhanden) technisch vom Einsatzleitsystem der Sanitätsnotrufzentrale geliefert, kann aber vom Rettungsdienst verändert werden"
 * compose.include.concept[=].code = #1000041
 * compose.include.concept[=].display = "departure from target"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -115,3 +115,19 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Opérationnel"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Prontezza"
+* compose.include.concept[+].code = #1000171
+* compose.include.concept[=].display = "arrival time emergency doctor"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Ankunftszeit Notarzt/Notärztin"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Heure d'arrivée médecin d'urgence"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Orario di arrivo medico d'urgenza"
+* compose.include.concept[+].code = #1000172
+* compose.include.concept[=].display = "pick-up time emergency doctor"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Abholzeit Notarzt/Notärztin"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Heure de prise en charge médecin d'urgence"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Orario di prelievo medico d'urgenza"
