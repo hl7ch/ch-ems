@@ -1,7 +1,7 @@
 ### Introduction
 Le présent guide de mise en œuvre de la FHIR définit un flux d'information standardisé applicable aux services de secours suisses (EMS). Il sert de base à des projets visant à numériser les processus des services de secours suisses et à relier ces organisations à d'autres EMS, aux hôpitaux et au dossier électronique du patient suisse (DEP).      
 Le projet est sous le patronage de l'"Interverband für Rettungswesen".    
-Ce flux d'informations est établi comme standard à l'association eCH sous le numéro eCH-0207, Version 2, et à eHealth Suisse sous le nom CH-EMS (format officiel d'échange de données selon la législation suisse).
+Ce flux d'informations est établi comme standard à l'association eCH sous le numéro eCH-0207, Version 2, et à eHealth Suisse sous le nom CH EMS (format officiel d'échange de données selon la législation suisse).
 
 <div markdown="1" class="stu-note">
 

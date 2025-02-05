@@ -1,7 +1,7 @@
 ### Einführung
 Dieser FHIR-Implementierungsleitfaden definiert einen standardisierten Informationsworkflow für die Schweizer Rettungsdienste (EMS). Er dient als Grundlage für Projekte zur Digitalisierung der Prozesse in den schweizerischen Notfalldiensten und zur Anbindung dieser Organisationen an andere EMS, Spitäler und das elektronische Patientendossier Schweiz (EPD).    
 Das Projekt steht unter der Patronat des "Interverbandes für Rettungswesen".    
-Dieser Informationsworkflow ist beim Verein eCH unter der Nummer eCH-0207, Version 2, und bei eHealth Suisse unter dem Namen CH-EMS (offizielles Datenaustauschformat gemäss Schweizer Gesetzgebung) als Standard etabliert.
+Dieser Informationsworkflow ist beim Verein eCH unter der Nummer eCH-0207, Version 2, und bei eHealth Suisse unter dem Namen CH EMS (offizielles Datenaustauschformat gemäss Schweizer Gesetzgebung) als Standard etabliert.
 
 <div markdown="1" class="stu-note">
 
