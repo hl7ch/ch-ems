@@ -14,6 +14,3 @@ Description: "This profile constrains the PractitionerRole resource for represen
 * code 1.. MS
 * code only CHEmsCodeableConcept
 * code from $IVR-VS-teamRole (extensible)
-* specialty MS
-* specialty only CHEmsCodeableConcept
-* specialty from http://fhir.ch/ig/ch-term/ValueSet/HCProfessional.hcSpecialisation (extensible)

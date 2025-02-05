@@ -7,7 +7,7 @@ Description: "This profile constrains the Observation resource for representing 
 * code = $loinc#9269-2 // "Glasgow coma score total"
 * code ^short = "Glasgow coma score total"
 * code MS
-* value[x] only Quantity
+* value[x] only CHEmsQuantity
 * value[x] MS
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code"

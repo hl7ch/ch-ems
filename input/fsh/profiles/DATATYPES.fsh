@@ -17,3 +17,15 @@ Description: "This profile constrains the Coding data type."
 * system 1.. MS
 * code 1.. MS
 * display MS
+
+
+Profile: CHEmsQuantity
+Parent: Quantity
+Id: ch-ems-quantity
+Title: "CH EMS Quantity"
+Description: "This profile constrains the Quantity data type."
+* . ^short = "CH EMS Quantity"
+* value 1.. MS
+* unit MS 
+* system 1.. MS
+* code 1.. MS

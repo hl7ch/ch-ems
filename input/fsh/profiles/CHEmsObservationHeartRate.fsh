@@ -14,5 +14,5 @@ Description: "This profile constrains the Observation resource for representing 
 * method from $IVR-VS-pulseMethod (extensible)
 * method MS 
 * method only CHEmsCodeableConcept
-* value[x] only Quantity
+* value[x] only CHEmsQuantity
 * value[x] MS
