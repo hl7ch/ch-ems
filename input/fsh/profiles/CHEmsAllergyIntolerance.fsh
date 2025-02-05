@@ -8,7 +8,7 @@ Description: "This profile constrains the AllergyIntolerance resource for repres
 * patient only Reference(CHEmsPatient)
 * patient ^short = "Patient"
 * patient.reference 1..
-* encounter MS
+* encounter 1.. MS
 * encounter only Reference(CHEmsEncounter)
 * encounter ^short = "Emergency service during which this allergy or intolerance was observed"
 * encounter.reference 1..
