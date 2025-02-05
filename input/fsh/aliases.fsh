@@ -50,3 +50,4 @@ Alias: $IVR-VS-eyeForm =                    http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-allergy =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-allergy
 Alias: $IVR-VS-size =                       http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-size
 Alias: $IVR-VS-symptom =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-symptom
+Alias: $IVR-VS-InfectPersPrecaution =       http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-InfectPersPrecaution

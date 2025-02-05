@@ -51,11 +51,14 @@ Description: "This profile constrains the Composition resource for representing 
 * section[mission].entry ^slicing.rules = #open
 * section[mission].entry contains 
     missionEncounter 0..1 MS and 
-    missionTimeStatus 0..* MS
+    missionTimeStatus 0..* MS and 
+    precautionsInfection 0..* MS
 * section[mission].entry[missionEncounter] only Reference(CHEmsEncounter)
 * section[mission].entry[missionEncounter].reference 1..
 * section[mission].entry[missionTimeStatus] only Reference(CHEmsObservationMissionTimeStatus)
 * section[mission].entry[missionTimeStatus].reference 1..
+* section[mission].entry[precautionsInfection] only Reference(CHEmsProcedurePrecautionsInfection)
+* section[mission].entry[precautionsInfection].reference 1..
 * section[mission].section 0..0
 
 // ---------------------------------------------------- administrative ----------------------------------------------------//
