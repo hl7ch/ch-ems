@@ -9,4 +9,5 @@ Usage: #example
 * status = #completed
 * code = $sct#386308007 "First aid (procedure)"
 * code.text = "Erste Hilfe"
-* subject.reference = "Patient/1-ThomasMueller"
+* subject = Reference(PatientExample)
+* encounter = Reference(EncounterExample)

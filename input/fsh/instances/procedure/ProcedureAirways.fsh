@@ -6,4 +6,5 @@ Usage: #example
 * status = #completed
 * code = $sct#52765003 "Intubation (procedure)"
 * code.text = "Intubation"
-* subject = Reference(1-ThomasMueller)
+* subject = Reference(PatientExample)
+* encounter = Reference(EncounterExample)

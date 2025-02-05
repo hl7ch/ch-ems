@@ -11,4 +11,4 @@ Description: "This profile constrains the Procedure resource to define the requi
 * encounter only Reference(CHEmsEncounter)
 * encounter ^short = "Emergency service during which this procedure is made"
 * encounter.reference 1..
-* encounter MS 
+* encounter 1.. MS 

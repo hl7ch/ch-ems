@@ -8,7 +8,7 @@ Description: "This profile constrains the Observation resource to define the req
 * subject only Reference(CHEmsPatient)
 * subject ^short = "Patient"
 * subject.reference 1..
-* encounter MS
+* encounter 1.. MS
 * encounter only Reference(CHEmsEncounter)
 * encounter ^short = "Emergency service during which this observation is made"
 * encounter.reference 1.. 

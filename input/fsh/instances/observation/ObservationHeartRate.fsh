@@ -6,8 +6,8 @@ Usage: #example
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#8867-4 "Heart rate"
-* subject = Reference(2-PatientUnbekannt)
-* encounter = Reference(2-Einsatz)
+* subject = Reference(PatientExample)
+* encounter = Reference(EncounterExample)
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"
 * valueQuantity = 110 $ucum#/min "per minute"
 * interpretation = $sct#3424008 "Tachycardia (finding)"
@@ -25,8 +25,8 @@ Usage: #example
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
 * code = $loinc#8867-4 "Heart rate"
-* subject = Reference(2-PatientUnbekannt)
-* encounter = Reference(2-Einsatz)
+* subject = Reference(PatientExample)
+* encounter = Reference(EncounterExample)
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"
 * dataAbsentReason = $data-absent-reason#unknown "Unknown"
 * interpretation = $sct#48867003 "Bradycardia (finding)"
