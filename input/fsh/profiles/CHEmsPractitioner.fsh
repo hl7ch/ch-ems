@@ -12,3 +12,6 @@ Description: "This profile constrains the Practitioner resource for representing
 * name MS
 * telecom MS
 * address MS
+* qualification.code MS 
+* qualification.code only CHEmsCodeableConcept
+* qualification.code from $IVR-VS-formation (extensible)

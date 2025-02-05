@@ -54,3 +54,4 @@ Alias: $IVR-VS-symptom =                    http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-InfectPersPrecaution =       http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-InfectPersPrecaution
 Alias: $IVR-VS-actRecovAid =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-actRecovAid
 Alias: $IVR-VS-bedding =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-bedding
+Alias: $IVR-VS-formation =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation

@@ -9,3 +9,5 @@ Usage: #example
 * identifier[GLN].assigner.reference = "Organization/1-TeamRettungsdienst"
 * name.family = "Transportsanitäter"
 * name.given = "Hans"
+* qualification.code = $sct#159738005 "Ambulanceman (occupation)"	
+* qualification.code.text = "Transportsanitäter/in FA"

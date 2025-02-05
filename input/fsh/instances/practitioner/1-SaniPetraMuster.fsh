@@ -7,3 +7,5 @@ Usage: #example
 * identifier[GLN].value = "7601003330434"
 * name.family = "Muster"
 * name.given = "Petra"
+* qualification.code = $sct#397897005 "Paramedic (occupation)"	
+* qualification.code.text = "Rettungssanitäter/in HF"
