@@ -283,6 +283,9 @@ Description: "This profile constrains the Composition resource for representing 
 * section[eventOfDeath].code 1.. MS
 * section[eventOfDeath].code = $IVR-CS#1100009 // "Todesfall"
 * section[eventOfDeath].text 1.. MS
+* section[eventOfDeath].entry ..1 MS
+* section[eventOfDeath].entry only Reference(CHEmsObservationDeathManner)
+* section[eventOfDeath].entry.reference 1..
 * section[eventOfDeath].section 0..0
 
 // ---------------------------------------------------- transport ----------------------------------------------------//

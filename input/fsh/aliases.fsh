@@ -66,3 +66,4 @@ Alias: $IVR-VS-idMedium =                   http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-idSource =                   http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-idSource
 Alias: $IVR-VS-intensity =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-intensity
 Alias: $IVR-VS-locationType =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-locationType
+Alias: $IVR-VS-deathManner =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-deathManner
