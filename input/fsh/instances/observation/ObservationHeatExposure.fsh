@@ -1,4 +1,4 @@
-Instance: ObservationBreathingSecondDegreeBurn
+Instance: ObservationSecondDegreeBurn
 InstanceOf: CHEmsObservationHeatExposure
 Title: "Second-degree Burn"
 Description: "Example for CH EMS Observation: Heat Exposure"

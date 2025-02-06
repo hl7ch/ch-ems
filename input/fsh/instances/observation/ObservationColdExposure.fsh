@@ -1,4 +1,4 @@
-Instance: ObservationBreathingSecondDegreeFrostbite
+Instance: ObservationSecondDegreeFrostbite
 InstanceOf: CHEmsObservationColdExposure
 Title: "Second-degree Frostbite"
 Description: "Example for CH EMS Observation: Cold Exposure"
