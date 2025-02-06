@@ -6,7 +6,8 @@ Description: "This profile constrains the Encounter resource for representing th
 * . ^short = "CH EMS Encounter"
 * extension contains 
     CHEmsExtValuablesPatient named valuablesPatient 0..* MS and 
-    CHEmsExtEmergencyDoctorSystem named emergencyDoctorSystem 0..1 MS
+    CHEmsExtEmergencyDoctorSystem named emergencyDoctorSystem 0..1 MS and
+    CHEmsExtViolence named violence 0..1 MS
 * identifier 1..
 * identifier contains missionNumber 1..1 MS
 * identifier[missionNumber] ^short = "Mission number (Einsatznummer)"

@@ -1,7 +1,7 @@
 Instance: EncounterExample
 InstanceOf: CHEmsEncounter
 Title: "Example Encounter"
-Description: "Example for CH EMS Encounter - the mission (primary mission) with its details (e.g. pick-up emergency doctor, with siren (but not adequate/necessary), valuables patient)"
+Description: "Example for CH EMS Encounter - the mission (primary mission) with its details (e.g. pick-up emergency doctor, with siren (but not adequate/necessary), valuables patient, violence)"
 Usage: #example
 // cdachems-dataelement-55 Einsatznummer (OID vom SNZ)
 * identifier[missionNumber].type = $IVR-CS#MN "Mission number"
@@ -58,3 +58,10 @@ Usage: #example
 
 * extension[emergencyDoctorSystem].valueCodeableConcept = $IVR-CS#1000005 "pickup by EMS"
 * extension[emergencyDoctorSystem].valueCodeableConcept.text = "Abholung durch Rettungsdienst"
+
+* extension[violence].extension[offender].valueCodeableConcept = $IVR-CS#1000080 "person, unknown"	
+* extension[violence].extension[offender].valueCodeableConcept.text = "Drittperson unbekannt"
+* extension[violence].extension[form].valueCodeableConcept = $IVR-CS#1000043 "contumeliousness"	
+* extension[violence].extension[form].valueCodeableConcept.text = "Beschimpfung"
+* extension[violence].extension[result].valueCodeableConcept = $sct#260413007 "None (qualifier value)"
+* extension[violence].extension[result].valueCodeableConcept.text = "keine"
