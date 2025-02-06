@@ -72,3 +72,4 @@ Alias: $IVR-VS-transDisinfection =          http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-violenceForm =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceForm
 Alias: $IVR-VS-violenceResult =             http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceResult
 Alias: $IVR-VS-offender =                   http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-offender
+Alias: $IVR-VS-actRespiOwner =              http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-actRespiOwner

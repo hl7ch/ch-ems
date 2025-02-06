@@ -3,7 +3,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### v2.1.0 (2025)
 
 #### Open Issues 
-* CH EMS Location: Ambulance -> `name` 1.. from CH Core Location [#318 CH Core](https://github.com/hl7ch/ch-core/issues/318)
+* CH EMS Location: Ambulance -> `name` 1.. because of CH Core Location ([#318 CH Core](https://github.com/hl7ch/ch-core/issues/318))
 
 #### Added
 * Introduction the [IVR valueset diagnosis](ValueSet-IVR-VS-diagnosis.html)
@@ -46,8 +46,9 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#18](https://github.com/hl7ch/ch-ems/issues/18): Add value set binding to profiles/elements 
    * Add CH EMS Observation: Death Manner
    * Add CH EMS Procedures: Precautions Infection | Transportation | Wound Treatment
-   * Add CH EMS Extensions: Urgency Adequate | Emergency Doctor System | Valuables Patient | Identification | Disinfection | Violence
    * Add CH EMS Location: Ambulance (rename former CH EMS Location to CH EMS Location: Location and Destination)
+   * Add CH EMS Device
+   * Add CH EMS Extensions: Urgency Adequate | Emergency Doctor System | Valuables Patient | Identification | Disinfection | Violence | Owner
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
    * Add CH EMS Observations: Breathing | Heat Exposure | Cold Exposure | Heart Rate | Blood Pressure | Pupil Shape | Pupil Size
    * Add CH EMS Procedures: Airways | Breathing
