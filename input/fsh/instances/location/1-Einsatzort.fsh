@@ -13,3 +13,6 @@ Usage: #example
 // cdachems-dataelement-28 Koordinaten Einsatzort
 * position.longitude = 8.553192
 * position.latitude = 47.392115
+
+* type = $sct#257710009	"Street (environment)"	
+* type.text = "Strasse / öffentlicher Raum"

@@ -11,3 +11,5 @@ Usage: #example
 * address.city = "Zürich"
 * address.postalCode = "8091"
 * address.country = "Switzerland"
+* type = $sct#22232009 "Hospital (environment)"	
+* type.text = "Spital"

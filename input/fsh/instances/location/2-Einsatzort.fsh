@@ -10,3 +10,6 @@ Usage: #example
 * address.city = "Zürich"
 * address.postalCode = "8050"
 * address.country = "CH"
+
+* type = $sct#74964007 "Other (qualifier value)"	
+* type.text = "andere / anderes"

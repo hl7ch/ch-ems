@@ -15,3 +15,6 @@ Description: "This profile constrains the Location resource for representing the
 * address MS
 * position.longitude MS
 * position.latitude MS
+* type MS 
+* type only CHEmsCodeableConcept
+* type from $IVR-VS-locationType (extensible)
