@@ -61,3 +61,4 @@ Alias: $IVR-VS-valType =                    http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-transReason =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-transReason
 Alias: $IVR-VS-woundTreat =                 http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-woundTreat
 Alias: $IVR-VS-missionType =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-missionType
+Alias: $IVR-VS-emergDoctSystem =            http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-emergDoctSystem

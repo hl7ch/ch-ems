@@ -4,7 +4,9 @@ Id: ch-ems-encounter
 Title: "CH EMS Encounter"
 Description: "This profile constrains the Encounter resource for representing the mission with its details."
 * . ^short = "CH EMS Encounter"
-* extension contains CHEmsExtValuablesPatient named valuablesPatient 0..* MS
+* extension contains 
+    CHEmsExtValuablesPatient named valuablesPatient 0..* MS and 
+    CHEmsExtEmergencyDoctorSystem named emergencyDoctorSystem 0..1 MS
 * identifier 1..
 * identifier contains missionNumber 1..1 MS
 * identifier[missionNumber] ^short = "Mission number (Einsatznummer)"

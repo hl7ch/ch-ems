@@ -1,7 +1,7 @@
 Instance: EncounterExample
 InstanceOf: CHEmsEncounter
 Title: "Example Encounter"
-Description: "Example for CH EMS Encounter - the mission (primary mission) with its details (e.g. with siren (but not adequate/necessary), valuables patient)"
+Description: "Example for CH EMS Encounter - the mission (primary mission) with its details (e.g. pick-up emergency doctor, with siren (but not adequate/necessary), valuables patient)"
 Usage: #example
 // cdachems-dataelement-55 Einsatznummer (OID vom SNZ)
 * identifier[missionNumber].type = $IVR-CS#MN "Mission number"
@@ -55,3 +55,6 @@ Usage: #example
 
 * serviceType = $IVR-CS#1000001 "primary mission"
 * serviceType.text = "Primäreinsatz"
+
+* extension[emergencyDoctorSystem].valueCodeableConcept = $IVR-CS#1000005 "pickup by EMS"
+* extension[emergencyDoctorSystem].valueCodeableConcept.text = "Abholung durch Rettungsdienst"
