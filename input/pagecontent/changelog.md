@@ -42,7 +42,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Add a CH EMS Procedure base profile with all common procedure requirements defined (Rename former CH EMS Procedure to CH EMS Procedure: Pretreatment)
 * [#18](https://github.com/hl7ch/ch-ems/issues/18): Add value set binding to profiles/elements 
    * Add CH EMS Observations: 
-   * Add CH EMS Procedures: Precautions Infection | Transportation
+   * Add CH EMS Procedures: Precautions Infection | Transportation | Wound Treatment
    * Add CH EMS Extension: Urgency Adequate | Valuables Patient
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
    * Add CH EMS Observations: Breathing | Heat Exposure | Cold Exposure | Heart Rate | Blood Pressure | Pupil Shape | Pupil Size
