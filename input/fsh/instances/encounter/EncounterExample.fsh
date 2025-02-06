@@ -49,3 +49,6 @@ Usage: #example
 * extension[valuablesPatient][=].valueCodeableConcept.text = "Ehering"
 * extension[valuablesPatient][+].valueCodeableConcept = $IVR-CS#1000131 "billfold"	
 * extension[valuablesPatient][=].valueCodeableConcept.text = "Brieftasche"
+
+* reasonCode = $IVR-CS#1000110 "emergency mission"
+* reasonCode.text = "Notfall-Einsatz"

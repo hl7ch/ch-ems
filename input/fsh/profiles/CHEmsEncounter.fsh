@@ -43,3 +43,6 @@ Description: "This profile constrains the Encounter resource for representing th
 * priority from $IVR-VS-urgency (extensible)
 * priority ^short = "Urgency of the mission"
 * priority.extension contains CHEmsExtUrgencyAdequate named urgencyAdequate 0..1 MS 
+* reasonCode MS
+* reasonCode only CHEmsCodeableConcept 
+* reasonCode from $IVR-VS-transReason (extensible)
