@@ -24,6 +24,8 @@ Description: "This profile constrains the Bundle resource for representing the e
 * entry[PractitionerRole].resource only CHEmsPractitionerRole
 * entry[Organization] 1.. MS
 * entry[Organization].resource only CHEmsOrganization
+* entry[Device] MS 
+* entry[Device].resource only CHEmsDevice
 * entry[Encounter] MS
 * entry[Encounter].resource only CHEmsEncounter
 * entry[Location] MS
