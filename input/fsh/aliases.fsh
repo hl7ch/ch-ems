@@ -59,3 +59,4 @@ Alias: $IVR-VS-urgency =                    http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-urgency-adequate =           http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency-adequate
 Alias: $IVR-VS-valType =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-valType
 Alias: $IVR-VS-transReason =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-transReason
+Alias: $IVR-VS-woundTreat =                 http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-woundTreat

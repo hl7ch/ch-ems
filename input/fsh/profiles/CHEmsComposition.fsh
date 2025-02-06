@@ -224,9 +224,12 @@ Description: "This profile constrains the Composition resource for representing 
 * section[procedures].entry ^slicing.discriminator.path = "resolve()"
 * section[procedures].entry ^slicing.rules = #open
 * section[procedures].entry contains 
-    medicationAdministration 0..* MS 
+    medicationAdministration 0..* MS and 
+    woundTreatment 0..* MS
 * section[procedures].entry[medicationAdministration] only Reference(CHEmsMedicationAdministration)
 * section[procedures].entry[medicationAdministration].reference 1..
+* section[procedures].entry[woundTreatment] only Reference(CHEmsProcedureWoundTreatment)
+* section[procedures].entry[woundTreatment].reference 1..
 
 * section[procedures].section ^slicing.discriminator.type = #value
 * section[procedures].section ^slicing.discriminator.path = "title"
