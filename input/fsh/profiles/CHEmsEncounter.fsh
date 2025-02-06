@@ -46,3 +46,6 @@ Description: "This profile constrains the Encounter resource for representing th
 * reasonCode MS
 * reasonCode only CHEmsCodeableConcept 
 * reasonCode from $IVR-VS-transReason (extensible)
+* serviceType MS 
+* serviceType only CHEmsCodeableConcept 
+* serviceType from $IVR-VS-missionType (extensible)
