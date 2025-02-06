@@ -8,9 +8,20 @@ Description: "This profile constrains the Observation resource for representing 
 * code = $loinc#8867-4
 * code ^short = "Heart rate"
 * code MS
-* interpretation from $IVR-VS-pulesResult (extensible)
-* interpretation MS 
 * interpretation only CHEmsCodeableConcept
+* interpretation ^slicing.discriminator.type = #value
+* interpretation ^slicing.discriminator.path = "$this"
+* interpretation ^slicing.ordered = false
+* interpretation ^slicing.rules = #open
+* interpretation contains 
+    arrhythmia 0..1 MS and 
+    intensity 0..1 MS 
+* interpretation[arrhythmia] from $IVR-VS-pulesResult (required)
+* interpretation[arrhythmia] ^short = "Asystole | Tachycardia | Bradycardia"
+* interpretation[arrhythmia] only CHEmsCodeableConcept
+* interpretation[intensity] from $IVR-VS-intensity (required)
+* interpretation[intensity] ^short = "weak | normal | strong | not tangible"
+* interpretation[intensity] only CHEmsCodeableConcept
 * method from $IVR-VS-pulseMethod (extensible)
 * method MS 
 * method only CHEmsCodeableConcept
