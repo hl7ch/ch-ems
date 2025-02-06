@@ -68,3 +68,7 @@ Alias: $IVR-VS-intensity =                  http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-locationType =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-locationType
 Alias: $IVR-VS-deathManner =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-deathManner
 Alias: $IVR-VS-ambulanceType =              http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-ambulanceType
+Alias: $IVR-VS-transDisinfection =          http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-transDisinfection
+Alias: $IVR-VS-violenceForm =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceForm
+Alias: $IVR-VS-violenceResult =             http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceResult
+Alias: $IVR-VS-offender =                   http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-offender

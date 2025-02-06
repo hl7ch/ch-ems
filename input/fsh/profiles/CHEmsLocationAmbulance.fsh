@@ -8,3 +8,4 @@ Description: "This profile constrains the Location resource for representing the
 * physicalType only CHEmsCodeableConcept
 * physicalType from $IVR-VS-ambulanceType (extensible)
 
+* extension contains CHEmsExtDisinfection named disinfection 0..1 MS
