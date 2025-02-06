@@ -7,6 +7,7 @@ Description: "This profile constrains the Patient resource for representing pati
 * obeys ch-ems-epr-patient
 * extension[placeOfOrigin] MS
 * extension[citizenship] MS
+* extension contains CHEmsExtIdentification named identification 0..1 MS
 * identifier[AHVN13] ..1 MS
 * identifier[LocalPid] MS 
 * identifier[LocalPid] ^short = "Local patient identifier: PLS-ID (Number from the patient guidance system (PLS) for temporary identification)"

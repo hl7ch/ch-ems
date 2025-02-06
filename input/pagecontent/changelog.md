@@ -43,7 +43,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#18](https://github.com/hl7ch/ch-ems/issues/18): Add value set binding to profiles/elements 
    * Add CH EMS Observations: 
    * Add CH EMS Procedures: Precautions Infection | Transportation | Wound Treatment
-   * Add CH EMS Extension: Urgency Adequate | Valuables Patient | Emergency Doctor System
+   * Add CH EMS Extension: Urgency Adequate | Emergency Doctor System | Valuables Patient | Identification
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
    * Add CH EMS Observations: Breathing | Heat Exposure | Cold Exposure | Heart Rate | Blood Pressure | Pupil Shape | Pupil Size
    * Add CH EMS Procedures: Airways | Breathing

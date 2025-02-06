@@ -45,3 +45,7 @@ Usage: #example
 * address.country.extension.url = "http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding"
 * address.country.extension.valueCoding = urn:iso:std:iso:3166#CH
 
+* extension[identification].extension[source].valueCodeableConcept = $sct#116154003 "Patient (person)"	
+* extension[identification].extension[source].valueCodeableConcept.text = "Patient"
+* extension[identification].extension[medium].valueCodeableConcept = $IVR-CS#1000053 "Identity card"	
+* extension[identification].extension[medium].valueCodeableConcept.text = "Identitätskarte"
