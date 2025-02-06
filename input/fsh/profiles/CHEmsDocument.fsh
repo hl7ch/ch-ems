@@ -27,7 +27,7 @@ Description: "This profile constrains the Bundle resource for representing the e
 * entry[Encounter] MS
 * entry[Encounter].resource only CHEmsEncounter
 * entry[Location] MS
-* entry[Location].resource only CHEmsLocation
+* entry[Location].resource only CHCoreLocation
 
 * entry contains 
   Coverage 0..* MS and 

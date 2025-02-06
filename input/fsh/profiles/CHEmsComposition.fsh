@@ -53,7 +53,8 @@ Description: "This profile constrains the Composition resource for representing 
     missionEncounter 0..1 MS and 
     missionTimeStatus 0..* MS and 
     precautionsInfection 0..* MS and 
-    transportation 0..1 MS 
+    transportation 0..1 MS and 
+    ambulance 0..* MS
 * section[mission].entry[missionEncounter] only Reference(CHEmsEncounter)
 * section[mission].entry[missionEncounter].reference 1..
 * section[mission].entry[missionTimeStatus] only Reference(CHEmsObservationMissionTimeStatus)
@@ -62,6 +63,8 @@ Description: "This profile constrains the Composition resource for representing 
 * section[mission].entry[precautionsInfection].reference 1..
 * section[mission].entry[transportation] only Reference(CHEmsProcedureTransportation)
 * section[mission].entry[transportation].reference 1..
+* section[mission].entry[ambulance] only Reference(CHEmsLocationAmbulance)
+* section[mission].entry[ambulance].reference 1..
 * section[mission].section 0..0
 
 // ---------------------------------------------------- administrative ----------------------------------------------------//

@@ -1,7 +1,7 @@
 Instance: 1-Einsatzort
-InstanceOf: CHEmsLocation
+InstanceOf: CHEmsLocationLocationDestination
 Title: "1 Einsatzort"
-Description: "Example for CH EMS Location - mission location with address and position (coordinates)"
+Description: "Example for CH EMS Location: Location and Destination - mission location with address and position (coordinates)"
 Usage: #example
 * name = "Waldrand"
 
@@ -14,5 +14,5 @@ Usage: #example
 * position.longitude = 8.553192
 * position.latitude = 47.392115
 
-* type = $sct#257710009	"Street (environment)"	
-* type.text = "Strasse / öffentlicher Raum"
+* physicalType = $sct#257710009	"Street (environment)"	
+* physicalType.text = "Strasse / öffentlicher Raum"

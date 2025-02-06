@@ -2,6 +2,9 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### v2.1.0 (2025)
 
+#### Open Issues 
+* CH EMS Location: Ambulance Type -> `name` 1.. from CH Core Location [#318 CH Core](https://github.com/hl7ch/ch-core/issues/318)
+
 #### Added
 * Introduction the [IVR valueset diagnosis](ValueSet-IVR-VS-diagnosis.html)
 * [#2](https://github.com/hl7ch/ch-ems/issues/2): Include 'Propose a change' link in the footer
@@ -39,11 +42,12 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#11](https://github.com/hl7ch/ch-ems/issues/11): Add involved participant slice with relationship code 'thirdParty'
 * [#24](https://github.com/hl7ch/ch-ems/issues/24): Add slices for all Bundle.entry
    * Add a CH EMS Observation base profile with all common observation requirements defined
-   * Add a CH EMS Procedure base profile with all common procedure requirements defined (Rename former CH EMS Procedure to CH EMS Procedure: Pretreatment)
+   * Add a CH EMS Procedure base profile with all common procedure requirements defined (rename former CH EMS Procedure to CH EMS Procedure: Pretreatment)
 * [#18](https://github.com/hl7ch/ch-ems/issues/18): Add value set binding to profiles/elements 
-   * Add CH EMS Observations: 
+   * Add CH EMS Observations: Death Manner
    * Add CH EMS Procedures: Precautions Infection | Transportation | Wound Treatment
    * Add CH EMS Extension: Urgency Adequate | Emergency Doctor System | Valuables Patient | Identification
+   * Add CH EMS Location: Ambulance Type (rename former CH EMS Location to CH EMS Location: Location and Destination)
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
    * Add CH EMS Observations: Breathing | Heat Exposure | Cold Exposure | Heart Rate | Blood Pressure | Pupil Shape | Pupil Size
    * Add CH EMS Procedures: Airways | Breathing

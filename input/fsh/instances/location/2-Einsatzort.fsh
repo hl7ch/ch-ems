@@ -1,7 +1,7 @@
 Instance: 2-Einsatzort
-InstanceOf: CHEmsLocation
+InstanceOf: CHEmsLocationLocationDestination
 Title: "2 Einsatzort"
-Description: "Example for CH EMS Location - mission location with address"
+Description: "Example for CH EMS Location: Location and Destination - mission location with address"
 Usage: #example
 * name = "Sternen Oerlikon"
 
@@ -11,5 +11,5 @@ Usage: #example
 * address.postalCode = "8050"
 * address.country = "CH"
 
-* type = $sct#74964007 "Other (qualifier value)"	
-* type.text = "andere / anderes"
+* physicalType = $sct#74964007 "Other (qualifier value)"	
+* physicalType.text = "andere / anderes"

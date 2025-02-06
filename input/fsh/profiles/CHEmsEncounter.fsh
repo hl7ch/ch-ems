@@ -33,12 +33,12 @@ Description: "This profile constrains the Encounter resource for representing th
 * period.start 1.. MS
 * hospitalization ^short = "Destination of the mission"
 * hospitalization.destination 1.. MS
-* hospitalization.destination only Reference(CHEmsLocation)
+* hospitalization.destination only Reference(CHEmsLocationLocationDestination)
 * hospitalization.destination.reference 1..
 * location ..1
 * location ^short = "Location of mission"
 * location.location MS
-* location.location only Reference(CHEmsLocation)
+* location.location only Reference(CHEmsLocationLocationDestination)
 * location.location.reference 1..
 * priority MS 
 * priority only CHEmsCodeableConcept
