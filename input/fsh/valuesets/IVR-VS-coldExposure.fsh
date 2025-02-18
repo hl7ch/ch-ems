@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.65"
 * version = "2017-08-16T22:21:57"
 * name = "IVRVScoldExposure"
-* title = "IVR valueset cold exposure (.143.11.50)"
+* title = "IVR valueset cold exposure"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset cold exposure (.143.11.50)"
+* description = "lists possible degrees of frostbite"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000146

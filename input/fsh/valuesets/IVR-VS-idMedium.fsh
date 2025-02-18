@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.35"
 * version = "2017-01-07T11:47:28"
 * name = "IVRVSidMedium"
-* title = "IVR valueset identification medium (.143.11.30)"
+* title = "IVR valueset identification medium"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset identification medium (.143.11.30)"
+* description = "List of identification media"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000053

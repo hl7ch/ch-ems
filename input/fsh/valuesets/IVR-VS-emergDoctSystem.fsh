@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.52"
 * version = "2016-07-24T16:37:03"
 * name = "EmergDoctSystem"
-* title = "IVR valueset mission Emergency doctor system (.143.11.12)"
+* title = "IVR valueset mission Emergency doctor system"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset mission Emergency doctor system (.143.11.12)"
+* description = "lists types of emergency doctor system"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000004

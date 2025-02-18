@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.17"
 * version = "2016-09-11T14:11:42"
 * name = "ECH0207bedding"
-* title = "IVR valueset transport bedding (.143.11.17)"
+* title = "IVR valueset transport bedding"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset transport bedding (.143.11.17)"
+* description = "Lists possible positions of the patient during the mission"
 * immutable = false
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * compose.include[0].system = "http://snomed.info/sct"

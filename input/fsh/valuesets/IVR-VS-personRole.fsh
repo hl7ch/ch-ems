@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.26"
 * version = "2016-11-19T12:32:18"
 * name = "Ech0207personRole"
-* title = "IVR valueset role (.143.11.21)"
+* title = "IVR valueset role"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset role (.143.11.21)"
+* description = "List of roles of other persons involved in the event or in connection with the patient."
 * immutable = false
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * compose.include[0].system = "http://snomed.info/sct"

@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.22"
 * version = "2016-10-23T20:05:25"
 * name = "IVRVSmissionTimeRole"
-* title = "IVR valueset role mission time (.143.11.10)"
+* title = "IVR valueset role mission time"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset role mission time (.143.11.10)"
+* description = "list of defined status times"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"

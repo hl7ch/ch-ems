@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.46"
 * version = "2017-05-07T18:42:03"
 * name = "IVRVSlocationType"
-* title = "IVR valueset location Type (.143.11.42)"
+* title = "IVR valueset location Type"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset  location Type  (.143.11.42)"
+* description = "List of types of event locations"
 * immutable = false
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * compose.include[0].system = "http://snomed.info/sct"

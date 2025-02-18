@@ -14,7 +14,7 @@ Usage: #definition
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "eCH-0207: Vigilanz (AVPU)"
+* description = "list of the states of vigilance of a patient (AVPU)"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #A

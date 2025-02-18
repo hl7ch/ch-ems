@@ -39,7 +39,8 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Add a CH EMS Procedure base profile with all common procedure requirements defined
    * Rename CH EMS Procedure to CH EMS Procedure: Pretreatment
    * Add CH EMS Procedure: Airways | CH EMS Procedure: Breathing
-
+* [#17](https://github.com/hl7ch/ch-ems/issues/17): changes in titles and description of all value 
+sets
 #### Fixed
 * Replace ci-build links with links to stable version
 * * [#27](https://github.com/hl7ch/ch-ems/issues/27): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension

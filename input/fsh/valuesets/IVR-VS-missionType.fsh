@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.48"
 * version = "2016-07-24T15:17:45"
 * name = "MissionType"
-* title = "IVR valueset mission type (.143.11.11)"
+* title = "IVR valueset mission type"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset mission type (.143.11.11)"
+* description = "list of types of the mission"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000001

@@ -14,7 +14,7 @@ Usage: #definition
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "Veränderung des Zustands des Patienten zwischen Eintreffen am Einsatzort bis zur Übergabe am Zielort"
+* description = "list of changes in the patient's condition between arrival at the scene and handover at the destination"
 * immutable = false
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * compose.include.system = "http://snomed.info/sct"

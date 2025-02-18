@@ -14,7 +14,7 @@ Usage: #definition
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset urgency"
+* description = "list of the mission's priorities"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000007

@@ -14,7 +14,7 @@ Usage: #definition
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset NACA"
+* description = "list of NACA score states"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #0

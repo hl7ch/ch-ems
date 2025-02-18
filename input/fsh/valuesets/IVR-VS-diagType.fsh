@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.24"
 * version = "2016-11-13T16:10:32"
 * name = "IVRVSdiagType"
-* title = "IVR valueset diagnosis type (.143.11.16)"
+* title = "IVR valueset diagnosis type"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset diagnosis type (.143.11.16)"
+* description = "lists types of diagnosis"
 * immutable = false
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * compose.include.system = "http://snomed.info/sct"

@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.38"
 * version = "2017-01-07T14:49:38"
 * name = "IVRVStransReason"
-* title = "IVR valueset transport reason (.143.11.32)"
+* title = "IVR valueset transport reason"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset transport reason (.143.11.32)"
+* description = "list of triggers for a mission"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000110

@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.66"
 * version = "2017-08-16T22:47:01"
 * name = "IVRVSheatExposure"
-* title = "IVR valueset heat exposure (.143.11.51)"
+* title = "IVR valueset heat exposure"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset heat exposure (.143.11.51)"
+* description = "List of degrees of burning"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000149

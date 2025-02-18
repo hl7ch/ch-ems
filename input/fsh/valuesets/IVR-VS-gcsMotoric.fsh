@@ -10,11 +10,11 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.16"
 * version = "2016-07-30T12:05:22"
 * name = "GcsMotoric"
-* title = "IVR valueset GCS motorische Reaktion (.143.11.35)"
+* title = "IVR valueset GCS motorische Reaktion"
 * status = #draft
 * experimental = false
 * publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset GCS motorische Reaktion (.143.11.35)"
+* description = "GCS: List of motoric responses"
 * immutable = false
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * compose.include[0].system = "http://snomed.info/sct"
