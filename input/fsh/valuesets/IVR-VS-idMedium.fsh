@@ -2,10 +2,10 @@ Instance: IVR-VS-idMedium
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSidMedium"
-* title = "IVR valueset identification medium"
+* title = "IVR Identification Medium"
 * status = #draft
 * experimental = false
-* description = "List of identification media"
+* description = "List of identification medium."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000053

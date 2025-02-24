@@ -2,10 +2,10 @@ Instance: IVR-VS-procAirType
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSprocAirType"
-* title = "IVR valueset procedure airway type"
+* title = "IVR Procedure Airway Type"
 * status = #draft
 * experimental = false
-* description = "List of procedures for securing the airway"
+* description = "List of procedures for securing the airway."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #52765003
 * compose.include.concept[=].display = "Intubation"

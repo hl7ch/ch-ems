@@ -2,10 +2,10 @@ Instance: IVR-VS-woundTreat
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSwoundTreat"
-* title = "IVR valueset wound treatment"
+* title = "IVR Wound Treatment"
 * status = #draft
 * experimental = false
-* description = "List of wound treatment types"
+* description = "List of wound treatment types."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #386028003
 * compose.include.concept[=].display = "patch"

@@ -2,10 +2,10 @@ Instance: IVR-VS-NACA
 InstanceOf: ValueSet
 Usage: #definition
 * name = "NACA"
-* title = "IVR valueset NACA"
+* title = "IVR NACA"
 * status = #draft
 * experimental = false
-* description = "List of NACA score states"
+* description = "List of NACA score states."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #0

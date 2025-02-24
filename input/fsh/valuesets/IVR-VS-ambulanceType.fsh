@@ -2,10 +2,10 @@ Instance: IVR-VS-ambulanceType
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSambulanceType"
-* title = "IVR Valueset ambulance type"
+* title = "IVR Ambulance Type"
 * status = #draft
 * experimental = false
-* description = "Lists possible rescue devices"
+* description = "List of possible rescue devices."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #83887000
 * compose.include.concept[=].display = "Rescue vehicle"

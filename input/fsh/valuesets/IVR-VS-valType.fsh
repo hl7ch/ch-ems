@@ -2,10 +2,10 @@ Instance: IVR-VS-valType
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSvalTxpe"
-* title = "IVR valueset valuables type"
+* title = "IVR Valuables Type"
 * status = #draft
 * experimental = false
-* description = "List of types of the patient's valuables"
+* description = "List of types of the patient's valuables."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept.code = #74964007
 * compose.include[=].concept.display = "Other"

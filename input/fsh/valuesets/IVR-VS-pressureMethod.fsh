@@ -2,10 +2,10 @@ Instance: IVR-VS-pressureMethod
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSpressureMethod"
-* title = "IVR valueset blood pressure method"
+* title = "IVR Blood Pressure Method"
 * status = #draft
 * experimental = false
-* description = "List of methods for measuring blood pressure"
+* description = "List of methods for measuring the blood pressure."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #10179008
 * compose.include.concept[=].display = "invasive"

@@ -2,10 +2,10 @@ Instance: IVR-VS-vigilanzAvpu
 InstanceOf: ValueSet
 Usage: #definition
 * name = "Vigilanzavpu"
-* title = "IVR vigilanz (AVPU)"
+* title = "IVR Vigilanz (AVPU)"
 * status = #draft
 * experimental = false
-* description = "List of the states of vigilance of a patient (AVPU)"
+* description = "List of the states of vigilance of a patient (AVPU)."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #A

@@ -2,10 +2,10 @@ Instance: IVR-VS-missionTimeRole
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSmissionTimeRole"
-* title = "IVR valueset role mission time"
+* title = "IVR Mission Time Role"
 * status = #draft
 * experimental = false
-* description = "List of defined status times"
+* description = "List of defined status times."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"

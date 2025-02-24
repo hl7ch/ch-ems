@@ -2,10 +2,10 @@ Instance: IVR-VS-transDisinfection
 InstanceOf: ValueSet
 Usage: #definition
 * name = "Ech0207transDisinfection"
-* title = "IVR valueset unit disinfection"
+* title = "IVR Transport Unit Disinfection"
 * status = #draft
 * experimental = false
-* description = "List of methods for cleaning and disinfecting the rescue device"
+* description = "List of methods for cleaning and disinfecting the rescue device."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept.code = #74964007
 * compose.include[=].concept.display = "Other"

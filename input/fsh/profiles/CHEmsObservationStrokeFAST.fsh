@@ -29,7 +29,7 @@ Description: "This profile constrains the Observation resource for representing 
 * component[face].code = $sct#89545001 // "Face structure (body structure)"
 * component[face].value[x] MS
 * component[face].value[x] only CHEmsCodeableConcept
-* component[face].value[x] from YesNoUnknown (extensible)
+* component[face].value[x] from $IVR-VS-yesNoUnknown (extensible)
 * component[face].value[x] ^short = "Face drooping"
 
 * component[arm] ^short = "A: Arm"
@@ -38,12 +38,12 @@ Description: "This profile constrains the Observation resource for representing 
 * component[arm].code = $sct#53120007 // "Upper limb structure (body structure)"
 * component[arm].value[x] MS
 * component[arm].value[x] only CHEmsCodeableConcept
-* component[arm].value[x] from YesNoUnknown (extensible)
+* component[arm].value[x] from $IVR-VS-yesNoUnknown (extensible)
 * component[arm].value[x] ^short = "Arm weakness"
 
 * component[speech] ^short = "S: Speech"
 * component[speech].code = $sct#87335007 // "Speaking (observable entity)"
 * component[speech].value[x] MS
 * component[speech].value[x] only CHEmsCodeableConcept
-* component[speech].value[x] from YesNoUnknown (extensible)
+* component[speech].value[x] from $IVR-VS-yesNoUnknown (extensible)
 * component[speech].value[x] ^short = "Speech difficulty"

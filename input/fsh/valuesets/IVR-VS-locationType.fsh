@@ -2,10 +2,10 @@ Instance: IVR-VS-locationType
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSlocationType"
-* title = "IVR valueset location Type"
+* title = "IVR Location Type"
 * status = #draft
 * experimental = false
-* description = "List of types of event locations"
+* description = "List of types of event locations."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #257564005
 * compose.include[=].concept[=].display = "Apartment"

@@ -2,10 +2,10 @@ Instance: IVR-VS-event
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSevent"
-* title = "IVR valueset event"
+* title = "IVR Event"
 * status = #draft
 * experimental = false
-* description = "Lists types of emergency events"
+* description = "List of types of emergency events."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #39104002
 * compose.include[=].concept[=].display = "Illness"

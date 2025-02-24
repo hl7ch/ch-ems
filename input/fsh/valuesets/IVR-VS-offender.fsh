@@ -2,10 +2,10 @@ Instance: IVR-VS-offender
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSoffender"
-* title = "IVR valueset offender"
+* title = "IVR Offender"
 * status = #draft
 * experimental = false
-* description = "List of types of attackers on the rescue staff"
+* description = "List of types of attackers on the rescue staff."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #125677006
 * compose.include[=].concept[=].display = "Relative"

@@ -2,10 +2,10 @@ Instance: IVR-VS-formation
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSformation"
-* title = "IVR valueset formation"
+* title = "IVR Formation"
 * status = #draft
 * experimental = false
-* description = "List of the formation of rescue personnel"
+* description = "List of the formation of rescue personnel."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #397897005
 * compose.include[=].concept[=].display = "Paramedic"

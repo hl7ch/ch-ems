@@ -2,10 +2,10 @@ Instance: IVR-VS-respirationObservation
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSrespirationObservation"
-* title = "IVR valueset Observation Respiration"
+* title = "IVR Respiration Observation"
 * status = #draft
 * experimental = false
-* description = "List of findings in the assessment of breathing"
+* description = "List of findings in the assessment of breathing."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #1023001
 * compose.include[=].concept[=].display = "Apnea"

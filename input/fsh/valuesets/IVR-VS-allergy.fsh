@@ -2,10 +2,10 @@ Instance: IVR-VS-allergy
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSallergy"
-* title = "IVR valueset allergy"
+* title = "IVR Allergy"
 * status = #draft
 * experimental = false
-* description = "Lists possible allergies"
+* description = "List of possible allergies."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #390952000
 * compose.include[=].concept[=].display = "Dust allergy"

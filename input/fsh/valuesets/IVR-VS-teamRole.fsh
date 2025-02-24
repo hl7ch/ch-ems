@@ -2,10 +2,10 @@ Instance: IVR-VS-teamRole
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSteamRole"
-* title = "IVR valueset role team"
+* title = "IVR Team Role"
 * status = #draft
 * experimental = false
-* description = "List of the crew member's role"
+* description = "List of the crew member's role."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #28411006
 * compose.include[=].concept[=].display = "Neonatologist"

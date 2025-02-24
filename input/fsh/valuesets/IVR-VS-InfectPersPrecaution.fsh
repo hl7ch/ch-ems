@@ -2,10 +2,10 @@ Instance: IVR-VS-InfectPersPrecaution
 InstanceOf: ValueSet
 Usage: #definition
 * name = "Ech0207InfectPersPrecaution"
-* title = "IVR valueset infectiontransport precaution personnel"
+* title = "IVR Infection Transport Precaution Personnel"
 * status = #draft
 * experimental = false
-* description = "List of precautions to be taken by staff when transporting infected persons"
+* description = "List of precautions to be taken by staff when transporting infected persons."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #409528009
 * compose.include[=].concept[=].display = "Surgical face mask"

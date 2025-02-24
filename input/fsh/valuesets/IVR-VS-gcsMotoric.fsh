@@ -2,10 +2,10 @@ Instance: IVR-VS-gcsMotoric
 InstanceOf: ValueSet
 Usage: #definition
 * name = "GcsMotoric"
-* title = "IVR valueset GCS motorische Reaktion"
+* title = "IVR GCS Motoric Response"
 * status = #draft
 * experimental = false
-* description = "GCS: List of motoric responses"
+* description = "List of GCS observations of the motoric response."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept.code = #260389003
 * compose.include[=].concept.display = "No reaction"

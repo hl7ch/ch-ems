@@ -2,10 +2,10 @@ Instance: IVR-VS-diagnosis
 InstanceOf: ValueSet
 Usage: #definition
 * name = "Diagnosis"
-* title = "IVR Valueset diagnosis"
+* title = "IVR Diagnosis"
 * status = #draft
 * experimental = false
-* description = "Lists diagnosis"
+* description = "List of diagnosis."
 * immutable = false
 * compose.include.system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm" // "urn:oid:1.2.276.0.76.5.409"
 * compose.include.concept[0].code = #R56.0

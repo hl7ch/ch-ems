@@ -2,10 +2,10 @@ Instance: IVR-VS-coldExposure
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVScoldExposure"
-* title = "IVR valueset cold exposure"
+* title = "IVR Cold Exposure"
 * status = #draft
 * experimental = false
-* description = "Lists possible degrees of frostbite"
+* description = "List of possible degrees of frostbite."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000146

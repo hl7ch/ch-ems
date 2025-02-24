@@ -2,7 +2,7 @@ Instance: IVR-VS-personRole
 InstanceOf: ValueSet
 Usage: #definition
 * name = "Ech0207personRole"
-* title = "IVR valueset role"
+* title = "IVR Person Role"
 * status = #draft
 * experimental = false
 * description = "List of roles of other persons involved in the event or in connection with the patient."

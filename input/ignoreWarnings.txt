@@ -23,7 +23,7 @@ Constraint failed: dom-6: 'A resource should have narrative for robust managemen
 None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|%
 None of the codings provided are in the value set 'Patient Contact Relationship ' (http://hl7.org/fhir/ValueSet/patient-contactrelationship|%
 None of the codings provided are in the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|%
-No code provided, and a code should be provided from the value set 'IVR valueset symptom%
+No code provided, and a code should be provided from the value set 'IVR Symptom' (http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-symptom|%
 
 # Caused through underlying profiles
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)

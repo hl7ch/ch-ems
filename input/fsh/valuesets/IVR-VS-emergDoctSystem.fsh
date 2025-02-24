@@ -2,10 +2,10 @@ Instance: IVR-VS-emergDoctSystem
 InstanceOf: ValueSet
 Usage: #definition
 * name = "EmergDoctSystem"
-* title = "IVR valueset mission Emergency doctor system"
+* title = "IVR Emergency Doctor System"
 * status = #draft
 * experimental = false
-* description = "Lists types of emergency doctor system"
+* description = "List of types of emergency doctor systems."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000004

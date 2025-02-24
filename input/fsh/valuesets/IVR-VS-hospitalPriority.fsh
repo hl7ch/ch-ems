@@ -2,10 +2,10 @@ Instance: IVR-VS-hospitalPriority
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVShospitalPriority"
-* title = "IVR valueset priority hospital"
+* title = "IVR Hospital Priority"
 * status = #draft
 * experimental = false
-* description = "List of priorities for hospital admission"
+* description = "List of priorities for hospital admission."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #371246006
 * compose.include.concept[=].display = "green"

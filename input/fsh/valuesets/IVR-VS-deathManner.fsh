@@ -2,10 +2,10 @@ Instance: IVR-VS-deathManner
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSdeathManner"
-* title = "IVR valueset manner of death"
+* title = "IVR Death Manner"
 * status = #draft
 * experimental = false
-* description = "Lists possible causes of death"
+* description = "List of possible causes of death."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #87309006
 * compose.include.concept[=].display = "death of unknown cause"

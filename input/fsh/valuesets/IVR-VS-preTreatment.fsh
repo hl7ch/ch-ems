@@ -2,10 +2,10 @@ Instance: IVR-VS-preTreatment
 InstanceOf: ValueSet
 Usage: #definition
 * name = "PreTreatmen"
-* title = "IVR valueset pre-treatment"
+* title = "IVR Pretreatment"
 * status = #draft
 * experimental = false
-* description = "List of types of pre-treatment persons"
+* description = "List of types of persons who performed pretreatment."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #223366009
 * compose.include[=].concept[=].display = "Healthcare professional"

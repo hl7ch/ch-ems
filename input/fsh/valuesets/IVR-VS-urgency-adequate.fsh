@@ -2,10 +2,10 @@ Instance: IVR-VS-urgency-adequate
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSurg_adequate"
-* title = "IVR valueset urgency adequate"
+* title = "IVR Urgency Adequate"
 * status = #draft
 * experimental = false
-* description = "List of assessments of the priority of the mission set by the emergency call center "
+* description = "List of assessments of the priority of the mission set by the emergency call center."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #373066001
 * compose.include[=].concept[=].display = "Yes"

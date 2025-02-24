@@ -2,10 +2,10 @@ Instance: IVR-VS-diagType
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSdiagType"
-* title = "IVR valueset diagnosis type"
+* title = "IVR Diagnosis Type"
 * status = #draft
 * experimental = false
-* description = "Lists types of diagnosis"
+* description = "List of types of diagnosis."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #47965005
 * compose.include.concept[=].display = "differential diagnosis"

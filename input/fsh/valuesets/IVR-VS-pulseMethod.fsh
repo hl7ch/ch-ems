@@ -2,10 +2,10 @@ Instance: IVR-VS-pulseMethod
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSPulseMethod"
-* title = "IVR valueset pulse method"
+* title = "IVR Pulse Method"
 * status = #draft
 * experimental = false
-* description = "List of methods for assessing heart function"
+* description = "List of methods for assessing heart function."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept.code = #113011001
 * compose.include[=].concept.display = "Palpation"

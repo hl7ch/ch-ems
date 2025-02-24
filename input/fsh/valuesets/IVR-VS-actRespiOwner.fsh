@@ -2,10 +2,10 @@ Instance: IVR-VS-actRespiOwner
 InstanceOf: ValueSet
 Usage: #definition
 * name = "ActRespiOwner"
-* title = "IVR valueset owner"
+* title = "IVR Owner"
 * status = #draft
 * experimental = false
-* description = "Lists owners of tools"
+* description = "List of owners of tools."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #116154003
 * compose.include[=].concept[=].display = "Patient"

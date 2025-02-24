@@ -2,10 +2,10 @@ Instance: IVR-VS-missionType
 InstanceOf: ValueSet
 Usage: #definition
 * name = "MissionType"
-* title = "IVR valueset mission type"
+* title = "IVR Mission Type"
 * status = #draft
 * experimental = false
-* description = "List of types of the mission"
+* description = "List of types of the missions."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000001

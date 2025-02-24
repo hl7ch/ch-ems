@@ -2,10 +2,10 @@ Instance: IVR-VS-heatExposure
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSheatExposure"
-* title = "IVR valueset heat exposure"
+* title = "IVR Heat Exposure"
 * status = #draft
 * experimental = false
-* description = "List of degrees of burning"
+* description = "List of degrees of burning."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000149

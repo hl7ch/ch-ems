@@ -2,10 +2,10 @@ Instance: IVR-VS-symptom
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSsymptom"
-* title = "IVR valueset symptom"
+* title = "IVR Symptom"
 * status = #draft
 * experimental = false
-* description = "List of symptoms of a patient"
+* description = "List of symptoms of a patient."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #24199005
 * compose.include[=].concept[=].display = "Agitation"

@@ -2,10 +2,10 @@ Instance: IVR-VS-findingsAirway
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSfindingsAirway"
-* title = "IVR valueset findings airway (.143.11.39)"
+* title = "IVR Findings Airway"
 * status = #draft
 * experimental = false
-* description = "Lists findings on the condition of the airways"
+* description = "List of findings on the condition of the airways."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #23875004
 * compose.include.concept[=].display = "No pathologic finding"

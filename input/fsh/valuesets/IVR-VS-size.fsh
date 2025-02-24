@@ -2,10 +2,10 @@ Instance: IVR-VS-size
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSsize"
-* title = "IVR Valueset size"
+* title = "IVR Size"
 * status = #draft
 * experimental = false
-* description = "List of the size of an object compared to normal"
+* description = "List of the size of an object compared to normal."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #260376009
 * compose.include.concept[=].display = "Enlarged"

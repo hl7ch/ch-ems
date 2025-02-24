@@ -2,10 +2,10 @@ Instance: IVR-VS-violenceForm
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSviolenceForm"
-* title = "IVR valueset form of violence"
+* title = "IVR Violence Form"
 * status = #draft
 * experimental = false
-* description = "List of types of violence against ambulance personnel"
+* description = "List of types of violence against ambulance personnel."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #260413007
 * compose.include[=].concept[=].display = "None"

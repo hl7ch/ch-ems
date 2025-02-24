@@ -2,10 +2,10 @@ Instance: IVR-VS-eyeForm
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSeyeForm"
-* title = "IVR valueset eye Form"
+* title = "IVR Eye Form"
 * status = #draft
 * experimental = false
-* description = "Lists shapes of the pupils"
+* description = "List of shapes of the pupils."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #421356009
 * compose.include.concept[=].display = "Pupil round"

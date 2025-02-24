@@ -2,10 +2,10 @@ Instance: IVR-VS-intensity
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSintensity"
-* title = "IVR valueset intensity"
+* title = "IVR Intensity"
 * status = #draft
 * experimental = false
-* description = "List of pulse strength"
+* description = "List of pulse strengths."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #260407003
 * compose.include[=].concept[=].display = "Weak"

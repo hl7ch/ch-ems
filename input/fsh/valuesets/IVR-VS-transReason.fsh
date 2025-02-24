@@ -2,10 +2,10 @@ Instance: IVR-VS-transReason
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVStransReason"
-* title = "IVR valueset transport reason"
+* title = "IVR Transport Reason"
 * status = #draft
 * experimental = false
-* description = "List of triggers for a mission"
+* description = "List of triggers for a mission."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000110

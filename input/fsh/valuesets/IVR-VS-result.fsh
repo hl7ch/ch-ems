@@ -2,10 +2,10 @@ Instance: IVR-VS-result
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSresult"
-* title = "IVR valueset result"
+* title = "IVR Result"
 * status = #draft
 * experimental = false
-* description = "List of effects of procedures on the patient"
+* description = "List of effects of procedures on the patient."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #231877006
 * compose.include.concept[=].display = "Worse"

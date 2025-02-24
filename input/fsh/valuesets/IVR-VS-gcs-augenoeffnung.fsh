@@ -2,10 +2,10 @@ Instance: IVR-VS-gcs-augenoeffnung
 InstanceOf: ValueSet
 Usage: #definition
 * name = "GcsAugenoeffnung"
-* title = "IVR valueset GCS Augenoeffnung"
+* title = "IVR GCS Eye Opening"
 * status = #draft
 * experimental = false
-* description = "GCS: list of observation of the eye opening"
+* description = "List of GCS observations of the eye opening."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept.code = #260389003
 * compose.include[=].concept.display = "No reaction"

@@ -2,10 +2,10 @@ Instance: IVR-VS-urgency
 InstanceOf: ValueSet
 Usage: #definition
 * name = "Urgency"
-* title = "IVR valueset urgency"
+* title = "IVR Urgency"
 * status = #draft
 * experimental = false
-* description = "List of the mission's priorities"
+* description = "List of the mission's priorities."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000007

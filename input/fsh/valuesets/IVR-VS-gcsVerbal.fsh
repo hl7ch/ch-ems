@@ -2,10 +2,10 @@ Instance: IVR-VS-gcsVerbal
 InstanceOf: ValueSet
 Usage: #definition
 * name = "GcsVerbal"
-* title = "IVR valueset GCS Verbale Kommunikation"
+* title = "IVR GCS Verbal Response"
 * status = #draft
 * experimental = false
-* description = "GCS: List of verbal responses"
+* description = "List of GCS observations of the verbal response."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept.code = #260389003
 * compose.include[=].concept.display = "no reaction"

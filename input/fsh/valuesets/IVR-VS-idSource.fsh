@@ -2,10 +2,10 @@ Instance: IVR-VS-idSource
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSidSource"
-* title = "IVR valueset identification source"
+* title = "IVR Identification Source"
 * status = #draft
 * experimental = false
-* description = "List of persons who identified the patient"
+* description = "List of persons who identified the patient."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #116154003
 * compose.include[=].concept[=].display = "Patient"

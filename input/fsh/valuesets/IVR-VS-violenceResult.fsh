@@ -2,10 +2,10 @@ Instance: IVR-VS-violenceResult
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSviolenceResult"
-* title = "IVR valueset result of violence"
+* title = "IVR Violence Result"
 * status = #draft
 * experimental = false
-* description = "List of the consequences of violence against emergency service personnel"
+* description = "List of the consequences of violence against emergency service personnel."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #260413007
 * compose.include[=].concept[=].display = "None"

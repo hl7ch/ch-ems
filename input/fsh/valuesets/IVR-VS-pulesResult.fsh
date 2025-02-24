@@ -2,10 +2,10 @@ Instance: IVR-VS-pulesResult
 InstanceOf: ValueSet
 Usage: #definition
 * name = "IVRVSpulesResult"
-* title = "IVR valueset pulse result"
+* title = "IVR Pulse Result"
 * status = #draft
 * experimental = false
-* description = "List of pulse findings"
+* description = "List of pulse findings."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #397829000
 * compose.include.concept[=].display = "Asystole"

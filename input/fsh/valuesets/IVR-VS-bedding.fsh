@@ -2,10 +2,10 @@ Instance: IVR-VS-bedding
 InstanceOf: ValueSet
 Usage: #definition
 * name = "ECH0207bedding"
-* title = "IVR valueset transport bedding"
+* title = "IVR Transport Bedding"
 * status = #draft
 * experimental = false
-* description = "Lists possible positions of the patient during the mission"
+* description = "List of possible positions of the patient during the mission."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #423212001
 * compose.include[=].concept[=].display = "Trendelenburg positioning"
