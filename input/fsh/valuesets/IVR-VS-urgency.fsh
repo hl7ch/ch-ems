@@ -1,20 +1,11 @@
 Instance: IVR-VS-urgency
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.51--20160724151443"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2016-07-24T15:14:43+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.51"
-* version = "2016-07-24T15:14:43"
 * name = "Urgency"
 * title = "IVR valueset urgency"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "list of the mission's priorities"
+* description = "List of the mission's priorities"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000007

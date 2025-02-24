@@ -1,20 +1,11 @@
 Instance: IVR-VS-transReason
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.38--20170107144938"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2017-01-07T14:49:38+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-transReason"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.38"
-* version = "2017-01-07T14:49:38"
 * name = "IVRVStransReason"
 * title = "IVR valueset transport reason"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "list of triggers for a mission"
+* description = "List of triggers for a mission"
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000110

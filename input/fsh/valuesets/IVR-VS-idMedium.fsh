@@ -1,19 +1,10 @@
 Instance: IVR-VS-idMedium
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.35--20170107114728"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2017-01-07T11:47:28+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-idMedium"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.35"
-* version = "2017-01-07T11:47:28"
 * name = "IVRVSidMedium"
 * title = "IVR valueset identification medium"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
 * description = "List of identification media"
 * immutable = false
 * compose.include.system = $IVR-CS

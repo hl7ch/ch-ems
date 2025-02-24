@@ -3,7 +3,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### v2.1.0 (2025)
 
 #### Open Issues 
-* CH EMS Location: Ambulance -> `name` 1.. because of CH Core Location ([#318 CH Core](https://github.com/hl7ch/ch-core/issues/318))
+* [#35](https://github.com/hl7ch/ch-ems/issues/35): CH EMS Location: Ambulance -> `name` 1.. because of CH Core Location ([#318 CH Core](https://github.com/hl7ch/ch-core/issues/318))
+* [#21](https://github.com/hl7ch/ch-ems/issues/21): Value set content update is work in progress
 
 #### Added
 * Introduction the [IVR valueset diagnosis](ValueSet-IVR-VS-diagnosis.html)
@@ -54,8 +55,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Add a CH EMS Procedure base profile with all common procedure requirements defined
    * Rename CH EMS Procedure to CH EMS Procedure: Pretreatment
    * Add CH EMS Procedures: Airways | Breathing
-* [#17](https://github.com/hl7ch/ch-ems/issues/17): changes in titles and description of all value 
-sets
+* [#17](https://github.com/hl7ch/ch-ems/issues/17): Update metadata of value sets, incl. changes in titles and descriptions
 * [#22](https://github.com/hl7ch/ch-ems/issues/22): Add new codes (arrival time emergency doctor, pick-up time emergency doctor) in [IVR valueset role mission time](ValueSet-IVR-VS-missionTimeRole.html) (and IVR Code System)
 
 >>>>>>> master

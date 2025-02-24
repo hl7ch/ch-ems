@@ -5,7 +5,7 @@ Usage: #definition
 * title = "IVR valueset Recovery Aid"
 * status = #draft
 * experimental = false
-* description = "lists the tools used during the rescue and transportation of the patient"
+* description = "Lists the tools used during the rescue and transportation of the patient"
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #156009
 * compose.include[=].concept[=].display = "Spine board"

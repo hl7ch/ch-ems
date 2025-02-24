@@ -1,24 +1,11 @@
-// TBD
-// Anmerkung MZ 21.12.2021: 
-// Wurde nicht im IG Version 1.9.0 publiziert, nur in Source (GitHub) vorhanden 
-
 Instance: IVR-VS-diagnosis
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.25--20200724102043"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2020-07-24T10:20:43+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagnosis"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.25"
-* version = "2020-07-24T10:20:43"
 * name = "Diagnosis"
 * title = "IVR Valueset diagnosis"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "lists diagnosis"
+* description = "Lists diagnosis"
 * immutable = false
 * compose.include.system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm" // "urn:oid:1.2.276.0.76.5.409"
 * compose.include.concept[0].code = #R56.0
