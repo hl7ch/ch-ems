@@ -1,22 +1,11 @@
 Instance: IVR-VS-teamRole
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.20--20161023192135"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2016-10-23T19:21:35+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.20"
-* version = "2016-10-23T19:21:35"
 * name = "IVRVSteamRole"
-* title = "IVR valueset role team (.143.11.8)"
+* title = "IVR Team Role"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset role team (.143.11.8)"
-* immutable = false
-* copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
+* description = "List of the crew member's role."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #28411006
 * compose.include[=].concept[=].display = "Neonatologist"

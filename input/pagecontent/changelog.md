@@ -3,7 +3,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### v2.1.0 (2025)
 
 #### Open Issues 
-* CH EMS Location: Ambulance -> `name` 1.. because of CH Core Location ([#318 CH Core](https://github.com/hl7ch/ch-core/issues/318))
+* [#35](https://github.com/hl7ch/ch-ems/issues/35): CH EMS Location: Ambulance -> `name` 1.. because of CH Core Location ([#318 CH Core](https://github.com/hl7ch/ch-core/issues/318))
+* [#21](https://github.com/hl7ch/ch-ems/issues/21): Value set content update is work in progress
 
 #### Added
 * Introduction the [IVR valueset diagnosis](ValueSet-IVR-VS-diagnosis.html)
@@ -51,9 +52,13 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Add CH EMS Extensions: Urgency Adequate | Emergency Doctor System | Valuables Patient | Identification | Disinfection | Violence | Owner
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
    * Add CH EMS Observations: Breathing | Heat Exposure | Cold Exposure | Heart Rate | Blood Pressure | Pupil Shape | Pupil Size
+   * Add a CH EMS Procedure base profile with all common procedure requirements defined
+   * Rename CH EMS Procedure to CH EMS Procedure: Pretreatment
    * Add CH EMS Procedures: Airways | Breathing
+* [#17](https://github.com/hl7ch/ch-ems/issues/17): Update metadata of value sets, incl. changes in titles and descriptions
 * [#22](https://github.com/hl7ch/ch-ems/issues/22): Add new codes (arrival time emergency doctor, pick-up time emergency doctor) in [IVR valueset role mission time](ValueSet-IVR-VS-missionTimeRole.html) (and IVR Code System)
 
+>>>>>>> master
 #### Fixed
 * Replace ci-build links with links to stable version
 * * [#27](https://github.com/hl7ch/ch-ems/issues/27): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension

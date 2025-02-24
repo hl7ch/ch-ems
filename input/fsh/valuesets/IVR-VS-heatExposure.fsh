@@ -1,20 +1,11 @@
 Instance: IVR-VS-heatExposure
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.66--20170816224701"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2017-08-16T22:47:01+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-heatExposure"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.66"
-* version = "2017-08-16T22:47:01"
 * name = "IVRVSheatExposure"
-* title = "IVR valueset heat exposure (.143.11.51)"
+* title = "IVR Heat Exposure"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset heat exposure (.143.11.51)"
+* description = "List of degrees of burning."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000149

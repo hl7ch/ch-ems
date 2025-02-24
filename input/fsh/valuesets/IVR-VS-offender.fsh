@@ -1,22 +1,11 @@
 Instance: IVR-VS-offender
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.29--20161231104542"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2016-12-31T10:45:42+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-offender"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.29"
-* version = "2016-12-31T10:45:42"
 * name = "IVRVSoffender"
-* title = "IVR valueset offender (143.11.24)"
+* title = "IVR Offender"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset offender (143.11.24)"
-* immutable = false
-* copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
+* description = "List of types of attackers on the rescue staff."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #125677006
 * compose.include[=].concept[=].display = "Relative"

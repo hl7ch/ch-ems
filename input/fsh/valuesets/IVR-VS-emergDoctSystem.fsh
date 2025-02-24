@@ -1,20 +1,11 @@
 Instance: IVR-VS-emergDoctSystem
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.52--20160724163703"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2016-07-24T16:37:03+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-emergDoctSystem"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.52"
-* version = "2016-07-24T16:37:03"
 * name = "EmergDoctSystem"
-* title = "IVR valueset mission Emergency doctor system (.143.11.12)"
+* title = "IVR Emergency Doctor System"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset mission Emergency doctor system (.143.11.12)"
+* description = "List of types of emergency doctor systems."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000004

@@ -1,20 +1,11 @@
 Instance: IVR-VS-coldExposure
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.65--20170816222157"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2017-08-16T22:21:57+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-coldExposure"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.65"
-* version = "2017-08-16T22:21:57"
 * name = "IVRVScoldExposure"
-* title = "IVR valueset cold exposure (.143.11.50)"
+* title = "IVR Cold Exposure"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset cold exposure (.143.11.50)"
+* description = "List of possible degrees of frostbite."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000146

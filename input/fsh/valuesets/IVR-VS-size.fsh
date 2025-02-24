@@ -1,22 +1,11 @@
 Instance: IVR-VS-size
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.56--20170627234712"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2017-06-27T23:47:12+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-size"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.56"
-* version = "2017-06-27T23:47:12"
 * name = "IVRVSsize"
-* title = "IVR Valueset size"
+* title = "IVR Size"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "IVR Valueset size"
-* immutable = false
-* copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
+* description = "List of the size of an object compared to normal."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #260376009
 * compose.include.concept[=].display = "Enlarged"

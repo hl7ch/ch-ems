@@ -1,20 +1,11 @@
 Instance: IVR-VS-NACA
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.1.11.50--20160720104611"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2016-07-20T10:46:11+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-NACA"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.1.11.50"
-* version = "2016-07-20T10:46:11"
 * name = "NACA"
-* title = "IVR valueset NACA"
+* title = "IVR NACA"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "IVR valueset NACA"
+* description = "List of NACA score states."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #0

@@ -1,20 +1,11 @@
 Instance: IVR-VS-vigilanzAvpu
-InstanceOf: $shareablevalueset
+InstanceOf: ValueSet
 Usage: #definition
-* meta.source = "http://art-decor.org/fhir/ValueSet/2.16.756.5.30.1.143.11.1--20160801215709"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* extension.valuePeriod.start = "2016-08-01T21:57:09+02:00"
-* url = "http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-vigilanzAvpu"
-* identifier.use = #official
-* identifier.system = "http://art-decor.org/ns/oids/vs"
-* identifier.value = "2.16.756.5.30.1.143.11.1"
-* version = "2016-08-01T21:57:09"
 * name = "Vigilanzavpu"
-* title = "IVR vigilanz (AVPU)"
+* title = "IVR Vigilanz (AVPU)"
 * status = #draft
 * experimental = false
-* publisher = "Interverband für Rettungswesen"
-* description = "eCH-0207: Vigilanz (AVPU)"
+* description = "List of the states of vigilance of a patient (AVPU)."
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #A

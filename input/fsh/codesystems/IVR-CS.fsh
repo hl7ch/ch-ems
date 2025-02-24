@@ -1,15 +1,10 @@
 CodeSystem: IVRCodeSystem
 Id: IVR
-Title: "IVR Code System"
-Description: "IVR Code System"
-* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2020-05-18T17:00:00+02:00"
-// * ^url = "urn:oid:2.16.756.5.30.1.143.5.1"
-* ^version = "2025-02-05T17:00:00"
+Title: "IVR Codes"
+Description: "Code system containing concepts defined by IVR."
 * ^status = #draft
 * ^experimental = false
-* ^publisher = "Interverband für Rettungswesen"
-* ^caseSensitive = false
+* ^caseSensitive = true
 * ^content = #complete
 * #0 "keine Verletzung oder Erkrankung"
 * #0 ^designation[0].language = #de-CH

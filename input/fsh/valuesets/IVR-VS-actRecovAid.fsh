@@ -2,10 +2,10 @@ Instance: IVR-VS-actRecovAid
 InstanceOf: ValueSet
 Usage: #definition
 * name = "ActRecovAid"
-* title = "IVR valueset Recovery Aid"
+* title = "IVR Recovery Aid"
 * status = #draft
 * experimental = false
-* description = "listet die Hilfsmittel auf, welche bei der Bergung und beim Transport des Patienten verwendet werden"
+* description = "List of tools used during the rescue and transportation of the patient."
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #156009
 * compose.include[=].concept[=].display = "Spine board"
