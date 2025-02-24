@@ -244,6 +244,12 @@ Usage: #example
     </span>
 </div>"
 
+/* validation test case 
+* section[procedures].entry[medicationAdministration] = Reference(MedAdminFentanyl)
+* section[procedures].section[airway].title = "Airway"
+* section[procedures].section[airway].entry = Reference(ProcedureAirwaysIntubation)
+*/
+
 * section[eventOfDeath].title = "Todesfall"
 * section[eventOfDeath].code = $IVR-CS#1100009 "death"
 * section[eventOfDeath].code.text = "Todesfall"

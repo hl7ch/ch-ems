@@ -2,11 +2,17 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### v2.1.0 (2025)
 
+#### Open Issues 
+* CH EMS Location: Ambulance -> `name` 1.. because of CH Core Location ([#318 CH Core](https://github.com/hl7ch/ch-core/issues/318))
+
 #### Added
-* Introduction the [IVR Valueset diagnosis](ValueSet-IVR-VS-diagnosis.html)
+* Introduction the [IVR valueset diagnosis](ValueSet-IVR-VS-diagnosis.html)
 * [#2](https://github.com/hl7ch/ch-ems/issues/2): Include 'Propose a change' link in the footer
 * [#20](https://github.com/hl7ch/ch-ems/issues/20): Integration of medical data 
    * Composition.section:anamnesis.entry:allergyIntolerance -> 0..* CH EMS AllergyIntolerance
+   * Composition.section:anamnesis.entry:medicationStatement -> 0..* CH EMS MedicationStatement
+   * Composition.section:procedures.entry:medicationAdministration -> 0..* CH EMS MedicationAdministration
+* Introduction of the concept must support (incl. adding the data type profiles for CodeableConcept, Coding and Quantity)   
 
 #### Changed / Updated
 * Updates according the current published version 5.0.0 of CH Core (see also [changelog](https://fhir.ch/ig/ch-core/changelog.html))
@@ -22,25 +28,37 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#4](https://github.com/hl7ch/ch-ems/issues/4): Remove 'Profile' from profile title
 * [#5](https://github.com/hl7ch/ch-ems/issues/5): Usage of URL instead of OID for IVR CodeSystem
 * [#10](https://github.com/hl7ch/ch-ems/issues/10): Update intro text: date of birth is also required for an EPR document
-* [#7](https://github.com/hl7ch/ch-ems/issues/7): Change inactive code for 'yellow'
 * [#9](https://github.com/hl7ch/ch-ems/issues/9): Update use cases ([DE](usecase-german.html)/[FR](usecase-french.html))
    * Text links to resources contained in the document (Bundle)
    * Rename persons for simpler understanding (Hans Beispiel -> Hans Transportsanitäter; Hans Notarzt -> Pierre Urgentiste; Hans Spezialarzt -> Claude Spitalarzt; Peter & Erika Muster -> Thomas & Erika Müller)
    * Use the same personal names for DE and FR so that it matches the contents of the resources
    * Adjust times according to the use case 
-* [#8](https://github.com/hl7ch/ch-ems/issues/8): Update inactive codes for left and right, add VS Laterality   
+   * Consequent use of the terms primary ans secondary mission
+   * Some clarifications in the story board
+   * Update of the process images
+* [#8](https://github.com/hl7ch/ch-ems/issues/8): Change inactive codes for left and right, add VS Laterality   
+* [#7](https://github.com/hl7ch/ch-ems/issues/7): Change inactive code for 'yellow'
 * [#12](https://github.com/hl7ch/ch-ems/issues/12): Add ICD-10 slice with fixed system instead of value set with different code system
 * [#11](https://github.com/hl7ch/ch-ems/issues/11): Add involved participant slice with relationship code 'thirdParty'
 * [#24](https://github.com/hl7ch/ch-ems/issues/24): Add slices for all Bundle.entry
    * Add a CH EMS Observation base profile with all common observation requirements defined
+   * Add a CH EMS Procedure base profile with all common procedure requirements defined (rename former CH EMS Procedure to CH EMS Procedure: Pretreatment)
 * [#18](https://github.com/hl7ch/ch-ems/issues/18): Add value set binding to profiles/elements 
+   * Add CH EMS Observation: Death Manner
+   * Add CH EMS Procedures: Precautions Infection | Transportation | Wound Treatment
+   * Add CH EMS Location: Ambulance (rename former CH EMS Location to CH EMS Location: Location and Destination)
+   * Add CH EMS Device
+   * Add CH EMS Extensions: Urgency Adequate | Emergency Doctor System | Valuables Patient | Identification | Disinfection | Violence | Owner
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
-   * Add CH EMS Observation: Breathing | CH EMS Observation: Heat Exposure | CH EMS Observation: Cold Exposure | CH EMS Observation: Heart Rate | CH EMS Observation: Blood Pressure | CH EMS Observation: Pupil Shape | CH EMS Observation: Pupil Size
+   * Add CH EMS Observations: Breathing | Heat Exposure | Cold Exposure | Heart Rate | Blood Pressure | Pupil Shape | Pupil Size
    * Add a CH EMS Procedure base profile with all common procedure requirements defined
    * Rename CH EMS Procedure to CH EMS Procedure: Pretreatment
-   * Add CH EMS Procedure: Airways | CH EMS Procedure: Breathing
+   * Add CH EMS Procedures: Airways | Breathing
 * [#17](https://github.com/hl7ch/ch-ems/issues/17): changes in titles and description of all value 
 sets
+* [#22](https://github.com/hl7ch/ch-ems/issues/22): Add new codes (arrival time emergency doctor, pick-up time emergency doctor) in [IVR valueset role mission time](ValueSet-IVR-VS-missionTimeRole.html) (and IVR Code System)
+
+>>>>>>> master
 #### Fixed
 * Replace ci-build links with links to stable version
 * * [#27](https://github.com/hl7ch/ch-ems/issues/27): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension

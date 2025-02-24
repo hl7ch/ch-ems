@@ -6,5 +6,7 @@ Description: "This profile constrains the Observation resource for representing 
 * . ^short = "CH EMS Observation: Status Priority"
 * code = $loinc#77941-3 // "Final patient acuity"
 * code ^short = "Patient Status"
-* value[x] only CodeableConcept
+* code MS
+* value[x] only CHEmsCodeableConcept
 * value[x] from $IVR-VS-hospitalPriority (extensible)
+* value[x] MS

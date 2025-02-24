@@ -5,7 +5,8 @@ Description: "Example for CH EMS Observation: Status Priority - yellow at handov
 Usage: #example
 * status = #final
 * code = $loinc#77941-3 "Final patient acuity NEMSIS"
-* subject.reference = "Patient/1-ThomasMueller"
+* subject = Reference(PatientExample)
+* encounter = Reference(EncounterExample)
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"
 
 // cdachems-dataelement-436 Priorität

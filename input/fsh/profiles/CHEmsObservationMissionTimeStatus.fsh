@@ -6,3 +6,7 @@ Description: "This profile constrains the Observation resource for representing 
 * . ^short = "CH EMS Observation: Mission Time Status"
 * code from $IVR-VS-missionTimeRole (extensible)
 * code ^short = "Role mission time"
+* code MS 
+* code only CHEmsCodeableConcept
+* value[x] only dateTime
+* value[x] 1.. MS

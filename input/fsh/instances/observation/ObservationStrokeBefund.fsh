@@ -5,7 +5,8 @@ Description: "Example for CH EMS Observation: Stroke/FAST - face drooping right,
 Usage: #example
 * status = #final
 * code = $sct#716800008 "Face Arm Speech Test score (observable entity)"
-* subject.reference = "Patient/1-ThomasMueller"
+* subject = Reference(PatientExample)
+* encounter = Reference(EncounterExample)
 
 // T: Time
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"

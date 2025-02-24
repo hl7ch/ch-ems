@@ -22,17 +22,17 @@ Usage: #definition
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Stationär Rettungsdienst"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Service de secours fixe"
+* compose.include.concept[=].designation[=].value = "Service de sauvetage fixe"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Servizio di soccorso fisso"
+* compose.include.concept[=].designation[=].value = "Servizio di salvataggio ospedaliero"
 * compose.include.concept[+].code = #1000005
 * compose.include.concept[=].display = "pickup by EMS"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Abholung durch Rettungsdienst"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Prise en charge par le service de secours"
+* compose.include.concept[=].designation[=].value = "Prise en charge par le service de sauvetage"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Trasporto con servizio ambulanza"
+* compose.include.concept[=].designation[=].value = "Trasporto con servizio di salvataggio"
 * compose.include.concept[+].code = #1000006
 * compose.include.concept[=].display = "rendezvous"
 * compose.include.concept[=].designation[0].language = #de-CH

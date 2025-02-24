@@ -6,3 +6,6 @@ Description: "This profile constrains the Observation resource for representing 
 * . ^short = "CH EMS Observation: Cardiac Arrest"
 * code = $sct#410429000 // "Cardiac arrest"
 * code ^short = "Cardiac arrest"
+* code MS
+* value[x] only boolean 
+* value[x] MS 

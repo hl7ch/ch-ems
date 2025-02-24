@@ -5,7 +5,7 @@ Description: "IVR Code System"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-05-18T17:00:00+02:00"
 // * ^url = "urn:oid:2.16.756.5.30.1.143.5.1"
-* ^version = "2020-08-17T17:00:00"
+* ^version = "2025-02-05T17:00:00"
 * ^status = #draft
 * ^experimental = false
 * ^publisher = "Interverband für Rettungswesen"
@@ -43,16 +43,16 @@ Description: "IVR Code System"
 * #1000004 ^designation[0].language = #de-CH
 * #1000004 ^designation[=].value = "Stationär Rettungsdienst"
 * #1000004 ^designation[+].language = #fr-CH
-* #1000004 ^designation[=].value = "Service de secours fixe"
+* #1000004 ^designation[=].value = "Service de sauvetage fixe"
 * #1000004 ^designation[+].language = #it-CH
-* #1000004 ^designation[=].value = "Servizio di soccorso fisso"
+* #1000004 ^designation[=].value = "Servizio di salvataggio ospedaliero"
 * #1000005 "pickup by EMS"
 * #1000005 ^designation[0].language = #de-CH
 * #1000005 ^designation[=].value = "Abholung durch Rettungsdienst"
 * #1000005 ^designation[+].language = #fr-CH
-* #1000005 ^designation[=].value = "Prise en charge par le service de secours"
+* #1000005 ^designation[=].value = "Prise en charge par le service de sauvetage"
 * #1000005 ^designation[+].language = #it-CH
-* #1000005 ^designation[=].value = "Trasporto con servizio ambulanza"
+* #1000005 ^designation[=].value = "Trasporto con servizio di salvataggio"
 * #1000006 "rendezvous"
 * #1000006 ^designation[0].language = #de-CH
 * #1000006 ^designation[=].value = "Rendezvous"
@@ -977,6 +977,22 @@ Description: "IVR Code System"
 * #1000161 ^designation[=].value = "Normale"
 * #1000161 ^designation[+].language = #it-CH
 * #1000161 ^designation[=].value = "Paziente orientato, conversazione appropriata"
+
+* #1000171 "arrival time emergency doctor"
+* #1000171 ^designation[0].language = #de-CH
+* #1000171 ^designation[=].value = "Ankunftszeit Notarzt/Notärztin"
+* #1000171 ^designation[+].language = #fr-CH
+* #1000171 ^designation[=].value = "Heure d'arrivée médecin d'urgence"
+* #1000171 ^designation[+].language = #it-CH
+* #1000171 ^designation[=].value = "Orario di arrivo medico d'urgenza"
+* #1000172 "pick-up time emergency doctor"
+* #1000172 ^designation[0].language = #de-CH
+* #1000172 ^designation[=].value = "Abholzeit Notarzt/Notärztin"
+* #1000172 ^designation[+].language = #fr-CH
+* #1000172 ^designation[=].value = "Heure de prise en charge médecin d'urgence"
+* #1000172 ^designation[+].language = #it-CH
+* #1000172 ^designation[=].value = "Orario di prelievo medico d'urgenza"
+
 * #100076 "Stridor rechts"
 * #100076 ^designation[0].language = #de-CH
 * #100076 ^designation[=].value = "Stridor rechts"
@@ -991,6 +1007,7 @@ Description: "IVR Code System"
 * #1100001 ^designation[=].value = "Intervention"
 * #1100001 ^designation[+].language = #it-CH
 * #1100001 ^designation[=].value = "Intervento"
+/* unused, Composition.subject and no section 
 * #1100002 "patient"
 * #1100002 ^designation[0].language = #de-CH
 * #1100002 ^designation[=].value = "Patient"
@@ -998,6 +1015,7 @@ Description: "IVR Code System"
 * #1100002 ^designation[=].value = "Patient"
 * #1100002 ^designation[+].language = #it-CH
 * #1100002 ^designation[=].value = "Paziente"
+*/
 * #1100003 "administrative"
 * #1100003 ^designation[0].language = #de-CH
 * #1100003 ^designation[=].value = "Administrativ"

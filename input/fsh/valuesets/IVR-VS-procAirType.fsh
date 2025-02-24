@@ -29,7 +29,7 @@ Usage: #definition
 * compose.include.concept[+].code = #230040009
 * compose.include.concept[=].display = "Airway suctioning"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Absaugen"
+* compose.include.concept[=].designation[=].value = "Absaugen der Atemwege"
 * compose.include.concept[=].designation[+].language = #fr-CH
 * compose.include.concept[=].designation[=].value = "Aspiration des voies aériennes"
 * compose.include.concept[=].designation[+].language = #it-CH
@@ -50,3 +50,11 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Subluxation de la mandibule"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Sublussazione della mandibola"
+* compose.include.concept[+].code = #706177004
+* compose.include.concept[=].display = "Inhalation therapy device"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Inhalationsset"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Kit de nébulisation"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Set per l'inalazione"
