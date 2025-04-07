@@ -48,7 +48,6 @@ Alias: $IVR-VS-pulesResult =                http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-pulseMethod =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulseMethod
 Alias: $IVR-VS-pressureMethod =             http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pressureMethod
 Alias: $IVR-VS-eyeForm =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-eyeForm
-Alias: $IVR-VS-allergy =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-allergy
 Alias: $IVR-VS-size =                       http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-size
 Alias: $IVR-VS-symptom =                    http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-symptom
 Alias: $IVR-VS-InfectPersPrecaution =       http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-InfectPersPrecaution

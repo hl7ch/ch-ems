@@ -13,7 +13,7 @@ Description: "This profile constrains the AllergyIntolerance resource for repres
 * encounter ^short = "Emergency service during which this allergy or intolerance was observed"
 * encounter.reference 1..
 * code MS
-* code from $IVR-VS-allergy (extensible)
+* code from http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceValueSet (extensible)
 * code only CHEmsCodeableConcept
 * type MS 
 * recordedDate MS 
