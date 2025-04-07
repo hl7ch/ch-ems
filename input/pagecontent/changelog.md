@@ -13,7 +13,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Composition.section:anamnesis.entry:allergyIntolerance -> 0..* CH EMS AllergyIntolerance
    * Composition.section:anamnesis.entry:medicationStatement -> 0..* CH EMS MedicationStatement
    * Composition.section:procedures.entry:medicationAdministration -> 0..* CH EMS MedicationAdministration
-* Introduction of the concept must support (incl. adding the data type profiles for CodeableConcept, Coding and Quantity)   
+* Introduction of the concept must support (incl. adding the data type profiles for CodeableConcept, Coding and Quantity with MS)   
 
 #### Changed / Updated
 * Updates according the current published version 5.0.0 of CH Core (see also [changelog](https://fhir.ch/ig/ch-core/changelog.html))
@@ -58,7 +58,6 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#17](https://github.com/hl7ch/ch-ems/issues/17): Update metadata of value sets, incl. changes in titles and descriptions
 * [#22](https://github.com/hl7ch/ch-ems/issues/22): Add new codes (arrival time emergency doctor, pick-up time emergency doctor) in [IVR valueset role mission time](ValueSet-IVR-VS-missionTimeRole.html) (and IVR Code System)
 
->>>>>>> master
 #### Fixed
 * Replace ci-build links with links to stable version
 * * [#27](https://github.com/hl7ch/ch-ems/issues/27): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension
