@@ -12,7 +12,7 @@ Usage: #example
 * identifier[AHVN13].value = "7562295883070"
 // OID SRZ, here dummy
 * identifier[LocalPid].type = $v2-0203#MR
-* identifier[LocalPid].system = "urn:oid:2.16.756.5.30.1.9999999999.2"
+* identifier[LocalPid].system = "http://example.com"
 * identifier[LocalPid].value = "111111111"
 
 * name.use = #official
