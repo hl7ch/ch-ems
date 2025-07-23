@@ -8,9 +8,8 @@ This exchange format is defined as a [document](https://hl7.org/fhir/R4/document
 
 ### Document Examples
 * Use Case 1: Primary mission with identifiable patient (EPR conform)
-   * Emergency Medical Service protocol 1: [JSON](Bundle-1-Einsatzprotokoll.json.html), [XML](Bundle-1-Einsatzprotokoll.xml.html)    
-   * Emergency Medical Service protocol 1b: [JSON](Bundle-1b-Einsatzprotokoll.json.html), [XML](Bundle-1b-Einsatzprotokoll.xml.html)
+   * Emergency Medical Service protocol 1 (upon handover of the patient): [JSON](Bundle-1-Einsatzprotokoll.json.html), [XML](Bundle-1-Einsatzprotokoll.xml.html)    
+   * Emergency Medical Service protocol 1b (completion of mission, including all administrative and billing-related data): [JSON](Bundle-1b-Einsatzprotokoll.json.html), [XML](Bundle-1b-Einsatzprotokoll.xml.html)
 * Use Case 2: Primary mission with unknown patient (NOT EPR conform)
-   * Emergency Medical Service protocol 2: [JSON](Bundle-2-Einsatzprotokoll.json.html), [XML](Bundle-2-Einsatzprotokoll.xml.html)
-   * Emergency Medical Service protocol 2b: [JSON](Bundle-2b-Einsatzprotokoll.json.html), [XML](Bundle-2b-Einsatzprotokoll.xml.html) 
-   
+   * Emergency Medical Service protocol 2 (upon handover of the patient): [JSON](Bundle-2-Einsatzprotokoll.json.html), [XML](Bundle-2-Einsatzprotokoll.xml.html)
+   * Emergency Medical Service protocol 2b (completion of mission, including all administrative and billing-related data): [JSON](Bundle-2b-Einsatzprotokoll.json.html), [XML](Bundle-2b-Einsatzprotokoll.xml.html) 

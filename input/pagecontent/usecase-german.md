@@ -1,4 +1,4 @@
-Die hier skizzierten Anwendungsfälle (UC = Use Case) beziehen sich auf Beispiele, wie sie heute bei den verschiedenen Akteuren im Schweizer Gesundheitswesen vorkommen, die mit dem vorliegenden Thema zu tun haben. Einige Anwendungsfälle werden erst möglich, wenn durch Import/Export-Mechanismen alle relevanten Informationen interoperabel fliessen können.
+Die hier skizzierten Anwendungsfälle beziehen sich auf Beispiele, wie sie heute bei den verschiedenen Akteuren im Schweizer Gesundheitswesen vorkommen, die mit dem vorliegenden Thema zu tun haben. Einige Anwendungsfälle werden erst möglich, wenn durch Import-/Export-Mechanismen alle relevanten Informationen interoperabel fliessen können.
 
 Ziel ist einerseits die Bereitstellung von Informationen zum Gesundheitszustand des Patienten in einer menschlich lesbaren Form für die am Behandlungspfad beteiligten Personen. Andererseits sollen durch die elektronische Verarbeitung der Informationen Prozesse in den ICT-Systemen optimiert werden können.   
 Nachfolgend beschriebene Anwendungsfälle verdeutlichen diese Zusammenhänge im vorliegenden Kontext.
@@ -6,54 +6,74 @@ Nachfolgend beschriebene Anwendungsfälle verdeutlichen diese Zusammenhänge im 
 ### Einführung
 In Abhängigkeit vom Ereignis, das den Rettungseinsatz auslöst, kann der Ablauf im Detail unterschiedlich ausfallen. Wir gehen in diesem Leitfaden jedoch davon aus, dass jeder Einsatz mit einem Auslöser bei der Disposition in einer Notrufzentrale beginnt und mit der Qualitätskontrolle und der Verrechnung abgeschlossen wird. Die Daten, die dabei erhoben werden, sind immer wieder dieselben und Teil einer vereinigten Gesamtmenge aller Möglichkeiten. Die Unterschiede in den Abläufen führen dazu, dass Datengruppen oder einzelne Elemente ausführlich und detailliert, in einfacher Form oder gar nicht erhoben und bearbeitet werden. Im Gegensatz zu einem Papierformular kann ein elektronisches auf solche Unterschiede eingehen, was die Erfassung erheblich vereinfacht. Allerdings ist die Spezifikation dazu nicht Teil dieses Leitfadens.
 
-Die Grafik beschreibt also einen möglichst generischen Ablauf, der sachdienlich ist, Diskussionen im Detail aber vermeidet.
+Die nachfolgende Grafik beschreibt also einen möglichst generischen Ablauf, der sachdienlich ist, Diskussionen im Detail aber vermeidet.
 
 ### Storyboard
-In der Sanitätsnotrufzentrale geht ein Anruf oder eine elektronische Meldung ein. Diese geht entweder (a) von einem Unfall- oder einer akuten Gesundheitsattacke aus und ist mit einer der Situation angemessenen Priorität auszuführen (**Primäreinsatz**) oder betrifft (b) einen geplanten Transport einer Person mit medizinischen Einschränkungen (**Sekundäreinsatz**).
 
-Bei der Einsatzannahme werden die ersten Daten zur Domäne Einsatz (Einsatz- und Zielort) erhoben und dokumentiert. Beim Zielort sind bei einem Grossereignis Vorbehalte möglich, die aber zwischen dem Start des Teams von der Basis und der Abfahrt vom Einsatzort geklärt werden müssen.
+<div style="width: 100%;">
+    <div style="float: right; margin: 0 0 1rem 2rem; max-width: 600px; width: 40%; text-align: center;">
+        <img src="prozess-de.jpg" alt="Abb.: Prozess Rettungsdienst" style="width: 100%;">
+        <p style="margin-top: 0.5rem;"><em>Abb.: Prozess Rettungsdienst</em></p>
+    </div>
+    <p>
+      In der Sanitätsnotrufzentrale geht ein Anruf oder eine elektronische Meldung ein. Diese geht entweder von einem Unfall- oder einer akuten Gesundheitsattacke aus und ist mit einer der Situation angemessenen Priorität auszuführen (<em>Primäreinsatz</em>) oder betrifft einen geplanten Transport einer Person mit medizinischen Einschränkungen (<em>Sekundäreinsatz</em>).
+    </p>
+    <p>
+      Bei der <strong>Einsatzaufnahme</strong> werden die ersten Daten zur Domäne „Einsatz“ (Einsatz- und Zielort) erhoben und dokumentiert. Beim Zielort sind bei einem Grossereignis Vorbehalte möglich, die aber zwischen dem Start des Teams von der Basis und der Abfahrt vom Einsatzort geklärt werden müssen.
+    </p>
+    <p>
+      Die <strong>Disposition</strong> in der Zentrale lässt sich möglichst viele Informationen zu den betroffenen Personen geben. Bei einem <em>Primäreinsatz</em> sind unter Umständen nur wenige oder gar keine Angaben zum Patienten verfügbar, während bei einem <em>Sekundäreinsatz</em> alle relevanten Patientendaten mit dem Auftrag abschliessend erfasst werden können.<br />
+      Aufgrund der verfügbaren Informationen bestimmt die Disposition die nötige Besetzung und Ausrüstung des Einsatzteams, wählt ein verfügbares Team aus oder organisiert ein solches, durch Umstellungen in den laufenden Einsätzen oder bei Partnerorganisationen.
+    </p>
+    <p>
+      Damit sind alle Informationen zum Szenario „Einsatz“ bestimmt. Einzig die Statuszeiten müssen noch hergeleitet oder erfasst werden.
+    </p>
+    <p>
+      Das Einsatzteam erhält den Einsatzauftrag und beginnt mit dem Einsatz. Während der <strong>Anfahrt</strong> zum Einsatzort können die verfügbaren Informationen ausgewertet und ggf. weitere Informationen angefordert werden.
+    </p>
+    <p>
+      Am Einsatzort beginnt das Team mit der <strong>Behandlung</strong> des Patienten. Es werden:
+    </p>
+    <ul>
+      <li>Eine Anamnese erstellt</li>
+      <li>Erstbefunde erhoben</li>
+      <li>Diagnosen gestellt</li>
+      <li>Massnahmen eingeleitet</li>
+      <li>Die Medikation muss auf die Feststellungen und auch auf Medikamente, die der Patient regelmässig nimmt, abgestimmt werden</li>
+    </ul>
+    <p>
+      Alle diese Schritte werden im Einsatzprotokoll festgehalten und dokumentiert.
+    </p>
+    <p>
+      Während die Daten zur Person und zur Administration bei einem <em>Sekundäreinsatz</em> von Beginn weg bekannt sind, müssen Sie bei einem <em>Primäreinsatz</em> oft am Einsatzort noch einmal ergänzt werden. Dies kann parallel zur Erhebung der Anamnese und Befunde geschehen. Im einfachsten Fall verfügt der Patient über einen Ausweis und/oder eine Versicherungskarte.
+    </p>
+    <p>
+      Sobald der Patient transportfähig und der Zielort (meist eine meidzinisch geeignete Notfallstation mit Aufnahmekapazität) bekannt ist, wird der <strong>Patiententransport</strong> durchgeführt.
+    </p>
+    <p>
+      Am <strong>Zielort</strong> werden der Patient sowie das medizinische Einsatzprotokoll ans Spital <strong>übergeben</strong>.
+    </p>
+    <p>
+      Bei einem <em>Primäreinsatz</em> ist selbst zu diesem Zeitpunkt noch nicht garantiert, dass der Patient abschliessend identifiziert werden konnte. Die Aufgabe, dies zu tun und den Fall auch administrativ zum Abschluss zu bringen, liegt dann beim behandelnden Spital.
+    </p>
+    <p>
+      Das Team kehrt mit dem Fahrzeug auf die Basis zurück, führt die <strong>Retablierung</strong> und den <strong>Protokollabschluss</strong> durch.<br />
+      Die <strong>Qualitätskontrolle</strong> und die <strong>Verrechnung</strong> (an den Patienten oder die Stelle, die den Einsatz bezahlt) sind nun Aufgabe des Backoffice des Rettungsdienstes.
+    </p>
+</div>
 
-Die Disposition in der Zentrale lässt sich möglichst viele Informationen zu den betroffenen Personen geben. Bei einem Primäreinsatz sind unter Umständen nur wenige oder gar keine Angaben zum Parienten verfügbar, während bei einem Sekundäransatz alle relevanten Patientendaten mit dem Auftrag abschliessend erfasst werden können.
+### Anwendungsfälle
+Für das Einsatzprotokoll für Rettungsdienste werden zwei Anwendungsfälle beschrieben:
 
-Aufgrund der verfügbaren Informationen bestimmt die Disposition die nötige Besetzung und Ausrüstung des Einsatzteams, wählt ein verfügbares aus oder organisiert ein solches, durch Umstellungen in den laufenden Einsätzen oder bei Partnerorganisationen.
-
-Damit sind alle Informationen zum Szenario „Einsatz“ bestimmt. Einzig die Statuszeiten müssen noch hergeleitet oder erfasst werden.
-
-Das Einsatzteam erhält den Einsatzauftrag und beginnt mit dem Einsatz. Auf dem Weg zum Einsatzort können die verfügbaren Informationen ausgewertet und ggf. weitere Informationen angefordert werden.
-
-Am Einsatzort beginnt das Team mit der Arbeit am Patienten. Es werden:
-* Eine Anamnese erstellt
-* Erstbefunde erhoben
-* Diagnosen gestellt
-* Massnahmen eingeleitet
-* Die Medikation muss auf die Feststellungen und auch auf Medikamente, die der Patient regelmässig nimmt, abgestimmt werden
-
-Alle diese Schritte werden im Einsatzprotokoll festgehalten und dokumentiert.
-
-Während die Daten zur Person und zur Administration bei einem Sekundäreinsatz von Beginn weg bekannt sind, müssen Sie bei einem Primäreinsatz oft am Einsatzort noch einmal ergänzt werden. Dies kann parallel zur Erhebung der Anamnese und Befunde geschehen. Im einfachsten Fall verfügt der Patient über einen Ausweis und/oder eine Versicherungskarte.
-
-Sobald der Patient transportfähig und der Zielort (meist eine meidzinisch geeignete Notfallstation mit Aufnahmekapazität) bekannt ist, wird der Patiententransport durchgeführt.
-
-Am Zielort werden der Patient sowie das medizinische Einsatzprotokoll ans Spital übergeben.
-
-Bei einem Primäreinsatz ist selbst zu diesem Zeitpunkt noch nicht garantiert, dass der Patient abschliessend identifiziert werden konnte. Die Aufgabe, dies zu tun und den Fall auch administrativ zum Abschluss zu bringen, liegt dann beim behandelnden Spital.
-
-Das Team kehrt mit dem Fahrzeug auf die Basis zurück, führt die Retablierung durch und schliesst das Einsatzprotokoll ab. Die Qualitätssicherung und die Verrechnung (an den Patienten oder die Stelle, die den Einsatz bezahlt) sind nun Aufgabe des Backoffice des Rettungsdienstes.
-
-{% include img.html img="prozess-de.jpg" caption="Abb.: Prozess Rettungsdienst" width="40%" %}
-
-### Use cases
-Für das Einsatzprotokoll für Rettungsdienste werden 2 Use cases beschrieben:
-
-[**1. Primäreinsatz mit identifizierbarem Patienten**](usecase-german.html#use-case-1---primäreinsatz-mit-identifizierbarem-patienten):     
+[**1. Primäreinsatz mit identifizierbarem Patienten**](usecase-german.html#anwendungsfall-1---primäreinsatz-mit-identifizierbarem-patienten)     
 Einsatz, in dem der Rettungsdienst den ersten Kontakt mit dem Patienten hat und diesen auf Grund eines Ausweises, auf Grund einer Aussage des Patienten o.ä. **eindeutig identifizieren** kann. Häufig handelt es sich hierbei um Notfalleinsätze. Primäreinsätze sind für den Rettungsdienst mehrheitlich nicht planbar. 
 
-[**2. Primäreinsatz mit unbekanntem Patienten**](usecase-german.html#use-case-2---primäreinsatz-mit-unbekanntem-patienten):      
+[**2. Primäreinsatz mit unbekanntem Patienten**](usecase-german.html#anwendungsfall-2---primäreinsatz-mit-unbekanntem-patienten)      
 Einsatz, in dem das Team des Rettungsdienstes bis zum Abschluss des Einsatzes den Patienten **nicht identifizieren** kann. Gründe dafür können z.B. sein, dass sich die Person nicht äussern kann und keine Ausweise auf sich trägt oder dass im Falle eines Grossereignisses die Identifikation der Verletzen auf dem Schadenplatz mangels Zeit nicht erfolgen konnte.
 
-Beide Use Cases sind frei erfunden. Sie dienen allein der Illustration, wie Angaben, die im Verlauf eines Einsatzes erfahren werden, im Datensatz des CH EMS abgebildet werden. Die Use Cases können deshalb Angaben enthalten, die einsatztaktisch oder medizinisch nicht sinnvoll sind. Die Beschreibung der beiden Use Cases enthält Daten, die in den Beispieldaten des Datensatzes soweit möglich wieder aufgenommen werden. Falls bei einem Datensatz-Attribut mehr als ein Beispiel aufgeführt wird, so betreffen diese einen oder beide der Use Cases. Die Beschreibung der Use Cases ist weniger detailliert als die Beispieldaten. Dies bedeutet, dass es Beispieldaten gibt, die in beiden oder nur in einem der beiden Use Cases erwähnt werden, aber auch Daten, die in den Use Cases gar nicht erwähnt werden.
+Beide Anwendungsfälle sind frei erfunden. Sie dienen allein der Illustration, wie Angaben, die im Verlauf eines Einsatzes erfahren werden, im Datensatz des CH EMS abgebildet werden. Die Anwendungsfälle können deshalb Angaben enthalten, die einsatztaktisch oder medizinisch nicht sinnvoll sind. Die Beschreibung der beiden Anwendungsfälle enthält Daten, die in den Beispieldaten des Datensatzes soweit möglich wieder aufgenommen werden. Falls bei einem Datensatz-Attribut mehr als ein Beispiel aufgeführt wird, so betreffen diese einen oder beide der Anwendungsfälle. Die Beschreibung der Anwendungsfälle ist weniger detailliert als die Beispieldaten. Dies bedeutet, dass es Beispieldaten gibt, die in beiden oder nur in einem der beiden Anwendungsfälle erwähnt werden, aber auch Daten, die in den Anwendungsfälle gar nicht erwähnt werden.
 
-#### Use case 1 - Primäreinsatz mit identifizierbarem Patienten
+#### Anwendungsfall 1 - Primäreinsatz mit identifizierbarem Patienten
 Am 10.12.2016 um 12.09 Uhr (Statuszeit [ALARM](Observation-1-Alarm.html)) ruft Herr [Thomas Müller](Patient-1-ThomasMueller.html) den Notruf 144 an. Er befindet sich irgendwo oberhalb Zürichs am Waldrand und schildert, dass er starke Schmerzen in der Brust und im linken Oberarm verspürt und kaum atmen kann. Die [Sanitätsnotrufzentrale Zürich](ServiceRequest-1-AufbietendeOrganisation.html) (GLN 7601002156370) vermutet aufgrund der Befragung des Patienten ein akutes Koronarsyndrom (ACS) und definiert dies als Einsatzstichwort. Die Ortung des Patienten ergibt, dass er sich auf den [Koordinaten 47.392115, 8.553192](Location-1-Einsatzort.html) befindet.
 
 Die Sanitätsnotrufzentrale (SNZ) legt am 10.12.2016 um 12.11 Uhr (Statuszeit [DISPOSITION](Observation-1-Disposition.html), Bezeichnung Status: DP) einen [Einsatz](Encounter-1-Einsatz.html) mit der Einsatznummer S12345678 an und disponiert unter der Nummer D12345678 das [Team 111](Organization-1-TeamRettungsdienst.html) des [Rettungsdienstes Schutz & Rettung](Organization-1-Rettungsdienst.html) (GLN 7601002156363) mit einem Rettungswagen (Z-220) und der Besatzung [Petra Muster](Practitioner-1-TeamMemberPetraMuster.html), dipl. Rettungssanitäterin HF (höhere Fachschule), GLN 7601003330434, und [Hans Transportsanitäter](Practitioner-1-TeamMemberHansTransportsanitaeter.html), Transportsanitäter FA (Fachausweis), GLN 7601000211804, an den Einsatzort. Die Fahrt ist dringlich und wird deshalb mit Sondersignal ausgeführt. Sie fahren 12.13 Uhr in der Wache von Schutz und Rettung Zürich (SRZ) los (Statuszeit [ROLLOUT](Observation-1-Rollout.html), Bezeichnung Status: 1). Parallel dazu wird auch ein Notarzt aufgeboten (Dr. med. [Pierre Urgentiste](Practitioner-1-TeamMemberPierreUrgentiste.html), Notarzt SGNOR, GLN 7601000028105), der separat mit einem Fahrzeug an den Einsatzort kommen wird. Aufgrund der Schilderung des Patienten und des Einsatzortes legt die SNZ provisorisch fest, dass der Transport in die interdisziplinäre Notfallstation des [Universitätsspitals Zürich](Location-1-Zielort.html) (USZ, Rämistrasse 100, 8091 Zürich, GLN 7601002155939) erfolgen soll.
@@ -71,7 +91,7 @@ Während sich der Notarzt nach der Patientenübergabe an den Stützpunkt zurück
 Mit diesem Schritt ist der Einsatz für das Team vollständig abgeschlossen.
 
 
-#### Use case 2 - Primäreinsatz mit unbekanntem Patienten
+#### Anwendungsfall 2 - Primäreinsatz mit unbekanntem Patienten
 Am 10.12.2016 um 12.09 Uhr erhält die [Sanitätsnotrufzentrale Zürich](ServiceRequest-2-AufbietendeOrganisation.html) (GLN 7601002156370) einen Notruf (Status [ALARM](Observation-2-Alarm.html)). Es wird gemeldet, dass eine [unbekannte Person](Patient-2-PatientUnbekannt.html) auf der Strasse zusammengebrochen und nicht ansprechbar ist, aber atmet und deshalb Nothilfe benötigt wird. Als Einsatzort wird [8050 Zürich, Sternen Oerlikon, Schaffhauserstr. 350](Location-2-Einsatzort.html), angegeben. Genauere Angaben sind zum Zeitpunkt des Anrufs nicht vorhanden.
 
 Die Sanitätsnotrufzentrale Zürich disponiert um 12.11 Uhr (Status: [DISPOSITION](Observation-2-Disposition.html), DP) das [Team 111](Organization-1-TeamRettungsdienst.html) des [Rettungsdienstes Schutz & Rettung](Organization-1-Rettungsdienst.html) (GLN 7601002156363) mit dem Rettungswagen (Z-211) mit Sondersignal an den Einsatzort. Das Team 111 besteht aus [Petra Muster](Practitioner-1-TeamMemberPetraMuster.html), dipl. Rettungssanitäterin HF, GLN 7601003330434, und [Hans Transportsanitäter](Practitioner-1-TeamMemberHansTransportsanitaeter.html), Transportsanitäter FA, GLN 7601000211804. Beide nehmen die Rolle von Betreuungspersonen ein. Der [Einsatz](Encounter-2-Einsatz.html) erhält von der SNZ die Einsatznummer S12345678 und die Dispositionsnummer D12345678. Als Einsatzstichwort wird aufgrund des unklaren Geschehens „unklare Situation, Abklärung vor Ort“ angegeben. Aufgrund der wenigen verfügbaren Informationen und des Einsatzortes legt die SNZ provisorisch fest, dass der Transport des Patienten bei Bedarf in die interdisziplinäre Notfallstation des [Universitätsspitals Zürich](Location-1-Zielort.html) (USZ, Rämistrasse 100, 8091 Zürich, GLN 7601002155939) erfolgen soll.

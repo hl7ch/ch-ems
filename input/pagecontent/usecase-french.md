@@ -1,4 +1,4 @@
-Les cas d’application représentés ici (UC = Use Case) se rapportent à des exemples tels qu’ils se présentent aujourd’hui aux différents acteurs du système de santé suisse concernés par la présente thématique. Certains de ces cas d’application ne sont possibles que si toutes les informations pertinentes sont interopérables et peuvent circuler grâce à des mécanismes d’importation et d’exportation.
+Les cas d’application représentés ici se rapportent à des exemples tels qu’ils se présentent aujourd’hui aux différents acteurs du système de santé suisse concernés par la présente thématique. Certains de ces cas d’application ne sont possibles que si toutes les informations pertinentes sont interopérables et peuvent circuler grâce à des mécanismes d’importation et d’exportation.
 
 L’objectif est, d’une part, de mettre à disposition des informations relatives à l’état de santé du patient sous une forme lisible pour les personnes participant au processus de traitement. D’autre part, le traitement électronique des informations doit permettre d’optimiser des processus dans les systèmes TIC.   
 Les cas d’application décrits ci-après expliquent ces rapports dans le présent contexte.
@@ -6,52 +6,69 @@ Les cas d’application décrits ci-après expliquent ces rapports dans le prés
 ### Introduction
 Le processus dans ses détails peut se dérouler différemment en fonction de l’événement déclencheur de l’intervention de sauvetage. Dans ce guide, nous partons cependant du principe que chaque intervention débute par un événement déclencheur dans le centre de répartition d’une centrale d’appels urgents et se termine par un contrôle de qualité et une facturation. Les données récoltées dans ce cadre sont toujours les mêmes et s’inscrivent dans un ensemble global unifié de toutes les possibilités. Les différences de déroulement des processus ont pour conséquence que, selon les cas, des groupes de données ou des éléments uniques peuvent être récoltés et traités soit de manière complète et détaillée, soit sous une forme simple, voire ne pas l’être du tout. Contrairement à un formulaire papier, un document électronique peut supporter de telles différences, simplifiant ainsi sensiblement la saisie des données. La spécification relative à ce dernier aspect ne fait toutefois par partie de ce guide.
 
-Le graphique décrit par conséquent le déroulement le plus générique possible; ce déroulement est utile, mais n’entre pas dans des discussions de détail.
+Le graphique suivant décrit par conséquent le déroulement le plus générique possible; ce déroulement est utile, mais n’entre pas dans des discussions de détail.
 
 ### Storyboard
-La centrale d'appels sanitaires urgents reçoit un appel ou un message électronique. Celui-ci part soit (a) d'un accident ou d'une attaque sanitaire aiguë et doit être exécuté avec une priorité adaptée à la situation (**intervention primaire**), soit concerne (b) un transport planifié d'une personne avec des restrictions médicales (**intervention secondaire**).
 
-Les premières données relatives au domaine d’intervention (lieu d’intervention et destination) sont récoltées et documentées lors de cet appel. En cas d’événement majeur, des réserves sont possibles sur le lieu de destination, mais celles-ci doivent faire l’objet d’une clarification entre le départ de l’équipe de la base et l’arrivée sur le lieu de l’intervention.
-
-
-Le dispatching à la centrale se fait donner le plus d'informations possible sur les personnes concernées. Dans le cas d'une intervention primaire, il se peut que peu ou pas d'informations sur le patient soient disponibles, alors que dans le cas d'une intervention secondaire, toutes les données pertinentes sur le patient peuvent être saisies de manière définitive avec la mission.
-
-Sur la base des informations disponibles, le personnel de répartition détermine la composition et l’équipement nécessaire de l’équipe d’intervention et sélectionne une équipe disponible ou se charge de sa création en procédant à des réorganisations dans les interventions en cours ou auprès des organisations partenaires.
-
-Toutes les informations relatives au scénario « intervention » sont ainsi déterminées. Seuls les temps de statut doivent encore être déduits ou saisis.
-
-L’équipe d’intervention reçoit le mandat d’intervention et débute sa mise en œuvre. En route vers le lieu d’intervention, il est possible d’évaluer les informations disponibles et, le cas échéant, de demander des informations supplémentaires.
-
-Un bilan de la situation est réalisé sur place avec les points suivants:
-
-+ une anamnèse est établie
-* Des premiers résultats sont recueillis
-* Des diagnostics sont posés
-* Des mesures sont prises.
-* La médication doit être adaptée aux constatations et aussi aux médicaments que le patient prend régulièrement.
-
-Toutes ces étapes sont consignées et documentées dans le protocole d'intervention.
-
-Alors que les données relatives à la personne et à l'administration sont connues dès le départ lors d'une intervention secondaire, elles doivent souvent être complétées sur place lors d'une intervention primaire. Cela peut se faire parallèlement au relevé de l'anamnèse et des résultats. Dans le cas le plus simple, le patient dispose d'une carte d'identité et/ou d'une carte d'assurance.
-
-Dès que le patient est transportable et que le lieu de destination est connu (généralement un service d'urgence adapté à l'évitement et disposant d'une capacité d'accueil), le transport du patient est effectué.
-
-Le patient et le protocole d'intervention sont remis au lieu de destination.
-
-Dans le cas d'une intervention primaire, il n'est pas encore garanti, même à ce stade, que le patient ait pu être identifié de manière définitive. La tâche de le faire et de clore le cas sur le plan administratif incombe alors à l'hôpital traitant.
-
-L'équipe retourne à la base avec le véhicule, procède au rétablissement et conclut le protocole d'intervention. 
-L'assurance qualité et la facturation (au patient ou à l'organisation qui a payé l'intervention) incombent désormais au back-office du service de sauvetage.
-
-{% include img.html img="prozess-fr.jpg" caption="Fig.: Flux de travail" width="40%" %}
+<div style="width: 100%;">
+    <div style="float: right; margin: 0 0 1rem 2rem; max-width: 600px; width: 40%; text-align: center;">
+        <img src="prozess-fr.jpg" alt="Fig.: Flux de travail" style="width: 100%;">
+        <p style="margin-top: 0.5rem;"><em>Fig.: Flux de travail</em></p>
+    </div>
+    <p>
+      La centrale d'appels sanitaires urgents reçoit un appel ou un message électronique. Celui-ci part soit d'un accident ou d'une attaque sanitaire aiguë et doit être exécuté avec une priorité adaptée à la situation (<em>intervention primaire</em>), soit concerne un transport planifié d'une personne avec des restrictions médicales (<em>intervention secondaire</em>).
+    </p>
+    <p>
+      Lors de la <strong>réception de l'intervention</strong>, les premières données relatives au domaine « intervention » (lieu d'intervention et lieu de destination) sont collectées et documentées. En cas d'événement majeur, des réserves peuvent être émises concernant le lieu de destination, mais celles-ci doivent être clarifiées entre le départ de l'équipe depuis la base et son départ du lieu d'intervention.
+    </p>
+    <p>
+      Le <strong>disposition</strong> à la centrale se fait donner le plus d'informations possible sur les personnes concernées. Dans le cas d'une intervention primaire, il se peut que peu ou pas d'informations sur le patient soient disponibles, alors que dans le cas d'une intervention secondaire, toutes les données pertinentes sur le patient peuvent être saisies de manière définitive avec la mission.<br />
+      Sur la base des informations disponibles, le personnel de répartition détermine la composition et l’équipement nécessaire de l’équipe d’intervention et sélectionne une équipe disponible ou se charge de sa création en procédant à des réorganisations dans les interventions en cours ou auprès des organisations partenaires.
+    </p>
+    <p>
+      Toutes les informations relatives au scénario « intervention » sont ainsi déterminées. Seuls les temps de statut doivent encore être déduits ou saisis.
+    </p>
+    <p>
+      L’équipe d’intervention reçoit le mandat d’intervention et débute sa mise en œuvre. Sur le <strong>trajet</strong> vers le lieu d'intervention, il est possible d’évaluer les informations disponibles et, le cas échéant, de demander des informations supplémentaires.
+    </p>
+    <p>
+      Sur le lieu d'intervention, l'équipe commence par le <strong>traitement</strong> du patient. Il s'agit de :
+    </p>
+    <ul>
+      <li>Une anamnèse est établie</li>
+      <li>Des premiers résultats sont recueillis</li>
+      <li>Des diagnostics sont posés</li>
+      <li>Des mesures sont prises</li>
+      <li>La médication doit être adaptée aux constatations et aussi aux médicaments que le patient prend régulièrement</li>
+    </ul>
+    <p>
+      Toutes ces étapes sont consignées et documentées dans le protocole d'intervention.
+    </p>
+    <p>
+      Alors que les données relatives à la personne et à l'administration sont connues dès le départ lors d'une <em>intervention secondaire</em>, elles doivent souvent être complétées sur place lors d'une <em>intervention primaire</em>. Cela peut se faire parallèlement au relevé de l'anamnèse et des résultats. Dans le cas le plus simple, le patient dispose d'une carte d'identité et/ou d'une carte d'assurance.
+    </p>
+    <p>
+      Dès que le patient est transportable et que le lieu de destination est connu (généralement un service d'urgence adapté à l'évitement et disposant d'une capacité d'accueil), le <strong>transport du patient</strong> est effectué.
+    </p>
+    <p>
+      Le patient et le protocole d'intervention sont <strong>transférés à destination</strong>.
+    </p>
+    <p>
+      Dans le cas d'une <em>intervention primaire</em>, il n'est pas encore garanti, même à ce stade, que le patient ait pu être identifié de manière définitive. La tâche de le faire et de clore le cas sur le plan administratif incombe alors à l'hôpital traitant.
+    </p>
+    <p>
+      L'équipe retourne à la base avec le véhicule, procède au <strong>rétablissement</strong> et à la <strong>clôture du protocole</strong>.<br />
+      Le <strong>contrôle qualité</strong> et la <strong>facturation</strong> (au patient ou à l'organisation qui a payé l'intervention) relèvent désormais du back-office du service de sauvetage.
+    </p>
+</div>
 
 ### Cas d’application
 Deux cas d’application sont décrits pour le protocole d'intervention:
 
-[**1. Intervention primaire avec patient identifiable**](usecase-french.html#cas-dapplication-1---intervention-primaire-avec-patient-identifiable):        
+[**1. Intervention primaire avec patient identifiable**](usecase-french.html#cas-dapplication-1---intervention-primaire-avec-patient-identifiable)        
 Intervention au cours de laquelle le service de sauvetage est le premier à entrer en contact avec le patient et **peut identifier** ce dernier **de manière univoque** sur la base d’une pièce d’identité, d’une affirmation du patient ou autre. Il s’agit ici souvent d’interventions d’urgence. La majorité des interventions primaires ne peuvent pas être planifiées par le service de sauvetage.  
 
-[**2. Intervention primaire avec patient inconnu**](usecase-french.html#cas-dapplication-2---intervention-primaire-avec-patient-inconnu):         
+[**2. Intervention primaire avec patient inconnu**](usecase-french.html#cas-dapplication-2---intervention-primaire-avec-patient-inconnu)         
 Intervention lors de laquelle, jusqu’à la fin de l’intervention, l’équipe du service de sauvetage **ne peut pas identifier** le patient. Entre autres raisons, il est possible que la personne ne puisse pas s’exprimer et n’ait pas de pièce d’identité sur elle ou que lors d’un événement majeur, il ne soit pas possible de procéder à l’identification des blessés sur le lieu du sinistre faute de temps.
 
 Ces deux cas d’application sont inventés librement. Ils servent uniquement à illustrer comment les indications recueillies au cours d’une intervention sont reproduites dans l’ensemble de données CH EMS. Ces cas d’application peuvent par conséquent contenir des indications qui ne sont pas judicieuses sur le plan médical ou tactique de l’intervention. La description de ces deux cas d’application contient des données qui peuvent être reprises, si possible, dans les exemples de données de l’ensemble de données. Si plus d’un exemple est donné pour un attribut de l’ensemble de données, ces exemples concernent un cas d’application ou les deux. La description des cas d’application est moins détaillée que les exemples de données. Cela signifie qu’il existe des exemples de données qui sont mentionnés dans les deux cas d’application ou uniquement dans l’un des deux, mais aussi des données qui ne sont pas du tout mentionnées dans les cas d’application.
