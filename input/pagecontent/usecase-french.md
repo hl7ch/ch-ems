@@ -43,7 +43,7 @@ Dans le cas d'une intervention primaire, il n'est pas encore garanti, même à c
 L'équipe retourne à la base avec le véhicule, procède au rétablissement et conclut le protocole d'intervention. 
 L'assurance qualité et la facturation (au patient ou à l'organisation qui a payé l'intervention) incombent désormais au back-office du service de sauvetage.
 
-{% include img.html img="prozess-fr.jpg" caption="Flux de travail" width="40%" %}
+{% include img.html img="prozess-fr.jpg" caption="Fig.: Flux de travail" width="40%" %}
 
 ### Cas d’application
 Deux cas d’application sont décrits pour le protocole d'intervention:

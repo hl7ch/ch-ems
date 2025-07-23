@@ -1,7 +1,7 @@
 ### FHIR document (Bundle)
-This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.
+This exchange format is defined as a [document](https://hl7.org/fhir/R4/documents.html) type that corresponds to a [Bundle](https://hl7.org/fhir/R4/bundle.html) as a FHIR resource. A Bundle contains a list of entries. The first entry is the [Composition](https://hl7.org/fhir/R4/composition.html), in which all contained entries are then referenced.
 
-{% include img.html img="document.png" caption="Emergency Medical Service protocol" width="40%" %}
+{% include img.html img="document.png" caption="Fig.: Schematic document structure for CH EMS" width="37%" %}
 
 ### Document Profile 
 [Emergency Medical Service protocol](StructureDefinition-ch-ems-document.html)

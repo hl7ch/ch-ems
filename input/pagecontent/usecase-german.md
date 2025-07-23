@@ -40,7 +40,7 @@ Bei einem Primäreinsatz ist selbst zu diesem Zeitpunkt noch nicht garantiert, d
 
 Das Team kehrt mit dem Fahrzeug auf die Basis zurück, führt die Retablierung durch und schliesst das Einsatzprotokoll ab. Die Qualitätssicherung und die Verrechnung (an den Patienten oder die Stelle, die den Einsatz bezahlt) sind nun Aufgabe des Backoffice des Rettungsdienstes.
 
-{% include img.html img="Prozess.jpg" caption="Prozess Rettungsdienst" width="40%" %}
+{% include img.html img="prozess-de.jpg" caption="Abb.: Prozess Rettungsdienst" width="40%" %}
 
 ### Use cases
 Für das Einsatzprotokoll für Rettungsdienste werden 2 Use cases beschrieben:
