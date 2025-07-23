@@ -24,7 +24,7 @@ Description: "This profile constrains the Observation resource for representing 
 * component[motor].value[x] MS
 * component[motor].value[x] only CHEmsCodeableConcept
 * component[motor].value[x] from $IVR-VS-gcsMotoric (extensible)
-* component[motor].value[x].coding.extension contains $ordinalValue named ordinalValue 0..1 MS
+* component[motor].value[x].coding.extension contains $itemWeight named itemWeight 0..1 MS
 
 * component[verbal] ^short = "Glasgow coma score verbal"
 * component[verbal].code = $loinc#9270-0 // "Glasgow coma score verbal"
@@ -32,7 +32,7 @@ Description: "This profile constrains the Observation resource for representing 
 * component[verbal].value[x] MS
 * component[verbal].value[x] only CHEmsCodeableConcept
 * component[verbal].value[x] from $IVR-VS-gcsVerbal (extensible)
-* component[verbal].value[x].coding.extension contains $ordinalValue named ordinalValue 0..1 MS
+* component[verbal].value[x].coding.extension contains $itemWeight named itemWeight 0..1 MS
 
 * component[eyeOpening] ^short = "Glasgow coma score eye opening"
 * component[eyeOpening].code = $loinc#9267-6 // "Glasgow coma score eye opening"
@@ -40,4 +40,4 @@ Description: "This profile constrains the Observation resource for representing 
 * component[eyeOpening].value[x] MS
 * component[eyeOpening].value[x] only CHEmsCodeableConcept
 * component[eyeOpening].value[x] from $IVR-VS-gcs-augenoeffnung (extensible)
-* component[eyeOpening].value[x].coding.extension contains $ordinalValue named ordinalValue 0..1 MS
+* component[eyeOpening].value[x].coding.extension contains $itemWeight named itemWeight 0..1 MS

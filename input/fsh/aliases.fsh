@@ -18,7 +18,7 @@ Alias: $shareablevalueset =                 http://hl7.org/fhir/StructureDefinit
 Alias: $iso21090-ADXP-houseNumber =         http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber
 Alias: $ch-ext-ech-10-linetype =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-ech-10-linetype
 Alias: $ch-core-gln-identifier =            http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-gln-identifier
-Alias: $ordinalValue =                      http://hl7.org/fhir/StructureDefinition/ordinalValue
+Alias: $itemWeight =                        http://hl7.org/fhir/StructureDefinition/itemWeight
 Alias: $imposeProfile =                     http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile
 
 // CH EMS terminology
