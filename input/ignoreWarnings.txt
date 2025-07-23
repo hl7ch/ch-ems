@@ -43,6 +43,9 @@ WARNING: Practitioner/SaniInAusbildung: Practitioner: Constraint failed: ch-ems-
 The Implementation Guide contains no explicitly linked examples for this profile
 The Implementation Guide contains no examples for this profile
 
+# Information about pinned versions 
+Pinned the version%
+
 # VS content is work in progress
 The code provided (http://fhir.de/CodeSystem/dimdi/icd-10-gm#%
 

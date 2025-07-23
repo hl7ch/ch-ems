@@ -63,6 +63,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 #### Fixed
 * Replace ci-build links with links to stable version
 * [#27](https://github.com/hl7ch/ch-ems/issues/27): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension
+* [#39](https://github.com/hl7ch/ch-ems/issues/39): Add [pin-canonicals](http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html#:~:text=for%20further%20information-,pin%2Dcanonicals,-Pin%20Canonical%20Versions) parameter to define the handling of unversioned canonical references
 * [#38](https://github.com/hl7ch/ch-ems/issues/38): Replace deprecated extension ordinalValue
 
 ### v1.9.0 (2020-08-25)
