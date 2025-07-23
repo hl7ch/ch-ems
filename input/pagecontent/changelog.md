@@ -47,15 +47,15 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Add a CH EMS Procedure base profile with all common procedure requirements defined (rename former CH EMS Procedure to CH EMS Procedure: Pretreatment)
 * [#18](https://github.com/hl7ch/ch-ems/issues/18): Add value set binding to profiles/elements 
    * Add CH EMS Observation: Death Manner
-   * Add CH EMS Procedures: Precautions Infection | Transportation | Wound Treatment
+   * Add CH EMS Procedures: Precautions Infection, Transportation, Wound Treatment
    * Add CH EMS Location: Ambulance (rename former CH EMS Location to CH EMS Location: Location and Destination)
    * Add CH EMS Device
-   * Add CH EMS Extensions: Urgency Adequate | Emergency Doctor System | Valuables Patient | Identification | Disinfection | Violence | Owner
+   * Add CH EMS Extensions: Urgency Adequate, Emergency Doctor System, Valuables Patient, Identification, Disinfection, Violence, Owner
 * [#19](https://github.com/hl7ch/ch-ems/issues/19): Include all ABCDE sections in section findings and procedures
-   * Add CH EMS Observations: Breathing | Heat Exposure | Cold Exposure | Heart Rate | Blood Pressure | Pupil Shape | Pupil Size
+   * Add CH EMS Observations: Breathing, Heat Exposure, Cold Exposure, Heart Rate, Blood Pressure, Pupil Shape, Pupil Size
    * Add a CH EMS Procedure base profile with all common procedure requirements defined
    * Rename CH EMS Procedure to CH EMS Procedure: Pretreatment
-   * Add CH EMS Procedures: Airways | Breathing
+   * Add CH EMS Procedures: Airways, Breathing
 * [#15](https://github.com/hl7ch/ch-ems/issues/15): Include the new elements in the illustration of the FHIR document
 * [#17](https://github.com/hl7ch/ch-ems/issues/17): Update metadata of value sets, incl. changes in titles and descriptions
 * [#21](https://github.com/hl7ch/ch-ems/issues/21): Value set content update

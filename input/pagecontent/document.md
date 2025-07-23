@@ -7,9 +7,9 @@ This exchange format is defined as a [document](https://hl7.org/fhir/R4/document
 [Emergency Medical Service protocol](StructureDefinition-ch-ems-document.html)
 
 ### Document Examples
-* Use Case 1: Primary mission with identifiable patient (EPR conform)
+* Use Case 1: _Primary mission_ with identifiable patient; EPR conform (mostly structured data)
    * Emergency Medical Service protocol 1 (upon handover of the patient): [JSON](Bundle-1-Einsatzprotokoll.json.html), [XML](Bundle-1-Einsatzprotokoll.xml.html)    
    * Emergency Medical Service protocol 1b (completion of mission, including all administrative and billing-related data): [JSON](Bundle-1b-Einsatzprotokoll.json.html), [XML](Bundle-1b-Einsatzprotokoll.xml.html)
-* Use Case 2: Primary mission with unknown patient (NOT EPR conform)
+* Use Case 2: _Primary mission_ with unknown patient; NOT EPR conform (combination of structured data and free text)
    * Emergency Medical Service protocol 2 (upon handover of the patient): [JSON](Bundle-2-Einsatzprotokoll.json.html), [XML](Bundle-2-Einsatzprotokoll.xml.html)
    * Emergency Medical Service protocol 2b (completion of mission, including all administrative and billing-related data): [JSON](Bundle-2b-Einsatzprotokoll.json.html), [XML](Bundle-2b-Einsatzprotokoll.xml.html) 
