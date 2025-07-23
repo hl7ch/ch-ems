@@ -6,7 +6,7 @@ Usage: #example
 // cdachems-dataelement-55 Einsatznummer (OID vom SNZ)
 * identifier[missionNumber].type = $IVR-CS#MN "Mission number"
 * identifier[missionNumber].type.text = "Einsatznummer"
-* identifier[missionNumber].system = "urn:oid:2.16.756.5.30.1.9999999999.1"
+* identifier[missionNumber].system = "http://example.com"
 * identifier[missionNumber].value = "S12345678"
 
 * status = #finished
