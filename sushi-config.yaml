@@ -23,6 +23,7 @@ contact:
 
 dependencies:
   ch.fhir.ig.ch-core: 5.0.0
+  ch.fhir.ig.ch-term: 3.2.x
 
 pages:
   index.md:
