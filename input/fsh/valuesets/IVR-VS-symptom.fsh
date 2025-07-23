@@ -135,8 +135,8 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Céphalée"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Cefalea"
-* compose.include[=].concept[+].code = #16001004
-* compose.include[=].concept[=].display = "Otalgia"
+* compose.include[=].concept[+].code = #301354004 
+* compose.include[=].concept[=].display = "Pain of ear"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Ohrenschmerzen"
 * compose.include[=].concept[=].designation[+].language = #fr-CH

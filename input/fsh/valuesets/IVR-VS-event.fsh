@@ -79,8 +79,8 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Accident domestique"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Infortunio domestico"
-* compose.include[=].concept[+].code = #242089005
-* compose.include[=].concept[=].display = "Traffic accident"
+* compose.include[=].concept[+].code = #418161006 
+* compose.include[=].concept[=].display = "Vehicle accident"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Verkehrsunfall"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
