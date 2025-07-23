@@ -56,6 +56,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Add a CH EMS Procedure base profile with all common procedure requirements defined
    * Rename CH EMS Procedure to CH EMS Procedure: Pretreatment
    * Add CH EMS Procedures: Airways | Breathing
+* [#15](https://github.com/hl7ch/ch-ems/issues/15): Include the new elements in the illustration of the FHIR document
 * [#17](https://github.com/hl7ch/ch-ems/issues/17): Update metadata of value sets, incl. changes in titles and descriptions
 * [#21](https://github.com/hl7ch/ch-ems/issues/21): Value set content update
    * [#22](https://github.com/hl7ch/ch-ems/issues/22): Add new codes (arrival time emergency doctor, pick-up time emergency doctor) in [IVR valueset role mission time](ValueSet-IVR-VS-missionTimeRole.html) (and IVR Code System)
