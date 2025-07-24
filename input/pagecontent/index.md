@@ -15,7 +15,7 @@ This information workflow is established as standard at the association eCH unde
 
 
 ### Swiss specific context
-The CH EMS implementation guide describes the FHIR representation of the defined [**Emergency Medical Service protocol**](document.html). This implementation guide is dependent on [CH Core](http://fhir.ch/ig/ch-core/index.html) and [CH Term](http://fhir.ch/ig/ch-term/index.html), which describe the Swiss specific context, especially related to the Swiss electronic patient record (EPR).
+The CH EMS implementation guide describes the [FHIR representation](document.html) of the defined [**Emergency Medical Service protocol**](logicalmodel.html). This implementation guide is dependent on [CH Core](http://fhir.ch/ig/ch-core/index.html) and [CH Term](http://fhir.ch/ig/ch-term/index.html), which describe the Swiss specific context, especially related to the Swiss electronic patient record (EPR).
 
 #### Swiss context
 The [CH EMS profiles](profiles.html) are based on the CH Core basic profiles. Thus, the [examples of the EMS protocols](document.html#document-examples) are valid in the Swiss context. In order to verify the correctness, the documents can be validated against the [CH EMS Document Profile](StructureDefinition-ch-ems-document.html). (The requirements of the [CH Core Document Profile](http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-document.html) are thus also fulfilled and checked).

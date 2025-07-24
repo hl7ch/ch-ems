@@ -39,8 +39,10 @@ pages:
     title: Anwendungsfälle
   usecase-french.md:
     title: Cas d’application  
+  logicalmodel.md:
+    title: Logical Model
   document.md:
-    title: Emergency Medical Service protocol 
+    title: FHIR Document (Bundle)
   profiles.md:
     title: Profiles
   extensions.md:
@@ -58,7 +60,11 @@ menu:
   Use Case:
     German: usecase-german.html
     French: usecase-french.html
-  Document: document.html
+  EMS Protocol:
+    Logical Model: logicalmodel.html
+    FHIR Document: document.html
+  Implementation:
+    Model Map: ConceptMap-EmsProtocol2Fhir.html
   Profiles: profiles.html
   Extensions: extensions.html
   Terminology: terminology.html
