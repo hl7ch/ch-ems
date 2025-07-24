@@ -15,88 +15,42 @@ Usage: #definition
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol" // ?codesystem
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition" // ?codesystem
-
 * group[=].element[0].code = #EMSProtocol.mission
 * group[=].element[=].target.code = #Composition.section:mission
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.freeText
-* group[=].element[=].target.code = #Composition.section:mission.text
-* group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.patient
 * group[=].element[=].target.code = #Composition.subject
 * group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.administrative
 * group[=].element[=].target.code = #Composition.section:administrative
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.administrative.freeText
-* group[=].element[=].target.code = #Composition.section:administrative.text
-* group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.pretreatment
 * group[=].element[=].target.code = #Composition.section:pretreatment
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.pretreatment.freeText
-* group[=].element[=].target.code = #Composition.section:pretreatment.text
-* group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.anamnesis
 * group[=].element[=].target.code = #Composition.section:anamnesis
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.anamnesis.freeText
-* group[=].element[=].target.code = #Composition.section:anamnesis.text
-* group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.findings
 * group[=].element[=].target.code = #Composition.section:findings
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.findings.freeText
-* group[=].element[=].target.code = #Composition.section:findings.text
-* group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.diagnosis
 * group[=].element[=].target.code = #Composition.section:diagnosis
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.diagnosis.freeText
-* group[=].element[=].target.code = #Composition.section:diagnosis.text
-* group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.procedures
 * group[=].element[=].target.code = #Composition.section:procedures
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.procedures.freeText
-* group[=].element[=].target.code = #Composition.section:procedures.text
-* group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.eventOfDeath
 * group[=].element[=].target.code = #Composition.section:eventOfDeath
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.eventOfDeath.freeText
-* group[=].element[=].target.code = #Composition.section:eventOfDeath.text
-* group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.transport
-* group[=].element[=].target.code = #Composition.section:transport
-* group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.transport.freeText
 * group[=].element[=].target.code = #Composition.section:transport.text
 * group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.handover
 * group[=].element[=].target.code = #Composition.section:handover
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.handover.freeText
-* group[=].element[=].target.code = #Composition.section:handover.text
-* group[=].element[=].target.equivalence = #equivalent
-
 * group[=].element[+].code = #EMSProtocol.annotation
-* group[=].element[=].target.code = #Composition.section:annotation
-* group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.annotation.freeText
 * group[=].element[=].target.code = #Composition.section:annotation.text
 * group[=].element[=].target.equivalence = #equivalent
-
 
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
@@ -155,4 +109,18 @@ Usage: #definition
 * group[=].element[+].code = #EMSProtocol.patient.address.city
 * group[=].element[=].target.code = #Patient.address.city
 * group[=].element[=].target.equivalence = #equivalent
-// TODO Patient.contact:involvedParticipant
+* group[=].element[+].code = #EMSProtocol.administrative.involvedParticipant
+* group[=].element[=].target.code = #Patient.contact:involvedParticipant
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.administrative.involvedParticipant.role
+* group[=].element[=].target.code = #Patient.contact:involvedParticipant.extension:personRole
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.administrative.involvedParticipant.name
+* group[=].element[=].target.code = #Patient.contact:involvedParticipant.name
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.administrative.involvedParticipant.name.firstName
+* group[=].element[=].target.code = #Patient.contact:involvedParticipant.name.given
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.administrative.involvedParticipant.name.lastName
+* group[=].element[=].target.code = #Patient.contact:involvedParticipant.name.family
+* group[=].element[=].target.equivalence = #equivalent

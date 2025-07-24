@@ -18,7 +18,7 @@ Description: "This profile constrains the Patient resource for representing pati
 * contact contains
     involvedParticipant 0..*
 * contact[involvedParticipant] MS    
-* contact[involvedParticipant] ^short = "Involved Participant (Person / Organization)"
+* contact[involvedParticipant] ^short = "Involved Participant"
 * contact[involvedParticipant].relationship MS
 * contact[involvedParticipant].relationship = $v3-RoleCode#thirdParty
 * contact[involvedParticipant].extension contains CHEmsExtPersonRole named personRole 0..* MS

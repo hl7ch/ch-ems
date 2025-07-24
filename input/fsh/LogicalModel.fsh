@@ -12,7 +12,6 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * . ^short = "Einsatzprotokoll für Rettungsdienste"
 
 * mission 1..1 BackboneElement "Einsatz"
-* mission.freeText 1..1 string "Abschnittszusammenfassung"
 // * mission.date 1..1 date "Einsatzdatum"
 // * mission.incidentNumber 1..1 string "Einsatznummer SNZ"
 // * mission.requestingOrganization 1..1 decimal "aufbietende Organisation"
@@ -71,31 +70,26 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * patient.address.zipCode 0..1 string "PLZ"
 * patient.address.city 0..1 string "Ort"
 
-
-
-
 * administrative 0..1 BackboneElement "Administrativ"
-* administrative.freeText 1..1 string "Abschnittszusammenfassung"
-// * administrative.personOrOrganization 0..* BackboneElement "Person / Organisation"
-// * administrative.personOrOrganization.role 0..1 code "Rolle"
-// * administrative.personOrOrganization.name 0..1 BackboneElement "Namen"
-// * administrative.personOrOrganization.name.given 1..1 string "Vorname"
-// * administrative.personOrOrganization.name.family 1..1 string "Name"
+* administrative.involvedParticipant 0..* BackboneElement "Beteiligte Person"
+* administrative.involvedParticipant.role 0..* CodeableConcept "Rolle"
+* administrative.involvedParticipant.role from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-personRole (extensible)
+* administrative.involvedParticipant.role ^binding.description = "IVR VS (SCT & IVR) (3. prio)"
+* administrative.involvedParticipant.name 0..1 HumanName "Name"
+* administrative.involvedParticipant.name.firstName 0..1 string "Vorname"
+* administrative.involvedParticipant.name.lastName 0..1 string "Nachname"
 
 * pretreatment 0..1 BackboneElement "Vorbehandlung"
-* pretreatment.freeText 1..1 string "Abschnittszusammenfassung"
 // * pretreatment.type 0..1 code "Art der Vorbehandlung"
 // * pretreatment.provider 0..1 code "Vorbehandelnder"
 
 * anamnesis 0..1 BackboneElement "Anamnese"
-* anamnesis.freeText 1..1 string "Abschnittszusammenfassung"
 // * anamnesis.freeText 0..1 string "Geschehen frei"
 // * anamnesis.sampler 0..1 BackboneElement "SAMPLER"
 // * anamnesis.sampler.symptoms 0..1 BackboneElement "Symptome (OPQRST)"
 // * anamnesis.sampler.symptoms.freeTextSymptom 0..1 string "Symptom, frei"
 
 * findings 0..1 BackboneElement "Befund"
-* findings.freeText 1..1 string "Abschnittszusammenfassung"
 // * findings.time 0..1 dateTime "Zeitpunkt Befund"
 // * findings.airway 0..1 code "Airway"
 // * findings.circulation 0..1 BackboneElement "Circulation"
@@ -110,22 +104,17 @@ Description: "The logical model represents the Emergency Medical Service protoco
 // * findings.disability.stroke 0..1 code "Stroke / FAST"
 
 * diagnosis 0..* BackboneElement "Diagnosen"
-* diagnosis.freeText 1..1 string "Abschnittszusammenfassung"
 // * diagnosis.type 0..1 code "Diagnose-Art"
 // * diagnosis.author 0..1 code "Ersteller Diagnose"
 // * diagnosis.icd10 0..1 code "Diagnose (ICD-10)"
 
 * procedures 0..1 BackboneElement "Massnahmen"
-* procedures.freeText 1..1 string "Abschnittszusammenfassung"
 
 * eventOfDeath 0..1 BackboneElement "Todesfall"
-* eventOfDeath.freeText 1..1 string "Abschnittszusammenfassung"
 
-* transport 0..1 BackboneElement "Transport"
-* transport.freeText 1..1 string "Abschnittszusammenfassung"
+* transport 0..1 string "Transport"
 
 * handover 0..1 BackboneElement "Übergabe"
-* handover.freeText 1..1 string "Abschnittszusammenfassung"
 // * handover.priority 0..1 code "Priorität"
 // * handover.statusAtEnd 0..1 code "Zustand bei Einsatzende"
 // * handover.naca 0..1 code "NACA"
@@ -136,5 +125,4 @@ Description: "The logical model represents the Emergency Medical Service protoco
 // * handover.gcs.motorResponse 0..1 code "motorische Reaktion"
 // * handover.recipient 0..1 string "Übergabe an"
 
-* annotation 0..1 BackboneElement "Bemerkungen"
-* annotation.freeText 1..1 string "Abschnittszusammenfassung"
+* annotation 0..1 string "Bemerkungen"
