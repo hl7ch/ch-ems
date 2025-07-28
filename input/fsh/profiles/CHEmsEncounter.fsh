@@ -21,7 +21,7 @@ Description: "This profile constrains the Encounter resource for representing th
 * subject.reference 1..
 * basedOn 1..1 MS
 * basedOn only Reference(CHEmsServiceRequest)
-* basedOn ^short = "Informant organisation (intermediate care (IMC))"
+* basedOn ^short = "Requesting organisation (intermediate care (IMC))"
 * basedOn.reference 1..
 * participant ^short = "Team"
 * participant.extension contains CHEmsExtTeamRole named teamRole 1..1 MS

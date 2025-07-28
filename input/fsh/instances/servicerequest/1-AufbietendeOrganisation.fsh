@@ -3,16 +3,16 @@ InstanceOf: CHEmsServiceRequest
 Title: "1 Aufbietende Organisation"
 Description: "Example for CH EMS ServiceRequest - SNZ as requesting organization (as contained organization resource)"
 Usage: #example
-* contained = 1-informant
+* contained = 1-requesting
 * status = #completed
 * intent = #order
 * subject.reference = "Patient/1-ThomasMueller"
 * encounter.reference = "Encounter/1-Einsatz"
-* requester.reference = "#1-informant"
+* requester.reference = "#1-requesting"
 * insurance.reference = "Coverage/1-CoverageThomasMueller"
 
 
-Instance: 1-informant
+Instance: 1-requesting
 InstanceOf: CHEmsOrganization
 Usage: #inline
 // cdachems-dataelement-60 aufbietende Organisation
