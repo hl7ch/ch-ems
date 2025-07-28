@@ -13,7 +13,7 @@ Description: "This profile constrains the ServiceRequest resource for representi
 * encounter.reference 1..
 * requester 1..
 * requester only Reference(CHEmsOrganization)
-* requester ^short = "Informant organisation (IMC)"
+* requester ^short = "Informant organisation (intermedicat care (IMC))"
 * requester MS
 * requester ^type.aggregation = #contained
 * requester.reference 1..

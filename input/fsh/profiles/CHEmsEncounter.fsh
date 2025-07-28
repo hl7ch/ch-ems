@@ -13,15 +13,15 @@ Description: "This profile constrains the Encounter resource for representing th
 * identifier[missionNumber] ^short = "Mission number (Einsatznummer)"
 * identifier[missionNumber] ^patternIdentifier.type = $IVR-CS#MN
 * identifier[missionNumber].system 1..
-* identifier[missionNumber].system ^short = "OID of organization (IMC)"
+* identifier[missionNumber].system ^short = "OID of organization (intermediate care (IMC))"
 * identifier[missionNumber].value 1..
-* identifier[missionNumber].value ^short = "Mission number IMC"
+* identifier[missionNumber].value ^short = "Mission number intermediate care (IMC)"
 * subject only Reference(CHEmsPatient)
 * subject MS
 * subject.reference 1..
 * basedOn 1..1 MS
 * basedOn only Reference(CHEmsServiceRequest)
-* basedOn ^short = "Informant organisation (IMC)"
+* basedOn ^short = "Informant organisation (intermediate care (IMC))"
 * basedOn.reference 1..
 * participant ^short = "Team"
 * participant.extension contains CHEmsExtTeamRole named teamRole 1..1 MS
