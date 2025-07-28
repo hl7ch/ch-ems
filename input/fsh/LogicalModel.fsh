@@ -12,14 +12,29 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * . ^short = "Einsatzprotokoll für Rettungsdienste"
 
 * mission 1..1 BackboneElement "Einsatz"
-// * mission.date 1..1 date "Einsatzdatum"
-// * mission.incidentNumber 1..1 string "Einsatznummer SNZ"
-// * mission.requestingOrganization 1..1 decimal "aufbietende Organisation"
-// * mission.recipientOrganization 1..1 string "Auftragsempfänger"
-// * mission.recipientOrganization.calledOrganization 1..1 decimal "aufgebotene Organisation"
-// * mission.team 0..* BackboneElement "Team"
-// * mission.team.memberGLN 1..1 decimal "GLN Teammitglied"
-// * mission.team.memberRole 1..1 code "Rolle Teammitglied"
+* mission.date 1..1 date "Einsatzdatum"
+* mission.number 1..1 Identifier "Einsatznummer SNZ (Sanitätsnotrufzentrale)"
+* mission.requestingOrganisation 1..1 BackboneElement "Aufbietende Organisation"
+* mission.requestingOrganisation.name 1..1 string "Name"
+* mission.requestingOrganisation.gln 1..1 Identifier "GLN (Global Location Number)"
+* mission.respondingOrganisation 1..1 BackboneElement "Aufgebotene Organisation"
+* mission.respondingOrganisation.name 1..1 string "Name"
+* mission.respondingOrganisation.gln 1..1 Identifier "GLN (Global Location Number)"
+* mission.team 1..1 BackboneElement "Einsatzteam"
+* mission.team.member 0..* BackboneElement "Teammitglied"
+* mission.team.member.role 1..1 CodeableConcept "Rolle"
+* mission.team.member.role from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole (extensible)
+* mission.team.member.role ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* mission.team.member.name 0..1 HumanName "Name"
+* mission.team.member.name.firstName 0..1 string "Vorname"
+* mission.team.member.name.lastName 0..1 string "Nachname"
+* mission.team.member.gln 1..1 Identifier "GLN (Global Location Number)"
+* mission.team.member.gln.organisationWorkingFor 0..1 BackboneElement "Organisation, bei der man mit dieser GLN tätig ist"
+// gln, name, address
+* mission.team.member.formation 0..* CodeableConcept "Ausbildung"
+* mission.team.member.formation from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation (extensible)
+* mission.team.member.formation ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+
 // * mission.locations 0..2 BackboneElement "Orte"
 // * mission.locations.incidentLocation 0..1 BackboneElement "Einsatzort"
 // * mission.locations.incidentLocation.address 0..1 BackboneElement "Postadresse"
@@ -55,8 +70,9 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * patient.gender 0..1 code "Administratives Geschlecht"
 * patient.gender from http://hl7.org/fhir/ValueSet/administrative-gender (required)
 * patient.gender ^binding.description = "HL7 FHIR VS with obligatory values"
-* patient.oasiNumber 0..1 Identifier "AHV-Nummer"
+* patient.insurance 0..1 string "Krankenkasse"
 * patient.insuranceCardNumber 0..1 Identifier "VeKa-Nummer (Versichertenkartennummer)"
+* patient.oasiNumber 0..1 Identifier "AHV-Nummer"
 * patient.plsId 0..1 Identifier "PLS-ID (Patientenleitsystem)"
 * patient.identification 0..1 BackboneElement "Identifikation des Patienten"
 * patient.identification.medium 0..1 CodeableConcept "Identifikationsmedium"
@@ -103,14 +119,22 @@ Description: "The logical model represents the Emergency Medical Service protoco
 // * findings.disability.avpu 0..1 code "AVPU"
 // * findings.disability.stroke 0..1 code "Stroke / FAST"
 
-* diagnosis 0..* BackboneElement "Diagnosen"
-// * diagnosis.type 0..1 code "Diagnose-Art"
-// * diagnosis.author 0..1 code "Ersteller Diagnose"
-// * diagnosis.icd10 0..1 code "Diagnose (ICD-10)"
+* diagnosis 0..* BackboneElement "Diagnose"
+* diagnosis.type 1..1 CodeableConcept "Diagnosetyp"
+* diagnosis.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagType (extensible)
+* diagnosis.type ^binding.description = "IVR VS (SCT) (1. prio (to check))"
+* diagnosis.author 0..1 BackboneElement "Diagnosesteller"
+// TODO: hier fortfahren!
+* diagnosis.icd10 0..1 CodeableConcept "ICD-10-Code"
+* diagnosis.icd10 from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagnosis (extensible)
+* diagnosis.icd10 ^binding.description = "IVR VS (ICD-10-GM) (1. prio (to define))"
 
 * procedures 0..1 BackboneElement "Massnahmen"
 
 * eventOfDeath 0..1 BackboneElement "Todesfall"
+* eventOfDeath.deathManner 0..1 CodeableConcept "Todesart"
+* eventOfDeath.deathManner from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-deathManner (extensible)
+* eventOfDeath.deathManner ^binding.description = "IVR VS (SCT) (3. prio (to check))"
 
 * transport 0..1 string "Transport"
 

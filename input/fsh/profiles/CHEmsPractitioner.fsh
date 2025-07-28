@@ -8,6 +8,7 @@ Description: "This profile constrains the Practitioner resource for representing
 * identifier[GLN] ..1 MS
 * identifier[GLN].assigner only Reference(CHEmsOrganization)
 * identifier[GLN].assigner MS
+* identifier[GLN].assigner ^short = "Organization where the practitioner works under this GLN"
 * identifier[GLN].assigner.reference 1..
 * name MS
 * telecom MS

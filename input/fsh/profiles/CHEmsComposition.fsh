@@ -20,7 +20,7 @@ Description: "This profile constrains the Composition resource for representing 
 * custodian 1.. MS
 * custodian.reference 1..
 * custodian only Reference(CHEmsOrganization)
-* custodian ^short = "Order recipient (called organization)"
+* custodian ^short = "Order recipient (responding organisation)"
 
 * section ^slicing.discriminator.type = #value
 * section ^slicing.discriminator.path = "code"

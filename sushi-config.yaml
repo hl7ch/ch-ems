@@ -63,8 +63,19 @@ menu:
   EMS Protocol:
     Logical Model: logicalmodel.html
     FHIR Document: document.html
-  Implementation:
-    Model Map: ConceptMap-EmsProtocol2Fhir.html
+  Model Maps:
+    Mission: ConceptMap-EmsMission2Fhir.html
+    Patient: ConceptMap-EmsPatient2Fhir.html
+    Administrative: ConceptMap-EmsAdministrative2Fhir.html
+    Pretreatment: ConceptMap-EmsPretreatment2Fhir.html
+    Anamnesis: ConceptMap-EmsAnamnesis2Fhir.html
+    Findings: ConceptMap-EmsFindings2Fhir.html
+    Diagnosis: ConceptMap-EmsDiagnosis2Fhir.html
+    Procedures: ConceptMap-EmsProcedures2Fhir.html
+    Event of Death: ConceptMap-EmsEventOfDeath2Fhir.html
+    Transport: ConceptMap-EmsTransport2Fhir.html
+    Handover: ConceptMap-EmsHandover2Fhir.html
+    Annotation: ConceptMap-EmsAnnotation2Fhir.html    
   Profiles: profiles.html
   Extensions: extensions.html
   Terminology: terminology.html
