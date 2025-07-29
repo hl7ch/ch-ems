@@ -21,5 +21,5 @@ Usage: #definition
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-deathmanner"
 * group[=].element[0].code = #EMSProtocol.eventOfDeath.deathManner
-* group[=].element[=].target.code = #Observation.value[x]
+* group[=].element[=].target.code = #Observation.valueCodeableConcept
 * group[=].element[=].target.equivalence = #equivalent

@@ -69,7 +69,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * patient.birthDate 0..1 date "Geburtsdatum"
 * patient.gender 0..1 code "Administratives Geschlecht"
 * patient.gender from http://hl7.org/fhir/ValueSet/administrative-gender (required)
-* patient.gender ^binding.description = "HL7 FHIR VS with obligatory values"
+* patient.gender ^binding.description = "HL7 VS with obligatory values"
 * patient.insurance 0..1 string "Krankenkasse"
 * patient.insuranceCardNumber 0..1 Identifier "VeKa-Nummer (Versichertenkartennummer)"
 * patient.oasiNumber 0..1 Identifier "AHV-Nummer"
@@ -104,10 +104,38 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * pretreatment.performer ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
 
 * anamnesis 0..1 BackboneElement "Anamnese"
-// * anamnesis.freeText 0..1 string "Geschehen frei"
-// * anamnesis.sampler 0..1 BackboneElement "SAMPLER"
-// * anamnesis.sampler.symptoms 0..1 BackboneElement "Symptome (OPQRST)"
-// * anamnesis.sampler.symptoms.freeTextSymptom 0..1 string "Symptom, frei"
+* anamnesis.event 0..1 BackboneElement "Ereignis"
+* anamnesis.event.code 0..1 CodeableConcept "Ereignis codiert"
+* anamnesis.event.code from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-event (extensible)
+* anamnesis.event.code ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* anamnesis.event.freeText 0..1 string "Ereignis Freitext"
+* anamnesis.symptom 0..* BackboneElement "Symptom"
+* anamnesis.symptom.code 0..1 CodeableConcept "Symptom codiert"
+* anamnesis.symptom.code from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-symptom (extensible)
+* anamnesis.symptom.code ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* anamnesis.symptom.freeText 0..1 string "Symptome Freitext"
+* anamnesis.allergyIntolerance 0..* BackboneElement "Allergie / Unverträglichkeit"
+* anamnesis.allergyIntolerance.type 0..1 code "Differenzierung Allergie / Unverträglichkeit (falls bekannt)"
+* anamnesis.allergyIntolerance.type from http://hl7.org/fhir/ValueSet/allergy-intolerance-type (required)
+* anamnesis.allergyIntolerance.type ^binding.description = "HL7 VS with obligatory values"
+* anamnesis.allergyIntolerance.code 0..1 CodeableConcept "Allergy / Unverträglichkeit codiert"
+* anamnesis.allergyIntolerance.code from http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceValueSet (extensible)
+* anamnesis.allergyIntolerance.code ^binding.description = "HL7.ch VS"
+* anamnesis.medicationStatement 0..* BackboneElement "Medikation"
+* anamnesis.medicationStatement.medication 1..1 BackboneElement "Medikament"
+* anamnesis.medicationStatement.medication.product 0..1 CodeableConcept "Präparat"
+* anamnesis.medicationStatement.medication.product.gtin 0..1 Coding "GTIN (Global Trade Item Number (GS1)) für Schweizer Produkte"
+* anamnesis.medicationStatement.medication.product.atc 0..1 Coding "ATC (Anatomical Therapeutic Chemical Classification) für ausländische Produkte"
+* anamnesis.medicationStatement.medication.product.freeText 0..1 string "Präparatenname"
+* anamnesis.medicationStatement.medication.ingredient 0..* CodeableConcept "Wirkstoff"
+* anamnesis.medicationStatement.medication.ingredient from http://fhir.ch/ig/ch-term/ValueSet/ActivePharmaceuticalIngredient (preferred)
+* anamnesis.medicationStatement.medication.ingredient ^binding.description = "HL7.ch VS"
+* anamnesis.medicationStatement.dosePerUnit 0..1 Quantity "Dosis pro Einheit"
+* anamnesis.medicationStatement.dosage 0..1 BackboneElement "Dosierung"
+* anamnesis.medicationStatement.dosage.scheme 0..1 string "1-1-1-1 Schema"
+* anamnesis.medicationStatement.dosage.freeText 0..1 string "Freitext Instruktion"
+* anamnesis.medicationStatement.asNeeded 0..1 boolean "Reservemedikation"
+* anamnesis.medicationStatement.reason 0..1 string "Behandlungsgrund"
 
 * findings 0..1 BackboneElement "Befund"
 // * findings.time 0..1 dateTime "Zeitpunkt Befund"

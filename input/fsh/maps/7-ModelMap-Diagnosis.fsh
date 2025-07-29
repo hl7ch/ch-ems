@@ -26,7 +26,7 @@ Usage: #definition
 * group[=].element[=].target.code = #Observation.performer
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.diagnosis.icd10
-* group[=].element[=].target.code = #Observation.value[x].coding:icd10
+* group[=].element[=].target.code = #Observation.valueCodeableConcept.coding:icd10
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"

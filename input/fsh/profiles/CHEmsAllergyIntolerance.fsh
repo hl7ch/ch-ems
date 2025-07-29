@@ -16,4 +16,3 @@ Description: "This profile constrains the AllergyIntolerance resource for repres
 * code from http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceValueSet (extensible)
 * code only CHEmsCodeableConcept
 * type MS 
-* recordedDate MS 
