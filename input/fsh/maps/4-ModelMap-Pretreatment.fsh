@@ -16,3 +16,12 @@ Usage: #definition
 * group[=].element[0].code = #EMSProtocol.pretreatment
 * group[=].element[=].target.code = #Composition.section:pretreatment
 * group[=].element[=].target.equivalence = #equivalent
+
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol" // ?codesystem
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-procedure-pretreatment" // ?codesystem
+* group[=].element[0].code = #EMSProtocol.pretreatment.type
+* group[=].element[=].target.code = #Procedure.code
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.pretreatment.performer
+* group[=].element[=].target.code = #Procedure.extension:performer
+* group[=].element[=].target.equivalence = #equivalent

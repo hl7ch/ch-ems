@@ -28,3 +28,21 @@ Usage: #definition
 * group[=].element[+].code = #EMSProtocol.diagnosis.icd10
 * group[=].element[=].target.code = #Observation.value[x].coding:icd10
 * group[=].element[=].target.equivalence = #equivalent
+
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"
+* group[=].element[0].code = #EMSProtocol.diagnosis.author.name
+* group[=].element[=].target.code = #Practitioner.name
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.diagnosis.author.name.firstName
+* group[=].element[=].target.code = #Practitioner.name.given
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.diagnosis.author.name.lastName
+* group[=].element[=].target.code = #Practitioner.name.family
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.diagnosis.author.gln
+* group[=].element[=].target.code = #Practitioner.identifier:GLN
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.diagnosis.author.formation
+* group[=].element[=].target.code = #Practitioner.qualification.code
+* group[=].element[=].target.equivalence = #equivalent

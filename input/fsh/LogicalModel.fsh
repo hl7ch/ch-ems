@@ -28,7 +28,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.team.member.name 0..1 HumanName "Name"
 * mission.team.member.name.firstName 0..1 string "Vorname"
 * mission.team.member.name.lastName 0..1 string "Nachname"
-* mission.team.member.gln 1..1 Identifier "GLN (Global Location Number)"
+* mission.team.member.gln 0..1 Identifier "GLN (Global Location Number)"
 * mission.team.member.gln.organisationWorkingFor 0..1 BackboneElement "Organisation, bei der man mit dieser GLN tätig ist"
 // gln, name, address
 * mission.team.member.formation 0..* CodeableConcept "Ausbildung"
@@ -95,9 +95,13 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * administrative.involvedParticipant.name.firstName 0..1 string "Vorname"
 * administrative.involvedParticipant.name.lastName 0..1 string "Nachname"
 
-* pretreatment 0..1 BackboneElement "Vorbehandlung"
-// * pretreatment.type 0..1 code "Art der Vorbehandlung"
-// * pretreatment.provider 0..1 code "Vorbehandelnder"
+* pretreatment 0..* BackboneElement "Vorbehandlung"
+* pretreatment.type 0..1 CodeableConcept "Behandlungart"
+* pretreatment.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatType (extensible)
+* pretreatment.type ^binding.description = "IVR VS (SCT) (1. prio)"
+* pretreatment.performer 0..1 CodeableConcept "Vorbehandelnde Person"
+* pretreatment.performer from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatment (extensible)
+* pretreatment.performer ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
 
 * anamnesis 0..1 BackboneElement "Anamnese"
 // * anamnesis.freeText 0..1 string "Geschehen frei"
@@ -124,7 +128,13 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * diagnosis.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagType (extensible)
 * diagnosis.type ^binding.description = "IVR VS (SCT) (1. prio (to check))"
 * diagnosis.author 0..1 BackboneElement "Diagnosesteller"
-// TODO: hier fortfahren!
+* diagnosis.author.name 0..1 HumanName "Name"
+* diagnosis.author.name.firstName 0..1 string "Vorname"
+* diagnosis.author.name.lastName 0..1 string "Nachname"
+* diagnosis.author.gln 0..1 Identifier "GLN (Global Location Number)" // 0..1 da Verdachtsdiagnose auch von Sani i.A. gestellt werden kann
+* diagnosis.author.formation 0..* CodeableConcept "Ausbildung"
+* diagnosis.author.formation from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation (extensible)
+* diagnosis.author.formation ^binding.description = "see EmsProtocol.mission.team.member.formation"
 * diagnosis.icd10 0..1 CodeableConcept "ICD-10-Code"
 * diagnosis.icd10 from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagnosis (extensible)
 * diagnosis.icd10 ^binding.description = "IVR VS (ICD-10-GM) (1. prio (to define))"
