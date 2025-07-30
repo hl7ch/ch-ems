@@ -14,6 +14,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Composition.section:anamnesis.entry:medicationStatement -> 0..* CH EMS MedicationStatement
    * Composition.section:procedures.entry:medicationAdministration -> 0..* CH EMS MedicationAdministration
 * Introduction of the concept must support (incl. adding the data type profiles for CodeableConcept, Coding and Quantity with MS)   
+* [#37](https://github.com/hl7ch/ch-ems/issues/37): Add logical model and model maps
 
 #### Changed / Updated
 * Updates according the current published version 5.0.0 of CH Core (see also [changelog](https://fhir.ch/ig/ch-core/changelog.html))

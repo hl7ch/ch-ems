@@ -138,17 +138,71 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * anamnesis.medicationStatement.reason 0..1 string "Behandlungsgrund"
 
 * findings 0..1 BackboneElement "Befund"
-// * findings.time 0..1 dateTime "Zeitpunkt Befund"
-// * findings.airway 0..1 code "Airway"
-// * findings.circulation 0..1 BackboneElement "Circulation"
-// * findings.circulation.cardiacArrest 0..1 boolean "Herz-Kreislauf Stillstand"
-// * findings.disability 0..1 BackboneElement "Disability"
-// * findings.disability.gcs 0..1 BackboneElement "GCS"
-// * findings.disability.gcs.total 0..1 decimal "Gesamtscore"
-// * findings.disability.gcs.eyeOpening 0..1 code "Augenöffnung"
-// * findings.disability.gcs.verbalResponse 0..1 code "verbale Kommunikation"
-// * findings.disability.gcs.motorResponse 0..1 code "motorische Reaktion"
-// * findings.disability.avpu 0..1 code "AVPU"
+* findings.time 0..1 dateTime "Zeitpunkt"
+// A
+* findings.airway 0..1 BackboneElement "Atemwege"
+* findings.airway.respiratoryStatus 0..1 CodeableConcept "Zustand der Atemwege"
+* findings.airway.respiratoryStatus from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-findingsAirway (extensible)
+* findings.airway.respiratoryStatus ^binding.description = "IVR VS (SCT) (2. prio)"
+// B
+* findings.breathing 0..1 BackboneElement "Atmung"
+* findings.breathing.respiratoryFunction 0..1 CodeableConcept "Zustand der Atmung"
+* findings.breathing.respiratoryFunction from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-respirationObservation (extensible)
+* findings.breathing.respiratoryFunction ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+// C
+* findings.circulation 0..1 BackboneElement "Kreislauf"
+* findings.circulation.cardiacArrest 0..1 boolean "Herz-Kreislauf Stillstand"
+* findings.circulation.heartRate 0..1 BackboneElement "Herzfrequenz"
+* findings.circulation.heartRate.value 0..1 Quantity "Anzahl Herzschläge pro Minute"
+* findings.circulation.heartRate.arrhythmia 0..1 CodeableConcept "Arrhythmie"
+* findings.circulation.heartRate.arrhythmia from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulesResult (extensible)
+* findings.circulation.heartRate.arrhythmia ^binding.description = "IVR VS (SCT) (2. prio)"
+* findings.circulation.heartRate.intensity 0..1 CodeableConcept "Intensität"
+* findings.circulation.heartRate.intensity from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-intensity (extensible)
+* findings.circulation.heartRate.intensity ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.circulation.heartRate.measurementMethod 0..1 CodeableConcept "Messmethode"
+* findings.circulation.heartRate.measurementMethod from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulseMethod (extensible)
+* findings.circulation.heartRate.measurementMethod ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.circulation.bloodPressure 0..1 BackboneElement "Blutdruck"
+* findings.circulation.bloodPressure.systolic 0..1 Quantity "Systolischer Blutdruck"
+* findings.circulation.bloodPressure.diastolic 0..1 Quantity "Diastolischer Blutdruck"
+* findings.circulation.bloodPressure.measurementMethod 0..1 CodeableConcept "Messmethode"
+* findings.circulation.bloodPressure.measurementMethod from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pressureMethod (extensible)
+* findings.circulation.bloodPressure.measurementMethod ^binding.description = "IVR VS (SCT) (2. prio)"
+
+// D
+* findings.disability 0..1 BackboneElement "Defizit, neurologisches"
+* findings.disability.gcs 0..1 BackboneElement "Glasgow Coma Scale (GCS)"
+* findings.disability.gcs.total 0..1 integer "Gesamtscore"
+* findings.disability.gcs.eyeOpening 0..1 BackboneElement "Augenöffnung"
+* findings.disability.gcs.eyeOpening.score 0..1 integer "Score"
+* findings.disability.gcs.eyeOpening.description 0..1 CodeableConcept "Beschreibung"
+* findings.disability.gcs.eyeOpening.description from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcs-augenoeffnung (extensible)
+* findings.disability.gcs.eyeOpening.description ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.disability.gcs.verbalResponse 0..1 BackboneElement "verbale Kommunikation"
+* findings.disability.gcs.verbalResponse.score 0..1 integer "Score"
+* findings.disability.gcs.verbalResponse.description 0..1 CodeableConcept "Beschreibung"
+* findings.disability.gcs.verbalResponse.description from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsVerbal (extensible)
+* findings.disability.gcs.verbalResponse.description ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.disability.gcs.motorResponse 0..1 BackboneElement "motorische Reaktion"
+* findings.disability.gcs.motorResponse.score 0..1 integer "Score"
+* findings.disability.gcs.motorResponse.description 0..1 CodeableConcept "Beschreibung"
+* findings.disability.gcs.motorResponse.description from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsMotoric (extensible)
+* findings.disability.gcs.motorResponse.description ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.disability.levelOfResponsiveness 0..1 CodeableConcept "Bewusstseinslage nach AVPU-Schema"
+* findings.disability.levelOfResponsiveness from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-vigilanzAvpu (extensible)
+* findings.disability.levelOfResponsiveness ^binding.description = "IVR VS (IVR) (2. prio)"
+* findings.disability.pupilShape 0..1 CodeableConcept "Pupillenform"
+* findings.disability.pupilShape from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-eyeForm (extensible)
+* findings.disability.pupilShape ^binding.description = "IVR VS (SCT) (2. prio)"
+* findings.disability.pupilSize 0..1 CodeableConcept "Pupillenform"
+* findings.disability.pupilSize from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-size (extensible)
+* findings.disability.pupilSize ^binding.description = "IVR VS (SCT) (2. prio)"
+
+// E
+* findings.exposure 0..1 BackboneElement "Exploration"
+
+
 // * findings.disability.stroke 0..1 code "Stroke / FAST"
 
 * diagnosis 0..* BackboneElement "Diagnose"
