@@ -218,8 +218,6 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * diagnosis.author.formation from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation (extensible)
 * diagnosis.author.formation ^binding.description = "see EmsProtocol.mission.team.member.formation"
 * diagnosis.icd10 0..1 CodeableConcept "ICD-10-Code"
-* diagnosis.icd10 from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagnosis (extensible)
-* diagnosis.icd10 ^binding.description = "IVR VS (ICD-10-GM) (1. prio (to define))"
 
 * procedures 0..1 BackboneElement "Massnahmen"
 

@@ -41,7 +41,6 @@ Alias: $IVR-VS-respirationObservation =     http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-gcs-augenoeffnung =          http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcs-augenoeffnung
 Alias: $IVR-VS-gcsMotoric =                 http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsMotoric
 Alias: $IVR-VS-gcsVerbal =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsVerbal
-Alias: $IVR-VS-diagnosis =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagnosis
 Alias: $IVR-VS-coldExposure =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-coldExposure
 Alias: $IVR-VS-heatExposure =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-heatExposure
 Alias: $IVR-VS-pulesResult =                http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulesResult

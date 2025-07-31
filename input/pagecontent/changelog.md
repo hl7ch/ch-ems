@@ -7,7 +7,6 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#21](https://github.com/hl7ch/ch-ems/issues/21): Value set content update is work in progress
 
 #### Added
-* Introduction the [IVR valueset diagnosis](ValueSet-IVR-VS-diagnosis.html)
 * [#2](https://github.com/hl7ch/ch-ems/issues/2): Include 'Propose a change' link in the footer
 * [#20](https://github.com/hl7ch/ch-ems/issues/20): Integration of medical data 
    * Composition.section:anamnesis.entry:allergyIntolerance -> 0..* CH EMS AllergyIntolerance
