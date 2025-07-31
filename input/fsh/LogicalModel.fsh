@@ -24,7 +24,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.team.member 0..* BackboneElement "Teammitglied"
 * mission.team.member.role 1..1 CodeableConcept "Rolle"
 * mission.team.member.role from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole (extensible)
-* mission.team.member.role ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* mission.team.member.role ^binding.description = "IVR VS (SCT & IVR)"
 * mission.team.member.name 0..1 HumanName "Name"
 * mission.team.member.name.firstName 0..1 string "Vorname"
 * mission.team.member.name.lastName 0..1 string "Nachname"
@@ -33,7 +33,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 // gln, name, address
 * mission.team.member.formation 0..* CodeableConcept "Ausbildung"
 * mission.team.member.formation from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation (extensible)
-* mission.team.member.formation ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* mission.team.member.formation ^binding.description = "IVR VS (SCT & IVR)"
 
 // * mission.locations 0..2 BackboneElement "Orte"
 // * mission.locations.incidentLocation 0..1 BackboneElement "Einsatzort"
@@ -77,10 +77,10 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * patient.identification 0..1 BackboneElement "Identifikation des Patienten"
 * patient.identification.medium 0..1 CodeableConcept "Identifikationsmedium"
 * patient.identification.medium from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-idMedium (extensible)
-* patient.identification.medium ^binding.description = "IVR VS (IVR) (3. prio)"
+* patient.identification.medium ^binding.description = "IVR VS (IVR)"
 * patient.identification.source 0..1 CodeableConcept "Identifikationsquelle"
 * patient.identification.source from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-idSource (extensible)
-* patient.identification.source ^binding.description = "IVR VS (SCT & IVR) (3. prio)"
+* patient.identification.source ^binding.description = "IVR VS (SCT & IVR)"
 * patient.address 0..1 Address "Adresse"
 * patient.address.street 0..1 string "Strasse"
 * patient.address.zipCode 0..1 string "PLZ"
@@ -90,7 +90,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * administrative.involvedParticipant 0..* BackboneElement "Beteiligte Person"
 * administrative.involvedParticipant.role 0..* CodeableConcept "Rolle"
 * administrative.involvedParticipant.role from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-personRole (extensible)
-* administrative.involvedParticipant.role ^binding.description = "IVR VS (SCT & IVR) (3. prio)"
+* administrative.involvedParticipant.role ^binding.description = "IVR VS (SCT & IVR)"
 * administrative.involvedParticipant.name 0..1 HumanName "Name"
 * administrative.involvedParticipant.name.firstName 0..1 string "Vorname"
 * administrative.involvedParticipant.name.lastName 0..1 string "Nachname"
@@ -98,21 +98,21 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * pretreatment 0..* BackboneElement "Vorbehandlung"
 * pretreatment.type 0..1 CodeableConcept "Behandlungart"
 * pretreatment.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatType (extensible)
-* pretreatment.type ^binding.description = "IVR VS (SCT) (1. prio)"
+* pretreatment.type ^binding.description = "IVR VS (SCT)"
 * pretreatment.performer 0..1 CodeableConcept "Vorbehandelnde Person"
 * pretreatment.performer from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-preTreatment (extensible)
-* pretreatment.performer ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* pretreatment.performer ^binding.description = "IVR VS (SCT & IVR)"
 
 * anamnesis 0..1 BackboneElement "Anamnese"
 * anamnesis.event 0..1 BackboneElement "Ereignis"
 * anamnesis.event.code 0..1 CodeableConcept "Ereignis codiert"
 * anamnesis.event.code from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-event (extensible)
-* anamnesis.event.code ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* anamnesis.event.code ^binding.description = "IVR VS (SCT & IVR)"
 * anamnesis.event.freeText 0..1 string "Ereignis Freitext"
 * anamnesis.symptom 0..* BackboneElement "Symptom"
 * anamnesis.symptom.code 0..1 CodeableConcept "Symptom codiert"
 * anamnesis.symptom.code from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-symptom (extensible)
-* anamnesis.symptom.code ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* anamnesis.symptom.code ^binding.description = "IVR VS (SCT & IVR)"
 * anamnesis.symptom.freeText 0..1 string "Symptome Freitext"
 * anamnesis.allergyIntolerance 0..* BackboneElement "Allergie / Unverträglichkeit"
 * anamnesis.allergyIntolerance.type 0..1 code "Differenzierung Allergie / Unverträglichkeit (falls bekannt)"
@@ -140,75 +140,95 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * findings 0..1 BackboneElement "Befund"
 * findings.time 0..1 dateTime "Zeitpunkt"
 // A
-* findings.airway 0..1 BackboneElement "Atemwege"
+* findings.airway 0..1 BackboneElement "A: Atemwege"
 * findings.airway.respiratoryStatus 0..1 CodeableConcept "Zustand der Atemwege"
 * findings.airway.respiratoryStatus from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-findingsAirway (extensible)
-* findings.airway.respiratoryStatus ^binding.description = "IVR VS (SCT) (2. prio)"
+* findings.airway.respiratoryStatus ^binding.description = "IVR VS (SCT)"
 // B
-* findings.breathing 0..1 BackboneElement "Atmung"
+* findings.breathing 0..1 BackboneElement "B: Atmung"
 * findings.breathing.respiratoryFunction 0..1 CodeableConcept "Zustand der Atmung"
 * findings.breathing.respiratoryFunction from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-respirationObservation (extensible)
-* findings.breathing.respiratoryFunction ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.breathing.respiratoryFunction ^binding.description = "IVR VS (SCT & IVR)"
 // C
-* findings.circulation 0..1 BackboneElement "Kreislauf"
+* findings.circulation 0..1 BackboneElement "C: Kreislauf"
 * findings.circulation.cardiacArrest 0..1 boolean "Herz-Kreislauf Stillstand"
 * findings.circulation.heartRate 0..1 BackboneElement "Herzfrequenz"
-* findings.circulation.heartRate.value 0..1 Quantity "Anzahl Herzschläge pro Minute"
+* findings.circulation.heartRate.rate 0..1 Quantity "Anzahl Herzschläge pro Minute"
 * findings.circulation.heartRate.arrhythmia 0..1 CodeableConcept "Arrhythmie"
 * findings.circulation.heartRate.arrhythmia from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulesResult (extensible)
-* findings.circulation.heartRate.arrhythmia ^binding.description = "IVR VS (SCT) (2. prio)"
+* findings.circulation.heartRate.arrhythmia ^binding.description = "IVR VS (SCT)"
 * findings.circulation.heartRate.intensity 0..1 CodeableConcept "Intensität"
 * findings.circulation.heartRate.intensity from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-intensity (extensible)
-* findings.circulation.heartRate.intensity ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.circulation.heartRate.intensity ^binding.description = "IVR VS (SCT & IVR)"
 * findings.circulation.heartRate.measurementMethod 0..1 CodeableConcept "Messmethode"
 * findings.circulation.heartRate.measurementMethod from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pulseMethod (extensible)
-* findings.circulation.heartRate.measurementMethod ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.circulation.heartRate.measurementMethod ^binding.description = "IVR VS (SCT & IVR)"
 * findings.circulation.bloodPressure 0..1 BackboneElement "Blutdruck"
 * findings.circulation.bloodPressure.systolic 0..1 Quantity "Systolischer Blutdruck"
 * findings.circulation.bloodPressure.diastolic 0..1 Quantity "Diastolischer Blutdruck"
 * findings.circulation.bloodPressure.measurementMethod 0..1 CodeableConcept "Messmethode"
 * findings.circulation.bloodPressure.measurementMethod from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pressureMethod (extensible)
-* findings.circulation.bloodPressure.measurementMethod ^binding.description = "IVR VS (SCT) (2. prio)"
+* findings.circulation.bloodPressure.measurementMethod ^binding.description = "IVR VS (SCT)"
 
 // D
-* findings.disability 0..1 BackboneElement "Defizit, neurologisches"
+* findings.disability 0..1 BackboneElement "D: Defizit, neurologisches"
 * findings.disability.gcs 0..1 BackboneElement "Glasgow Coma Scale (GCS)"
 * findings.disability.gcs.total 0..1 integer "Gesamtscore"
 * findings.disability.gcs.eyeOpening 0..1 BackboneElement "Augenöffnung"
 * findings.disability.gcs.eyeOpening.score 0..1 integer "Score"
 * findings.disability.gcs.eyeOpening.description 0..1 CodeableConcept "Beschreibung"
 * findings.disability.gcs.eyeOpening.description from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcs-augenoeffnung (extensible)
-* findings.disability.gcs.eyeOpening.description ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.disability.gcs.eyeOpening.description ^binding.description = "IVR VS (SCT & IVR)"
 * findings.disability.gcs.verbalResponse 0..1 BackboneElement "verbale Kommunikation"
 * findings.disability.gcs.verbalResponse.score 0..1 integer "Score"
 * findings.disability.gcs.verbalResponse.description 0..1 CodeableConcept "Beschreibung"
 * findings.disability.gcs.verbalResponse.description from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsVerbal (extensible)
-* findings.disability.gcs.verbalResponse.description ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.disability.gcs.verbalResponse.description ^binding.description = "IVR VS (SCT & IVR)"
 * findings.disability.gcs.motorResponse 0..1 BackboneElement "motorische Reaktion"
 * findings.disability.gcs.motorResponse.score 0..1 integer "Score"
 * findings.disability.gcs.motorResponse.description 0..1 CodeableConcept "Beschreibung"
 * findings.disability.gcs.motorResponse.description from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsMotoric (extensible)
-* findings.disability.gcs.motorResponse.description ^binding.description = "IVR VS (SCT & IVR) (2. prio)"
+* findings.disability.gcs.motorResponse.description ^binding.description = "IVR VS (SCT & IVR)"
 * findings.disability.levelOfResponsiveness 0..1 CodeableConcept "Bewusstseinslage nach AVPU-Schema"
 * findings.disability.levelOfResponsiveness from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-vigilanzAvpu (extensible)
-* findings.disability.levelOfResponsiveness ^binding.description = "IVR VS (IVR) (2. prio)"
+* findings.disability.levelOfResponsiveness ^binding.description = "IVR VS (IVR)"
 * findings.disability.pupilShape 0..1 CodeableConcept "Pupillenform"
 * findings.disability.pupilShape from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-eyeForm (extensible)
-* findings.disability.pupilShape ^binding.description = "IVR VS (SCT) (2. prio)"
+* findings.disability.pupilShape ^binding.description = "IVR VS (SCT)"
 * findings.disability.pupilSize 0..1 CodeableConcept "Pupillenform"
 * findings.disability.pupilSize from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-size (extensible)
-* findings.disability.pupilSize ^binding.description = "IVR VS (SCT) (2. prio)"
+* findings.disability.pupilSize ^binding.description = "IVR VS (SCT)"
+* findings.disability.fast 0..1 CodeableConcept "Verletzungsgrad mittels FAST-Test"
+* findings.disability.fast.face 1..1 CodeableConcept "F: Gesichtslähmung"
+* findings.disability.fast.face from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-yesNoUnknown (extensible)
+* findings.disability.fast.face ^binding.description = "IVR VS (SCT)"
+* findings.disability.fast.face.laterality 0..1 CodeableConcept "Betroffene Seite"
+* findings.disability.fast.face.laterality from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-laterality (extensible)
+* findings.disability.fast.face.laterality ^binding.description = "IVR VS (SCT)"
+* findings.disability.fast.arm 1..1 CodeableConcept "A: Armschwäche"
+* findings.disability.fast.arm from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-yesNoUnknown (extensible)
+* findings.disability.fast.arm ^binding.description = "IVR VS (SCT)"
+* findings.disability.fast.arm.laterality 0..1 CodeableConcept "Betroffene Seite"
+* findings.disability.fast.arm.laterality from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-laterality (extensible)
+* findings.disability.fast.arm.laterality ^binding.description = "IVR VS (SCT)"
+* findings.disability.fast.speech 1..1 CodeableConcept "S: Sprachschwierigkeiten" 
+* findings.disability.fast.speech from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-yesNoUnknown (extensible)
+* findings.disability.fast.speech ^binding.description = "IVR VS (SCT)"
+* findings.disability.fast.time 1..1 dateTime "T: Zeit"
 
 // E
-* findings.exposure 0..1 BackboneElement "Exploration"
-
-
-// * findings.disability.stroke 0..1 code "Stroke / FAST"
+* findings.exposure 0..1 BackboneElement "E: Exposition"
+* findings.exposure.heat 0..1 CodeableConcept "Hitzeexposition"
+* findings.exposure.heat from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-heatExposure (extensible)
+* findings.exposure.heat ^binding.description = "IVR VS (SCT)"
+* findings.exposure.cold 0..1 CodeableConcept "Kälteexposition"
+* findings.exposure.cold from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-coldExposure (extensible)
+* findings.exposure.cold ^binding.description = "IVR VS (SCT)"
 
 * diagnosis 0..* BackboneElement "Diagnose"
 * diagnosis.type 1..1 CodeableConcept "Diagnosetyp"
 * diagnosis.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagType (extensible)
-* diagnosis.type ^binding.description = "IVR VS (SCT) (1. prio (to check))"
+* diagnosis.type ^binding.description = "IVR VS (SCT)"
 * diagnosis.author 0..1 BackboneElement "Diagnosesteller"
 * diagnosis.author.name 0..1 HumanName "Name"
 * diagnosis.author.name.firstName 0..1 string "Vorname"
@@ -224,7 +244,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * eventOfDeath 0..1 BackboneElement "Todesfall"
 * eventOfDeath.deathManner 0..1 CodeableConcept "Todesart"
 * eventOfDeath.deathManner from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-deathManner (extensible)
-* eventOfDeath.deathManner ^binding.description = "IVR VS (SCT) (3. prio (to check))"
+* eventOfDeath.deathManner ^binding.description = "IVR VS (SCT)"
 
 * transport 0..1 string "Transport"
 

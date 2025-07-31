@@ -68,7 +68,7 @@ Usage: #definition
 * group[=].element[0].code = #EMSProtocol.findings.time
 * group[=].element[=].target.code = #Observation.effectiveDateTime
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.findings.circulation.heartRate.value
+* group[=].element[+].code = #EMSProtocol.findings.circulation.heartRate.rate
 * group[=].element[=].target.code = #Observation.valueQuantity
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.findings.circulation.heartRate.arrhythmia
@@ -151,16 +151,42 @@ Usage: #definition
 * group[=].element[=].target.code = #Observation.valueCodeableConcept
 * group[=].element[=].target.equivalence = #equivalent
 
-
-// CH EMS Observation: Stroke/FAST
-
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-stroke-fast" 
+* group[=].element[0].code = #EMSProtocol.findings.disability.fast.face
+* group[=].element[=].target.code = #Observation.component:face.valueCodeableConcept
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.findings.disability.fast.face.laterality
+* group[=].element[=].target.code = #Observation.component:face.extension:laterality
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.findings.disability.fast.arm
+* group[=].element[=].target.code = #Observation.component:arm.valueCodeableConcept
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.findings.disability.fast.arm.laterality
+* group[=].element[=].target.code = #Observation.component:arm.extension:laterality
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.findings.disability.fast.speech
+* group[=].element[=].target.code = #Observation.component:speech.valueCodeableConcept
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.findings.disability.fast.time
+* group[=].element[=].target.code = #Observation.effectiveDateTime
+* group[=].element[=].target.equivalence = #equivalent
 
 // E
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-heatexposure" 
+* group[=].element[0].code = #EMSProtocol.findings.time
+* group[=].element[=].target.code = #Observation.effectiveDateTime
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.findings.exposure.heat
+* group[=].element[=].target.code = #Observation.valueCodeableConcept
+* group[=].element[=].target.equivalence = #equivalent
 
-// CH EMS Observation: Heat Exposure
-
-// CH EMS Observation: Cold Exposure
-
-
-// * findings.time 0..1 dateTime "Zeitpunkt"
-
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-coldexposure" 
+* group[=].element[0].code = #EMSProtocol.findings.time
+* group[=].element[=].target.code = #Observation.effectiveDateTime
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.findings.exposure.cold
+* group[=].element[=].target.code = #Observation.valueCodeableConcept
+* group[=].element[=].target.equivalence = #equivalent
