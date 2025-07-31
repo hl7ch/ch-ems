@@ -120,7 +120,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * anamnesis.allergyIntolerance.type ^binding.description = "HL7 VS with obligatory values"
 * anamnesis.allergyIntolerance.code 0..1 CodeableConcept "Allergy / Unverträglichkeit codiert"
 * anamnesis.allergyIntolerance.code from http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceValueSet (extensible)
-* anamnesis.allergyIntolerance.code ^binding.description = "HL7.ch VS"
+* anamnesis.allergyIntolerance.code ^binding.description = "HL7.ch VS (SCT)"
 * anamnesis.medicationStatement 0..* BackboneElement "Medikation"
 * anamnesis.medicationStatement.medication 1..1 BackboneElement "Medikament"
 * anamnesis.medicationStatement.medication.product 0..1 CodeableConcept "Präparat"
@@ -129,7 +129,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * anamnesis.medicationStatement.medication.product.freeText 0..1 string "Präparatenname"
 * anamnesis.medicationStatement.medication.ingredient 0..* CodeableConcept "Wirkstoff"
 * anamnesis.medicationStatement.medication.ingredient from http://fhir.ch/ig/ch-term/ValueSet/ActivePharmaceuticalIngredient (preferred)
-* anamnesis.medicationStatement.medication.ingredient ^binding.description = "HL7.ch VS"
+* anamnesis.medicationStatement.medication.ingredient ^binding.description = "HL7.ch VS (SCT)"
 * anamnesis.medicationStatement.dosePerUnit 0..1 Quantity "Dosis pro Einheit"
 * anamnesis.medicationStatement.dosage 0..1 BackboneElement "Dosierung"
 * anamnesis.medicationStatement.dosage.scheme 0..1 string "1-1-1-1 Schema"
@@ -240,6 +240,56 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * diagnosis.icd10 0..1 CodeableConcept "ICD-10-Code"
 
 * procedures 0..1 BackboneElement "Massnahmen"
+* procedures.medicationAdministration 0..* BackboneElement "Verabreichung von Medikamenten"
+* procedures.medicationAdministration.medication 1..1 BackboneElement "Medikament"
+* procedures.medicationAdministration.medication.product 0..1 CodeableConcept "Präparat"
+* procedures.medicationAdministration.medication.product.gtin 0..1 Coding "GTIN (Global Trade Item Number (GS1)) für Schweizer Produkte"
+* procedures.medicationAdministration.medication.product.atc 0..1 Coding "ATC (Anatomical Therapeutic Chemical Classification) für ausländische Produkte"
+* procedures.medicationAdministration.medication.product.freeText 0..1 string "Präparatenname"
+* procedures.medicationAdministration.medication.ingredient 0..* CodeableConcept "Wirkstoff"
+* procedures.medicationAdministration.medication.ingredient from http://fhir.ch/ig/ch-term/ValueSet/ActivePharmaceuticalIngredient (preferred)
+* procedures.medicationAdministration.medication.ingredient ^binding.description = "HL7.ch VS (SCT)"
+* procedures.medicationAdministration.dose 0..1 Quantity "Dosis"
+* procedures.medicationAdministration.timing 1..1 BackboneElement "Zeitangabe zur Verabreichung"
+* procedures.medicationAdministration.timing.time 0..1 dateTime "Verabreichungszeitpunkt"
+* procedures.medicationAdministration.timing.period 0..1 Period "Verabreichungszeitraum"
+* procedures.medicationAdministration.routeOfAdministration 0..1 CodeableConcept "Verabreichungsweg"
+* procedures.medicationAdministration.routeOfAdministration from http://fhir.ch/ig/ch-term/ValueSet/edqm-routeofadministration (preferred)
+* procedures.medicationAdministration.routeOfAdministration ^binding.description = "HL7.ch VS (EDQM)"
+* procedures.medicationAdministration.methodOfAdministration 0..1 CodeableConcept "Verabreichungsmethode"
+* procedures.medicationAdministration.methodOfAdministration from http://fhir.ch/ig/ch-term/ValueSet/edqm-administrationmethod (preferred)
+* procedures.medicationAdministration.routeOfAdministration ^binding.description = "HL7.ch VS (EDQM)"
+* procedures.medicationAdministration.medication.galenicForm 0..1 CodeableConcept "Galenische Form"
+* procedures.medicationAdministration.medication.galenicForm from http://fhir.ch/ig/ch-term/ValueSet/edqm-pharmaceuticaldoseform (preferred)
+* procedures.medicationAdministration.medication.galenicForm ^binding.description = "HL7.ch VS (EDQM)"
+* procedures.medicationAdministration.medication.packageSize 0..1 CodeableConcept "Packungsgrösse"
+* procedures.medicationAdministration.medication.packageSize from http://fhir.ch/ig/ch-term/ValueSet/edqm-pharmaceuticaldoseform (preferred)
+* procedures.medicationAdministration.medication.packageSize ^binding.description = "HL7.ch VS (EDQM)"
+* procedures.medicationAdministration.reason 0..1 string "Behandlungsgrund"
+
+* procedures.woundTreatment 0..* CodeableConcept "Wundbehandlung"
+* procedures.woundTreatment from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-woundTreat (extensible)
+* procedures.woundTreatment ^binding.description = "IVR VS (SCT)"
+
+// A
+* procedures.airway 0..1 BackboneElement "A: Atemwege"
+* procedures.airway.intervention 0..* CodeableConcept "Atemwegsintervention"
+* procedures.airway.intervention from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-procAirType (extensible)
+* procedures.airway.intervention ^binding.description = "IVR VS (SCT)"
+// B
+* procedures.breathing 0..1 BackboneElement "B: Atmung"
+* procedures.breathing.intervention 0..* CodeableConcept "Beatmung"
+* procedures.breathing.intervention from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-ventilation (extensible)
+* procedures.breathing.intervention ^binding.description = "IVR VS (SCT & IVR)"
+// C
+* procedures.circulation 0..1 BackboneElement "C: Kreislauf"
+* procedures.circulation.intervention 0..* CodeableConcept "Intervention bei Kreislaufproblematik"
+// D
+* procedures.disability 0..1 BackboneElement "D: Defizit, neurologisches"
+* procedures.disability.intervention. 0..* CodeableConcept "Intervention bei neurologischer Beeinträchtigung"
+// E
+* procedures.exposure 0..1 BackboneElement "E: Exposition"
+* procedures.exposure.intervention 0..* CodeableConcept "Intervention bei Exposition"
 
 * eventOfDeath 0..1 BackboneElement "Todesfall"
 * eventOfDeath.deathManner 0..1 CodeableConcept "Todesart"
