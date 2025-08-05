@@ -43,10 +43,10 @@ Usage: #definition
 * group[=].element[+].code = #EMSProtocol.mission.requestingOrganisation
 * group[=].element[=].target.code = #Encounter.basedOn
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.team.member
+* group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team.member
 * group[=].element[=].target.code = #Encounter.participant.individual
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.team.member.role
+* group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team.member.role
 * group[=].element[=].target.code = #Encounter.participant.extension:teamRole
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.mission.location
@@ -71,16 +71,7 @@ Usage: #definition
 * group[=].element[=].target.code = #Encounter.extension:violence.extension:result
 * group[=].element[=].target.equivalence = #equivalent
 
-* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
-* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"
-* group[=].element[0].code = #EMSProtocol.mission.statusTime.time
-* group[=].element[=].target.code = #Observation.valueDateTime
-* group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.statusTime.meaning
-* group[=].element[=].target.code = #Observation.code
-* group[=].element[=].target.equivalence = #equivalent
-
-// respondingOrganisation
+// requestingOrganisation
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-servicerequest"
 * group[=].element[0].code = #EMSProtocol.mission.requestingOrganisation
@@ -106,32 +97,45 @@ Usage: #definition
 * group[=].element[=].target.code = #Organization.identifier:GLN
 * group[=].element[=].target.equivalence = #equivalent
 
-// team 
+// team
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"
+* group[=].element[0].code = #EMSProtocol.mission.respondingOrganisation.team.name
+* group[=].element[=].target.code = #Organization.name
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team.gln
+* group[=].element[=].target.code = #Organization.identifier:GLN
+* group[=].element[=].target.equivalence = #equivalent
+
+// team member
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner"
-* group[=].element[0].code = #EMSProtocol.mission.team.member.name
+* group[=].element[0].code = #EMSProtocol.mission.respondingOrganisation.team.member.name
 * group[=].element[=].target.code = #Practitioner.name
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.team.member.name.firstName
+* group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team.member.name.firstName
 * group[=].element[=].target.code = #Practitioner.name.given
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.team.member.name.lastName
+* group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team.member.name.lastName
 * group[=].element[=].target.code = #Practitioner.name.family
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.team.member.gln
+* group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team.member.gln
 * group[=].element[=].target.code = #Practitioner.identifier:GLN
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.team.member.gln.organisationWorkingFor // tODO naming (auch im profil)
+* group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team
 * group[=].element[=].target.code = #Practitioner.identifier:GLN.assigner
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.team.member.formation
+* group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team.member.formation
 * group[=].element[=].target.code = #Practitioner.qualification.code
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
-* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization"
-* group[=].element[0].code = #EMSProtocol.mission.team.member.gln.organisationWorkingFor
-* group[=].element[=].target.code = #Organization.name
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"
+* group[=].element[0].code = #EMSProtocol.mission.statusTime.time
+* group[=].element[=].target.code = #Observation.valueDateTime
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.mission.statusTime.meaning
+* group[=].element[=].target.code = #Observation.code
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"

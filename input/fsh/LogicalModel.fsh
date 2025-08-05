@@ -32,20 +32,21 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.respondingOrganisation 1..1 BackboneElement "Aufgebotene Organisation"
 * mission.respondingOrganisation.name 1..1 string "Name"
 * mission.respondingOrganisation.gln 1..1 Identifier "GLN (Global Location Number)"
-* mission.team 1..1 BackboneElement "Einsatzteam"
-* mission.team.member 0..* BackboneElement "Teammitglied"
-* mission.team.member.role 1..1 CodeableConcept "Rolle"
-* mission.team.member.role from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole (extensible)
-* mission.team.member.role ^binding.description = "IVR VS (SCT & IVR)"
-* mission.team.member.name 0..1 HumanName "Name"
-* mission.team.member.name.firstName 0..1 string "Vorname"
-* mission.team.member.name.lastName 0..1 string "Nachname"
-* mission.team.member.gln 0..1 Identifier "GLN (Global Location Number)"
-* mission.team.member.gln.organisationWorkingFor 0..1 BackboneElement "Organisation, bei der man mit dieser GLN tätig ist"
+* mission.respondingOrganisation.team 1..1 BackboneElement "Einsatzteam"
+* mission.respondingOrganisation.team.name 1..1 string "Name"
+* mission.respondingOrganisation.team.gln 1..1 Identifier "GLN (Global Location Number) der aufgebotenen Organisation"
+* mission.respondingOrganisation.team.member 0..* BackboneElement "Teammitglied"
+* mission.respondingOrganisation.team.member.role 1..1 CodeableConcept "Rolle"
+* mission.respondingOrganisation.team.member.role from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole (extensible)
+* mission.respondingOrganisation.team.member.role ^binding.description = "IVR VS (SCT & IVR)"
+* mission.respondingOrganisation.team.member.name 0..1 HumanName "Name"
+* mission.respondingOrganisation.team.member.name.firstName 0..1 string "Vorname"
+* mission.respondingOrganisation.team.member.name.lastName 0..1 string "Nachname"
+* mission.respondingOrganisation.team.member.gln 0..1 Identifier "Persönliche GLN (Global Location Number)"
 // gln, name, address
-* mission.team.member.formation 0..* CodeableConcept "Ausbildung"
-* mission.team.member.formation from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation (extensible)
-* mission.team.member.formation ^binding.description = "IVR VS (SCT & IVR)"
+* mission.respondingOrganisation.team.member.formation 0..* CodeableConcept "Ausbildung"
+* mission.respondingOrganisation.team.member.formation from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation (extensible)
+* mission.respondingOrganisation.team.member.formation ^binding.description = "IVR VS (SCT & IVR)"
 * mission.location 0..1 BackboneElement "Einsatzort"
 * mission.location.address 0..1 Address "Adresse"
 * mission.location.address.street 0..1 string "Strasse"
@@ -269,7 +270,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * diagnosis.author.gln 0..1 Identifier "GLN (Global Location Number)" // 0..1 da Verdachtsdiagnose auch von Sani i.A. gestellt werden kann
 * diagnosis.author.formation 0..* CodeableConcept "Ausbildung"
 * diagnosis.author.formation from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation (extensible)
-* diagnosis.author.formation ^binding.description = "see EmsProtocol.mission.team.member.formation"
+* diagnosis.author.formation ^binding.description = "see EmsProtocol.mission.respondingOrganisation.team.member.formation"
 * diagnosis.icd10 0..1 CodeableConcept "ICD-10-Code"
 
 * procedures 0..1 BackboneElement "Massnahmen"
