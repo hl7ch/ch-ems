@@ -93,6 +93,28 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.violence.result 0..* CodeableConcept "Folgen der Gewalt"
 * mission.violence.result from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-violenceResult (extensible)
 * mission.violence.result ^binding.description = "IVR VS (SCT & IVR)"
+* mission.precautionsInfection 0..* CodeableConcept "Vorsichtsmassnahme für das Personal bei infektiösen Einsätzen/Transporten"
+* mission.precautionsInfection from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-InfectPersPrecaution (extensible)
+* mission.precautionsInfection ^binding.description = "IVR VS (SCT & IVR)"
+* mission.transportation 0..1 BackboneElement "Transport"
+* mission.transportation.bedding 0..1 CodeableConcept "Lagerung"
+* mission.transportation.bedding from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-bedding (extensible)
+* mission.transportation.bedding ^binding.description = "IVR VS (SCT & IVR)"
+* mission.transportation.recoveryAid 0..* CodeableConcept "Bergungshilfsmittel"
+* mission.transportation.recoveryAid from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-actRecovAid (extensible)
+* mission.transportation.recoveryAid ^binding.description = "IVR VS (SCT & IVR)"
+* mission.ambulance 0..* BackboneElement "Ambulanz"
+* mission.ambulance.type 0..1 CodeableConcept "Typ"
+* mission.ambulance.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-ambulanceType (extensible)
+* mission.ambulance.type ^binding.description = "IVR VS (SCT)"
+* mission.ambulance.disinfection 0..1 CodeableConcept "Desinfektion"
+* mission.ambulance.disinfection from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-transDisinfection (extensible)
+* mission.ambulance.disinfection ^binding.description = "IVR VS (SCT & IVR)"
+* mission.device 0..* BackboneElement "Hilfsmittel"
+* mission.device.name 1..1 string "Benennung"
+* mission.device.owner 0..1 CodeableConcept "Eigentümer/Eigentümerin"
+* mission.device.owner from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-actRespiOwner (extensible)
+* mission.device.owner ^binding.description = "IVR VS (SCT & IVR)"
 
 * patient 1..1 BackboneElement "Patient"
 * patient.name 0..1 HumanName "Name"

@@ -130,15 +130,6 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
-* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"
-* group[=].element[0].code = #EMSProtocol.mission.statusTime.time
-* group[=].element[=].target.code = #Observation.valueDateTime
-* group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.statusTime.meaning
-* group[=].element[=].target.code = #Observation.code
-* group[=].element[=].target.equivalence = #equivalent
-
-* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location-locationdestination"
 * group[=].element[0].code = #EMSProtocol.mission.location.address
 * group[=].element[=].target.code = #Location.address
@@ -199,4 +190,46 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.mission.destination.gln
 * group[=].element[=].target.code = #Location.identifier:GLN
+* group[=].element[=].target.equivalence = #equivalent
+
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"
+* group[=].element[0].code = #EMSProtocol.mission.statusTime.time
+* group[=].element[=].target.code = #Observation.valueDateTime
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.mission.statusTime.meaning
+* group[=].element[=].target.code = #Observation.code
+* group[=].element[=].target.equivalence = #equivalent
+
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-procedure-precautionsinfection"
+* group[=].element[0].code = #EMSProtocol.mission.precautionsInfection
+* group[=].element[=].target.code = #Procedure.code
+* group[=].element[=].target.equivalence = #equivalent
+
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-procedure-transportation"
+* group[=].element[0].code = #EMSProtocol.mission.transportation.bedding
+* group[=].element[=].target.code = #Procedure.code
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.mission.transportation.recoveryAid
+* group[=].element[=].target.code = #Procedure.usedCode
+* group[=].element[=].target.equivalence = #equivalent
+
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-location-ambulance"
+* group[=].element[0].code = #EMSProtocol.mission.ambulance.type
+* group[=].element[=].target.code = #Location.physicalType
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.mission.ambulance.disinfection
+* group[=].element[=].target.code = #Location.extension:disinfection
+* group[=].element[=].target.equivalence = #equivalent
+
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-device"
+* group[=].element[0].code = #EMSProtocol.mission.device.name
+* group[=].element[=].target.code = #Device.deviceName.name
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.mission.device.owner
+* group[=].element[=].target.code = #Device.extension:owner
 * group[=].element[=].target.equivalence = #equivalent
