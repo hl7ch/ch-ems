@@ -37,7 +37,7 @@ Usage: #definition
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-gcs" 
-* group[=].element[+].code = #EMSProtocol.handover.gcs.total
+* group[=].element[0].code = #EMSProtocol.handover.gcs.total
 * group[=].element[=].target.code = #Observation.valueQuantity
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.handover.gcs.eyeOpening.score
@@ -61,12 +61,12 @@ Usage: #definition
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-organization" 
-* group[=].element[+].code = #EMSProtocol.handover.recipient.organisation
+* group[=].element[0].code = #EMSProtocol.handover.recipient.organisation
 * group[=].element[=].target.code = #Organization
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitioner" 
-* group[=].element[+].code = #EMSProtocol.handover.recipient.practitioner
+* group[=].element[0].code = #EMSProtocol.handover.recipient.practitioner
 * group[=].element[=].target.code = #Practitioner
 * group[=].element[=].target.equivalence = #equivalent
