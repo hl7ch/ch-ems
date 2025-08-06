@@ -17,7 +17,6 @@ Description: "This profile constrains the MedicationStatement resource for repre
 * medication[x] only Reference(CHEmsMedication)
 * medication[x] ^type.aggregation = #contained
 * medication[x].reference 1..
-* dateAsserted MS 
 * reasonCode.text MS
 * dosage MS 
 * dosage.timing MS 

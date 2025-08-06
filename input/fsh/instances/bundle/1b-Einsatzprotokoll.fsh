@@ -88,3 +88,5 @@ Usage: #example
 * entry[=].resource = 1-Baumpollen
 * entry[+].fullUrl = "http://test.fhir.ch/r4/AllergyIntolerance/1-Medikamente"
 * entry[=].resource = 1-Medikamente
+* entry[+].fullUrl = "http://test.fhir.ch/r4/MedicationStatement/1-AspirinCardio"
+* entry[=].resource = 1-AspirinCardio
