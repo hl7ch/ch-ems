@@ -13,7 +13,7 @@ Description: "This profile constrains the Composition resource for representing 
 * date MS
 * author MS
 * author.reference 1..
-* author only Reference(CHEmsPractitioner or CHEmsPractitionerRole or Device or CHEmsPatient or RelatedPerson or CHEmsOrganization)
+* author only Reference(CHEmsPractitioner or CHEmsPractitionerRole or Device or CHEmsPatient or CHCoreRelatedPerson or CHEmsOrganization)
 * author ^short = "The author/responsible for this document/content (not necessarily who typed it in)"
 * title MS
 * title ^short = "'Einsatzprotokoll Rettungsdienst' or 'Protocole d'intervention des services de sauvetage' or 'Protocollo d'intervento servizi di salvataggio' or 'Emergency Medical Service protocol'"
