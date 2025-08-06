@@ -56,7 +56,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.location.position.longitude 1..1 decimal "Längengrad"
 * mission.location.position.latitude 1..1 decimal "Breitengrad"
 * mission.location.name 0..1 string "Ortsname"
-* mission.location.type 0..1 string "Ortstyp"
+* mission.location.type 0..1 CodeableConcept "Ortstyp"
 * mission.location.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-locationType (extensible)
 * mission.location.type ^binding.description = "IVR VS (SCT & IVR)"
 * mission.destination 0..1 BackboneElement "Zielort"
@@ -68,7 +68,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.destination.position.longitude 1..1 decimal "Längengrad"
 * mission.destination.position.latitude 1..1 decimal "Breitengrad"
 * mission.destination.name 0..1 string "Ortsname"
-* mission.destination.type 0..1 string "Ortstyp"
+* mission.destination.type 0..1 CodeableConcept "Ortstyp"
 * mission.destination.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-locationType (extensible)
 * mission.destination.type ^binding.description = "IVR VS (SCT & IVR)"
 * mission.destination.gln 0..1 Identifier "GLN (Global Location Number)"
@@ -254,7 +254,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * findings.disability.pupilSize 0..1 CodeableConcept "Pupillenform"
 * findings.disability.pupilSize from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-size (extensible)
 * findings.disability.pupilSize ^binding.description = "IVR VS (SCT)"
-* findings.disability.fast 0..1 CodeableConcept "Verletzungsgrad mittels FAST-Test"
+* findings.disability.fast 0..1 BackboneElement "Verletzungsgrad mittels FAST-Test"
 * findings.disability.fast.face 1..1 CodeableConcept "F: Gesichtslähmung"
 * findings.disability.fast.face from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-yesNoUnknown (extensible)
 * findings.disability.fast.face ^binding.description = "IVR VS (SCT)"
