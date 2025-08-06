@@ -1,12 +1,12 @@
 All significant changes to this FHIR implementation guide will be documented on this page.  
 
-_This exchange format is established as a standard by the association eCH under the number [eCH-0207](https://www.ech.ch/de/ech/ech-0207/), and by eHealth Suisse under the name [CH EMS](https://fhir.ch/)._
+_This exchange format is established as a standard by the association eCH under the number [eCH-0207](https://www.ech.ch/de/ech/ech-0207/), and by the HL7 User Group Switzerland under the name [CH EMS](https://fhir.ch/)._
 
 ### v2.1.0 (ballot publication planned for 2026)
 
 #### Open Issues 
 
-* [#21](https://github.com/hl7ch/ch-ems/issues/21): Value set content update is work in progress
+See also open issues on [GitHub](https://github.com/hl7ch/ch-ems/issues).
 
 #### Added
 * [#2](https://github.com/hl7ch/ch-ems/issues/2): Include 'Propose a change' link in the footer
@@ -40,10 +40,6 @@ _This exchange format is established as a standard by the association eCH under 
    * Consequent use of the terms primary ans secondary mission
    * Some clarifications in the story board
    * Update of the process images
-* [#8](https://github.com/hl7ch/ch-ems/issues/8): Change inactive codes for 'left' and 'right', add VS Laterality   
-* [#7](https://github.com/hl7ch/ch-ems/issues/7): Change inactive code for 'yellow'
-* [#28](https://github.com/hl7ch/ch-ems/issues/28): Change inactive codes for 'Traffic accident' and 'Otalgia'
-* [#12](https://github.com/hl7ch/ch-ems/issues/12): Add ICD-10 slice with fixed system instead of value set with different code system
 * [#11](https://github.com/hl7ch/ch-ems/issues/11): Add involved participant slice with relationship code 'thirdParty'
 * [#24](https://github.com/hl7ch/ch-ems/issues/24): Add slices for all Bundle.entry
    * Add a CH EMS Observation base profile with all common observation requirements defined
@@ -59,11 +55,16 @@ _This exchange format is established as a standard by the association eCH under 
    * Add a CH EMS Procedure base profile with all common procedure requirements defined
    * Rename CH EMS Procedure to CH EMS Procedure: Pretreatment
    * Add CH EMS Procedures: Airways, Breathing
+* [#33](https://github.com/hl7ch/ch-ems/issues/33): Add structured data to the use case 1 example
 * [#15](https://github.com/hl7ch/ch-ems/issues/15): Include the new elements in the illustration of the FHIR document
 * [#17](https://github.com/hl7ch/ch-ems/issues/17): Update metadata of value sets, incl. changes in titles and descriptions
 * [#21](https://github.com/hl7ch/ch-ems/issues/21): Value set content update
    * [#22](https://github.com/hl7ch/ch-ems/issues/22): Add new codes (arrival time emergency doctor, pick-up time emergency doctor) in [IVR valueset role mission time](ValueSet-IVR-VS-missionTimeRole.html) (and IVR Code System)
    * [#36](https://github.com/hl7ch/ch-ems/issues/36): Use Swiss VS for Allergies (remove VS IVR Allergy)
+   * [#8](https://github.com/hl7ch/ch-ems/issues/8): Change inactive codes for 'left' and 'right', add VS Laterality   
+   * [#7](https://github.com/hl7ch/ch-ems/issues/7): Change inactive code for 'yellow'
+   * [#28](https://github.com/hl7ch/ch-ems/issues/28): Change inactive codes for 'Traffic accident' and 'Otalgia'
+   * [#12](https://github.com/hl7ch/ch-ems/issues/12): Add ICD-10 slice with fixed code system value
 
 #### Fixed
 * Replace ci-build links with links to stable version
