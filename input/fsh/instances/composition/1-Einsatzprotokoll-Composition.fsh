@@ -108,6 +108,7 @@ Usage: #example
 * section[mission].entry[missionTimeStatus][+] = Reference(1-ArrivalPatient)
 * section[mission].entry[missionTimeStatus][+] = Reference(1-DepartureFromScene)
 * section[mission].entry[missionTimeStatus][+] = Reference(1-ArrivalAtTarget)
+* section[mission].entry[ambulance] = Reference(1-Rettungswagen)
 
 * section[administrative].title = "Administrativ"
 * section[administrative].code = $IVR-CS#1100003 "administrative"
