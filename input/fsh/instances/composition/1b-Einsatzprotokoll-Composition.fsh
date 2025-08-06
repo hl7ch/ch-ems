@@ -110,6 +110,7 @@ Usage: #example
 * section[mission].entry[missionTimeStatus][+] = Reference(1-ArrivalAtTarget)
 * section[mission].entry[missionTimeStatus][+] = Reference(1b-DepartureFromTarget)
 * section[mission].entry[missionTimeStatus][+] = Reference(1b-OperationalReadiness)
+* section[mission].entry[transportation] = Reference(1-Transport)
 * section[mission].entry[ambulance] = Reference(1-Rettungswagen)
 
 * section[administrative].title = "Administrativ"
