@@ -299,7 +299,7 @@ Usage: #example
         </tbody>
     </table>
     <p>
-        Übergabe an USZ Wertsachenbeutel mit Portemonaie, Handy, Uhr, Schlüssel, Bargel sowie Wertsachenverzeichnis
+        Übergabe an USZ Wertsachenbeutel mit Portemonnaie, Handy, Uhr, Schlüssel, Bargeld sowie Wertsachenverzeichnis
     </p>
 </div>"
 * section[handover].entry[patientConditionChange] = Reference(1-ZustandUebergabe)
