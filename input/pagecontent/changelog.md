@@ -1,7 +1,5 @@
 All significant changes to this FHIR implementation guide will be documented on this page.  
 
-_This exchange format is established as a standard by the association eCH under the number [eCH-0207](https://www.ech.ch/de/ech/ech-0207/), and by the HL7 User Group Switzerland under the name [CH EMS](https://fhir.ch/)._
-
 ### v2.1.0 (ballot publication planned for 2026)
 
 #### Open Issues 
@@ -73,5 +71,5 @@ See also open issues on [GitHub](https://github.com/hl7ch/ch-ems/issues).
 * [#38](https://github.com/hl7ch/ch-ems/issues/38): Replace deprecated extension ordinalValue
 
 ### v1.9.0 (2020-08-25)
-Initial published version.   
+Initial published version.    
 _[eCH-0207 v2.0.0](https://www.ech.ch/de/ech/ech-0207/2.0.0) (2021-03-02) is based on this version._

@@ -1,7 +1,7 @@
 ### Introduction
 This FHIR implementation guide defines a standardised information workflow applicable to Swiss emergency services (EMS). It is used as a basis for projects to digitalise the processes in the Swiss emergency services and to connect these organisations to other EMS, hospitals and the Swiss Electronic Patient Record (EPR).    
 The project is under the leadership of the "Interverband für Rettungswesen".    
-This information workflow is established as standard at the association eCH under the number eCH-0207, Version 2, and at eHealth Suisse under the name CH EMS (official data exchange format according to Swiss legislation).
+This exchange format is established as a standard by the association eCH under the number [eCH-0207](https://www.ech.ch/de/ech/ech-0207/), and by the HL7 User Group Switzerland under the name [CH EMS](https://fhir.ch/).
 
 <div markdown="1" class="stu-note">
 
