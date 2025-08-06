@@ -12,7 +12,6 @@ Description: "This profile constrains the Practitioner resource for representing
 * identifier[GLN].assigner ^short = "Reference to the team in which this individual is member of (the team then does have the GLN of the responding organisation)"
 * identifier[GLN].assigner.reference 1..
 * name MS
-* telecom MS
 * address MS
 * qualification.code MS 
 * qualification.code only CHEmsCodeableConcept
