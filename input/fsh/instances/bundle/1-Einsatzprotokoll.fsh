@@ -80,6 +80,8 @@ Usage: #example
 * entry[=].resource = 1-Infusion
 * entry[+].fullUrl = "http://test.fhir.ch/r4/MedicationAdministration/1-Spray"
 * entry[=].resource = 1-Spray
+* entry[+].fullUrl = "http://test.fhir.ch/r4/AllergyIntolerance/1-Baumpollen"
+* entry[=].resource = 1-Baumpollen
 
 /* validation test case
 * entry[+].fullUrl = "http://test.fhir.ch/r4/MedicationAdministration/MedAdminFentanyl"

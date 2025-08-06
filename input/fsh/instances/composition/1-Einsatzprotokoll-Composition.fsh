@@ -186,6 +186,7 @@ Usage: #example
 </div>"
 * section[anamnesis].entry[anamnesisEvent] = Reference(1-Anamnese)
 * section[anamnesis].entry[anamnesisSymptom] = Reference(1-Symptome)
+* section[anamnesis].entry[allergyIntolerance][0] = Reference(1-Baumpollen)
 
 * section[findings].title = "Befund"
 * section[findings].code = $IVR-CS#1100006 "findings"
