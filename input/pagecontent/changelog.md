@@ -1,9 +1,11 @@
 All significant changes to this FHIR implementation guide will be documented on this page.  
 
-### v2.1.0 (2025)
+_This exchange format is established as a standard by the association eCH under the number [eCH-0207](https://www.ech.ch/de/ech/ech-0207/), and by eHealth Suisse under the name [CH EMS](https://fhir.ch/)._
+
+### v2.1.0 (ballot publication planned for 2026)
 
 #### Open Issues 
-* [#35](https://github.com/hl7ch/ch-ems/issues/35): CH EMS Location: Ambulance -> `name` 1.. because of CH Core Location ([#318 CH Core](https://github.com/hl7ch/ch-core/issues/318))
+
 * [#21](https://github.com/hl7ch/ch-ems/issues/21): Value set content update is work in progress
 
 #### Added
@@ -16,7 +18,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#37](https://github.com/hl7ch/ch-ems/issues/37): Add logical model and model maps
 
 #### Changed / Updated
-* Updates according the current published version 5.0.0 of CH Core (see also [changelog](https://fhir.ch/ig/ch-core/changelog.html))
+* Updates according the current published version 6.0.0-ballot of CH Core (see also [changelog](https://fhir.ch/ig/ch-core/changelog.html))
    * Change the links to the Swiss terminology implementation guide because of its renaming from CH EPR Term to CH Term
    * Remove outdated (CDA) extensions: http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid, http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber
    * Change the value for AHVN13 in example 1-ThomasMueller, because CH Core integrated a check on it
@@ -24,6 +26,7 @@ All significant changes to this FHIR implementation guide will be documented on 
    * Include automatic generated sections IP Statements, Cross Version Analysis, Dependency Table, Globals Table on Home
    * Use new introduced CH Core ServiceRequest as parent profile for CH EMS ServiceRequest
    * Define slice Encounter.identifier:missionNumber because underlying profile already sliced this element and add code 'MN' (Einsatznummer) to IVR Code System to be able to define the required identifier type
+   * [#35](https://github.com/hl7ch/ch-ems/issues/35): Remove previously requested name element in the example for CH EMS Location: Ambulance
 * Change outdated discriminator type 'pattern' to 'value'
 * [#3](https://github.com/hl7ch/ch-ems/issues/3): Remove fixed display values
 * [#4](https://github.com/hl7ch/ch-ems/issues/4): Remove 'Profile' from profile title
@@ -69,4 +72,5 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#38](https://github.com/hl7ch/ch-ems/issues/38): Replace deprecated extension ordinalValue
 
 ### v1.9.0 (2020-08-25)
-Initial published version.
+Initial published version.   
+_[eCH-0207 v2.0.0](https://www.ech.ch/de/ech/ech-0207/2.0.0) (2021-03-02) is based on this version._
