@@ -225,6 +225,9 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * findings.circulation.bloodPressure.measurementMethod 0..1 CodeableConcept "Messmethode"
 * findings.circulation.bloodPressure.measurementMethod from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pressureMethod (extensible)
 * findings.circulation.bloodPressure.measurementMethod ^binding.description = "IVR VS (SCT)"
+* findings.circulation.bloodPressure.measurementMethod.bodySite 0..1 CodeableConcept "Körperstelle"
+* findings.circulation.bloodPressure.measurementMethod.bodySite from http://hl7.org/fhir/ValueSet/body-site (example)
+* findings.circulation.bloodPressure.measurementMethod.bodySite ^binding.description = "HL7 VS (SCT)"
 
 // D
 * findings.disability 0..1 BackboneElement "D: Defizit, neurologisches"

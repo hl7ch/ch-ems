@@ -209,6 +209,7 @@ Usage: #example
         </tbody>
     </table>
 </div>"
+* section[findings].section[circulation].entry[bloodPressure] = Reference(1-Blutdruck)
 * section[findings].section[disability].title = "Disability"
 // cdachems-dataelement-108 GCS
 * section[findings].section[disability].entry[glasgowComaScale] = Reference(1-GCSBefund)

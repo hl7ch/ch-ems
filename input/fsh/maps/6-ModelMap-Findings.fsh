@@ -95,6 +95,9 @@ Usage: #definition
 * group[=].element[+].code = #EMSProtocol.findings.circulation.bloodPressure.measurementMethod
 * group[=].element[=].target.code = #Observation.method
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.findings.circulation.bloodPressure.measurementMethod.bodySite
+* group[=].element[=].target.code = #Observation.bodySite
+* group[=].element[=].target.equivalence = #equivalent
 
 // D
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"

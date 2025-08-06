@@ -8,6 +8,7 @@ Description: "This profile constrains the Observation resource for representing 
 * code = $loinc#85354-9 // "Blood pressure panel with all children optional"
 * code ^short = "Blood pressure"
 * code MS 
+* bodySite MS
 * method from $IVR-VS-pressureMethod (extensible)
 * method MS 
 * method only CHEmsCodeableConcept
