@@ -9,4 +9,4 @@ Usage: #example
 * encounter.reference = "Encounter/1-Einsatz"
 
 // cdachems-dataelement-468 Symptom, frei
-* valueCodeableConcept.text = "Starke Schmerzen in der Brust und im linken Oberarm verspürt"
+* valueCodeableConcept.text = "Starke Schmerzen in der Brust und im linken Oberarm verspürt."

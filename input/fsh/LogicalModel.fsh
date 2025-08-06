@@ -177,7 +177,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * anamnesis.allergyIntolerance.code 0..1 CodeableConcept "Allergy / Unverträglichkeit codiert"
 * anamnesis.allergyIntolerance.code from http://fhir.ch/ig/ch-allergyintolerance/ValueSet/CHAllergyIntoleranceValueSet (extensible)
 * anamnesis.allergyIntolerance.code ^binding.description = "HL7.ch VS (SCT)"
-* anamnesis.medicationStatement 0..* BackboneElement "Medikation"
+* anamnesis.medicationStatement 0..* BackboneElement "Bestehende Medikation"
 * anamnesis.medicationStatement.medication 1..1 BackboneElement "Medikament"
 * anamnesis.medicationStatement.medication.product 0..1 CodeableConcept "Präparat"
 * anamnesis.medicationStatement.medication.product.gtin 0..1 Coding "GTIN (Global Trade Item Number (GS1)) für Schweizer Produkte"

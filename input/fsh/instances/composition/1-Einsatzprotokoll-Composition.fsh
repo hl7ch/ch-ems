@@ -44,58 +44,54 @@ Usage: #example
                 <th>Einsatz</th>
             </tr>
             <tr>
-                <td>Einsatzdatum</td>
+                <td>Einsatzdatum: </td>
                 <td>10.12.2016</td>
             </tr>
             <tr>
-                <td>Einsatznummer</td>
+                <td>Einsatznummer: </td>
                 <td>S12345678</td>
             </tr>
             <tr>
-                <td>aufbietende Organisation</td>
-                <td>7601002156370 (SNZ)</td>
+                <td>Aufbietende Organisation:</td>
+                <td>SNZ (GLN 7601002156370)</td>
             </tr>
             <tr>
-                <td>augebotene Organisation</td>
-                <td>7601002156363 (Rettungsdienst Schutz &amp; Rettung Zürich)</td>
+                <td>Aufgebotene Organisation:</td>
+                <td>Rettungsdienst Schutz und Rettung Zürich (GLN 7601002156363)</td>
             </tr>
             <tr>
-                <td>Team</td>
-                <td>Petra Muster, GLN 7601003330434, Betreuerin / Hans Transportsanitäter, GLN 7601000028105, Betreuer</td>
+                <td>Teammitglieder: </td>
+                <td>Petra Muster (Rettungssanitäterin), Hans Transportsanitäter (Transportsanitäter), Pierre Urgentiste (Notarzt)</td>
             </tr>
             <tr>
-                <td>Einsatzort</td>
+                <td>Einsatzort: </td>
                 <td>Zürich, Waldrand (47.392115, 8.553192)</td>
             </tr>
             <tr>
-                <td>Zielort</td>
-                <td>USZ Notfall</td>
+                <td>Zielort: </td>
+                <td>Universitätsspital Zürich, Notfall</td>
             </tr>
         </tbody>
     </table>
     <table>
         <tbody>
             <tr>
-                <th>Alarm</th>
-                <th>Status DP</th>
-                <th>Status 1</th>
-                <th>Status 2</th>
-                <th>Kontakt Patient</th>
-                <th>Status 3</th>
-                <th>Status 4</th>
-                <th>Status 5</th>
-                <th>Status 6</th>
+                <th>Alarmierungszeit: </th>
+                <th>Dispositionszeit: </th>
+                <th>Ausrückzeit: </th>
+                <th>Ankunftszeit am Einsatzort: </th>
+                <th>Ankunftszeit beim Patienten: </th>
+                <th>Abfahrtszeit vom Einsatzort: </th>
+                <th>Ankunftszeit am Zielort: </th>
             </tr>
             <tr>
-                <th id=\"alarm\">12.09</th>
-                <th id=\"disposition\">12.11</th>
-                <th id=\"rollout\">12.13</th>
-                <th id=\"arrivalonscene\">12.17</th>
-                <th id=\"arrivalpatient\">12.22</th>
-                <th id=\"departurefromscene\">12.48</th>
-                <th id=\"arrivalattarget\">12.54</th>
-                <th id=\"departurefromtarget\">-</th>
-                <th id=\"operationalreadiness\">-</th>
+                <th>12:09</th>
+                <th>12:11</th>
+                <th>12:13</th>
+                <th>12:17</th>
+                <th>12:22</th>
+                <th>12:48</th>
+                <th>12:54</th>
             </tr>
         </tbody>
     </table>
@@ -120,10 +116,10 @@ Usage: #example
     <table>
         <tbody>
             <tr>
-                <th>Person/Organsiation</th>
+                <th>Beteiligte Person</th>
             </tr>
             <tr>
-                <td>Ehefrau</td>
+                <td>Ehefrau: </td>
                 <td>Erika Müller</td>
             </tr>
         </tbody>
@@ -148,41 +144,41 @@ Usage: #example
     <table>
         <tbody>
             <tr>
-                <th>Geschehen</th>
+                <th>Ereignis:</th>
             </tr>
             <tr>
-                <td id=\"anamnesis\">Hat sich beim Spazieren im Wald schlecht gefühlt und ist abgesessen.</td>
+                <td>Hat sich beim Spazieren im Wald schlecht gefühlt und ist abgesessen.</td>
             </tr>
         </tbody>
     </table>
     <table>
         <tbody>
             <tr>
-                <th>Symptome</th>
+                <th>Symptome:</th>
             </tr>
             <tr>
-                <td id=\"symptom\">Starke Schmerzen in der Brust und im linken Oberarm verspürt</td>
+                <td>Starke Schmerzen in der Brust und im linken Oberarm verspürt.</td>
             </tr>
         </tbody>
     </table>
-    <h4>Allergien</h4>
+    <h4>Allergien / Unverträglichkeiten:</h4>
     <ul>
-        <li>Baumpollen</li>
+        <li>Allergisch auf Baumpollen</li>
         <li>bekannte Unverträglichkeitsreaktion auf einzelne Medikamente</li>
     </ul>
-    <h4>preMedication</h4>
+    <h4>Bestehende Medikation</h4>
     <ul>
-        <li>Aspirin cardio 100, 1 Tbl/Tag</li>
+        <li>Aspirin Cardio 100 (1 Tbl./Tag)</li>
     </ul>
-    <h4>Medizinische Vorgeschichte</h4>
+    <h4>Medizinische Vorgeschichte:</h4>
     <ul>
-        <li>Herzvorfall vor 4 Jahren, behandelt im Triemli, seit dem Aspirin cardio</li>
+        <li>Herzvorfall vor vier Jahren, der im Triemlispital in Zürich behandelt wurde</li>
     </ul>
-    <h4>Weitere</h4>
+    <h4>Weiteres:</h4>
     <ul>
-        <li>Seit dem Frühstück um ca.08:00 Uhr hat er nichts mehr gegessen</li>
+        <li>Seit dem Frühstück um ca. 8 Uhr hat er nichts mehr gegessen</li>
         <li>Thomas Müller hat keine Patientenverfügung erstellt</li>
-        <li>es sind keine anderen medizinische Probleme bekannt</li>
+        <li>Es sind keine anderen medizinischen Probleme bekannt</li>
     </ul>
 </div>"
 * section[anamnesis].entry[anamnesisEvent] = Reference(1-Anamnese)
@@ -198,15 +194,19 @@ Usage: #example
 * section[findings].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
     <p>
-        Blutdruck 120/80 mmHg gemessen am rechten Arm / Schmerz 5
+        Zeitpunkt des Befundes: 12:25
     </p>
     <table>
         <tbody>
             <tr>
-                <th>GCS</th>
+                <th>Blutdruck: </th>
+                <th>GCS: </th>
+                <th>Weiteres: </th>
             </tr>
             <tr>
-                <td id=\"gcs1\">Total 15 (Augenöffnung spontan 4/ verbale Antwort orientiert 5/ motor. Reaktion befolgt Antweisungen 6) um 12:25</td>
+                <td>120/80 mmHg, gemessen am rechten Arm</td>
+                <td>Total 15: Augenöffnung spontan (4), verbale Antwort orientiert (5), motorische Reaktion befolgt Antweisungen (6)</td>
+                <td>Schmerz: 5</td>
             </tr>
         </tbody>
     </table>
@@ -225,10 +225,10 @@ Usage: #example
     <table>
         <tbody>
             <tr>
-                <th>Verdachtsdiagnose</th>
+                <th>Verdachtsdiagnose: </th>
             </tr>
             <tr>
-                <td id=\"diagnose1\">akuten transmuralen Myokardinfarkts der Vorderwand, ACS/STEMI VW</td>
+                <td>Akuter transmuraler Myokardinfarkt der Vorderwand (ACS/STEMI VW)</td>
             </tr>
         </tbody>
     </table>
@@ -242,7 +242,7 @@ Usage: #example
 * section[procedures].text.div = 
 "<div xmlns=\"http://www.w3.org/1999/xhtml\">
     <span>
-        Infusion gelegt und verabreichen ihm um 12:30 eine erste Dosis von 2 Hüben Nitrolingual-Spray
+        Sofortige Infusion gelegt und Verabreichung einer ersten Dosis von 2 Hüben Nitrolingual-Spray um 12:30.
     </span>
 </div>"
 * section[procedures].entry[medicationAdministration][0] = Reference(1-Infusion)
@@ -276,31 +276,24 @@ Usage: #example
 * section[handover].text.status = #generated
 * section[handover].text.div = "
 <div xmlns=\"http://www.w3.org/1999/xhtml\">
-    <p>Schmerz 4</p>
     <table>
         <tbody>
             <tr>
-                <th>GCS</th>
+                <th>GCS: </th>
+                <th>NACA: </th>
+                <th>Zustand: </th>
+                <th>Weiteres: </th>
             </tr>
             <tr>
-                <td id=\"gcs2\">15(4/5/6) um 13.03</td>
-            </tr>
-            <tr>
-                <th>NACA</th>
-            </tr>
-            <tr>
-                <td id=\"naca\">NACA: III</td>
-            </tr>
-            <tr>
-                <th>Zustand</th>
-            </tr>
-            <tr>
-                <td id=\"statusdischarge\">der Zustand des Patienten hat sich im Verlauf des Einsatzes verbessert</td>
+                <td>Total 15: Augenöffnung spontan (4), verbale Antwort orientiert (5), motorische Reaktion befolgt Antweisungen (6)</td>
+                <td>III</td>
+                <td>Zustand des Patienten hat sich im Verlaufe des Einsatzes verbessert</td>
+                <td>Schmerz: 4</td>
             </tr>
         </tbody>
     </table>
     <p>
-        Übergabe an USZ Wertsachenbeutel mit Portemonnaie, Handy, Uhr, Schlüssel, Bargeld sowie Wertsachenverzeichnis
+        Übergabe an USZ mit Wertsachenbeutel mit Portemonnaie, Handy, Uhr, Schlüssel, Bargeld sowie Wertsachenverzeichnis.
     </p>
 </div>"
 * section[handover].entry[patientConditionChange] = Reference(1-ZustandUebergabe)
