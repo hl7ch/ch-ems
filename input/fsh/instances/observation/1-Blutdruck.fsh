@@ -1,6 +1,6 @@
 Instance: 1-Blutdruck
 InstanceOf: CHEmsObservationBloodPressure
-Title: "1 120/80 mmHg"
+Title: "1 Blutdruck"
 Description: "Example for CH EMS Observation: Blood Pressure - with value and method/body site"
 Usage: #example
 * status = #final

@@ -21,7 +21,6 @@ No code provided, and a code should be provided from the value set 'IVR Symptom'
 
 # Caused through underlying profiles
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
-The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
 The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|%
 The extension http://hl7.org/fhir/StructureDefinition/regex|%
 

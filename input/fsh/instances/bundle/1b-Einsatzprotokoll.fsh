@@ -80,3 +80,5 @@ Usage: #example
 * entry[=].resource = 1-Rettungswagen
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/1-Blutdruck"
 * entry[=].resource = 1-Blutdruck
+* entry[+].fullUrl = "http://test.fhir.ch/r4/MedicationAdministration/1-Infusion"
+* entry[=].resource = 1-Infusion

@@ -241,9 +241,8 @@ Usage: #example
         Infusion gelegt und verabreichen ihm um 12:30 eine erste Dosis von 2 Hüben Nitrolingual-Spray
     </span>
 </div>"
-
+* section[procedures].entry[medicationAdministration] = Reference(1-Infusion)
 /* validation test case 
-* section[procedures].entry[medicationAdministration] = Reference(MedAdminFentanyl)
 * section[procedures].section[airway].title = "Airway"
 * section[procedures].section[airway].entry = Reference(ProcedureAirwaysIntubation)
 */
