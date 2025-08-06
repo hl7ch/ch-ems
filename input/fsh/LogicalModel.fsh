@@ -75,7 +75,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.statusTime 0..* BackboneElement "Statuszeit"
 * mission.statusTime.time 1..1 dateTime "Zeitpunkt"
 * mission.statusTime.meaning 1..1 CodeableConcept "Bedeutung der Statuszeit"
-* mission.statusTime.meaning from http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus (extensible)
+* mission.statusTime.meaning from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-missionTimeRole (extensible)
 * mission.statusTime.meaning ^binding.description = "IVR VS (IVR)"
 * mission.valuablesPatient 0..* CodeableConcept "Wertsachen Patient"
 * mission.valuablesPatient from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-valType (extensible)
@@ -355,14 +355,34 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * transport 0..1 string "Transport"
 
 * handover 0..1 BackboneElement "Übergabe"
-// * handover.priority 0..1 code "Priorität"
-// * handover.statusAtEnd 0..1 code "Zustand bei Einsatzende"
-// * handover.naca 0..1 code "NACA"
-// * handover.gcs 0..1 BackboneElement "GCS"
-// * handover.gcs.total 0..1 decimal "Gesamtscore"
-// * handover.gcs.eyeOpening 0..1 code "Augenöffnung"
-// * handover.gcs.verbalResponse 0..1 code "verbale Kommunikation"
-// * handover.gcs.motorResponse 0..1 code "motorische Reaktion"
-// * handover.recipient 0..1 string "Übergabe an"
+* handover.priority 0..1 CodeableConcept "Priorität"
+* handover.priority from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-hospitalPriority (extensible)
+* handover.priority ^binding.description = "IVR VS (SCT)"
+* handover.conditionChange 0..1 CodeableConcept "Zustandsveränderung"
+* handover.conditionChange from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-result (extensible)
+* handover.conditionChange ^binding.description = "IVR VS (SCT)"
+* handover.injurySeverity 0..1 CodeableConcept "Verletzungsschwere gemäss NACA-Score"
+* handover.injurySeverity from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-NACA (extensible)
+* handover.injurySeverity ^binding.description = "IVR VS (IVR)"
+* handover.gcs 0..1 BackboneElement "Glasgow Coma Scale (GCS)"
+* handover.gcs.total 0..1 integer "Gesamtscore"
+* handover.gcs.eyeOpening 0..1 BackboneElement "Augenöffnung"
+* handover.gcs.eyeOpening.score 0..1 integer "Score"
+* handover.gcs.eyeOpening.description 0..1 CodeableConcept "Beschreibung"
+* handover.gcs.eyeOpening.description from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcs-augenoeffnung (extensible)
+* handover.gcs.eyeOpening.description ^binding.description = "IVR VS (SCT & IVR)"
+* handover.gcs.verbalResponse 0..1 BackboneElement "verbale Kommunikation"
+* handover.gcs.verbalResponse.score 0..1 integer "Score"
+* handover.gcs.verbalResponse.description 0..1 CodeableConcept "Beschreibung"
+* handover.gcs.verbalResponse.description from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsVerbal (extensible)
+* handover.gcs.verbalResponse.description ^binding.description = "IVR VS (SCT & IVR)"
+* handover.gcs.motorResponse 0..1 BackboneElement "motorische Reaktion"
+* handover.gcs.motorResponse.score 0..1 integer "Score"
+* handover.gcs.motorResponse.description 0..1 CodeableConcept "Beschreibung"
+* handover.gcs.motorResponse.description from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-gcsMotoric (extensible)
+* handover.gcs.motorResponse.description ^binding.description = "IVR VS (SCT & IVR)"
+* handover.recipient 0..1 BackboneElement "Übergabe an"
+* handover.recipient.organisation 1..1 Organization "Organisation (Zielort)"
+* handover.recipient.practitioner 0..* Practitioner "Verantwortliche Person"
 
 * annotation 0..1 string "Bemerkungen"

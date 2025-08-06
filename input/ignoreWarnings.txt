@@ -22,7 +22,7 @@ No code provided, and a code should be provided from the value set 'IVR Symptom'
 # Caused through underlying profiles
 The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
-The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|%
 
 # Non-EPR conform examples 
 WARNING: Patient/2-PatientUnbekannt: Patient: Constraint failed: ch-ems-epr-patient: 'Warning that the resource is not conform to the CH Core EPR restrictions' (defined in http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-patient)
@@ -45,4 +45,4 @@ Pinned the version%
 Reference must be to a ValueSet, but found a StructureDefinition instead
 
 # TODO before publication, see also https://github.com/hl7ch/ch-core/issues/354
-The extension http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding|5.2.0 is deprecated with the note Replaced by [[[http://hl7.org/fhir/StructureDefinition/iso21090-codedString]]]
+The extension http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding|%

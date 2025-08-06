@@ -4,10 +4,6 @@ Title: "1 Einsatzprotokoll"
 Description: "Example for CH EMS Composition"
 Usage: #example
 * language = #de-CH
-* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"
-* extension[=].valueReference.reference = "Practitioner/1-InformationRecipientSpitalarzt"
-* extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-informationrecipient"
-* extension[=].valueReference.reference = "Organization/1-InformationRecipientUSZ"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:658ab5ea-1f63-11e6-b6ba-3e1d05defe78"
 * status = #final
@@ -304,6 +300,8 @@ Usage: #example
 * section[handover].entry[patientConditionChange] = Reference(1-ZustandUebergabe)
 * section[handover].entry[injurySeverity] = Reference(1-NACAUebergabe)
 * section[handover].entry[glasgowComaScale] = Reference(1-GCSUebergabe)
+* section[handover].entry[handoverTo][0] = Reference(1-InformationRecipientSpitalarzt)
+* section[handover].entry[handoverTo][+] = Reference (1-InformationRecipientUSZ)
 
 * section[annotation].title = "Kommentar"
 * section[annotation].code = $loinc#48767-8 "Annotation comment [Interpretation] Narrative"
