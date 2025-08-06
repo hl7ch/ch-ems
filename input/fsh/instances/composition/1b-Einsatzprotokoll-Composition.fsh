@@ -243,7 +243,8 @@ Usage: #example
         Infusion gelegt und verabreichen ihm um 12:30 eine erste Dosis von 2 Hüben Nitrolingual-Spray
     </span>
 </div>"
-* section[procedures].entry[medicationAdministration] = Reference(1-Infusion)
+* section[procedures].entry[medicationAdministration][0] = Reference(1-Infusion)
+* section[procedures].entry[medicationAdministration][+] = Reference(1-Spray)
 
 * section[eventOfDeath].title = "Todesfall"
 * section[eventOfDeath].code = $IVR-CS#1100009 "death"
