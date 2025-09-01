@@ -31,3 +31,11 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Diagnostique suspecté"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Sospetta diagnosi"
+* compose.include.concept[+].code = #5558000
+* compose.include.concept[=].display = "Working diagnosis"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Arbeitsdiagnose"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "orientation diagnostique"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "diagnosi di lavoro"

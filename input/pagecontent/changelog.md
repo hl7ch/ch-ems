@@ -12,6 +12,7 @@ See also open issues on [GitHub](https://github.com/hl7ch/ch-ems/issues).
    * Composition.section:anamnesis.entry:allergyIntolerance -> 0..* CH EMS AllergyIntolerance
    * Composition.section:anamnesis.entry:medicationStatement -> 0..* CH EMS MedicationStatement
    * Composition.section:procedures.entry:medicationAdministration -> 0..* CH EMS MedicationAdministration
+* Add SCT#5558000 'Working diagnosis' to VS IVR Diagnosis Type   
 * Introduction of the concept must support (incl. adding the data type profiles for CodeableConcept, Coding and Quantity with MS)   
 * [#37](https://github.com/hl7ch/ch-ems/issues/37): Add logical model and model maps
 
