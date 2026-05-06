@@ -8,8 +8,9 @@ Usage: #definition
 * name = "EmsAnamnesis2Fhir"
 * title = "EMS Anamnesis to FHIR Mapping"
 
-* sourceUri = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
-* targetUri = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document"
+// Commented out to avoid CONCEPTMAP_VS_NOT_A_VS error: sourceUri/targetUri must point to a ValueSet, not a StructureDefinition. See https://github.com/hl7ch/ch-ems/issues/42
+// * sourceUri = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+// * targetUri = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-document"
 
 * group[0].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol" // ?codesystem
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-composition" // ?codesystem
