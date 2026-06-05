@@ -21,25 +21,25 @@ Usage: #definition
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol" 
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesisevent" 
 * group[=].element[0].code = #EMSProtocol.anamnesis.event
-* group[=].element[=].target.code = #Observation.valueCodeableConcept
+* group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.anamnesis.event.code
-* group[=].element[=].target.code = #Observation.valueCodeableConcept.coding
+* group[=].element[=].target.code = #Observation.value[x].coding
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.anamnesis.event.freeText
-* group[=].element[=].target.code = #Observation.valueCodeableConcept.text
+* group[=].element[=].target.code = #Observation.value[x].text
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol" 
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-anamnesissymptom" 
 * group[=].element[0].code = #EMSProtocol.anamnesis.symptom
-* group[=].element[=].target.code = #Observation.valueCodeableConcept
+* group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.anamnesis.symptom.code
-* group[=].element[=].target.code = #Observation.valueCodeableConcept.coding
+* group[=].element[=].target.code = #Observation.value[x].coding
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.anamnesis.symptom.freeText
-* group[=].element[=].target.code = #Observation.valueCodeableConcept.text
+* group[=].element[=].target.code = #Observation.value[x].text
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol" 
@@ -54,19 +54,19 @@ Usage: #definition
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol" 
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-medicationstatement" 
 * group[=].element[0].code = #EMSProtocol.anamnesis.medicationStatement.medication
-* group[=].element[=].target.code = #MedicationStatement.medicationReference
+* group[=].element[=].target.code = #MedicationStatement.medication[x]
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.anamnesis.medicationStatement.dosePerUnit
-* group[=].element[=].target.code = #MedicationStatement.doseAndRate.doseQuantity
+* group[=].element[=].target.code = #MedicationStatement.dosage.doseAndRate.dose[x]
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.anamnesis.medicationStatement.dosage.scheme
 * group[=].element[=].target.code = #MedicationStatement.dosage.timing.repeat.when
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.anamnesis.medicationStatement.dosage.freeText
-* group[=].element[=].target.code = #MedicationStatement.patientInstruction
+* group[=].element[=].target.code = #MedicationStatement.dosage.patientInstruction
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.anamnesis.medicationStatement.asNeeded
-* group[=].element[=].target.code = #MedicationStatement.asNeededBoolean
+* group[=].element[=].target.code = #MedicationStatement.dosage.asNeeded[x]
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.anamnesis.medicationStatement.reason
 * group[=].element[=].target.code = #MedicationStatement.reasonCode.text
@@ -84,7 +84,7 @@ Usage: #definition
 * group[=].element[=].target.code = #Medication.code.text
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.anamnesis.medicationStatement.medication.ingredient
-* group[=].element[=].target.code = #Medication.ingredient.itemCodeableConcept
+* group[=].element[=].target.code = #Medication.ingredient.item[x]
 * group[=].element[=].target.equivalence = #equivalent
 
 

@@ -196,7 +196,7 @@ Usage: #definition
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-missiontimestatus"
 * group[=].element[0].code = #EMSProtocol.mission.statusTime.time
-* group[=].element[=].target.code = #Observation.valueDateTime
+* group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.mission.statusTime.meaning
 * group[=].element[=].target.code = #Observation.code

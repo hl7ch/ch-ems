@@ -29,9 +29,9 @@ Usage: #definition
 * group[=].element[+].code = #EMSProtocol.administrative.involvedParticipant.name
 * group[=].element[=].target.code = #Patient.contact:involvedParticipant.name
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.administrative.involvedParticipant.name.firstName
-* group[=].element[=].target.code = #Patient.contact:involvedParticipant.name.given
-* group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.administrative.involvedParticipant.name.lastName
-* group[=].element[=].target.code = #Patient.contact:involvedParticipant.name.family
-* group[=].element[=].target.equivalence = #equivalent
+// * group[=].element[+].code = #EMSProtocol.administrative.involvedParticipant.name.firstName
+// * group[=].element[=].target.code = #Patient.contact:involvedParticipant.name.given
+// * group[=].element[=].target.equivalence = #equivalent
+// * group[=].element[+].code = #EMSProtocol.administrative.involvedParticipant.name.lastName
+// * group[=].element[=].target.code = #Patient.contact:involvedParticipant.name.family
+// * group[=].element[=].target.equivalence = #equivalent

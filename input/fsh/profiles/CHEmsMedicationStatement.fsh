@@ -18,8 +18,11 @@ Description: "This profile constrains the MedicationStatement resource for repre
 * medication[x] ^type.aggregation = #contained
 * medication[x].reference 1..
 * reasonCode.text MS
-* dosage MS 
-* dosage.timing MS 
+* dosage MS
+* dosage.timing MS
+// Surface Timing.repeat.when in the snapshot so the Model Map ConceptMap can target it as
+// an implicit code (FHIR §4.8.15). See https://github.com/hl7ch/ch-ems/issues/42
+* dosage.timing.repeat.when ^short = "Einnahmeschema"
 * dosage.route MS 
 * dosage.method MS
 * dosage.doseAndRate MS

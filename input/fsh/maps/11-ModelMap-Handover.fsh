@@ -21,43 +21,43 @@ Usage: #definition
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol" 
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-statuspriority" 
 * group[=].element[0].code = #EMSProtocol.handover.priority
-* group[=].element[=].target.code = #Observation.valueCodeableConcept
+* group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol" 
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-conditionchange" 
 * group[=].element[0].code = #EMSProtocol.handover.conditionChange
-* group[=].element[=].target.code = #Observation.valueCodeableConcept
+* group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol" 
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-naca" 
 * group[=].element[0].code = #EMSProtocol.handover.injurySeverity
-* group[=].element[=].target.code = #Observation.valueCodeableConcept
+* group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
 * group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-observation-gcs" 
 * group[=].element[0].code = #EMSProtocol.handover.gcs.total
-* group[=].element[=].target.code = #Observation.valueQuantity
+* group[=].element[=].target.code = #Observation.value[x]
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.handover.gcs.eyeOpening.score
-* group[=].element[=].target.code = #Observation.component:eyeOpening.valueCodeableConcept.coding.extension:itemWeight
+* group[=].element[=].target.code = #Observation.component:eyeOpening.value[x].coding.extension:itemWeight
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.handover.gcs.eyeOpening.description
-* group[=].element[=].target.code = #Observation.component:eyeOpening.valueCodeableConcept
+* group[=].element[=].target.code = #Observation.component:eyeOpening.value[x]
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.handover.gcs.verbalResponse.score
-* group[=].element[=].target.code = #Observation.component:verbal.valueCodeableConcept.coding.extension:itemWeight
+* group[=].element[=].target.code = #Observation.component:verbal.value[x].coding.extension:itemWeight
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.handover.gcs.verbalResponse.description
-* group[=].element[=].target.code = #Observation.component:verbal.valueCodeableConcept
+* group[=].element[=].target.code = #Observation.component:verbal.value[x]
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.handover.gcs.motorResponse.score
-* group[=].element[=].target.code = #Observation.component:motor.valueCodeableConcept.coding.extension:itemWeight
+* group[=].element[=].target.code = #Observation.component:motor.value[x].coding.extension:itemWeight
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.handover.gcs.motorResponse.description
-* group[=].element[=].target.code = #Observation.component:motor.valueCodeableConcept
+* group[=].element[=].target.code = #Observation.component:motor.value[x]
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
