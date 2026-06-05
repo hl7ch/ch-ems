@@ -16,7 +16,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Nessuna"
 * compose.include[=].concept[+].code = #284616006
-* compose.include[=].concept[=].display = "Verbally threatening"
+* compose.include[=].concept[=].display = "Verbally threatening behaviour"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Verbale Drohung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH

@@ -17,4 +17,4 @@ Description: "This profile constrains the Observation resource for representing 
 * valueCodeableConcept.coding ^slicing.rules = #open
 * valueCodeableConcept.coding contains 
     icd10 0..1 MS
-* valueCodeableConcept.coding[icd10].system = "http://fhir.de/CodeSystem/dimdi/icd-10-gm"
+* valueCodeableConcept.coding[icd10].system = "http://fhir.de/CodeSystem/bfarm/icd-10-gm"

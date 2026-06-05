@@ -16,7 +16,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "rotondo"
 * compose.include.concept[+].code = #79017007
-* compose.include.concept[=].display = "Deformed pupi"
+* compose.include.concept[=].display = "Deformed pupil"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "deformiert"
 * compose.include.concept[=].designation[+].language = #fr-CH

@@ -24,7 +24,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Aspirazione delle vie aeree"
 * compose.include.concept[+].code = #710971000
-* compose.include.concept[=].display = "Maintaining  airway clearance"
+* compose.include.concept[=].display = "Maintaining airway clearance"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Freimachen der Atemwege"
 * compose.include.concept[=].designation[+].language = #fr-CH
