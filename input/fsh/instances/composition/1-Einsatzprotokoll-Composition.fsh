@@ -10,17 +10,11 @@ Usage: #example
 * type.coding[0] = $loinc#67796-3 "EMS patient care report - version 3 Document NEMSIS"
 * type.coding[+] = $sct#371535009 "Transfer summary report (record artifact)"
 * type.text = "Einsatzprotokoll Rettungsdienst"
-* subject.reference = "Patient/1-ThomasMueller" // CDA: recordTarget
+* subject.reference = "Patient/1-ThomasMueller" 
 * encounter.reference = "Encounter/1-Einsatz"
 * date = "2016-12-10T13:05:00.000+01:00"
-* author[0].extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time"
-* author[=].extension.valueDateTime = "2016-12-10T13:13:05.000+01:00"
-* author[=].reference = "Practitioner/1-SaniPetraMuster" // CDA: author.assignedAuthor
-* author[+].reference = "PractitionerRole/1-SaniPetraMuster-PR" //CDA: author.functionCode
-* author[+].extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time"
-* author[=].extension.valueDateTime = "2016-12-10T13:13:05.000+01:00"
-* author[=].reference = "Practitioner/1-NotarztPierreUrgentiste" // CDA: author.assignedAuthor
-* author[+].reference = "PractitionerRole/1-NotarztPierreUrgentiste-PR" // CDA: author.functionCode
+* author[+].reference = "PractitionerRole/1-SaniPetraMuster-PR" 
+* author[+].reference = "PractitionerRole/1-NotarztPierreUrgentiste-PR" 
 * title = "Einsatzprotokoll Rettungsdienst"
 * confidentiality.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode"
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal"
@@ -28,9 +22,9 @@ Usage: #example
 * confidentiality = #N
 * attester.mode = #legal
 * attester.time = "2016-12-10T13:13:05.000+01:00"
-* attester.party.reference = "Practitioner/1-SaniPetraMuster" // CDA: legalAutenticator
+* attester.party.reference = "Practitioner/1-SaniPetraMuster" 
 // cdachems-dataelement-61 aufgebotene Organisation
-* custodian.reference = "Organization/1-Rettungsdienst" // CDA: custodian.assignedCustodian.representedCustodian
+* custodian.reference = "Organization/1-Rettungsdienst" 
 
 * section[mission].title = "Einsatz"
 * section[mission].code = $IVR-CS#1100001 "intervention"
