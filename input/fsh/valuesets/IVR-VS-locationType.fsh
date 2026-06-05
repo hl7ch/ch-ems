@@ -64,7 +64,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Luogo di formazione"
 * compose.include[=].concept[+].code = #83891005
-* compose.include[=].concept[=].display = "doctors office"
+* compose.include[=].concept[=].display = "Doctor's office"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Arztpraxis"
 * compose.include[=].concept[=].designation[+].language = #fr-CH

@@ -8,5 +8,5 @@ Usage: #example
 * subject = Reference(PatientExample)
 * encounter = Reference(EncounterExample)
 * effectiveDateTime = "2016-12-10T12:25:00.000+01:00"
-* valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"
+* valueCodeableConcept = $sct#17621005 "Normal"
 * valueCodeableConcept.text = "normal"

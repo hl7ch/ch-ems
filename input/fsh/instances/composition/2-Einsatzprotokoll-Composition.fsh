@@ -19,7 +19,7 @@ Usage: #example
 * author[+].reference = "PractitionerRole/1-SaniPetraMuster-PR" // CDA: author.functionCode
 * title = "Einsatzprotokoll Rettungsdienst"
 * confidentiality.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode"
-* confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"
+* confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal"
 * confidentiality.extension.valueCodeableConcept.text = "Normal"
 * confidentiality = #N
 * attester.mode = #legal

@@ -66,6 +66,7 @@ See also open issues on [GitHub](https://github.com/hl7ch/ch-ems/issues).
    * [#12](https://github.com/hl7ch/ch-ems/issues/12): Add ICD-10 slice with fixed code system value
 
 #### Fixed
+* [40](https://github.com/hl7ch/ch-ems/issues/40): Use http://fhir.de/CodeSystem/bfarm/icd-10-gm for icd-10-gm
 * [42](https://github.com/hl7ch/ch-ems/issues/42): Clean Error in ConceptMaps
 * Replace ci-build links with links to stable version
 * [#27](https://github.com/hl7ch/ch-ems/issues/27): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension
