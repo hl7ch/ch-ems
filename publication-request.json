@@ -1,7 +1,7 @@
 {
   "package-id": "ch.fhir.ig.ch-ems",
-  "version": "2.1.0",
-  "path": "http://fhir.ch/ig/ch-ems/2.1.0",
+  "version": "2.1.0-ballot",
+  "path": "http://fhir.ch/ig/ch-ems/2.1.0-ballot",
   "mode": "milestone",
   "status": "trial-use",
   "sequence" : "STU",

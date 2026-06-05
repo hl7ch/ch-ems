@@ -1,6 +1,6 @@
 All significant changes to this FHIR implementation guide will be documented on this page.  
 
-### v2.1.0 (ballot publication planned for 2026)
+### v2.1.0-ballot
 
 #### Open Issues 
 
@@ -66,6 +66,7 @@ See also open issues on [GitHub](https://github.com/hl7ch/ch-ems/issues).
    * [#12](https://github.com/hl7ch/ch-ems/issues/12): Add ICD-10 slice with fixed code system value
 
 #### Fixed
+* [42](https://github.com/hl7ch/ch-ems/issues/42): Clean Error in ConceptMaps
 * Replace ci-build links with links to stable version
 * [#27](https://github.com/hl7ch/ch-ems/issues/27): Add [expansion-parameter](https://build.fhir.org/codesystem-guide-parameter-code.html#:~:text=expansion%2Dparameter,as%20SNOMED%20CT) for the usage of SNOMED CT Swiss Extension
 * [#39](https://github.com/hl7ch/ch-ems/issues/39): Add [pin-canonicals](http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html#:~:text=for%20further%20information-,pin%2Dcanonicals,-Pin%20Canonical%20Versions) parameter to define the handling of unversioned canonical references
