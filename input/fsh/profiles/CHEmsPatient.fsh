@@ -8,13 +8,24 @@ Description: "This profile constrains the Patient resource for representing pati
 * extension[placeOfOrigin] MS
 * extension[citizenship] MS
 * extension contains CHEmsExtIdentification named identification 0..1 MS
+// Surface the identification sub-extensions in the snapshot so the Model Map ConceptMaps
+// can target them as implicit codes (FHIR §4.8.15). See https://github.com/hl7ch/ch-ems/issues/42
+* extension[identification].extension[medium] ^short = "Medium der Identifikation"
+* extension[identification].extension[source] ^short = "Quelle der Identifikation"
 * identifier[AHVN13] ..1 MS
 * identifier[LocalPid] MS 
 * identifier[LocalPid] ^short = "Local patient identifier: PLS-ID (Number from the patient guidance system (PLS) for temporary identification)"
-* name MS 
+* name MS
+// Surface HumanName/Address children in the snapshot so the Model Map ConceptMaps can
+// target them as implicit codes (FHIR §4.8.15). See https://github.com/hl7ch/ch-ems/issues/42
+* name.given ^short = "Vorname"
+* name.family ^short = "Nachname"
 * gender MS
 * birthDate MS
 * address MS
+* address.line ^short = "Strasse"
+* address.postalCode ^short = "PLZ"
+* address.city ^short = "Ort"
 * contact contains
     involvedParticipant 0..*
 * contact[involvedParticipant] MS    

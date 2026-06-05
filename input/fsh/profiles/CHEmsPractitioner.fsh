@@ -12,7 +12,11 @@ Description: "This profile constrains the Practitioner resource for representing
 * identifier[GLN].assigner ^short = "Reference to the team in which this individual is member of (the team then does have the GLN of the responding organisation)"
 * identifier[GLN].assigner.reference 1..
 * name MS
+// Surface HumanName children in the snapshot so the Model Map ConceptMaps can target
+// them as implicit codes (FHIR §4.8.15). See https://github.com/hl7ch/ch-ems/issues/42
+* name.given ^short = "Vorname"
+* name.family ^short = "Nachname"
 * address MS
-* qualification.code MS 
+* qualification.code MS
 * qualification.code only CHEmsCodeableConcept
 * qualification.code from $IVR-VS-formation (extensible)

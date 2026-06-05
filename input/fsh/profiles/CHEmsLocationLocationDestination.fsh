@@ -11,8 +11,13 @@ Description: "This profile constrains the Location resource for representing the
 * identifier[GLN] only $ch-core-gln-identifier
 * identifier[GLN] ^patternIdentifier.system = "urn:oid:2.51.1.3"
 * identifier[GLN] ^short = "GLN of the destination hospital"
-* name MS 
+* name MS
 * address MS
+// Surface Address children in the snapshot so the Model Map ConceptMaps can target them
+// as implicit codes (FHIR §4.8.15). See https://github.com/hl7ch/ch-ems/issues/42
+* address.line ^short = "Strasse"
+* address.postalCode ^short = "PLZ"
+* address.city ^short = "Ort"
 * position.longitude MS
 * position.latitude MS
 * physicalType MS 
