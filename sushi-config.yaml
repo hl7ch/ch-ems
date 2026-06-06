@@ -8,18 +8,20 @@ license: CC0-1.0
 copyright: CC0-1.0
 jurisdiction: urn:iso:std:iso:3166#CH
 date: 2026-06-09 # TODO before publication: check status and version of value sets
-version: 2.1.0-ci-build
+version: 2.0.0-ballot
 fhirVersion: 4.0.1
 copyrightYear: 2020+
-releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: ballot # ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 
 publisher:
-  name: IVR Interverband für Rettungswesen
+  name: HL7 Switzerland
+  url: https://www.hl7.ch/
 contact:
-  - name: IVR Interverband für Rettungswesen
+  - name: HL7 Switzerland
     telecom:
       - system: url
-        value: https://www.ivr-ias.ch/
+        value: https://www.hl7.ch/
+        use: work
 
 dependencies:
   ch.fhir.ig.ch-core: current
