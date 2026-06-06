@@ -13,7 +13,6 @@ This exchange format is established as a standard by the association eCH under t
 
 **Identification**: OID: 2.16.756.5.30.1.143.1.1    
 
-
 ### Swiss specific context
 The CH EMS implementation guide describes the [FHIR representation](document.html) of the defined [**Emergency Medical Service protocol**](logicalmodel.html). This implementation guide is dependent on [CH Core](http://fhir.ch/ig/ch-core/index.html) and [CH Term](http://fhir.ch/ig/ch-term/index.html), which describe the Swiss specific context, especially related to the Swiss electronic patient record (EPR).
 
@@ -54,3 +53,8 @@ The following documentation describes the license and terms of use for various c
 #### Globals Table
 
 {% include globals-table.xhtml %}
+
+### Acknowledgements
+The development of this implementation guide was supported by the [Interverband für Rettungswesen (IVR)](https://www.ivr-ias.ch/).
+
+<a no-external="true" href="https://www.ivr-ias.ch/"><img alt="IVR Interverband für Rettungswesen" height="60" src="logo-ivr.jpg" /></a>
