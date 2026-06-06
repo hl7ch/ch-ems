@@ -1,6 +1,10 @@
 All significant changes to this FHIR implementation guide will be documented on this page.  
 
-### v2.1.0-ballot
+### v2.0.0-ballot
+
+First version 
+
+published as an HL7.ch STU ballot.
 
 #### Open Issues 
 
