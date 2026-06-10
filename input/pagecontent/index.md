@@ -5,6 +5,9 @@ This exchange format is established as a standard by the association eCH under t
 
 <div markdown="1" class="stu-note">
 
+This implementation guide is under STU ballot by [HL7 Switzerland](https://www.hl7.ch/) from August 4th, 2026 until September 30th, 2026.
+Please add your feedback via the 'Propose a change'-link in the footer.
+
 [Significant changes, open and closed issues.](changelog.html)
 
 </div>
