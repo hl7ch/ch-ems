@@ -1,11 +1,11 @@
 {
   "package-id": "ch.fhir.ig.ch-ems",
-  "version": "2.1.0-ballot",
-  "path": "http://fhir.ch/ig/ch-ems/2.1.0-ballot",
+  "version": "2.0.0-ballot",
+  "path": "http://fhir.ch/ig/ch-ems/2.0.0-ballot",
   "mode": "milestone",
-  "status": "trial-use",
-  "sequence" : "STU",
-  "desc": "IVR STU",
-  "changes" : "changelog.html",
-  "first" : false
+  "status": "ballot",
+  "sequence": "STU 2",
+  "desc": "CH EMS STU 2 Ballot",
+  "changes": "changelog.html",
+  "first": false
 }

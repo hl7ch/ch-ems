@@ -1,6 +1,6 @@
 All significant changes to this FHIR implementation guide will be documented on this page.  
 
-### v2.0.0-ballot
+### v2.0.0-ballot (2026-06-10)
 
 First version 
 
