@@ -1,5 +1,9 @@
 {
   "package-id": "ch.fhir.ig.ch-ems",
+  "title": "CH EMS",
+  "introduction": "FHIR Implementation Guide for the Emergency Medical Service Protocol (eCH-0207) from IVR and HL7 Switzerland",
+  "category": "National Base",
+  "ci-build": "http://fhir.ch/ig/ch-ems",
   "version": "2.0.0-ballot",
   "path": "http://fhir.ch/ig/ch-ems/2.0.0-ballot",
   "mode": "milestone",
@@ -7,5 +11,8 @@
   "sequence": "STU 2",
   "desc": "CH EMS STU 2 Ballot",
   "changes": "changelog.html",
-  "first": false
+  "first": false,
+  "registry-description": "FHIR Implementation Guide for the Emergency Medical Service Protocol (eCH-0207) from IVR and HL7 Switzerland",
+  "registry-country": "ch",
+  "registry-authority": "IVR-IAS"
 }
