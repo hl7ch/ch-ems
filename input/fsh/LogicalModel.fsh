@@ -80,7 +80,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.valuablesPatient 0..* CodeableConcept "Wertsachen Patient"
 * mission.valuablesPatient from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-valType (extensible)
 * mission.valuablesPatient ^binding.description = "IVR VS (SCT & IVR)"
-* mission.emergencyDoctorSystem 0..1 CodeableConcept "Notarzt/Notärtzin System"
+* mission.emergencyDoctorSystem 0..1 CodeableConcept "Notarzt/Notärztin System"
 * mission.emergencyDoctorSystem from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-emergDoctSystem (extensible)
 * mission.emergencyDoctorSystem ^binding.description = "IVR VS (SCT & IVR)"
 * mission.violence 0..1 BackboneElement "Gewalt gegen Rettungskräfte"
@@ -254,7 +254,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * findings.disability.pupilShape 0..1 CodeableConcept "Pupillenform"
 * findings.disability.pupilShape from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-eyeForm (extensible)
 * findings.disability.pupilShape ^binding.description = "IVR VS (SCT)"
-* findings.disability.pupilSize 0..1 CodeableConcept "Pupillenform"
+* findings.disability.pupilSize 0..1 CodeableConcept "Pupillengrösse"
 * findings.disability.pupilSize from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-size (extensible)
 * findings.disability.pupilSize ^binding.description = "IVR VS (SCT)"
 * findings.disability.fast 0..1 BackboneElement "Verletzungsgrad mittels FAST-Test"
@@ -317,7 +317,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * procedures.medicationAdministration.routeOfAdministration ^binding.description = "HL7.ch VS (EDQM)"
 * procedures.medicationAdministration.methodOfAdministration 0..1 CodeableConcept "Verabreichungsmethode"
 * procedures.medicationAdministration.methodOfAdministration from http://fhir.ch/ig/ch-term/ValueSet/edqm-administrationmethod (preferred)
-* procedures.medicationAdministration.routeOfAdministration ^binding.description = "HL7.ch VS (EDQM)"
+* procedures.medicationAdministration.methodOfAdministration ^binding.description = "HL7.ch VS (EDQM)"
 * procedures.medicationAdministration.medication.galenicForm 0..1 CodeableConcept "Galenische Form"
 * procedures.medicationAdministration.medication.galenicForm from http://fhir.ch/ig/ch-term/ValueSet/edqm-pharmaceuticaldoseform (preferred)
 * procedures.medicationAdministration.medication.galenicForm ^binding.description = "HL7.ch VS (EDQM)"
@@ -345,7 +345,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * procedures.circulation.intervention 0..* CodeableConcept "Intervention bei Kreislaufproblematik"
 // D
 * procedures.disability 0..1 BackboneElement "D: Defizit, neurologisches"
-* procedures.disability.intervention. 0..* CodeableConcept "Intervention bei neurologischer Beeinträchtigung"
+* procedures.disability.intervention 0..* CodeableConcept "Intervention bei neurologischer Beeinträchtigung"
 // E
 * procedures.exposure 0..1 BackboneElement "E: Exposition"
 * procedures.exposure.intervention 0..* CodeableConcept "Intervention bei Exposition"
