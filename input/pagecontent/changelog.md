@@ -1,5 +1,10 @@
 All significant changes to this FHIR implementation guide will be documented on this page.  
 
+### v2.0.0 (unreleased)
+
+#### Changed / Updated
+* [#50](https://github.com/hl7ch/ch-ems/issues/50): Clarify the mustSupport definition: an element may only be omitted if it has a minimum cardinality of 0
+
 ### v2.0.0-ballot (2026-06-10)
 
 First version 
