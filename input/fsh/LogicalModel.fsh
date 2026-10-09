@@ -314,10 +314,10 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * procedures.medicationAdministration.timing.period 0..1 Period "Verabreichungszeitraum"
 * procedures.medicationAdministration.routeOfAdministration 0..1 CodeableConcept "Verabreichungsweg"
 * procedures.medicationAdministration.routeOfAdministration from http://fhir.ch/ig/ch-term/ValueSet/edqm-routeofadministration (preferred)
-* procedures.medicationAdministration.routeOfAdministration ^binding.description = "HL7.ch VS (EDQM)"
+* procedures.medicationAdministration.routeOfAdministration ^binding.description = "EDQM - RouteOfAdministration"
 * procedures.medicationAdministration.methodOfAdministration 0..1 CodeableConcept "Verabreichungsmethode"
 * procedures.medicationAdministration.methodOfAdministration from http://fhir.ch/ig/ch-term/ValueSet/edqm-administrationmethod (preferred)
-* procedures.medicationAdministration.methodOfAdministration ^binding.description = "HL7.ch VS (EDQM)"
+* procedures.medicationAdministration.methodOfAdministration ^binding.description = "EDQM - Administration Method"
 * procedures.medicationAdministration.medication.galenicForm 0..1 CodeableConcept "Galenische Form"
 * procedures.medicationAdministration.medication.galenicForm from http://fhir.ch/ig/ch-term/ValueSet/edqm-pharmaceuticaldoseform (preferred)
 * procedures.medicationAdministration.medication.galenicForm ^binding.description = "HL7.ch VS (EDQM)"
