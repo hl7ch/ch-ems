@@ -1,5 +1,10 @@
 All significant changes to this FHIR implementation guide will be documented on this page.  
 
+### v2.0.0 (unreleased)
+
+#### Changed / Updated
+* [#74](https://github.com/hl7ch/ch-ems/issues/74): Fix typo in IVR code for "Stridor rechts" (`100076` → `1000076`)
+
 ### v2.0.0-ballot (2026-06-10)
 
 First version 
