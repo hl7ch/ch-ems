@@ -320,10 +320,8 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * procedures.medicationAdministration.methodOfAdministration ^binding.description = "EDQM - Administration Method"
 * procedures.medicationAdministration.medication.galenicForm 0..1 CodeableConcept "Galenische Form"
 * procedures.medicationAdministration.medication.galenicForm from http://fhir.ch/ig/ch-term/ValueSet/edqm-pharmaceuticaldoseform (preferred)
-* procedures.medicationAdministration.medication.galenicForm ^binding.description = "HL7.ch VS (EDQM)"
+* procedures.medicationAdministration.medication.galenicForm ^binding.description = "EDQM - Pharmaceutical Dose Form"
 * procedures.medicationAdministration.medication.packageSize 0..1 CodeableConcept "Packungsgrösse"
-* procedures.medicationAdministration.medication.packageSize from http://fhir.ch/ig/ch-term/ValueSet/edqm-pharmaceuticaldoseform (preferred)
-* procedures.medicationAdministration.medication.packageSize ^binding.description = "HL7.ch VS (EDQM)"
 * procedures.medicationAdministration.reason 0..1 string "Behandlungsgrund"
 
 * procedures.woundTreatment 0..* CodeableConcept "Wundbehandlung"
