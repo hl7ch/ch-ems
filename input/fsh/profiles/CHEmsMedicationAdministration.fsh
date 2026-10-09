@@ -2,7 +2,7 @@ Profile: CHEmsMedicationAdministration
 Parent: CHCoreMedicationAdministration
 Id: ch-ems-medicationadministration
 Title: "CH EMS MedicationAdministration"
-Description: "This profile constrains the MedicationAdministration resource for representing a administration of a medication to a patient."
+Description: "This profile constrains the MedicationAdministration resource for representing an administration of a medication to a patient."
 * . ^short = "CH EMS MedicationAdministration"
 * contained MS
 * subject MS

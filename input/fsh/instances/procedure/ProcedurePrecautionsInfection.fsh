@@ -1,6 +1,6 @@
 Instance: ProcedurePrecautionsInfectionMask
 InstanceOf: CHEmsProcedurePrecautionsInfection
-Title: "Surgial Face Mask"
+Title: "Surgical Face Mask"
 Description: "Example for CH EMS Procedure: Precautions Infection"
 Usage: #example
 * status = #completed
