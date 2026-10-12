@@ -26,7 +26,7 @@ Les [profils CH EMS](profiles.html) sont basés sur les profils de base CH Core.
 #### Contexte de DEP en Suisse
 Si les documents sont utilisés dans le contexte du DEP, les exigences du [profil de document DEP de CH Core](http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-document-epr.html) doivent également être respectées. L'utilisation des services de sauvetage présente deux aspects principaux qui doivent être pris en compte dans le contexte du DEP:
 * Le **numéro d'assurance sociale du patient (NAVS13)** du patient **ne doit pas être archivé** dans le DEP   
-* Pour qu'un document DEP soit valable, le **nom** et la **date de naissance** du patient doivent être connu, ce qui n'est pas toujours garanti dans les services de sauvetage
+* Pour qu'un document DEP soit valable, le **nom** et la **date de naissance** du patient doivent être connus, ce qui n'est pas toujours garanti dans les services de sauvetage
 
 Pour faciliter le contrôle de compatibilité avec les profils DEP de CH Core, un avertissement est généré en cas d'écarts lors de la validation:   
 'ch-ems-epr: Avertissement que la ressource n'est pas conforme aux restrictions du DEP de CH Core'
@@ -38,7 +38,7 @@ Pour le format d'échange CH EMS, l'indicateur [mustSupport](https://hl7.org/fhi
 Si l'application émettrice dispose de données pour l'élément, elle est tenue de remplir l'élément avec une valeur non vide. Si la valeur n'est pas connue, l'élément peut être omis.
 
 ### Analyse & Dépendances
-La documentation suivante décrit les conditions de licence et d'utilisation de différents contenus ([IP Statements](#ip-statements)) utilisés dans ce IG. L'analyse de la compatibilité des versions ([Cross Version Analysis](#cross-version-analysis)) montre la compatibilité de ce IG avec FHIR R4 et R4B. De plus, les dépendances et les paquets ([Dependency Table](#dependency-table)) ainsi qu'une déclaration sur les profils globaux ([Globals Table](#globals-table)) sont listés. Ces sections sont générées automatiquement par l'outillage (en anglais).
+La documentation suivante décrit les conditions de licence et d'utilisation de différents contenus ([IP Statements](#ip-statements)) utilisés dans cet IG. L'analyse de la compatibilité des versions ([Cross Version Analysis](#cross-version-analysis)) montre la compatibilité de cet IG avec FHIR R4 et R4B. De plus, les dépendances et les paquets ([Dependency Table](#dependency-table)) ainsi qu'une déclaration sur les profils globaux ([Globals Table](#globals-table)) sont listés. Ces sections sont générées automatiquement par l'outillage (en anglais).
 
 #### IP Statements
 
