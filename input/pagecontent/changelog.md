@@ -5,6 +5,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 #### Changed / Updated
 * [#74](https://github.com/hl7ch/ch-ems/issues/74): Fix typo in IVR code for "Stridor rechts" (`100076` → `1000076`)
 * [#71](https://github.com/hl7ch/ch-ems/issues/71), [#72](https://github.com/hl7ch/ch-ems/issues/72): Use English only for the short descriptions in the StructureDefinitions (profiles and logical model); multilingual descriptions listing all languages (e.g. Composition section titles) are kept
+* [#58](https://github.com/hl7ch/ch-ems/issues/58): Use the German display for ICD-10-GM I21.0 in example 1-Diagnose, so the de-CH example Bundles validate without errors
 
 ### v2.0.0-ballot (2026-06-10)
 
