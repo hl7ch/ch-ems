@@ -15,9 +15,9 @@ Description: "This profile constrains the Location resource for representing the
 * address MS
 // Surface Address children in the snapshot so the Model Map ConceptMaps can target them
 // as implicit codes (FHIR §4.8.15). See https://github.com/hl7ch/ch-ems/issues/42
-* address.line ^short = "Strasse"
-* address.postalCode ^short = "PLZ"
-* address.city ^short = "Ort"
+* address.line ^short = "Street"
+* address.postalCode ^short = "Postal code"
+* address.city ^short = "City"
 * position.longitude MS
 * position.latitude MS
 * physicalType MS 
