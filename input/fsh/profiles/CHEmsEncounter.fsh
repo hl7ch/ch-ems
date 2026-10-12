@@ -10,12 +10,12 @@ Description: "This profile constrains the Encounter resource for representing th
     CHEmsExtViolence named violence 0..1 MS
 // Surface the violence sub-extensions in the snapshot so the Model Map ConceptMaps can
 // target them as implicit codes (FHIR §4.8.15). See https://github.com/hl7ch/ch-ems/issues/42
-* extension[violence].extension[offender] ^short = "Tatperson"
-* extension[violence].extension[form] ^short = "Form der Gewalt"
-* extension[violence].extension[result] ^short = "Folge der Gewalt"
+* extension[violence].extension[offender] ^short = "Offender"
+* extension[violence].extension[form] ^short = "Form of violence"
+* extension[violence].extension[result] ^short = "Consequence of violence"
 * identifier 1..
 * identifier contains missionNumber 1..1 MS
-* identifier[missionNumber] ^short = "Mission number (Einsatznummer)"
+* identifier[missionNumber] ^short = "Mission number"
 * identifier[missionNumber] ^patternIdentifier.type = $IVR-CS#MN
 * identifier[missionNumber].system 1..
 * identifier[missionNumber].system ^short = "OID of organization (intermediate care (IMC))"

@@ -14,8 +14,8 @@ Description: "This profile constrains the Practitioner resource for representing
 * name MS
 // Surface HumanName children in the snapshot so the Model Map ConceptMaps can target
 // them as implicit codes (FHIR §4.8.15). See https://github.com/hl7ch/ch-ems/issues/42
-* name.given ^short = "Vorname"
-* name.family ^short = "Nachname"
+* name.given ^short = "First name"
+* name.family ^short = "Last name"
 * address MS
 * qualification.code MS
 * qualification.code only CHEmsCodeableConcept
