@@ -86,7 +86,7 @@ The IG's "Model Maps" link the logical model to FHIR using `ConceptMap` instance
 
 ## Commit & Pull Request Guidelines
 - Before a new PR or commit, run a full IG build (can take several minutes). Only commit
-  when the error count is not greater than 1; analyze `output/qa.html` for details.
+  when the error count is 0; analyze `output/qa.html` for details.
 - Branch names: use underscores, not slashes (e.g., `issue42_conceptmap_source_uri`).
   Slashes can cause issues with ci-build.
 - Commits: concise, imperative summaries (e.g., "Fix diagnosis ConceptMap target").

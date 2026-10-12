@@ -41,6 +41,9 @@ Description: "This profile constrains the Encounter resource for representing th
 * hospitalization.destination 1.. MS
 * hospitalization.destination only Reference(CHEmsLocationLocationDestination)
 * hospitalization.destination.reference 1..
+// The R4 base binding pins v2-0092|2.9, which does not resolve against current THO (ValueSet
+// version 3.0.0); re-declare it unversioned
+* hospitalization.reAdmission from http://terminology.hl7.org/ValueSet/v2-0092 (example)
 * location ..1
 * location ^short = "Location of mission"
 * location.location MS

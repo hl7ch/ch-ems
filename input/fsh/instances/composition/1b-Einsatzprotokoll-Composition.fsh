@@ -1,6 +1,6 @@
 Instance: 1b-Einsatzprotokoll-Composition
 InstanceOf: CHEmsComposition
-Title: "1b Einsatzprotokoll"
+Title: "1b Einsatzprotokoll Composition"
 Description: "Example for CH EMS Composition"
 Usage: #example
 * language = #de-CH
@@ -163,20 +163,20 @@ Usage: #example
             </tr>
         </tbody>
     </table>
-    <h4>Allergien / Unverträglichkeiten:</h4>
+    <h3>Allergien / Unverträglichkeiten:</h3>
     <ul>
         <li>Allergisch auf Baumpollen</li>
         <li>bekannte Unverträglichkeitsreaktion auf einzelne Medikamente</li>
     </ul>
-    <h4>Bestehende Medikation</h4>
+    <h3>Bestehende Medikation</h3>
     <ul>
         <li>Aspirin Cardio 100 (1 Tbl./Tag)</li>
     </ul>
-    <h4>Medizinische Vorgeschichte:</h4>
+    <h3>Medizinische Vorgeschichte:</h3>
     <ul>
         <li>Herzvorfall vor vier Jahren, der im Triemlispital in Zürich behandelt wurde</li>
     </ul>
-    <h4>Weiteres:</h4>
+    <h3>Weiteres:</h3>
     <ul>
         <li>Seit dem Frühstück um ca. 8 Uhr hat er nichts mehr gegessen</li>
         <li>Thomas Müller hat keine Patientenverfügung erstellt</li>
