@@ -96,7 +96,7 @@ Usage: #definition
 * group[=].element[+].code = #EMSProtocol.findings.circulation.bloodPressure.measurementMethod
 * group[=].element[=].target.code = #Observation.method
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.findings.circulation.bloodPressure.measurementMethod.bodySite
+* group[=].element[+].code = #EMSProtocol.findings.circulation.bloodPressure.bodySite
 * group[=].element[=].target.code = #Observation.bodySite
 * group[=].element[=].target.equivalence = #equivalent
 
@@ -160,13 +160,13 @@ Usage: #definition
 * group[=].element[0].code = #EMSProtocol.findings.disability.fast.face
 * group[=].element[=].target.code = #Observation.component:face.value[x]
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.findings.disability.fast.face.laterality
+* group[=].element[+].code = #EMSProtocol.findings.disability.fast.faceLaterality
 * group[=].element[=].target.code = #Observation.component:face.extension:laterality
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.findings.disability.fast.arm
 * group[=].element[=].target.code = #Observation.component:arm.value[x]
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.findings.disability.fast.arm.laterality
+* group[=].element[+].code = #EMSProtocol.findings.disability.fast.armLaterality
 * group[=].element[=].target.code = #Observation.component:arm.extension:laterality
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.findings.disability.fast.speech

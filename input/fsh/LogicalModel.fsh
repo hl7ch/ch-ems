@@ -29,9 +29,9 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.urgency 0..1 CodeableConcept "Urgency"
 * mission.urgency from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency (extensible)
 * mission.urgency ^binding.description = "Urgency"
-* mission.urgency.adequacy 0..1 CodeableConcept "Adequacy of the urgency"
-* mission.urgency.adequacy from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency-adequate (extensible)
-* mission.urgency.adequacy ^binding.description = "Adequacy of the urgency"
+* mission.urgencyAdequacy 0..1 CodeableConcept "Adequacy of the urgency"
+* mission.urgencyAdequacy from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-urgency-adequate (extensible)
+* mission.urgencyAdequacy ^binding.description = "Adequacy of the urgency"
 * mission.requestingOrganisation 1..1 BackboneElement "Requesting organisation"
 * mission.requestingOrganisation.name 1..1 string "Name"
 * mission.requestingOrganisation.gln 1..1 Identifier "GLN (Global Location Number)"
@@ -45,7 +45,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.respondingOrganisation.team.member.role 1..1 CodeableConcept "Role"
 * mission.respondingOrganisation.team.member.role from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-teamRole (extensible)
 * mission.respondingOrganisation.team.member.role ^binding.description = "Role"
-* mission.respondingOrganisation.team.member.name 0..1 HumanName "Name"
+* mission.respondingOrganisation.team.member.name 0..1 BackboneElement "Name"
 * mission.respondingOrganisation.team.member.name.firstName 0..1 string "First name"
 * mission.respondingOrganisation.team.member.name.lastName 0..1 string "Last name"
 * mission.respondingOrganisation.team.member.gln 0..1 Identifier "Personal GLN (Global Location Number)"
@@ -54,7 +54,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.respondingOrganisation.team.member.formation from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation (extensible)
 * mission.respondingOrganisation.team.member.formation ^binding.description = "Education"
 * mission.location 0..1 BackboneElement "Mission location"
-* mission.location.address 0..1 Address "Address"
+* mission.location.address 0..1 BackboneElement "Address"
 * mission.location.address.street 0..1 string "Street"
 * mission.location.address.zipCode 0..1 string "Postal code"
 * mission.location.address.city 0..1 string "City"
@@ -66,7 +66,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.location.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-locationType (extensible)
 * mission.location.type ^binding.description = "Location type"
 * mission.destination 1..1 BackboneElement "Destination"
-* mission.destination.address 0..1 Address "Address"
+* mission.destination.address 0..1 BackboneElement "Address"
 * mission.destination.address.street 0..1 string "Street"
 * mission.destination.address.zipCode 0..1 string "Postal code"
 * mission.destination.address.city 0..1 string "City"
@@ -123,7 +123,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.device.owner ^binding.description = "Owner"
 
 * patient 1..1 BackboneElement "Patient"
-* patient.name 0..1 HumanName "Name"
+* patient.name 0..1 BackboneElement "Name"
 * patient.name.firstName 0..1 string "First name"
 * patient.name.lastName 0..1 string "Last name"
 * patient.placeOfOrigin 0..1 string "Place of origin"
@@ -143,7 +143,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * patient.identification.source 0..1 CodeableConcept "Identification source"
 * patient.identification.source from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-idSource (extensible)
 * patient.identification.source ^binding.description = "Identification source"
-* patient.address 0..1 Address "Address"
+* patient.address 0..1 BackboneElement "Address"
 * patient.address.street 0..1 string "Street"
 * patient.address.zipCode 0..1 string "Postal code"
 * patient.address.city 0..1 string "City"
@@ -153,7 +153,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * administrative.involvedParticipant.role 0..* CodeableConcept "Role"
 * administrative.involvedParticipant.role from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-personRole (extensible)
 * administrative.involvedParticipant.role ^binding.description = "Role"
-* administrative.involvedParticipant.name 0..1 HumanName "Name"
+* administrative.involvedParticipant.name 0..1 BackboneElement "Name"
 * administrative.involvedParticipant.name.firstName 0..1 string "First name"
 * administrative.involvedParticipant.name.lastName 0..1 string "Last name"
 
@@ -185,7 +185,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * anamnesis.allergyIntolerance.code ^binding.description = "Allergy / intolerance coded"
 * anamnesis.medicationStatement 0..* BackboneElement "Current medication"
 * anamnesis.medicationStatement.medication 1..1 BackboneElement "Medication"
-* anamnesis.medicationStatement.medication.product 0..1 CodeableConcept "Product"
+* anamnesis.medicationStatement.medication.product 0..1 BackboneElement "Product"
 * anamnesis.medicationStatement.medication.product.gtin 0..1 Coding "GTIN (Global Trade Item Number (GS1)) for Swiss products"
 * anamnesis.medicationStatement.medication.product.atc 0..1 Coding "ATC (Anatomical Therapeutic Chemical Classification) for foreign products"
 * anamnesis.medicationStatement.medication.product.freeText 0..1 string "Product name"
@@ -231,9 +231,9 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * findings.circulation.bloodPressure.measurementMethod 0..1 CodeableConcept "Measurement method"
 * findings.circulation.bloodPressure.measurementMethod from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-pressureMethod (extensible)
 * findings.circulation.bloodPressure.measurementMethod ^binding.description = "Measurement method"
-* findings.circulation.bloodPressure.measurementMethod.bodySite 0..1 CodeableConcept "Body site"
-* findings.circulation.bloodPressure.measurementMethod.bodySite from http://hl7.org/fhir/ValueSet/body-site (example)
-* findings.circulation.bloodPressure.measurementMethod.bodySite ^binding.description = "Body site"
+* findings.circulation.bloodPressure.bodySite 0..1 CodeableConcept "Body site"
+* findings.circulation.bloodPressure.bodySite from http://hl7.org/fhir/ValueSet/body-site (example)
+* findings.circulation.bloodPressure.bodySite ^binding.description = "Body site"
 
 // D
 * findings.disability 0..1 BackboneElement "D: Disability (neurological deficit)"
@@ -267,15 +267,15 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * findings.disability.fast.face 1..1 CodeableConcept "F: Face drooping"
 * findings.disability.fast.face from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-yesNoUnknown (extensible)
 * findings.disability.fast.face ^binding.description = "F: Face drooping"
-* findings.disability.fast.face.laterality 0..1 CodeableConcept "Affected side"
-* findings.disability.fast.face.laterality from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-laterality (extensible)
-* findings.disability.fast.face.laterality ^binding.description = "Affected side"
+* findings.disability.fast.faceLaterality 0..1 CodeableConcept "F: Affected side"
+* findings.disability.fast.faceLaterality from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-laterality (extensible)
+* findings.disability.fast.faceLaterality ^binding.description = "Affected side"
 * findings.disability.fast.arm 1..1 CodeableConcept "A: Arm weakness"
 * findings.disability.fast.arm from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-yesNoUnknown (extensible)
 * findings.disability.fast.arm ^binding.description = "A: Arm weakness"
-* findings.disability.fast.arm.laterality 0..1 CodeableConcept "Affected side"
-* findings.disability.fast.arm.laterality from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-laterality (extensible)
-* findings.disability.fast.arm.laterality ^binding.description = "Affected side"
+* findings.disability.fast.armLaterality 0..1 CodeableConcept "A: Affected side"
+* findings.disability.fast.armLaterality from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-laterality (extensible)
+* findings.disability.fast.armLaterality ^binding.description = "Affected side"
 * findings.disability.fast.speech 1..1 CodeableConcept "S: Speech difficulty" 
 * findings.disability.fast.speech from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-yesNoUnknown (extensible)
 * findings.disability.fast.speech ^binding.description = "S: Speech difficulty"
@@ -295,7 +295,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * diagnosis.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagType (extensible)
 * diagnosis.type ^binding.description = "Diagnosis type"
 * diagnosis.author 0..1 BackboneElement "Author of the diagnosis"
-* diagnosis.author.name 0..1 HumanName "Name"
+* diagnosis.author.name 0..1 BackboneElement "Name"
 * diagnosis.author.name.firstName 0..1 string "First name"
 * diagnosis.author.name.lastName 0..1 string "Last name"
 * diagnosis.author.gln 0..1 Identifier "GLN (Global Location Number)" // 0..1 because a suspected diagnosis can also be made by a paramedic in training
@@ -313,7 +313,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * procedures 0..1 BackboneElement "Procedures"
 * procedures.medicationAdministration 0..* BackboneElement "Medication administration"
 * procedures.medicationAdministration.medication 1..1 BackboneElement "Medication"
-* procedures.medicationAdministration.medication.product 0..1 CodeableConcept "Product"
+* procedures.medicationAdministration.medication.product 0..1 BackboneElement "Product"
 * procedures.medicationAdministration.medication.product.gtin 0..1 Coding "GTIN (Global Trade Item Number (GS1)) for Swiss products"
 * procedures.medicationAdministration.medication.product.atc 0..1 Coding "ATC (Anatomical Therapeutic Chemical Classification) for foreign products"
 * procedures.medicationAdministration.medication.product.freeText 0..1 string "Product name"
