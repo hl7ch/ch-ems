@@ -22,7 +22,7 @@ Description: "This profile constrains the MedicationStatement resource for repre
 * dosage.timing MS
 // Surface Timing.repeat.when in the snapshot so the Model Map ConceptMap can target it as
 // an implicit code (FHIR §4.8.15). See https://github.com/hl7ch/ch-ems/issues/42
-* dosage.timing.repeat.when ^short = "Einnahmeschema"
+* dosage.timing.repeat.when ^short = "Dosage scheme (e.g. 1-0-1-0 for morning, noon, evening, night)"
 * dosage.route MS 
 * dosage.method MS
 * dosage.doseAndRate MS

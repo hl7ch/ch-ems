@@ -398,6 +398,13 @@ Description: "Code system containing concepts defined by IVR."
 * #1000075 ^designation[=].value = "Stridor à gauche"
 * #1000075 ^designation[+].language = #it-CH
 * #1000075 ^designation[=].value = "Stridore a sinistra"
+* #1000076 "Stridor rechts"
+* #1000076 ^designation[0].language = #de-CH
+* #1000076 ^designation[=].value = "Stridor rechts"
+* #1000076 ^designation[+].language = #fr-CH
+* #1000076 ^designation[=].value = "Stridor à droite"
+* #1000076 ^designation[+].language = #it-CH
+* #1000076 ^designation[=].value = "Stridore a destra"
 * #1000077 "Respiratory crackles left"
 * #1000077 ^designation[0].language = #de-CH
 * #1000077 ^designation[=].value = "Rasselgeräusche links"
@@ -987,14 +994,6 @@ Description: "Code system containing concepts defined by IVR."
 * #1000172 ^designation[=].value = "Heure de prise en charge médecin d'urgence"
 * #1000172 ^designation[+].language = #it-CH
 * #1000172 ^designation[=].value = "Orario di prelievo medico d'urgenza"
-
-* #100076 "Stridor rechts"
-* #100076 ^designation[0].language = #de-CH
-* #100076 ^designation[=].value = "Stridor rechts"
-* #100076 ^designation[+].language = #fr-CH
-* #100076 ^designation[=].value = "Stridor à droite"
-* #100076 ^designation[+].language = #it-CH
-* #100076 ^designation[=].value = "Stridore a destra"
 * #1100001 "intervention"
 * #1100001 ^designation[0].language = #de-CH
 * #1100001 ^designation[=].value = "Einsatz"

@@ -104,7 +104,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Stridor à gauche"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Stridore a sinistra"
-* compose.include[=].concept[+].code = #100076
+* compose.include[=].concept[+].code = #1000076
 * compose.include[=].concept[=].display = "Stridor rechts"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Stridor rechts"
