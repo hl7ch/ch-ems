@@ -5,6 +5,10 @@ All significant changes to this FHIR implementation guide will be documented on 
 #### Changed / Updated
 * [#74](https://github.com/hl7ch/ch-ems/issues/74): Fix typo in IVR code for "Stridor rechts" (`100076` → `1000076`)
 * [#71](https://github.com/hl7ch/ch-ems/issues/71), [#72](https://github.com/hl7ch/ch-ems/issues/72): Use English only for the short descriptions in the StructureDefinitions (profiles and logical model); multilingual descriptions listing all languages (e.g. Composition section titles) are kept
+* Fix QA errors raised by IG Publisher 3.0.0:
+  * Logical model: elements with sub-elements are now `BackboneElement` instead of `HumanName`, `Address` or `CodeableConcept` (paths unchanged); qualifiers of coded elements are now siblings (`mission.urgencyAdequacy`, `findings.circulation.bloodPressure.bodySite`, `findings.disability.fast.faceLaterality`, `findings.disability.fast.armLaterality`), Model Maps updated accordingly
+  * Re-declare the base bindings to `v2-0092` and `v2-0116` without the unresolvable version `2.9` in the Encounter and Location profiles
+  * Examples: unique titles for the Composition examples and correct heading levels in the narrative
 
 ### v2.0.0-ballot (2026-06-10)
 

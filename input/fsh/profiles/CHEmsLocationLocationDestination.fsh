@@ -4,6 +4,9 @@ Id: ch-ems-location-locationdestination
 Title: "CH EMS Location: Location and Destination"
 Description: "This profile constrains the Location resource for representing the location and the destination of the mission, either as physical location (address) or geographic location (position)."
 * . ^short = "CH EMS Location: Location and Destination"
+// The R4 base binding pins v2-0116|2.9, which does not resolve against current THO (ValueSet
+// version 3.0.0); re-declare it unversioned
+* operationalStatus from http://terminology.hl7.org/ValueSet/v2-0116 (preferred)
 * identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "$this"
 * identifier ^slicing.rules = #open
