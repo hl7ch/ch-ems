@@ -13,4 +13,4 @@ Usage: #example
 // cdachems-dataelement-488 Ersteller Diagnose
 * performer.reference = "Practitioner/1-NotarztPierreUrgentiste"
 
-* valueCodeableConcept.coding[icd10] = $icd-10-gm#I21.0 "ST elevation (STEMI) myocardial infarction of anterior wall"
+* valueCodeableConcept.coding[icd10] = $icd-10-gm#I21.0 "Akuter transmuraler Myokardinfarkt der Vorderwand"
