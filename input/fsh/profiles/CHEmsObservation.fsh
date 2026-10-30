@@ -2,7 +2,8 @@ Profile: CHEmsObservation
 Parent: Observation
 Id: ch-ems-observation
 Title: "CH EMS Observation (Base)"
-Description: "This profile constrains the Observation resource to define the requirements for all specialized CH EMS Observation profiles."
+Description: "This abstract profile constrains the Observation resource to define the requirements for all specialized CH EMS Observation profiles. It is not intended to be instantiated directly."
+* ^abstract = true
 * . ^short = "CH EMS Observation (Base)"
 * subject 1.. MS
 * subject only Reference(CHEmsPatient)
