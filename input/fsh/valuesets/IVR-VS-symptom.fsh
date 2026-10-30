@@ -69,7 +69,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Tachykardie"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "Tachycardie"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Tachicardia"
 * compose.include[=].concept[+].code = #418363000
 * compose.include[=].concept[=].display = "Pruritus"
