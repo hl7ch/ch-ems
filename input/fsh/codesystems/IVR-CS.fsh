@@ -1108,6 +1108,13 @@ Description: "Code system containing concepts defined by IVR."
 * #IV ^designation[=].value = "Perturbation grave, mettant la vie en danger"
 * #IV ^designation[+].language = #it-CH
 * #IV ^designation[=].value = "Grave disturbo, pericolo di morte"
+* #NACA-V "akute Lebensgefahr"
+* #NACA-V ^designation[0].language = #de-CH
+* #NACA-V ^designation[=].value = "akute Lebensgefahr"
+* #NACA-V ^designation[+].language = #fr-CH
+* #NACA-V ^designation[=].value = "Danger de mort immédiat"
+* #NACA-V ^designation[+].language = #it-CH
+* #NACA-V ^designation[=].value = "Pericolo di morte imminente"
 * #P "Reaktion nur auf Schmerzreiz"
 * #P ^designation[0].language = #de-CH
 * #P ^designation[=].value = "Reazione solo allo stimolo del dolore"

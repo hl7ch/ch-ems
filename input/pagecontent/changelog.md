@@ -11,6 +11,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#55](https://github.com/hl7ch/ch-ems/issues/55): Rename extension `ch-ems-ext-performer` to `ch-ems-ext-performer-qualification` (slice `performerQualification` in CH EMS Procedure: Pretreatment) and describe it in more detail, to distinguish it from `Procedure.performer`
 * [#86](https://github.com/hl7ch/ch-ems/issues/86): Fix typo in SNOMED CT code for work accident in IVR-VS-event (`7542004` → `17542004`)
 * [#59](https://github.com/hl7ch/ch-ems/issues/59): Remove the `contained` aggregation constraint on `ServiceRequest.requester` (and the mustSupport flag on `ServiceRequest.contained`) in CH EMS ServiceRequest: the requesting organization can be contained or a separate entry in the document Bundle
+* [#66](https://github.com/hl7ch/ch-ems/issues/66): Add IVR code `NACA-V` for NACA V "akute Lebensgefahr" and use it in IVR-VS-NACA instead of `V`, which keeps only its AVPU meaning "Reaktion nur bei lauter Ansprache"
 
 ### v2.0.0-ballot (2026-06-10)
 
