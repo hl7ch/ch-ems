@@ -56,7 +56,7 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Perturbation grave, mettant la vie en danger"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Grave disturbo, pericolo di morte"
-* compose.include.concept[+].code = #V
+* compose.include.concept[+].code = #NACA-V
 * compose.include.concept[=].display = "akute Lebensgefahr"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "akute Lebensgefahr"
