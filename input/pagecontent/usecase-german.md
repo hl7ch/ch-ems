@@ -48,7 +48,7 @@ Die nachfolgende Grafik beschreibt also einen möglichst generischen Ablauf, der
       Während die Daten zur Person und zur Administration bei einem <em>Sekundäreinsatz</em> von Beginn weg bekannt sind, müssen Sie bei einem <em>Primäreinsatz</em> oft am Einsatzort noch einmal ergänzt werden. Dies kann parallel zur Erhebung der Anamnese und Befunde geschehen. Im einfachsten Fall verfügt der Patient über einen Ausweis und/oder eine Versicherungskarte.
     </p>
     <p>
-      Sobald der Patient transportfähig und der Zielort (meist eine meidzinisch geeignete Notfallstation mit Aufnahmekapazität) bekannt ist, wird der <strong>Patiententransport</strong> durchgeführt.
+      Sobald der Patient transportfähig und der Zielort (meist eine medizinisch geeignete Notfallstation mit Aufnahmekapazität) bekannt ist, wird der <strong>Patiententransport</strong> durchgeführt.
     </p>
     <p>
       Am <strong>Zielort</strong> werden der Patient sowie das medizinische Einsatzprotokoll ans Spital <strong>übergeben</strong>.
@@ -69,7 +69,7 @@ Für das Einsatzprotokoll für Rettungsdienste werden zwei Anwendungsfälle besc
 Einsatz, in dem der Rettungsdienst den ersten Kontakt mit dem Patienten hat und diesen auf Grund eines Ausweises, auf Grund einer Aussage des Patienten o.ä. **eindeutig identifizieren** kann. Häufig handelt es sich hierbei um Notfalleinsätze. Primäreinsätze sind für den Rettungsdienst mehrheitlich nicht planbar. 
 
 [**2. Primäreinsatz mit unbekanntem Patienten**](usecase-german.html#anwendungsfall-2---primäreinsatz-mit-unbekanntem-patienten)      
-Einsatz, in dem das Team des Rettungsdienstes bis zum Abschluss des Einsatzes den Patienten **nicht identifizieren** kann. Gründe dafür können z.B. sein, dass sich die Person nicht äussern kann und keine Ausweise auf sich trägt oder dass im Falle eines Grossereignisses die Identifikation der Verletzen auf dem Schadenplatz mangels Zeit nicht erfolgen konnte.
+Einsatz, in dem das Team des Rettungsdienstes bis zum Abschluss des Einsatzes den Patienten **nicht identifizieren** kann. Gründe dafür können z.B. sein, dass sich die Person nicht äussern kann und keine Ausweise auf sich trägt oder dass im Falle eines Grossereignisses die Identifikation der Verletzten auf dem Schadenplatz mangels Zeit nicht erfolgen konnte.
 
 Beide Anwendungsfälle sind frei erfunden. Sie dienen allein der Illustration, wie Angaben, die im Verlauf eines Einsatzes erfahren werden, im Datensatz des CH EMS abgebildet werden. Die Anwendungsfälle können deshalb Angaben enthalten, die einsatztaktisch oder medizinisch nicht sinnvoll sind. Die Beschreibung der beiden Anwendungsfälle enthält Daten, die in den Beispieldaten des Datensatzes soweit möglich wieder aufgenommen werden.    
 Das Einsatzprotokoll für Anwendungsfall 1 enthält die Daten weitgehend in **strukturierter Form**. Im Gegensatz dazu zeigt das Einsatzprotokoll für Anwendungsfall 2 eine **Kombination aus strukturierten Daten und Freitext**. Damit sollen die unterschiedlichen Nutzungsmöglichkeiten des Austauschformats in Abhängigkeit vom jeweiligen Implementierungsgrad veranschaulicht werden.

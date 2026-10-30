@@ -3,8 +3,11 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### v2.0.0 (unreleased)
 
 #### Changed / Updated
+* [#50](https://github.com/hl7ch/ch-ems/issues/50): Clarify the mustSupport definition: an element may only be omitted if it has a minimum cardinality of 0
 * [#74](https://github.com/hl7ch/ch-ems/issues/74): Fix typo in IVR code for "Stridor rechts" (`100076` → `1000076`)
 * [#71](https://github.com/hl7ch/ch-ems/issues/71), [#72](https://github.com/hl7ch/ch-ems/issues/72): Use English only for the short descriptions in the StructureDefinitions (profiles and logical model); multilingual descriptions listing all languages (e.g. Composition section titles) are kept
+* [#53](https://github.com/hl7ch/ch-ems/issues/53): Fix typos in the German and French index and use case pages
+* [#54](https://github.com/hl7ch/ch-ems/issues/54): Use PLS number CHAA349 consistently for the unknown patient in use case 2 (French page and example Patient 2-PatientUnbekannt)
 * [#55](https://github.com/hl7ch/ch-ems/issues/55): Rename extension `ch-ems-ext-performer` to `ch-ems-ext-performer-qualification` (slice `performerQualification` in CH EMS Procedure: Pretreatment) and describe it in more detail, to distinguish it from `Procedure.performer`
 
 ### v2.0.0-ballot (2026-06-10)
