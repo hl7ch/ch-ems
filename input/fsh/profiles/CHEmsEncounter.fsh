@@ -37,6 +37,7 @@ Description: "This profile constrains the Encounter resource for representing th
 * period 1..
 * period ^short = "The date (and time) of the mission"
 * period.start 1.. MS
+* hospitalization 1..
 * hospitalization ^short = "Destination of the mission"
 * hospitalization.destination 1.. MS
 * hospitalization.destination only Reference(CHEmsLocationLocationDestination)

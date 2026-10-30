@@ -59,7 +59,7 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * mission.location.type 0..1 CodeableConcept "Location type"
 * mission.location.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-locationType (extensible)
 * mission.location.type ^binding.description = "Location type"
-* mission.destination 0..1 BackboneElement "Destination"
+* mission.destination 1..1 BackboneElement "Destination"
 * mission.destination.address 0..1 Address "Address"
 * mission.destination.address.street 0..1 string "Street"
 * mission.destination.address.zipCode 0..1 string "Postal code"

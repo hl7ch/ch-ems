@@ -10,6 +10,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#54](https://github.com/hl7ch/ch-ems/issues/54): Use PLS number CHAA349 consistently for the unknown patient in use case 2 (French page and example Patient 2-PatientUnbekannt)
 * [#55](https://github.com/hl7ch/ch-ems/issues/55): Rename extension `ch-ems-ext-performer` to `ch-ems-ext-performer-qualification` (slice `performerQualification` in CH EMS Procedure: Pretreatment) and describe it in more detail, to distinguish it from `Procedure.performer`
 * [#86](https://github.com/hl7ch/ch-ems/issues/86): Fix typo in SNOMED CT code for work accident in IVR-VS-event (`7542004` → `17542004`)
+* [#64](https://github.com/hl7ch/ch-ems/issues/64): The destination of the mission is mandatory: `mission.destination` is 1..1 in the logical model, and `Encounter.hospitalization` is 1.. in CH EMS Encounter, as `hospitalization.destination` was only required if `hospitalization` was present
 
 ### v2.0.0-ballot (2026-06-10)
 
