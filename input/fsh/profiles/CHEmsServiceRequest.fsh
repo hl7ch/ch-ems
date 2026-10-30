@@ -2,9 +2,8 @@ Profile: CHEmsServiceRequest
 Parent: CHCoreServiceRequest
 Id: ch-ems-servicerequest
 Title: "CH EMS ServiceRequest"
-Description: "This profile constrains the ServiceRequest resource for representing the requesting organization and further mission details."
+Description: "This profile constrains the ServiceRequest resource for representing the requesting organization and further mission details. The requesting organization can either be contained in the ServiceRequest or be a separate entry in the document Bundle."
 * . ^short = "CH EMS ServiceRequest"
-* contained MS
 * subject only Reference(CHEmsPatient)
 * subject MS
 * subject.reference 1..
@@ -15,7 +14,6 @@ Description: "This profile constrains the ServiceRequest resource for representi
 * requester only Reference(CHEmsOrganization)
 * requester ^short = "Requesting organisation (intermediate care (IMC))"
 * requester MS
-* requester ^type.aggregation = #contained
 * requester.reference 1..
 * insurance only Reference(CHEmsCoverage)
 * insurance MS
