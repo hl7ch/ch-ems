@@ -47,8 +47,8 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Chute"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Caduta"
-* compose.include[=].concept[+].code = #7542004
-* compose.include[=].concept[=].display = "Work Accident"
+* compose.include[=].concept[+].code = #17542004
+* compose.include[=].concept[=].display = "Work accident"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Arbeitsunfall"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
