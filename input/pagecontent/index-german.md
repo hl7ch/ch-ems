@@ -23,7 +23,7 @@ Die [CH EMS Profile](profiles.html) basieren auf den CH Core Basisprofilen. Die 
 *Validierung: siehe [README CH EMS](https://github.com/hl7ch/ch-ems)*
 
 #### Schweizer EPD-Kontext
-Wenn die Dokumente im EPD-Kontext verwendet werden, müssen auch die Anforderungen des  [CH Core EPD-Dokumentenprofil](http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-document-epr.html) erfüllt werden. Für den Anwendungsfall der Notfalldienste gibt es zwei Hauptaspekte, die im EPD-Kontext berücksichtig werden müssen:
+Wenn die Dokumente im EPD-Kontext verwendet werden, müssen auch die Anforderungen des  [CH Core EPD-Dokumentenprofils](http://fhir.ch/ig/ch-core/StructureDefinition-ch-core-document-epr.html) erfüllt werden. Für den Anwendungsfall der Notfalldienste gibt es zwei Hauptaspekte, die im EPD-Kontext berücksichtigt werden müssen:
 * Die **Sozialversicherungsnummer (AHVN13)** des Patienten **darf nicht** im EPD gespeichert werden
 * Für ein gültiges EPD-Dokument müssen der **Name** und das **Geburtsdatum** des Patienten bekannt sein, was bei Notfalldiensten nicht immer gewährleistet ist    
 
@@ -34,7 +34,7 @@ Um die Kompatibilitätsprüfung gegen die CH Core EPD-Profile zu unterstützen, 
 
 ### Must Support
 Für das CH EMS Austauschformat hat das [mustSupport](https://hl7.org/fhir/R4/profiling.html#mustsupport) Flag, das auf `true` gesetzt ist, folgende Bedeutung:    
-Wenn die sendende Applikation Daten für das entsprechende Element hat, muss das Element mit einem nicht-leeren Wert ausgefüllt werden. Wenn der Wert nicht bekannt ist, kann das Element weggelassen werden.
+Wenn die sendende Applikation Daten für das entsprechende Element hat, muss das Element mit einem nicht-leeren Wert ausgefüllt werden. Wenn der Wert nicht bekannt ist, kann das Element weggelassen werden, sofern das Element eine minimale Kardinalität von 0 hat.
 
 ### Analyse & Abhängigkeiten
 Die nachfolgende Dokumentation beschreibt die Lizenz- und Nutzungsbedingungen für verschiedene Inhalte ([IP Statements](#ip-statements)), die in diesem IG genutzt werden. Die Analyse zur Versionskompatibilität ([Cross Version Analysis](#cross-version-analysis)) zeigt die Kompatibilität dieses IGs zu FHIR R4 und R4B auf. Zudem werden Abhängigkeiten und Pakete ([Dependency Table](#dependency-table)) sowie eine Aussage über globale Profile ([Globals Table](#globals-table)) aufgeführt. Diese Abschnitte werden automatisch durch das Tooling (in Englisch) generiert.
