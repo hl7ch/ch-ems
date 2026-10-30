@@ -824,7 +824,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000139 ^designation[+].language = #fr-CH
 * #1000139 ^designation[=].value = "ECG 3 dérivations"
 * #1000139 ^designation[+].language = #it-CH
-* #1000139 ^designation[=].value = "ECG e derivazioni"
+* #1000139 ^designation[=].value = "ECG 3 derivazioni"
 * #1000140 "4pol EKG"
 * #1000140 ^designation[0].language = #de-CH
 * #1000140 ^designation[=].value = "4pol EKG"
@@ -1110,7 +1110,7 @@ Description: "Code system containing concepts defined by IVR."
 * #IV ^designation[=].value = "Grave disturbo, pericolo di morte"
 * #P "Reaktion nur auf Schmerzreiz"
 * #P ^designation[0].language = #de-CH
-* #P ^designation[=].value = "Reazione solo allo stimolo del dolore"
+* #P ^designation[=].value = "Reaktion nur auf Schmerzreiz"
 * #P ^designation[+].language = #fr-CH
 * #P ^designation[=].value = "Réaction uniquement au stimulus de la douleur"
 * #P ^designation[+].language = #it-CH
