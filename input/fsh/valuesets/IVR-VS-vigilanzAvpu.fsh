@@ -27,7 +27,7 @@ Usage: #definition
 * compose.include.concept[+].code = #P
 * compose.include.concept[=].display = "Reaktion nur auf Schmerzreiz"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Reazione solo allo stimolo del dolore"
+* compose.include.concept[=].designation[=].value = "Reaktion nur auf Schmerzreiz"
 * compose.include.concept[=].designation[+].language = #fr-CH
 * compose.include.concept[=].designation[=].value = "Réaction uniquement au stimulus de la douleur"
 * compose.include.concept[=].designation[+].language = #it-CH
