@@ -6,7 +6,6 @@ Usage: #example
 // cdachems-dataelement-281 GLN Teammitglied
 * identifier[GLN].system = "urn:oid:2.51.1.3"
 * identifier[GLN].value = "7601000028105"
-* identifier[GLN].assigner.reference = "Organization/1-TeamRettungsdienst"
 * name.family = "Urgentiste"
 * name.given = "Pierre"
 * qualification.code = $sct#309294001 "Emergency department physician (occupation)"
