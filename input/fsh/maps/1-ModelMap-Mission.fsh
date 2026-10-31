@@ -123,11 +123,15 @@ Usage: #definition
 * group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team.member.gln
 * group[=].element[=].target.code = #Practitioner.identifier:GLN
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team
-* group[=].element[=].target.code = #Practitioner.identifier:GLN.assigner
-* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.mission.respondingOrganisation.team.member.formation
 * group[=].element[=].target.code = #Practitioner.qualification.code
+* group[=].element[=].target.equivalence = #equivalent
+
+// team membership
+* group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"
+* group[=].target = "http://fhir.ch/ig/ch-ems/StructureDefinition/ch-ems-practitionerrole"
+* group[=].element[0].code = #EMSProtocol.mission.respondingOrganisation.team
+* group[=].element[=].target.code = #PractitionerRole.organization
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "http://fhir.ch/ig/ch-ems/StructureDefinition/logicalmodel-ems-protocol"

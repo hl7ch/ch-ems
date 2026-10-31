@@ -14,6 +14,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#51](https://github.com/hl7ch/ch-ems/issues/51): Remove the hand-written narratives of the Model Maps, so the IG Publisher (3.0.1 or later) generates them with the element types instead of `todo`
 * [#63](https://github.com/hl7ch/ch-ems/issues/63): Remove the statements on EPR conformance from the use case examples, as the patient of use case 1 contains the AHVN13, which must not be stored in the EPR
 * [#73](https://github.com/hl7ch/ch-ems/issues/73): Declare the base profile CH EMS Observation (Base) as abstract, it is not intended to be instantiated directly
+* [#67](https://github.com/hl7ch/ch-ems/issues/67): Remove the dubious usage of `Identifier.assigner` for the team reference in CH EMS Practitioner (`identifier[GLN].assigner`); the team is now represented by `PractitionerRole.organization` (Model Map EmsMission2Fhir and examples)
 
 ### v2.0.0-ballot (2026-06-10)
 
