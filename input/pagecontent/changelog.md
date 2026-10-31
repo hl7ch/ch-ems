@@ -13,6 +13,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#59](https://github.com/hl7ch/ch-ems/issues/59): Remove the `contained` aggregation constraint on `ServiceRequest.requester` (and the mustSupport flag on `ServiceRequest.contained`) in CH EMS ServiceRequest: the requesting organization can be contained or a separate entry in the document Bundle
 * [#51](https://github.com/hl7ch/ch-ems/issues/51): Remove the hand-written narratives of the Model Maps, so the IG Publisher (3.0.1 or later) generates them with the element types instead of `todo`
 * [#63](https://github.com/hl7ch/ch-ems/issues/63): Remove the statements on EPR conformance from the use case examples, as the patient of use case 1 contains the AHVN13, which must not be stored in the EPR
+* [#66](https://github.com/hl7ch/ch-ems/issues/66): Add IVR code `NACA-V` for NACA V "akute Lebensgefahr" and use it in IVR-VS-NACA instead of `V`, which keeps only its AVPU meaning "Reaktion nur bei lauter Ansprache"
+* [#66](https://github.com/hl7ch/ch-ems/issues/66): Remove the duplicate IVR code `100005` "no information"; IVR-VS-event uses `1000058` instead
 
 ### v2.0.0-ballot (2026-06-10)
 
