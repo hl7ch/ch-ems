@@ -17,6 +17,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#58](https://github.com/hl7ch/ch-ems/issues/58): Use the German display for ICD-10-GM I21.0 in example 1-Diagnose, so the de-CH example Bundles validate without errors
 * [#65](https://github.com/hl7ch/ch-ems/issues/65): Fix invalid concept translations: AVPU `P` (de-CH), 3-lead ECG `1000139` (it-CH), death of unknown cause (it-CH) and the language tags of tachycardia (it-CH) and hospital (fr-CH)
 * [#66](https://github.com/hl7ch/ch-ems/issues/66): Add IVR code `NACA-V` for NACA V "akute Lebensgefahr" and use it in IVR-VS-NACA instead of `V`, which keeps only its AVPU meaning "Reaktion nur bei lauter Ansprache"
+* [#66](https://github.com/hl7ch/ch-ems/issues/66): Remove the duplicate IVR code `100005` "no information"; IVR-VS-event uses `1000058` instead
 
 ### v2.0.0-ballot (2026-06-10)
 

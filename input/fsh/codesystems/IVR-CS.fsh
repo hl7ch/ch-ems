@@ -230,13 +230,6 @@ Description: "Code system containing concepts defined by IVR."
 * #1000049 ^designation[=].value = "Agression physique légère"
 * #1000049 ^designation[+].language = #it-CH
 * #1000049 ^designation[=].value = "Leggera aggressione fisica"
-* #100005 "no information"
-* #100005 ^designation[0].language = #de-CH
-* #100005 ^designation[=].value = "keine Angaben"
-* #100005 ^designation[+].language = #fr-CH
-* #100005 ^designation[=].value = "Pas d'informations"
-* #100005 ^designation[+].language = #it-CH
-* #100005 ^designation[=].value = "Nessuna informazione"
 * #1000050 "schwerer körperlicher Angriff"
 * #1000050 ^designation[0].language = #de-CH
 * #1000050 ^designation[=].value = "schwerer körperlicher Angriff"
