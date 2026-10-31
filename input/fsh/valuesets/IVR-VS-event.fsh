@@ -104,11 +104,11 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Sconosciuto"
 * compose.include[+].system = $IVR-CS
-* compose.include[=].concept.code = #100005
+* compose.include[=].concept.code = #1000058
 * compose.include[=].concept.display = "no information"
 * compose.include[=].concept.designation[0].language = #de-CH
 * compose.include[=].concept.designation[=].value = "keine Angaben"
 * compose.include[=].concept.designation[+].language = #fr-CH
-* compose.include[=].concept.designation[=].value = "Pas d'informations"
+* compose.include[=].concept.designation[=].value = "Aucune information"
 * compose.include[=].concept.designation[+].language = #it-CH
 * compose.include[=].concept.designation[=].value = "Nessuna informazione"
