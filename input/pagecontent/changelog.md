@@ -12,6 +12,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#86](https://github.com/hl7ch/ch-ems/issues/86): Fix typo in SNOMED CT code for work accident in IVR-VS-event (`7542004` → `17542004`)
 * [#59](https://github.com/hl7ch/ch-ems/issues/59): Remove the `contained` aggregation constraint on `ServiceRequest.requester` (and the mustSupport flag on `ServiceRequest.contained`) in CH EMS ServiceRequest: the requesting organization can be contained or a separate entry in the document Bundle
 * [#51](https://github.com/hl7ch/ch-ems/issues/51): Remove the hand-written narratives of the Model Maps, so the IG Publisher (3.0.1 or later) generates them with the element types instead of `todo`
+* [#63](https://github.com/hl7ch/ch-ems/issues/63): Remove the statements on EPR conformance from the use case examples, as the patient of use case 1 contains the AHVN13, which must not be stored in the EPR
 
 ### v2.0.0-ballot (2026-06-10)
 
