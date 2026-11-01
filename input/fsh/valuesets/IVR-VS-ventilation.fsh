@@ -10,8 +10,8 @@ Usage: #definition
 * compose.include.concept.code = #707765006
 * compose.include.concept.display = "On ventilator"
 * compose.include.concept.designation[0].language = #de-CH
-* compose.include.concept.designation[=].value = "beatmet"
+* compose.include.concept.designation[=].value = "Beatmet"
 * compose.include.concept.designation[+].language = #fr-CH
-* compose.include.concept.designation[=].value = "Ventilé"
+* compose.include.concept.designation[=].value = "ventilé"
 * compose.include.concept.designation[+].language = #it-CH
-* compose.include.concept.designation[=].value = "Ventilato"
+* compose.include.concept.designation[=].value = "ventilato"

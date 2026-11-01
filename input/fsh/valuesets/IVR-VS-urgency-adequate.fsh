@@ -14,7 +14,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "oui"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "si"
+* compose.include[=].concept[=].designation[=].value = "sì"
 * compose.include[=].concept[+].code = #373067005
 * compose.include[=].concept[=].display = "No"
 * compose.include[=].concept[=].designation[0].language = #de-CH

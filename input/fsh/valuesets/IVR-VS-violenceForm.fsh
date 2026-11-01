@@ -10,43 +10,43 @@ Usage: #definition
 * compose.include[=].concept[0].code = #260413007
 * compose.include[=].concept[=].display = "None"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "keine"
+* compose.include[=].concept[=].designation[=].value = "Kein"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Aucun"
+* compose.include[=].concept[=].designation[=].value = "aucun"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Nessuna"
+* compose.include[=].concept[=].designation[=].value = "nessuno"
 * compose.include[=].concept[+].code = #284616006
 * compose.include[=].concept[=].display = "Verbally threatening behaviour"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Verbale Drohung"
+* compose.include[=].concept[=].designation[=].value = "Verbal bedrohliches Verhalten"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Menaces verbales"
+* compose.include[=].concept[=].designation[=].value = "comportement verbal menaçant"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Minacce verbali"
+* compose.include[=].concept[=].designation[=].value = "comportamento verbalmente minaccioso"
 * compose.include[=].concept[+].code = #12405001
 * compose.include[=].concept[=].display = "Spitting"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Anspucken"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Crachat"
+* compose.include[=].concept[=].designation[=].value = "crachat"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Sputo"
+* compose.include[=].concept[=].designation[=].value = "sputo"
 * compose.include[=].concept[+].code = #248109002
 * compose.include[=].concept[=].display = "Sexual offence"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Sexuelle Belästigung"
+* compose.include[=].concept[=].designation[=].value = "Sexuell delinquentes Verhalten"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Agression sexuelle"
+* compose.include[=].concept[=].designation[=].value = "comportement sexuel délictueux"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Violenza sessuale"
+* compose.include[=].concept[=].designation[=].value = "comportamento sessuale delittuoso"
 * compose.include[=].concept[+].code = #74964007
 * compose.include[=].concept[=].display = "Other"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Anderes"
+* compose.include[=].concept[=].designation[=].value = "Andere"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Autre"
+* compose.include[=].concept[=].designation[=].value = "autre"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Altro"
+* compose.include[=].concept[=].designation[=].value = "altro"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000043
 * compose.include[=].concept[=].display = "contumeliousness"

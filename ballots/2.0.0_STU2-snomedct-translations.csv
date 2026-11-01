@@ -1,0 +1,523 @@
+value_set,concept_id,fsn,language,before,after,changed,basis,swiss_edition_preferred_term
+IVR-VS-InfectPersPrecaution,38126007,"Protective glasses, device (physical object)",de,Schutzbrille,Schutzbrille,no,proposed,
+IVR-VS-InfectPersPrecaution,38126007,"Protective glasses, device (physical object)",fr,Lunettes de protection,lunettes de protection,yes,proposed,
+IVR-VS-InfectPersPrecaution,38126007,"Protective glasses, device (physical object)",it,Occhiali protettivi,occhiali protettivi,yes,proposed,
+IVR-VS-InfectPersPrecaution,52291003,"Glove, device (physical object)",de,Handschuhe,Handschuh,yes,proposed,
+IVR-VS-InfectPersPrecaution,52291003,"Glove, device (physical object)",fr,Gants,gant,yes,proposed,
+IVR-VS-InfectPersPrecaution,52291003,"Glove, device (physical object)",it,Guanti,guanto,yes,proposed,
+IVR-VS-InfectPersPrecaution,409528009,Surgical face mask (physical object),de,Operationsmaske,Operationsmaske,no,proposed,
+IVR-VS-InfectPersPrecaution,409528009,Surgical face mask (physical object),fr,masque chirurgical,masque chirurgical,no,proposed,
+IVR-VS-InfectPersPrecaution,409528009,Surgical face mask (physical object),it,maschera chirurgica,mascherina chirurgica,yes,proposed,
+IVR-VS-InfectPersPrecaution,469008007,Airway protection face mask (physical object),de,Schutzmaske mit Ventil,Atemschutzmaske,yes,proposed,
+IVR-VS-InfectPersPrecaution,469008007,Airway protection face mask (physical object),fr,Masque de protection avec valve,masque de protection des voies respiratoires facial,yes,preferred term,masque de protection des voies respiratoires facial
+IVR-VS-InfectPersPrecaution,469008007,Airway protection face mask (physical object),it,Mascherine di protezione con valvola,maschera di protezione delle vie respiratorie,yes,proposed,
+IVR-VS-actRecovAid,156009,"Spine board, device (physical object)",de,Rettungsbrett,Rettungsbrett,no,proposed,
+IVR-VS-actRecovAid,156009,"Spine board, device (physical object)",fr,Planche de sauvetage,planche de sauvetage,yes,proposed,
+IVR-VS-actRecovAid,156009,"Spine board, device (physical object)",it,Asse spinale,asse spinale,yes,proposed,
+IVR-VS-actRecovAid,63562005,"Cervical collar, device (physical object)",de,Halskragen,Halskragen,no,proposed,
+IVR-VS-actRecovAid,63562005,"Cervical collar, device (physical object)",fr,Minerve,collet cervical,yes,preferred term,collet cervical
+IVR-VS-actRecovAid,63562005,"Cervical collar, device (physical object)",it,Collare cervicale,collare cervicale,yes,proposed,
+IVR-VS-actRecovAid,74964007,Other (qualifier value),de,andere,Andere,yes,preferred term,Andere
+IVR-VS-actRecovAid,74964007,Other (qualifier value),fr,autre,autre,no,preferred term,autre
+IVR-VS-actRecovAid,74964007,Other (qualifier value),it,altro,altro,no,proposed,
+IVR-VS-actRecovAid,89149003,"Stretcher, device (physical object)",de,Schaufelbahre,Schaufelbahre,no,meaning mismatch,
+IVR-VS-actRecovAid,89149003,"Stretcher, device (physical object)",fr,Brancard cuvière,brancard cuillère,yes,meaning mismatch,civière
+IVR-VS-actRecovAid,89149003,"Stretcher, device (physical object)",it,Barella cucchiaio,barella cucchiaio,yes,meaning mismatch,
+IVR-VS-actRecovAid,257389003,Lap belt (physical object),de,Beckengurt,Beckengurt,no,proposed,
+IVR-VS-actRecovAid,257389003,Lap belt (physical object),fr,Ceinture abdominale,ceinture sous-abdominale,yes,preferred term,ceinture sous-abdominale
+IVR-VS-actRecovAid,257389003,Lap belt (physical object),it,Cintura pelvica,cintura pelvica,yes,proposed,
+IVR-VS-actRespiOwner,74964007,Other (qualifier value),de,andere,Andere,yes,preferred term,Andere
+IVR-VS-actRespiOwner,74964007,Other (qualifier value),fr,Autre,autre,yes,preferred term,autre
+IVR-VS-actRespiOwner,74964007,Other (qualifier value),it,Altro,altro,yes,proposed,
+IVR-VS-actRespiOwner,116154003,Patient (person),de,Patient,Patient/Patientin,yes,preferred term,Patient/Patientin
+IVR-VS-actRespiOwner,116154003,Patient (person),fr,Patient,patient,yes,preferred term,patient
+IVR-VS-actRespiOwner,116154003,Patient (person),it,Paziente,paziente,yes,preferred term,paziente
+IVR-VS-actRespiOwner,409971007,Emergency medical services (qualifier value),de,Rettungsdienst,Rettungsdienst,no,proposed,
+IVR-VS-actRespiOwner,409971007,Emergency medical services (qualifier value),fr,Service d'ambulance,services médicaux d'urgence,yes,preferred term,services médicaux d'urgence
+IVR-VS-actRespiOwner,409971007,Emergency medical services (qualifier value),it,Servizio ambulanza,servizio di salvataggio,yes,proposed,
+IVR-VS-ambulanceType,55121009,"Light land transport vehicle, device (physical object)",de,Notarzt-Zubringer-Fahrzeug,Notarzt-Zubringer-Fahrzeug,no,meaning mismatch,
+IVR-VS-ambulanceType,55121009,"Light land transport vehicle, device (physical object)",fr,Véhicule SMUR,véhicule SMUR,yes,meaning mismatch,
+IVR-VS-ambulanceType,55121009,"Light land transport vehicle, device (physical object)",it,Automedica,automedica,yes,meaning mismatch,
+IVR-VS-ambulanceType,73957001,"Air transport ambulance, device (physical object)",de,Ambulanz-Jet,Ambulanzflugzeug,yes,proposed,
+IVR-VS-ambulanceType,73957001,"Air transport ambulance, device (physical object)",fr,Avion-ambulance,avion-ambulance,yes,proposed,
+IVR-VS-ambulanceType,73957001,"Air transport ambulance, device (physical object)",it,Aereoambulanza,aeroambulanza,yes,proposed,
+IVR-VS-ambulanceType,83887000,"Rescue vehicle, device (physical object)",de,Rettungswagen,Rettungswagen,no,proposed,
+IVR-VS-ambulanceType,83887000,"Rescue vehicle, device (physical object)",fr,ambulance,véhicule de sauvetage,yes,proposed,
+IVR-VS-ambulanceType,83887000,"Rescue vehicle, device (physical object)",it,,veicolo di salvataggio,yes,proposed,
+IVR-VS-ambulanceType,465341007,Automobile ambulance (physical object),de,Einsatzambulanz,Einsatzambulanz,no,proposed,
+IVR-VS-ambulanceType,465341007,Automobile ambulance (physical object),fr,Ambulance,ambulance,yes,proposed,
+IVR-VS-ambulanceType,465341007,Automobile ambulance (physical object),it,Ambulanza,ambulanza,yes,proposed,
+IVR-VS-ambulanceType,469233002,Helicopter ambulance (physical object),de,Rettungshelikopter,Rettungshelikopter,no,proposed,
+IVR-VS-ambulanceType,469233002,Helicopter ambulance (physical object),fr,Hélicoptère de sauvetage,hélicoptère de sauvetage,yes,proposed,
+IVR-VS-ambulanceType,469233002,Helicopter ambulance (physical object),it,Elicottero di salvataggio,elicottero di salvataggio,yes,proposed,
+IVR-VS-bedding,74964007,Other (qualifier value),de,andere,Andere,yes,preferred term,Andere
+IVR-VS-bedding,74964007,Other (qualifier value),fr,autre,autre,no,preferred term,autre
+IVR-VS-bedding,74964007,Other (qualifier value),it,altro,altro,no,proposed,
+IVR-VS-bedding,423212001,Trendelenburg positioning (procedure),de,Trendelenburg-Lage,Trendelenburg-Lagerung,yes,proposed,
+IVR-VS-bedding,423212001,Trendelenburg positioning (procedure),fr,Position de Trendelenburg,position de Trendelenburg,yes,proposed,
+IVR-VS-bedding,423212001,Trendelenburg positioning (procedure),it,Posizione di Trendelenburg,posizione di Trendelenburg,yes,proposed,
+IVR-VS-deathManner,38605008,Natural death (event),de,natürlicher Todesfall,Natürlicher Tod,yes,preferred term,Natürlicher Tod
+IVR-VS-deathManner,38605008,Natural death (event),fr,mort naturelle,mort naturelle,no,preferred term,mort naturelle
+IVR-VS-deathManner,38605008,Natural death (event),it,morte naturale,decesso da cause naturali,yes,preferred term,decesso da cause naturali
+IVR-VS-deathManner,87309006,Death of unknown cause (event),de,unklarer Todesfall,Tod mit unbekannter Ursache,yes,preferred term,Tod mit unbekannter Ursache
+IVR-VS-deathManner,87309006,Death of unknown cause (event),fr,mort inexpliquée,mort de cause inconnue,yes,preferred term,mort de cause inconnue
+IVR-VS-deathManner,87309006,Death of unknown cause (event),it,caduta di nodi più chiara,decesso per causa sconosciuta,yes,preferred term,decesso per causa sconosciuta
+IVR-VS-deathManner,418309003,Suspicious death (event),de,aussergewöhnlicher Todesfall,Aussergewöhnlicher Todesfall,yes,proposed,
+IVR-VS-deathManner,418309003,Suspicious death (event),fr,mort non naturelle,mort suspecte,yes,preferred term,mort suspecte
+IVR-VS-deathManner,418309003,Suspicious death (event),it,morte non naturale,decesso sospetto,yes,proposed,
+IVR-VS-diagType,2931005,Probable diagnosis (contextual qualifier) (qualifier value),de,Verdachtsdiagnose,Verdachtsdiagnose,no,proposed,
+IVR-VS-diagType,2931005,Probable diagnosis (contextual qualifier) (qualifier value),fr,Diagnostique suspecté,diagnostic probable,yes,preferred term,diagnostic probable
+IVR-VS-diagType,2931005,Probable diagnosis (contextual qualifier) (qualifier value),it,Sospetta diagnosi,diagnosi probabile,yes,proposed,
+IVR-VS-diagType,5558000,Working diagnosis (contextual qualifier) (qualifier value),de,Arbeitsdiagnose,Arbeitsdiagnose,no,proposed,
+IVR-VS-diagType,5558000,Working diagnosis (contextual qualifier) (qualifier value),fr,orientation diagnostique,orientation diagnostique,no,preferred term,orientation diagnostique
+IVR-VS-diagType,5558000,Working diagnosis (contextual qualifier) (qualifier value),it,diagnosi di lavoro,diagnosi di lavoro,no,proposed,
+IVR-VS-diagType,14657009,Established diagnosis (contextual qualifier) (qualifier value),de,Diagnose,Gesicherte Diagnose,yes,proposed,
+IVR-VS-diagType,14657009,Established diagnosis (contextual qualifier) (qualifier value),fr,Diagnostique,diagnostic établi,yes,preferred term,diagnostic établi
+IVR-VS-diagType,14657009,Established diagnosis (contextual qualifier) (qualifier value),it,Diagnosi,diagnosi accertata,yes,proposed,
+IVR-VS-diagType,47965005,Differential diagnosis (contextual qualifier) (qualifier value),de,Differentialdiagnose,Differenzialdiagnose,yes,proposed,
+IVR-VS-diagType,47965005,Differential diagnosis (contextual qualifier) (qualifier value),fr,Diagnostique différentiel,diagnostic différentiel,yes,preferred term,diagnostic différentiel
+IVR-VS-diagType,47965005,Differential diagnosis (contextual qualifier) (qualifier value),it,Diagnosi differenziale,diagnosi differenziale,yes,proposed,
+IVR-VS-event,1912002,Fall (event),de,Sturz,Sturz,no,preferred term,Sturz
+IVR-VS-event,1912002,Fall (event),fr,Chute,chute,yes,preferred term,chute
+IVR-VS-event,1912002,Fall (event),it,Caduta,caduta,yes,preferred term,caduta
+IVR-VS-event,17542004,Accident while engaged in work-related activity (event),de,Arbeitsunfall,Arbeitsunfall,no,preferred term,Arbeitsunfall
+IVR-VS-event,17542004,Accident while engaged in work-related activity (event),fr,Accident de travail,accident du travail,yes,accepted term,accident lors d'une activité professionnelle
+IVR-VS-event,17542004,Accident while engaged in work-related activity (event),it,Infortunio sul lavoro,infortunio sul lavoro,yes,preferred term,infortunio sul lavoro
+IVR-VS-event,19440001,Explosion (physical force),de,Explosion,Explosion,no,proposed,
+IVR-VS-event,19440001,Explosion (physical force),fr,Explosion,explosion,yes,preferred term,explosion
+IVR-VS-event,19440001,Explosion (physical force),it,Esplosione,esplosione,yes,proposed,
+IVR-VS-event,39104002,Illness (finding),de,Krankheit,Krankheit,no,preferred term,Krankheit
+IVR-VS-event,39104002,Illness (finding),fr,Maladie,maladie,yes,accepted term,malade
+IVR-VS-event,39104002,Illness (finding),it,Malattia,malattia,yes,preferred term,malattia
+IVR-VS-event,52684005,Assault (event),de,Überfall,Körperverletzung,yes,preferred term,Körperverletzung
+IVR-VS-event,52684005,Assault (event),fr,Assault,agression,yes,preferred term,agression
+IVR-VS-event,52684005,Assault (event),it,Assalto,aggressione,yes,preferred term,aggressione
+IVR-VS-event,57701003,Accident while engaged in sports activity (event),de,Sportunfall,Sportunfall,no,proposed,
+IVR-VS-event,57701003,Accident while engaged in sports activity (event),fr,Accident de sport,accident lors d'une activité sportive,yes,preferred term,accident lors d'une activité sportive
+IVR-VS-event,57701003,Accident while engaged in sports activity (event),it,Infortunio sportivo,infortunio sportivo,yes,proposed,
+IVR-VS-event,74964007,Other (qualifier value),de,anderes,Andere,yes,preferred term,Andere
+IVR-VS-event,74964007,Other (qualifier value),fr,Autre,autre,yes,preferred term,autre
+IVR-VS-event,74964007,Other (qualifier value),it,Altro,altro,yes,proposed,
+IVR-VS-event,79573009,Accident while engaged in household activity (event),de,Haushaltsunfall,Haushaltsunfall,no,preferred term,Haushaltsunfall
+IVR-VS-event,79573009,Accident while engaged in household activity (event),fr,Accident domestique,accident lors de travaux domestiques,yes,preferred term,accident lors de travaux domestiques
+IVR-VS-event,79573009,Accident while engaged in household activity (event),it,Infortunio domestico,infortunio domestico,yes,preferred term,infortunio domestico
+IVR-VS-event,80032004,Fire (physical force),de,Brand,Brand,no,proposed,
+IVR-VS-event,80032004,Fire (physical force),fr,Incendie,feu,yes,preferred term,feu
+IVR-VS-event,80032004,Fire (physical force),it,Incendio,incendio,yes,proposed,
+IVR-VS-event,261665006,Unknown (qualifier value),de,unbekannt,Unbekannt,yes,preferred term,Unbekannt
+IVR-VS-event,261665006,Unknown (qualifier value),fr,Inconnu,inconnu,yes,preferred term,inconnu
+IVR-VS-event,261665006,Unknown (qualifier value),it,Sconosciuto,sconosciuto/a,yes,preferred term,sconosciuto/a
+IVR-VS-event,418161006,Vehicle accident (event),de,Verkehrsunfall,Verkehrsunfall,no,proposed,
+IVR-VS-event,418161006,Vehicle accident (event),fr,Accident de la circulation,accident de véhicule,yes,preferred term,accident de véhicule
+IVR-VS-event,418161006,Vehicle accident (event),it,Incidente della circolazione,incidente della circolazione,yes,proposed,
+IVR-VS-event,1631000175102,Patient not asked (contextual qualifier) (qualifier value),de,nicht erfragt,Patient/Patientin nicht gefragt,yes,preferred term,Patient/Patientin nicht gefragt
+IVR-VS-event,1631000175102,Patient not asked (contextual qualifier) (qualifier value),fr,Pas demandé,patient(e) non interrogé(e),yes,proposed,
+IVR-VS-event,1631000175102,Patient not asked (contextual qualifier) (qualifier value),it,Non indagatto,paziente non interrogato(-a),yes,proposed,
+IVR-VS-eyeForm,79017007,Deformed pupil (finding),de,deformiert,Deformierte Pupille,yes,preferred term,Deformierte Pupille
+IVR-VS-eyeForm,79017007,Deformed pupil (finding),fr,déformé,pupille déformée,yes,preferred term,pupille déformée
+IVR-VS-eyeForm,79017007,Deformed pupil (finding),it,deformato,pupilla deformata,yes,proposed,
+IVR-VS-eyeForm,421356009,Pupil round (finding),de,rund,Pupille rund,yes,preferred term,Pupille rund
+IVR-VS-eyeForm,421356009,Pupil round (finding),fr,rond,pupille ronde,yes,preferred term,pupille ronde
+IVR-VS-eyeForm,421356009,Pupil round (finding),it,rotondo,pupilla rotonda,yes,proposed,
+IVR-VS-findingsAirway,17621005,Normal (qualifier value),de,unauffällig,Normal,yes,preferred term,Normal
+IVR-VS-findingsAirway,17621005,Normal (qualifier value),fr,Normal,normal,yes,preferred term,normal
+IVR-VS-findingsAirway,17621005,Normal (qualifier value),it,Normale,normale,yes,preferred term,normale
+IVR-VS-findingsAirway,23875004,No pathologic diagnosis (finding),de,Atemwege frei,Atemwege frei,no,context label,
+IVR-VS-findingsAirway,23875004,No pathologic diagnosis (finding),fr,Voies aériennes libres,voies aériennes libres,yes,context label,aucun diagnostic pathologique
+IVR-VS-findingsAirway,23875004,No pathologic diagnosis (finding),it,Vie aeree pervie,vie aeree pervie,yes,context label,
+IVR-VS-findingsAirway,48387007,Incision of trachea (procedure),de,Tracheostomie,Tracheostomie,no,context label,Inzision der Luftröhre
+IVR-VS-findingsAirway,48387007,Incision of trachea (procedure),fr,Tracheostomie,trachéostomie,yes,context label,incision de la trachée
+IVR-VS-findingsAirway,48387007,Incision of trachea (procedure),it,Tracheostomia,tracheostomia,yes,context label,incisione della trachea
+IVR-VS-findingsAirway,52765003,Intubation (procedure),de,Intubation,Intubation,no,preferred term,Intubation
+IVR-VS-findingsAirway,52765003,Intubation (procedure),fr,Intubation,intubation,yes,preferred term,intubation
+IVR-VS-findingsAirway,52765003,Intubation (procedure),it,Intubazione,intubazione,yes,preferred term,intubazione
+IVR-VS-findingsAirway,58596002,Inspiratory stridor (finding),de,Stridor inspiratorisch,Inspiratorischer Stridor,yes,preferred term,Inspiratorischer Stridor
+IVR-VS-findingsAirway,58596002,Inspiratory stridor (finding),fr,Stridor inspiratoire,stridor inspiratoire,yes,preferred term,stridor inspiratoire
+IVR-VS-findingsAirway,58596002,Inspiratory stridor (finding),it,Stridor inspiratorio,stridore inspiratorio,yes,proposed,
+IVR-VS-findingsAirway,68052005,Pulmonary aspiration (finding),de,Aspiration,Aspiration,no,preferred term,Aspiration
+IVR-VS-findingsAirway,68052005,Pulmonary aspiration (finding),fr,Bronchoaspiration,aspiration pulmonaire,yes,preferred term,aspiration pulmonaire
+IVR-VS-findingsAirway,68052005,Pulmonary aspiration (finding),it,Broncoaspirazione,aspirazione polmonare,yes,preferred term,aspirazione polmonare
+IVR-VS-findingsAirway,263821009,Obstructed (qualifier value),de,obstruiert,Obstruiert,yes,proposed,
+IVR-VS-findingsAirway,263821009,Obstructed (qualifier value),fr,Obstrué,obstrué,yes,preferred term,obstrué
+IVR-VS-findingsAirway,263821009,Obstructed (qualifier value),it,Ostruito,ostruito,yes,proposed,
+IVR-VS-findingsAirway,301287002,Expiratory stridor (finding),de,Stridor exspirtatorisch,Exspiratorischer Stridor,yes,preferred term,Exspiratorischer Stridor
+IVR-VS-findingsAirway,301287002,Expiratory stridor (finding),fr,Stridor expiratoire,stridor expiratoire,yes,preferred term,stridor expiratoire
+IVR-VS-findingsAirway,301287002,Expiratory stridor (finding),it,Stridore espiratorio,stridore espiratorio,yes,proposed,
+IVR-VS-formation,106292003,Professional nurse (occupation),de,Pflegefachperson,Pflegefachmann / Pflegefachfrau,yes,preferred term,Pflegefachmann / Pflegefachfrau
+IVR-VS-formation,106292003,Professional nurse (occupation),fr,Infirmier/ère,infirmière,yes,preferred term,infirmière
+IVR-VS-formation,106292003,Professional nurse (occupation),it,Infermiere/a,infermiere diplomato,yes,preferred term,infermiere diplomato
+IVR-VS-formation,159738005,Ambulanceman (occupation),de,Transportsanitäter/in FA,Transportsanitäter/Transportsanitäterin,yes,proposed,
+IVR-VS-formation,159738005,Ambulanceman (occupation),fr,Technicien ambulancier,technicien(ne) ambulancier(-ère),yes,proposed,
+IVR-VS-formation,159738005,Ambulanceman (occupation),it,Soccorritore ausiliario d'ambulanza,soccorritore(-trice) ausiliario(-a) d'ambulanza,yes,proposed,
+IVR-VS-formation,224535009,Registered nurse (occupation),de,Pflegefachperson FH,Diplomierter Pflegefachmann / Diplomierte Pflegefachfrau,yes,proposed,
+IVR-VS-formation,224535009,Registered nurse (occupation),fr,Infirmier/ère HES,infirmier(-ère) autorisé(e),yes,preferred term,infirmier(-ère) autorisé(e)
+IVR-VS-formation,224535009,Registered nurse (occupation),it,Infermiere/a SSS,infermiere(-a) autorizzato(-a),yes,proposed,
+IVR-VS-formation,309294001,Emergency department physician (occupation),de,Notarzt/Notärztin SGNOR,Notarzt/Notärztin,yes,proposed,
+IVR-VS-formation,309294001,Emergency department physician (occupation),fr,Médecin d'urgence SSMUS,médecin urgentiste,yes,preferred term,médecin urgentiste
+IVR-VS-formation,309294001,Emergency department physician (occupation),it,Medico d'urgenza SSMUS,medico d'urgenza,yes,proposed,
+IVR-VS-formation,309445003,Anesthetic nurse (occupation),de,Anästhesiepfleger/in HF,Anästhesiepfleger/Anästhesiepflegerin,yes,proposed,
+IVR-VS-formation,309445003,Anesthetic nurse (occupation),fr,Infirmier/ère en anesthésie,infirmier anesthésiste,yes,preferred term,infirmier anesthésiste
+IVR-VS-formation,309445003,Anesthetic nurse (occupation),it,Infermiere/a anestesista,infermiere(-a) anestesista,yes,proposed,
+IVR-VS-formation,309453006,Registered midwife (occupation),de,Hebamme FH,Hebamme,yes,accepted term,Registrierte Hebamme
+IVR-VS-formation,309453006,Registered midwife (occupation),fr,Sage femme,sage-femme,yes,preferred term,sage-femme
+IVR-VS-formation,309453006,Registered midwife (occupation),it,Ostetrica,levatrice,yes,preferred term,levatrice
+IVR-VS-formation,397897005,Paramedic (occupation),de,Rettungssanitäter/in HF,Rettungssanitäter/Rettungssanitäterin,yes,proposed,
+IVR-VS-formation,397897005,Paramedic (occupation),fr,Ambulanier/ère ES,ambulancier,yes,preferred term,ambulancier
+IVR-VS-formation,397897005,Paramedic (occupation),it,Soccoritore SSS,soccorritore(-trice),yes,proposed,
+IVR-VS-gcs-augenoeffnung,260389003,No reaction (qualifier value),de,keine Reaktion,Keine Reaktion,yes,preferred term,Keine Reaktion
+IVR-VS-gcs-augenoeffnung,260389003,No reaction (qualifier value),fr,Aucune réaction,aucune réaction,yes,preferred term,aucune réaction
+IVR-VS-gcs-augenoeffnung,260389003,No reaction (qualifier value),it,Nessuna reazione,nessuna reazione,yes,preferred term,nessuna reazione
+IVR-VS-gcsMotoric,260389003,No reaction (qualifier value),de,keine Reaktion auf Schmerzreiz,Keine Reaktion auf Schmerzreiz,yes,context label,Keine Reaktion
+IVR-VS-gcsMotoric,260389003,No reaction (qualifier value),fr,Aucune réaction au stimulus douloureux,aucune réaction au stimulus douloureux,yes,context label,aucune réaction
+IVR-VS-gcsMotoric,260389003,No reaction (qualifier value),it,Nessuna reazione a stimoli dolorosi,nessuna reazione a stimoli dolorosi,yes,context label,nessuna reazione
+IVR-VS-gcsVerbal,260389003,No reaction (qualifier value),de,keine verbale Reaktion,Keine verbale Reaktion,yes,context label,Keine Reaktion
+IVR-VS-gcsVerbal,260389003,No reaction (qualifier value),fr,Aucune réaction verbale,aucune réaction verbale,yes,context label,aucune réaction
+IVR-VS-gcsVerbal,260389003,No reaction (qualifier value),it,Nessuna reazione verbale,nessuna reazione verbale,yes,context label,nessuna reazione
+IVR-VS-hospitalPriority,371240000,Red color (qualifier value),de,rot,Rot,yes,proposed,
+IVR-VS-hospitalPriority,371240000,Red color (qualifier value),fr,rouge,rouge,no,preferred term,rouge
+IVR-VS-hospitalPriority,371240000,Red color (qualifier value),it,rosso,rosso,no,proposed,
+IVR-VS-hospitalPriority,371244009,Yellow color (qualifier value),de,gelb,Gelb,yes,proposed,
+IVR-VS-hospitalPriority,371244009,Yellow color (qualifier value),fr,jaune,jaune,no,accepted term,couleur jaune
+IVR-VS-hospitalPriority,371244009,Yellow color (qualifier value),it,giallo,giallo,no,proposed,
+IVR-VS-hospitalPriority,371246006,Green color (qualifier value),de,grün,Grün,yes,proposed,
+IVR-VS-hospitalPriority,371246006,Green color (qualifier value),fr,vert,vert,no,proposed,
+IVR-VS-hospitalPriority,371246006,Green color (qualifier value),it,verde,verde,no,proposed,
+IVR-VS-idSource,14406004,Policeman (occupation),de,Polizei,Polizist/Polizistin,yes,proposed,
+IVR-VS-idSource,14406004,Policeman (occupation),fr,Police,policier(-ère),yes,proposed,
+IVR-VS-idSource,14406004,Policeman (occupation),it,Polizia,poliziotto(-a),yes,proposed,
+IVR-VS-idSource,116154003,Patient (person),de,Patient,Patient/Patientin,yes,preferred term,Patient/Patientin
+IVR-VS-idSource,116154003,Patient (person),fr,Patient,patient,yes,preferred term,patient
+IVR-VS-idSource,116154003,Patient (person),it,Paziente,paziente,yes,preferred term,paziente
+IVR-VS-idSource,125677006,Relative (person),de,Angehöriger,Angehöriger/Angehörige,yes,preferred term,Angehöriger/Angehörige
+IVR-VS-idSource,125677006,Relative (person),fr,Proche,personne apparentée,yes,preferred term,personne apparentée
+IVR-VS-idSource,125677006,Relative (person),it,Parente,familiare,yes,preferred term,familiare
+IVR-VS-intensity,17621005,Normal (qualifier value),de,normal,Normal,yes,preferred term,Normal
+IVR-VS-intensity,17621005,Normal (qualifier value),fr,Normal,normal,yes,preferred term,normal
+IVR-VS-intensity,17621005,Normal (qualifier value),it,Normale,normale,yes,preferred term,normale
+IVR-VS-intensity,260404005,Strong (qualifier value),de,stark,Stark,yes,proposed,
+IVR-VS-intensity,260404005,Strong (qualifier value),fr,Fort,fort,yes,preferred term,fort
+IVR-VS-intensity,260404005,Strong (qualifier value),it,Forte,forte,yes,proposed,
+IVR-VS-intensity,260407003,Weak (qualifier value),de,schwach,Schwach,yes,proposed,
+IVR-VS-intensity,260407003,Weak (qualifier value),fr,Faible,faible,yes,preferred term,faible
+IVR-VS-intensity,260407003,Weak (qualifier value),it,Debole,debole,yes,proposed,
+IVR-VS-laterality,7771000,Left (qualifier value),de,,Links,yes,preferred term,Links
+IVR-VS-laterality,7771000,Left (qualifier value),fr,,côté gauche,yes,preferred term,côté gauche
+IVR-VS-laterality,7771000,Left (qualifier value),it,,lato sinistro,yes,proposed,
+IVR-VS-laterality,24028007,Right (qualifier value),de,,Rechts,yes,preferred term,Rechts
+IVR-VS-laterality,24028007,Right (qualifier value),fr,,côté droit,yes,preferred term,côté droit
+IVR-VS-laterality,24028007,Right (qualifier value),it,,lato destro,yes,proposed,
+IVR-VS-laterality,51440002,Right and left (qualifier value),de,,Rechts und links,yes,preferred term,Rechts und links
+IVR-VS-laterality,51440002,Right and left (qualifier value),fr,,droit et gauche,yes,preferred term,droit et gauche
+IVR-VS-laterality,51440002,Right and left (qualifier value),it,,destro e sinistro,yes,proposed,
+IVR-VS-locationType,22232009,Hospital (environment),de,Spital,Spital,no,accepted term,Krankenhaus
+IVR-VS-locationType,22232009,Hospital (environment),fr,,hôpital,yes,preferred term,hôpital
+IVR-VS-locationType,22232009,Hospital (environment),it,Ospedale,ospedale,yes,preferred term,ospedale
+IVR-VS-locationType,74964007,Other (qualifier value),de,andere / anderes,Andere,yes,preferred term,Andere
+IVR-VS-locationType,74964007,Other (qualifier value),fr,autre,autre,no,preferred term,autre
+IVR-VS-locationType,74964007,Other (qualifier value),it,altro,altro,no,proposed,
+IVR-VS-locationType,83891005,Solo practice private office (environment),de,Arztpraxis,Arztpraxis,no,proposed,
+IVR-VS-locationType,83891005,Solo practice private office (environment),fr,Cabinet médical,cabinet libéral de pratique solo,yes,preferred term,cabinet libéral de pratique solo
+IVR-VS-locationType,83891005,Solo practice private office (environment),it,Studio medico,studio medico,yes,proposed,
+IVR-VS-locationType,257564005,Apartment (environment),de,Wohnung,Wohnung,no,proposed,
+IVR-VS-locationType,257564005,Apartment (environment),fr,Apartement,appartement,yes,preferred term,appartement
+IVR-VS-locationType,257564005,Apartment (environment),it,Appartamento,appartamento,yes,proposed,
+IVR-VS-locationType,257603009,Educational establishment (environment),de,Bildungseinrichtung,Bildungseinrichtung,no,preferred term,Bildungseinrichtung
+IVR-VS-locationType,257603009,Educational establishment (environment),fr,Lieu de formation,établissement d'enseignement,yes,preferred term,établissement d'enseignement
+IVR-VS-locationType,257603009,Educational establishment (environment),it,Luogo di formazione,istituto di formazione,yes,proposed,
+IVR-VS-locationType,257674002,Public building (environment),de,öffentliches Gebäude,Öffentliches Gebäude,yes,proposed,
+IVR-VS-locationType,257674002,Public building (environment),fr,Lieu public,bâtiment public,yes,preferred term,bâtiment public
+IVR-VS-locationType,257674002,Public building (environment),it,Luogo pubblico,edificio pubblico,yes,proposed,
+IVR-VS-locationType,257688003,Residential home (environment),de,Altersheim,Altersheim,no,proposed,
+IVR-VS-locationType,257688003,Residential home (environment),fr,Maison de retraite,maison de repos,yes,preferred term,maison de repos
+IVR-VS-locationType,257688003,Residential home (environment),it,Casa anziani,casa per anziani,yes,proposed,
+IVR-VS-locationType,257704009,Sports ground (environment),de,Sport / Freizeit,Sport / Freizeit,no,meaning mismatch,
+IVR-VS-locationType,257704009,Sports ground (environment),fr,Sport et loisirs,sport et loisirs,yes,meaning mismatch,terrain de sport
+IVR-VS-locationType,257704009,Sports ground (environment),it,Sport e Svago,sport e svago,yes,meaning mismatch,
+IVR-VS-locationType,257710009,Street (environment),de,Strasse / öffentlicher Raum,Strasse / öffentlicher Raum,no,meaning mismatch,
+IVR-VS-locationType,257710009,Street (environment),fr,Voie publique,voie publique,yes,meaning mismatch,rue
+IVR-VS-locationType,257710009,Street (environment),it,Luogo pubblico,strada / luogo pubblico,yes,meaning mismatch,
+IVR-VS-locationType,274409007,Special care unit (environment),de,Pflegeheim,Pflegeheim,no,meaning mismatch,
+IVR-VS-locationType,274409007,Special care unit (environment),fr,hospice,hospice,no,meaning mismatch,unité de soins spéciaux
+IVR-VS-locationType,274409007,Special care unit (environment),it,Casa anziani,casa di cura,yes,meaning mismatch,
+IVR-VS-locationType,285141008,Work environment (environment),de,Industrie / Arbeitsplatz,Arbeitsumgebung,yes,preferred term,Arbeitsumgebung
+IVR-VS-locationType,285141008,Work environment (environment),fr,Industrie / Lieu de travail,environnement de travail,yes,preferred term,environnement de travail
+IVR-VS-locationType,285141008,Work environment (environment),it,Industria / Luogo di lavoro,ambiente di lavoro,yes,proposed,
+IVR-VS-offender,116154003,Patient (person),de,Patient,Patient/Patientin,yes,preferred term,Patient/Patientin
+IVR-VS-offender,116154003,Patient (person),fr,Patient,patient,yes,preferred term,patient
+IVR-VS-offender,116154003,Patient (person),it,Paziente,paziente,yes,preferred term,paziente
+IVR-VS-offender,125677006,Relative (person),de,Angehörige,Angehöriger/Angehörige,yes,preferred term,Angehöriger/Angehörige
+IVR-VS-offender,125677006,Relative (person),fr,Proche,personne apparentée,yes,preferred term,personne apparentée
+IVR-VS-offender,125677006,Relative (person),it,Parente,familiare,yes,preferred term,familiare
+IVR-VS-personRole,74964007,Other (qualifier value),de,andere Rolle,Andere Rolle,yes,context label,Andere
+IVR-VS-personRole,74964007,Other (qualifier value),fr,Autre rôle,autre rôle,yes,context label,autre
+IVR-VS-personRole,74964007,Other (qualifier value),it,Altro ruolo,altro ruolo,yes,context label,
+IVR-VS-preTreatType,19257004,"Defibrillator, device (physical object)",de,Defibrillator / AED,Defibrillator,yes,proposed,
+IVR-VS-preTreatType,19257004,"Defibrillator, device (physical object)",fr,Défibrillateur,défibrillateur,yes,preferred term,défibrillateur
+IVR-VS-preTreatType,19257004,"Defibrillator, device (physical object)",it,Defibrillatore,defibrillatore,yes,proposed,
+IVR-VS-preTreatType,74964007,Other (qualifier value),de,andere,Andere,yes,preferred term,Andere
+IVR-VS-preTreatType,74964007,Other (qualifier value),fr,autre,autre,no,preferred term,autre
+IVR-VS-preTreatType,74964007,Other (qualifier value),it,altro,altro,no,proposed,
+IVR-VS-preTreatType,89666000,Cardiopulmonary resuscitation (procedure),de,CPR,CPR - Kardiopulmonale Reanimation,yes,preferred term,CPR - Kardiopulmonale Reanimation
+IVR-VS-preTreatType,89666000,Cardiopulmonary resuscitation (procedure),fr,RCP,réanimation cardiopulmonaire,yes,preferred term,réanimation cardiopulmonaire
+IVR-VS-preTreatType,89666000,Cardiopulmonary resuscitation (procedure),it,RCP,RCP - rianimazione cardiopolmonare,yes,proposed,
+IVR-VS-preTreatType,260413007,None (qualifier value),de,keine,Kein,yes,preferred term,Kein
+IVR-VS-preTreatType,260413007,None (qualifier value),fr,aucun,aucun,no,preferred term,aucun
+IVR-VS-preTreatType,260413007,None (qualifier value),it,nessuna,nessuno,yes,proposed,
+IVR-VS-preTreatType,266700009,Assisted breathing (regime/therapy),de,Beatmung,Assistierte Beatmung,yes,preferred term,Assistierte Beatmung
+IVR-VS-preTreatType,266700009,Assisted breathing (regime/therapy),fr,Assistance ventilatoire,respiration assistée,yes,preferred term,respiration assistée
+IVR-VS-preTreatType,266700009,Assisted breathing (regime/therapy),it,Assistenza ventilatoria,respirazione assistita,yes,proposed,
+IVR-VS-preTreatType,373784005,Dispensing medication (procedure),de,Medikation,Medikamentenabgabe,yes,proposed,
+IVR-VS-preTreatType,373784005,Dispensing medication (procedure),fr,Médicaments,distribution de médicaments,yes,preferred term,distribution de médicaments
+IVR-VS-preTreatType,373784005,Dispensing medication (procedure),it,Medicamenti,dispensazione di medicamenti,yes,proposed,
+IVR-VS-preTreatType,386308007,First aid (procedure),de,Erste Hilfe,Erste Hilfe,no,proposed,
+IVR-VS-preTreatType,386308007,First aid (procedure),fr,Premiers secours,premiers secours,yes,proposed,
+IVR-VS-preTreatType,386308007,First aid (procedure),it,Primo soccorso,primo soccorso,yes,proposed,
+IVR-VS-preTreatment,223366009,Healthcare professional (occupation),de,Gesundheitsfachperson,Gesundheitsfachperson,no,preferred term,Gesundheitsfachperson
+IVR-VS-preTreatment,223366009,Healthcare professional (occupation),fr,Professionnel de la santé,professionnel de la santé,yes,preferred term,professionnel de la santé
+IVR-VS-preTreatment,223366009,Healthcare professional (occupation),it,Professionista della salute,professionista della salute,yes,preferred term,professionista della salute
+IVR-VS-preTreatment,260413007,None (qualifier value),de,keine Vorbehandlung,Keine Vorbehandlung,yes,context label,Kein
+IVR-VS-preTreatment,260413007,None (qualifier value),fr,Aucun traitement antérieur,aucun traitement antérieur,yes,context label,aucun
+IVR-VS-preTreatment,260413007,None (qualifier value),it,Nessun trattamento precedente,nessun trattamento precedente,yes,context label,
+IVR-VS-pressureMethod,10179008,Invasive (qualifier value),de,invasiv,Invasiv,yes,proposed,
+IVR-VS-pressureMethod,10179008,Invasive (qualifier value),fr,invasif,invasif,no,proposed,
+IVR-VS-pressureMethod,10179008,Invasive (qualifier value),it,invasivo,invasivo,no,proposed,
+IVR-VS-pressureMethod,22762002,Non-invasive (qualifier value),de,nicht invasiv,Nicht invasiv,yes,proposed,
+IVR-VS-pressureMethod,22762002,Non-invasive (qualifier value),fr,Non invasif,non invasif,yes,preferred term,non invasif
+IVR-VS-pressureMethod,22762002,Non-invasive (qualifier value),it,Non invasivo,non invasivo,yes,proposed,
+IVR-VS-procAirType,52765003,Intubation (procedure),de,Intubation,Intubation,no,preferred term,Intubation
+IVR-VS-procAirType,52765003,Intubation (procedure),fr,Intubation,intubation,yes,preferred term,intubation
+IVR-VS-procAirType,52765003,Intubation (procedure),it,Intubazione,intubazione,yes,preferred term,intubazione
+IVR-VS-procAirType,230040009,Airway suction technique (procedure),de,Absaugen der Atemwege,Absaugen der Atemwege,no,accepted term,Absaugen der Luftwege
+IVR-VS-procAirType,230040009,Airway suction technique (procedure),fr,Aspiration des voies aériennes,technique d'aspiration des voies respiratoires,yes,preferred term,technique d'aspiration des voies respiratoires
+IVR-VS-procAirType,230040009,Airway suction technique (procedure),it,Aspirazione delle vie aeree,aspirazione delle vie aeree,yes,proposed,
+IVR-VS-procAirType,232666000,Jaw thrust (procedure),de,Esmarch Handgriff,Esmarch-Handgriff,yes,proposed,
+IVR-VS-procAirType,232666000,Jaw thrust (procedure),fr,Subluxation de la mandibule,subluxation de la mâchoire,yes,preferred term,subluxation de la mâchoire
+IVR-VS-procAirType,232666000,Jaw thrust (procedure),it,Sublussazione della mandibola,sublussazione della mandibola,yes,proposed,
+IVR-VS-procAirType,706177004,Inhalation therapy device (physical object),de,Inhalationsset,Inhalationsgerät,yes,proposed,
+IVR-VS-procAirType,706177004,Inhalation therapy device (physical object),fr,Kit de nébulisation,dispositif d'inhalation,yes,proposed,
+IVR-VS-procAirType,706177004,Inhalation therapy device (physical object),it,Set per l'inalazione,dispositivo per inalazione,yes,proposed,
+IVR-VS-procAirType,710971000,Maintaining clear airway (procedure),de,Freimachen der Atemwege,Freihalten der Atemwege,yes,preferred term,Freihalten der Atemwege
+IVR-VS-procAirType,710971000,Maintaining clear airway (procedure),fr,Libération des voies aériennes,maintien des voies respiratoires libres,yes,preferred term,maintien des voies respiratoires libres
+IVR-VS-procAirType,710971000,Maintaining clear airway (procedure),it,Liberazione delle vie aeree,mantenimento della pervietà delle vie aeree,yes,proposed,
+IVR-VS-pulesResult,3424008,Tachycardia (finding),de,Tachykardie,Tachykardie,no,preferred term,Tachykardie
+IVR-VS-pulesResult,3424008,Tachycardia (finding),fr,Tachycardie,tachycardie,yes,preferred term,tachycardie
+IVR-VS-pulesResult,3424008,Tachycardia (finding),it,Tachycardia,tachicardia,yes,preferred term,tachicardia
+IVR-VS-pulesResult,48867003,Bradycardia (finding),de,Bradykardie,Bradykardie,no,preferred term,Bradykardie
+IVR-VS-pulesResult,48867003,Bradycardia (finding),fr,Bradycardie,bradycardie,yes,preferred term,bradycardie
+IVR-VS-pulesResult,48867003,Bradycardia (finding),it,Bradicardia,bradicardia,yes,preferred term,bradicardia
+IVR-VS-pulesResult,397829000,Asystole (disorder),de,Asystolie,Asystolie,no,preferred term,Asystolie
+IVR-VS-pulesResult,397829000,Asystole (disorder),fr,Asystolie,asystolie,yes,preferred term,asystolie
+IVR-VS-pulesResult,397829000,Asystole (disorder),it,Asystolia,asistole,yes,preferred term,asistole
+IVR-VS-pulseMethod,113011001,Palpation (procedure),de,Palpation,Palpation,no,proposed,
+IVR-VS-pulseMethod,113011001,Palpation (procedure),fr,Palpation,palpation,yes,preferred term,palpation
+IVR-VS-pulseMethod,113011001,Palpation (procedure),it,Palpazione,palpazione,yes,proposed,
+IVR-VS-respirationObservation,1023001,Apnea (finding),de,Apnoe,Apnoe,no,preferred term,Apnoe
+IVR-VS-respirationObservation,1023001,Apnea (finding),fr,Apnée,apnée,yes,preferred term,apnée
+IVR-VS-respirationObservation,1023001,Apnea (finding),it,Apnea,apnea,yes,preferred term,apnea
+IVR-VS-respirationObservation,3415004,Cyanosis (finding),de,Zyanose,Zyanose,no,preferred term,Zyanose
+IVR-VS-respirationObservation,3415004,Cyanosis (finding),fr,Cyanose,cyanose,yes,preferred term,cyanose
+IVR-VS-respirationObservation,3415004,Cyanosis (finding),it,Cianosi,cianosi,yes,preferred term,cianosi
+IVR-VS-respirationObservation,23141003,Gasping for breath (finding),de,Schnappatmung,Schnappatmung,no,proposed,
+IVR-VS-respirationObservation,23141003,Gasping for breath (finding),fr,Respiration agonale,respiration haletante,yes,preferred term,respiration haletante
+IVR-VS-respirationObservation,23141003,Gasping for breath (finding),it,Respiro agonico,respiro agonico,yes,proposed,
+IVR-VS-respirationObservation,44416002,Constriction of airway (finding),de,Atemwegsverlegung,Atemwegskonstriktion,yes,preferred term,Atemwegskonstriktion
+IVR-VS-respirationObservation,44416002,Constriction of airway (finding),fr,Obstruction des voies aériennes,constriction des voies respiratoires,yes,preferred term,constriction des voies respiratoires
+IVR-VS-respirationObservation,44416002,Constriction of airway (finding),it,Ostruzione delle vie aeree,costrizione delle vie aeree,yes,preferred term,costrizione delle vie aeree
+IVR-VS-respirationObservation,58840004,Decreased breath sounds (finding),de,Atemgeräusch abgeschwächt,Verringertes Atemgeräusch,yes,preferred term,Verringertes Atemgeräusch
+IVR-VS-respirationObservation,58840004,Decreased breath sounds (finding),fr,Murmure vésiculaire atténué,murmure vésiculaire diminué,yes,preferred term,murmure vésiculaire diminué
+IVR-VS-respirationObservation,58840004,Decreased breath sounds (finding),it,Murmore vescicolare attenuato,murmure vescicolare attenuato,yes,proposed,
+IVR-VS-respirationObservation,65949001,Increased breath sounds (finding),de,Atemgeräusch verschärft,Gesteigerte Atemgeräusche,yes,preferred term,Gesteigerte Atemgeräusche
+IVR-VS-respirationObservation,65949001,Increased breath sounds (finding),fr,Augmentation des bruits respiratoires,murmure vésiculaire augmenté,yes,preferred term,murmure vésiculaire augmenté
+IVR-VS-respirationObservation,65949001,Increased breath sounds (finding),it,Aumento rumore respiratorio,rumore respiratorio aumentato,yes,proposed,
+IVR-VS-respirationObservation,86684002,Slow respiration (finding),de,Bradypnoe,Bradypnoe,no,preferred term,Bradypnoe
+IVR-VS-respirationObservation,86684002,Slow respiration (finding),fr,Bradypnée,respiration lente,yes,preferred term,respiration lente
+IVR-VS-respirationObservation,86684002,Slow respiration (finding),it,Bradipnea,respirazione lenta,yes,preferred term,respirazione lenta
+IVR-VS-respirationObservation,221360009,Spasticity (finding),de,Spastik,Spastik,no,preferred term,Spastik
+IVR-VS-respirationObservation,221360009,Spasticity (finding),fr,Spastique,spasticité,yes,preferred term,spasticité
+IVR-VS-respirationObservation,221360009,Spasticity (finding),it,Spastico,spasticità,yes,preferred term,spasticità
+IVR-VS-respirationObservation,267036007,Dyspnea (finding),de,Dispnoe,Dyspnoe,yes,accepted term,Dyspnoe
+IVR-VS-respirationObservation,267036007,Dyspnea (finding),fr,Dyspnée,dyspnée,yes,preferred term,dyspnée
+IVR-VS-respirationObservation,267036007,Dyspnea (finding),it,Dispnea,dispnea,yes,preferred term,dispnea
+IVR-VS-respirationObservation,271823003,Tachypnea (finding),de,Tachypnoe,Tachypnoe,no,preferred term,Tachypnoe
+IVR-VS-respirationObservation,271823003,Tachypnea (finding),fr,Tachypnée,tachypnée,yes,accepted term,polypnée
+IVR-VS-respirationObservation,271823003,Tachypnea (finding),it,Tachipnea,tachipnea,yes,preferred term,tachipnea
+IVR-VS-respirationObservation,371820004,Patient ventilated (finding),de,beatmet,Beatmet,yes,meaning mismatch,Beatmete/r Patient/Patientin
+IVR-VS-respirationObservation,371820004,Patient ventilated (finding),fr,ventilé,ventilé,no,meaning mismatch,patient ventilé
+IVR-VS-respirationObservation,371820004,Patient ventilated (finding),it,ventilato,ventilato,no,meaning mismatch,
+IVR-VS-result,231877006,Worse (qualifier value),de,verschlechtert,Verschlechtert,yes,proposed,
+IVR-VS-result,231877006,Worse (qualifier value),fr,détérioré,détérioré,no,proposed,
+IVR-VS-result,231877006,Worse (qualifier value),it,perturbato,peggiorato,yes,proposed,
+IVR-VS-result,260388006,No status change (qualifier value),de,unverändert,Unverändert,yes,proposed,
+IVR-VS-result,260388006,No status change (qualifier value),fr,inchangé,pas de changement d'état,yes,preferred term,pas de changement d'état
+IVR-VS-result,260388006,No status change (qualifier value),it,invariato,invariato,no,proposed,
+IVR-VS-result,385425000,Improved (qualifier value),de,verbessert,Verbessert,yes,proposed,
+IVR-VS-result,385425000,Improved (qualifier value),fr,amélioré,amélioré,no,proposed,
+IVR-VS-result,385425000,Improved (qualifier value),it,migliorato,migliorato,no,proposed,
+IVR-VS-size,17621005,Normal (qualifier value),de,normal,Normal,yes,preferred term,Normal
+IVR-VS-size,17621005,Normal (qualifier value),fr,Normal,normal,yes,preferred term,normal
+IVR-VS-size,17621005,Normal (qualifier value),it,Normale,normale,yes,preferred term,normale
+IVR-VS-size,255507004,Small (qualifier value),de,klein,Klein,yes,proposed,
+IVR-VS-size,255507004,Small (qualifier value),fr,Petit,petit,yes,preferred term,petit
+IVR-VS-size,255507004,Small (qualifier value),it,Piccolo,piccolo,yes,proposed,
+IVR-VS-size,255509001,Large (qualifier value),de,gross,Gross,yes,proposed,
+IVR-VS-size,255509001,Large (qualifier value),fr,Grand,grand,yes,preferred term,grand
+IVR-VS-size,255509001,Large (qualifier value),it,Grande,grande,yes,proposed,
+IVR-VS-size,260376009,Enlarged (qualifier value),de,vergrössert,Vergrössert,yes,proposed,
+IVR-VS-size,260376009,Enlarged (qualifier value),fr,Grossi,grossi,yes,preferred term,grossi
+IVR-VS-size,260376009,Enlarged (qualifier value),it,Ingrandito,ingrandito,yes,proposed,
+IVR-VS-symptom,3424008,Tachycardia (finding),de,Tachykardie,Tachykardie,no,preferred term,Tachykardie
+IVR-VS-symptom,3424008,Tachycardia (finding),fr,Tachicardia,tachycardie,yes,preferred term,tachycardie
+IVR-VS-symptom,3424008,Tachycardia (finding),it,,tachicardia,yes,preferred term,tachicardia
+IVR-VS-symptom,21522001,Abdominal pain (finding),de,Bauchschmerzen,Bauchschmerzen,no,accepted term,Abdominalschmerzen
+IVR-VS-symptom,21522001,Abdominal pain (finding),fr,Douleur abdominale,douleur abdominale,yes,preferred term,douleur abdominale
+IVR-VS-symptom,21522001,Abdominal pain (finding),it,Dolore addominale,dolore addominale,yes,preferred term,dolore addominale
+IVR-VS-symptom,22253000,Pain (finding),de,Schmerzen,Schmerzen,no,preferred term,Schmerzen
+IVR-VS-symptom,22253000,Pain (finding),fr,Douleur,douleur,yes,preferred term,douleur
+IVR-VS-symptom,22253000,Pain (finding),it,Dolore,dolore,yes,preferred term,dolore
+IVR-VS-symptom,24199005,Feeling agitated (finding),de,krankhafte Unruhe,Agitiertheit,yes,accepted term,Fühlt sich agitiert
+IVR-VS-symptom,24199005,Feeling agitated (finding),fr,Agitation,sensation d'agitation,yes,preferred term,sensation d'agitation
+IVR-VS-symptom,24199005,Feeling agitated (finding),it,Agitazione,sensazione di agitazione,yes,preferred term,sensazione di agitazione
+IVR-VS-symptom,25064002,Headache (finding),de,Kopfschmerzen,Kopfschmerzen,no,preferred term,Kopfschmerzen
+IVR-VS-symptom,25064002,Headache (finding),fr,Céphalée,céphalée,yes,preferred term,céphalée
+IVR-VS-symptom,25064002,Headache (finding),it,Cefalea,cefalea,yes,preferred term,cefalea
+IVR-VS-symptom,27355003,Toothache (finding),de,Zahnschmerzen,Zahnschmerzen,no,preferred term,Zahnschmerzen
+IVR-VS-symptom,27355003,Toothache (finding),fr,Mal de dent,mal de dents,yes,accepted term,odontalgie
+IVR-VS-symptom,27355003,Toothache (finding),it,Mal di denti,mal di denti,yes,preferred term,mal di denti
+IVR-VS-symptom,29857009,Chest pain (finding),de,Brustschmerzen,Thoraxschmerzen,yes,preferred term,Thoraxschmerzen
+IVR-VS-symptom,29857009,Chest pain (finding),fr,Douleur thoracique,douleur thoracique,yes,preferred term,douleur thoracique
+IVR-VS-symptom,29857009,Chest pain (finding),it,Dolore toracico,dolore toracico,yes,preferred term,dolore toracico
+IVR-VS-symptom,44695005,Paralysis (finding),de,Lähmung,Lähmung,no,accepted term,Paralyse
+IVR-VS-symptom,44695005,Paralysis (finding),fr,Paralysie,paralysie,yes,preferred term,paralysie
+IVR-VS-symptom,44695005,Paralysis (finding),it,Paralisi,paralisi,yes,preferred term,paralisi
+IVR-VS-symptom,62315008,Diarrhea (finding),de,Durchfall,Durchfall,no,accepted term,Diarrhö
+IVR-VS-symptom,62315008,Diarrhea (finding),fr,Diarrhée,diarrhée,yes,preferred term,diarrhée
+IVR-VS-symptom,62315008,Diarrhea (finding),it,Diarrea,diarrea,yes,preferred term,diarrea
+IVR-VS-symptom,80313002,Palpitations (finding),de,Palpitation,Palpitationen,yes,preferred term,Palpitationen
+IVR-VS-symptom,80313002,Palpitations (finding),fr,Palpitations,palpitations,yes,preferred term,palpitations
+IVR-VS-symptom,80313002,Palpitations (finding),it,Palpitazioni,palpitazioni,yes,preferred term,palpitazioni
+IVR-VS-symptom,91175000,Seizure (finding),de,Krampfanfall,Krampfanfall,no,preferred term,Krampfanfall
+IVR-VS-symptom,91175000,Seizure (finding),fr,Convulsions,convulsion,yes,preferred term,convulsion
+IVR-VS-symptom,91175000,Seizure (finding),it,Convulsioni,convulsione,yes,preferred term,convulsione
+IVR-VS-symptom,131148009,Bleeding (finding),de,Blutung,Blutung,no,preferred term,Blutung
+IVR-VS-symptom,131148009,Bleeding (finding),fr,Hemorragie,hémorragie,yes,preferred term,hémorragie
+IVR-VS-symptom,131148009,Bleeding (finding),it,Emorragia,sanguinamento,yes,preferred term,sanguinamento
+IVR-VS-symptom,161891005,Backache (finding),de,Rückenschmerzen,Rückenschmerzen,no,preferred term,Rückenschmerzen
+IVR-VS-symptom,161891005,Backache (finding),fr,Dorsaglie,douleur au dos,yes,preferred term,douleur au dos
+IVR-VS-symptom,161891005,Backache (finding),it,Dorsalgia,dolore alla schiena,yes,preferred term,dolore alla schiena
+IVR-VS-symptom,162397003,Pain in throat (finding),de,Halsschmerzen,Halsschmerzen,no,preferred term,Halsschmerzen
+IVR-VS-symptom,162397003,Pain in throat (finding),fr,Mal de gorge,douleur à la gorge,yes,preferred term,douleur à la gorge
+IVR-VS-symptom,162397003,Pain in throat (finding),it,Mal di gola,dolore alla gola,yes,preferred term,dolore alla gola
+IVR-VS-symptom,247412007,Labor pain (finding),de,Wehen,Wehenschmerzen,yes,preferred term,Wehenschmerzen
+IVR-VS-symptom,247412007,Labor pain (finding),fr,Contractions,douleur du travail,yes,preferred term,douleur du travail
+IVR-VS-symptom,247412007,Labor pain (finding),it,Contrazioni,dolore del travaglio,yes,proposed,
+IVR-VS-symptom,267036007,Dyspnea (finding),de,Atemnot,Dyspnoe,yes,accepted term,Dyspnoe
+IVR-VS-symptom,267036007,Dyspnea (finding),fr,Dyspnée,dyspnée,yes,preferred term,dyspnée
+IVR-VS-symptom,267036007,Dyspnea (finding),it,Dispnea,dispnea,yes,preferred term,dispnea
+IVR-VS-symptom,271594007,Syncope (finding),de,Synkope,Synkope,no,preferred term,Synkope
+IVR-VS-symptom,271594007,Syncope (finding),fr,Syncope,syncope,yes,preferred term,syncope
+IVR-VS-symptom,271594007,Syncope (finding),it,Sincope,sincope,yes,preferred term,sincope
+IVR-VS-symptom,301354004,Pain of ear (finding),de,Ohrenschmerzen,Ohrenschmerzen,no,preferred term,Ohrenschmerzen
+IVR-VS-symptom,301354004,Pain of ear (finding),fr,Otalgie,otalgie,yes,accepted term,douleur à l'oreille
+IVR-VS-symptom,301354004,Pain of ear (finding),it,Otalgia,otalgia,yes,proposed,
+IVR-VS-symptom,386661006,Fever (finding),de,Fieber,Fieber,no,preferred term,Fieber
+IVR-VS-symptom,386661006,Fever (finding),fr,Fièvre,fièvre,yes,preferred term,fièvre
+IVR-VS-symptom,386661006,Fever (finding),it,Febbre,febbre,yes,preferred term,febbre
+IVR-VS-symptom,399153001,Vertigo (finding),de,Schwindel,Schwindel,no,accepted term,Vertigo
+IVR-VS-symptom,399153001,Vertigo (finding),fr,Vertiges,vertige,yes,preferred term,vertige
+IVR-VS-symptom,399153001,Vertigo (finding),it,Vertigini,vertigine,yes,proposed,
+IVR-VS-symptom,418107008,Unconscious (finding),de,Bewusstseinsstörung,Bewusstlos,yes,preferred term,Bewusstlos
+IVR-VS-symptom,418107008,Unconscious (finding),fr,Inconscience,inconscient,yes,preferred term,inconscient
+IVR-VS-symptom,418107008,Unconscious (finding),it,Incoscienza,privo/a di sensi,yes,preferred term,privo/a di sensi
+IVR-VS-symptom,418363000,Itching of skin (finding),de,Juckreiz,Pruritus,yes,preferred term,Pruritus
+IVR-VS-symptom,418363000,Itching of skin (finding),fr,Prurit,démangeaison cutanée,yes,preferred term,démangeaison cutanée
+IVR-VS-symptom,418363000,Itching of skin (finding),it,Prurito,prurito cutaneo,yes,preferred term,prurito cutaneo
+IVR-VS-symptom,422400008,Vomiting (disorder),de,Erbrechen,Erbrechen,no,preferred term,Erbrechen
+IVR-VS-symptom,422400008,Vomiting (disorder),fr,Vomissement,vomissement,yes,preferred term,vomissement
+IVR-VS-symptom,422400008,Vomiting (disorder),it,Vomito,vomito,yes,preferred term,vomito
+IVR-VS-symptom,422587007,Nausea (finding),de,Übelkeit,Übelkeit,no,preferred term,Übelkeit
+IVR-VS-symptom,422587007,Nausea (finding),fr,Nausée,nausée,yes,accepted term,nausées
+IVR-VS-symptom,422587007,Nausea (finding),it,Nausea,nausea,yes,preferred term,nausea
+IVR-VS-teamRole,28411006,Neonatologist (occupation),de,Neonatologe,Neonatologe/Neonatologin,yes,proposed,
+IVR-VS-teamRole,28411006,Neonatologist (occupation),fr,Néonatologue,néonatologiste,yes,preferred term,néonatologiste
+IVR-VS-teamRole,28411006,Neonatologist (occupation),it,Neonatologo,neonatologo(-a),yes,proposed,
+IVR-VS-teamRole,62247001,Family medicine specialist (occupation),de,Hausarzt,Hausarzt/Hausärztin,yes,proposed,
+IVR-VS-teamRole,62247001,Family medicine specialist (occupation),fr,Médecin de famille,médecin de famille,yes,preferred term,médecin de famille
+IVR-VS-teamRole,62247001,Family medicine specialist (occupation),it,Medico di famiglia,medico di famiglia,yes,proposed,
+IVR-VS-teamRole,74964007,Other (qualifier value),de,andere Rolle,Andere Rolle,yes,context label,Andere
+IVR-VS-teamRole,74964007,Other (qualifier value),fr,Autre rôle,autre rôle,yes,context label,autre
+IVR-VS-teamRole,74964007,Other (qualifier value),it,Altro ruolo,altro ruolo,yes,context label,
+IVR-VS-teamRole,106292003,Professional nurse (occupation),de,Pflegefachperson,Pflegefachmann / Pflegefachfrau,yes,preferred term,Pflegefachmann / Pflegefachfrau
+IVR-VS-teamRole,106292003,Professional nurse (occupation),fr,Infirmière,infirmière,yes,preferred term,infirmière
+IVR-VS-teamRole,106292003,Professional nurse (occupation),it,Infermiera,infermiere diplomato,yes,preferred term,infermiere diplomato
+IVR-VS-teamRole,133932002,Caregiver (person),de,Betreuer,Betreuer/Betreuerin,yes,proposed,
+IVR-VS-teamRole,133932002,Caregiver (person),fr,Soignant,soignant(e),yes,preferred term,soignant(e)
+IVR-VS-teamRole,133932002,Caregiver (person),it,Curante,curante,yes,proposed,
+IVR-VS-teamRole,224549000,Neonatal nurse (occupation),de,Neonatologie-Pflege,Neonatologie-Pflegefachmann / Neonatologie-Pflegefachfrau,yes,proposed,
+IVR-VS-teamRole,224549000,Neonatal nurse (occupation),fr,Infirmier/ère en néonatologie,infirmier en néonatologie,yes,preferred term,infirmier en néonatologie
+IVR-VS-teamRole,224549000,Neonatal nurse (occupation),it,Infermiere/a in neonatologia,infermiere(-a) in neonatologia,yes,proposed,
+IVR-VS-teamRole,308040008,Pilot - aircraft (occupation),de,Pilot,Pilot/Pilotin,yes,proposed,
+IVR-VS-teamRole,308040008,Pilot - aircraft (occupation),fr,pilote,pilote,no,proposed,
+IVR-VS-teamRole,308040008,Pilot - aircraft (occupation),it,pilota,pilota,no,proposed,
+IVR-VS-teamRole,309343006,Physician (occupation),de,Ärztin / Arzt,Arzt/Ärztin,yes,preferred term,Arzt/Ärztin
+IVR-VS-teamRole,309343006,Physician (occupation),fr,Médecin,médecin,yes,preferred term,médecin
+IVR-VS-teamRole,309343006,Physician (occupation),it,Medico,dottoressa / dottore,yes,preferred term,dottoressa / dottore
+IVR-VS-teamRole,309453006,Registered midwife (occupation),de,Hebamme,Hebamme,no,accepted term,Registrierte Hebamme
+IVR-VS-teamRole,309453006,Registered midwife (occupation),fr,Sage femme,sage-femme,yes,preferred term,sage-femme
+IVR-VS-teamRole,309453006,Registered midwife (occupation),it,Ostetrica,levatrice,yes,preferred term,levatrice
+IVR-VS-transDesinfection,74964007,Other (qualifier value),de,anderes Desinfektionsverfahren,Anderes Desinfektionsverfahren,yes,context label,Andere
+IVR-VS-transDesinfection,74964007,Other (qualifier value),fr,Autre méthode de désinfection,autre méthode de désinfection,yes,context label,autre
+IVR-VS-transDesinfection,74964007,Other (qualifier value),it,Altro metodo di disinfezione,altro metodo di disinfezione,yes,context label,
+IVR-VS-urgency-adequate,373066001,Yes (qualifier value),de,Ja,Ja,no,preferred term,Ja
+IVR-VS-urgency-adequate,373066001,Yes (qualifier value),fr,oui,oui,no,preferred term,oui
+IVR-VS-urgency-adequate,373066001,Yes (qualifier value),it,si,sì,yes,proposed,
+IVR-VS-urgency-adequate,373067005,No (qualifier value),de,Nein,Nein,no,preferred term,Nein
+IVR-VS-urgency-adequate,373067005,No (qualifier value),fr,non,non,no,preferred term,non
+IVR-VS-urgency-adequate,373067005,No (qualifier value),it,no,no,no,proposed,
+IVR-VS-valType,74964007,Other (qualifier value),de,anderes,Andere,yes,preferred term,Andere
+IVR-VS-valType,74964007,Other (qualifier value),fr,autre,autre,no,preferred term,autre
+IVR-VS-valType,74964007,Other (qualifier value),it,altro,altro,no,proposed,
+IVR-VS-ventilation,707765006,On ventilator (qualifier value),de,beatmet,Beatmet,yes,proposed,
+IVR-VS-ventilation,707765006,On ventilator (qualifier value),fr,Ventilé,ventilé,yes,proposed,
+IVR-VS-ventilation,707765006,On ventilator (qualifier value),it,Ventilato,ventilato,yes,proposed,
+IVR-VS-violenceForm,12405001,Spitting (observable entity),de,Anspucken,Anspucken,no,context label,
+IVR-VS-violenceForm,12405001,Spitting (observable entity),fr,Crachat,crachat,yes,context label,
+IVR-VS-violenceForm,12405001,Spitting (observable entity),it,Sputo,sputo,yes,context label,
+IVR-VS-violenceForm,74964007,Other (qualifier value),de,Anderes,Andere,yes,preferred term,Andere
+IVR-VS-violenceForm,74964007,Other (qualifier value),fr,Autre,autre,yes,preferred term,autre
+IVR-VS-violenceForm,74964007,Other (qualifier value),it,Altro,altro,yes,proposed,
+IVR-VS-violenceForm,248109002,Sexual offending behavior (finding),de,Sexuelle Belästigung,Sexuell delinquentes Verhalten,yes,proposed,
+IVR-VS-violenceForm,248109002,Sexual offending behavior (finding),fr,Agression sexuelle,comportement sexuel délictueux,yes,preferred term,comportement sexuel délictueux
+IVR-VS-violenceForm,248109002,Sexual offending behavior (finding),it,Violenza sessuale,comportamento sessuale delittuoso,yes,proposed,
+IVR-VS-violenceForm,260413007,None (qualifier value),de,keine,Kein,yes,preferred term,Kein
+IVR-VS-violenceForm,260413007,None (qualifier value),fr,Aucun,aucun,yes,preferred term,aucun
+IVR-VS-violenceForm,260413007,None (qualifier value),it,Nessuna,nessuno,yes,proposed,
+IVR-VS-violenceForm,284616006,Verbally threatening behavior (finding),de,Verbale Drohung,Verbal bedrohliches Verhalten,yes,preferred term,Verbal bedrohliches Verhalten
+IVR-VS-violenceForm,284616006,Verbally threatening behavior (finding),fr,Menaces verbales,comportement verbal menaçant,yes,preferred term,comportement verbal menaçant
+IVR-VS-violenceForm,284616006,Verbally threatening behavior (finding),it,Minacce verbali,comportamento verbalmente minaccioso,yes,proposed,
+IVR-VS-violenceResult,52684005,Assault (event),de,Körperverletzung,Körperverletzung,no,preferred term,Körperverletzung
+IVR-VS-violenceResult,52684005,Assault (event),fr,Coups et blessures,agression,yes,preferred term,agression
+IVR-VS-violenceResult,52684005,Assault (event),it,Lesioni coporali,aggressione,yes,preferred term,aggressione
+IVR-VS-violenceResult,74964007,Other (qualifier value),de,andere,Andere,yes,preferred term,Andere
+IVR-VS-violenceResult,74964007,Other (qualifier value),fr,autre,autre,no,preferred term,autre
+IVR-VS-violenceResult,74964007,Other (qualifier value),it,altro,altro,no,proposed,
+IVR-VS-violenceResult,260413007,None (qualifier value),de,keine,Kein,yes,preferred term,Kein
+IVR-VS-violenceResult,260413007,None (qualifier value),fr,aucun,aucun,no,preferred term,aucun
+IVR-VS-violenceResult,260413007,None (qualifier value),it,nessuna,nessuno,yes,proposed,
+IVR-VS-woundTreat,9458007,"Elastic bandage, device (physical object)",de,elastische Binde,Elastische Binde,yes,proposed,
+IVR-VS-woundTreat,9458007,"Elastic bandage, device (physical object)",fr,Bandage élastique,bandage élastique,yes,proposed,
+IVR-VS-woundTreat,9458007,"Elastic bandage, device (physical object)",it,Bendaggio elastico,bendaggio elastico,yes,proposed,
+IVR-VS-woundTreat,38141007,"Tourniquet, device (physical object)",de,Tourniquet,Tourniquet,no,proposed,
+IVR-VS-woundTreat,38141007,"Tourniquet, device (physical object)",fr,Garrot,garrot,yes,proposed,
+IVR-VS-woundTreat,38141007,"Tourniquet, device (physical object)",it,Laccio emostatico,laccio emostatico,yes,proposed,
+IVR-VS-woundTreat,386028003,Surgical patch (physical object),de,Wundschnellverband,Wundschnellverband,no,meaning mismatch,
+IVR-VS-woundTreat,386028003,Surgical patch (physical object),fr,Pansement rapide,pansement rapide,yes,meaning mismatch,
+IVR-VS-woundTreat,386028003,Surgical patch (physical object),it,Medicazoine rapida,medicazione rapida,yes,meaning mismatch,
+IVR-VS-yesNoUnknown,261665006,Unknown (qualifier value),de,,Unbekannt,yes,preferred term,Unbekannt
+IVR-VS-yesNoUnknown,261665006,Unknown (qualifier value),fr,,inconnu,yes,preferred term,inconnu
+IVR-VS-yesNoUnknown,261665006,Unknown (qualifier value),it,,sconosciuto/a,yes,preferred term,sconosciuto/a
+IVR-VS-yesNoUnknown,373066001,Yes (qualifier value),de,,Ja,yes,preferred term,Ja
+IVR-VS-yesNoUnknown,373066001,Yes (qualifier value),fr,,oui,yes,preferred term,oui
+IVR-VS-yesNoUnknown,373066001,Yes (qualifier value),it,,sì,yes,proposed,
+IVR-VS-yesNoUnknown,373067005,No (qualifier value),de,,Nein,yes,preferred term,Nein
+IVR-VS-yesNoUnknown,373067005,No (qualifier value),fr,,non,yes,preferred term,non
+IVR-VS-yesNoUnknown,373067005,No (qualifier value),it,,no,yes,proposed,

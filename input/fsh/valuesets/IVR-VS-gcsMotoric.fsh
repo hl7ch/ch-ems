@@ -10,11 +10,11 @@ Usage: #definition
 * compose.include[=].concept.code = #260389003
 * compose.include[=].concept.display = "No reaction"
 * compose.include[=].concept.designation[0].language = #de-CH
-* compose.include[=].concept.designation[=].value = "keine Reaktion auf Schmerzreiz"
+* compose.include[=].concept.designation[=].value = "Keine Reaktion auf Schmerzreiz"
 * compose.include[=].concept.designation[+].language = #fr-CH
-* compose.include[=].concept.designation[=].value = "Aucune réaction au stimulus douloureux"
+* compose.include[=].concept.designation[=].value = "aucune réaction au stimulus douloureux"
 * compose.include[=].concept.designation[+].language = #it-CH
-* compose.include[=].concept.designation[=].value = "Nessuna reazione a stimoli dolorosi"
+* compose.include[=].concept.designation[=].value = "nessuna reazione a stimoli dolorosi"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000153
 * compose.include[=].concept[=].display = "stretching"
@@ -37,7 +37,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "ungezielte Schmerzabwehr"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Evitement désorientée"
+* compose.include[=].concept[=].designation[=].value = "Evitement désorienté"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Retrae / Flette ma non localizza il dolore"
 * compose.include[=].concept[+].code = #1000156
@@ -45,7 +45,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "gezielte Schmerzabwehr"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Evitement orientée"
+* compose.include[=].concept[=].designation[=].value = "Evitement orienté"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Retrae / Flette localizza il dolore"
 * compose.include[=].concept[+].code = #1000157

@@ -12,37 +12,37 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Rettungsbrett"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Planche de sauvetage"
+* compose.include[=].concept[=].designation[=].value = "planche de sauvetage"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Asse spinale"
+* compose.include[=].concept[=].designation[=].value = "asse spinale"
 * compose.include[=].concept[+].code = #63562005
 * compose.include[=].concept[=].display = "Cervical collar"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Halskragen"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Minerve"
+* compose.include[=].concept[=].designation[=].value = "collet cervical"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Collare cervicale"
+* compose.include[=].concept[=].designation[=].value = "collare cervicale"
 * compose.include[=].concept[+].code = #89149003
 * compose.include[=].concept[=].display = "Stretcher"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Schaufelbahre"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Brancard cuvière"
+* compose.include[=].concept[=].designation[=].value = "brancard cuillère"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Barella cucchiaio"
+* compose.include[=].concept[=].designation[=].value = "barella cucchiaio"
 * compose.include[=].concept[+].code = #257389003
 * compose.include[=].concept[=].display = "Lap belt"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Beckengurt"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Ceinture abdominale"
+* compose.include[=].concept[=].designation[=].value = "ceinture sous-abdominale"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Cintura pelvica"
+* compose.include[=].concept[=].designation[=].value = "cintura pelvica"
 * compose.include[=].concept[+].code = #74964007
 * compose.include[=].concept[=].display = "Other"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "andere"
+* compose.include[=].concept[=].designation[=].value = "Andere"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "autre"
 * compose.include[=].concept[=].designation[+].language = #it-CH
@@ -59,7 +59,7 @@ Usage: #definition
 * compose.include[=].concept[+].code = #1000086
 * compose.include[=].concept[=].display = "vacuum mattress"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vakuummatraze"
+* compose.include[=].concept[=].designation[=].value = "Vakuummatratze"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "Matelas coquille"
 * compose.include[=].concept[=].designation[+].language = #it-CH
@@ -75,7 +75,7 @@ Usage: #definition
 * compose.include[=].concept[+].code = #1000088
 * compose.include[=].concept[=].display = "KED system"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "KED System"
+* compose.include[=].concept[=].designation[=].value = "KED-System"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "KED"
 * compose.include[=].concept[=].designation[+].language = #it-CH

@@ -10,23 +10,23 @@ Usage: #definition
 * compose.include[=].concept[0].code = #260413007
 * compose.include[=].concept[=].display = "None"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "keine"
+* compose.include[=].concept[=].designation[=].value = "Kein"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "aucun"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "nessuna"
+* compose.include[=].concept[=].designation[=].value = "nessuno"
 * compose.include[=].concept[+].code = #52684005
 * compose.include[=].concept[=].display = "Assault"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Körperverletzung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Coups et blessures"
+* compose.include[=].concept[=].designation[=].value = "agression"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Lesioni coporali"
+* compose.include[=].concept[=].designation[=].value = "aggressione"
 * compose.include[=].concept[+].code = #74964007
 * compose.include[=].concept[=].display = "Other"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "andere"
+* compose.include[=].concept[=].designation[=].value = "Andere"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "autre"
 * compose.include[=].concept[=].designation[+].language = #it-CH

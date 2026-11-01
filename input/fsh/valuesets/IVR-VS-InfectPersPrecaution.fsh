@@ -14,31 +14,31 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "masque chirurgical"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "maschera chirurgica"
+* compose.include[=].concept[=].designation[=].value = "mascherina chirurgica"
 * compose.include[=].concept[+].code = #469008007
 * compose.include[=].concept[=].display = "Airway protection face mask"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Schutzmaske mit Ventil"
+* compose.include[=].concept[=].designation[=].value = "Atemschutzmaske"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Masque de protection avec valve"
+* compose.include[=].concept[=].designation[=].value = "masque de protection des voies respiratoires facial"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Mascherine di protezione con valvola"
+* compose.include[=].concept[=].designation[=].value = "maschera di protezione delle vie respiratorie"
 * compose.include[=].concept[+].code = #38126007
 * compose.include[=].concept[=].display = "Safety goggles"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Schutzbrille"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Lunettes de protection"
+* compose.include[=].concept[=].designation[=].value = "lunettes de protection"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Occhiali protettivi"
+* compose.include[=].concept[=].designation[=].value = "occhiali protettivi"
 * compose.include[=].concept[+].code = #52291003
 * compose.include[=].concept[=].display = "Gloves"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Handschuhe"
+* compose.include[=].concept[=].designation[=].value = "Handschuh"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Gants"
+* compose.include[=].concept[=].designation[=].value = "gant"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Guanti"
+* compose.include[=].concept[=].designation[=].value = "guanto"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000068
 * compose.include[=].concept[=].display = "disinfection of hands by Virugard"
@@ -65,7 +65,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Abiti chirurgici"
 * compose.include[=].concept[+].code = #1000071
-* compose.include[=].concept[=].display = "cloth change after mission"
+* compose.include[=].concept[=].display = "clothes change after mission"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Dienstkleiderwechsel nach Einsatzende"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
@@ -75,11 +75,11 @@ Usage: #definition
 * compose.include[=].concept[+].code = #1000072
 * compose.include[=].concept[=].display = "hazmat suit, ventilated"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vollschutzabzug, belüftet"
+* compose.include[=].concept[=].designation[=].value = "Vollschutzanzug, belüftet"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Combinaison de protection totale, ventilé"
+* compose.include[=].concept[=].designation[=].value = "Combinaison de protection totale, ventilée"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Tutta di protezione completo, ventilato"
+* compose.include[=].concept[=].designation[=].value = "Tuta di protezione completa, ventilata"
 * compose.include[=].concept[+].code = #1000073
 * compose.include[=].concept[=].display = "other protective action"
 * compose.include[=].concept[=].designation[0].language = #de-CH

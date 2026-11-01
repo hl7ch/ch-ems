@@ -11,7 +11,7 @@ Usage: #definition
 * compose.include.concept[0].code = #1000004
 * compose.include.concept[=].display = "residential EMS"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Stationär Rettungsdienst"
+* compose.include.concept[=].designation[=].value = "Stationärer Rettungsdienst"
 * compose.include.concept[=].designation[+].language = #fr-CH
 * compose.include.concept[=].designation[=].value = "Service de sauvetage fixe"
 * compose.include.concept[=].designation[+].language = #it-CH
