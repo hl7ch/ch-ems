@@ -10,11 +10,11 @@ Usage: #definition
 * compose.include[=].concept.code = #260389003
 * compose.include[=].concept.display = "No reaction"
 * compose.include[=].concept.designation[0].language = #de-CH
-* compose.include[=].concept.designation[=].value = "keine Reaktion"
+* compose.include[=].concept.designation[=].value = "Keine Reaktion"
 * compose.include[=].concept.designation[+].language = #fr-CH
-* compose.include[=].concept.designation[=].value = "Aucune réaction"
+* compose.include[=].concept.designation[=].value = "aucune réaction"
 * compose.include[=].concept.designation[+].language = #it-CH
-* compose.include[=].concept.designation[=].value = "Nessuna reazione"
+* compose.include[=].concept.designation[=].value = "nessuna reazione"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000150
 * compose.include[=].concept[=].display = "on pain stimulus"

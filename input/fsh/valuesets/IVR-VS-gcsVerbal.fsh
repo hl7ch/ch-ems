@@ -10,11 +10,11 @@ Usage: #definition
 * compose.include[=].concept.code = #260389003
 * compose.include[=].concept.display = "no reaction"
 * compose.include[=].concept.designation[0].language = #de-CH
-* compose.include[=].concept.designation[=].value = "keine verbale Reaktion"
+* compose.include[=].concept.designation[=].value = "Keine verbale Reaktion"
 * compose.include[=].concept.designation[+].language = #fr-CH
-* compose.include[=].concept.designation[=].value = "Aucune réaction verbale"
+* compose.include[=].concept.designation[=].value = "aucune réaction verbale"
 * compose.include[=].concept.designation[+].language = #it-CH
-* compose.include[=].concept.designation[=].value = "Nessuna reazione verbale"
+* compose.include[=].concept.designation[=].value = "nessuna reazione verbale"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000158
 * compose.include[=].concept[=].display = "incomprehensible sounds"

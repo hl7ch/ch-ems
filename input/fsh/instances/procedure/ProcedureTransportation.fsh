@@ -5,7 +5,7 @@ Description: "Example for CH EMS Procedure: Transportation - laying with spine b
 Usage: #example
 * status = #completed
 * category = $sct#229824005 "Positioning patient (procedure)"
-* code = $IVR-CS#1000103 "laying"	
+* code = $IVR-CS#1000103 "lying"	
 * code.text = "liegend"
 * subject = Reference(PatientExample)
 * encounter = Reference(EncounterExample)

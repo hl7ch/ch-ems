@@ -10,27 +10,27 @@ Usage: #definition
 * compose.include[=].concept[0].code = #116154003
 * compose.include[=].concept[=].display = "Patient"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Patient"
+* compose.include[=].concept[=].designation[=].value = "Patient/Patientin"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Patient"
+* compose.include[=].concept[=].designation[=].value = "patient"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Paziente"
+* compose.include[=].concept[=].designation[=].value = "paziente"
 * compose.include[=].concept[+].code = #409971007
 * compose.include[=].concept[=].display = "Emergency medical services"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Rettungsdienst"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Service d'ambulance"
+* compose.include[=].concept[=].designation[=].value = "services médicaux d'urgence"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Servizio ambulanza"
+* compose.include[=].concept[=].designation[=].value = "servizio di salvataggio"
 * compose.include[=].concept[+].code = #74964007
 * compose.include[=].concept[=].display = "Other"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "andere"
+* compose.include[=].concept[=].designation[=].value = "Andere"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Autre"
+* compose.include[=].concept[=].designation[=].value = "autre"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Altro"
+* compose.include[=].concept[=].designation[=].value = "altro"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000082
 * compose.include[=].concept[=].display = "organisation point of departure"

@@ -10,15 +10,15 @@ Usage: #definition
 * compose.include[=].concept[0].code = #423212001
 * compose.include[=].concept[=].display = "Trendelenburg positioning"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Trendelenburg-Lage"
+* compose.include[=].concept[=].designation[=].value = "Trendelenburg-Lagerung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Position de Trendelenburg"
+* compose.include[=].concept[=].designation[=].value = "position de Trendelenburg"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Posizione di Trendelenburg"
+* compose.include[=].concept[=].designation[=].value = "posizione di Trendelenburg"
 * compose.include[=].concept[+].code = #74964007
 * compose.include[=].concept[=].display = "Other"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "andere"
+* compose.include[=].concept[=].designation[=].value = "Andere"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "autre"
 * compose.include[=].concept[=].designation[+].language = #it-CH
@@ -41,7 +41,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Semiseduto"
 * compose.include[=].concept[+].code = #1000103
-* compose.include[=].concept[=].display = "laying"
+* compose.include[=].concept[=].display = "lying"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "liegend"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
@@ -79,7 +79,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "Décubitus ventral"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Decubito Prono"
+* compose.include[=].concept[=].designation[=].value = "Decubito prono"
 * compose.include[=].concept[+].code = #1000108
 * compose.include[=].concept[=].display = "side position left"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -93,6 +93,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Seitenlage rechts"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Décubitus latéral droite"
+* compose.include[=].concept[=].designation[=].value = "Décubitus latéral droit"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Decubito laterale destro"

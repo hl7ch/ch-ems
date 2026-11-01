@@ -36,7 +36,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000003 ^designation[=].value = "Guardia medica"
 * #1000004 "residential EMS"
 * #1000004 ^designation[0].language = #de-CH
-* #1000004 ^designation[=].value = "Stationär Rettungsdienst"
+* #1000004 ^designation[=].value = "Stationärer Rettungsdienst"
 * #1000004 ^designation[+].language = #fr-CH
 * #1000004 ^designation[=].value = "Service de sauvetage fixe"
 * #1000004 ^designation[+].language = #it-CH
@@ -73,7 +73,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000010 ^designation[0].language = #de-CH
 * #1000010 ^designation[=].value = "Rettungssanitäter/in in Ausbildung"
 * #1000010 ^designation[+].language = #fr-CH
-* #1000010 ^designation[=].value = "Etudiant/e Ambulanier/ère"
+* #1000010 ^designation[=].value = "Etudiant/e Ambulancier/ère"
 * #1000010 ^designation[+].language = #it-CH
 * #1000010 ^designation[=].value = "Soccorritore in formazione"
 * #1000011 "Ambulanceman-on-training"
@@ -363,7 +363,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000070 ^designation[=].value = "Vêtements chirurgicaux"
 * #1000070 ^designation[+].language = #it-CH
 * #1000070 ^designation[=].value = "Abiti chirurgici"
-* #1000071 "cloth change after mission"
+* #1000071 "clothes change after mission"
 * #1000071 ^designation[0].language = #de-CH
 * #1000071 ^designation[=].value = "Dienstkleiderwechsel nach Einsatzende"
 * #1000071 ^designation[+].language = #fr-CH
@@ -372,11 +372,11 @@ Description: "Code system containing concepts defined by IVR."
 * #1000071 ^designation[=].value = "Cambio di vestiti dopo la fine della missione"
 * #1000072 "hazmat suit, ventilated"
 * #1000072 ^designation[0].language = #de-CH
-* #1000072 ^designation[=].value = "Vollschutzabzug, belüftet"
+* #1000072 ^designation[=].value = "Vollschutzanzug, belüftet"
 * #1000072 ^designation[+].language = #fr-CH
-* #1000072 ^designation[=].value = "Combinaison de protection totale, ventilé"
+* #1000072 ^designation[=].value = "Combinaison de protection totale, ventilée"
 * #1000072 ^designation[+].language = #it-CH
-* #1000072 ^designation[=].value = "Tutta di protezione completo, ventilato"
+* #1000072 ^designation[=].value = "Tuta di protezione completa, ventilata"
 * #1000073 "other protective action"
 * #1000073 ^designation[0].language = #de-CH
 * #1000073 ^designation[=].value = "andere Schutzmassnahme"
@@ -470,7 +470,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000085 ^designation[=].value = "Stecca a depressione"
 * #1000086 "vacuum mattress"
 * #1000086 ^designation[0].language = #de-CH
-* #1000086 ^designation[=].value = "Vakuummatraze"
+* #1000086 ^designation[=].value = "Vakuummatratze"
 * #1000086 ^designation[+].language = #fr-CH
 * #1000086 ^designation[=].value = "Matelas coquille"
 * #1000086 ^designation[+].language = #it-CH
@@ -484,7 +484,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000087 ^designation[=].value = "Sedia di trasporto"
 * #1000088 "KED system"
 * #1000088 ^designation[0].language = #de-CH
-* #1000088 ^designation[=].value = "KED System"
+* #1000088 ^designation[=].value = "KED-System"
 * #1000088 ^designation[+].language = #fr-CH
 * #1000088 ^designation[=].value = "KED"
 * #1000088 ^designation[+].language = #it-CH
@@ -580,7 +580,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000102 ^designation[=].value = "semi-assis"
 * #1000102 ^designation[+].language = #it-CH
 * #1000102 ^designation[=].value = "Semiseduto"
-* #1000103 "laying"
+* #1000103 "lying"
 * #1000103 ^designation[0].language = #de-CH
 * #1000103 ^designation[=].value = "liegend"
 * #1000103 ^designation[+].language = #fr-CH
@@ -614,7 +614,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000107 ^designation[+].language = #fr-CH
 * #1000107 ^designation[=].value = "Décubitus ventral"
 * #1000107 ^designation[+].language = #it-CH
-* #1000107 ^designation[=].value = "Decubito Prono"
+* #1000107 ^designation[=].value = "Decubito prono"
 * #1000108 "side position left"
 * #1000108 ^designation[0].language = #de-CH
 * #1000108 ^designation[=].value = "Seitenlage links"
@@ -626,7 +626,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000109 ^designation[0].language = #de-CH
 * #1000109 ^designation[=].value = "Seitenlage rechts"
 * #1000109 ^designation[+].language = #fr-CH
-* #1000109 ^designation[=].value = "Décubitus latéral droite"
+* #1000109 ^designation[=].value = "Décubitus latéral droit"
 * #1000109 ^designation[+].language = #it-CH
 * #1000109 ^designation[=].value = "Decubito laterale destro"
 * #1000110 "emergency mission"
@@ -677,7 +677,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000116 ^designation[+].language = #fr-CH
 * #1000116 ^designation[=].value = "Intervention pour la police"
 * #1000116 ^designation[+].language = #it-CH
-* #1000116 ^designation[=].value = "Intervento per il polizia"
+* #1000116 ^designation[=].value = "Intervento per la polizia"
 * #1000117 "self-referral"
 * #1000117 ^designation[0].language = #de-CH
 * #1000117 ^designation[=].value = "Selbsteinweisung / Krankentransport"
@@ -699,13 +699,13 @@ Description: "Code system containing concepts defined by IVR."
 * #1000119 ^designation[=].value = "Intervention pour les partenaires contractuels"
 * #1000119 ^designation[+].language = #it-CH
 * #1000119 ^designation[=].value = "Intervento per i partner contrattuali"
-* #1000120 "involuntary committment"
+* #1000120 "involuntary commitment"
 * #1000120 ^designation[0].language = #de-CH
 * #1000120 ^designation[=].value = "fürsorgerische Unterbringung"
 * #1000120 ^designation[+].language = #fr-CH
 * #1000120 ^designation[=].value = "Hospitalisation non consensuelle"
 * #1000120 ^designation[+].language = #it-CH
-* #1000120 ^designation[=].value = "Ricovero non consenzuale"
+* #1000120 ^designation[=].value = "Ricovero non consensuale"
 * #1000121 "service on place"
 * #1000121 ^designation[0].language = #de-CH
 * #1000121 ^designation[=].value = "Dienstleistung vor Ort (DVO)"
@@ -720,7 +720,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000122 ^designation[=].value = "Admission médicale"
 * #1000122 ^designation[+].language = #it-CH
 * #1000122 ^designation[=].value = "Ricovero medico"
-* #1000123 "refuse of transport"
+* #1000123 "refusal of transport"
 * #1000123 ^designation[0].language = #de-CH
 * #1000123 ^designation[=].value = "Transportverweigerung"
 * #1000123 ^designation[+].language = #fr-CH
@@ -734,7 +734,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000124 ^designation[=].value = "Nébulisation avec H2O2"
 * #1000124 ^designation[+].language = #it-CH
 * #1000124 ^designation[=].value = "Nebulizzazione con H2O2"
-* #1000125 "scrub disinfection  with H2O2"
+* #1000125 "scrub disinfection with H2O2"
 * #1000125 ^designation[0].language = #de-CH
 * #1000125 ^designation[=].value = "Scheuer-Wisch-Desinfektion H2O2"
 * #1000125 ^designation[+].language = #fr-CH
@@ -824,7 +824,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000139 ^designation[+].language = #fr-CH
 * #1000139 ^designation[=].value = "ECG 3 dérivations"
 * #1000139 ^designation[+].language = #it-CH
-* #1000139 ^designation[=].value = "ECG e derivazioni"
+* #1000139 ^designation[=].value = "ECG 3 derivazioni"
 * #1000140 "4pol EKG"
 * #1000140 ^designation[0].language = #de-CH
 * #1000140 ^designation[=].value = "4pol EKG"
@@ -934,14 +934,14 @@ Description: "Code system containing concepts defined by IVR."
 * #1000155 ^designation[0].language = #de-CH
 * #1000155 ^designation[=].value = "ungezielte Schmerzabwehr"
 * #1000155 ^designation[+].language = #fr-CH
-* #1000155 ^designation[=].value = "Evitement désorientée"
+* #1000155 ^designation[=].value = "Evitement désorienté"
 * #1000155 ^designation[+].language = #it-CH
 * #1000155 ^designation[=].value = "Retrae / Flette ma non localizza il dolore"
 * #1000156 "directed defense"
 * #1000156 ^designation[0].language = #de-CH
 * #1000156 ^designation[=].value = "gezielte Schmerzabwehr"
 * #1000156 ^designation[+].language = #fr-CH
-* #1000156 ^designation[=].value = "Evitement orientée"
+* #1000156 ^designation[=].value = "Evitement orienté"
 * #1000156 ^designation[+].language = #it-CH
 * #1000156 ^designation[=].value = "Retrae / Flette localizza il dolore"
 * #1000157 "take orders"
@@ -1042,7 +1042,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1100007 ^designation[0].language = #de-CH
 * #1100007 ^designation[=].value = "Diagnosen"
 * #1100007 ^designation[+].language = #fr-CH
-* #1100007 ^designation[=].value = "Diagnostique"
+* #1100007 ^designation[=].value = "Diagnostic"
 * #1100007 ^designation[+].language = #it-CH
 * #1100007 ^designation[=].value = "Diagnosi"
 * #1100008 "measures"
@@ -1110,7 +1110,7 @@ Description: "Code system containing concepts defined by IVR."
 * #IV ^designation[=].value = "Grave disturbo, pericolo di morte"
 * #P "Reaktion nur auf Schmerzreiz"
 * #P ^designation[0].language = #de-CH
-* #P ^designation[=].value = "Reazione solo allo stimolo del dolore"
+* #P ^designation[=].value = "Reaktion nur auf Schmerzreiz"
 * #P ^designation[+].language = #fr-CH
 * #P ^designation[=].value = "Réaction uniquement au stimulus de la douleur"
 * #P ^designation[+].language = #it-CH

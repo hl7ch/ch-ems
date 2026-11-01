@@ -12,9 +12,9 @@ Usage: #definition
 * compose.include[=].concept.designation[0].language = #de-CH
 * compose.include[=].concept.designation[=].value = "Palpation"
 * compose.include[=].concept.designation[+].language = #fr-CH
-* compose.include[=].concept.designation[=].value = "Palpation"
+* compose.include[=].concept.designation[=].value = "palpation"
 * compose.include[=].concept.designation[+].language = #it-CH
-* compose.include[=].concept.designation[=].value = "Palpazione"
+* compose.include[=].concept.designation[=].value = "palpazione"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000141
 * compose.include[=].concept[=].display = "12pol EKG"
@@ -39,4 +39,4 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "ECG 3 dérivations"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "ECG e derivazioni"
+* compose.include[=].concept[=].designation[=].value = "ECG 3 derivazioni"

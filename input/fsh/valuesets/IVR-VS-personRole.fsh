@@ -10,11 +10,11 @@ Usage: #definition
 * compose.include[=].concept.code = #74964007
 * compose.include[=].concept.display = "Other"
 * compose.include[=].concept.designation[0].language = #de-CH
-* compose.include[=].concept.designation[=].value = "andere Rolle"
+* compose.include[=].concept.designation[=].value = "Andere Rolle"
 * compose.include[=].concept.designation[+].language = #fr-CH
-* compose.include[=].concept.designation[=].value = "Autre rôle"
+* compose.include[=].concept.designation[=].value = "autre rôle"
 * compose.include[=].concept.designation[+].language = #it-CH
-* compose.include[=].concept.designation[=].value = "Altro ruolo"
+* compose.include[=].concept.designation[=].value = "altro ruolo"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000095
 * compose.include[=].concept[=].display = "escort"

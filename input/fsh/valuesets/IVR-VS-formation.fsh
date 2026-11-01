@@ -10,66 +10,66 @@ Usage: #definition
 * compose.include[=].concept[0].code = #397897005
 * compose.include[=].concept[=].display = "Paramedic"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Rettungssanitäter/in HF"
+* compose.include[=].concept[=].designation[=].value = "Rettungssanitäter/Rettungssanitäterin"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Ambulanier/ère ES"
+* compose.include[=].concept[=].designation[=].value = "ambulancier"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Soccoritore SSS"
+* compose.include[=].concept[=].designation[=].value = "soccorritore(-trice)"
 * compose.include[=].concept[+].code = #159738005
 * compose.include[=].concept[=].display = "Ambulanceman"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Transportsanitäter/in FA"
+* compose.include[=].concept[=].designation[=].value = "Transportsanitäter/Transportsanitäterin"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Technicien ambulancier"
+* compose.include[=].concept[=].designation[=].value = "technicien(ne) ambulancier(-ère)"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Soccorritore ausiliario d'ambulanza"
+* compose.include[=].concept[=].designation[=].value = "soccorritore(-trice) ausiliario(-a) d'ambulanza"
 * compose.include[=].concept[+].code = #309294001
 * compose.include[=].concept[=].display = "Accident and Emergency doctor"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Notarzt/Notärztin SGNOR"
+* compose.include[=].concept[=].designation[=].value = "Notarzt/Notärztin"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Médecin d'urgence SSMUS"
+* compose.include[=].concept[=].designation[=].value = "médecin urgentiste"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Medico d'urgenza SSMUS"
+* compose.include[=].concept[=].designation[=].value = "medico d'urgenza"
 * compose.include[=].concept[+].code = #309445003
 * compose.include[=].concept[=].display = "Anesthetic nurse"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Anästhesiepfleger/in HF"
+* compose.include[=].concept[=].designation[=].value = "Anästhesiepfleger/Anästhesiepflegerin"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Infirmier/ère en anesthésie"
+* compose.include[=].concept[=].designation[=].value = "infirmier anesthésiste"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Infermiere/a anestesista"
+* compose.include[=].concept[=].designation[=].value = "infermiere(-a) anestesista"
 * compose.include[=].concept[+].code = #309453006
 * compose.include[=].concept[=].display = "Registered midwife"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Hebamme FH"
+* compose.include[=].concept[=].designation[=].value = "Hebamme"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Sage femme"
+* compose.include[=].concept[=].designation[=].value = "sage-femme"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Ostetrica"
+* compose.include[=].concept[=].designation[=].value = "levatrice"
 * compose.include[=].concept[+].code = #106292003
 * compose.include[=].concept[=].display = "Professional nurse"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Pflegefachperson"
+* compose.include[=].concept[=].designation[=].value = "Pflegefachmann / Pflegefachfrau"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Infirmier/ère"
+* compose.include[=].concept[=].designation[=].value = "infirmière"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Infermiere/a"
+* compose.include[=].concept[=].designation[=].value = "infermiere diplomato"
 * compose.include[=].concept[+].code = #224535009
 * compose.include[=].concept[=].display = "Registered nurse"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Pflegefachperson FH"
+* compose.include[=].concept[=].designation[=].value = "Diplomierter Pflegefachmann / Diplomierte Pflegefachfrau"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Infirmier/ère HES"
+* compose.include[=].concept[=].designation[=].value = "infirmier(-ère) autorisé(e)"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Infermiere/a SSS"
+* compose.include[=].concept[=].designation[=].value = "infermiere(-a) autorizzato(-a)"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000010
 * compose.include[=].concept[=].display = "paramedic-on-training"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Rettungssanitäter/in in Ausbildung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Etudiant/e Ambulanier/ère"
+* compose.include[=].concept[=].designation[=].value = "Etudiant/e Ambulancier/ère"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Soccorritore in formazione"
 * compose.include[=].concept[+].code = #1000011

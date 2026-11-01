@@ -71,7 +71,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #fr-CH
 * compose.include.concept[=].designation[=].value = "Intervention pour la police"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Intervento per il polizia"
+* compose.include.concept[=].designation[=].value = "Intervento per la polizia"
 * compose.include.concept[+].code = #1000117
 * compose.include.concept[=].display = "self-referral"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -97,13 +97,13 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Intervento per i partner contrattuali"
 * compose.include.concept[+].code = #1000120
-* compose.include.concept[=].display = "involuntary committment"
+* compose.include.concept[=].display = "involuntary commitment"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "fürsorgerische Unterbringung"
 * compose.include.concept[=].designation[+].language = #fr-CH
 * compose.include.concept[=].designation[=].value = "Hospitalisation non consensuelle"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Ricovero non consenzuale"
+* compose.include.concept[=].designation[=].value = "Ricovero non consensuale"
 * compose.include.concept[+].code = #1000121
 * compose.include.concept[=].display = "service on place"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -121,7 +121,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Ricovero medico"
 * compose.include.concept[+].code = #1000123
-* compose.include.concept[=].display = "refuse of transport"
+* compose.include.concept[=].display = "refusal of transport"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Transportverweigerung"
 * compose.include.concept[=].designation[+].language = #fr-CH
