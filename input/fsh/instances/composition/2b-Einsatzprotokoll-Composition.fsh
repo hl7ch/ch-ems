@@ -45,8 +45,8 @@ Usage: #example
                 <td>S12345678</td>
             </tr>
             <tr>
-                <td>Ereignisnummer</td>
-                <td>E20161210-0042</td>
+                <td>Dispositionsnummer</td>
+                <td>D12345678</td>
             </tr>
             <tr>
                 <td>aufbietende Organisation</td>
