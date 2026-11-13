@@ -987,6 +987,300 @@ Description: "Code system containing concepts defined by IVR."
 * #1000172 ^designation[=].value = "heure de prise en charge médecin d'urgence"
 * #1000172 ^designation[+].language = #it-CH
 * #1000172 ^designation[=].value = "orario di prelievo medico d'urgenza"
+* #1000200 "Intoxication with substances"
+* #1000200 ^designation[0].language = #de-CH
+* #1000200 ^designation[=].value = "Intoxikation Substanzen"
+* #1000200 ^designation[+].language = #fr-CH
+* #1000200 ^designation[=].value = "intoxication aux substances"
+* #1000200 ^designation[+].language = #it-CH
+* #1000200 ^designation[=].value = "intossicazione da sostanze"
+* #1000201 "Other intoxication"
+* #1000201 ^designation[0].language = #de-CH
+* #1000201 ^designation[=].value = "Sonstige Intoxikationen"
+* #1000201 ^designation[+].language = #fr-CH
+* #1000201 ^designation[=].value = "autres intoxications"
+* #1000201 ^designation[+].language = #it-CH
+* #1000201 ^designation[=].value = "altre intossicazioni"
+* #1000202 "Psychological decompensation"
+* #1000202 ^designation[0].language = #de-CH
+* #1000202 ^designation[=].value = "Psychische Dekompensation"
+* #1000202 ^designation[+].language = #fr-CH
+* #1000202 ^designation[=].value = "décompensation psychique"
+* #1000202 ^designation[+].language = #it-CH
+* #1000202 ^designation[=].value = "scompenso psichico"
+* #1000203 "Other mental and behavioral disorder"
+* #1000203 ^designation[0].language = #de-CH
+* #1000203 ^designation[=].value = "Sonstige psychische und Verhaltensstörungen"
+* #1000203 ^designation[+].language = #fr-CH
+* #1000203 ^designation[=].value = "autres troubles psychiques et du comportement"
+* #1000203 ^designation[+].language = #it-CH
+* #1000203 ^designation[=].value = "altri disturbi psichici e del comportamento"
+* #1000204 "Other disease of the respiratory system"
+* #1000204 ^designation[0].language = #de-CH
+* #1000204 ^designation[=].value = "Sonstige Krankheiten des Atmungssystems"
+* #1000204 ^designation[+].language = #fr-CH
+* #1000204 ^designation[=].value = "autres maladies du système respiratoire"
+* #1000204 ^designation[+].language = #it-CH
+* #1000204 ^designation[=].value = "altre malattie del sistema respiratorio"
+* #1000205 "Other cardiovascular disease"
+* #1000205 ^designation[0].language = #de-CH
+* #1000205 ^designation[=].value = "Sonstige Erkrankung Herz-Kreislauf"
+* #1000205 ^designation[+].language = #fr-CH
+* #1000205 ^designation[=].value = "autres maladies cardiovasculaires"
+* #1000205 ^designation[+].language = #it-CH
+* #1000205 ^designation[=].value = "altre malattie cardiovascolari"
+* #1000206 "Venous or arterial vascular occlusion"
+* #1000206 ^designation[0].language = #de-CH
+* #1000206 ^designation[=].value = "Gefässverschluss venös/arteriell"
+* #1000206 ^designation[+].language = #fr-CH
+* #1000206 ^designation[=].value = "occlusion vasculaire veineuse/artérielle"
+* #1000206 ^designation[+].language = #it-CH
+* #1000206 ^designation[=].value = "occlusione vascolare venosa/arteriosa"
+* #1000207 "Aortic aneurysm or aortic dissection"
+* #1000207 ^designation[0].language = #de-CH
+* #1000207 ^designation[=].value = "Aortenaneurysma, Aortendissektion"
+* #1000207 ^designation[+].language = #fr-CH
+* #1000207 ^designation[=].value = "anévrisme aortique, dissection aortique"
+* #1000207 ^designation[+].language = #it-CH
+* #1000207 ^designation[=].value = "aneurisma aortico, dissezione aortica"
+* #1000208 "Endocarditis or pericarditis"
+* #1000208 ^designation[0].language = #de-CH
+* #1000208 ^designation[=].value = "Endokarditis, Perikarditis"
+* #1000208 ^designation[+].language = #fr-CH
+* #1000208 ^designation[=].value = "endocardite, péricardite"
+* #1000208 ^designation[+].language = #it-CH
+* #1000208 ^designation[=].value = "endocardite, pericardite"
+* #1000209 "Non-hemorrhagic shock"
+* #1000209 ^designation[0].language = #de-CH
+* #1000209 ^designation[=].value = "Nicht-hämorrhagischer Schock"
+* #1000209 ^designation[+].language = #fr-CH
+* #1000209 ^designation[=].value = "choc non hémorragique"
+* #1000209 ^designation[+].language = #it-CH
+* #1000209 ^designation[=].value = "shock non emorragico"
+* #1000210 "Urinary tract infection or urosepsis"
+* #1000210 ^designation[0].language = #de-CH
+* #1000210 ^designation[=].value = "Harnwegsinfekt / Urosepsis"
+* #1000210 ^designation[+].language = #fr-CH
+* #1000210 ^designation[=].value = "infection urinaire / urosepsis"
+* #1000210 ^designation[+].language = #it-CH
+* #1000210 ^designation[=].value = "infezione delle vie urinarie / urosepsi"
+* #1000211 "Urinary catheter or suprapubic catheter problem"
+* #1000211 ^designation[0].language = #de-CH
+* #1000211 ^designation[=].value = "Blasenkatheter-/Cystofixproblematik"
+* #1000211 ^designation[+].language = #fr-CH
+* #1000211 ^designation[=].value = "problème de sonde vésicale / cystofixe"
+* #1000211 ^designation[+].language = #it-CH
+* #1000211 ^designation[=].value = "problemi con catetere vescicale / cistofisso"
+* #1000212 "Disease of the gallbladder, liver or pancreas"
+* #1000212 ^designation[0].language = #de-CH
+* #1000212 ^designation[=].value = "Krankheiten Galle, Leber und Pankreas"
+* #1000212 ^designation[+].language = #fr-CH
+* #1000212 ^designation[=].value = "maladies de la vésicule biliaire, du foie et du pancréas"
+* #1000212 ^designation[+].language = #it-CH
+* #1000212 ^designation[=].value = "malattie della colecisti, del fegato e del pancreas"
+* #1000213 "Pressure injury or injury from prolonged lying"
+* #1000213 ^designation[0].language = #de-CH
+* #1000213 ^designation[=].value = "Dekubitus / Liegetrauma"
+* #1000213 ^designation[+].language = #fr-CH
+* #1000213 ^designation[=].value = "escarre / trauma de décubitus"
+* #1000213 ^designation[+].language = #it-CH
+* #1000213 ^designation[=].value = "piaga da decubito / trauma da posizione"
+* #1000214 "Self-care deficit or social indication"
+* #1000214 ^designation[0].language = #de-CH
+* #1000214 ^designation[=].value = "Selbstpflegedefizit / Soziale Indikation"
+* #1000214 ^designation[+].language = #fr-CH
+* #1000214 ^designation[=].value = "déficit d'autosoins / indication sociale"
+* #1000214 ^designation[+].language = #it-CH
+* #1000214 ^designation[=].value = "deficit di autocura / indicazione sociale"
+* #1000215 "Malaise or weakness"
+* #1000215 ^designation[0].language = #de-CH
+* #1000215 ^designation[=].value = "Unwohlsein / Schwäche"
+* #1000215 ^designation[+].language = #fr-CH
+* #1000215 ^designation[=].value = "malaise / faiblesse"
+* #1000215 ^designation[+].language = #it-CH
+* #1000215 ^designation[=].value = "malessere / debolezza"
+* #1000216 "Other endocrine disorder"
+* #1000216 ^designation[0].language = #de-CH
+* #1000216 ^designation[=].value = "Sonstige endokrine Störungen"
+* #1000216 ^designation[+].language = #fr-CH
+* #1000216 ^designation[=].value = "autres troubles endocriniens"
+* #1000216 ^designation[+].language = #it-CH
+* #1000216 ^designation[=].value = "altri disturbi endocrini"
+* #1000217 "Other ear, nose and throat disease"
+* #1000217 ^designation[0].language = #de-CH
+* #1000217 ^designation[=].value = "Sonstige Erkrankung HNO"
+* #1000217 ^designation[+].language = #fr-CH
+* #1000217 ^designation[=].value = "autres maladies ORL"
+* #1000217 ^designation[+].language = #it-CH
+* #1000217 ^designation[=].value = "altre malattie ORL"
+* #1000218 "Infection without organ assignment"
+* #1000218 ^designation[0].language = #de-CH
+* #1000218 ^designation[=].value = "Infektion ohne Organzuordnung"
+* #1000218 ^designation[+].language = #fr-CH
+* #1000218 ^designation[=].value = "infection sans localisation organique"
+* #1000218 ^designation[+].language = #it-CH
+* #1000218 ^designation[=].value = "infezione senza localizzazione d'organo"
+* #1000219 "Other neurological disorder"
+* #1000219 ^designation[0].language = #de-CH
+* #1000219 ^designation[=].value = "Sonstige neurologische Störungen"
+* #1000219 ^designation[+].language = #fr-CH
+* #1000219 ^designation[=].value = "autres troubles neurologiques"
+* #1000219 ^designation[+].language = #it-CH
+* #1000219 ^designation[=].value = "altri disturbi neurologici"
+* #1000220 "Headache or migraine"
+* #1000220 ^designation[0].language = #de-CH
+* #1000220 ^designation[=].value = "Kopfschmerzen / Migräne"
+* #1000220 ^designation[+].language = #fr-CH
+* #1000220 ^designation[=].value = "céphalées / migraine"
+* #1000220 ^designation[+].language = #it-CH
+* #1000220 ^designation[=].value = "cefalea / emicrania"
+* #1000221 "Spontaneous abortion or bleeding in pregnancy"
+* #1000221 ^designation[0].language = #de-CH
+* #1000221 ^designation[=].value = "Spontanabort, Blutung in der Schwangerschaft"
+* #1000221 ^designation[+].language = #fr-CH
+* #1000221 ^designation[=].value = "fausse couche, hémorragie pendant la grossesse"
+* #1000221 ^designation[+].language = #it-CH
+* #1000221 ^designation[=].value = "aborto spontaneo, emorragia in gravidanza"
+* #1000222 "Labor contractions"
+* #1000222 ^designation[0].language = #de-CH
+* #1000222 ^designation[=].value = "Wehentätigkeit"
+* #1000222 ^designation[+].language = #fr-CH
+* #1000222 ^designation[=].value = "activité utérine / contractions"
+* #1000222 ^designation[+].language = #it-CH
+* #1000222 ^designation[=].value = "attività uterina / contrazioni"
+* #1000223 "Other disease of the sense organs"
+* #1000223 ^designation[0].language = #de-CH
+* #1000223 ^designation[=].value = "Sonstige Erkrankung der Sinnesorgane"
+* #1000223 ^designation[+].language = #fr-CH
+* #1000223 ^designation[=].value = "autres maladies des organes sensoriels"
+* #1000223 ^designation[+].language = #it-CH
+* #1000223 ^designation[=].value = "altre malattie degli organi di senso"
+* #1000224 "Technical cause (pacemaker, ICD, insulin pump etc.)"
+* #1000224 ^designation[0].language = #de-CH
+* #1000224 ^designation[=].value = "Technische Ursache (Pacer, ICD, Insulinpumpe etc.)"
+* #1000224 ^designation[+].language = #fr-CH
+* #1000224 ^designation[=].value = "cause technique (pacemaker, DAI, pompe à insuline, etc.)"
+* #1000224 ^designation[+].language = #it-CH
+* #1000224 ^designation[=].value = "causa tecnica (pacemaker, ICD, pompa per insulina, ecc.)"
+* #1000225 "Healthy or uninjured"
+* #1000225 ^designation[0].language = #de-CH
+* #1000225 ^designation[=].value = "Gesund / unverletzt"
+* #1000225 ^designation[+].language = #fr-CH
+* #1000225 ^designation[=].value = "sain / non blessé"
+* #1000225 ^designation[+].language = #it-CH
+* #1000225 ^designation[=].value = "sano / non ferito"
+* #1000226 "Pain of unknown origin"
+* #1000226 ^designation[0].language = #de-CH
+* #1000226 ^designation[=].value = "Schmerzen unklarer Genese"
+* #1000226 ^designation[+].language = #fr-CH
+* #1000226 ^designation[=].value = "douleurs d'origine indéterminée"
+* #1000226 ^designation[+].language = #it-CH
+* #1000226 ^designation[=].value = "dolore di origine indeterminata"
+* #1000227 "Complication of treatment"
+* #1000227 ^designation[0].language = #de-CH
+* #1000227 ^designation[=].value = "Komplikationen einer Behandlung"
+* #1000227 ^designation[+].language = #fr-CH
+* #1000227 ^designation[=].value = "complications d'un traitement"
+* #1000227 ^designation[+].language = #it-CH
+* #1000227 ^designation[=].value = "complicazioni di un trattamento"
+* #1000228 "Pelvis or hip"
+* #1000228 ^designation[0].language = #de-CH
+* #1000228 ^designation[=].value = "Becken / Hüfte"
+* #1000228 ^designation[+].language = #fr-CH
+* #1000228 ^designation[=].value = "bassin / hanche"
+* #1000228 ^designation[+].language = #it-CH
+* #1000228 ^designation[=].value = "bacino / anca"
+* #1000229 "Foot or toe"
+* #1000229 ^designation[0].language = #de-CH
+* #1000229 ^designation[=].value = "Fuss / Zehe"
+* #1000229 ^designation[+].language = #fr-CH
+* #1000229 ^designation[=].value = "pied / orteil"
+* #1000229 ^designation[+].language = #it-CH
+* #1000229 ^designation[=].value = "piede / dito del piede"
+* #1000230 "Hand or finger"
+* #1000230 ^designation[0].language = #de-CH
+* #1000230 ^designation[=].value = "Hand / Finger"
+* #1000230 ^designation[+].language = #fr-CH
+* #1000230 ^designation[=].value = "main / doigt"
+* #1000230 ^designation[+].language = #it-CH
+* #1000230 ^designation[=].value = "mano / dito"
+* #1000231 "Mouth or throat"
+* #1000231 ^designation[0].language = #de-CH
+* #1000231 ^designation[=].value = "Mund / Rachen"
+* #1000231 ^designation[+].language = #fr-CH
+* #1000231 ^designation[=].value = "bouche / gorge"
+* #1000231 ^designation[+].language = #it-CH
+* #1000231 ^designation[=].value = "bocca / faringe"
+* #1000232 "Back or spine"
+* #1000232 ^designation[0].language = #de-CH
+* #1000232 ^designation[=].value = "Rücken / Wirbelsäule"
+* #1000232 ^designation[+].language = #fr-CH
+* #1000232 ^designation[=].value = "dos / colonne vertébrale"
+* #1000232 ^designation[+].language = #it-CH
+* #1000232 ^designation[=].value = "schiena / colonna vertebrale"
+* #1000233 "Hyperthermia or hypothermia"
+* #1000233 ^designation[0].language = #de-CH
+* #1000233 ^designation[=].value = "Hyper- / Hypothermie"
+* #1000233 ^designation[+].language = #fr-CH
+* #1000233 ^designation[=].value = "hyper- / hypothermie"
+* #1000233 ^designation[+].language = #it-CH
+* #1000233 ^designation[=].value = "iper- / ipotermia"
+* #1000234 "Inhalation injury"
+* #1000234 ^designation[0].language = #de-CH
+* #1000234 ^designation[=].value = "Inhalationstrauma"
+* #1000234 ^designation[+].language = #fr-CH
+* #1000234 ^designation[=].value = "trauma par inhalation"
+* #1000234 ^designation[+].language = #it-CH
+* #1000234 ^designation[=].value = "trauma da inalazione"
+* #1000235 "Strangulation"
+* #1000235 ^designation[0].language = #de-CH
+* #1000235 ^designation[=].value = "Strangulation"
+* #1000235 ^designation[+].language = #fr-CH
+* #1000235 ^designation[=].value = "strangulation"
+* #1000235 ^designation[+].language = #it-CH
+* #1000235 ^designation[=].value = "strangolamento"
+* #1000236 "Electrical injury or lightning strike"
+* #1000236 ^designation[0].language = #de-CH
+* #1000236 ^designation[=].value = "Stromunfall/Blitzschlag"
+* #1000236 ^designation[+].language = #fr-CH
+* #1000236 ^designation[=].value = "électrocution / foudroiement"
+* #1000236 ^designation[+].language = #it-CH
+* #1000236 ^designation[=].value = "folgorazione / fulminazione"
+* #1000237 "Diving accident"
+* #1000237 ^designation[0].language = #de-CH
+* #1000237 ^designation[=].value = "Tauchunfall"
+* #1000237 ^designation[+].language = #fr-CH
+* #1000237 ^designation[=].value = "accident de plongée"
+* #1000237 ^designation[+].language = #it-CH
+* #1000237 ^designation[=].value = "incidente da immersione"
+* #1000238 "Foreign body in the airway or traumatic bolus aspiration"
+* #1000238 ^designation[0].language = #de-CH
+* #1000238 ^designation[=].value = "Fremdkörper in Atemwegen / traumatisches Bolusgeschehen"
+* #1000238 ^designation[+].language = #fr-CH
+* #1000238 ^designation[=].value = "corps étranger dans les voies respiratoires / fausse route traumatique"
+* #1000238 ^designation[+].language = #it-CH
+* #1000238 ^designation[=].value = "corpo estraneo nelle vie respiratorie / inalazione traumatica"
+* #1000239 "Closed fracture"
+* #1000239 ^designation[0].language = #de-CH
+* #1000239 ^designation[=].value = "Fraktur geschlossen"
+* #1000239 ^designation[+].language = #fr-CH
+* #1000239 ^designation[=].value = "fracture fermée"
+* #1000239 ^designation[+].language = #it-CH
+* #1000239 ^designation[=].value = "frattura chiusa"
+* #1000240 "Dislocation, sprain, strain or contusion"
+* #1000240 ^designation[0].language = #de-CH
+* #1000240 ^designation[=].value = "Luxation / Verstauchung / Zerrung / Quetschung"
+* #1000240 ^designation[+].language = #fr-CH
+* #1000240 ^designation[=].value = "luxation / entorse / élongation / contusion"
+* #1000240 ^designation[+].language = #it-CH
+* #1000240 ^designation[=].value = "lussazione / distorsione / strappo / contusione"
+* #1000241 "Gunshot or stab wound"
+* #1000241 ^designation[0].language = #de-CH
+* #1000241 ^designation[=].value = "Schuss-/Stichwunde"
+* #1000241 ^designation[+].language = #fr-CH
+* #1000241 ^designation[=].value = "plaie par balle / par arme blanche"
+* #1000241 ^designation[+].language = #it-CH
+* #1000241 ^designation[=].value = "ferita da arma da fuoco / da arma bianca"
 * #1100001 "Intervention"
 * #1100001 ^designation[0].language = #de-CH
 * #1100001 ^designation[=].value = "Einsatz"
