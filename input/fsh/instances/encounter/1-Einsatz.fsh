@@ -17,6 +17,9 @@ Usage: #example
 * identifier[missionNumber].type.text = "Einsatznummer"
 * identifier[missionNumber].system = "http://example.com"
 * identifier[missionNumber].value = "S12345678"
+* identifier[missionNumber].assigner.identifier.system = "urn:oid:2.51.1.3"
+* identifier[missionNumber].assigner.identifier.value = "7601002156370"
+* identifier[missionNumber].assigner.display = "SNZ"
 * status = #finished
 * class = $v3-ActCode#EMER "emergency"
 * subject.reference = "Patient/1-ThomasMueller"

@@ -8,6 +8,17 @@ Usage: #example
 * identifier[missionNumber].type.text = "Einsatznummer"
 * identifier[missionNumber].system = "http://example.com"
 * identifier[missionNumber].value = "S12345678"
+* identifier[missionNumber].assigner.identifier.system = "urn:oid:2.51.1.3"
+* identifier[missionNumber].assigner.identifier.value = "7601002156370"
+* identifier[missionNumber].assigner.display = "SNZ"
+// Incident number (issue #56): assigned by the SNZ to the event; all missions of this event (e.g. if
+// more patients are found or more ambulances are sent) carry the same incident number
+* identifier[incidentNumber].type = $IVR-CS#IN "Incident number"
+* identifier[incidentNumber].type.text = "Ereignisnummer"
+* identifier[incidentNumber].value = "E20161210-0042"
+* identifier[incidentNumber].assigner.identifier.system = "urn:oid:2.51.1.3"
+* identifier[incidentNumber].assigner.identifier.value = "7601002156370"
+* identifier[incidentNumber].assigner.display = "SNZ"
 
 * status = #finished
 * class = $v3-ActCode#EMER "emergency"

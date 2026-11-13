@@ -13,7 +13,13 @@ Description: "The logical model represents the Emergency Medical Service protoco
 
 * mission 1..1 BackboneElement "Mission"
 * mission.date 1..1 date "Mission date"
-* mission.number 1..1 Identifier "Mission number of the emergency medical dispatch centre (SNZ)"
+* mission.mission 1..1 BackboneElement "Mission of the emergency medical dispatch centre (SNZ) (who creates the protocol)"
+* mission.mission.number 1..1 string "Mission number"
+* mission.mission.issuingOrganisation 1..1 Identifier "GLN (Global Location Number) of the dispatch centre that issued the mission number"
+* mission.incident 0..1 BackboneElement "Incident number assigned by the originating dispatch centre"
+* mission.incident ^definition = "Incident number assigned by the originating dispatch centre. All missions of one incident (e.g. with more than one patient, or handed over between organisations) carry the same incident number, so that the patients of the incident can be tracked."
+* mission.incident.number 1..1 string "Incident number"
+* mission.incident.issuingOrganisation 1..1 Identifier "GLN (Global Location Number) of the dispatch centre that issued the incident number"
 * mission.type 0..1 CodeableConcept "Mission type"
 * mission.type from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-missionType (extensible)
 * mission.type ^binding.description = "Mission type"
