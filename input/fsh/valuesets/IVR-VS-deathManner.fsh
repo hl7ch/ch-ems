@@ -14,7 +14,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #fr-CH
 * compose.include.concept[=].designation[=].value = "mort inexpliquée"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "caduta di nodi più chiara"
+* compose.include.concept[=].designation[=].value = "decesso per causa sconosciuta"
 * compose.include.concept[+].code = #418309003
 * compose.include.concept[=].display = "suspicious death"
 * compose.include.concept[=].designation[0].language = #de-CH

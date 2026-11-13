@@ -15,6 +15,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#63](https://github.com/hl7ch/ch-ems/issues/63): Remove the statements on EPR conformance from the use case examples, as the patient of use case 1 contains the AHVN13, which must not be stored in the EPR
 * [#73](https://github.com/hl7ch/ch-ems/issues/73): Declare the base profile CH EMS Observation (Base) as abstract, it is not intended to be instantiated directly
 * [#58](https://github.com/hl7ch/ch-ems/issues/58): Use the German display for ICD-10-GM I21.0 in example 1-Diagnose, so the de-CH example Bundles validate without errors
+* [#65](https://github.com/hl7ch/ch-ems/issues/65): Fix invalid concept translations: AVPU `P` (de-CH), 3-lead ECG `1000139` (it-CH), death of unknown cause (it-CH) and the language tags of tachycardia (it-CH) and hospital (fr-CH)
 
 ### v2.0.0-ballot (2026-06-10)
 

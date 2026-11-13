@@ -39,4 +39,4 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "ECG 3 dérivations"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "ECG e derivazioni"
+* compose.include[=].concept[=].designation[=].value = "ECG 3 derivazioni"
