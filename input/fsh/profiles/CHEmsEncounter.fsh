@@ -14,13 +14,23 @@ Description: "This profile constrains the Encounter resource for representing th
 * extension[violence].extension[form] ^short = "Form of violence"
 * extension[violence].extension[result] ^short = "Consequence of violence"
 * identifier 1..
-* identifier contains missionNumber 1..1 MS
-* identifier[missionNumber] ^short = "Mission number"
+* identifier contains
+    missionNumber 1..1 MS and
+    incidentNumber 0..1 MS
+* identifier[missionNumber] ^short = "Mission number of the emergency medical dispatch centre (SNZ)"
 * identifier[missionNumber] ^patternIdentifier.type = $IVR-CS#MN
-* identifier[missionNumber].system 1..
-* identifier[missionNumber].system ^short = "OID of organization (intermediate care (IMC))"
+* identifier[missionNumber].system ^short = "Namespace of the mission numbers of the dispatch centre (optional, the issuing dispatch centre is identified by assigner)"
 * identifier[missionNumber].value 1..
-* identifier[missionNumber].value ^short = "Mission number intermediate care (IMC)"
+* identifier[missionNumber].value ^short = "Mission number"
+* insert IdentifierIssuedByDispatchCentre(missionNumber, mission number)
+// Incident number (issue #56): all missions of one incident carry the same incident number
+* identifier[incidentNumber] ^short = "Incident number assigned by the originating dispatch centre"
+* identifier[incidentNumber] ^definition = "Incident number assigned by the originating dispatch centre. All missions of one incident (e.g. with more than one patient, or handed over between organisations) carry the same incident number, so that the patients of the incident can be tracked."
+* identifier[incidentNumber] ^patternIdentifier.type = $IVR-CS#IN
+* identifier[incidentNumber].system ^short = "Namespace of the incident numbers of the originating dispatch centre (optional, the issuing dispatch centre is identified by assigner)"
+* identifier[incidentNumber].value 1..
+* identifier[incidentNumber].value ^short = "Incident number"
+* insert IdentifierIssuedByDispatchCentre(incidentNumber, incident number)
 * subject only Reference(CHEmsPatient)
 * subject MS
 * subject.reference 1..
@@ -58,3 +68,12 @@ Description: "This profile constrains the Encounter resource for representing th
 * serviceType MS 
 * serviceType only CHEmsCodeableConcept 
 * serviceType from $IVR-VS-missionType (extensible)
+
+// The dispatch centre that issued the number, identified by its GLN. This is the meaning of
+// Identifier.assigner (unlike the team reference removed from CH EMS Practitioner with #67).
+RuleSet: IdentifierIssuedByDispatchCentre(slice, label)
+* identifier[{slice}].assigner 1.. MS
+* identifier[{slice}].assigner ^short = "Dispatch centre that issued the {label}"
+* identifier[{slice}].assigner.identifier 1.. MS
+* identifier[{slice}].assigner.identifier only $ch-core-gln-identifier
+* identifier[{slice}].assigner.identifier ^short = "GLN of the dispatch centre (system urn:oid:2.51.1.3, as for the GLN of organizations and practitioners)"

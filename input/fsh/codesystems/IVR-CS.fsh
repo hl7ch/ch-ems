@@ -1150,3 +1150,10 @@ Description: "Code system containing concepts defined by IVR."
 * #MN ^designation[=].value = "numéro de la mission"
 * #MN ^designation[+].language = #it-CH
 * #MN ^designation[=].value = "numero della missione"
+* #IN "Incident number"
+* #IN ^designation[0].language = #de-CH
+* #IN ^designation[=].value = "Ereignisnummer"
+* #IN ^designation[+].language = #fr-CH
+* #IN ^designation[=].value = "numéro de l'événement"
+* #IN ^designation[+].language = #it-CH
+* #IN ^designation[=].value = "numero dell'evento"
