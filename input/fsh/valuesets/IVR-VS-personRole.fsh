@@ -37,9 +37,9 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Auftraggeber"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Mandataire"
+* compose.include[=].concept[=].designation[=].value = "Mandant"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Mandatario"
+* compose.include[=].concept[=].designation[=].value = "Mandante"
 * compose.include[=].concept[+].code = #1000098
 * compose.include[=].concept[=].display = "legal representative"
 * compose.include[=].concept[=].designation[0].language = #de-CH

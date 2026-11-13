@@ -451,7 +451,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000084 ^designation[0].language = #de-CH
 * #1000084 ^designation[=].value = "Laie"
 * #1000084 ^designation[+].language = #fr-CH
-* #1000084 ^designation[=].value = "Laïque"
+* #1000084 ^designation[=].value = "Témoin"
 * #1000084 ^designation[+].language = #it-CH
 * #1000084 ^designation[=].value = "Laico"
 * #1000085 "vacuum pillow"
@@ -542,9 +542,9 @@ Description: "Code system containing concepts defined by IVR."
 * #1000097 ^designation[0].language = #de-CH
 * #1000097 ^designation[=].value = "Auftraggeber"
 * #1000097 ^designation[+].language = #fr-CH
-* #1000097 ^designation[=].value = "Mandataire"
+* #1000097 ^designation[=].value = "Mandant"
 * #1000097 ^designation[+].language = #it-CH
-* #1000097 ^designation[=].value = "Mandatario"
+* #1000097 ^designation[=].value = "Mandante"
 * #1000098 "legal representative"
 * #1000098 ^designation[0].language = #de-CH
 * #1000098 ^designation[=].value = "gesetzlicher Vertreter"
@@ -596,7 +596,7 @@ Description: "Code system containing concepts defined by IVR."
 * #1000105 ^designation[=].value = "Gambe in giù"
 * #1000106 "knee kick"
 * #1000106 ^designation[0].language = #de-CH
-* #1000106 ^designation[=].value = "Kniekick"
+* #1000106 ^designation[=].value = "Knieknick"
 * #1000106 ^designation[+].language = #fr-CH
 * #1000106 ^designation[=].value = "Coup de genou"
 * #1000106 ^designation[+].language = #it-CH
@@ -841,32 +841,32 @@ Description: "Code system containing concepts defined by IVR."
 * #1000142 ^designation[=].value = "First responder"
 * #1000143 "first-degree frostbite"
 * #1000143 ^designation[0].language = #de-CH
-* #1000143 ^designation[=].value = "Erfrierungen 1. Grades"
+* #1000143 ^designation[=].value = "Erfrierung 1. Grades"
 * #1000143 ^designation[+].language = #fr-CH
-* #1000143 ^designation[=].value = "Gelures au 1er degré"
+* #1000143 ^designation[=].value = "Gelure du 1er degré"
 * #1000143 ^designation[+].language = #it-CH
-* #1000143 ^designation[=].value = "Ipotermia di 1. grado"
+* #1000143 ^designation[=].value = "Congelamento di 1° grado"
 * #1000144 "second-degree frostbite"
 * #1000144 ^designation[0].language = #de-CH
-* #1000144 ^designation[=].value = "Erfrierungen 2. Grades"
+* #1000144 ^designation[=].value = "Erfrierung 2. Grades"
 * #1000144 ^designation[+].language = #fr-CH
-* #1000144 ^designation[=].value = "Gelures au 2ème degré"
+* #1000144 ^designation[=].value = "Gelure du 2e degré"
 * #1000144 ^designation[+].language = #it-CH
-* #1000144 ^designation[=].value = "Ipotermia di 2. grado"
+* #1000144 ^designation[=].value = "Congelamento di 2° grado"
 * #1000145 "third-degree frostbite"
 * #1000145 ^designation[0].language = #de-CH
-* #1000145 ^designation[=].value = "Erfrierungen 3. Grades"
+* #1000145 ^designation[=].value = "Erfrierung 3. Grades"
 * #1000145 ^designation[+].language = #fr-CH
-* #1000145 ^designation[=].value = "Gelures au 3ème degré"
+* #1000145 ^designation[=].value = "Gelure du 3e degré"
 * #1000145 ^designation[+].language = #it-CH
-* #1000145 ^designation[=].value = "Ipotermia di 3. grado"
+* #1000145 ^designation[=].value = "Congelamento di 3° grado"
 * #1000146 "fourth-degree frostbite"
 * #1000146 ^designation[0].language = #de-CH
-* #1000146 ^designation[=].value = "Erfrierungen 4. Grades"
+* #1000146 ^designation[=].value = "Erfrierung 4. Grades"
 * #1000146 ^designation[+].language = #fr-CH
-* #1000146 ^designation[=].value = "Gelures au 4ème degré"
+* #1000146 ^designation[=].value = "Gelure du 4e degré"
 * #1000146 ^designation[+].language = #it-CH
-* #1000146 ^designation[=].value = "Ipotermia di 4. grado"
+* #1000146 ^designation[=].value = "Congelamento di 4° grado"
 * #1000147 "first-degree burn"
 * #1000147 ^designation[0].language = #de-CH
 * #1000147 ^designation[=].value = "Verbrennung 1. Grades"

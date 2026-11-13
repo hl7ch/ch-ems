@@ -67,7 +67,7 @@ Usage: #definition
 * compose.include[=].concept[+].code = #1000106
 * compose.include[=].concept[=].display = "knee kick"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Kniekick"
+* compose.include[=].concept[=].designation[=].value = "Knieknick"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "Coup de genou"
 * compose.include[=].concept[=].designation[+].language = #it-CH
