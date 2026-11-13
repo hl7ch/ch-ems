@@ -6,7 +6,7 @@ Usage: #example
 * status = #final
 
 // cdachems-dataelement-278 : Bedeutung der Statuszeit
-* code = $IVR-CS#1000033 "alarm"
+* code = $IVR-CS#1000033 "Alarm"
 * code.text = "Alarmierungszeit"
 
 * subject.reference = "Patient/2-PatientUnbekannt"

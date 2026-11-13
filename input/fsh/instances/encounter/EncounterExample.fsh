@@ -40,28 +40,28 @@ Usage: #example
 // cdachems-dataelement-25 Einsatzort
 * location.location.reference = "Location/1-Einsatzort"
 
-* priority = $IVR-CS#1000007 "with siren"
-* priority.text = "mit Sondersignal"
-* priority.extension[urgencyAdequate].valueCodeableConcept = $IVR-CS#1000135 "no, siren not necessary"
-* priority.extension[urgencyAdequate].valueCodeableConcept.text = "nein, Sondersignal nicht notwendig"
+* priority = $IVR-CS#1000007 "With siren"
+* priority.text = "Mit Sondersignal"
+* priority.extension[urgencyAdequate].valueCodeableConcept = $IVR-CS#1000135 "No, siren not necessary"
+* priority.extension[urgencyAdequate].valueCodeableConcept.text = "Nein, Sondersignal nicht notwendig"
 
-* extension[valuablesPatient][0].valueCodeableConcept = $IVR-CS#1000126	"wedding ring"
+* extension[valuablesPatient][0].valueCodeableConcept = $IVR-CS#1000126	"Wedding ring"
 * extension[valuablesPatient][=].valueCodeableConcept.text = "Ehering"
-* extension[valuablesPatient][+].valueCodeableConcept = $IVR-CS#1000131 "billfold"	
+* extension[valuablesPatient][+].valueCodeableConcept = $IVR-CS#1000131 "Billfold"	
 * extension[valuablesPatient][=].valueCodeableConcept.text = "Brieftasche"
 
-* reasonCode = $IVR-CS#1000110 "emergency mission"
+* reasonCode = $IVR-CS#1000110 "Emergency mission"
 * reasonCode.text = "Notfall-Einsatz"
 
-* serviceType = $IVR-CS#1000001 "primary mission"
+* serviceType = $IVR-CS#1000001 "Primary mission"
 * serviceType.text = "Primäreinsatz"
 
-* extension[emergencyDoctorSystem].valueCodeableConcept = $IVR-CS#1000005 "pickup by EMS"
+* extension[emergencyDoctorSystem].valueCodeableConcept = $IVR-CS#1000005 "Pickup by EMS"
 * extension[emergencyDoctorSystem].valueCodeableConcept.text = "Abholung durch Rettungsdienst"
 
-* extension[violence].extension[offender].valueCodeableConcept = $IVR-CS#1000080 "person, unknown"	
+* extension[violence].extension[offender].valueCodeableConcept = $IVR-CS#1000080 "Person, unknown"	
 * extension[violence].extension[offender].valueCodeableConcept.text = "Drittperson unbekannt"
-* extension[violence].extension[form].valueCodeableConcept = $IVR-CS#1000043 "contumeliousness"	
+* extension[violence].extension[form].valueCodeableConcept = $IVR-CS#1000043 "Contumeliousness"	
 * extension[violence].extension[form].valueCodeableConcept.text = "Beschimpfung"
 * extension[violence].extension[result].valueCodeableConcept = $sct#260413007 "None (qualifier value)"
 * extension[violence].extension[result].valueCodeableConcept.text = "keine"

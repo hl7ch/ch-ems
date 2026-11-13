@@ -33,10 +33,10 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "forte"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept.code = #1000074
-* compose.include[=].concept.display = "not tangible"
+* compose.include[=].concept.display = "Not tangible"
 * compose.include[=].concept.designation[0].language = #de-CH
-* compose.include[=].concept.designation[=].value = "nicht fühlbar"
+* compose.include[=].concept.designation[=].value = "Nicht fühlbar"
 * compose.include[=].concept.designation[+].language = #fr-CH
-* compose.include[=].concept.designation[=].value = "Non perceptible"
+* compose.include[=].concept.designation[=].value = "non perceptible"
 * compose.include[=].concept.designation[+].language = #it-CH
-* compose.include[=].concept.designation[=].value = "Non percettibile"
+* compose.include[=].concept.designation[=].value = "non percettibile"

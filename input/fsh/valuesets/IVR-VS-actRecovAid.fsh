@@ -49,29 +49,29 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "altro"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000085
-* compose.include[=].concept[=].display = "vacuum pillow"
+* compose.include[=].concept[=].display = "Vacuum pillow"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Vakuumkissen"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Attelle à dépression"
+* compose.include[=].concept[=].designation[=].value = "attelle à dépression"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Stecca a depressione"
+* compose.include[=].concept[=].designation[=].value = "stecca a depressione"
 * compose.include[=].concept[+].code = #1000086
-* compose.include[=].concept[=].display = "vacuum mattress"
+* compose.include[=].concept[=].display = "Vacuum mattress"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Vakuummatratze"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Matelas coquille"
+* compose.include[=].concept[=].designation[=].value = "matelas coquille"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Materasso a depressione"
+* compose.include[=].concept[=].designation[=].value = "materasso a depressione"
 * compose.include[=].concept[+].code = #1000087
-* compose.include[=].concept[=].display = "carrying chair"
+* compose.include[=].concept[=].display = "Carrying chair"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Tragestuhl"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Chaise de transport"
+* compose.include[=].concept[=].designation[=].value = "chaise de transport"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Sedia di trasporto"
+* compose.include[=].concept[=].designation[=].value = "sedia di trasporto"
 * compose.include[=].concept[+].code = #1000088
 * compose.include[=].concept[=].display = "KED system"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -85,17 +85,17 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Sam Splint"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Attelle"
+* compose.include[=].concept[=].designation[=].value = "attelle"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Stecca"
+* compose.include[=].concept[=].designation[=].value = "stecca"
 * compose.include[=].concept[+].code = #1000090
 * compose.include[=].concept[=].display = "Sam Sling"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Sam Sling"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Ceinture pelvienne"
+* compose.include[=].concept[=].designation[=].value = "ceinture pelvienne"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Cintura pelvica"
+* compose.include[=].concept[=].designation[=].value = "cintura pelvica"
 * compose.include[=].concept[+].extension.url = "http://hl7.org/fhir/StructureDefinition/valueset-concept-comments"
 * compose.include[=].concept[=].extension.valueString = "und ähnliche Baby-Transport-Systeme"
 * compose.include[=].concept[=].code = #1000091
@@ -103,6 +103,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Maxi Cosi"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Siège pour enfant"
+* compose.include[=].concept[=].designation[=].value = "siège pour enfant"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Seggiolino per bambini"
+* compose.include[=].concept[=].designation[=].value = "seggiolino per bambini"

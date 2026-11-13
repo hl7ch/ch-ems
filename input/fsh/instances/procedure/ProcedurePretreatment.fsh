@@ -3,7 +3,7 @@ InstanceOf: CHEmsProcedurePretreatment
 Title: "Vorbehandlung"
 Description: "Example for CH EMS Procedure: Pretreatment"
 Usage: #example
-* extension[performerQualification].valueCodeableConcept = $IVR-CS#1000142 "first responder"
+* extension[performerQualification].valueCodeableConcept = $IVR-CS#1000142 "First responder"
 * extension[performerQualification].valueCodeableConcept.text = "First responder"
 * category = $sct#373110003 "Emergency procedure (procedure)"
 * status = #completed

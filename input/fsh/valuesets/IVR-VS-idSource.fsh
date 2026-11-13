@@ -33,18 +33,18 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "poliziotto(-a)"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000022
-* compose.include[=].concept[=].display = "witness"
+* compose.include[=].concept[=].display = "Witness"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Zeuge / Zeugin"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Témoin"
+* compose.include[=].concept[=].designation[=].value = "témoin"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Testimone"
+* compose.include[=].concept[=].designation[=].value = "testimone"
 * compose.include[=].concept[+].code = #1000067
-* compose.include[=].concept[=].display = "identification impossible"
+* compose.include[=].concept[=].display = "Identification impossible"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Identifikation nicht möglich"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Identification impossible"
+* compose.include[=].concept[=].designation[=].value = "identification impossible"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Identificazione impossibile"
+* compose.include[=].concept[=].designation[=].value = "identificazione impossibile"

@@ -25,18 +25,18 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "nessun trattamento precedente"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000142
-* compose.include[=].concept[=].display = "first responder"
+* compose.include[=].concept[=].display = "First responder"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "First responder"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "First responder"
+* compose.include[=].concept[=].designation[=].value = "first responder"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "First responder"
+* compose.include[=].concept[=].designation[=].value = "first responder"
 * compose.include[=].concept[+].code = #1000084
-* compose.include[=].concept[=].display = "non-professional"
+* compose.include[=].concept[=].display = "Non-professional"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Laie"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Témoin"
+* compose.include[=].concept[=].designation[=].value = "témoin"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Laico"
+* compose.include[=].concept[=].designation[=].value = "laico"

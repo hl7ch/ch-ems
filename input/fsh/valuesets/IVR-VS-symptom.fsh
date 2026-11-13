@@ -201,26 +201,26 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "dolore"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000055
-* compose.include[=].concept[=].display = "not asked"
+* compose.include[=].concept[=].display = "Not asked"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "nicht erfragt"
+* compose.include[=].concept[=].designation[=].value = "Nicht erfragt"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Pas demandé"
+* compose.include[=].concept[=].designation[=].value = "pas demandé"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Non indagato"
+* compose.include[=].concept[=].designation[=].value = "non indagato"
 * compose.include[=].concept[+].code = #1000058
-* compose.include[=].concept[=].display = "no information"
+* compose.include[=].concept[=].display = "No information"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "keine Angaben"
+* compose.include[=].concept[=].designation[=].value = "Keine Angaben"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Aucune information"
+* compose.include[=].concept[=].designation[=].value = "aucune information"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Nessuna informazione"
+* compose.include[=].concept[=].designation[=].value = "nessuna informazione"
 * compose.include[=].concept[+].code = #1000057
-* compose.include[=].concept[=].display = "see attachment"
+* compose.include[=].concept[=].display = "See attachment"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "siehe Beilage"
+* compose.include[=].concept[=].designation[=].value = "Siehe Beilage"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Voir pièce jointe"
+* compose.include[=].concept[=].designation[=].value = "voir pièce jointe"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vedi allegato"
+* compose.include[=].concept[=].designation[=].value = "vedi allegato"

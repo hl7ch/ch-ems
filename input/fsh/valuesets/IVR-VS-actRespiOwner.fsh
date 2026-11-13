@@ -33,18 +33,18 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "altro"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000082
-* compose.include[=].concept[=].display = "organisation point of departure"
+* compose.include[=].concept[=].display = "Organisation point of departure"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Organisation des Abfahrtsortes"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Organisation du lieu de départ"
+* compose.include[=].concept[=].designation[=].value = "organisation du lieu de départ"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Organizzazione del luogo di partenza"
+* compose.include[=].concept[=].designation[=].value = "organizzazione del luogo di partenza"
 * compose.include[=].concept[+].code = #1000083
-* compose.include[=].concept[=].display = "organisation point of arrival"
+* compose.include[=].concept[=].display = "Organisation point of arrival"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Organisation Zielort"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Organisation du lieu d'arrivée"
+* compose.include[=].concept[=].designation[=].value = "organisation du lieu d'arrivée"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Organizzazione del luogo di arrivo"
+* compose.include[=].concept[=].designation[=].value = "organizzazione del luogo di arrivo"

@@ -17,26 +17,26 @@ Usage: #definition
 * compose.include[=].concept.designation[=].value = "nessuna reazione"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000150
-* compose.include[=].concept[=].display = "on pain stimulus"
+* compose.include[=].concept[=].display = "On pain stimulus"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "auf Schmerzreiz"
+* compose.include[=].concept[=].designation[=].value = "Auf Schmerzreiz"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "À la douleur"
+* compose.include[=].concept[=].designation[=].value = "à la douleur"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Allo stimolo doloroso"
+* compose.include[=].concept[=].designation[=].value = "allo stimolo doloroso"
 * compose.include[=].concept[+].code = #1000151
-* compose.include[=].concept[=].display = "on request"
+* compose.include[=].concept[=].display = "On request"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "auf Aufforderung"
+* compose.include[=].concept[=].designation[=].value = "Auf Aufforderung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "À la demande"
+* compose.include[=].concept[=].designation[=].value = "à la demande"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Allo stimolo verbale"
+* compose.include[=].concept[=].designation[=].value = "allo stimolo verbale"
 * compose.include[=].concept[+].code = #1000152
-* compose.include[=].concept[=].display = "spontaneous"
+* compose.include[=].concept[=].display = "Spontaneous"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "spontan"
+* compose.include[=].concept[=].designation[=].value = "Spontan"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Spontanée"
+* compose.include[=].concept[=].designation[=].value = "spontanée"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Spontanea"
+* compose.include[=].concept[=].designation[=].value = "spontanea"

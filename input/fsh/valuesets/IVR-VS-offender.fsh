@@ -25,26 +25,26 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "paziente"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000079
-* compose.include[=].concept[=].display = "crowd"
+* compose.include[=].concept[=].display = "Crowd"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Personenansammlung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Foule"
+* compose.include[=].concept[=].designation[=].value = "foule"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Folla"
+* compose.include[=].concept[=].designation[=].value = "folla"
 * compose.include[=].concept[+].code = #1000080
-* compose.include[=].concept[=].display = "person, unknown"
+* compose.include[=].concept[=].display = "Person, unknown"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Drittperson unbekannt"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Tierce personne inconnue"
+* compose.include[=].concept[=].designation[=].value = "tierce personne inconnue"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Terza persona sconosciuta"
+* compose.include[=].concept[=].designation[=].value = "terza persona sconosciuta"
 * compose.include[=].concept[+].code = #1000081
-* compose.include[=].concept[=].display = "person, known"
+* compose.include[=].concept[=].display = "Person, known"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Drittperson bekannt"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Tierce personne connue"
+* compose.include[=].concept[=].designation[=].value = "tierce personne connue"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Terza persona conosciuta"
+* compose.include[=].concept[=].designation[=].value = "terza persona conosciuta"

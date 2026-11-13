@@ -97,9 +97,9 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "altro"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept.code = #1000054
-* compose.include[=].concept.display = "unknown"
+* compose.include[=].concept.display = "Unknown"
 * compose.include[=].concept.designation[0].language = #de-CH
-* compose.include[=].concept.designation[=].value = "unbekannt"
+* compose.include[=].concept.designation[=].value = "Unbekannt"
 * compose.include[=].concept.designation[+].language = #fr-CH
 * compose.include[=].concept.designation[=].value = "inconnu"
 * compose.include[=].concept.designation[+].language = #it-CH

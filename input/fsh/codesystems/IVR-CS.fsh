@@ -6,475 +6,475 @@ Description: "Code system containing concepts defined by IVR."
 * ^experimental = false
 * ^caseSensitive = true
 * ^content = #complete
-* #0 "keine Verletzung oder Erkrankung"
+* #0 "Keine Verletzung oder Erkrankung"
 * #0 ^designation[0].language = #de-CH
-* #0 ^designation[=].value = "keine Verletzung oder Erkrankung"
+* #0 ^designation[=].value = "Keine Verletzung oder Erkrankung"
 * #0 ^designation[+].language = #fr-CH
 * #0 ^designation[=].value = "aucune blessure ou maladie"
 * #0 ^designation[+].language = #it-CH
 * #0 ^designation[=].value = "nessuna lesione o malattia"
-* #1000001 "primary mission"
+* #1000001 "Primary mission"
 * #1000001 ^designation[0].language = #de-CH
 * #1000001 ^designation[=].value = "Primäreinsatz"
 * #1000001 ^designation[+].language = #fr-CH
-* #1000001 ^designation[=].value = "Mission primaire"
+* #1000001 ^designation[=].value = "mission primaire"
 * #1000001 ^designation[+].language = #it-CH
-* #1000001 ^designation[=].value = "Intervento primario"
-* #1000002 "secondary mission"
+* #1000001 ^designation[=].value = "intervento primario"
+* #1000002 "Secondary mission"
 * #1000002 ^designation[0].language = #de-CH
 * #1000002 ^designation[=].value = "Sekundäreinsatz"
 * #1000002 ^designation[+].language = #fr-CH
-* #1000002 ^designation[=].value = "Mission secondaire"
+* #1000002 ^designation[=].value = "mission secondaire"
 * #1000002 ^designation[+].language = #it-CH
-* #1000002 ^designation[=].value = "Intervento secondario"
-* #1000003 "stand-by mission"
+* #1000002 ^designation[=].value = "intervento secondario"
+* #1000003 "Stand-by mission"
 * #1000003 ^designation[0].language = #de-CH
 * #1000003 ^designation[=].value = "Bereitschaftsdienst"
 * #1000003 ^designation[+].language = #fr-CH
-* #1000003 ^designation[=].value = "Service de garde"
+* #1000003 ^designation[=].value = "service de garde"
 * #1000003 ^designation[+].language = #it-CH
-* #1000003 ^designation[=].value = "Guardia medica"
-* #1000004 "residential EMS"
+* #1000003 ^designation[=].value = "guardia medica"
+* #1000004 "Residential EMS"
 * #1000004 ^designation[0].language = #de-CH
 * #1000004 ^designation[=].value = "Stationärer Rettungsdienst"
 * #1000004 ^designation[+].language = #fr-CH
-* #1000004 ^designation[=].value = "Service de sauvetage fixe"
+* #1000004 ^designation[=].value = "service de sauvetage fixe"
 * #1000004 ^designation[+].language = #it-CH
-* #1000004 ^designation[=].value = "Servizio di salvataggio ospedaliero"
-* #1000005 "pickup by EMS"
+* #1000004 ^designation[=].value = "servizio di salvataggio ospedaliero"
+* #1000005 "Pickup by EMS"
 * #1000005 ^designation[0].language = #de-CH
 * #1000005 ^designation[=].value = "Abholung durch Rettungsdienst"
 * #1000005 ^designation[+].language = #fr-CH
-* #1000005 ^designation[=].value = "Prise en charge par le service de sauvetage"
+* #1000005 ^designation[=].value = "prise en charge par le service de sauvetage"
 * #1000005 ^designation[+].language = #it-CH
-* #1000005 ^designation[=].value = "Trasporto con servizio di salvataggio"
-* #1000006 "rendezvous"
+* #1000005 ^designation[=].value = "trasporto con servizio di salvataggio"
+* #1000006 "Rendezvous"
 * #1000006 ^designation[0].language = #de-CH
 * #1000006 ^designation[=].value = "Rendezvous"
 * #1000006 ^designation[+].language = #fr-CH
-* #1000006 ^designation[=].value = "Rendez-vous"
+* #1000006 ^designation[=].value = "rendez-vous"
 * #1000006 ^designation[+].language = #it-CH
-* #1000006 ^designation[=].value = "Rendez-vous"
-* #1000007 "with siren"
+* #1000006 ^designation[=].value = "rendez-vous"
+* #1000007 "With siren"
 * #1000007 ^designation[0].language = #de-CH
-* #1000007 ^designation[=].value = "mit Sondersignal"
+* #1000007 ^designation[=].value = "Mit Sondersignal"
 * #1000007 ^designation[+].language = #fr-CH
-* #1000007 ^designation[=].value = "Avec sirène"
+* #1000007 ^designation[=].value = "avec sirène"
 * #1000007 ^designation[+].language = #it-CH
-* #1000007 ^designation[=].value = "Con segnali prioritari"
-* #1000008 "without siren"
+* #1000007 ^designation[=].value = "con segnali prioritari"
+* #1000008 "Without siren"
 * #1000008 ^designation[0].language = #de-CH
-* #1000008 ^designation[=].value = "ohne Sondersignal"
+* #1000008 ^designation[=].value = "Ohne Sondersignal"
 * #1000008 ^designation[+].language = #fr-CH
-* #1000008 ^designation[=].value = "Sans sirène"
+* #1000008 ^designation[=].value = "sans sirène"
 * #1000008 ^designation[+].language = #it-CH
-* #1000008 ^designation[=].value = "Senza segnali prioritari"
-* #1000010 "paramedic-on-training"
+* #1000008 ^designation[=].value = "senza segnali prioritari"
+* #1000010 "Paramedic-on-training"
 * #1000010 ^designation[0].language = #de-CH
 * #1000010 ^designation[=].value = "Rettungssanitäter/in in Ausbildung"
 * #1000010 ^designation[+].language = #fr-CH
-* #1000010 ^designation[=].value = "Etudiant/e Ambulancier/ère"
+* #1000010 ^designation[=].value = "étudiant/e ambulancier/ère"
 * #1000010 ^designation[+].language = #it-CH
-* #1000010 ^designation[=].value = "Soccorritore in formazione"
+* #1000010 ^designation[=].value = "soccorritore in formazione"
 * #1000011 "Ambulanceman-on-training"
 * #1000011 ^designation[0].language = #de-CH
 * #1000011 ^designation[=].value = "Transportsanitäter/in in Ausbildung"
 * #1000011 ^designation[+].language = #fr-CH
-* #1000011 ^designation[=].value = "Technicien ambulancier en formation"
+* #1000011 ^designation[=].value = "technicien ambulancier en formation"
 * #1000011 ^designation[+].language = #it-CH
-* #1000011 ^designation[=].value = "Soccorritore ausiliario d'ambulanza in formazione"
-* #1000013 "driver"
+* #1000011 ^designation[=].value = "soccorritore ausiliario d'ambulanza in formazione"
+* #1000013 "Driver"
 * #1000013 ^designation[0].language = #de-CH
 * #1000013 ^designation[=].value = "Fahrer"
 * #1000013 ^designation[+].language = #fr-CH
-* #1000013 ^designation[=].value = "Chauffeur"
+* #1000013 ^designation[=].value = "chauffeur"
 * #1000013 ^designation[+].language = #it-CH
-* #1000013 ^designation[=].value = "Autista"
-* #1000014 "trainee"
+* #1000013 ^designation[=].value = "autista"
+* #1000014 "Trainee"
 * #1000014 ^designation[0].language = #de-CH
-* #1000014 ^designation[=].value = "in Ausbildung"
+* #1000014 ^designation[=].value = "In Ausbildung"
 * #1000014 ^designation[+].language = #fr-CH
 * #1000014 ^designation[=].value = "en formation"
 * #1000014 ^designation[+].language = #it-CH
-* #1000014 ^designation[=].value = "In formazione"
-* #1000016 "attending doctor"
+* #1000014 ^designation[=].value = "in formazione"
+* #1000016 "Attending doctor"
 * #1000016 ^designation[0].language = #de-CH
-* #1000016 ^designation[=].value = "betreuender Arzt"
+* #1000016 ^designation[=].value = "Betreuender Arzt"
 * #1000016 ^designation[+].language = #fr-CH
-* #1000016 ^designation[=].value = "Médecin responsable"
+* #1000016 ^designation[=].value = "médecin responsable"
 * #1000016 ^designation[+].language = #it-CH
-* #1000016 ^designation[=].value = "Medico responsabile"
-* #1000020 "apprentice"
+* #1000016 ^designation[=].value = "medico responsabile"
+* #1000020 "Apprentice"
 * #1000020 ^designation[0].language = #de-CH
 * #1000020 ^designation[=].value = "Praktikant"
 * #1000020 ^designation[+].language = #fr-CH
-* #1000020 ^designation[=].value = "Stagiaire"
+* #1000020 ^designation[=].value = "stagiaire"
 * #1000020 ^designation[+].language = #it-CH
-* #1000020 ^designation[=].value = "Stagista"
-* #1000021 "security force"
+* #1000020 ^designation[=].value = "stagista"
+* #1000021 "Security force"
 * #1000021 ^designation[0].language = #de-CH
 * #1000021 ^designation[=].value = "Sicherheitsbegleitung"
 * #1000021 ^designation[+].language = #fr-CH
-* #1000021 ^designation[=].value = "Service sécurité"
+* #1000021 ^designation[=].value = "service sécurité"
 * #1000021 ^designation[+].language = #it-CH
-* #1000021 ^designation[=].value = "Accompagnamento protettivo"
-* #1000022 "witness"
+* #1000021 ^designation[=].value = "accompagnamento protettivo"
+* #1000022 "Witness"
 * #1000022 ^designation[0].language = #de-CH
 * #1000022 ^designation[=].value = "Zeuge / Zeugin"
 * #1000022 ^designation[+].language = #fr-CH
-* #1000022 ^designation[=].value = "Témoin"
+* #1000022 ^designation[=].value = "témoin"
 * #1000022 ^designation[+].language = #it-CH
-* #1000022 ^designation[=].value = "Testimone"
-* #1000033 "alarm"
+* #1000022 ^designation[=].value = "testimone"
+* #1000033 "Alarm"
 * #1000033 ^designation[0].language = #de-CH
 * #1000033 ^designation[=].value = "Alarmierungszeit"
 * #1000033 ^designation[+].language = #fr-CH
-* #1000033 ^designation[=].value = "Heure d'alarme"
+* #1000033 ^designation[=].value = "heure d'alarme"
 * #1000033 ^designation[+].language = #it-CH
-* #1000033 ^designation[=].value = "Orario dell'allarme"
-* #1000034 "disposition"
+* #1000033 ^designation[=].value = "orario dell'allarme"
+* #1000034 "Disposition"
 * #1000034 ^designation[0].language = #de-CH
 * #1000034 ^designation[=].value = "Dispositionszeit"
 * #1000034 ^designation[+].language = #fr-CH
 * #1000034 ^designation[=].value = "traitement de la centrale d’appels"
 * #1000034 ^designation[+].language = #it-CH
-* #1000034 ^designation[=].value = "Tempo di elaborazione telefonata 144"
-* #1000035 "rollout"
+* #1000034 ^designation[=].value = "tempo di elaborazione telefonata 144"
+* #1000035 "Rollout"
 * #1000035 ^designation[0].language = #de-CH
 * #1000035 ^designation[=].value = "Ausrückzeit"
 * #1000035 ^designation[+].language = #fr-CH
-* #1000035 ^designation[=].value = "Parti"
+* #1000035 ^designation[=].value = "parti"
 * #1000035 ^designation[+].language = #it-CH
-* #1000035 ^designation[=].value = "Partenza per il luogo"
-* #1000036 "arrival on scene"
+* #1000035 ^designation[=].value = "partenza per il luogo"
+* #1000036 "Arrival on scene"
 * #1000036 ^designation[0].language = #de-CH
 * #1000036 ^designation[=].value = "Ankunftszeit am Einsatzort"
 * #1000036 ^designation[+].language = #fr-CH
-* #1000036 ^designation[=].value = "Arrivée sur le site"
+* #1000036 ^designation[=].value = "arrivée sur le site"
 * #1000036 ^designation[+].language = #it-CH
-* #1000036 ^designation[=].value = "Arrivo sul luogo"
-* #1000037 "arrival patient"
+* #1000036 ^designation[=].value = "arrivo sul luogo"
+* #1000037 "Arrival patient"
 * #1000037 ^designation[0].language = #de-CH
 * #1000037 ^designation[=].value = "Ankunftszeit beim Patienten"
 * #1000037 ^designation[+].language = #fr-CH
-* #1000037 ^designation[=].value = "Arrivée auprès du patient"
+* #1000037 ^designation[=].value = "arrivée auprès du patient"
 * #1000037 ^designation[+].language = #it-CH
-* #1000037 ^designation[=].value = "Accesso al paziente"
-* #1000038 "departure from scene"
+* #1000037 ^designation[=].value = "accesso al paziente"
+* #1000038 "Departure from scene"
 * #1000038 ^designation[0].language = #de-CH
 * #1000038 ^designation[=].value = "Abfahrtszeit vom Einsatzort"
 * #1000038 ^designation[+].language = #fr-CH
-* #1000038 ^designation[=].value = "Départ du site"
+* #1000038 ^designation[=].value = "départ du site"
 * #1000038 ^designation[+].language = #it-CH
-* #1000038 ^designation[=].value = "Partenza dal luogo"
-* #1000039 "arrival at target"
+* #1000038 ^designation[=].value = "partenza dal luogo"
+* #1000039 "Arrival at target"
 * #1000039 ^designation[0].language = #de-CH
 * #1000039 ^designation[=].value = "Ankunftszeit am Zielort"
 * #1000039 ^designation[+].language = #fr-CH
-* #1000039 ^designation[=].value = "Arrivée à destination"
+* #1000039 ^designation[=].value = "arrivée à destination"
 * #1000039 ^designation[+].language = #it-CH
-* #1000039 ^designation[=].value = "Arrivo a destinazione"
-* #1000040 "handover patient"
+* #1000039 ^designation[=].value = "arrivo a destinazione"
+* #1000040 "Handover patient"
 * #1000040 ^designation[0].language = #de-CH
 * #1000040 ^designation[=].value = "Übergabezeit"
 * #1000040 ^designation[+].language = #fr-CH
-* #1000040 ^designation[=].value = "Remise du patient"
+* #1000040 ^designation[=].value = "remise du patient"
 * #1000040 ^designation[+].language = #it-CH
-* #1000040 ^designation[=].value = "Consegna del paziente"
-* #1000041 "departure from target"
+* #1000040 ^designation[=].value = "consegna del paziente"
+* #1000041 "Departure from target"
 * #1000041 ^designation[0].language = #de-CH
 * #1000041 ^designation[=].value = "Abfahrtszeit vom Zielort"
 * #1000041 ^designation[+].language = #fr-CH
-* #1000041 ^designation[=].value = "Départ du lieu de destination"
+* #1000041 ^designation[=].value = "départ du lieu de destination"
 * #1000041 ^designation[+].language = #it-CH
-* #1000041 ^designation[=].value = "Partenza dal luogo di destinazione"
-* #1000042 "operational readiness"
+* #1000041 ^designation[=].value = "partenza dal luogo di destinazione"
+* #1000042 "Operational readiness"
 * #1000042 ^designation[0].language = #de-CH
 * #1000042 ^designation[=].value = "Zeit Einsatzbereit"
 * #1000042 ^designation[+].language = #fr-CH
-* #1000042 ^designation[=].value = "Opérationnel"
+* #1000042 ^designation[=].value = "opérationnel"
 * #1000042 ^designation[+].language = #it-CH
-* #1000042 ^designation[=].value = "Prontezza"
-* #1000043 "contumeliousness"
+* #1000042 ^designation[=].value = "prontezza"
+* #1000043 "Contumeliousness"
 * #1000043 ^designation[0].language = #de-CH
 * #1000043 ^designation[=].value = "Beschimpfung"
 * #1000043 ^designation[+].language = #fr-CH
-* #1000043 ^designation[=].value = "Insulte"
+* #1000043 ^designation[=].value = "insulte"
 * #1000043 ^designation[+].language = #it-CH
-* #1000043 ^designation[=].value = "Insulto"
-* #1000044 "pelting with items"
+* #1000043 ^designation[=].value = "insulto"
+* #1000044 "Pelting with items"
 * #1000044 ^designation[0].language = #de-CH
 * #1000044 ^designation[=].value = "Bewerfen mit Gegenständen"
 * #1000044 ^designation[+].language = #fr-CH
-* #1000044 ^designation[=].value = "Lancer des objets"
+* #1000044 ^designation[=].value = "lancer des objets"
 * #1000044 ^designation[+].language = #it-CH
-* #1000044 ^designation[=].value = "Lancio di oggetti"
-* #1000045 "unwanted touching"
+* #1000044 ^designation[=].value = "lancio di oggetti"
+* #1000045 "Unwanted touching"
 * #1000045 ^designation[0].language = #de-CH
 * #1000045 ^designation[=].value = "Unerwünschte Berührung"
 * #1000045 ^designation[+].language = #fr-CH
-* #1000045 ^designation[=].value = "Contact physique indésirable"
+* #1000045 ^designation[=].value = "contact physique indésirable"
 * #1000045 ^designation[+].language = #it-CH
-* #1000045 ^designation[=].value = "Contatto fisico indesiderato"
-* #1000046 "hustling"
+* #1000045 ^designation[=].value = "contatto fisico indesiderato"
+* #1000046 "Hustling"
 * #1000046 ^designation[0].language = #de-CH
 * #1000046 ^designation[=].value = "Stossen / Anrempeln"
 * #1000046 ^designation[+].language = #fr-CH
-* #1000046 ^designation[=].value = "Bousculades"
+* #1000046 ^designation[=].value = "bousculades"
 * #1000046 ^designation[+].language = #it-CH
-* #1000046 ^designation[=].value = "Spintoni"
-* #1000049 "slight corporal attack"
+* #1000046 ^designation[=].value = "spintoni"
+* #1000049 "Slight corporal attack"
 * #1000049 ^designation[0].language = #de-CH
-* #1000049 ^designation[=].value = "leichter körperlicher Angriff"
+* #1000049 ^designation[=].value = "Leichter körperlicher Angriff"
 * #1000049 ^designation[+].language = #fr-CH
-* #1000049 ^designation[=].value = "Agression physique légère"
+* #1000049 ^designation[=].value = "agression physique légère"
 * #1000049 ^designation[+].language = #it-CH
-* #1000049 ^designation[=].value = "Leggera aggressione fisica"
-* #1000050 "schwerer körperlicher Angriff"
+* #1000049 ^designation[=].value = "leggera aggressione fisica"
+* #1000050 "Schwerer körperlicher Angriff"
 * #1000050 ^designation[0].language = #de-CH
-* #1000050 ^designation[=].value = "schwerer körperlicher Angriff"
+* #1000050 ^designation[=].value = "Schwerer körperlicher Angriff"
 * #1000050 ^designation[+].language = #fr-CH
-* #1000050 ^designation[=].value = "Agression physique grave"
+* #1000050 ^designation[=].value = "agression physique grave"
 * #1000050 ^designation[+].language = #it-CH
-* #1000050 ^designation[=].value = "Severa aggressione fisica"
+* #1000050 ^designation[=].value = "severa aggressione fisica"
 * #1000053 "Identity card"
 * #1000053 ^designation[0].language = #de-CH
 * #1000053 ^designation[=].value = "Identitätskarte"
 * #1000053 ^designation[+].language = #fr-CH
-* #1000053 ^designation[=].value = "Carte d'identité"
+* #1000053 ^designation[=].value = "carte d'identité"
 * #1000053 ^designation[+].language = #it-CH
-* #1000053 ^designation[=].value = "Carta d'identità"
-* #1000054 "unknown"
+* #1000053 ^designation[=].value = "carta d'identità"
+* #1000054 "Unknown"
 * #1000054 ^designation[0].language = #de-CH
-* #1000054 ^designation[=].value = "unbekannt"
+* #1000054 ^designation[=].value = "Unbekannt"
 * #1000054 ^designation[+].language = #fr-CH
 * #1000054 ^designation[=].value = "inconnu"
 * #1000054 ^designation[+].language = #it-CH
 * #1000054 ^designation[=].value = "sconosciuto"
-* #1000055 "not asked"
+* #1000055 "Not asked"
 * #1000055 ^designation[0].language = #de-CH
-* #1000055 ^designation[=].value = "nicht erfragt"
+* #1000055 ^designation[=].value = "Nicht erfragt"
 * #1000055 ^designation[+].language = #fr-CH
-* #1000055 ^designation[=].value = "Pas demandé"
+* #1000055 ^designation[=].value = "pas demandé"
 * #1000055 ^designation[+].language = #it-CH
-* #1000055 ^designation[=].value = "Non indagato"
-* #1000057 "see attachment"
+* #1000055 ^designation[=].value = "non indagato"
+* #1000057 "See attachment"
 * #1000057 ^designation[0].language = #de-CH
-* #1000057 ^designation[=].value = "siehe Beilage"
+* #1000057 ^designation[=].value = "Siehe Beilage"
 * #1000057 ^designation[+].language = #fr-CH
-* #1000057 ^designation[=].value = "Voir pièce jointe"
+* #1000057 ^designation[=].value = "voir pièce jointe"
 * #1000057 ^designation[+].language = #it-CH
-* #1000057 ^designation[=].value = "Vedi allegato"
-* #1000058 "no information"
+* #1000057 ^designation[=].value = "vedi allegato"
+* #1000058 "No information"
 * #1000058 ^designation[0].language = #de-CH
-* #1000058 ^designation[=].value = "keine Angaben"
+* #1000058 ^designation[=].value = "Keine Angaben"
 * #1000058 ^designation[+].language = #fr-CH
-* #1000058 ^designation[=].value = "Aucune information"
+* #1000058 ^designation[=].value = "aucune information"
 * #1000058 ^designation[+].language = #it-CH
-* #1000058 ^designation[=].value = "Nessuna informazione"
-* #1000059 "threat with weapon"
+* #1000058 ^designation[=].value = "nessuna informazione"
+* #1000059 "Threat with weapon"
 * #1000059 ^designation[0].language = #de-CH
 * #1000059 ^designation[=].value = "Bedrohung mit Waffe"
 * #1000059 ^designation[+].language = #fr-CH
-* #1000059 ^designation[=].value = "Menace avec arme"
+* #1000059 ^designation[=].value = "menace avec arme"
 * #1000059 ^designation[+].language = #it-CH
-* #1000059 ^designation[=].value = "Minaccia con arma"
-* #1000060 "violation by weapon"
+* #1000059 ^designation[=].value = "minaccia con arma"
+* #1000060 "Violation by weapon"
 * #1000060 ^designation[0].language = #de-CH
 * #1000060 ^designation[=].value = "Verletzung mit Waffe"
 * #1000060 ^designation[+].language = #fr-CH
-* #1000060 ^designation[=].value = "Blessure par arme"
+* #1000060 ^designation[=].value = "blessure par arme"
 * #1000060 ^designation[+].language = #it-CH
-* #1000060 ^designation[=].value = "Ferita con arma"
-* #1000061 "passport"
+* #1000060 ^designation[=].value = "ferita con arma"
+* #1000061 "Passport"
 * #1000061 ^designation[0].language = #de-CH
 * #1000061 ^designation[=].value = "Pass"
 * #1000061 ^designation[+].language = #fr-CH
-* #1000061 ^designation[=].value = "Passeport"
+* #1000061 ^designation[=].value = "passeport"
 * #1000061 ^designation[+].language = #it-CH
-* #1000061 ^designation[=].value = "Passaporto"
+* #1000061 ^designation[=].value = "passaporto"
 * #1000062 "Health insurance card"
 * #1000062 ^designation[0].language = #de-CH
 * #1000062 ^designation[=].value = "Krankenkassenkarte"
 * #1000062 ^designation[+].language = #fr-CH
-* #1000062 ^designation[=].value = "Carte d'assurance maladie"
+* #1000062 ^designation[=].value = "carte d'assurance maladie"
 * #1000062 ^designation[+].language = #it-CH
-* #1000062 ^designation[=].value = "Tessera di assicurazione sanitaria"
+* #1000062 ^designation[=].value = "tessera di assicurazione sanitaria"
 * #1000063 "Driver license"
 * #1000063 ^designation[0].language = #de-CH
 * #1000063 ^designation[=].value = "Fahrausweis"
 * #1000063 ^designation[+].language = #fr-CH
-* #1000063 ^designation[=].value = "Permis de conduire"
+* #1000063 ^designation[=].value = "permis de conduire"
 * #1000063 ^designation[+].language = #it-CH
-* #1000063 ^designation[=].value = "Patente di guida"
-* #1000064 "personal statement"
+* #1000063 ^designation[=].value = "patente di guida"
+* #1000064 "Personal statement"
 * #1000064 ^designation[0].language = #de-CH
-* #1000064 ^designation[=].value = "persönliche Aussage"
+* #1000064 ^designation[=].value = "Persönliche Aussage"
 * #1000064 ^designation[+].language = #fr-CH
-* #1000064 ^designation[=].value = "Déclaration personnelle"
+* #1000064 ^designation[=].value = "déclaration personnelle"
 * #1000064 ^designation[+].language = #it-CH
-* #1000064 ^designation[=].value = "Dichiarazione personale"
+* #1000064 ^designation[=].value = "dichiarazione personale"
 * #1000065 "Credit card"
 * #1000065 ^designation[0].language = #de-CH
 * #1000065 ^designation[=].value = "Kreditkarte"
 * #1000065 ^designation[+].language = #fr-CH
-* #1000065 ^designation[=].value = "Carte de crédit"
+* #1000065 ^designation[=].value = "carte de crédit"
 * #1000065 ^designation[+].language = #it-CH
-* #1000065 ^designation[=].value = "Carta di credito"
-* #1000066 "other identification piece"
+* #1000065 ^designation[=].value = "carta di credito"
+* #1000066 "Other identification piece"
 * #1000066 ^designation[0].language = #de-CH
-* #1000066 ^designation[=].value = "anderes Identifikationsmittel"
+* #1000066 ^designation[=].value = "Anderes Identifikationsmittel"
 * #1000066 ^designation[+].language = #fr-CH
-* #1000066 ^designation[=].value = "Autre pièce d'identification"
+* #1000066 ^designation[=].value = "autre pièce d'identification"
 * #1000066 ^designation[+].language = #it-CH
-* #1000066 ^designation[=].value = "Altro dispositivo di identificazione"
-* #1000067 "identification impossible"
+* #1000066 ^designation[=].value = "altro dispositivo di identificazione"
+* #1000067 "Identification impossible"
 * #1000067 ^designation[0].language = #de-CH
 * #1000067 ^designation[=].value = "Identifikation nicht möglich"
 * #1000067 ^designation[+].language = #fr-CH
-* #1000067 ^designation[=].value = "Identification impossible"
+* #1000067 ^designation[=].value = "identification impossible"
 * #1000067 ^designation[+].language = #it-CH
-* #1000067 ^designation[=].value = "Identificazione impossibile"
-* #1000068 "disinfection of hands by Virugard"
+* #1000067 ^designation[=].value = "identificazione impossibile"
+* #1000068 "Disinfection of hands by Virugard"
 * #1000068 ^designation[0].language = #de-CH
 * #1000068 ^designation[=].value = "Händedesinfektion mit Virugard"
 * #1000068 ^designation[+].language = #fr-CH
-* #1000068 ^designation[=].value = "Désinfection des mains avec Virugard"
+* #1000068 ^designation[=].value = "désinfection des mains avec Virugard"
 * #1000068 ^designation[+].language = #it-CH
-* #1000068 ^designation[=].value = "Disinfezione delle mani con Virugard"
-* #1000069 "disinfection of hands by Sterilium"
+* #1000068 ^designation[=].value = "disinfezione delle mani con Virugard"
+* #1000069 "Disinfection of hands by Sterilium"
 * #1000069 ^designation[0].language = #de-CH
 * #1000069 ^designation[=].value = "Händedesinfektion mit Sterilium"
 * #1000069 ^designation[+].language = #fr-CH
-* #1000069 ^designation[=].value = "Désinfection des mains avec Sterilium"
+* #1000069 ^designation[=].value = "désinfection des mains avec Sterilium"
 * #1000069 ^designation[+].language = #it-CH
-* #1000069 ^designation[=].value = "Disinfezione delle mani con Sterilium"
-* #1000070 "operation clothes"
+* #1000069 ^designation[=].value = "disinfezione delle mani con Sterilium"
+* #1000070 "Operation clothes"
 * #1000070 ^designation[0].language = #de-CH
 * #1000070 ^designation[=].value = "Operationsmantel"
 * #1000070 ^designation[+].language = #fr-CH
-* #1000070 ^designation[=].value = "Vêtements chirurgicaux"
+* #1000070 ^designation[=].value = "vêtements chirurgicaux"
 * #1000070 ^designation[+].language = #it-CH
-* #1000070 ^designation[=].value = "Abiti chirurgici"
-* #1000071 "clothes change after mission"
+* #1000070 ^designation[=].value = "abiti chirurgici"
+* #1000071 "Clothes change after mission"
 * #1000071 ^designation[0].language = #de-CH
 * #1000071 ^designation[=].value = "Dienstkleiderwechsel nach Einsatzende"
 * #1000071 ^designation[+].language = #fr-CH
-* #1000071 ^designation[=].value = "Changement de vêtements après la fin de la mission"
+* #1000071 ^designation[=].value = "changement de vêtements après la fin de la mission"
 * #1000071 ^designation[+].language = #it-CH
-* #1000071 ^designation[=].value = "Cambio di vestiti dopo la fine della missione"
-* #1000072 "hazmat suit, ventilated"
+* #1000071 ^designation[=].value = "cambio di vestiti dopo la fine della missione"
+* #1000072 "Hazmat suit, ventilated"
 * #1000072 ^designation[0].language = #de-CH
 * #1000072 ^designation[=].value = "Vollschutzanzug, belüftet"
 * #1000072 ^designation[+].language = #fr-CH
-* #1000072 ^designation[=].value = "Combinaison de protection totale, ventilée"
+* #1000072 ^designation[=].value = "combinaison de protection totale, ventilée"
 * #1000072 ^designation[+].language = #it-CH
-* #1000072 ^designation[=].value = "Tuta di protezione completa, ventilata"
-* #1000073 "other protective action"
+* #1000072 ^designation[=].value = "tuta di protezione completa, ventilata"
+* #1000073 "Other protective action"
 * #1000073 ^designation[0].language = #de-CH
-* #1000073 ^designation[=].value = "andere Schutzmassnahme"
+* #1000073 ^designation[=].value = "Andere Schutzmassnahme"
 * #1000073 ^designation[+].language = #fr-CH
-* #1000073 ^designation[=].value = "Autres mesures de protection"
+* #1000073 ^designation[=].value = "autres mesures de protection"
 * #1000073 ^designation[+].language = #it-CH
-* #1000073 ^designation[=].value = "Altre misure di sicurezza"
-* #1000074 "not tangible"
+* #1000073 ^designation[=].value = "altre misure di sicurezza"
+* #1000074 "Not tangible"
 * #1000074 ^designation[0].language = #de-CH
-* #1000074 ^designation[=].value = "nicht fühlbar"
+* #1000074 ^designation[=].value = "Nicht fühlbar"
 * #1000074 ^designation[+].language = #fr-CH
-* #1000074 ^designation[=].value = "Non perceptible"
+* #1000074 ^designation[=].value = "non perceptible"
 * #1000074 ^designation[+].language = #it-CH
-* #1000074 ^designation[=].value = "Non percettibile"
+* #1000074 ^designation[=].value = "non percettibile"
 * #1000075 "Stridor links"
 * #1000075 ^designation[0].language = #de-CH
 * #1000075 ^designation[=].value = "Stridor links"
 * #1000075 ^designation[+].language = #fr-CH
-* #1000075 ^designation[=].value = "Stridor à gauche"
+* #1000075 ^designation[=].value = "stridor à gauche"
 * #1000075 ^designation[+].language = #it-CH
-* #1000075 ^designation[=].value = "Stridore a sinistra"
+* #1000075 ^designation[=].value = "stridore a sinistra"
 * #1000076 "Stridor rechts"
 * #1000076 ^designation[0].language = #de-CH
 * #1000076 ^designation[=].value = "Stridor rechts"
 * #1000076 ^designation[+].language = #fr-CH
-* #1000076 ^designation[=].value = "Stridor à droite"
+* #1000076 ^designation[=].value = "stridor à droite"
 * #1000076 ^designation[+].language = #it-CH
-* #1000076 ^designation[=].value = "Stridore a destra"
+* #1000076 ^designation[=].value = "stridore a destra"
 * #1000077 "Respiratory crackles left"
 * #1000077 ^designation[0].language = #de-CH
 * #1000077 ^designation[=].value = "Rasselgeräusche links"
 * #1000077 ^designation[+].language = #fr-CH
-* #1000077 ^designation[=].value = "Râles à gauche"
+* #1000077 ^designation[=].value = "râles à gauche"
 * #1000077 ^designation[+].language = #it-CH
-* #1000077 ^designation[=].value = "Crepitii a sinistra"
+* #1000077 ^designation[=].value = "crepitii a sinistra"
 * #1000078 "Respiratory crackles right"
 * #1000078 ^designation[0].language = #de-CH
 * #1000078 ^designation[=].value = "Rasselgeräusche rechts"
 * #1000078 ^designation[+].language = #fr-CH
-* #1000078 ^designation[=].value = "Râles à droite"
+* #1000078 ^designation[=].value = "râles à droite"
 * #1000078 ^designation[+].language = #it-CH
-* #1000078 ^designation[=].value = "Crepitii a destra"
-* #1000079 "crowd"
+* #1000078 ^designation[=].value = "crepitii a destra"
+* #1000079 "Crowd"
 * #1000079 ^designation[0].language = #de-CH
 * #1000079 ^designation[=].value = "Personenansammlung"
 * #1000079 ^designation[+].language = #fr-CH
-* #1000079 ^designation[=].value = "Foule"
+* #1000079 ^designation[=].value = "foule"
 * #1000079 ^designation[+].language = #it-CH
-* #1000079 ^designation[=].value = "Folla"
-* #1000080 "person, unknown"
+* #1000079 ^designation[=].value = "folla"
+* #1000080 "Person, unknown"
 * #1000080 ^designation[0].language = #de-CH
 * #1000080 ^designation[=].value = "Drittperson unbekannt"
 * #1000080 ^designation[+].language = #fr-CH
-* #1000080 ^designation[=].value = "Tierce personne inconnue"
+* #1000080 ^designation[=].value = "tierce personne inconnue"
 * #1000080 ^designation[+].language = #it-CH
-* #1000080 ^designation[=].value = "Terza persona sconosciuta"
-* #1000081 "person, known"
+* #1000080 ^designation[=].value = "terza persona sconosciuta"
+* #1000081 "Person, known"
 * #1000081 ^designation[0].language = #de-CH
 * #1000081 ^designation[=].value = "Drittperson bekannt"
 * #1000081 ^designation[+].language = #fr-CH
-* #1000081 ^designation[=].value = "Tierce personne connue"
+* #1000081 ^designation[=].value = "tierce personne connue"
 * #1000081 ^designation[+].language = #it-CH
-* #1000081 ^designation[=].value = "Terza persona conosciuta"
-* #1000082 "organisation point of departure"
+* #1000081 ^designation[=].value = "terza persona conosciuta"
+* #1000082 "Organisation point of departure"
 * #1000082 ^designation[0].language = #de-CH
 * #1000082 ^designation[=].value = "Organisation des Abfahrtsortes"
 * #1000082 ^designation[+].language = #fr-CH
-* #1000082 ^designation[=].value = "Organisation du lieu de départ"
+* #1000082 ^designation[=].value = "organisation du lieu de départ"
 * #1000082 ^designation[+].language = #it-CH
-* #1000082 ^designation[=].value = "Organizzazione del luogo di partenza"
-* #1000083 "organisation point of arrival"
+* #1000082 ^designation[=].value = "organizzazione del luogo di partenza"
+* #1000083 "Organisation point of arrival"
 * #1000083 ^designation[0].language = #de-CH
 * #1000083 ^designation[=].value = "Organisation Zielort"
 * #1000083 ^designation[+].language = #fr-CH
-* #1000083 ^designation[=].value = "Organisation du lieu d'arrivée"
+* #1000083 ^designation[=].value = "organisation du lieu d'arrivée"
 * #1000083 ^designation[+].language = #it-CH
-* #1000083 ^designation[=].value = "Organizzazione del luogo di arrivo"
-* #1000084 "non-professional"
+* #1000083 ^designation[=].value = "organizzazione del luogo di arrivo"
+* #1000084 "Non-professional"
 * #1000084 ^designation[0].language = #de-CH
 * #1000084 ^designation[=].value = "Laie"
 * #1000084 ^designation[+].language = #fr-CH
-* #1000084 ^designation[=].value = "Témoin"
+* #1000084 ^designation[=].value = "témoin"
 * #1000084 ^designation[+].language = #it-CH
-* #1000084 ^designation[=].value = "Laico"
-* #1000085 "vacuum pillow"
+* #1000084 ^designation[=].value = "laico"
+* #1000085 "Vacuum pillow"
 * #1000085 ^designation[0].language = #de-CH
 * #1000085 ^designation[=].value = "Vakuumkissen"
 * #1000085 ^designation[+].language = #fr-CH
-* #1000085 ^designation[=].value = "Attelle à dépression"
+* #1000085 ^designation[=].value = "attelle à dépression"
 * #1000085 ^designation[+].language = #it-CH
-* #1000085 ^designation[=].value = "Stecca a depressione"
-* #1000086 "vacuum mattress"
+* #1000085 ^designation[=].value = "stecca a depressione"
+* #1000086 "Vacuum mattress"
 * #1000086 ^designation[0].language = #de-CH
 * #1000086 ^designation[=].value = "Vakuummatratze"
 * #1000086 ^designation[+].language = #fr-CH
-* #1000086 ^designation[=].value = "Matelas coquille"
+* #1000086 ^designation[=].value = "matelas coquille"
 * #1000086 ^designation[+].language = #it-CH
-* #1000086 ^designation[=].value = "Materasso a depressione"
-* #1000087 "carrying chair"
+* #1000086 ^designation[=].value = "materasso a depressione"
+* #1000087 "Carrying chair"
 * #1000087 ^designation[0].language = #de-CH
 * #1000087 ^designation[=].value = "Tragestuhl"
 * #1000087 ^designation[+].language = #fr-CH
-* #1000087 ^designation[=].value = "Chaise de transport"
+* #1000087 ^designation[=].value = "chaise de transport"
 * #1000087 ^designation[+].language = #it-CH
-* #1000087 ^designation[=].value = "Sedia di trasporto"
+* #1000087 ^designation[=].value = "sedia di trasporto"
 * #1000088 "KED system"
 * #1000088 ^designation[0].language = #de-CH
 * #1000088 ^designation[=].value = "KED-System"
@@ -486,331 +486,331 @@ Description: "Code system containing concepts defined by IVR."
 * #1000089 ^designation[0].language = #de-CH
 * #1000089 ^designation[=].value = "Sam Splint"
 * #1000089 ^designation[+].language = #fr-CH
-* #1000089 ^designation[=].value = "Attelle"
+* #1000089 ^designation[=].value = "attelle"
 * #1000089 ^designation[+].language = #it-CH
-* #1000089 ^designation[=].value = "Stecca"
+* #1000089 ^designation[=].value = "stecca"
 * #1000090 "Sam Sling"
 * #1000090 ^designation[0].language = #de-CH
 * #1000090 ^designation[=].value = "Sam Sling"
 * #1000090 ^designation[+].language = #fr-CH
-* #1000090 ^designation[=].value = "Ceinture pelvienne"
+* #1000090 ^designation[=].value = "ceinture pelvienne"
 * #1000090 ^designation[+].language = #it-CH
-* #1000090 ^designation[=].value = "Cintura pelvica"
+* #1000090 ^designation[=].value = "cintura pelvica"
 * #1000091 "Maxi Cosi"
 * #1000091 ^designation[0].language = #de-CH
 * #1000091 ^designation[=].value = "Maxi Cosi"
 * #1000091 ^designation[+].language = #fr-CH
-* #1000091 ^designation[=].value = "Siège pour enfant"
+* #1000091 ^designation[=].value = "siège pour enfant"
 * #1000091 ^designation[+].language = #it-CH
-* #1000091 ^designation[=].value = "Seggiolino per bambini"
-* #1000092 "property damage"
+* #1000091 ^designation[=].value = "seggiolino per bambini"
+* #1000092 "Property damage"
 * #1000092 ^designation[0].language = #de-CH
 * #1000092 ^designation[=].value = "Sachschaden"
 * #1000092 ^designation[+].language = #fr-CH
-* #1000092 ^designation[=].value = "Dommages à la propriété"
+* #1000092 ^designation[=].value = "dommages à la propriété"
 * #1000092 ^designation[+].language = #it-CH
-* #1000092 ^designation[=].value = "Danni alla proprietà"
-* #1000093 "violation of personal integrity"
+* #1000092 ^designation[=].value = "danni alla proprietà"
+* #1000093 "Violation of personal integrity"
 * #1000093 ^designation[0].language = #de-CH
 * #1000093 ^designation[=].value = "Verletzung der persönlichen Integrität"
 * #1000093 ^designation[+].language = #fr-CH
-* #1000093 ^designation[=].value = "Atteinte à l'intégrité de la personne"
+* #1000093 ^designation[=].value = "atteinte à l'intégrité de la personne"
 * #1000093 ^designation[+].language = #it-CH
-* #1000093 ^designation[=].value = "Violazione dell'integrità personale"
-* #1000094 "obstruction of mission"
+* #1000093 ^designation[=].value = "violazione dell'integrità personale"
+* #1000094 "Obstruction of mission"
 * #1000094 ^designation[0].language = #de-CH
 * #1000094 ^designation[=].value = "Behinderung des Einsatzes"
 * #1000094 ^designation[+].language = #fr-CH
-* #1000094 ^designation[=].value = "Obstacle au bon déroulement de la mission"
+* #1000094 ^designation[=].value = "obstacle au bon déroulement de la mission"
 * #1000094 ^designation[+].language = #it-CH
-* #1000094 ^designation[=].value = "Ostacolo al buon svolgimento della missione"
-* #1000095 "escort"
+* #1000094 ^designation[=].value = "ostacolo al buon svolgimento della missione"
+* #1000095 "Escort"
 * #1000095 ^designation[0].language = #de-CH
 * #1000095 ^designation[=].value = "Begleitperson"
 * #1000095 ^designation[+].language = #fr-CH
-* #1000095 ^designation[=].value = "Accompagnateur"
+* #1000095 ^designation[=].value = "accompagnateur"
 * #1000095 ^designation[+].language = #it-CH
-* #1000095 ^designation[=].value = "Accompagnatore"
-* #1000096 "inheritor"
+* #1000095 ^designation[=].value = "accompagnatore"
+* #1000096 "Inheritor"
 * #1000096 ^designation[0].language = #de-CH
 * #1000096 ^designation[=].value = "Erben"
 * #1000096 ^designation[+].language = #fr-CH
-* #1000096 ^designation[=].value = "Héritiers"
+* #1000096 ^designation[=].value = "héritiers"
 * #1000096 ^designation[+].language = #it-CH
-* #1000096 ^designation[=].value = "Eredi"
-* #1000097 "principal"
+* #1000096 ^designation[=].value = "eredi"
+* #1000097 "Principal"
 * #1000097 ^designation[0].language = #de-CH
 * #1000097 ^designation[=].value = "Auftraggeber"
 * #1000097 ^designation[+].language = #fr-CH
-* #1000097 ^designation[=].value = "Mandant"
+* #1000097 ^designation[=].value = "mandant"
 * #1000097 ^designation[+].language = #it-CH
-* #1000097 ^designation[=].value = "Mandante"
-* #1000098 "legal representative"
+* #1000097 ^designation[=].value = "mandante"
+* #1000098 "Legal representative"
 * #1000098 ^designation[0].language = #de-CH
-* #1000098 ^designation[=].value = "gesetzlicher Vertreter"
+* #1000098 ^designation[=].value = "Gesetzlicher Vertreter"
 * #1000098 ^designation[+].language = #fr-CH
-* #1000098 ^designation[=].value = "Représentant légal"
+* #1000098 ^designation[=].value = "représentant légal"
 * #1000098 ^designation[+].language = #it-CH
-* #1000098 ^designation[=].value = "Rappresentante legale"
-* #1000099 "parents"
+* #1000098 ^designation[=].value = "rappresentante legale"
+* #1000099 "Parents"
 * #1000099 ^designation[0].language = #de-CH
 * #1000099 ^designation[=].value = "Eltern"
 * #1000099 ^designation[+].language = #fr-CH
-* #1000099 ^designation[=].value = "Parents"
+* #1000099 ^designation[=].value = "parents"
 * #1000099 ^designation[+].language = #it-CH
-* #1000099 ^designation[=].value = "Genitori"
-* #1000101 "seated"
+* #1000099 ^designation[=].value = "genitori"
+* #1000101 "Seated"
 * #1000101 ^designation[0].language = #de-CH
-* #1000101 ^designation[=].value = "sitzend"
+* #1000101 ^designation[=].value = "Sitzend"
 * #1000101 ^designation[+].language = #fr-CH
 * #1000101 ^designation[=].value = "assis"
 * #1000101 ^designation[+].language = #it-CH
 * #1000101 ^designation[=].value = "seduto"
-* #1000102 "partly lying"
+* #1000102 "Partly lying"
 * #1000102 ^designation[0].language = #de-CH
-* #1000102 ^designation[=].value = "halb liegend"
+* #1000102 ^designation[=].value = "Halb liegend"
 * #1000102 ^designation[+].language = #fr-CH
 * #1000102 ^designation[=].value = "semi-assis"
 * #1000102 ^designation[+].language = #it-CH
-* #1000102 ^designation[=].value = "Semiseduto"
-* #1000103 "lying"
+* #1000102 ^designation[=].value = "semiseduto"
+* #1000103 "Lying"
 * #1000103 ^designation[0].language = #de-CH
-* #1000103 ^designation[=].value = "liegend"
+* #1000103 ^designation[=].value = "Liegend"
 * #1000103 ^designation[+].language = #fr-CH
 * #1000103 ^designation[=].value = "couché"
 * #1000103 ^designation[+].language = #it-CH
 * #1000103 ^designation[=].value = "sdraiato"
-* #1000104 "legs up"
+* #1000104 "Legs up"
 * #1000104 ^designation[0].language = #de-CH
 * #1000104 ^designation[=].value = "Beine hoch"
 * #1000104 ^designation[+].language = #fr-CH
-* #1000104 ^designation[=].value = "Jambes surélevées"
+* #1000104 ^designation[=].value = "jambes surélevées"
 * #1000104 ^designation[+].language = #it-CH
-* #1000104 ^designation[=].value = "Gambe rialzate"
-* #1000105 "legs down"
+* #1000104 ^designation[=].value = "gambe rialzate"
+* #1000105 "Legs down"
 * #1000105 ^designation[0].language = #de-CH
 * #1000105 ^designation[=].value = "Beine tief"
 * #1000105 ^designation[+].language = #fr-CH
-* #1000105 ^designation[=].value = "Jambes en bas"
+* #1000105 ^designation[=].value = "jambes en bas"
 * #1000105 ^designation[+].language = #it-CH
-* #1000105 ^designation[=].value = "Gambe in giù"
-* #1000106 "knee kick"
+* #1000105 ^designation[=].value = "gambe in giù"
+* #1000106 "Knee kick"
 * #1000106 ^designation[0].language = #de-CH
 * #1000106 ^designation[=].value = "Knieknick"
 * #1000106 ^designation[+].language = #fr-CH
-* #1000106 ^designation[=].value = "Coup de genou"
+* #1000106 ^designation[=].value = "coup de genou"
 * #1000106 ^designation[+].language = #it-CH
-* #1000106 ^designation[=].value = "Ginocchia piegate"
-* #1000107 "abdominal position"
+* #1000106 ^designation[=].value = "ginocchia piegate"
+* #1000107 "Abdominal position"
 * #1000107 ^designation[0].language = #de-CH
 * #1000107 ^designation[=].value = "Bauchlage"
 * #1000107 ^designation[+].language = #fr-CH
-* #1000107 ^designation[=].value = "Décubitus ventral"
+* #1000107 ^designation[=].value = "décubitus ventral"
 * #1000107 ^designation[+].language = #it-CH
-* #1000107 ^designation[=].value = "Decubito prono"
-* #1000108 "side position left"
+* #1000107 ^designation[=].value = "decubito prono"
+* #1000108 "Side position left"
 * #1000108 ^designation[0].language = #de-CH
 * #1000108 ^designation[=].value = "Seitenlage links"
 * #1000108 ^designation[+].language = #fr-CH
-* #1000108 ^designation[=].value = "Décubitus latéral gauche"
+* #1000108 ^designation[=].value = "décubitus latéral gauche"
 * #1000108 ^designation[+].language = #it-CH
-* #1000108 ^designation[=].value = "Decubito laterale sinistro"
-* #1000109 "side position right"
+* #1000108 ^designation[=].value = "decubito laterale sinistro"
+* #1000109 "Side position right"
 * #1000109 ^designation[0].language = #de-CH
 * #1000109 ^designation[=].value = "Seitenlage rechts"
 * #1000109 ^designation[+].language = #fr-CH
-* #1000109 ^designation[=].value = "Décubitus latéral droit"
+* #1000109 ^designation[=].value = "décubitus latéral droit"
 * #1000109 ^designation[+].language = #it-CH
-* #1000109 ^designation[=].value = "Decubito laterale destro"
-* #1000110 "emergency mission"
+* #1000109 ^designation[=].value = "decubito laterale destro"
+* #1000110 "Emergency mission"
 * #1000110 ^designation[0].language = #de-CH
 * #1000110 ^designation[=].value = "Notfall-Einsatz"
 * #1000110 ^designation[+].language = #fr-CH
-* #1000110 ^designation[=].value = "Mission d'urgence"
+* #1000110 ^designation[=].value = "mission d'urgence"
 * #1000110 ^designation[+].language = #it-CH
-* #1000110 ^designation[=].value = "Missione di emergenza"
-* #1000111 "relocation"
+* #1000110 ^designation[=].value = "missione di emergenza"
+* #1000111 "Relocation"
 * #1000111 ^designation[0].language = #de-CH
 * #1000111 ^designation[=].value = "Verlegung zwischen Institutionen"
 * #1000111 ^designation[+].language = #fr-CH
-* #1000111 ^designation[=].value = "Transferts entre institutions"
+* #1000111 ^designation[=].value = "transferts entre institutions"
 * #1000111 ^designation[+].language = #it-CH
-* #1000111 ^designation[=].value = "Trasferimenti tra istituzioni"
-* #1000112 "shuttle for emergency doctor"
+* #1000111 ^designation[=].value = "trasferimenti tra istituzioni"
+* #1000112 "Shuttle for emergency doctor"
 * #1000112 ^designation[0].language = #de-CH
 * #1000112 ^designation[=].value = "Notarzt-Zubringer"
 * #1000112 ^designation[+].language = #fr-CH
-* #1000112 ^designation[=].value = "Véhicule SMUR"
+* #1000112 ^designation[=].value = "véhicule SMUR"
 * #1000112 ^designation[+].language = #it-CH
-* #1000112 ^designation[=].value = "Automedica"
-* #1000113 "incubator transport"
+* #1000112 ^designation[=].value = "automedica"
+* #1000113 "Incubator transport"
 * #1000113 ^designation[0].language = #de-CH
 * #1000113 ^designation[=].value = "Isolettentransport"
 * #1000113 ^designation[+].language = #fr-CH
-* #1000113 ^designation[=].value = "Transport isolette"
+* #1000113 ^designation[=].value = "transport isolette"
 * #1000113 ^designation[+].language = #it-CH
-* #1000113 ^designation[=].value = "Trasporto con isoletta"
-* #1000114 "neonatology mission"
+* #1000113 ^designation[=].value = "trasporto con isoletta"
+* #1000114 "Neonatology mission"
 * #1000114 ^designation[0].language = #de-CH
 * #1000114 ^designation[=].value = "Neonatologischer Einsatz"
 * #1000114 ^designation[+].language = #fr-CH
-* #1000114 ^designation[=].value = "Intervention néonatale"
+* #1000114 ^designation[=].value = "intervention néonatale"
 * #1000114 ^designation[+].language = #it-CH
-* #1000114 ^designation[=].value = "Intervento neonatale"
-* #1000115 "return transport"
+* #1000114 ^designation[=].value = "intervento neonatale"
+* #1000115 "Return transport"
 * #1000115 ^designation[0].language = #de-CH
 * #1000115 ^designation[=].value = "Rücktransport von Untersuchung"
 * #1000115 ^designation[+].language = #fr-CH
-* #1000115 ^designation[=].value = "Transport de retour après examen"
+* #1000115 ^designation[=].value = "transport de retour après examen"
 * #1000115 ^designation[+].language = #it-CH
-* #1000115 ^designation[=].value = "Trasporto di ritorno dopo esame"
-* #1000116 "intervention mission police"
+* #1000115 ^designation[=].value = "trasporto di ritorno dopo esame"
+* #1000116 "Intervention mission police"
 * #1000116 ^designation[0].language = #de-CH
 * #1000116 ^designation[=].value = "Interventionseinsatz Polizei"
 * #1000116 ^designation[+].language = #fr-CH
-* #1000116 ^designation[=].value = "Intervention pour la police"
+* #1000116 ^designation[=].value = "intervention pour la police"
 * #1000116 ^designation[+].language = #it-CH
-* #1000116 ^designation[=].value = "Intervento per la polizia"
-* #1000117 "self-referral"
+* #1000116 ^designation[=].value = "intervento per la polizia"
+* #1000117 "Self-referral"
 * #1000117 ^designation[0].language = #de-CH
 * #1000117 ^designation[=].value = "Selbsteinweisung / Krankentransport"
 * #1000117 ^designation[+].language = #fr-CH
-* #1000117 ^designation[=].value = "Auto-admission"
+* #1000117 ^designation[=].value = "auto-admission"
 * #1000117 ^designation[+].language = #it-CH
-* #1000117 ^designation[=].value = "Auto-ricovero"
-* #1000118 "stretcher mission"
+* #1000117 ^designation[=].value = "auto-ricovero"
+* #1000118 "Stretcher mission"
 * #1000118 ^designation[0].language = #de-CH
 * #1000118 ^designation[=].value = "Einsatz Stretcher"
 * #1000118 ^designation[+].language = #fr-CH
-* #1000118 ^designation[=].value = "Intervention avec brancard"
+* #1000118 ^designation[=].value = "intervention avec brancard"
 * #1000118 ^designation[+].language = #it-CH
-* #1000118 ^designation[=].value = "Intervento con barella"
-* #1000119 "mission for partner"
+* #1000118 ^designation[=].value = "intervento con barella"
+* #1000119 "Mission for partner"
 * #1000119 ^designation[0].language = #de-CH
 * #1000119 ^designation[=].value = "Einsatz für Vertragspartner"
 * #1000119 ^designation[+].language = #fr-CH
-* #1000119 ^designation[=].value = "Intervention pour les partenaires contractuels"
+* #1000119 ^designation[=].value = "intervention pour les partenaires contractuels"
 * #1000119 ^designation[+].language = #it-CH
-* #1000119 ^designation[=].value = "Intervento per i partner contrattuali"
-* #1000120 "involuntary commitment"
+* #1000119 ^designation[=].value = "intervento per i partner contrattuali"
+* #1000120 "Involuntary commitment"
 * #1000120 ^designation[0].language = #de-CH
-* #1000120 ^designation[=].value = "fürsorgerische Unterbringung"
+* #1000120 ^designation[=].value = "Fürsorgerische Unterbringung"
 * #1000120 ^designation[+].language = #fr-CH
-* #1000120 ^designation[=].value = "Hospitalisation non consensuelle"
+* #1000120 ^designation[=].value = "hospitalisation non consensuelle"
 * #1000120 ^designation[+].language = #it-CH
-* #1000120 ^designation[=].value = "Ricovero non consensuale"
-* #1000121 "service on place"
+* #1000120 ^designation[=].value = "ricovero non consensuale"
+* #1000121 "Service on place"
 * #1000121 ^designation[0].language = #de-CH
 * #1000121 ^designation[=].value = "Dienstleistung vor Ort (DVO)"
 * #1000121 ^designation[+].language = #fr-CH
-* #1000121 ^designation[=].value = "Service sur place"
+* #1000121 ^designation[=].value = "service sur place"
 * #1000121 ^designation[+].language = #it-CH
-* #1000121 ^designation[=].value = "Servizio sul posto"
-* #1000122 "referral by doctor"
+* #1000121 ^designation[=].value = "servizio sul posto"
+* #1000122 "Referral by doctor"
 * #1000122 ^designation[0].language = #de-CH
 * #1000122 ^designation[=].value = "Ärztliche Einweisung"
 * #1000122 ^designation[+].language = #fr-CH
-* #1000122 ^designation[=].value = "Admission médicale"
+* #1000122 ^designation[=].value = "admission médicale"
 * #1000122 ^designation[+].language = #it-CH
-* #1000122 ^designation[=].value = "Ricovero medico"
-* #1000123 "refusal of transport"
+* #1000122 ^designation[=].value = "ricovero medico"
+* #1000123 "Refusal of transport"
 * #1000123 ^designation[0].language = #de-CH
 * #1000123 ^designation[=].value = "Transportverweigerung"
 * #1000123 ^designation[+].language = #fr-CH
-* #1000123 ^designation[=].value = "Refus de transport"
+* #1000123 ^designation[=].value = "refus de transport"
 * #1000123 ^designation[+].language = #it-CH
-* #1000123 ^designation[=].value = "Rifiuto di trasporto"
-* #1000124 "nebulize with H2O2"
+* #1000123 ^designation[=].value = "rifiuto di trasporto"
+* #1000124 "Nebulize with H2O2"
 * #1000124 ^designation[0].language = #de-CH
 * #1000124 ^designation[=].value = "Vernebelung H2O2"
 * #1000124 ^designation[+].language = #fr-CH
-* #1000124 ^designation[=].value = "Nébulisation avec H2O2"
+* #1000124 ^designation[=].value = "nébulisation avec H2O2"
 * #1000124 ^designation[+].language = #it-CH
-* #1000124 ^designation[=].value = "Nebulizzazione con H2O2"
-* #1000125 "scrub disinfection with H2O2"
+* #1000124 ^designation[=].value = "nebulizzazione con H2O2"
+* #1000125 "Scrub disinfection with H2O2"
 * #1000125 ^designation[0].language = #de-CH
 * #1000125 ^designation[=].value = "Scheuer-Wisch-Desinfektion H2O2"
 * #1000125 ^designation[+].language = #fr-CH
-* #1000125 ^designation[=].value = "Désinfection par frottement avec H2O2"
+* #1000125 ^designation[=].value = "désinfection par frottement avec H2O2"
 * #1000125 ^designation[+].language = #it-CH
-* #1000125 ^designation[=].value = "Disinfezione con strofinamento con H2O2"
-* #1000126 "wedding ring"
+* #1000125 ^designation[=].value = "disinfezione con strofinamento con H2O2"
+* #1000126 "Wedding ring"
 * #1000126 ^designation[0].language = #de-CH
 * #1000126 ^designation[=].value = "Ehering"
 * #1000126 ^designation[+].language = #fr-CH
-* #1000126 ^designation[=].value = "Alliance"
+* #1000126 ^designation[=].value = "alliance"
 * #1000126 ^designation[+].language = #it-CH
-* #1000126 ^designation[=].value = "Fede nuziale"
-* #1000127 "wallet"
+* #1000126 ^designation[=].value = "fede nuziale"
+* #1000127 "Wallet"
 * #1000127 ^designation[0].language = #de-CH
 * #1000127 ^designation[=].value = "Portemonnaie"
 * #1000127 ^designation[+].language = #fr-CH
-* #1000127 ^designation[=].value = "Porte-monnaie"
+* #1000127 ^designation[=].value = "porte-monnaie"
 * #1000127 ^designation[+].language = #it-CH
-* #1000127 ^designation[=].value = "Borsellino"
-* #1000128 "wrist watch"
+* #1000127 ^designation[=].value = "borsellino"
+* #1000128 "Wrist watch"
 * #1000128 ^designation[0].language = #de-CH
 * #1000128 ^designation[=].value = "Armbanduhr"
 * #1000128 ^designation[+].language = #fr-CH
-* #1000128 ^designation[=].value = "Montre-bracelet"
+* #1000128 ^designation[=].value = "montre-bracelet"
 * #1000128 ^designation[+].language = #it-CH
-* #1000128 ^designation[=].value = "Orologio da polso"
+* #1000128 ^designation[=].value = "orologio da polso"
 * #1000129 "Fingerring"
 * #1000129 ^designation[0].language = #de-CH
 * #1000129 ^designation[=].value = "Fingerring"
 * #1000129 ^designation[+].language = #fr-CH
-* #1000129 ^designation[=].value = "Bague"
+* #1000129 ^designation[=].value = "bague"
 * #1000129 ^designation[+].language = #it-CH
-* #1000129 ^designation[=].value = "Anello"
-* #1000130 "necklace"
+* #1000129 ^designation[=].value = "anello"
+* #1000130 "Necklace"
 * #1000130 ^designation[0].language = #de-CH
 * #1000130 ^designation[=].value = "Halskette"
 * #1000130 ^designation[+].language = #fr-CH
-* #1000130 ^designation[=].value = "Collier"
+* #1000130 ^designation[=].value = "collier"
 * #1000130 ^designation[+].language = #it-CH
-* #1000130 ^designation[=].value = "Collana"
-* #1000131 "billfold"
+* #1000130 ^designation[=].value = "collana"
+* #1000131 "Billfold"
 * #1000131 ^designation[0].language = #de-CH
 * #1000131 ^designation[=].value = "Brieftasche"
 * #1000131 ^designation[+].language = #fr-CH
-* #1000131 ^designation[=].value = "Portefeuille"
+* #1000131 ^designation[=].value = "portefeuille"
 * #1000131 ^designation[+].language = #it-CH
-* #1000131 ^designation[=].value = "Portafogli"
-* #1000132 "handbag"
+* #1000131 ^designation[=].value = "portafogli"
+* #1000132 "Handbag"
 * #1000132 ^designation[0].language = #de-CH
 * #1000132 ^designation[=].value = "Handtasche"
 * #1000132 ^designation[+].language = #fr-CH
-* #1000132 ^designation[=].value = "Sac à main"
+* #1000132 ^designation[=].value = "sac à main"
 * #1000132 ^designation[+].language = #it-CH
-* #1000132 ^designation[=].value = "Borsetta"
-* #1000133 "bag"
+* #1000132 ^designation[=].value = "borsetta"
+* #1000133 "Bag"
 * #1000133 ^designation[0].language = #de-CH
 * #1000133 ^designation[=].value = "Tasche"
 * #1000133 ^designation[+].language = #fr-CH
-* #1000133 ^designation[=].value = "Sac"
+* #1000133 ^designation[=].value = "sac"
 * #1000133 ^designation[+].language = #it-CH
-* #1000133 ^designation[=].value = "Borsa"
-* #1000134 "no, siren necessary"
+* #1000133 ^designation[=].value = "borsa"
+* #1000134 "No, siren necessary"
 * #1000134 ^designation[0].language = #de-CH
-* #1000134 ^designation[=].value = "nein, Sondersignal notwendig"
+* #1000134 ^designation[=].value = "Nein, Sondersignal notwendig"
 * #1000134 ^designation[+].language = #fr-CH
 * #1000134 ^designation[=].value = "non, sirène nécessaire"
 * #1000134 ^designation[+].language = #it-CH
 * #1000134 ^designation[=].value = "no, segnali prioritari necessari"
-* #1000135 "no, siren not necessary"
+* #1000135 "No, siren not necessary"
 * #1000135 ^designation[0].language = #de-CH
-* #1000135 ^designation[=].value = "nein, Sondersignal nicht notwendig"
+* #1000135 ^designation[=].value = "Nein, Sondersignal nicht notwendig"
 * #1000135 ^designation[+].language = #fr-CH
 * #1000135 ^designation[=].value = "non, sirène non nécessaire"
 * #1000135 ^designation[+].language = #it-CH
 * #1000135 ^designation[=].value = "no, segnali prioritari non necessari"
-* #1000138 "flight assistant"
+* #1000138 "Flight assistant"
 * #1000138 ^designation[0].language = #de-CH
 * #1000138 ^designation[=].value = "Rettungsspezialist Helikopter"
 * #1000138 ^designation[+].language = #fr-CH
-* #1000138 ^designation[=].value = "Assistant de vol"
+* #1000138 ^designation[=].value = "assistant de vol"
 * #1000138 ^designation[+].language = #it-CH
-* #1000138 ^designation[=].value = "Assistente di volo"
+* #1000138 ^designation[=].value = "assistente di volo"
 * #1000139 "3pol EKG"
 * #1000139 ^designation[0].language = #de-CH
 * #1000139 ^designation[=].value = "3pol EKG"
@@ -832,321 +832,321 @@ Description: "Code system containing concepts defined by IVR."
 * #1000141 ^designation[=].value = "ECG 12 dérivations"
 * #1000141 ^designation[+].language = #it-CH
 * #1000141 ^designation[=].value = "ECG 12 derivazioni"
-* #1000142 "first responder"
+* #1000142 "First responder"
 * #1000142 ^designation[0].language = #de-CH
 * #1000142 ^designation[=].value = "First responder"
 * #1000142 ^designation[+].language = #fr-CH
-* #1000142 ^designation[=].value = "First responder"
+* #1000142 ^designation[=].value = "first responder"
 * #1000142 ^designation[+].language = #it-CH
-* #1000142 ^designation[=].value = "First responder"
-* #1000143 "first-degree frostbite"
+* #1000142 ^designation[=].value = "first responder"
+* #1000143 "First-degree frostbite"
 * #1000143 ^designation[0].language = #de-CH
 * #1000143 ^designation[=].value = "Erfrierung 1. Grades"
 * #1000143 ^designation[+].language = #fr-CH
-* #1000143 ^designation[=].value = "Gelure du 1er degré"
+* #1000143 ^designation[=].value = "gelure du 1er degré"
 * #1000143 ^designation[+].language = #it-CH
-* #1000143 ^designation[=].value = "Congelamento di 1° grado"
-* #1000144 "second-degree frostbite"
+* #1000143 ^designation[=].value = "congelamento di 1° grado"
+* #1000144 "Second-degree frostbite"
 * #1000144 ^designation[0].language = #de-CH
 * #1000144 ^designation[=].value = "Erfrierung 2. Grades"
 * #1000144 ^designation[+].language = #fr-CH
-* #1000144 ^designation[=].value = "Gelure du 2e degré"
+* #1000144 ^designation[=].value = "gelure du 2e degré"
 * #1000144 ^designation[+].language = #it-CH
-* #1000144 ^designation[=].value = "Congelamento di 2° grado"
-* #1000145 "third-degree frostbite"
+* #1000144 ^designation[=].value = "congelamento di 2° grado"
+* #1000145 "Third-degree frostbite"
 * #1000145 ^designation[0].language = #de-CH
 * #1000145 ^designation[=].value = "Erfrierung 3. Grades"
 * #1000145 ^designation[+].language = #fr-CH
-* #1000145 ^designation[=].value = "Gelure du 3e degré"
+* #1000145 ^designation[=].value = "gelure du 3e degré"
 * #1000145 ^designation[+].language = #it-CH
-* #1000145 ^designation[=].value = "Congelamento di 3° grado"
-* #1000146 "fourth-degree frostbite"
+* #1000145 ^designation[=].value = "congelamento di 3° grado"
+* #1000146 "Fourth-degree frostbite"
 * #1000146 ^designation[0].language = #de-CH
 * #1000146 ^designation[=].value = "Erfrierung 4. Grades"
 * #1000146 ^designation[+].language = #fr-CH
-* #1000146 ^designation[=].value = "Gelure du 4e degré"
+* #1000146 ^designation[=].value = "gelure du 4e degré"
 * #1000146 ^designation[+].language = #it-CH
-* #1000146 ^designation[=].value = "Congelamento di 4° grado"
-* #1000147 "first-degree burn"
+* #1000146 ^designation[=].value = "congelamento di 4° grado"
+* #1000147 "First-degree burn"
 * #1000147 ^designation[0].language = #de-CH
 * #1000147 ^designation[=].value = "Verbrennung 1. Grades"
 * #1000147 ^designation[+].language = #fr-CH
-* #1000147 ^designation[=].value = "Brûlure au 1er degré"
+* #1000147 ^designation[=].value = "brûlure au 1er degré"
 * #1000147 ^designation[+].language = #it-CH
-* #1000147 ^designation[=].value = "Ustione di 1. grado"
-* #1000148 "second-degree burn"
+* #1000147 ^designation[=].value = "ustione di 1. grado"
+* #1000148 "Second-degree burn"
 * #1000148 ^designation[0].language = #de-CH
 * #1000148 ^designation[=].value = "Verbrennung 2. Grades"
 * #1000148 ^designation[+].language = #fr-CH
-* #1000148 ^designation[=].value = "Brûlure au 2ème degré"
+* #1000148 ^designation[=].value = "brûlure au 2ème degré"
 * #1000148 ^designation[+].language = #it-CH
-* #1000148 ^designation[=].value = "Ustione di 2. grado"
-* #1000149 "third-degree burn"
+* #1000148 ^designation[=].value = "ustione di 2. grado"
+* #1000149 "Third-degree burn"
 * #1000149 ^designation[0].language = #de-CH
 * #1000149 ^designation[=].value = "Verbrennung 3. Grades"
 * #1000149 ^designation[+].language = #fr-CH
-* #1000149 ^designation[=].value = "Brûlure au 3ème degré"
+* #1000149 ^designation[=].value = "brûlure au 3ème degré"
 * #1000149 ^designation[+].language = #it-CH
-* #1000149 ^designation[=].value = "Ustione di 3. grado"
-* #1000150 "on pain stimulus"
+* #1000149 ^designation[=].value = "ustione di 3. grado"
+* #1000150 "On pain stimulus"
 * #1000150 ^designation[0].language = #de-CH
-* #1000150 ^designation[=].value = "auf Schmerzreiz"
+* #1000150 ^designation[=].value = "Auf Schmerzreiz"
 * #1000150 ^designation[+].language = #fr-CH
-* #1000150 ^designation[=].value = "À la douleur"
+* #1000150 ^designation[=].value = "à la douleur"
 * #1000150 ^designation[+].language = #it-CH
-* #1000150 ^designation[=].value = "Allo stimolo doloroso"
-* #1000151 "on request"
+* #1000150 ^designation[=].value = "allo stimolo doloroso"
+* #1000151 "On request"
 * #1000151 ^designation[0].language = #de-CH
-* #1000151 ^designation[=].value = "auf Aufforderung"
+* #1000151 ^designation[=].value = "Auf Aufforderung"
 * #1000151 ^designation[+].language = #fr-CH
-* #1000151 ^designation[=].value = "À la demande"
+* #1000151 ^designation[=].value = "à la demande"
 * #1000151 ^designation[+].language = #it-CH
-* #1000151 ^designation[=].value = "Allo stimolo verbale"
-* #1000152 "spontaneous"
+* #1000151 ^designation[=].value = "allo stimolo verbale"
+* #1000152 "Spontaneous"
 * #1000152 ^designation[0].language = #de-CH
-* #1000152 ^designation[=].value = "spontan"
+* #1000152 ^designation[=].value = "Spontan"
 * #1000152 ^designation[+].language = #fr-CH
-* #1000152 ^designation[=].value = "Spontanée"
+* #1000152 ^designation[=].value = "spontanée"
 * #1000152 ^designation[+].language = #it-CH
-* #1000152 ^designation[=].value = "Spontanea"
-* #1000153 "stretching"
+* #1000152 ^designation[=].value = "spontanea"
+* #1000153 "Stretching"
 * #1000153 ^designation[0].language = #de-CH
-* #1000153 ^designation[=].value = "auf Schmerz Strecksynergismen"
+* #1000153 ^designation[=].value = "Auf Schmerz Strecksynergismen"
 * #1000153 ^designation[+].language = #fr-CH
-* #1000153 ^designation[=].value = "Extension stéréotypée"
+* #1000153 ^designation[=].value = "extension stéréotypée"
 * #1000153 ^designation[+].language = #it-CH
-* #1000153 ^designation[=].value = "Estensione delle estremità allo stimolo doloroso"
-* #1000154 "bending"
+* #1000153 ^designation[=].value = "estensione delle estremità allo stimolo doloroso"
+* #1000154 "Bending"
 * #1000154 ^designation[0].language = #de-CH
-* #1000154 ^designation[=].value = "auf Schmerz Beugesynergismen"
+* #1000154 ^designation[=].value = "Auf Schmerz Beugesynergismen"
 * #1000154 ^designation[+].language = #fr-CH
-* #1000154 ^designation[=].value = "Flexion stéréotypée"
+* #1000154 ^designation[=].value = "flexion stéréotypée"
 * #1000154 ^designation[+].language = #it-CH
-* #1000154 ^designation[=].value = "Anormale flessione allo stimolo doloroso"
-* #1000155 "undirected defense"
+* #1000154 ^designation[=].value = "anormale flessione allo stimolo doloroso"
+* #1000155 "Undirected defense"
 * #1000155 ^designation[0].language = #de-CH
-* #1000155 ^designation[=].value = "ungezielte Schmerzabwehr"
+* #1000155 ^designation[=].value = "Ungezielte Schmerzabwehr"
 * #1000155 ^designation[+].language = #fr-CH
-* #1000155 ^designation[=].value = "Evitement désorienté"
+* #1000155 ^designation[=].value = "évitement désorienté"
 * #1000155 ^designation[+].language = #it-CH
-* #1000155 ^designation[=].value = "Retrae / Flette ma non localizza il dolore"
-* #1000156 "directed defense"
+* #1000155 ^designation[=].value = "retrae / flette ma non localizza il dolore"
+* #1000156 "Directed defense"
 * #1000156 ^designation[0].language = #de-CH
-* #1000156 ^designation[=].value = "gezielte Schmerzabwehr"
+* #1000156 ^designation[=].value = "Gezielte Schmerzabwehr"
 * #1000156 ^designation[+].language = #fr-CH
-* #1000156 ^designation[=].value = "Evitement orienté"
+* #1000156 ^designation[=].value = "évitement orienté"
 * #1000156 ^designation[+].language = #it-CH
-* #1000156 ^designation[=].value = "Retrae / Flette localizza il dolore"
-* #1000157 "take orders"
+* #1000156 ^designation[=].value = "retrae / flette localizza il dolore"
+* #1000157 "Take orders"
 * #1000157 ^designation[0].language = #de-CH
-* #1000157 ^designation[=].value = "befolgt Aufforderungen"
+* #1000157 ^designation[=].value = "Befolgt Aufforderungen"
 * #1000157 ^designation[+].language = #fr-CH
-* #1000157 ^designation[=].value = "Aux ordres"
+* #1000157 ^designation[=].value = "aux ordres"
 * #1000157 ^designation[+].language = #it-CH
-* #1000157 ^designation[=].value = "Obbedisce ai comandi"
-* #1000158 "incomprehensible sounds"
+* #1000157 ^designation[=].value = "obbedisce ai comandi"
+* #1000158 "Incomprehensible sounds"
 * #1000158 ^designation[0].language = #de-CH
-* #1000158 ^designation[=].value = "unverständliche Laute"
+* #1000158 ^designation[=].value = "Unverständliche Laute"
 * #1000158 ^designation[+].language = #fr-CH
-* #1000158 ^designation[=].value = "Sons incompréhensibles"
+* #1000158 ^designation[=].value = "sons incompréhensibles"
 * #1000158 ^designation[+].language = #it-CH
-* #1000158 ^designation[=].value = "Suoni incomprensibili"
-* #1000159 "incoherent words"
+* #1000158 ^designation[=].value = "suoni incomprensibili"
+* #1000159 "Incoherent words"
 * #1000159 ^designation[0].language = #de-CH
-* #1000159 ^designation[=].value = "unzusammenhängende Worte"
+* #1000159 ^designation[=].value = "Unzusammenhängende Worte"
 * #1000159 ^designation[+].language = #fr-CH
-* #1000159 ^designation[=].value = "Inappropriée"
+* #1000159 ^designation[=].value = "inappropriée"
 * #1000159 ^designation[+].language = #it-CH
-* #1000159 ^designation[=].value = "Parla e pronuncia parole, ma incoerenti"
-* #1000160 "conversational, disoriented"
+* #1000159 ^designation[=].value = "parla e pronuncia parole, ma incoerenti"
+* #1000160 "Conversational, disoriented"
 * #1000160 ^designation[0].language = #de-CH
-* #1000160 ^designation[=].value = "konversationsfähig, desorientiert"
+* #1000160 ^designation[=].value = "Konversationsfähig, desorientiert"
 * #1000160 ^designation[+].language = #fr-CH
-* #1000160 ^designation[=].value = "Confuse"
+* #1000160 ^designation[=].value = "confuse"
 * #1000160 ^designation[+].language = #it-CH
-* #1000160 ^designation[=].value = "Confusione, frasi sconnesse"
-* #1000161 "conversational, oriented"
+* #1000160 ^designation[=].value = "confusione, frasi sconnesse"
+* #1000161 "Conversational, oriented"
 * #1000161 ^designation[0].language = #de-CH
-* #1000161 ^designation[=].value = "konversationsfähig, orientiert"
+* #1000161 ^designation[=].value = "Konversationsfähig, orientiert"
 * #1000161 ^designation[+].language = #fr-CH
-* #1000161 ^designation[=].value = "Normale"
+* #1000161 ^designation[=].value = "normale"
 * #1000161 ^designation[+].language = #it-CH
-* #1000161 ^designation[=].value = "Paziente orientato, conversazione appropriata"
+* #1000161 ^designation[=].value = "paziente orientato, conversazione appropriata"
 
-* #1000171 "arrival time emergency doctor"
+* #1000171 "Arrival time emergency doctor"
 * #1000171 ^designation[0].language = #de-CH
 * #1000171 ^designation[=].value = "Ankunftszeit Notarzt/Notärztin"
 * #1000171 ^designation[+].language = #fr-CH
-* #1000171 ^designation[=].value = "Heure d'arrivée médecin d'urgence"
+* #1000171 ^designation[=].value = "heure d'arrivée médecin d'urgence"
 * #1000171 ^designation[+].language = #it-CH
-* #1000171 ^designation[=].value = "Orario di arrivo medico d'urgenza"
-* #1000172 "pick-up time emergency doctor"
+* #1000171 ^designation[=].value = "orario di arrivo medico d'urgenza"
+* #1000172 "Pick-up time emergency doctor"
 * #1000172 ^designation[0].language = #de-CH
 * #1000172 ^designation[=].value = "Abholzeit Notarzt/Notärztin"
 * #1000172 ^designation[+].language = #fr-CH
-* #1000172 ^designation[=].value = "Heure de prise en charge médecin d'urgence"
+* #1000172 ^designation[=].value = "heure de prise en charge médecin d'urgence"
 * #1000172 ^designation[+].language = #it-CH
-* #1000172 ^designation[=].value = "Orario di prelievo medico d'urgenza"
-* #1100001 "intervention"
+* #1000172 ^designation[=].value = "orario di prelievo medico d'urgenza"
+* #1100001 "Intervention"
 * #1100001 ^designation[0].language = #de-CH
 * #1100001 ^designation[=].value = "Einsatz"
 * #1100001 ^designation[+].language = #fr-CH
-* #1100001 ^designation[=].value = "Intervention"
+* #1100001 ^designation[=].value = "intervention"
 * #1100001 ^designation[+].language = #it-CH
-* #1100001 ^designation[=].value = "Intervento"
+* #1100001 ^designation[=].value = "intervento"
 /* unused, Composition.subject and no section 
-* #1100002 "patient"
+* #1100002 "Patient"
 * #1100002 ^designation[0].language = #de-CH
 * #1100002 ^designation[=].value = "Patient"
 * #1100002 ^designation[+].language = #fr-CH
-* #1100002 ^designation[=].value = "Patient"
+* #1100002 ^designation[=].value = "patient"
 * #1100002 ^designation[+].language = #it-CH
-* #1100002 ^designation[=].value = "Paziente"
+* #1100002 ^designation[=].value = "paziente"
 */
-* #1100003 "administrative"
+* #1100003 "Administrative"
 * #1100003 ^designation[0].language = #de-CH
 * #1100003 ^designation[=].value = "Administrativ"
 * #1100003 ^designation[+].language = #fr-CH
-* #1100003 ^designation[=].value = "Administratif"
+* #1100003 ^designation[=].value = "administratif"
 * #1100003 ^designation[+].language = #it-CH
-* #1100003 ^designation[=].value = "Amministrativo"
-* #1100004 "pretreatment"
+* #1100003 ^designation[=].value = "amministrativo"
+* #1100004 "Pretreatment"
 * #1100004 ^designation[0].language = #de-CH
 * #1100004 ^designation[=].value = "Vorbehandlung"
 * #1100004 ^designation[+].language = #fr-CH
-* #1100004 ^designation[=].value = "Prétraitement"
+* #1100004 ^designation[=].value = "prétraitement"
 * #1100004 ^designation[+].language = #it-CH
-* #1100004 ^designation[=].value = "Pretrattamento"
-* #1100005 "anamnesis"
+* #1100004 ^designation[=].value = "pretrattamento"
+* #1100005 "Anamnesis"
 * #1100005 ^designation[0].language = #de-CH
 * #1100005 ^designation[=].value = "Anamnese"
 * #1100005 ^designation[+].language = #fr-CH
-* #1100005 ^designation[=].value = "Anamnèse"
+* #1100005 ^designation[=].value = "anamnèse"
 * #1100005 ^designation[+].language = #it-CH
-* #1100005 ^designation[=].value = "Anamnesi"
-* #1100006 "findings"
+* #1100005 ^designation[=].value = "anamnesi"
+* #1100006 "Findings"
 * #1100006 ^designation[0].language = #de-CH
 * #1100006 ^designation[=].value = "Befund"
 * #1100006 ^designation[+].language = #fr-CH
-* #1100006 ^designation[=].value = "Résultats"
+* #1100006 ^designation[=].value = "résultats"
 * #1100006 ^designation[+].language = #it-CH
-* #1100006 ^designation[=].value = "Risultati"
-* #1100007 "diagnosis"
+* #1100006 ^designation[=].value = "risultati"
+* #1100007 "Diagnosis"
 * #1100007 ^designation[0].language = #de-CH
 * #1100007 ^designation[=].value = "Diagnosen"
 * #1100007 ^designation[+].language = #fr-CH
-* #1100007 ^designation[=].value = "Diagnostic"
+* #1100007 ^designation[=].value = "diagnostic"
 * #1100007 ^designation[+].language = #it-CH
-* #1100007 ^designation[=].value = "Diagnosi"
-* #1100008 "measures"
+* #1100007 ^designation[=].value = "diagnosi"
+* #1100008 "Measures"
 * #1100008 ^designation[0].language = #de-CH
 * #1100008 ^designation[=].value = "Massnahmen"
 * #1100008 ^designation[+].language = #fr-CH
-* #1100008 ^designation[=].value = "Mesures"
+* #1100008 ^designation[=].value = "mesures"
 * #1100008 ^designation[+].language = #it-CH
-* #1100008 ^designation[=].value = "Misure"
-* #1100009 "death"
+* #1100008 ^designation[=].value = "misure"
+* #1100009 "Death"
 * #1100009 ^designation[0].language = #de-CH
 * #1100009 ^designation[=].value = "Todesfall"
 * #1100009 ^designation[+].language = #fr-CH
-* #1100009 ^designation[=].value = "Décès"
+* #1100009 ^designation[=].value = "décès"
 * #1100009 ^designation[+].language = #it-CH
-* #1100009 ^designation[=].value = "Decesso"
-* #1100010 "transport"
+* #1100009 ^designation[=].value = "decesso"
+* #1100010 "Transport"
 * #1100010 ^designation[0].language = #de-CH
 * #1100010 ^designation[=].value = "Transport"
 * #1100010 ^designation[+].language = #fr-CH
-* #1100010 ^designation[=].value = "Transport"
+* #1100010 ^designation[=].value = "transport"
 * #1100010 ^designation[+].language = #it-CH
-* #1100010 ^designation[=].value = "Trasporto"
-* #1100011 "handover"
+* #1100010 ^designation[=].value = "trasporto"
+* #1100011 "Handover"
 * #1100011 ^designation[0].language = #de-CH
 * #1100011 ^designation[=].value = "Übergabe"
 * #1100011 ^designation[+].language = #fr-CH
-* #1100011 ^designation[=].value = "Remise"
+* #1100011 ^designation[=].value = "remise"
 * #1100011 ^designation[+].language = #it-CH
-* #1100011 ^designation[=].value = "Consegna"
-* #A "wach, ansprechbar und orientiert"
+* #1100011 ^designation[=].value = "consegna"
+* #A "Wach, ansprechbar und orientiert"
 * #A ^designation[0].language = #de-CH
-* #A ^designation[=].value = "wach, ansprechbar und orientiert"
+* #A ^designation[=].value = "Wach, ansprechbar und orientiert"
 * #A ^designation[+].language = #fr-CH
-* #A ^designation[=].value = "Alerte, réactif et orienté"
+* #A ^designation[=].value = "alerte, réactif et orienté"
 * #A ^designation[+].language = #it-CH
-* #A ^designation[=].value = "Vigile, reattivo e orientato"
-* #I "geringfügige Störung"
+* #A ^designation[=].value = "vigile, reattivo e orientato"
+* #I "Geringfügige Störung"
 * #I ^designation[0].language = #de-CH
-* #I ^designation[=].value = "geringfügige Störung"
+* #I ^designation[=].value = "Geringfügige Störung"
 * #I ^designation[+].language = #fr-CH
-* #I ^designation[=].value = "Perturbation minime"
+* #I ^designation[=].value = "perturbation minime"
 * #I ^designation[+].language = #it-CH
-* #I ^designation[=].value = "Disturbo minimo"
-* #II "leichte bis mässig schwere Störung"
+* #I ^designation[=].value = "disturbo minimo"
+* #II "Leichte bis mässig schwere Störung"
 * #II ^designation[0].language = #de-CH
-* #II ^designation[=].value = "leichte bis mässig schwere Störung"
+* #II ^designation[=].value = "Leichte bis mässig schwere Störung"
 * #II ^designation[+].language = #fr-CH
-* #II ^designation[=].value = "Perturbation mineure à modérément grave"
+* #II ^designation[=].value = "perturbation mineure à modérément grave"
 * #II ^designation[+].language = #it-CH
-* #II ^designation[=].value = "Disturbo da lieve a moderatamente grave"
-* #III "mässige bis schwere Störung"
+* #II ^designation[=].value = "disturbo da lieve a moderatamente grave"
+* #III "Mässige bis schwere Störung"
 * #III ^designation[0].language = #de-CH
-* #III ^designation[=].value = "mässige bis schwere Störung"
+* #III ^designation[=].value = "Mässige bis schwere Störung"
 * #III ^designation[+].language = #fr-CH
-* #III ^designation[=].value = "Perturbation modérée à grave"
+* #III ^designation[=].value = "perturbation modérée à grave"
 * #III ^designation[+].language = #it-CH
-* #III ^designation[=].value = "Disturbo da moderato a grave"
-* #IV "schwere Störung, lebensbedrohlich"
+* #III ^designation[=].value = "disturbo da moderato a grave"
+* #IV "Schwere Störung, lebensbedrohlich"
 * #IV ^designation[0].language = #de-CH
-* #IV ^designation[=].value = "schwere Störung, lebensbedrohlich"
+* #IV ^designation[=].value = "Schwere Störung, lebensbedrohlich"
 * #IV ^designation[+].language = #fr-CH
-* #IV ^designation[=].value = "Perturbation grave, mettant la vie en danger"
+* #IV ^designation[=].value = "perturbation grave, mettant la vie en danger"
 * #IV ^designation[+].language = #it-CH
-* #IV ^designation[=].value = "Grave disturbo, pericolo di morte"
-* #NACA-V "akute Lebensgefahr"
+* #IV ^designation[=].value = "grave disturbo, pericolo di morte"
+* #NACA-V "Akute Lebensgefahr"
 * #NACA-V ^designation[0].language = #de-CH
-* #NACA-V ^designation[=].value = "akute Lebensgefahr"
+* #NACA-V ^designation[=].value = "Akute Lebensgefahr"
 * #NACA-V ^designation[+].language = #fr-CH
-* #NACA-V ^designation[=].value = "Danger de mort immédiat"
+* #NACA-V ^designation[=].value = "danger de mort immédiat"
 * #NACA-V ^designation[+].language = #it-CH
-* #NACA-V ^designation[=].value = "Pericolo di morte imminente"
+* #NACA-V ^designation[=].value = "pericolo di morte imminente"
 * #P "Reaktion nur auf Schmerzreiz"
 * #P ^designation[0].language = #de-CH
 * #P ^designation[=].value = "Reaktion nur auf Schmerzreiz"
 * #P ^designation[+].language = #fr-CH
-* #P ^designation[=].value = "Réaction uniquement au stimulus de la douleur"
+* #P ^designation[=].value = "réaction uniquement au stimulus de la douleur"
 * #P ^designation[+].language = #it-CH
-* #P ^designation[=].value = "Reazione solo allo stimolo del dolore"
-* #U "nicht ansprechbar, bewusstlos"
+* #P ^designation[=].value = "reazione solo allo stimolo del dolore"
+* #U "Nicht ansprechbar, bewusstlos"
 * #U ^designation[0].language = #de-CH
-* #U ^designation[=].value = "nicht ansprechbar, bewusstlos"
+* #U ^designation[=].value = "Nicht ansprechbar, bewusstlos"
 * #U ^designation[+].language = #fr-CH
-* #U ^designation[=].value = "Inconscient, sans réaction"
+* #U ^designation[=].value = "inconscient, sans réaction"
 * #U ^designation[+].language = #it-CH
-* #U ^designation[=].value = "Incosciente, senza reazione"
+* #U ^designation[=].value = "incosciente, senza reazione"
 * #V "Reaktion nur bei lauter Ansprache"
 * #V ^designation[0].language = #de-CH
 * #V ^designation[=].value = "Reaktion nur bei lauter Ansprache"
 * #V ^designation[+].language = #fr-CH
-* #V ^designation[=].value = "Réaction uniquement lorsque l'on parle fort"
+* #V ^designation[=].value = "réaction uniquement lorsque l'on parle fort"
 * #V ^designation[+].language = #it-CH
-* #V ^designation[=].value = "Reazione solo su stimolo verbale forte"
+* #V ^designation[=].value = "reazione solo su stimolo verbale forte"
 * #VI "Reanimation"
 * #VI ^designation[0].language = #de-CH
 * #VI ^designation[=].value = "Reanimation"
 * #VI ^designation[+].language = #fr-CH
-* #VI ^designation[=].value = "Réanimation"
+* #VI ^designation[=].value = "réanimation"
 * #VI ^designation[+].language = #it-CH
-* #VI ^designation[=].value = "Rianimazione"
+* #VI ^designation[=].value = "rianimazione"
 * #VII "Tod"
 * #VII ^designation[0].language = #de-CH
 * #VII ^designation[=].value = "Tod"
 * #VII ^designation[+].language = #fr-CH
-* #VII ^designation[=].value = "Mort"
+* #VII ^designation[=].value = "mort"
 * #VII ^designation[+].language = #it-CH
-* #VII ^designation[=].value = "Morte"
+* #VII ^designation[=].value = "morte"
 * #MN "Mission number"
 * #MN ^designation[0].language = #de-CH
 * #MN ^designation[=].value = "Einsatznummer"
 * #MN ^designation[+].language = #fr-CH
-* #MN ^designation[=].value = "Numéro de la mission"
+* #MN ^designation[=].value = "numéro de la mission"
 * #MN ^designation[+].language = #it-CH
-* #MN ^designation[=].value = "Numero della missione"
+* #MN ^designation[=].value = "numero della missione"

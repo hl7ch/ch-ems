@@ -15,17 +15,17 @@ Usage: #example
 // cdachems-dataelement-112 GCS-motorische Kommunikation
 * component[0].code = $loinc#9268-4 "Glasgow coma score motor"
 * component[=].valueCodeableConcept.coding.extension[itemWeight].valueDecimal = 3
-* component[=].valueCodeableConcept.coding = $IVR-CS#1000154 "bending"	
-* component[=].valueCodeableConcept.text = "auf Schmerz Beugesynergismen"
+* component[=].valueCodeableConcept.coding = $IVR-CS#1000154 "Bending"	
+* component[=].valueCodeableConcept.text = "Auf Schmerz Beugesynergismen"
 
 // cdachems-dataelement-111 GCS-verbale Kommunikation
 * component[+].code = $loinc#9270-0 "Glasgow coma score verbal"
 * component[=].valueCodeableConcept.coding.extension[itemWeight].valueDecimal = 3
-* component[=].valueCodeableConcept.coding = $IVR-CS#1000159 "incoherent words"	
-* component[=].valueCodeableConcept.text = "unzusammenhängende Worte"
+* component[=].valueCodeableConcept.coding = $IVR-CS#1000159 "Incoherent words"	
+* component[=].valueCodeableConcept.text = "Unzusammenhängende Worte"
 
 // cdachems-dataelement GCS-Augenöffnung 110
 * component[+].code = $loinc#9267-6 "Glasgow coma score eye opening"
 * component[=].valueCodeableConcept.coding.extension[itemWeight].valueDecimal = 3
-* component[=].valueCodeableConcept.coding = $IVR-CS#1000151 "on request"
-* component[=].valueCodeableConcept.text = "auf Aufforderung"
+* component[=].valueCodeableConcept.coding = $IVR-CS#1000151 "On request"
+* component[=].valueCodeableConcept.text = "Auf Aufforderung"

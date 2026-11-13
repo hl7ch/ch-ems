@@ -101,30 +101,30 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Stridor links"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Stridor à gauche"
+* compose.include[=].concept[=].designation[=].value = "stridor à gauche"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Stridore a sinistra"
+* compose.include[=].concept[=].designation[=].value = "stridore a sinistra"
 * compose.include[=].concept[+].code = #1000076
 * compose.include[=].concept[=].display = "Stridor rechts"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Stridor rechts"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Stridor à droite"
+* compose.include[=].concept[=].designation[=].value = "stridor à droite"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Stridore a destra"
+* compose.include[=].concept[=].designation[=].value = "stridore a destra"
 * compose.include[=].concept[+].code = #1000077
 * compose.include[=].concept[=].display = "Respiratory crackles left"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Rasselgeräusche links"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Râles à gauche"
+* compose.include[=].concept[=].designation[=].value = "râles à gauche"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Crepitii a sinistra"
+* compose.include[=].concept[=].designation[=].value = "crepitii a sinistra"
 * compose.include[=].concept[+].code = #1000078
 * compose.include[=].concept[=].display = "Respiratory crackles right"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Rasselgeräusche rechts"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Râles à droite"
+* compose.include[=].concept[=].designation[=].value = "râles à droite"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Crepitii a destra"
+* compose.include[=].concept[=].designation[=].value = "crepitii a destra"

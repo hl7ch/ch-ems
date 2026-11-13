@@ -3,10 +3,10 @@ InstanceOf: CHEmsEncounter
 Title: "1 Einsatz"
 Description: "Example for CH EMS Encounter - the mission with its details"
 Usage: #example
-* extension[valuablesPatient][0].valueCodeableConcept = $IVR-CS#1000127 "wallet"
+* extension[valuablesPatient][0].valueCodeableConcept = $IVR-CS#1000127 "Wallet"
 * extension[valuablesPatient][+].valueCodeableConcept = $sct#74964007 "Other"
 * extension[valuablesPatient][=].valueCodeableConcept.text = "Handy"
-* extension[valuablesPatient][+].valueCodeableConcept = $IVR-CS#1000128	"wrist watch"
+* extension[valuablesPatient][+].valueCodeableConcept = $IVR-CS#1000128	"Wrist watch"
 * extension[valuablesPatient][+].valueCodeableConcept = $sct#74964007 "Other"
 * extension[valuablesPatient][=].valueCodeableConcept.text = "Schlüssel"
 * extension[valuablesPatient][+].valueCodeableConcept = $sct#74964007 "Other"

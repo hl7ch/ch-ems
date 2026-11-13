@@ -81,50 +81,50 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "medico di famiglia"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000138
-* compose.include[=].concept[=].display = "flight assistant"
+* compose.include[=].concept[=].display = "Flight assistant"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Rettungsspezialist Helikopter"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Assistant de vol"
+* compose.include[=].concept[=].designation[=].value = "assistant de vol"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Assistente di volo"
+* compose.include[=].concept[=].designation[=].value = "assistente di volo"
 * compose.include[=].concept[+].code = #1000013
-* compose.include[=].concept[=].display = "driver"
+* compose.include[=].concept[=].display = "Driver"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Fahrer"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Chauffeur"
+* compose.include[=].concept[=].designation[=].value = "chauffeur"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Autista"
+* compose.include[=].concept[=].designation[=].value = "autista"
 * compose.include[=].concept[+].code = #1000014
-* compose.include[=].concept[=].display = "trainee"
+* compose.include[=].concept[=].display = "Trainee"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "in Ausbildung"
+* compose.include[=].concept[=].designation[=].value = "In Ausbildung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "en formation"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "In formazione"
+* compose.include[=].concept[=].designation[=].value = "in formazione"
 * compose.include[=].concept[+].code = #1000016
-* compose.include[=].concept[=].display = "attending doctor"
+* compose.include[=].concept[=].display = "Attending doctor"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "betreuender Arzt"
+* compose.include[=].concept[=].designation[=].value = "Betreuender Arzt"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Médecin responsable"
+* compose.include[=].concept[=].designation[=].value = "médecin responsable"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Medico responsabile"
+* compose.include[=].concept[=].designation[=].value = "medico responsabile"
 * compose.include[=].concept[+].code = #1000020
-* compose.include[=].concept[=].display = "apprentice"
+* compose.include[=].concept[=].display = "Apprentice"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Praktikant"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Stagiaire"
+* compose.include[=].concept[=].designation[=].value = "stagiaire"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Stagista"
+* compose.include[=].concept[=].designation[=].value = "stagista"
 * compose.include[=].concept[+].code = #1000021
-* compose.include[=].concept[=].display = "security force"
+* compose.include[=].concept[=].display = "Security force"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Sicherheitsbegleitung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Service sécurité"
+* compose.include[=].concept[=].designation[=].value = "service sécurité"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Accompagnamento protettivo"
+* compose.include[=].concept[=].designation[=].value = "accompagnamento protettivo"

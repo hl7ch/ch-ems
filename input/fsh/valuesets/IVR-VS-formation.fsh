@@ -65,18 +65,18 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "infermiere(-a) autorizzato(-a)"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000010
-* compose.include[=].concept[=].display = "paramedic-on-training"
+* compose.include[=].concept[=].display = "Paramedic-on-training"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Rettungssanitäter/in in Ausbildung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Etudiant/e Ambulancier/ère"
+* compose.include[=].concept[=].designation[=].value = "étudiant/e ambulancier/ère"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Soccorritore in formazione"
+* compose.include[=].concept[=].designation[=].value = "soccorritore in formazione"
 * compose.include[=].concept[+].code = #1000011
 * compose.include[=].concept[=].display = "Ambulanceman-on-training"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Transportsanitäter/in in Ausbildung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Technicien ambulancier en formation"
+* compose.include[=].concept[=].designation[=].value = "technicien ambulancier en formation"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Soccorritore ausiliario d'ambulanza in formazione"
+* compose.include[=].concept[=].designation[=].value = "soccorritore ausiliario d'ambulanza in formazione"
