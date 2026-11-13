@@ -73,3 +73,4 @@ Alias: $IVR-VS-offender =                   http://fhir.ch/ig/ch-ems/ValueSet/IV
 Alias: $IVR-VS-actRespiOwner =              http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-actRespiOwner
 Alias: $IVR-VS-yesNoUnknown =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-yesNoUnknown
 Alias: $IVR-VS-laterality =                 http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-laterality
+Alias: $IVR-VS-diagnosis =                  http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagnosis
