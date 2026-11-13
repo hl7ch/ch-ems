@@ -9,34 +9,34 @@ Usage: #definition
 * immutable = false
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000146
-* compose.include.concept[=].display = "fourth-degree frostbite"
+* compose.include.concept[=].display = "Fourth-degree frostbite"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Erfrierungen 4. Grades"
+* compose.include.concept[=].designation[=].value = "Erfrierung 4. Grades"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Gelures au 4ème degré"
+* compose.include.concept[=].designation[=].value = "gelure du 4e degré"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Ipotermia di 4. grado"
+* compose.include.concept[=].designation[=].value = "congelamento di 4° grado"
 * compose.include.concept[+].code = #1000145
-* compose.include.concept[=].display = "third-degree frostbite"
+* compose.include.concept[=].display = "Third-degree frostbite"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Erfrierungen 3. Grades"
+* compose.include.concept[=].designation[=].value = "Erfrierung 3. Grades"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Gelures au 3ème degré"
+* compose.include.concept[=].designation[=].value = "gelure du 3e degré"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Ipotermia di 3. grado"
+* compose.include.concept[=].designation[=].value = "congelamento di 3° grado"
 * compose.include.concept[+].code = #1000144
-* compose.include.concept[=].display = "second-degree frostbite"
+* compose.include.concept[=].display = "Second-degree frostbite"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Erfrierungen 2. Grades"
+* compose.include.concept[=].designation[=].value = "Erfrierung 2. Grades"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Gelures au 2ème degré"
+* compose.include.concept[=].designation[=].value = "gelure du 2e degré"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Ipotermia di 2. grado"
+* compose.include.concept[=].designation[=].value = "congelamento di 2° grado"
 * compose.include.concept[+].code = #1000143
-* compose.include.concept[=].display = "first-degree frostbite"
+* compose.include.concept[=].display = "First-degree frostbite"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Erfrierungen 1. Grades"
+* compose.include.concept[=].designation[=].value = "Erfrierung 1. Grades"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Gelures au 1er degré"
+* compose.include.concept[=].designation[=].value = "gelure du 1er degré"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Ipotermia di 1. grado"
+* compose.include.concept[=].designation[=].value = "congelamento di 1° grado"

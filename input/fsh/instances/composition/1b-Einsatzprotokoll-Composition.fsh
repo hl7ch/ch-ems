@@ -29,7 +29,7 @@ Usage: #example
 * custodian.reference = "Organization/1-Rettungsdienst" 
 
 * section[mission].title = "Einsatz"
-* section[mission].code = $IVR-CS#1100001 "intervention"
+* section[mission].code = $IVR-CS#1100001 "Intervention"
 * section[mission].code.text = "Einsatz"
 * section[mission].text.status = #generated
 * section[mission].text.div = 
@@ -110,7 +110,7 @@ Usage: #example
 * section[mission].entry[ambulance] = Reference(1-Rettungswagen)
 
 * section[administrative].title = "Administrativ"
-* section[administrative].code = $IVR-CS#1100003 "administrative"
+* section[administrative].code = $IVR-CS#1100003 "Administrative"
 * section[administrative].code.text = "Administrativ"
 * section[administrative].text.status = #generated
 * section[administrative].text.div = 
@@ -129,7 +129,7 @@ Usage: #example
 </div>"
 
 * section[pretreatment].title = "Vorbehandlung"
-* section[pretreatment].code = $IVR-CS#1100004 "pretreatment"
+* section[pretreatment].code = $IVR-CS#1100004 "Pretreatment"
 * section[pretreatment].code.text = "Vorbehandlung"
 * section[pretreatment].text.status = #generated
 * section[pretreatment].text.div = 
@@ -138,7 +138,7 @@ Usage: #example
 </div>"
 
 * section[anamnesis].title = "Anamnese"
-* section[anamnesis].code = $IVR-CS#1100005 "anamnesis"
+* section[anamnesis].code = $IVR-CS#1100005 "Anamnesis"
 * section[anamnesis].code.text = "Anamnese"
 * section[anamnesis].text.status = #generated
 * section[anamnesis].text.div = 
@@ -190,7 +190,7 @@ Usage: #example
 * section[anamnesis].entry[medicationStatement] = Reference(1-AspirinCardio)
 
 * section[findings].title = "Befund"
-* section[findings].code = $IVR-CS#1100006 "findings"
+* section[findings].code = $IVR-CS#1100006 "Findings"
 * section[findings].code.text = "Befund"
 * section[findings].text.status = #generated
 * section[findings].text.div = 
@@ -219,7 +219,7 @@ Usage: #example
 * section[findings].section[disability].entry[glasgowComaScale] = Reference(1-GCSBefund)
 
 * section[diagnosis].title = "Diagnosen"
-* section[diagnosis].code = $IVR-CS#1100007 "diagnosis"
+* section[diagnosis].code = $IVR-CS#1100007 "Diagnosis"
 * section[diagnosis].code.text = "Diagnosen"
 * section[diagnosis].text.status = #generated
 * section[diagnosis].text.div = 
@@ -238,7 +238,7 @@ Usage: #example
 * section[diagnosis].entry = Reference(1-Diagnose)
 
 * section[procedures].title = "Massnahmen"
-* section[procedures].code = $IVR-CS#1100008 "measures"
+* section[procedures].code = $IVR-CS#1100008 "Measures"
 * section[procedures].code.text = "Massnahmen"
 * section[procedures].text.status = #generated
 * section[procedures].text.div = 
@@ -251,7 +251,7 @@ Usage: #example
 * section[procedures].entry[medicationAdministration][+] = Reference(1-Spray)
 
 * section[eventOfDeath].title = "Todesfall"
-* section[eventOfDeath].code = $IVR-CS#1100009 "death"
+* section[eventOfDeath].code = $IVR-CS#1100009 "Death"
 * section[eventOfDeath].code.text = "Todesfall"
 * section[eventOfDeath].text.status = #generated
 * section[eventOfDeath].text.div = 
@@ -260,7 +260,7 @@ Usage: #example
 </div>"
 
 * section[transport].title = "Transport"
-* section[transport].code = $IVR-CS#1100010 "transport"
+* section[transport].code = $IVR-CS#1100010 "Transport"
 * section[transport].code.text = "Transport"
 * section[transport].text.status = #generated
 * section[transport].text.div = 
@@ -269,7 +269,7 @@ Usage: #example
 </div>"
 
 * section[handover].title = "Übergabe"
-* section[handover].code = $IVR-CS#1100011 "handover"
+* section[handover].code = $IVR-CS#1100011 "Handover"
 * section[handover].code.text = "Übergabe"
 * section[handover].text.status = #generated
 * section[handover].text.div = "

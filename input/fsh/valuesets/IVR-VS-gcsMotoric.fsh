@@ -10,49 +10,49 @@ Usage: #definition
 * compose.include[=].concept.code = #260389003
 * compose.include[=].concept.display = "No reaction"
 * compose.include[=].concept.designation[0].language = #de-CH
-* compose.include[=].concept.designation[=].value = "keine Reaktion auf Schmerzreiz"
+* compose.include[=].concept.designation[=].value = "Keine Reaktion auf Schmerzreiz"
 * compose.include[=].concept.designation[+].language = #fr-CH
-* compose.include[=].concept.designation[=].value = "Aucune réaction au stimulus douloureux"
+* compose.include[=].concept.designation[=].value = "aucune réaction au stimulus douloureux"
 * compose.include[=].concept.designation[+].language = #it-CH
-* compose.include[=].concept.designation[=].value = "Nessuna reazione a stimoli dolorosi"
+* compose.include[=].concept.designation[=].value = "nessuna reazione a stimoli dolorosi"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000153
-* compose.include[=].concept[=].display = "stretching"
+* compose.include[=].concept[=].display = "Stretching"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "auf Schmerz Strecksynergismen"
+* compose.include[=].concept[=].designation[=].value = "Auf Schmerz Strecksynergismen"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Extension stéréotypée"
+* compose.include[=].concept[=].designation[=].value = "extension stéréotypée"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Estensione delle estremità allo stimolo doloroso"
+* compose.include[=].concept[=].designation[=].value = "estensione delle estremità allo stimolo doloroso"
 * compose.include[=].concept[+].code = #1000154
-* compose.include[=].concept[=].display = "bending"
+* compose.include[=].concept[=].display = "Bending"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "auf Schmerz Beugesynergismen"
+* compose.include[=].concept[=].designation[=].value = "Auf Schmerz Beugesynergismen"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Flexion stéréotypée"
+* compose.include[=].concept[=].designation[=].value = "flexion stéréotypée"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Anormale flessione allo stimolo doloroso"
+* compose.include[=].concept[=].designation[=].value = "anormale flessione allo stimolo doloroso"
 * compose.include[=].concept[+].code = #1000155
-* compose.include[=].concept[=].display = "undirected defense"
+* compose.include[=].concept[=].display = "Undirected defense"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "ungezielte Schmerzabwehr"
+* compose.include[=].concept[=].designation[=].value = "Ungezielte Schmerzabwehr"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Evitement désorientée"
+* compose.include[=].concept[=].designation[=].value = "évitement désorienté"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Retrae / Flette ma non localizza il dolore"
+* compose.include[=].concept[=].designation[=].value = "retrae / flette ma non localizza il dolore"
 * compose.include[=].concept[+].code = #1000156
-* compose.include[=].concept[=].display = "directed defense"
+* compose.include[=].concept[=].display = "Directed defense"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "gezielte Schmerzabwehr"
+* compose.include[=].concept[=].designation[=].value = "Gezielte Schmerzabwehr"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Evitement orientée"
+* compose.include[=].concept[=].designation[=].value = "évitement orienté"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Retrae / Flette localizza il dolore"
+* compose.include[=].concept[=].designation[=].value = "retrae / flette localizza il dolore"
 * compose.include[=].concept[+].code = #1000157
-* compose.include[=].concept[=].display = "take orders"
+* compose.include[=].concept[=].display = "Take orders"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "befolgt Aufforderungen"
+* compose.include[=].concept[=].designation[=].value = "Befolgt Aufforderungen"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Aux ordres"
+* compose.include[=].concept[=].designation[=].value = "aux ordres"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Obbedisce ai comandi"
+* compose.include[=].concept[=].designation[=].value = "obbedisce ai comandi"

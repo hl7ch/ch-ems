@@ -12,38 +12,38 @@ Usage: #definition
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Intubation"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Intubation"
+* compose.include.concept[=].designation[=].value = "intubation"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Intubazione"
+* compose.include.concept[=].designation[=].value = "intubazione"
 * compose.include.concept[+].code = #230040009
 * compose.include.concept[=].display = "Airway suctioning"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Absaugen der Atemwege"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Aspiration des voies aériennes"
+* compose.include.concept[=].designation[=].value = "technique d'aspiration des voies respiratoires"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Aspirazione delle vie aeree"
+* compose.include.concept[=].designation[=].value = "aspirazione delle vie aeree"
 * compose.include.concept[+].code = #710971000
 * compose.include.concept[=].display = "Maintaining airway clearance"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Freimachen der Atemwege"
+* compose.include.concept[=].designation[=].value = "Freihalten der Atemwege"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Libération des voies aériennes"
+* compose.include.concept[=].designation[=].value = "maintien des voies respiratoires libres"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Liberazione delle vie aeree"
+* compose.include.concept[=].designation[=].value = "mantenimento della pervietà delle vie aeree"
 * compose.include.concept[+].code = #232666000
 * compose.include.concept[=].display = "Jaw thrust"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Esmarch Handgriff"
+* compose.include.concept[=].designation[=].value = "Esmarch-Handgriff"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Subluxation de la mandibule"
+* compose.include.concept[=].designation[=].value = "subluxation de la mâchoire"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Sublussazione della mandibola"
+* compose.include.concept[=].designation[=].value = "sublussazione della mandibola"
 * compose.include.concept[+].code = #706177004
 * compose.include.concept[=].display = "Inhalation therapy device"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Inhalationsset"
+* compose.include.concept[=].designation[=].value = "Inhalationsgerät"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Kit de nébulisation"
+* compose.include.concept[=].designation[=].value = "dispositif d'inhalation"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Set per l'inalazione"
+* compose.include.concept[=].designation[=].value = "dispositivo per inalazione"
