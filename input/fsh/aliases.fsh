@@ -23,6 +23,7 @@ Alias: $imposeProfile =                     http://hl7.org/fhir/StructureDefinit
 
 // CH EMS terminology
 Alias: $IVR-CS =                            http://fhir.ch/ig/ch-ems/CodeSystem/IVR
+Alias: $IVR-CS-sct-supplement = http://fhir.ch/ig/ch-ems/CodeSystem/IVR-sct-supplement
 Alias: $IVR-VS-findingsAirway =             http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-findingsAirway
 Alias: $IVR-VS-event =                      http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-event
 Alias: $IVR-VS-vigilanzAvpu =               http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-vigilanzAvpu
