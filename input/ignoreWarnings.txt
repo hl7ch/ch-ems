@@ -62,3 +62,12 @@ The extension http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding|%
 # this generated page cannot be overridden. Suppressed by message id (suppresses the
 # broken-link class globally). See https://github.com/hl7ch/ch-ems/issues/42
 HTML_LINK_CHECK_FAILED
+
+# Known errors that cannot be suppressed here (4 errors on ImplementationGuide/ch.fhir.ig.ch-ems):
+# "The System URI could not be determined for the code 'path-image-source' in the ValueSet
+# 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0'" and "The value provided ('path-image-source') was not
+# found in the value set 'ig-parameters Codes ValueSet'".
+# The base template (fhir2.base.template) sets the IG parameter path-image-source since 2026-11-26, see
+# https://github.com/HL7/ig-template-base2/pull/58, but the tools IG 1.3.0 does not define the code yet. To be
+# ignored until a newer version of the tools IG is released, as confirmed by Grahame Grieve:
+# https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/IG.20publisher.203.2E0.2E7.3A.20new.20build.20error/with/644056903
