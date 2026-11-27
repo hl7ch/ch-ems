@@ -1190,27 +1190,6 @@ Description: "Code system containing concepts defined by IVR."
 * #1000228 ^designation[=].value = "bassin / hanche"
 * #1000228 ^designation[+].language = #it-CH
 * #1000228 ^designation[=].value = "bacino / anca"
-* #1000229 "Foot or toe"
-* #1000229 ^designation[0].language = #de-CH
-* #1000229 ^designation[=].value = "Fuss / Zehe"
-* #1000229 ^designation[+].language = #fr-CH
-* #1000229 ^designation[=].value = "pied / orteil"
-* #1000229 ^designation[+].language = #it-CH
-* #1000229 ^designation[=].value = "piede / dito del piede"
-* #1000230 "Hand or finger"
-* #1000230 ^designation[0].language = #de-CH
-* #1000230 ^designation[=].value = "Hand / Finger"
-* #1000230 ^designation[+].language = #fr-CH
-* #1000230 ^designation[=].value = "main / doigt"
-* #1000230 ^designation[+].language = #it-CH
-* #1000230 ^designation[=].value = "mano / dito"
-* #1000231 "Mouth or throat"
-* #1000231 ^designation[0].language = #de-CH
-* #1000231 ^designation[=].value = "Mund / Rachen"
-* #1000231 ^designation[+].language = #fr-CH
-* #1000231 ^designation[=].value = "bouche / gorge"
-* #1000231 ^designation[+].language = #it-CH
-* #1000231 ^designation[=].value = "bocca / faringe"
 * #1000232 "Back or spine"
 * #1000232 ^designation[0].language = #de-CH
 * #1000232 ^designation[=].value = "Rücken / Wirbelsäule"

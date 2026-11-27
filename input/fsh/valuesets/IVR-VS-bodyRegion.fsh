@@ -39,6 +39,14 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "coude"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "gomito"
+* compose.include[=].concept[+].code = #56459004
+* compose.include[=].concept[=].display = "Foot structure"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Fuss / Zehe"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "pied"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "piede / dito del piede"
 * compose.include[=].concept[+].code = #71934003
 * compose.include[=].concept[=].display = "Genital structure"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -55,6 +63,14 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "cou"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "collo / nuca"
+* compose.include[=].concept[+].code = #85562004
+* compose.include[=].concept[=].display = "Hand structure"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Hand / Finger"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "main"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "mano / dito"
 * compose.include[=].concept[+].code = #8205005
 * compose.include[=].concept[=].display = "Wrist region structure"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -87,6 +103,14 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "cheville"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "caviglia"
+* compose.include[=].concept[+].code = #312533001
+* compose.include[=].concept[=].display = "Structure of mouth and/or pharynx"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Mund / Rachen"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "bouche / gorge"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "bocca / faringe"
 * compose.include[=].concept[+].code = #45206002
 * compose.include[=].concept[=].display = "Nasal structure"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -176,30 +200,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "bassin / hanche"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "bacino / anca"
-* compose.include[=].concept[+].code = #1000229
-* compose.include[=].concept[=].display = "Foot or toe"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Fuss / Zehe"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "pied / orteil"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "piede / dito del piede"
-* compose.include[=].concept[+].code = #1000230
-* compose.include[=].concept[=].display = "Hand or finger"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Hand / Finger"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "main / doigt"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "mano / dito"
-* compose.include[=].concept[+].code = #1000231
-* compose.include[=].concept[=].display = "Mouth or throat"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Mund / Rachen"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "bouche / gorge"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "bocca / faringe"
 * compose.include[=].concept[+].code = #1000232
 * compose.include[=].concept[=].display = "Back or spine"
 * compose.include[=].concept[=].designation[0].language = #de-CH
