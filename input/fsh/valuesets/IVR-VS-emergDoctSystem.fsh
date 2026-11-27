@@ -10,25 +10,7 @@ Usage: #definition
 * compose.include.system = $IVR-CS
 * compose.include.concept[0].code = #1000004
 * compose.include.concept[=].display = "Residential EMS"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Stationärer Rettungsdienst"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "service de sauvetage fixe"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "servizio di salvataggio ospedaliero"
 * compose.include.concept[+].code = #1000005
 * compose.include.concept[=].display = "Pickup by EMS"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Abholung durch Rettungsdienst"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "prise en charge par le service de sauvetage"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "trasporto con servizio di salvataggio"
 * compose.include.concept[+].code = #1000006
 * compose.include.concept[=].display = "Rendezvous"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Rendezvous"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "rendez-vous"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "rendez-vous"

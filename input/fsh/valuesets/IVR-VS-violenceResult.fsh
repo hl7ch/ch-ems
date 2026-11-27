@@ -6,53 +6,19 @@ Usage: #definition
 * status = #draft
 * experimental = false
 * description = "List of the consequences of violence against emergency service personnel."
+* extension[0].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"
+* extension[=].valueCanonical = $IVR-CS-sct-supplement
 * compose.include[0].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #260413007
 * compose.include[=].concept[=].display = "None"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Kein"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "aucun"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "nessuno"
 * compose.include[=].concept[+].code = #52684005
 * compose.include[=].concept[=].display = "Assault"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Körperverletzung"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "agression"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "aggressione"
 * compose.include[=].concept[+].code = #74964007
 * compose.include[=].concept[=].display = "Other"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Andere"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "autre"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "altro"
 * compose.include[+].system = $IVR-CS
 * compose.include[=].concept[0].code = #1000094
 * compose.include[=].concept[=].display = "Obstruction of mission"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Behinderung des Einsatzes"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "obstacle au bon déroulement de la mission"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "ostacolo al buon svolgimento della missione"
 * compose.include[=].concept[+].code = #1000093
 * compose.include[=].concept[=].display = "Violation of personal integrity"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Verletzung der persönlichen Integrität"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "atteinte à l'intégrité de la personne"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "violazione dell'integrità personale"
 * compose.include[=].concept[+].code = #1000092
 * compose.include[=].concept[=].display = "Property damage"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Sachschaden"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "dommages à la propriété"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "danni alla proprietà"

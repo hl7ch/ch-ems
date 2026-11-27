@@ -6,12 +6,8 @@ Usage: #definition
 * status = #draft
 * experimental = false
 * description = "List of types of artificial respiration."
+* extension[0].url = "http://hl7.org/fhir/StructureDefinition/valueset-supplement"
+* extension[=].valueCanonical = $IVR-CS-sct-supplement
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept.code = #707765006
 * compose.include.concept.display = "On ventilator"
-* compose.include.concept.designation[0].language = #de-CH
-* compose.include.concept.designation[=].value = "Beatmet"
-* compose.include.concept.designation[+].language = #fr-CH
-* compose.include.concept.designation[=].value = "ventilé"
-* compose.include.concept.designation[+].language = #it-CH
-* compose.include.concept.designation[=].value = "ventilato"
