@@ -26,6 +26,12 @@ Usage: #definition
 * group[=].element[+].code = #EMSProtocol.diagnosis.author
 * group[=].element[=].target.code = #Observation.performer
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.diagnosis.ivrDiagnosis
+* group[=].element[=].target.code = #Observation.value[x]
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.diagnosis.bodyRegion
+* group[=].element[=].target.code = #Observation.bodySite
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.diagnosis.icd10
 * group[=].element[=].target.code = #Observation.value[x].coding:icd10
 * group[=].element[=].target.equivalence = #equivalent

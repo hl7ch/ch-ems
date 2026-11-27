@@ -4,6 +4,12 @@
 A definition for CodeSystem 'http://fhir.de/CodeSystem/dimdi/icd-10-gm' could not be found, so the code cannot be validated
 A definition for CodeSystem 'urn:oid:2.51.1.1' could not be found, so the code cannot be validated
 
+# ICD-10-GM in CH EMS Observation: Diagnosis: the diagnosis is bound to IVR-VS-diagnosis, which is validated on
+# tx.fhir.ch (SNOMED CT Swiss Edition, IVR codes). ICD-10-GM is not available there (it is on tx.fhir.de), so the
+# parallel ICD-10 coding is not checked, see https://github.com/hl7ch/ch-ems/issues/75
+A definition for CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' could not be found, so the code cannot be validated
+A definition for the code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' could not be found, so this coding was not checked. The CodeableConcept is still valid: another coding is in the value set
+
 # Reference to draft CodeSystem
 Reference to draft CodeSystem%
 

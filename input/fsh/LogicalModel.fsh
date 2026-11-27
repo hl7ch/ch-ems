@@ -296,6 +296,12 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * diagnosis.author.formation 0..* CodeableConcept "Education"
 * diagnosis.author.formation from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-formation (extensible)
 * diagnosis.author.formation ^binding.description = "Education"
+* diagnosis.ivrDiagnosis 0..1 CodeableConcept "Diagnosis according to the IVR diagnosis list"
+* diagnosis.ivrDiagnosis from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-diagnosis (extensible)
+* diagnosis.ivrDiagnosis ^binding.description = "IVR diagnosis"
+* diagnosis.bodyRegion 0..1 CodeableConcept "Body region of the injury"
+* diagnosis.bodyRegion from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-bodyRegion (extensible)
+* diagnosis.bodyRegion ^binding.description = "Body region"
 * diagnosis.icd10 0..1 CodeableConcept "ICD-10 code"
 
 * procedures 0..1 BackboneElement "Procedures"
