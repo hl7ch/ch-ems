@@ -53,7 +53,7 @@ Usage: #definition
 * group[=].element[+].code = #EMSProtocol.mission.urgency
 * group[=].element[=].target.code = #Encounter.priority
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #EMSProtocol.mission.urgency.adequacy
+* group[=].element[+].code = #EMSProtocol.mission.urgencyAdequacy
 * group[=].element[=].target.code = #Encounter.priority.extension:urgencyAdequate
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.mission.requestingOrganisation

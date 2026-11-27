@@ -14,3 +14,4 @@ Usage: #example
 * performer.reference = "Practitioner/1-SaniPetraMuster"
 
 * valueCodeableConcept.coding[icd10] = $icd-10-gm#I63 "Hirninfarkt"
+* valueCodeableConcept.coding[1] = $sct#230690007 "Cerebrovascular accident"

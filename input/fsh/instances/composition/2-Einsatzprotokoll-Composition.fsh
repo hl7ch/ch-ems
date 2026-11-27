@@ -1,6 +1,6 @@
 Instance: 2-Einsatzprotokoll-Composition
 InstanceOf: CHEmsComposition
-Title: "2 Einsatzprotokoll"
+Title: "2 Einsatzprotokoll Composition"
 Description: "Example for CH EMS Composition"
 Usage: #example
 * language = #de-CH

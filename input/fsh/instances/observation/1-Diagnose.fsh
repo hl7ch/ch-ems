@@ -14,3 +14,4 @@ Usage: #example
 * performer.reference = "Practitioner/1-NotarztPierreUrgentiste"
 
 * valueCodeableConcept.coding[icd10] = $icd-10-gm#I21.0 "Akuter transmuraler Myokardinfarkt der Vorderwand"
+* valueCodeableConcept.coding[1] = $sct#401303003 "Acute ST segment elevation myocardial infarction"
