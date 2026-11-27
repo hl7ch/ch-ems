@@ -1,7 +1,7 @@
 Instance: DiagnoseFraktur
 InstanceOf: CHEmsObservationDiagnosis
 Title: "Diagnose Fraktur"
-Description: "Example for CH EMS Observation: Diagnosis - closed fracture of the forearm as working diagnosis, with the body region of the injury"
+Description: "Example for CH EMS Observation: Diagnosis - closed fracture of the left forearm as working diagnosis, with the body region and the side of the injury"
 Usage: #example
 * status = #final
 * code = $sct#5558000 "Working diagnosis"
@@ -14,6 +14,7 @@ Usage: #example
 * valueCodeableConcept = $IVR-CS#1000239 "Closed fracture"
 * valueCodeableConcept.text = "Fraktur geschlossen"
 
-// Body region of the injury
+// Body region and side of the injury
 * bodySite = $sct#14975008 "Forearm structure"
-* bodySite.text = "Unterarm"
+* bodySite.text = "Unterarm links"
+* bodySite.extension[laterality].valueCodeableConcept = $sct#7771000 "Left (qualifier value)"

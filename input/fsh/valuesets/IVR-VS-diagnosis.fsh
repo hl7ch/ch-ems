@@ -119,14 +119,14 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "œdème pulmonaire"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "edema polmonare"
-* compose.include[=].concept[+].code = #401314000
-* compose.include[=].concept[=].display = "Acute non-ST segment elevation myocardial infarction"
+* compose.include[=].concept[+].code = #394659003
+* compose.include[=].concept[=].display = "Acute coronary syndrome"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Akuter Nicht-ST-Hebungsinfarkt"
+* compose.include[=].concept[=].designation[=].value = "Akutes Koronarsyndrom"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "infarctus aigu du myocarde sans élévation du segment ST"
+* compose.include[=].concept[=].designation[=].value = "syndrome coronarien aigu"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "infarto miocardico acuto senza sopraslivellamento del segmento ST"
+* compose.include[=].concept[=].designation[=].value = "sindrome coronarica acuta"
 * compose.include[=].concept[+].code = #401303003
 * compose.include[=].concept[=].display = "Acute ST segment elevation myocardial infarction"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -223,14 +223,14 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "choc obstructif"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "shock ostruttivo"
-* compose.include[=].concept[+].code = #261195002
-* compose.include[=].concept[=].display = "Circulatory arrest"
+* compose.include[=].concept[+].code = #410429000
+* compose.include[=].concept[=].display = "Cardiac arrest"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Herz-Kreislauf-Stillstand"
+* compose.include[=].concept[=].designation[=].value = "Herzstillstand"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "arrêt circulatoire"
+* compose.include[=].concept[=].designation[=].value = "arrêt cardiaque"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "arresto cardiocircolatorio"
+* compose.include[=].concept[=].designation[=].value = "arresto cardiaco"
 * compose.include[=].concept[+].code = #59282003
 * compose.include[=].concept[=].display = "Pulmonary embolism"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -375,14 +375,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "croup"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "croup"
-* compose.include[=].concept[+].code = #202794004
-* compose.include[=].concept[=].display = "Lumbago with sciatica"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Lumboischialgie"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "lumbago avec sciatalgie"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "lombalgia con sciatica"
 * compose.include[=].concept[+].code = #161891005
 * compose.include[=].concept[=].display = "Backache"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -519,14 +511,14 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "déficit neurologique"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "deficit neurologici"
-* compose.include[=].concept[+].code = #40917007
-* compose.include[=].concept[=].display = "Clouded consciousness"
+* compose.include[=].concept[+].code = #286933003
+* compose.include[=].concept[=].display = "Confusional state"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Verwirrtheit"
+* compose.include[=].concept[=].designation[=].value = "Verwirrtheitszustand"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "confusion"
+* compose.include[=].concept[=].designation[=].value = "état confusionnel"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "coscienza offuscata"
+* compose.include[=].concept[=].designation[=].value = "stato confusionale"
 * compose.include[=].concept[+].code = #230690007
 * compose.include[=].concept[=].display = "Cerebrovascular accident"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -567,12 +559,12 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "accouchement normal"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "parto normale"
-* compose.include[=].concept[+].code = #399153001
-* compose.include[=].concept[=].display = "Vertigo"
+* compose.include[=].concept[+].code = #404640003
+* compose.include[=].concept[=].display = "Dizziness"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Schwindel"
+* compose.include[=].concept[=].designation[=].value = "Schwindelgefühl"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "vertige"
+* compose.include[=].concept[=].designation[=].value = "état vertigineux"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "vertigini"
 * compose.include[=].concept[+].code = #419620001
@@ -583,22 +575,22 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "décès"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "decesso"
-* compose.include[=].concept[+].code = #257549005
-* compose.include[=].concept[=].display = "Chemical injury"
+* compose.include[=].concept[+].code = #371704001
+* compose.include[=].concept[=].display = "Injury due to chemical exposure"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Chemische Verletzung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "lésion chimique"
+* compose.include[=].concept[=].designation[=].value = "lésion traumatique due à une exposition chimique"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "lesione chimica"
-* compose.include[=].concept[+].code = #40947009
-* compose.include[=].concept[=].display = "Drowning"
+* compose.include[=].concept[+].code = #87970004
+* compose.include[=].concept[=].display = "Nonfatal submersion"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Tod durch Ertrinken"
+* compose.include[=].concept[=].designation[=].value = "Beinahe-Ertrinken"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "noyade"
+* compose.include[=].concept[=].designation[=].value = "submersion non fatale"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "annegamento"
+* compose.include[=].concept[=].designation[=].value = "sommersione non mortale"
 * compose.include[=].concept[+].code = #213389000
 * compose.include[=].concept[=].display = "Severe multiple injuries"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -992,3 +984,11 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "plaie par balle / par arme blanche"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "ferita da arma da fuoco / da arma bianca"
+* compose.include[=].concept[+].code = #1000242
+* compose.include[=].concept[=].display = "Lumbago or sciatica"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Lumbago / Ischialgie"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "lumbago / sciatique"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "lombalgia / sciatalgia"

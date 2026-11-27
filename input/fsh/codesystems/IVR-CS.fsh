@@ -1260,6 +1260,13 @@ Description: "Code system containing concepts defined by IVR."
 * #1000241 ^designation[=].value = "plaie par balle / par arme blanche"
 * #1000241 ^designation[+].language = #it-CH
 * #1000241 ^designation[=].value = "ferita da arma da fuoco / da arma bianca"
+* #1000242 "Lumbago or sciatica"
+* #1000242 ^designation[0].language = #de-CH
+* #1000242 ^designation[=].value = "Lumbago / Ischialgie"
+* #1000242 ^designation[+].language = #fr-CH
+* #1000242 ^designation[=].value = "lumbago / sciatique"
+* #1000242 ^designation[+].language = #it-CH
+* #1000242 ^designation[=].value = "lombalgia / sciatalgia"
 * #1100001 "Intervention"
 * #1100001 ^designation[0].language = #de-CH
 * #1100001 ^designation[=].value = "Einsatz"

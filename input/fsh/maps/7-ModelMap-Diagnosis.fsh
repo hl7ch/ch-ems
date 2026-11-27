@@ -32,6 +32,9 @@ Usage: #definition
 * group[=].element[+].code = #EMSProtocol.diagnosis.bodyRegion
 * group[=].element[=].target.code = #Observation.bodySite
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #EMSProtocol.diagnosis.laterality
+* group[=].element[=].target.code = #Observation.bodySite.extension:laterality
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #EMSProtocol.diagnosis.icd10
 * group[=].element[=].target.code = #Observation.value[x].coding:icd10
 * group[=].element[=].target.equivalence = #equivalent

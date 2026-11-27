@@ -308,6 +308,9 @@ Description: "The logical model represents the Emergency Medical Service protoco
 * diagnosis.bodyRegion 0..1 CodeableConcept "Body region of the injury"
 * diagnosis.bodyRegion from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-bodyRegion (extensible)
 * diagnosis.bodyRegion ^binding.description = "Body region"
+* diagnosis.laterality 0..1 CodeableConcept "Side of the body region of the injury"
+* diagnosis.laterality from http://fhir.ch/ig/ch-ems/ValueSet/IVR-VS-laterality (extensible)
+* diagnosis.laterality ^binding.description = "Affected side"
 * diagnosis.icd10 0..1 CodeableConcept "ICD-10 code"
 
 * procedures 0..1 BackboneElement "Procedures"
