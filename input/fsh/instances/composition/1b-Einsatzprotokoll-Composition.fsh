@@ -48,6 +48,10 @@ Usage: #example
                 <td>S12345678</td>
             </tr>
             <tr>
+                <td>Dispositionsnummer: </td>
+                <td>D12345678</td>
+            </tr>
+            <tr>
                 <td>Aufbietende Organisation:</td>
                 <td>SNZ (GLN 7601002156370)</td>
             </tr>

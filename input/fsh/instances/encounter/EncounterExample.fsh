@@ -3,11 +3,22 @@ InstanceOf: CHEmsEncounter
 Title: "Example Encounter"
 Description: "Example for CH EMS Encounter - the mission (primary mission) with its details (e.g. pick-up emergency doctor, with siren (but not adequate/necessary), valuables patient, violence)"
 Usage: #example
-// cdachems-dataelement-55 Einsatznummer (OID vom SNZ)
+// Dispositionsnummer: the mission number of the SNZ (cdachems-dataelement-55)
 * identifier[missionNumber].type = $IVR-CS#MN "Mission number"
-* identifier[missionNumber].type.text = "Einsatznummer"
+* identifier[missionNumber].type.text = "Dispositionsnummer"
 * identifier[missionNumber].system = "http://example.com"
-* identifier[missionNumber].value = "S89898989"
+* identifier[missionNumber].value = "D89898989"
+* identifier[missionNumber].assigner.identifier.system = "urn:oid:2.51.1.3"
+* identifier[missionNumber].assigner.identifier.value = "7601002156370"
+* identifier[missionNumber].assigner.display = "SNZ"
+// Einsatznummer: the incident number of the SNZ (issue #56); all missions of this incident (e.g. if
+// more patients are found or more ambulances are sent) carry the same incident number
+* identifier[incidentNumber].type = $IVR-CS#IN "Incident number"
+* identifier[incidentNumber].type.text = "Einsatznummer"
+* identifier[incidentNumber].value = "S89898989"
+* identifier[incidentNumber].assigner.identifier.system = "urn:oid:2.51.1.3"
+* identifier[incidentNumber].assigner.identifier.value = "7601002156370"
+* identifier[incidentNumber].assigner.display = "SNZ"
 * status = #finished
 * class = $v3-ActCode#EMER "emergency"
 * subject.reference = "Patient/PatientExample"
